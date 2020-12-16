@@ -1,0 +1,135 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Reg. Lat. 1128</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatikan</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection/>
+                        <idno>Reg. Lat. 1128</idno>
+                        <altIdentifier source="Colbert">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Faure">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Regius">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Dupuy">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rigault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Hurault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Jean de Gagny">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Mostert">
+                            <idno>1478</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6765</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Rechtstexte">
+                            <author/>
+                            <title>Codex Theodosianus</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="271">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="35.3"/>
+                                        <width n="24.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="28.0"/>
+                                        <width n="18.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition>Text gut erhalten, Bindung brüchig</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="35"/>
+                                <layout><p>Rote Überschriten</p>
+                                <p> Rote Initialen</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p>verschiedene  Hände</p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p>schlanke karolingische Minuskel</p>
+                            <p></p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p n="Korrekturen">einige wenige Korrekturen</p>
+                            <p n="Exlibris"><locus n=""/>Alexander Pauli filius Petauies Parisenses anno 1647</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium" source="Bischoff">Westrankrenreich (z.T. Tours?)</origPlace></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                            <p>Schrift wirkt nicht besonders turonisch</p>
+                        </origin>
+                        <provenance type="Provenance"></provenance>
+                        <provenance>Wie das Exlibris belegt, war die Handschrift 1647 im Besitz von <name type="person">Alexandre Pauli</name>, dem Sohn von Petau.</provenance>
+                        <acquisition><name type="Repository">Vatlib</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/MSS_Reg.lat.1128</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.1128</idno></bibl>
+                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="278"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="438"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
+

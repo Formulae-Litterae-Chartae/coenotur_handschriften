@@ -1,0 +1,139 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Reg. Lat. 586</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatican</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection/>
+                        <idno>Reg. Lat. 586</idno>
+                        <altIdentifier source="Colbert">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Faure">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Regius">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Dupuy">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rigault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Hurault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Jean de Gagny">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>134</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6708</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6709</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6710</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem defective="true" class="Heiligenviten Martinellus">
+                            <author/>
+                            <title>Martinellus</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="15">nur Teil C stammt aus Tours
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="23.2"/>
+                                        <width n="17.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="15.2"/>
+                                        <width n="11.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition>Der aus Tours stammende Teil C mit Martinellus ist nicht vollständig. Er enthält nur die späteren Teile eines Martinellus.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="24 25">24, 25</layout>
+                                <layout><p>Rote Titel und rote Initialen</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p source="Rand"></p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p source="Rand">Karolingische Minuskel</p>
+                            <p source="Rand">keine Halbunziale</p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Marginalia: </p>
+                            <p n="Exlibris"><locus n=""/></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0825" notAfter="0875"/>Mitte 9. Jhd.</p>
+                            <p></p>
+                        </origin>
+                        <provenance type="Provenance"><name></name></provenance>
+                        <provenance source="Mostert">Bei der heutigen Handschrift handelt es sich um eine zusammengesetzte Handschrift aus mehreren Teilen. Ein Großteil der Fragmente scheint aus <name type="Gemeinschaft">Fleury</name> zu stammen und wohl auch dort entstanden zu sein.</provenance>
+                        <acquisition><name type="Repository">Vatlib</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/bav_reg_lat_586</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.586</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="163"/></bibl>
+                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="271"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="431"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

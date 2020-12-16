@@ -1,0 +1,107 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Vat. Lat. 43</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italien</country>
+                        <settlement>Vatikan</settlement>
+                        <repository>Vatlib</repository>
+                        <collection></collection>
+                        <idno>Pal. Lat. 153</idno>
+                        <altIdentifier source="Rand">
+                            <idno>37</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6458</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Theologie Exegese">
+                            <author>Johannes Chrysostomos</author>
+                            <title>Commentarium in Epistolam ad Hebraeos</title>
+                            <textLang mainLang="la"></textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="139">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="28.5"></height>
+                                        <width n="22.5"></width>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="22.0"></height>
+                                        <width n="16.5"></width>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"></layout>
+                                <layout writtenLines="27 35">35 (27, 30)</layout>
+                                <layout source="Rand">Rote und rot-schwarze Titel</layout>
+                                <layout source="Rand">Einfache rot-schwarze Initialen</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">Mindestens 12 Hände</handNote>
+                            <handNote scribe="Fredegaudus" source="Rand">Hand B könnte Fredegaudus sein</handNote>
+                            <handNote scribe="Theodegrimus" source="Rand"> Die Hände F und H könnten von Theodegrimus sein</handNote>
+                            <handNote scribe="Theogrmnus" source="Rand"> Die Hand C könnte Theogrimnus sein</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <p></p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <p></p>
+                        </decoDesc>
+                        <additions>
+                            <p n="Korrekturen">zahlreiche Korrekturen von mindestens 2 Händen am Rand</p>
+                            <p n="Ergänzung">sehr viele Glossen, Nota-ZEichen und Maniculae</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote type="Roman">Römischer Einband zwischen 1878 und 1889</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p>Tours, wohl St-Martin</p>
+                            <p source="Kautz"><origPlace cert="unknown">Frankreich (?)</origPlace></p>
+                            <p source="Bischoff"><origPlace cert="medium">Tours</origPlace></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                            <p>Die Ähnlichkeit mit dem vatikanischen Livius lässt eine Entstehung zu Beginn des 9. Jhds. in St-Martin naheliegend erscheinen. </p>
+                        </origin>
+                        <provenance type="Provenance"></provenance>
+                        <provenance source="Fugger Katalog von 1555"> Circa <date>1550</date> om lorentiner Giovani Manetti über Martin Gestmann an de Fugger verkaut</provenance>
+                        <acquisition source="Kautz">Nach dem Tod Fuggers <date>1584</date> in den Besitz der Heidelberger Kürfürsten übergegangen</acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://doi.org/10.11588/diglit.4436#0001</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_153</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="112 113"></biblScope></bibl>
+                            <bibl><idno>Kautz 2016</idno><biblScope unit="pp" n=""></biblScope></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="407"></biblScope></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body><div type="edition"></div></body></text>
+</TEI>

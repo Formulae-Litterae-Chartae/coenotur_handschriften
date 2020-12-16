@@ -1,0 +1,129 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 7502</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 7502</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>?</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>68</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4454</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Grammatik">
+                     <author/>
+                     <title>Varia Grammatica</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="154">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="35.2"/>
+                              <width n="27.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="28.8"/>
+                              <width n="17.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="37 54">I: 37 (35, 36, 38); II: 54 (53, 55,
+                           57)</layout>
+                        <layout><p>Rote und schwarze Titel; rote und schwarze
+                           Initialen.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">Fünf oder mehr Hände.</p>
+                     <p>Eine Hand, die die Hand des Leiters des Skriptoriums sein könnte, ähnelt
+                        derjenigen von Paris, BnF, Latin 250.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Karolingische Minuskel.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Nachträge und Benutzungsspuren: Korrekturen, z. T. durch dieselben
+                        Schreiber.</p>
+                     <p>Marginalia: Glossen, darunter einige in Tironischen Noten. Glossen, wobei
+                        Teile durch eine Beschneidung in Zuge der Neubindung im 17. Jhd. verloren
+                        gegangen sind.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote type="Colbert">Colberteinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="low"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Hellmann" cert="low">Schriftheimat Tours</origPlace></p>
+                     <p><origPlace source="Cinato" cert="medium"
+                        ><name>St-Martin</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
+                           >1. Hälfte 9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0820">Unter
+                           Alkuin oder wenig später.</origDate></p>
+                     <p source="Cinato">Eine Entstehung in St-Martin unter Fridigisus erscheint sehr
+                        wahrscheinlich, zeitgenössisch mit Paris, BnF, Latin 250. Die Zuordnung der
+                        Handschrift durch Bischoff zu denjenigen, die fälschlicherweise als aus
+                        Tours stammend angesehen werden, wird heute nicht mehr aufrechterhalten.</p>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance>Wenig ist über die Geschichte bekannt. Nach der Produktion in <name
+                        type="Kloster">St-Martin</name> ist die Handschrift vielleicht in privaten
+                     Besitz übergegangen und erscheint erst wieder im 17. Jhd. im Besitz von <name
+                        type="Person">Colbert</name>, von wo sie 1732 in die königliche Bibliothek
+                     übergeht.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84790105</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc13514p</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="130"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="135"/></bibl>
+                     <bibl><idno>martinellus.de</idno></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

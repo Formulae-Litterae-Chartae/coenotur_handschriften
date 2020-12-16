@@ -1,0 +1,134 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 68</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 68</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>61</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>3543</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>50</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>14</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3957</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                     <msItem>
+                        <author/>
+                        <title/>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="159">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="51.2"/>
+                              <width n="39.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="37.2"/>
+                              <width n="12.4"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Einband und erste Folien stark beschädigt, z.T. in Fetzen. Untere
+                           Ecke überall angegriffen.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="50"/>
+                        <layout><p>Rote und schwarze Titel.</p>
+                           <p>Einfache Initialen, die nur mit rot eingefärbt sind.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">Ein Dutzend Hände.</p>
+                     <p source="Rand">Hand B hat 8 von 22 Lagen und ist nahe an der Hand von
+                        Amalricus von Monza G. 1. Wenn Amalricus der Schreiber ist, dann ist Paris
+                        BnF Latin 68 älter als die Bibel aus Monza, da sie noch zahlreiche kursive
+                        Elemente enthält.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Karolingische Minuskel.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n="23r"/> Eine rote Schmuckinitiale: innen roter Füllstrich, außen
+                        rote Punkte. </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Einzelne Glossen bzw. hauptsächlich Korrekturen.</p>
+                     <p><locus n="108r"/>Eine Randnotiz, die mit einem NT-Zeichen beginnt.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote type="Colbert">Colberteinband.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="low" source="Rand">Vielleicht Marmoutier.</origPlace></p>
+                     <p><origPlace cert="low" source="Bischoff">Tours.</origPlace></p>
+                     <p><origPlace cert="low" source="Cinato">St-Martin?</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1.
+                           Hälfte 9. Jhd.</origDate></p>
+                     <p>Wenig erscheint geklärt. Die Handschrift ähnelt den großen touroner
+                        Prachtbibeln, ist aber gleichzeitig deutlich simpler gehalten. Deshalb wurde
+                        sie von Rand als vielleicht in Marmoutier entstanden deklariert, wobei er
+                        gleichzeitig eine der Haupthände mit der vom Amalricus aus St-Martin
+                        vergleicht.</p>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc8452s</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="199 120"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="372" to="373"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="19"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

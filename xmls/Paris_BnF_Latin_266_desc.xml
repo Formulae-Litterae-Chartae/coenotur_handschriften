@@ -1,0 +1,130 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 266</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 266</idno>
+                  <altIdentifier source="Rigault">
+                     <idno>1156</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Dupuy">
+                     <idno>1264</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>3705</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>119</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>41</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3980</idno>
+                  </altIdentifier>
+                  <msName>Lothar-Evangeliar</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel Evangelien">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="221">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="32.5"/>
+                              <width n="25.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="23.0"/>
+                              <width n="5.7"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Perfekt.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="27"/>
+                        <layout><p>Rote und schwarze Titel.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Eine Hand.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Perfekte turonische Minuskel; Halbunziale; viele Seiten in Goldschrift.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p source="Köhler">Miniaturen durch Maître C, den Maître der
+                           Vivian-Bibel.</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p n="Exlibris"><locus n="67v">Aus Notre-Dame de Pontifroy, 1367.</locus></p>
+                     <p n="Exlibris"><locus n="221r">De camera compotorum Bleisi. Bibliothek von
+                           Blois, 1. Hälfte 16. Jhd.</locus></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Neuerer Ledereinband.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="high"><name type="Kloster">St-Martin</name>,
+                           Tours.</origPlace></p>
+                     <p><origDate  source="Bischoff" cert="high" notBefore="0843" notAfter="0855"
+                        >Zwischen 853 und 855; 849-851?</origDate></p>
+                     <p source="Rand">Aufgrund der Herstellung für Lothar ist die Datierung
+                        gesichert; vermutlich näher an 855 als 843.</p>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">Notre-Dame de Pontifroy</name>
+                     de Metz</provenance>
+                  <provenance>Geschrieben im Auftrag von <name type="Abt">Sigislaus</name> und dem
+                     Kaiser <name type="Person">Lothar</name> übergeben. Später im Besitz des
+                     Klosters <name type="Kloster">Notre-Dame de Pontifroy</name> in <name
+                        type="Ort">Metz</name>.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8451637v</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc84368</idno>
+                     </bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="157 158"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="403" to="405"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="24 25"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

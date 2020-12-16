@@ -1,0 +1,109 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 6370</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 6370</idno>
+                  <altIdentifier source="Schipke">
+                     <idno>4</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4403</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Klassiker Auslegung">
+                     <author>Macrobius</author>
+                     <title>Commentarii in Somnium Scipionis; Saturnalia (praef.)</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="112">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="28.8"/>
+                              <width n="24.4"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="18.0"/>
+                              <width n="14.2"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="21"/>
+                        <layout><p/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Mehrere Hände.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Turonische Minuskel.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Nachträge und Benutzungsspuren: Ganzseitiger Nachtrag von Lupus f.
+                        108r-109v.</p>
+                     <p>Marginalia: Tironische Noten 39v: antiquus; 68r, 81r, 85v: deest rota.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
+                           >2. Viertel 9. Jhd.</origDate></p>
+                     <p source="Bischoff">Es besteht ein Zusammenhang mit den Handschriften von
+                        Lupus von Ferrières.</p>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Schipke 1994</idno><biblScope unit="pp" n="139"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="117"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

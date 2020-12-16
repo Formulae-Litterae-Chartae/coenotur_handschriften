@@ -1,0 +1,113 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 2848</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 2848</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>3953</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>4455</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4251</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie">
+                     <author>Alkuin</author>
+                     <title>Adversus Felicem</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="176">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="21.0"/>
+                              <width n="13.8"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="16.0"/>
+                              <width n="9.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                        <layout writtenLines="19"/>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Mehrere Hände.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Bischoff">Turonisch geprägt.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions>
+                     <p source="BnF">Nachträge und Benutzungsspuren: <locus n="176v">Fol.
+                           176v</locus>: Bigot est touz hors du sens et a si male hure que nus ne
+                        peut di[re]. 13. Jhd. </p>
+                     <p n="Exlibris"><locus n="1"/>Signaturen aus St-Denis: 13. Jhd., K Q +. 15.
+                        Jhd., XXIIII. VII c . LXXVI</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Chagrinleder mit den Initialen von Louis-Philippe.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
+                           >1. Drittel 9. Jhd.</origDate></p>
+                     <p><origDate source="BnF" cert="low" notBefore="0900" notAfter="1000">10.
+                           Jhd.</origDate></p>
+                     <p/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Denis</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b90659686</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60645t</idno></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="85"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

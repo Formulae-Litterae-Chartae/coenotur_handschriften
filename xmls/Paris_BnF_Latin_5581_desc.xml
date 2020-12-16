@@ -1,0 +1,114 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 5581</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 5581</idno>
+                  <altIdentifier source="Rand">
+                     <idno>13</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4378</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Hagiographie">
+                     <author/>
+                     <title>Martinellus</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="112">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="23.8 23.5">23,8 (23,5)</height>
+                              <width n="15.7 16.2">15,7 (16,2)></width>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="17.5"/>
+                              <width n="11.5 12">11,5 (12)</width>
+                           </dimensions>
+                        </extent>
+                        <condition>Das Ende fehlt; die Handschrift bricht in den Dialogen des
+                           Sulpicius Severus ab.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="21"/>
+                        <layout><p>Rote und schwarze Titel mit ein wenig Silber.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">Eine Hand.</p>
+                     <p source="Bischoff">Mehr als eine Hand.</p>
+                     <p>Boso.</p>
+                     <p>Viele verschiedenen Hände, sowie eine zeitgenössische Korrekturhand. Eine
+                        weist Ähnlichkeit mit Tours, BM, 10 auf.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">Verbesserte Kursive; gemischte Majuskel.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Nachträge und Benutzungsspuren: <locus n="68r"/>BOSO ME FECIT,
+                        eingeritzt.</p>
+                     <p>Marginalia: Glossen und Korrekturen aus dem 12. Jhd. übersetzen Toponyme in
+                        ihre Zeit. Die Glossierungen hören Fol. 45r mit dem Ende der Briefe des
+                        Sulpicius Severus auf.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="high"><name>Tours</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1.
+                        Viertel 9. Jhd.</origDate></p>
+                     <p/>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64547p</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="94 95"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="111"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

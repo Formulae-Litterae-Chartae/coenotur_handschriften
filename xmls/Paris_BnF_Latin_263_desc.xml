@@ -1,0 +1,115 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 263</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 263</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>2098</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>118</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>50</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3977</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel Evangelien">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="129">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="29.0"/>
+                              <width n="22.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="20.0"/>
+                              <width n="13.2"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="20"/>
+                        <layout><p>Rote und schwarze Titel, manchmal mit blau. Nähe zu Latin 266 und
+                              Latin 9385, sowie Beatty 8.</p> Schöne bunte und goldene
+                           Initialen.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Eine Hand.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">Perfekte turonische Minuskel, auf demselben Niveau wie Latin
+                        266 und Latin 9385, besser als Latin 261.</p>
+                     <p source="Bischoff">Evangelienprologe in Halbunziale.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions>
+                     <p>Marginalia: Ja.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Pappeinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
+                           >3. Viertel 9. Jhd.</origDate></p>
+                  </origin>
+                  <provenance type="Provenance"><name type="Person">Colbert</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84921527</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                        <idno/>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60422b</bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="157"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="412" to="413"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="24"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Vat. Lat. 1480</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatikan</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection/>
+                        <idno>Vat. Lat. 1480</idno>
+                        <altIdentifier source="Colbert">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Faure">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Regius">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Dupuy">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rigault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Hurault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Jean de Gagny">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6857</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Grammatik">
+                            <author>Priscian</author>
+                            <title>Institutiones grammaticae</title>
+                            <textLang mainLang="la"/>
+                            <note>1-14</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="136">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="35.5"/>
+                                        <width n="26.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="27.5"/>
+                                        <width n="17.2"/>
+                                    </dimensions>
+                                </extent>
+                                <condition>gut</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="37"/>
+                                <layout><p>Rote Überschriften in Unziale? Eher capitalis rustica?</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p>mehrere Hände</p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p>Karolingische Minuskel</p>
+                            <p></p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Sehr starke Glossierung, von mindestens 2 (vielleicht 3) verschiedenen Händen, sowie Glossen in tironischen Noten.</p>
+                            <p>Neben der Glossierung finden sich auch Anmerkungen/Korrekturen einer weiteren zeitgenössischen Hand.</p>
+                            <p n="Exlibris"><locus n=""/></p>
+                            <p n="LKV">Lagenkontrollvermerke</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>rot-braunes Leder</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Bischoff Martinellus.de" cert="high"><name>Tours</name></origPlace></p>
+                            <p source="Bischoff"><origDate cert="high" notBefore="0825" notAfter="0850"/>2. Viertel 9. Jhd.</p>
+                            <p></p>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">Vatlib</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/MSS_Vat.lat.1480</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.1480</idno></bibl>
+                            <bibl><idno>Martinellus.de</idno></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="447"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Reg. Lat. 286</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatikan</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection></collection>
+                        <idno>Reg. Lat. 215</idno>
+                        <altIdentifier source="Bischoff">
+                            <idno>6651</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents class="Theologie Kirchenväter">
+                        <msItem>
+                            <author>Hieronymus</author>
+                            <title></title>
+                            <textLang mainLang="la"></textLang>
+                        </msItem>
+                        <msItem>
+                            <author>Augustinus</author>
+                            <title></title>
+                            <textLang mainLang="la"></textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="91">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="24.0"/>
+                                        <width n="16.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height min="19.5" max="20.0">20,0 und 19,5</height>
+                                        <width min="8.0" max="10.9">13,0 und 12,5</width>
+                                    </dimensions> </extent>
+                                <condition>gut erhalten</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="31 38">37/38 und 38/31</layout>
+                                <layout source="Rand">einzelne Überschriften in roter, oder zumeist brauner Kapitalis</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p source="Rand"></p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p source="Rand">2 völlig abweichende Schriftbilder</p>
+                        </scriptDesc>
+                        <musicNotation>
+                            </musicNotation>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p n="Korrekturen">Einzelne Korrekturen</p>
+                            <p n="Ergänzung">Einzelne Ergänzungen</p>
+                            <p n="Nota">Einzelne Nota-Zeichen</p>
+                            <p n="LKV">Lagenkontrollvermerke</p>
+                            <p n="SK">Schreiberkürzel</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Roter Ledereinband</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p source="Bischoff"><origPlace cert="unknown">vielleicht Tours?</origPlace></p>
+                            <p source="Contreni"><origDate cert="medium" notBefore="0850" notAfter="0900">9. Jhd. nach 877</origDate></p>
+                        </origin>
+                        <provenance type="Provenance"><name type="Kloster"></name></provenance>
+                        <acquisition><name type="Repository"></name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.286</idno></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="426"></biblScope></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body><div type="edition"></div></body></text>
+</TEI>
+
+
+
+

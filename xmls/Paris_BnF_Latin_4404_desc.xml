@@ -1,0 +1,123 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 4404</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 4404</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>2436</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>45</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>2436</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Breviar">
+                     <author/>
+                     <title>Breviarium Alarici</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="234">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="34.0"/>
+                              <width n="22.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="28.6"/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="31"/>
+                        <layout><p>Rote und schwarze Titel; Initialen im Tours-Stil.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Audgarius (nennt sich in einem Monogramm <locus n="214">f. 214.</locus></p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">Verbesserte karolingische Kursive.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p>3 vollseitige Bilder.</p>
+                        <p><locus n="1v"/>Theodosius II begleitet von seinen Söhnen, Marcianus und
+                           Valentianus sowie dem Kaiser des Okzidents Majorian.</p>
+                        <p><locus n="2"/>Die Jurisconsulten Severus, Paulus, Gaius und
+                           Hermogenius.</p>
+                        <p><locus n="197"/>König Lodhanri umgeben von seinem Volk (Bischof, Herzog,
+                           Graf).</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions> </additions>
+                  <bindingDesc>
+                     <decoNote type="Colbert">Colberteinband in rotem Maroquin.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
+                     <p><origPlace source="BnF" cert="low">Loiretal</origPlace></p>
+                     <p><origPlace source="Ganz" cert="low">"skilled imitation of
+                        Tours"</origPlace></p>
+                     <p><origDate cert="medium" notBefore="0803" notAfter="0814">c.
+                           803-814</origDate></p>
+                     <p/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Person">Colbert</name></provenance>
+                  <provenance>Der Entstehungsort ist ungewiss; wahrscheinlicht erscheint das
+                     Loiretal in der Nähe von Tours. Durch <name type="Person">Colbert</name>
+                     erfahren wir, dass die Handschrift aus der Gallia Narbonnense stammte, bevor er
+                     sie 1682 in <name type="Ort">Montpellier</name> gekauft hat. Die Handschrift
+                     gelangte 1732 mit den weiteren Handschriften von <name type="Person"
+                        >Colbert</name> in die königliche Bibliothek.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc8443t</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="116 117"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" from="94" to="95"/></bibl>
+                     <bibl><idno>Ganz 2015</idno><biblScope unit="pp" n="61"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

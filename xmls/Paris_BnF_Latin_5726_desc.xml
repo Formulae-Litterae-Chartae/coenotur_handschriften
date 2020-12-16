@@ -1,0 +1,111 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 5726</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 5726</idno>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Geschichtsschreibung">
+                     <author>Livius</author>
+                     <title>Ab urbe condita (Bücher 6-10)</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="166">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="32.5"/>
+                              <width n="23.6"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="21.0"/>
+                              <width n="14.6"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="27"/>
+                        <layout><p/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">Hauptsächlich eine Hand. Von Lupus begonnen, danach wohl von
+                        Fredegaudus geschrieben.</p>
+                     <p source="Cinato">Auf einzelnen Folia erscheint eine zweite unterstützende
+                        Hand (bspw. F.21r).</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">Karolingische Minuskel mit wenig Abkürzungen. Halbunziale
+                        selten und imperfekt.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Cinato">Nachträge und Benutzungsspuren: Korrekturen von der Hand von
+                        Lupus von Ferrières oder durch gute Imitation eines seiner Schüler,
+                        vielleicht Heiric? Diese Korrekturen wurden vielleicht in Auxerre
+                        durchgeführt.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Pergamenteinband. Auf dem Buchrücken der Titel durch die Hand eines
+                        der Dupuy-Brüder: Titi Livii Lib. VI, VII, VIII, IX, X.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="high"><name>Tours</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0850">2.
+                        Viertel 9. Jhd.</origDate></p>
+                     <p>Durch die klare Beteiligung von Lupus und der Nähe zum vatikanischen Livius
+                        erscheint die Entstehung in Saint-Martin in Tours in der ersten Hälfte des
+                        9. Jahrhunderts als äußerst wahrscheinlich.</p>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10036043n</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc19924d</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Schipke 1994</idno><biblScope unit="pp" n="140"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Cinato</idno></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

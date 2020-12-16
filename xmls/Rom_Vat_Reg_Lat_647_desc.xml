@@ -1,0 +1,154 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Reg. Lat. 647</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatikan</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection/>
+                        <idno>Reg. Lat. 647</idno>
+                        <altIdentifier source="Colbert">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Faure">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Regius">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Dupuy">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rigault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Hurault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Montfaucon">
+                            <idno>1313</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>138</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6726</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem defective="true" class="Hagiographie">
+                            <author>Ermentarius</author>
+                            <title>Vita et Miracula S. Filiberi</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                        <msItem n="1.1">
+                            <locus from="1r" to="18v"></locus>
+                            <author>Ermentarius</author>
+                            <title>Vita Beati Filiberti</title>
+                            <note>ab cap. 18</note>
+                        </msItem>
+                        <msItem n="1.2">
+                            <locus from="19r" to="96v"></locus>
+                            <author>Ermentarius</author>
+                            <title>Miracula sancti Filiberti</title>
+                            <note>bis Buch II, cap. 2</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="96">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="18.1"/>
+                                        <width n="13.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="14.0"/>
+                                        <width n="8.9"/>
+                                    </dimensions>
+                                </extent>
+                                <condition>Es fehlen Blätter am Anfang und am Ende. Die ersten und letzten erhaltenen Blätter sind stark angegriffen.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="14"/>
+                                <layout>
+                                    <p>Schwarze und schwarz-rote Titel, mit blau, grün und gelb ausgemalten Buchstaben</p>
+                                    <p>Kapitelanfänge in Kapitalis</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p source="Rand">Sehr nah an der turonischen Minuskel, mit gelegentlichen Halbunzialen</p>
+                            <p></p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Marginalia: Geschmückte Buchstaben in der unteren Mitte der Seiten</p>
+                            <p n="Exlibris"><locus n="2r"/>Exlibris von Alexandre Petau</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote type="apostolisch" source="Poupardin">Neuer Einbane mit dem Wappen von Pius IX.</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand" cert="medium"><name>wahrscheinlich nicht Tours</name></origPlace></p>
+                            <p><origPlace source="Bischoff" cert="high"><name>Westfrankreich</name></origPlace></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0825" notAfter="0875"/>Mitte 9. Jhd.</p>
+                            <p source="Rand">Die Handschrift erscheint derjenigen aus Tours nicht unähnlich und ist wahrscheinlich kurz nach der Abfassung des Textes c. 863 im Umfeld von Tours geschrieben worden.</p>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance>Die Handschrift gehört <name type="person">Alexandre Petau</name></provenance>
+                        <provenance source="Poupardin">Von dort gelangte sie in den Besitz der Königin <name type="person">Christine von Schweden</name>.</provenance>
+                        <acquisition>Von dort gelangt sie an die <name type="Repository">Vatikanische Bibliothek</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/MSS_Reg.lat.647</idno>
+                            </bibl>
+                            <bibl>
+                                <title type="gmd">Editon</title>
+                                <idno>Poupardin 1905</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.647</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="165"/></bibl>
+                            <bibl><idno>Poupardin 1905</idno><biblScope unit="pp" from="XLV" to="XLVI"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="434"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Vat. Lat. 43</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italien</country>
+                        <settlement>Vatikan</settlement>
+                        <repository>Vatlib</repository>
+                        <collection></collection>
+                        <idno>Vat. Lat. 43</idno>
+                        <altIdentifier source="Rand">
+                            <idno>144</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6820</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents >
+                        <msItem class="Bibel Evangelien">
+                            <author></author>
+                            <title>Evangelien</title>
+                            <textLang mainLang="la"></textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="211">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="23,5"></height>
+                                        <width n="16,5"></width>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="16,5"></height>
+                                        <width n="9,2"></width>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"></layout>
+                                <layout writtenLines="22"></layout>
+                                <layout source="Rand">Rote, grüne und rot-schwarze Titel. Einfache Initialen in rot und grün.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p></p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="Initiale">
+                                <locus n="30v 82r 119r 174v"></locus>Prächtige farbige Initialen in grün, blau gelb/braun und rot</decoNote>
+                            <decoNote type="Kanontafel">
+                                <locus></locus>Schöne, farbige Kanontafel in grün und rot/rot-braun</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p n="Korrekturen"><locus n="91v 94v"></locus>wenig Korrekturen</p>
+                            <p n="Ergänzung"><locus n="89v">andere Schrift</locus></p>
+                            <p n="Konkordanzen">Konkorddanzen</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Holzeinband mit rotem Leder und dem apostolischen Wappen</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p source="Traube Rand"><origPlace cert="low">"Offenbar aus Tours"</origPlace></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
+                            <p>Eine Entstehung in Tours erscheint unwahrscheinlich</p>
+                        </origin>
+                        <provenance type="Provenance"></provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/MSS_Vat.lat.43</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.43</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="169 170"></biblScope></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="444"></biblScope></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body><div type="edition"></div></body></text>
+</TEI>

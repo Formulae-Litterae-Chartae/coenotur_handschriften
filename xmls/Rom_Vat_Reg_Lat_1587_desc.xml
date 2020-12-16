@@ -1,0 +1,133 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Reg. Lat. 1587</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatikan</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection/>
+                        <idno>Reg. Lat. 1587</idno>
+                        <altIdentifier source="Mostert">
+                            <idno>1511</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Mostert">
+                            <idno>1512</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Mostert">
+                            <idno>1513</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Mostert">
+                            <idno>1514</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rigault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Hurault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6789</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischof">
+                            <idno>6786</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6787</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6788</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem defective="true">
+                            <author/>
+                            <title>4 Fragemente</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="8">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="21.0"/>
+                                        <width n="16.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="17.5"/>
+                                        <width n="10.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition>schlecht. Blätter teilweise so angegriffen, dass der TExt nicht mehr zu lesen ist</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="30 31">30, 31</layout>
+                                <layout><p></p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p></p>
+                            <p></p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Marginalia: einzelne Nachträge</p>
+                            <p n="Exlibris"><locus n="1r"/>Ex libris Petri Danielis Aurelii 1560 nunc Nicoiai Heinsii</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>rotes Leder um Holz</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Bischoff" cert="low"><name>Tours?</name></origPlace></p>
+                            <p source="Bischoff"><origDate cert="low" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
+                            <p>Wenn überhaupt, dann stammt nur Teil III (f.57-64) aus Tours, aber auch dieser Teil erscheint mir nicht sehr turonisch. Eine Entstehung eines Großteils der heutigen Handschrift in 4 verschiedenen mittelalterlichen Handschriften in Fleury erscheint sehr wahrscheinlich.</p>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance>Die Handschrift war or 1560 im Besitz on <name type="person">Pierre Daniel</name>.</provenance>
+                        <provenance>Von dort gelangte sie dann in den Besitz von <name type="person">Heinsius</name>.</provenance>
+                        <acquisition><name type="Repository">Vatlib</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/MSS_Reg.lat.1587https://digi.vatlib.it/view/MSS_Reg.lat.1587</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.1587</idno></bibl>
+                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" from="284" to="285"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="440"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

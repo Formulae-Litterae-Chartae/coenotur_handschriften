@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Pal. Lat. 845</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italien</country>
+                        <settlement>Vatikan</settlement>
+                        <repository>Vatlib</repository>
+                        <collection></collection>
+                        <idno>Pal. Lat. 845</idno>
+                        <altIdentifier source="Bischoff">
+                            <idno>6562</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Heiligenviten Martinellus">
+                            <author></author>
+                            <title>Martinellus</title>
+                            <textLang mainLang="la"></textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="194">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="31.7"></height>
+                                        <width n="21.0"></width>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="24.5"></height>
+                                        <width n="15.8"></width>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"></layout>
+                                <layout writtenLines="27"></layout>
+                                <layout source="Rand">Rote Überschriften und Kapitelzählungen</layout>
+                                <layout source="Rand">Farbige Initialen</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p></p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <p></p>
+                        </decoDesc>
+                        <additions>
+                            <p n="Ergänzung">Einzelne Nachträge on erschiedenen Händen unterschiedlicher Zeiten</p>
+                            <p n="Ergänzung">Wenige T und X Markierungen am Rand</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Grün</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p source="Bischoff"><origPlace cert="medium">Mainz</origPlace></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                            <p>Zu Recht als nicht aus Tours stammend deklariert</p>
+                        </origin>
+                        <provenance type="Provenance">St-Martin in Mainz</provenance>
+                        <acquisition></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/MSS_Pal.lat.845</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Pal.lat.845</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"></biblScope></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="417"></biblScope></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body><div type="edition"></div></body></text>
+</TEI>

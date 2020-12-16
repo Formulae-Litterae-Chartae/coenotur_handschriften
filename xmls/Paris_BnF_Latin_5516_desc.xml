@@ -1,0 +1,119 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 5516</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 5516</idno>
+                  <altIdentifier source="Rand">
+                     <idno>83</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4365 / 4366</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Misc">
+                     <locus from="1" to="115"/>
+                     <title>Liber Pontificalis</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem class="Konzilsakten">
+                     <locus from="116" to="170"/>
+                     <title>Kanones vom Konzil von Paris 829</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="170">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="25.0"/>
+                              <width n="19.3"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="18.6"/>
+                              <width n="14.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="32">32 (26-37)</layout>
+                        <layout><p>Rote und schwarze Titel.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Verschiedene Hände.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions>
+                     <p n="Exlibris"><locus n="1r"/>iste liber est de armario beati martini
+                        turonensis</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low">Teil 1: <name type="Ort"
+                           >Tours</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">Teil 1: <name type="Ort"
+                           >Rom</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">Teil 2: <name type="Ort"
+                              >Tours</name>/<name type="Ort">Reims</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
+                           >2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0829" notAfter="0840">Nach
+                           829 für den 2. Teil, wahrscheinlich nicht viel.</origDate></p>
+                     <p/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance>Von <name type="Kloster">St-Martin</name> ging die Handschrift in die
+                     Sammlung von <name type="Person">Colbert</name> über und von dort in die
+                     königliche Bibliothek.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b9067658d</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64475n</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="139 140"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="109"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

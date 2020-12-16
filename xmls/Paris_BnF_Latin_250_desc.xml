@@ -1,0 +1,171 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 250</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 250</idno>
+                  <altIdentifier source="Rand">
+                     <idno>81</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>20</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3970</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="2r"/>
+                        <author>Hieronymus</author>
+                        <title>Praefatio in Evangelium</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="2r" to="2r"/>
+                        <author>Eusebius</author>
+                        <title>Argumentum in Evangelio</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="2v" to="3r"/>
+                        <title>Kanontafeln</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="4v" to="16v"/>
+                        <title>Evangelium secundum Mattheum</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="17r" to="25v"/>
+                        <title>Evangelium secundum Marcum</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="25v" to="39r"/>
+                        <title>Evangelium secundum Lucam</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="38r" to="48v"/>
+                        <title>Evangelium secundum Iohannem</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="49r" to="61v"/>
+                        <title>Apostelgeschichte</title>
+                     </msItem>
+                     <msItem n="1.9">
+                        <locus from="61v" to="66r"/>
+                        <title>Die 7 Katholischen Briefe</title>
+                     </msItem>
+                     <msItem n="1.10">
+                        <locus from="67vr" to="99v"/>
+                        <title>Die Paulusbriefe</title>
+                     </msItem>
+                     <msItem n="1.11">
+                        <locus from="70v" to="70v"/>
+                        <title>Carmen s. Damasii papae</title>
+                     </msItem>
+                     <msItem n="1.12">
+                        <locus from="100r" to="105v"/>
+                        <title>Liber Apocalypsis</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="105">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="49.6"/>
+                              <width n="36.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="39.8"/>
+                              <width n="11.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="50"/>
+                        <layout>Rote und schwarze Titel. Purpurne Bänder, Initialen und
+                           Kanontafeln.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">Zwei sehr ähnliche Hände.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">Turonische Minuskel.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p n="Exlibris"><locus n="1r">Bibliothekssignatur aus St-Denis aus dem 13. Jhd.
+                           (Köhler) bzw. aus dem 15. Jhd. (Bischoff).</locus></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Roter Ledereinband des 19. Jhd.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="high">Tours, St-Martin</origPlace></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0810" notAfter="0830">Um
+                           820.</origDate></p>
+                     <p><origDate source="Mercier" cert="low" notBefore="0843" notAfter="0851">Unter
+                           Vivian (843-851).</origDate></p>
+                     <p><origDate source="Bischoff BnF" cert="medium" notBefore="0830"
+                           notAfter="0840">830-840 unter Fridugisius.</origDate></p>
+                     <p>Entstehung in St-Martin kann wegen der Nähe zur Moutier Grandval-Bibel
+                        (London, BM Ms Add. 10546) als gesichert angesehen werden. Einzig die
+                        Datierung ist nicht ganz gesichert. Die Handschrift scheint nach der
+                        Moutier-Grandval-Bibel entstanden zu sein.</p>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Denis</name></provenance>
+                  <provenance source="Vezin">Gelangt noch im 9. Jahrhundert nach <name
+                        type="Kloster">St-Denis</name>.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>http://gallica.bnf.fr/ark:/12148/btv1b84267887</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc8902m</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="138 139"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="378" to="379"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="250"/></bibl>
+                     <bibl><idno>Vezin 1986</idno><biblScope unit="pp" n="20"/></bibl>
+                     <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="121"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Reg. Lat. 1484</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatikan</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection/>
+                        <idno>Reg. Lat. 1484</idno>
+                        <altIdentifier source="Colbert">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Faure">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Regius">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Dupuy">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rigault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Hurault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Jean de Gagny">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>89</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6780</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Klassiker Auslegung">
+                            <author>Donatus</author>
+                            <title>Interpretationes Vergilianae Aeneidos</title>
+                            <textLang mainLang="la"/>
+                            <note>I-VI</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="198">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="35.8"/>
+                                        <width n="28.8"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="26.0"/>
+                                        <width n="8.6"/>
+                                    </dimensions>
+                                </extent>
+                                <condition>Einband löst sich, ansonsten recht gut erhalten</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="31 33">32 (31, 33)</layout>
+                                <layout><p>Rote Initialen, Capitalis und eine Zeile in Halbunziale zu Beginn der Bücher</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p source="Rand">mindestens 5 Hände</p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p source="Rand">Schrift erinnert an die Moutier-Grandal-Bibel</p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p n="Korrekturen">Korrekturen durch die Hand von <name type="scribe">Lupus von Ferrières</name></p>
+                            <p n="Anmerkungen">Weitere Anmerkungen einer abweichenden, ermutlich späteren Hand</p>
+                            <p n="Exlibris"><locus n=""/></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="high"><name type="Gemeinschaft">St-Martin de Tours</name></origPlace></p>
+                            <p><origDate cert="high" notBefore="0810" notAfter="0860"/>circa 850, oder eher 820-843</p>
+                            <p>Durch die Nähe zur Grandval-Bibel und dem doch sehr typisch-wirkenden Erscheinungsbild ist eine Entstehung in St-Martin anzunehmen. Dies würde dann eine Datierung eher um 820-843 nahelegen.</p>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">Vatlib</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/MSS_Reg.lat.1484</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.1484</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="143"/></bibl>
+                            <bibl><idno>Schipke 1994</idno><biblScope unit="pp"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="439"/></bibl>
+                            <bibl><idno>MArtinellus.de</idno><biblScope/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

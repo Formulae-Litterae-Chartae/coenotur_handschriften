@@ -1,0 +1,175 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 260</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 260</idno>
+                  <altIdentifier source="Rand">
+                     <idno>36</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>4</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3974</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel Evangelien">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="7v"/>
+                        <author/>
+                        <title>Capitulare evangeliorum</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="7v" to="8r"/>
+                        <author/>
+                        <title>Capitula necessaria</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="9r" to="204r"/>
+                        <author/>
+                        <title>Evangelia quattuor</title>
+                     </msItem>
+                     <msItem n="2.1">
+                        <locus from="9r" to="11r"/>
+                        <author>Hieronymus</author>
+                        <title>Prologus ex commentario in Mattheum</title>
+                     </msItem>
+                     <msItem n="2.2">
+                        <locus from="11r" to="14r"/>
+                        <author>Hieronymus</author>
+                        <title>Epistula ad Damasum</title>
+                     </msItem>
+                     <msItem n="2.3">
+                        <locus from="14v" to="75r"/>
+                        <author/>
+                        <title>Evangelium secundum Mattheum</title>
+                     </msItem>
+                     <msItem n="2.4">
+                        <locus from="75v" to="108r"/>
+                        <author/>
+                        <title>Evangelium secundum Marcum</title>
+                     </msItem>
+                     <msItem n="2.5">
+                        <locus from="109r" to="161r"/>
+                        <author/>
+                        <title>Evangelium secundum Lucam</title>
+                     </msItem>
+                     <msItem n="2.6">
+                        <locus from="162r" to="204r"/>
+                        <author/>
+                        <title>Evangelium secundum Iohannem</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="204v" to="205r"/>
+                        <author/>
+                        <title>Namen einzelner Mönche von Saint-Amand</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="205">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="29.0"/>
+                              <width n="20.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="20.4"/>
+                              <width n="12.3"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="29 31">29 (31 (Lage I))</layout>
+                        <layout>Rote und schwarze Überschriften. Einfache Initialen.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">Fünf Hände: A 9r-14r; B 24r-88r; C 109r-161r; D 162r-204r; E
+                        163v-186v. Hand E sehr nah zu Hand B in Tours, BM, 10.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p>Kanontafeln mit typisch turonischen Motiven, insbesondere Tierwesen und
+                           Vogeln.</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions> </additions>
+                  <bindingDesc>
+                     <decoNote source="Köhler" type="Colbert">Colberteinband.</decoNote>
+                     <decoNote source="Rand">Einband mit Monogramm von Ludwig XV.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="high">Tours, Saint-Martin</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0700" notAfter="0900"
+                           >8./9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0807" notAfter="0807"
+                           >807?</origDate></p>
+                     <p>Eine Entstehung in Saint-Martin wohl unter Alkuin oder kurz danach erscheint
+                        höchst wahrscheinlich.</p>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance><p>Unter <name type="Abt">Alkuin</name> entstanden handelt es sich um
+                        eine hervorragende turonische Bibel.</p></provenance>
+                  <provenance>Die Handschrift gehörte zunächst <name type="Kloster"
+                        >Saint-Amand</name> in Südfrankreich und </provenance>
+                  <provenance>gelangt später über <name type="Kloster">Saint-Martial de
+                        Limoges</name> nach <name type="Ort">Paris</name>.</provenance>
+                  <provenance>Durch einen Katalogeintrag von <name type="Kloster"
+                        >Saint-Martial</name> kann die Handschrift auf 807 datiert werden, wobei
+                        <name type="Person">Rand</name> dies nicht belegen kann.</provenance>
+                  <provenance>Nach 1730 gelangte die Handschrift nach <name type="Ort"
+                     >Paris</name>.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8426284v</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc84352</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="111 112"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="365" to="366"/></bibl>
+
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

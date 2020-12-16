@@ -1,0 +1,153 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 1</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 1</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>1</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>3561/2</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>116</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3951</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>38</idno>
+                  </altIdentifier>
+                  <msName>Viviansbibel</msName>
+                  <msName>Erste Bibel Karls des Kahlen</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="2v"/>
+                        <author/>
+                        <title>Verse zur Widmung an den Kaiser</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="4r" to="7v"/>
+                        <author>Hieronymus</author>
+                        <title>Epistula ad Paulinum</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="8r" to="8v"/>
+                        <author>Hieronymus</author>
+                        <title>Praefatio in Pentateuchum ad Desiderium</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="9r" to="323v"/>
+                        <title>Altes Testament</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="324r" to="421v"/>
+                        <title>Neues Testament</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="422r" to="422v"/>
+                        <title>Verse</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="423">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="50.0"/>
+                              <width n="38.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="37.4"/>
+                              <width n="12.4"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="51"/>
+                        <layout>Schwarz-rote Titel, einige mit blauer Tinte.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">Mindestens 6 Hände, alle sehr klar und flüssig, aber nicht
+                        ganz die Schönheit der Grandval-Bibel.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">"Perfected"</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote source="Köhler">Sehr viele sehr schöne Miniaturen.</decoNote>
+                     <decoNote type="Miniature"><locus n="3v"/></decoNote>
+                     <decoNote type="Miniature"><locus n="423r"/></decoNote>
+                  </decoDesc>
+                  <additions> </additions>
+                  <bindingDesc>
+                     <decoNote type="Colbert">Colberteinband.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="high">St-Martin</origPlace></p>
+                     <p><origDate source="Rand Bischoff" cert="high" notBefore="0843"
+                           notAfter="0851">843-851 Vivian, vielleicht vor 845.</origDate></p>
+                  </origin>
+                  <provenance type="Provenance"><name type="Ort">Metz</name></provenance>
+                  <provenance>Die Handschrift wurde unter <name type="Abt">Vivian</name> begonnen
+                     und von diesem <name type="person">Karl dem Kahlen</name> im Beisein der
+                     monastischen Amtsträger <name type="person">Amandus</name>, <name type="person"
+                        >Sigvaldus</name> und <name type="person">Aregarius</name>
+                     präsentiert.</provenance>
+                  <provenance><name type="person">Karl der Kahle</name> übergab die Bibel vermutlich
+                     in Zusammenhang mit seiner Krönung zum König von Lotharingien im Jahr 869 an
+                     die Kathedrale von <name type="Ort">Metz</name>.</provenance>
+                  <provenance>Von dort ging sie 1675 in den Besitz von <name type="person"
+                        >Colbert</name> über</provenance>
+                  <provenance>und dann 1732 in die Bibliothèque royale.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8455903b</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc8447n</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="155" to="156"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="396" to="401"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="17"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

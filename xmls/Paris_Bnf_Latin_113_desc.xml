@@ -1,0 +1,122 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 113</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 113</idno>
+                  <altIdentifier source="Jean de Gagny">
+                     <idno>LX</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rigault">
+                     <idno>1067</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Dupuy">
+                     <idno>1164</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>3714</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3962</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                     <msItem>
+                        <locus from="1v" to="61v"/>
+                        <title>Altes Testament, unvollständig</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="111">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="30.3"/>
+                              <width n="21.2"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="26.5"/>
+                              <width n="15.8"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="36"/>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Mehrere Hände.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Turonische Minuskel.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="BnF">Nachträge und Benutzungsspuren: Korrigiert und punktiert durch
+                        eine zeitgenössische Hand.</p>
+                     <p>Marginalia: <locus n="85r 105r"/>Tironische Noten.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="high">Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">9
+                           Jhd., ca. 2. Viertel</origDate></p>
+                     <p><origDate source="BnF" cert="low" notBefore="0890" notAfter="0910">Ende 9.,
+                           Anfang 10. Jhd.</origDate></p>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84262806</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc84441</idno></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="20"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

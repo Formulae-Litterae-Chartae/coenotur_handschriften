@@ -1,0 +1,139 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 1711</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 1711</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>1951</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>3979/3</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>12</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4050</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem defective="true" class="Theologie">
+                     <locus from="1r" to="16v?"/>
+                     <author>Optatus</author>
+                     <title>De schismate donatistarum</title>
+                     <textLang mainLang="la"/>
+                     <note>Kapitel VI (unvollständig) - VII</note>
+                  </msItem>
+                  <msItem class="Hagiographie">
+                     <locus from="17r" to="29r"/>
+                     <author>Optatus</author>
+                     <title>Gesta purgationis Caeciliani et Felicis</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem class="Epistolae">
+                     <locus from="29v" to="35v"/>
+                     <author>Constantinus Magnus</author>
+                     <author>Petronius</author>
+                     <author>Annianus</author>
+                     <author>Julianus</author>
+                     <title>Epistolae</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="37">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="27,3"/>
+                              <width n="19,2"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="21,0"/>
+                              <width n="14,0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Der Anfang der Handschrift fehlt</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="28 29">28 (29)</layout>
+                        <layout source="Rand">Rote und schwarze Titel in Unziale</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">Vermutlich eine, vielleicht drei sehr ähnliche Hände, die dem
+                        Stil des Vatikanischen Livius gleichen</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand" xml:id="Kursive">Verbesserte Kursive</p>
+                     <p source="Rand">Gemischte Majuskel und imperfekte Unziale, mit einem Hauch von
+                        Halbunziale</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>keine Miniaturen, außer eine Federzeichnung als Federproben f. 37v
+                        eines Königs</decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Marginalia: Am Anfang zahlreiche Notizen, darunter zahlreiche
+                        Nota-Symbole.</p>
+                     <p n="Exlibris"><locus n="37v"/>Hic est liber Sancti Pauli cormaricensis,
+                        Sancti Optatii, 9. Jhd. (zweimal).</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote type="Colbert">Saffianeinband mit dem Wappen von Colbert</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff" cert="high">Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
+                           >1. Drittel 9. Jhd.</origDate></p>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Paul de
+                     Cormery</name></provenance>
+                  <provenance>gelangte bereits im 9. Jhd. nach <name type="Kloster">St-Paul de
+                        Cormery</name>, wie ein Eintrag auf fol. 37v. belegt.</provenance>
+                  <provenance>Gehört dann P. Pithou und J.-A- de Thou</provenance>
+                  <provenance>ging schließlich an <name type="person"
+                     >Colbert</name>über</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10033753p</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc596772</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="94"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="41"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

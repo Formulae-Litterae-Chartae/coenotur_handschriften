@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Reg. Lat. 215</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatikan</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection></collection>
+                        <idno>Reg. Lat. 215</idno>
+                        <altIdentifier source="Bischoff">
+                            <idno>6642</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>164</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Exzerpte">
+                            <author></author>
+                            <title>Excerpta varia</title>
+                            <textLang mainLang="la"></textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="143">
+                                <dimensions type="leaf" unit="cm">
+                                        <height n="19.8"/>
+                                        <width n="16.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="13.2"></height>
+                                        <width min="8.0" max="10.9">8,0-10,9</width>
+                                    </dimensions> </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="29"/>
+                                <layout source="Rand">Rote und rot-schwarze Titel</layout>
+                                <layout source="Rand">Einfach rot-schwarze Initialen</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p source="Rand">zahlreiche Hände</p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p source="Rand">Kleine Kapitalis</p>
+                        </scriptDesc>
+                        <musicNotation>
+                            <p source="Rand">Neumen, vielleict aus <name type="Kloster">Tours</name> oder aus<name type="Kloster">Fleury</name></p>
+                        </musicNotation>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p n="Nota">Auf den ersten Folia, bis einschließlich f.10 finden sich zahlreiche Nota-Zeichen.</p>
+                            <p n="Ergänzung">Ansonsten finden sich wenig Nachträge, ein paar Korrekturen und paar Zitationszeichen und zwei Mal Federproben.</p>
+                            <p>Die Handschrift scheint eine Gebrauchshandschrift gewesen zu sein, die aber nicht kommentiert oder weiter beschriftet worden ist.</p>
+                            <p n="Exlibris"><locus n="1r"/>Hic liber est sce Mar. (14. Jhd.)</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p source="Traube 1901"><origPlace cert="low">Tours</origPlace></p>
+                            <p source="Traube 1892"><origPlace cert="low">Laon</origPlace></p>
+                            <p source="Contreni"><origPlace cert="unknown">unklar, Fleuy oder Tours eher als Laon</origPlace></p>
+                            <p source="Contreni"><origDate cert="high" notBefore="0877" notAfter="0900">9. Jhd. nach 877</origDate></p>
+                        </origin>
+                        <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                        <provenance>Vermutlich nicht in St-Martin entstanden, aber war sicher Bestandteil der dortigen Bibliothek, wie das Exlibris belegt.</provenance>
+                        <acquisition><name type="Repository"></name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/MSS_Reg.lat.215</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.215</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="181 182"></biblScope></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="425"></biblScope></bibl>
+                            <bibl><idno>Contreni 1976</idno><biblScope unit="pp" n=""></biblScope></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body><div type="edition"></div></body></text>
+</TEI>
+
+

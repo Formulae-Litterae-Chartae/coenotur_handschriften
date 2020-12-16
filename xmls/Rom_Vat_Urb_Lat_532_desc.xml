@@ -1,0 +1,145 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Urb. Lat. 532</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatikan</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection/>
+                        <idno>Urb. Lat. 532</idno>
+                        <altIdentifier source="Colbert">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Faure">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Regius">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Dupuy">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rigault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Hurault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Jean de Gagny">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>20</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Mostert">
+                            <idno>1535</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6815</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Theologie">
+                            <author>Boethius</author>
+                            <title>Contra Eutychen et Nestorium</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                        <msItem class="Varia">
+                            <author>Paulus Diaconus</author>
+                            <title>Versus in Laudem Sasncti Johannis Baptistae</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="35">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="22.0"/>
+                                        <width n="18.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="14.5"/>
+                                        <width n="9.9"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="17"/>
+                                <layout><p>Rote und rot und schwarze Titel</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p source="Rand">Verbesserte Kursive, ähnlich wie Tours, BM, 286</p>
+                            <p></p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p source="Rand">Marginalia: Sehr starke Glossierung von einer Hand vom Ende des 9. Jhd. des Kommentars von Johannes Scottus.</p>
+                            <p>Das Textfeld ist so klein und verschoben, dass die Handschrift aussieht, als wäre eine Glossierung von Anfang an vorgesehen. Die Glossierung nimmt schnell ab, auf späteren Folia finden sich zum Teil keine Glossen mehr.</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium"><name>Wohl Paris</name></origPlace></p>
+                            <p><origPlace source="Köhler" cert="high"><name>Nicht Tours</name></origPlace></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0825" notAfter="0875">ca. Mitte 9. Jhd.</origDate></p>
+                            <p source="Rand"><origDate cert="low" notBefore="0750" notAfter="0796"/>Pre-Alcuinian</p>
+                            <p source="Köhler">Weder die Zierschrift noch die Minuskel sind turonisch. Auch die frühe Datierung bei Rand erscheint unwahrscheinlich.</p>
+                            <p>Das Layout erscheint für Tours sehr untypisch. Eine Entstehung anderswo erscheint dementsprechend sehr wahrscheinlich, so dass davon auszugehen ist, dass es sich bei dieser Handschrift nicht um ein turonisches Produkt handelt.</p>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">Vatlib</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/MSS_Urb.lat.532</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Urb.lat.532</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="101"/></bibl>
+                            <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="324"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="443"/></bibl>
+                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="288"/></bibl>
+                            <bibl><idno>Chailley 1984</idno><biblScope unit="pp" n="64"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
+

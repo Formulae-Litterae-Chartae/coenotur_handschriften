@@ -1,0 +1,132 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 47</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 47</idno>
+                  <altIdentifier source="Faure">
+                     <idno>32</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>3564/2</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>117</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>51</idno>
+                  </altIdentifier>
+                  <msName>Faure-Bibel</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="96v"/>
+                        <title>Altes Testament, unvollständig (Exodus XVI, 28 - Makkabäer II, XV,
+                           13)</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="97r" to="176v"/>
+                        <title>Neues Testament, unvollständig (Matthäus VII, 26 - Apokalypse VI,
+                           9)</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="176">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="49.0"/>
+                              <width n="37.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="38.0"/>
+                              <width n="11.2"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Zum Teil stark beschädigt. Anfang und Ende fehlen. Zwischen f96
+                           und f97 fehlen Folien beim Anfang von Makkabäern 2 zu Matthäus, genau wie
+                           in den Briefen des Paulus.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="49"/>
+                        <layout>: Rote und schwarze Titel; einfache Initialen.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Eine Hand.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Turonische Minuskel; Halbunziale.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>Miniaturen vorhanden.</decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Marginalia: vereinzelte Korrekturen (so f33r und f33v).</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Alter Einband aus Pergament.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="medium" source="Rand">Tours</origPlace></p>
+                     <p><origPlace cert="medium" source="BnF">St-Martin</origPlace></p>
+                     <p><origPlace cert="low" source="Europeana regia">St-Denis</origPlace></p>
+                     <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875"
+                           >825-875</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0860" notAfter="0900"
+                           >Nach 860</origDate></p>
+                     <p>Die Verlegung nach St-Denis erscheint unwahrscheinlich, da Format und vor
+                        allem auch die Linierung exakt dem Usus aus St-Martin entsprechen.</p>
+                  </origin>
+                  <provenance type="Provenance"><name type="Person">Faure</name></provenance>
+                  <provenance>Aus der Sammlung von <name type="Person">Faure</name>, gelangt die
+                     Handschrift 1701 durch Kauf der Sammlung Faure in Besitz der königlichen
+                     Bibliothek.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84267909</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc85127</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="156 157"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="413" to="414"/></bibl>
+                     <bibl><idno>Ganz 1994</idno><biblScope/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="19"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 261</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 261</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>1947</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>3937</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>132</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>54</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3975</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel Evangelien">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="153">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="28.0"/>
+                              <width n="19.2"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="20.8"/>
+                              <width n="13.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="30"/>
+                        <layout>Rote, schwarze und goldene Titel.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Vier Hände.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">Perfektionierte turonische Minuskel.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote source="Köhler">
+                        <p><locus n="17v"/>Darstellung des Matthäus.</p>
+                        <p><locus n="18r"/>Christus in Majestas umgeben von den vier Tieren der
+                           Evangelisten.</p>
+                        <p><locus n="52r"/>Darstellung des Marcus.</p>
+                        <p><locus n="75r"/>Darstellung des Lukas.</p>
+                        <p><locus n="111v"/>Darstellung des Johannes.</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Nachträge und Benutzungsspuren: sehr wenige Korrekturen, die womöglich auch
+                        zeitgenössisch sind.</p>
+                     <p>Marginalia: einzelne Lagenkontrollvermerke.</p>
+                     <p n="Exlibris"><locus n="19r 53r"/>Hunc codicem ornavit Gervasius auro, gemmis
+                        et emblematibus, tunc Cinomannensis postea Remensis episcopus. 11 Jhd.</p>
+                     <p n="Exlibris"><locus n="19r"/>Rhemensi ecclesiae profuit circa annum
+                        1100.</p>
+                     <p n="Exlibris"><locus n="0v"/>Achepté en la ville du Mans 43 solz, le vendredi
+                        1er juing 1582. N. Le Fevre.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Roter Ledereinband mit den Initialen von Louis-Philippe.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="low">„unter Mitarbeit eines in Tours
+                           geschulten Künstlers in einem westfranzösischen Zentrum
+                           entstanden“</origPlace></p>
+                     <p><origPlace source="Rand Köhler" cert="low">Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
+                           >ca. 3. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Köhler" cert="low" notBefore="0853">nach
+                        853</origDate></p>
+                     <p>Entstehung steht sicher im Zusammenhang mit Tours, darauf lassen die Schrift
+                        und die Miniaturen schließen. Ob in Tours selbst, und wenn da, dann wohl in
+                        St-Martin, ist nicht gesichert. Köhler setzt eine Entstehung in St-Martin
+                        an, entstanden wohl auf Basis von Tours, BM, 23, das dem Stift nach der
+                        Zerstörung von 853 gegeben worden sei. </p>
+                  </origin>
+                  <provenance type="Provenance"><name type="Ort"/>Le Mans</provenance>
+                  <provenance><p>Die Handschrift wurde 1582 von <name type="Person">Nicolas Le
+                           Fevre</name> in <name type="Ort">Le Mans</name> gekauft und gelangte dann
+                        in den Besitz von <name type="Person">J.-A. de Thou</name> und schließlich
+                        zu <name type="Person">Colbert</name>.</p></provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8427443x</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc604035</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="162 163"/></bibl>
+                     <bibl><idno>Köhler 1939</idno><biblScope unit="pp" from="416" to="418"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="23"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

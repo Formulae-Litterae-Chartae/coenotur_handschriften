@@ -1,0 +1,117 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 5580</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 5580</idno>
+                  <altIdentifier source="Regius">
+                     <idno>4430</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>84</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4377</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Hagiographie">
+                     <author/>
+                     <title>Martinellus</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="136">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="21.4"/>
+                              <width n="15.6"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="15.7"/>
+                              <width n="10.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="22 21">22 (21)</layout>
+                        <layout><p>Rote und schwarze Titel. Initialen in einfachen
+                           Farben.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">Vier Hände. Hand B ähnelt Hand J in Angers 1.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Turonische Minuskel mit Halbunziale.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p>Kapitelarkaden.</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Nachträge und Benutzungsspuren: Im Teil der Vita wurden später
+                        Worttrennungen eingefügt für eine bessere Lesbarkeit. Das Verschwinden der
+                        Trennungszeichen in der späteren Handschrift könnte an weniger Benutzung
+                        dieser Teile liegen, oder an einem Schreiberwechsel, der zweite Schreiber
+                        trennt die Worte klarer voneinander.</p>
+                     <p>Marginalia: Enthält Neuem des 11. Jhd. auf Fol. 136v von zwei verschiedenen
+                        Händen.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="low"><name>Tours</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
+                        >2. Viertel 9. Jhd.</origDate></p>
+                     <p/>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance>Puteanus; Dupuy.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64546f</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="140"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="111"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Reg. Lat. 1127</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatikan</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection/>
+                        <idno>Reg. Lat. 1127</idno>
+                        <altIdentifier source="Colbert">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Faure">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Regius">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Dupuy">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rigault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Hurault">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Jean de Gagny">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6764</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Rechtstexte">
+                            <author/>
+                            <title>Canones und Briefe</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="165">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="37.4"/>
+                                        <width n="31.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="29.0"/>
+                                        <width n="23.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition>sehr gut erhalten</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="27 36">27 (28); 36</layout>
+                                <layout><p>Rote Überschriften in Kapitalis und Unziale</p></layout>
+                                <layout><p>Große Initialen</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p>schöne Karolingische Minuskel</p>
+                            <p></p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>zahlreiche neuzeitliche Anmerkungen und Lesehilfen (vielleicht von Alexandra Pauli) </p>
+                            <p n="Exlibris"><locus n="1r"/>von Alexandre Pauli, Sohn von Alexandre Petau</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Roter Ledereinband</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium" source="Bischoff">Umkreis von <name>Tours</name></origPlace></p>
+                            <p><origPlace cert="medium" source="Rand">Nicht aus <name>Tours</name></origPlace></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0800" notAfter="0900"></origDate>9. Jhd.</p>
+                            <p></p>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance>Wie das Inhaltsverzeichnis vor f.1 belegt, war die Handschrift 1647 im Besitz von <name type="person">Alexandre Pauli</name>, Sohn von Petau.</provenance>
+                        <acquisition><name type="Repository">BnF</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://digi.vatlib.it/view/MSS_Reg.lat.1127</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.1127</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
+                            <bibl><idno>Kéry 1999</idno><biblScope unit="pp" n="45"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="438"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

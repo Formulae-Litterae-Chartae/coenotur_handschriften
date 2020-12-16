@@ -1,0 +1,153 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Rom, Vat., Reg. Lat. 495</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Vatikan</country>
+                        <settlement>Rom</settlement>
+                        <repository>Vatlib</repository>
+                        <collection></collection>
+                        <idno>Reg. Lat. 495</idno>
+                        <altIdentifier source="Bischoff">
+                            <idno>6689</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>62</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Martinellus Heiligenviten">
+                            <author></author>
+                            <title>MArtinellus</title>
+                            <textLang mainLang="la"></textLang>
+                        </msItem>
+                        <msItem n="1.1">
+                            <locus from="1r" to="2r"/>
+                            <title>Liber Martini de Trinitate</title>
+                        </msItem>
+                        <msItem n="1.2">
+                            <locus from="2v" to="43r"/>
+                            <author>Sulpicius Severus</author>
+                            <title>Vita sancti Martini</title>
+                        </msItem>
+                        <msItem n="1.3">
+                            <locus from="43v" to="70v"/>
+                            <author>Sulpicius Severus</author>
+                            <title>Dialogi liber primus</title>
+                        </msItem>
+                        <msItem n="1.4">
+                            <locus from="71r" to="86v"/>
+                            <author>Sulpicius Severus</author>
+                            <title>Dialogi liber secundus</title>
+                        </msItem>
+                        <msItem n="1.5">
+                            <locus from="87r" to="103r"/>
+                            <author>Sulpicius Severus</author>
+                            <title>Dialogi liber tertius</title>
+                        </msItem>
+                        <msItem n="1.6">
+                            <locus from="103v" to="108r"/>
+                            <author></author>
+                            <title>Versi</title>
+                        </msItem>
+                        <msItem n="1.7">
+                            <locus from="108r" to="108v"/>
+                            <author></author>
+                            <title>Deposito Sancti Martini</title>
+                        </msItem>
+                        <msItem n="1.8">
+                            <locus from="109r" to="113v"/>
+                            <author></author>
+                            <title>Sermones de transitu</title>
+                        </msItem>
+                        <msItem n="1.9">
+                            <locus from="114r" to="118v"/>
+                            <author>Alkuin</author>
+                            <title>Omelia Albini</title>
+                        </msItem>
+                        <msItem n="1.10">
+                            <locus from="119r" to="120"/>
+                            <author>Gregor von Tours</author>
+                            <title>Vita sancti Briccii</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="120">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="24.5"/>
+                                        <width n="12.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="16.5"/>
+                                        <width n="10.8"/>
+                                    </dimensions> 
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="18"/>
+                                <layout source="Rand">Rote und rot-schwarze Titel</layout>
+                                <layout source="Rand">Einfache rote und rot-schwarze Initialen</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p source="Rand">eine Hand</p>
+                            <p source="Bannister">zwei Hände</p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p></p>
+                        </scriptDesc>
+                        <musicNotation>
+                            <p><locus n="1r">Neumen, nicht um Stil von Tours</locus></p>
+                        </musicNotation>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p source="Bischoff Rand"><origPlace cert="medium">Tours</origPlace></p>
+                            <p source="Rand"><origDate cert="medium" notBefore="0796" notAfter="0810">unter Alkuin oder kurz danach</origDate></p>
+                        </origin>
+                        <provenance type="Provenance"><name type="Kloster"></name></provenance>
+                        <acquisition><name type="Repository"></name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.495</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="126"></biblScope></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="431"></biblScope></bibl>
+                            <bibl><idno>Bischoff 2002</idno><biblScope unit="pp" n=""></biblScope></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body><div type="edition"></div></body></text>
+</TEI>
+
+
