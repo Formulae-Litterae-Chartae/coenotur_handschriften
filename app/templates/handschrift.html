@@ -1,5 +1,142 @@
 {% extends "container.html" %}
 
 {% block body %}
-    <h1>{{title}}</h1>
+    <div class="row">
+        <div class="col">
+            <h1>{{title}}</h1>
+            <table class="table table-hover">
+                <tr>
+                    <th scope="row">Bezeichnung</td>
+                    <td>{{title}}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Alte Signaturen/Katalognummern</td>
+                    <td>{{ m_d['old_sigs']|join('; ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Autor bzw. Sachtitel oder Inhaltsbeschreibung</td>
+                    <td>
+                        {% for a in m_d['contents']['author'] %}
+                            {% if a != '' %}
+                                {{ a }}, 
+                            {% endif %}
+                            {{ m_d['contents']['title'][loop.index0] }}
+                            {% if not loop.last %}; {% endif %}
+                        {% endfor %}
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Sprache</td>
+                    <td>{{ m_d['contents']['language']|join('; ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Thema / Text- bzw. Buchgattung</td>
+                    <td>{{ m_d['contents']['class']|join('; ') }}</td>
+                </tr>
+                <tr>
+                    <th class="text-center" scope="col" colspan="2"><h4>ÄUßERES</h4></td>
+                </tr>
+                <tr>
+                    <th scope="row">Entstehungsort</td>
+                    <td>{{ m_d['origin']['place']|join(' ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Entstehungszeit</td>
+                    <td>{{ m_d['origin']['date']|join(' ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Kommentar zu Ort und Zeit</td>
+                    <td>{{ m_d['origin']['commentary']|join(' ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Überlieferungsform</td>
+                    <td>{{ m_d['obj_form']|capitalize }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Beschreibstoff</td>
+                    <td>{{ m_d['obj_material'] }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Blattzahl</td>
+                    <td>{{ m_d['num_pages'] }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Format</td>
+                    <td>{{ m_d['page_size'] }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lagen</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">Schriftraum</td>
+                    <td>{{ m_d['dim_written'] }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Spalten</td>
+                    <td>{{ m_d['num_columns'] }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Zeilen</td>
+                    <td>{{ m_d['written_lines'] }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Schriftbeschreibung</td>
+                    <td>{{ m_d['script_desc']|join(', ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Angaben zu Schrift / Schreibern</td>
+                    <td>{{ m_d['hand_desc']|join('. ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Layout</td>
+                    <td>{{ m_d['layout_notes']|join('. ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Einband</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">Zustand</td>
+                    <td>{{ m_d['condition']|join('. ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Nachträge und Benutzungsspuren</td>
+                    <td>{{ m_d['additions']|join('. ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Marginalnotizen</td>
+                    <td>{{ m_d['marginal']|join('. ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Exlibris</td>
+                    <td>{{ m_d['exlibris']|join('. ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Provenienz</td>
+                    <td>{{ m_d['provenance']|join('; ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Geschichte der Handschrift</td>
+                    <td>{{ m_d['provenance_notes']|join('. ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Verwendete Bibliographie</td>
+                    <td>{{ m_d['bibliography']|join('; ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Allgemeine Bibliographie</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">Online Beschreibung</td>
+                    <td>{{ m_d['online_description']|join('; ') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Digitalisat</td>
+                    <td>{{ m_d['digital_representations']|join('; ') }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
 {% endblock %}

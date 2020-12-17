@@ -138,11 +138,12 @@
                             <p source="Mostert"><origPlace cert="low">Fleury</origPlace></p>
                             <p source="Bischoff"><origDate cert="medium" notBefore="0800"
                                     notAfter="0825">Anfang 9. Jhd.</origDate></p>
+                            <note>Zuschreibung nach Tours vor allem aufgrund des Exlibris vom 12. Jhd. Überlegungen, die Entstehung der Handschrift in Fleury zu verorten verweisen auf die Neumierungen auf fol. 164r, die floriazensischen Ursprungs sind. Diese Neumen könnten durch eine Ausleihe nach Fleury oder durch einen St-Martin besuchenden floriazensischen Mönch angefertigt worden sein, ohne dass die Entstehung der gesamten Handschrift deshalb in Fleury gesucht werden muss (MOSTERT, mit Verweis auf RAND, sowie DOM BEYSSAC.)</note>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster">St-Martin de
                             Tours</name></provenance>
                         <provenance source="Rand">Entstanden ist die Handschrift vermutlich in <name
-                                type="Kloster">St-Martin de Tours</name>vor den großen Bibeln. Sie
+                                type="Kloster">St-Martin de Tours</name> vor den großen Bibeln. Sie
                             diente womöglich <name type="Abt">Alkuin</name> als Vorbild für seine
                             Text- und vor allem die Designreform der späteren turonischen
                             Bibeln</provenance>
