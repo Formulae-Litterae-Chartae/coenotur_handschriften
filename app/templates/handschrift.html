@@ -38,15 +38,15 @@
                 </tr>
                 <tr>
                     <th scope="row">Entstehungsort</td>
-                    <td>{{ m_d['origin']['place']|join(' ') }}</td>
+                    <td>{{ m_d['origin']['place']|join('; ') }}</td>
                 </tr>
                 <tr>
                     <th scope="row">Entstehungszeit</td>
-                    <td>{{ m_d['origin']['date']|join(' ') }}</td>
+                    <td>{{ m_d['origin']['date']|join('; ') }}</td>
                 </tr>
                 <tr>
                     <th scope="row">Kommentar zu Ort und Zeit</td>
-                    <td>{{ m_d['origin']['commentary']|join(' ') }}</td>
+                    <td>{{ m_d['origin']['commentary']|join('. ') }}</td>
                 </tr>
                 <tr>
                     <th scope="row">Überlieferungsform</td>
@@ -106,11 +106,11 @@
                 </tr>
                 <tr>
                     <th scope="row">Marginalnotizen</td>
-                    <td>{{ m_d['marginal']|join('. ') }}</td>
+                    <td>{{ m_d['marginal']|join('; ') }}</td>
                 </tr>
                 <tr>
                     <th scope="row">Exlibris</td>
-                    <td>{{ m_d['exlibris']|join('. ') }}</td>
+                    <td>{{ m_d['exlibris']|join('; ') }}</td>
                 </tr>
                 <tr>
                     <th scope="row">Provenienz</td>

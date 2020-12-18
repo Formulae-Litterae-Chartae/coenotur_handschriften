@@ -52,12 +52,12 @@ def handschrift(manuscript: str):
                       namespaces=namespaces)
     for p in places:
         metadata['origin']['place'].append('{}{}{}'.format(p.text, '?' if p.get('cert') == 'low' else '',
-                                                           ' (' + p.getparent().get('source').upper().replace(' ', '; ') + ')' if
-                                                           len(places) > 1 else ''))
+                                                           ' (' + p.get('source').upper().replace(' ', '; ') + ')' if
+                                                           len(places) > 1 and p.get('source') else ''))
     for d in dates:
         metadata['origin']['date'].append('{}{}{}'.format(d.text, '?' if d.get('cert') == 'low' else '',
-                                                          ' (' + d.getparent().get('source').upper().replace(' ', '; ') + ')' if
-                                                          len(dates) > 1 else ''))
+                                                          ' (' + d.get('source').upper().replace(' ', '; ') + ')' if
+                                                          len(dates) > 1 and d.get('source') else ''))
     for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:note/text()',
                        namespaces=namespaces):
         metadata['origin']['commentary'].append(c)
@@ -81,9 +81,10 @@ def handschrift(manuscript: str):
                         metadata['dim_written'] = '{} x {}'.format(dim_height[0] + dim_unit if dim_height else '',
                                                                    dim_width[0] + dim_unit if dim_width else '')
             for condition in sup_desc.xpath('tei:condition', namespaces= namespaces):
-                metadata['condition'].append('{}{}'.format(condition.text,
-                                                           ' (' + condition.get('source').upper().replace(' ', '; ') + ')' if
-                                                           condition.get('source') else ''))
+                if condition.text:
+                    metadata['condition'].append('{}{}'.format(condition.text,
+                                                               ' (' + condition.get('source').upper().replace(' ', '; ') + ')' if
+                                                               condition.get('source') else ''))
         for lay_desc in obj_desc.xpath('tei:layoutDesc', namespaces=namespaces):
             for layout in lay_desc.xpath('tei:layout', namespaces=namespaces):
                 if layout.get('columns'):
@@ -91,15 +92,17 @@ def handschrift(manuscript: str):
                 elif layout.get('writtenLines'):
                     metadata['written_lines'] = layout.get('writtenLines')
                 else:
-                    metadata['layout_notes'].append('{}{}'.format(layout.text,
-                                                                  ' (' + layout.get('source').upper().replace(' ', '; ') + ')' if
-                                                                  layout.get('source') else ''))
+                    if layout.text:
+                        metadata['layout_notes'].append('{}{}'.format(layout.text,
+                                                                      ' (' + layout.get('source').upper().replace(' ', '; ') + ')' if
+                                                                      layout.get('source') else ''))
     metadata['script_desc'] = []
     for scr_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:scriptDesc/tei:p',
                               namespaces=namespaces):
-        metadata['script_desc'].append('{}{}'.format(scr_desc.text,
-                                                     ' (' + scr_desc.get('source').upper().replace(' ', '; ') + ')' if
-                                                     scr_desc.get('source') else ''))
+        if scr_desc.text:
+            metadata['script_desc'].append('{}{}'.format(scr_desc.text,
+                                                         ' (' + scr_desc.get('source').upper().replace(' ', '; ') + ')' if
+                                                         scr_desc.get('source') else ''))
     metadata['hand_desc'] = []
     for hand_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:p',
                               namespaces=namespaces):
@@ -121,7 +124,9 @@ def handschrift(manuscript: str):
                                                       adds.xpath('tei:locus/@n', namespaces=namespaces) else '',
                                                       ''.join(adds.xpath('.//text()'))))
         else:
-            metadata['marginal'].append('{}{}'.format(''.join(adds.xpath('.//text()')),
+            metadata['marginal'].append('{}{}{}'.format('fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' ' if
+                                                      adds.xpath('tei:locus/@n', namespaces=namespaces) else '',
+                                                      ''.join(adds.xpath('.//text()')),
                                                       ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
                                                       adds.get('source') else ''))
     metadata['provenance'] = []
