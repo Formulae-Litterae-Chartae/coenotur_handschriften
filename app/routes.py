@@ -21,7 +21,7 @@ material_mapping = {'perg': 'Pergament'}
 @app.route('/')
 @app.route('/index')
 def index():
-    return "Hello, World!"
+    return render_template('index.html')
 
 
 @app.route('/handschriften')
