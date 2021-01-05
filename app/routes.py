@@ -3,6 +3,7 @@ from lxml import etree
 from glob import glob
 import os
 from flask import render_template
+import re
 
 dirname = os.path.dirname(__file__)
 
@@ -37,14 +38,36 @@ def handschrift(manuscript: str):
     for alt_id in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier',
                             namespaces=namespaces):
         metadata['old_sigs'].append('{} {}'.format(alt_id.get('source'), ' '.join(alt_id.xpath('tei:idno/text()', namespaces=namespaces))))
-    metadata['contents'] = {'class': [], 'author': [], 'title': [], 'language': []}
+    metadata['contents'] = []
     for item in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem',
                           namespaces=namespaces):
-        metadata['contents']['class'].append(item.get('class'))
-        metadata['contents']['author'].append(', '.join(item.xpath('tei:author/text()', namespaces=namespaces)))
-        metadata['contents']['title'].append(', '.join(item.xpath('tei:title/text()', namespaces=namespaces)))
-        metadata['contents']['language'].append(', '.join([language_mapping.get(x.get('mainLang'), x.get('mainLang'))
-                                                           for x in item.xpath('tei:textLang', namespaces=namespaces)]))
+        item_dict = {'class': '', 'author': '', 'title': '', 'language': '', 'locus': '', 'parts': []}
+        if item.get('class'):
+            item_dict['class'] = item.get('class')
+        item_dict['author'] = ', '.join(item.xpath('tei:author/text()', namespaces=namespaces))
+        item_dict['title'] = ', '.join(item.xpath('tei:title/text()', namespaces=namespaces))
+        if item.xpath('tei:textLang', namespaces=namespaces):
+            for x in item.xpath('tei:textLang', namespaces=namespaces):
+                item_dict['language'] = ', '.join([language_mapping.get(x.get('mainLang'), x.get('mainLang'))])
+        loci = []
+        for l in item.xpath('tei:locus', namespaces=namespaces):
+            if l.get('from'):
+                loci.append('{}{}'.format(l.get('from'), '-' + l.get('to') if l.get('to') else ''))
+            else:
+                loci.append(l.get('n', ''))
+        item_dict['locus'] = '/'.join(loci)
+        for sub_item in item.xpath('tei:msItem', namespaces=namespaces):
+            sub_item_info = {'title': '', 'locus': ''}
+            sub_item_info['title'] = ', '.join(sub_item.xpath('tei:title/text()', namespaces=namespaces))
+            sub_loci = []
+            for l in sub_item.xpath('tei:locus', namespaces=namespaces):
+                if l.get('from'):
+                    sub_loci.append('{}{}'.format(l.get('from'), '-' + l.get('to') if l.get('to') else ''))
+                else:
+                    sub_loci.append(l.get('n', ''))
+            sub_item_info['locus'] = '/'.join(sub_loci)
+            item_dict['parts'].append(sub_item_info)
+        metadata['contents'].append(item_dict)
     metadata['origin'] = {'place': [], 'date': [], 'commentary': []}
     places = xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p/tei:origPlace',
                        namespaces=namespaces)
@@ -182,5 +205,7 @@ def handschrift(manuscript: str):
     metadata['binding'] = []
     for bind in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:bindingDesc',
                           namespaces=namespaces):
-        metadata['binding'].append(' '.join(bind.xpath('.//text()')))
+        binding_text = ' '.join(bind.xpath('.//text()')).strip()
+        if binding_text:
+            metadata['binding'].append(re.sub(r'\s+', ' ', binding_text))
     return render_template('handschrift.html', title=name_dict[manuscript], m_d=metadata)

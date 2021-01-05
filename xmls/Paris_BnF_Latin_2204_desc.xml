@@ -29,45 +29,46 @@
                </msIdentifier>
                <msContents>
                   <msItem class="Hagiographie">
+                     <locus from="10r" to="208v"/>
                      <author>Gregor von Tours</author>
                      <title>Libri octo miraculorum</title>
                      <textLang mainLang="la"/>
-                  </msItem>
-                  <msItem n="1.1">
-                     <locus from="10r"/>
-                     <title>Liber in gloriam martyrum</title>
-                  </msItem>
-                  <msItem n="1.2">
-                     <locus from="10v"/>
-                     <title>Liber Primus</title>
-                  </msItem>
-                  <msItem n="1.3">
-                     <locus from="54r" to="69v"/>
-                     <title>Passione et Virtutibus Sancti Iuliani Martyris</title>
-                  </msItem>
-                  <msItem n="1.4">
-                     <locus from="69v" to="84r"/>
-                     <title>De Virtutibus Sancti Martini</title>
-                  </msItem>
-                  <msItem n="1.5">
-                     <locus from="84r" to="100v"/>
-                     <title>Liber Secundus</title>
-                  </msItem>
-                  <msItem n="1.6">
-                     <locus from="100v" to="114r"/>
-                     <title>Liber Tertius</title>
-                  </msItem>
-                  <msItem n="1.7">
-                     <locus from="114r" to="123r"/>
-                     <title>Liber Quartus</title>
-                  </msItem>
-                  <msItem n="1.8">
-                     <locus from="123r" to="172r"/>
-                     <title>Liber Vitae Patrum</title>
-                  </msItem>
-                  <msItem n="1.9">
-                     <locus from="172r" to="208v"/>
-                     <title>Liber in gloria confessorum</title>
+                     <msItem n="1.1">
+                        <locus n="10r"/>
+                        <title>Liber in gloriam martyrum</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus n="10v"/>
+                        <title>Liber Primus</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="54r" to="69v"/>
+                        <title>Passione et Virtutibus Sancti Iuliani Martyris</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="69v" to="84r"/>
+                        <title>De Virtutibus Sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="84r" to="100v"/>
+                        <title>Liber Secundus</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="100v" to="114r"/>
+                        <title>Liber Tertius</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="114r" to="123r"/>
+                        <title>Liber Quartus</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="123r" to="172r"/>
+                        <title>Liber Vitae Patrum</title>
+                     </msItem>
+                     <msItem n="1.9">
+                        <locus from="172r" to="208v"/>
+                        <title>Liber in gloria confessorum</title>
+                     </msItem>
                   </msItem>
                   <msItem class="Hagiographie">
                      <locus from="209r" to="215v"/>
@@ -123,7 +124,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Westfrankreich</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                        >9. Jhd., ca. 1./2. Viertel</origDate></p>
+                           >9. Jhd., ca. 1./2. Viertel</origDate></p>
                      <p>Wenig scheint gesichert. Die Handschrift sieht nicht besonders turonisch
                         aus.</p>
                   </origin>

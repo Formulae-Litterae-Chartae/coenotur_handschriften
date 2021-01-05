@@ -15,30 +15,30 @@
                     <td>{{ m_d['old_sigs']|join('; ') }}</td>
                 </tr>
                 {% endif %}
-                {% if m_d['contents']['author'] %}
+                {% if m_d['contents'] %}
                 <tr>
                     <th scope="row">Autor bzw. Sachtitel oder Inhaltsbeschreibung</th>
                     <td>
-                        {% for a in m_d['contents']['author'] %}
-                            {% if a != '' %}
-                                {{ a }}, 
-                            {% endif %}
-                            {{ m_d['contents']['title'][loop.index0] }}
-                            {% if not loop.last %}; {% endif %}
+                        <ul class="list-unstyled mb-0">
+                        {% for i in m_d['contents'] %}
+                        <li>{% if i['locus'] %}{{ i['locus'] }} - {% endif %}{% if i['author'] != '' %}{{ i['author'] }}, {% endif %}{{ i['title'] }}
+                            {% for sub_i in i['parts'] %}
+                                {% if loop.first %}<ul>{% endif %}
+                            <li>{{ sub_i['locus'] }} - {{ sub_i['title'] }}</li>
+                                {% if loop.last %}</ul>{% endif %}
+                            {% endfor %}
+                        </li>
                         {% endfor %}
+                        </ul>
                     </td>
                 </tr>
-                {% endif %}
-                {% if m_d['contents']['language'] %}
                 <tr>
                     <th scope="row">Sprache</th>
-                    <td>{{ m_d['contents']['language']|join('; ') }}</td>
+                    <td>{% for i in m_d['contents']|unique(attribute="language") %}{{ i['language'] }}{% if not loop.last %}, {% endif %}{% endfor %}</td>
                 </tr>
-                {% endif %}
-                {% if m_d['contents']['class'] %}
                 <tr>
                     <th scope="row">Thema / Text- bzw. Buchgattung</th>
-                    <td>{{ m_d['contents']['class']|join('; ') }}</td>
+                    <td>{% for i in m_d['contents']|unique(attribute="class") %}{{ i['class'] }}{% if not loop.last %}, {% endif %}{% endfor %}</td>
                 </tr>
                 {% endif %}
                 <tr>

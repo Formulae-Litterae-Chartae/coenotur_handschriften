@@ -35,13 +35,10 @@
                </msIdentifier>
                <msContents>
                   <msItem class="Bibel">
+                     <locus from="1v" to="61v"/>
                      <author/>
-                     <title/>
+                     <title>Altes Testament, unvollständig</title>
                      <textLang mainLang="la"/>
-                     <msItem>
-                        <locus from="1v" to="61v"/>
-                        <title>Altes Testament, unvollständig</title>
-                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
