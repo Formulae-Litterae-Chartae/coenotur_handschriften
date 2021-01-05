@@ -6,15 +6,18 @@
             <h1>{{title}}</h1>
             <table class="table table-hover">
                 <tr>
-                    <th scope="row">Bezeichnung</td>
+                    <th scope="row">Bezeichnung</th>
                     <td>{{title}}</td>
                 </tr>
+                {% if m_d['old_sigs'] %}
                 <tr>
-                    <th scope="row">Alte Signaturen/Katalognummern</td>
+                    <th scope="row">Alte Signaturen/Katalognummern</th>
                     <td>{{ m_d['old_sigs']|join('; ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['contents']['author'] %}
                 <tr>
-                    <th scope="row">Autor bzw. Sachtitel oder Inhaltsbeschreibung</td>
+                    <th scope="row">Autor bzw. Sachtitel oder Inhaltsbeschreibung</th>
                     <td>
                         {% for a in m_d['contents']['author'] %}
                             {% if a != '' %}
@@ -25,117 +28,163 @@
                         {% endfor %}
                     </td>
                 </tr>
+                {% endif %}
+                {% if m_d['contents']['language'] %}
                 <tr>
-                    <th scope="row">Sprache</td>
+                    <th scope="row">Sprache</th>
                     <td>{{ m_d['contents']['language']|join('; ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['contents']['class'] %}
                 <tr>
-                    <th scope="row">Thema / Text- bzw. Buchgattung</td>
+                    <th scope="row">Thema / Text- bzw. Buchgattung</th>
                     <td>{{ m_d['contents']['class']|join('; ') }}</td>
                 </tr>
+                {% endif %}
                 <tr>
                     <th class="text-center" scope="col" colspan="2"><h4>ÄUßERES</h4></td>
                 </tr>
+                {% if m_d['origin']['place'] %}
                 <tr>
-                    <th scope="row">Entstehungsort</td>
+                    <th scope="row">Entstehungsort</th>
                     <td>{{ m_d['origin']['place']|join('; ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['origin']['date'] %}
                 <tr>
-                    <th scope="row">Entstehungszeit</td>
+                    <th scope="row">Entstehungszeit</th>
                     <td>{{ m_d['origin']['date']|join('; ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['origin']['commentary'] %}
                 <tr>
-                    <th scope="row">Kommentar zu Ort und Zeit</td>
+                    <th scope="row">Kommentar zu Ort und Zeit</th>
                     <td>{{ m_d['origin']['commentary']|join('. ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['obj_form'] %}
                 <tr>
-                    <th scope="row">Überlieferungsform</td>
+                    <th scope="row">Überlieferungsform</th>
                     <td>{{ m_d['obj_form']|capitalize }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['obj_material'] %}
                 <tr>
-                    <th scope="row">Beschreibstoff</td>
+                    <th scope="row">Beschreibstoff</th>
                     <td>{{ m_d['obj_material'] }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['num_pages'] %}
                 <tr>
-                    <th scope="row">Blattzahl</td>
+                    <th scope="row">Blattzahl</th>
                     <td>{{ m_d['num_pages'] }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['page_size'] %}
                 <tr>
-                    <th scope="row">Format</td>
+                    <th scope="row">Format</th>
                     <td>{{ m_d['page_size'] }}</td>
                 </tr>
+                {% endif %}
                 <tr>
-                    <th scope="row">Lagen</td>
+                    <th scope="row">Lagen</th>
                     <td></td>
                 </tr>
+                {% if m_d['dim_written'] %}
                 <tr>
-                    <th scope="row">Schriftraum</td>
+                    <th scope="row">Schriftraum</th>
                     <td>{{ m_d['dim_written'] }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['num_columns'] %}
                 <tr>
-                    <th scope="row">Spalten</td>
+                    <th scope="row">Spalten</th>
                     <td>{{ m_d['num_columns'] }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['written_lines'] %}
                 <tr>
-                    <th scope="row">Zeilen</td>
+                    <th scope="row">Zeilen</th>
                     <td>{{ m_d['written_lines'] }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['script_desc'] %}
                 <tr>
-                    <th scope="row">Schriftbeschreibung</td>
+                    <th scope="row">Schriftbeschreibung</th>
                     <td>{{ m_d['script_desc']|join(', ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['hand_desc'] %}
                 <tr>
-                    <th scope="row">Angaben zu Schrift / Schreibern</td>
+                    <th scope="row">Angaben zu Schrift / Schreibern</th>
                     <td>{{ m_d['hand_desc']|join('. ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['layout_notes'] %}
                 <tr>
-                    <th scope="row">Layout</td>
+                    <th scope="row">Layout</th>
                     <td>{{ m_d['layout_notes']|join('. ') }}</td>
                 </tr>
+                {% endif %}
                 <tr>
-                    <th scope="row">Einband</td>
+                    <th scope="row">Einband</th>
                     <td></td>
                 </tr>
+                {% if m_d['condition'] %}
                 <tr>
-                    <th scope="row">Zustand</td>
+                    <th scope="row">Zustand</th>
                     <td>{{ m_d['condition']|join('. ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['marginal'] %}
                 <tr>
-                    <th scope="row">Nachträge und Benutzungsspuren</td>
-                    <td>{{ m_d['additions']|join('. ') }}</td>
+                    {% for n in m_d['marginal'] %}
+                        {% if loop.first %}
+                        <th scope="row">Ergänzungen und Benutzungsspuren</th>
+                        <td>{{ n }}</td>
+                        {% else %}
+                        <th scope="row"></th>
+                        <td>{{ n }}</td>
+                        {% endif %}
+                    {% endfor %}
                 </tr>
+                {% endif %}
+                {% if m_d['exlibris'] %}
                 <tr>
-                    <th scope="row">Marginalnotizen</td>
-                    <td>{{ m_d['marginal']|join('; ') }}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Exlibris</td>
+                    <th scope="row">Exlibris</th>
                     <td>{{ m_d['exlibris']|join('; ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['provenance'] %}
                 <tr>
-                    <th scope="row">Provenienz</td>
+                    <th scope="row">Provenienz</th>
                     <td>{{ m_d['provenance']|join('; ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['provenance_notes'] %}
                 <tr>
-                    <th scope="row">Geschichte der Handschrift</td>
+                    <th scope="row">Geschichte der Handschrift</th>
                     <td>{{ m_d['provenance_notes']|join('. ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['bibliography'] %}
                 <tr>
-                    <th scope="row">Verwendete Bibliographie</td>
+                    <th scope="row">Bibliographie</th>
                     <td>{{ m_d['bibliography']|join('; ') }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['online_description'] %}
                 <tr>
-                    <th scope="row">Allgemeine Bibliographie</td>
-                    <td></td>
+                    <th scope="row">Online Beschreibung</th>
+                    <td>{{ m_d['online_description']|join('; ')|safe }}</td>
                 </tr>
+                {% endif %}
+                {% if m_d['digital_representations'] %}
                 <tr>
-                    <th scope="row">Online Beschreibung</td>
-                    <td>{{ m_d['online_description']|join('; ') }}</td>
+                    <th scope="row">Digitalisat</th>
+                    <td>{{ m_d['digital_representations']|join('; ')|safe }}</td>
                 </tr>
-                <tr>
-                    <th scope="row">Digitalisat</td>
-                    <td>{{ m_d['digital_representations']|join('; ') }}</td>
-                </tr>
+                {% endif %}
             </table>
         </div>
     </div>

@@ -3,7 +3,7 @@
     <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
-                <title>Rom, Vat., </title>
+                <title>Rom, Vat., Reg. Lat. 762</title>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -17,31 +17,31 @@
                         <collection/>
                         <idno>Reg. Lat. 762</idno>
                         <altIdentifier source="Colbert">
-                            <idno></idno>
+                            <idno/>
                         </altIdentifier>
                         <altIdentifier source="Faure">
-                            <idno></idno>
+                            <idno/>
                         </altIdentifier>
                         <altIdentifier source="Regius">
-                            <idno></idno>
+                            <idno/>
                         </altIdentifier>
                         <altIdentifier source="Dupuy">
-                            <idno></idno>
+                            <idno/>
                         </altIdentifier>
                         <altIdentifier source="Rigault">
-                            <idno></idno>
+                            <idno/>
                         </altIdentifier>
                         <altIdentifier source="Hurault">
-                            <idno></idno>
+                            <idno/>
                         </altIdentifier>
                         <altIdentifier source="Jean de Gagny">
-                            <idno></idno>
+                            <idno/>
                         </altIdentifier>
                         <altIdentifier source="Rand">
                             <idno>16</idno>
                         </altIdentifier>
                         <altIdentifier source="Köhler">
-                            <idno></idno>
+                            <idno/>
                         </altIdentifier>
                         <altIdentifier source="Bischoff">
                             <idno>6730</idno>
@@ -69,48 +69,74 @@
                                         <width n="16.4"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="27 30">29 (27, 28, 30)</layout>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p source="Rand">Acht Schreiber, deren Namen am Ende der Lagen genanntn werden</p>
-                            <p><name type="scribe">Gyslarius</name>, <name type="scribe">Aldo</name>, <name type="scribe">Fredegaudus</name>, <name type="scribe">Nauto</name>, <name type="scribe">Theogrimnus</name>, <name type="scribe">Theodegrimnus</name>, <name type="scribe">Ansoaldus</name>, <name type="scribe">Landemarus</name>.</p>
-                            <p source="Rand">Der Teil on Landemarus ist die Arbeit von zwei Schreibern</p>
+                            <p source="Rand">Acht Schreiber, deren Namen am Ende der Lagen genanntn
+                                werden</p>
+                            <p><name type="scribe">Gyslarius</name>, <name type="scribe"
+                                >Aldo</name>, <name type="scribe">Fredegaudus</name>, <name
+                                    type="scribe">Nauto</name>, <name type="scribe"
+                                    >Theogrimnus</name>, <name type="scribe">Theodegrimnus</name>,
+                                    <name type="scribe">Ansoaldus</name>, <name type="scribe"
+                                    >Landemarus</name>.</p>
+                            <p source="Rand">Der Teil on Landemarus ist die Arbeit von zwei
+                                Schreibern</p>
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand">Verbesserte Kursive</p>
-                            </scriptDesc>
+                        </scriptDesc>
                         <decoDesc>
                             <decoNote>
                                 <locus n=""/>
-                                <p></p>
+                                <p/>
                             </decoNote>
                         </decoDesc>
                         <additions>
                             <p>Wenige Benutzungsspuren und Nachträge</p>
                             <p n="Korrekturen">Einzelne Korrekturhände</p>
-                            <p source="Colophones">Neben den genannten Schreibern finden sich auch einzelne andere Namensangaben. Hierbei handelt es sich vermutlich um die Zuordnung späterer Schreiber, die die Handschrift erneut abschreiben sollten.</p>
+                            <p source="Colophones">Neben den genannten Schreibern finden sich auch
+                                einzelne andere Namensangaben. Hierbei handelt es sich vermutlich um
+                                die Zuordnung späterer Schreiber, die die Handschrift erneut
+                                abschreiben sollten.</p>
                             <p n="Exlibris"><locus n=""/></p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="high"><name type="Gemeinschaft">St-Martin de Tours</name></origPlace></p>
-                            <p source="Bischoff"><origDate cert="high" notBefore="0800" notAfter="0840"/>um 800, vermutlich zu Beginn des Abbatiats von Fridugisus (804-834)</p>
-                            <p>Durch die Nennung der Schreiber, deren Namen auch im Sankt Galler Verbrüderungsbuch zu finden sind, mit sicher nach Saint Martin zu verorten und zu Beginn des 9. Jahrhunderts zu datieren. Da das Verbrüderungsbuch zur Zeit Fridugisus angelegt wurde, erscheint eine Datierung auf seine Regierungszeit wahrscheinlich. Dagegen spricht die Schriftentwicklung, die eine Stufe vor den großen Prachtbibeln darstellt. Da dieser unter Alkuin entstanden aber erst unter Fridugisus seine volle Wirksamkeit entfaltete, erscheint eine Datierung auf die Anfangsjahre Fridugisus oder sehr kurz davor wahrscheinlich.</p>
+                            <p><origPlace cert="high"><name type="Gemeinschaft">St-Martin de
+                                        Tours</name></origPlace></p>
+                            <p source="Bischoff"><origDate cert="high" notBefore="0800"
+                                    notAfter="0840"/>um 800, vermutlich zu Beginn des Abbatiats von
+                                Fridugisus (804-834)</p>
+                            <p>Durch die Nennung der Schreiber, deren Namen auch im Sankt Galler
+                                Verbrüderungsbuch zu finden sind, mit sicher nach Saint Martin zu
+                                verorten und zu Beginn des 9. Jahrhunderts zu datieren. Da das
+                                Verbrüderungsbuch zur Zeit Fridugisus angelegt wurde, erscheint eine
+                                Datierung auf seine Regierungszeit wahrscheinlich. Dagegen spricht
+                                die Schriftentwicklung, die eine Stufe vor den großen Prachtbibeln
+                                darstellt. Da dieser unter Alkuin entstanden aber erst unter
+                                Fridugisus seine volle Wirksamkeit entfaltete, erscheint eine
+                                Datierung auf die Anfangsjahre Fridugisus oder sehr kurz davor
+                                wahrscheinlich.</p>
                         </origin>
-                        <provenance source="Rand" type="Provenance" cert="low">Umgebung von <name type="Gemeinschaft">Fleury</name></provenance>
-                        <provenance>Die Handschrift war im Besitz von <name type="person">Alexandre Petau</name></provenance>
-                        <provenance>Von dort gelangte sie in den Besitz der Königin <name type="person">Christina on Schweden</name></provenance>
-                        <acquisition>Von dort gelangt sie an die <name type="Repository">Vatikanische Bibliothek</name></acquisition>
+                        <provenance source="Rand" type="Provenance" cert="low">Umgebung von <name
+                                type="Gemeinschaft">Fleury</name></provenance>
+                        <provenance>Die Handschrift war im Besitz von <name type="person">Alexandre
+                                Petau</name></provenance>
+                        <provenance>Von dort gelangte sie in den Besitz der Königin <name
+                                type="person">Christina on Schweden</name></provenance>
+                        <acquisition>Von dort gelangt sie an die <name type="Repository"
+                                >Vatikanische Bibliothek</name></acquisition>
                     </history>
                     <additional>
                         <surrogates>
@@ -120,9 +146,12 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.762</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="96" to="97"/></bibl>
-                            <bibl><idno>Colophons de manuscrits Bd. 5 1979</idno><biblScope unit="pp" n="489"></biblScope></bibl>
+                            <bibl><title>Online Beschreibung</title>:
+                                    <idno>https://opac.vatlib.it/mss/detail/Reg.lat.762</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="96" to="97"
+                                /></bibl>
+                            <bibl><idno>Colophons de manuscrits Bd. 5 1979</idno><biblScope
+                                    unit="pp" n="489"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="435"/></bibl>
                         </listBibl>
                     </additional>

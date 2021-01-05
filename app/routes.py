@@ -51,13 +51,15 @@ def handschrift(manuscript: str):
     dates = xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p/tei:origDate',
                       namespaces=namespaces)
     for p in places:
-        metadata['origin']['place'].append('{}{}{}'.format(p.text, '?' if p.get('cert') == 'low' else '',
-                                                           ' (' + p.get('source').upper().replace(' ', '; ') + ')' if
-                                                           len(places) > 1 and p.get('source') else ''))
+        if p.xpath('.//text()'):
+            metadata['origin']['place'].append('{}{}{}'.format(' '.join(p.xpath('.//text()')), '?' if p.get('cert') == 'low' else '',
+                                                               ' (' + p.get('source').upper().replace(' ', '; ') + ')' if
+                                                               len(places) > 1 and p.get('source') else ''))
     for d in dates:
-        metadata['origin']['date'].append('{}{}{}'.format(d.text, '?' if d.get('cert') == 'low' else '',
-                                                          ' (' + d.get('source').upper().replace(' ', '; ') + ')' if
-                                                          len(dates) > 1 and d.get('source') else ''))
+        if d.xpath('.//text()'):
+            metadata['origin']['date'].append('{}{}{}'.format(' '.join(d.xpath('.//text()')), '?' if d.get('cert') == 'low' else '',
+                                                              ' (' + d.get('source').upper().replace(' ', '; ') + ')' if
+                                                              len(dates) > 1 and d.get('source') else ''))
     for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:note/text()',
                        namespaces=namespaces):
         metadata['origin']['commentary'].append(c)
@@ -75,11 +77,11 @@ def handschrift(manuscript: str):
                     dim_height = dimension.xpath('tei:height/@n', namespaces=namespaces)
                     dim_width = dimension.xpath('tei:width/@n', namespaces=namespaces)
                     if dimension.get('type') == 'leaf':
-                        metadata['page_size'] = '{} x {}'.format(dim_height[0] + dim_unit if dim_height else '',
-                                                                 dim_width[0] + dim_unit if dim_width else '')
+                        metadata['page_size'] = '{} x {}'.format(dim_height[0] + ' ' +  dim_unit if dim_height else '',
+                                                                 dim_width[0] + ' ' + dim_unit if dim_width else '')
                     if dimension.get('type') == 'written':
-                        metadata['dim_written'] = '{} x {}'.format(dim_height[0] + dim_unit if dim_height else '',
-                                                                   dim_width[0] + dim_unit if dim_width else '')
+                        metadata['dim_written'] = '{} x {}'.format(dim_height[0] + ' ' + dim_unit if dim_height else '',
+                                                                   dim_width[0] + ' ' + dim_unit if dim_width else '')
             for condition in sup_desc.xpath('tei:condition', namespaces= namespaces):
                 if condition.text:
                     metadata['condition'].append('{}{}'.format(condition.text,
@@ -88,9 +90,15 @@ def handschrift(manuscript: str):
         for lay_desc in obj_desc.xpath('tei:layoutDesc', namespaces=namespaces):
             for layout in lay_desc.xpath('tei:layout', namespaces=namespaces):
                 if layout.get('columns'):
-                    metadata['num_columns'] = layout.get('columns')
+                    if layout.text:
+                        metadata['num_columns'] = layout.text
+                    else:
+                        metadata['num_columns'] = layout.get('columns')
                 elif layout.get('writtenLines'):
-                    metadata['written_lines'] = layout.get('writtenLines')
+                    if layout.text:
+                        metadata['written_lines'] = layout.text
+                    else:
+                        metadata['written_lines'] = layout.get('writtenLines')
                 else:
                     if layout.text:
                         metadata['layout_notes'].append('{}{}'.format(layout.text,
@@ -109,26 +117,29 @@ def handschrift(manuscript: str):
         metadata['hand_desc'].append('{}{}'.format(hand_desc.text,
                                                    ' (' + hand_desc.get('source').upper().replace(' ', '; ') + ')'
                                                    if hand_desc.get('source') else ''))
-    metadata['additions'] = []
-    for music in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:musicNotation/tei:p',
-                           namespaces=namespaces):
-        metadata['additions'].append('{}{}'.format('fol. ' + music.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' ' if
-                                                   music.xpath('tei:locus/@n', namespaces=namespaces) else '',
-                                                   ''.join(music.xpath('.//text()'))))
     metadata['marginal'] = []
+    for adds in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:musicNotation/tei:p',
+                           namespaces=namespaces):
+        if adds.xpath('tei:locus/@n', namespaces=namespaces) and adds.xpath('tei:locus/@n', namespaces=namespaces)[0]:
+            metadata['marginal'].append('{}{}{}'.format('fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' ' if
+                                                        adds.xpath('tei:locus/@n', namespaces=namespaces) else '',
+                                                        ''.join(adds.xpath('.//text()')),
+                                                        ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
+                                                        adds.get('source') else ''))
     metadata['exlibris'] = []
     for adds in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:additions/tei:p',
                           namespaces=namespaces):
-        if adds.get('n') == 'Exlibris':
-            metadata['exlibris'].append('{}{}'.format('fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' ' if
-                                                      adds.xpath('tei:locus/@n', namespaces=namespaces) else '',
-                                                      ''.join(adds.xpath('.//text()'))))
-        else:
-            metadata['marginal'].append('{}{}{}'.format('fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' ' if
-                                                      adds.xpath('tei:locus/@n', namespaces=namespaces) else '',
-                                                      ''.join(adds.xpath('.//text()')),
-                                                      ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
-                                                      adds.get('source') else ''))
+        if adds.xpath('tei:locus/@n', namespaces=namespaces) and adds.xpath('tei:locus/@n', namespaces=namespaces)[0]:
+            if adds.get('n') == 'Exlibris':
+                metadata['exlibris'].append('{}{}'.format('fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' ' if
+                                                          adds.xpath('tei:locus/@n', namespaces=namespaces) else '',
+                                                          ''.join(adds.xpath('.//text()'))))
+            else:
+                metadata['marginal'].append('{}{}{}'.format('fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' ' if
+                                                          adds.xpath('tei:locus/@n', namespaces=namespaces) else '',
+                                                          ''.join(adds.xpath('.//text()')),
+                                                          ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
+                                                          adds.get('source') else ''))
     metadata['provenance'] = []
     metadata['provenance_notes'] = []
     for provenance in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance',
@@ -145,13 +156,26 @@ def handschrift(manuscript: str):
     for bibl in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional//tei:bibl',
                           namespaces=namespaces):
         if 'Online Beschreibung' in ''.join(bibl.xpath('.//text()')):
-            metadata['online_description'].append(bibl.xpath('tei:idno/text()', namespaces=namespaces)[0] if
-                                                  bibl.xpath('tei:idno/text()', namespaces=namespaces) else '')
+            for b in bibl.xpath('tei:idno/text()', namespaces=namespaces):
+                if b.startswith('http'):
+                    text = '<a href="{link}" target="_blank">{link}</a>'.format(link=b)
+                else:
+                    text = b
+            metadata['online_description'].append(text)
         elif 'Digitalisat' in ''.join(bibl.xpath('.//text()')):
-            metadata['digital_representations'].append('; '.join(bibl.xpath('tei:idno/text()', namespaces=namespaces)))
+            texts = []
+            for b in bibl.xpath('tei:idno/text()', namespaces=namespaces):
+                if b.startswith('http'):
+                    texts.append('<a href="{link}" target="_blank">{link}</a>'.format(link=b))
+                else:
+                    texts.append(b)
+            metadata['digital_representations'].append('; '.join(texts))
         else:
-            metadata['bibliography'].append('{}, {}'.format(bibl.xpath('tei:idno/text()', namespaces=namespaces)[0].upper() if
-                                            bibl.xpath('tei:idno/text()', namespaces=namespaces) else '',
-                                            bibl.xpath('tei:biblScope/@n', namespaces=namespaces)[0].replace(' ', '-') if
-                                            bibl.xpath('tei:biblScope', namespaces=namespaces) else ''))
+            title = bibl.xpath('tei:idno/text()', namespaces=namespaces)[0].upper() if bibl.xpath('tei:idno/text()', namespaces=namespaces) else ''
+            pages = ''
+            if bibl.xpath('tei:biblScope/@n', namespaces=namespaces):
+                pages = bibl.xpath('tei:biblScope/@n', namespaces=namespaces)[0].replace(' ', '-')
+            elif bibl.xpath('tei:biblScope/@from', namespaces=namespaces):
+                pages = bibl.xpath('tei:biblScope/@from', namespaces=namespaces)[0] + '-' + bibl.xpath('tei:biblScope/@to', namespaces=namespaces)[0]
+            metadata['bibliography'].append('{}{}'.format(title, ', S. ' + pages if pages else ''))
     return render_template('handschrift.html', title=name_dict[manuscript], m_d=metadata)
