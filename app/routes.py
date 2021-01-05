@@ -144,12 +144,13 @@ def handschrift(manuscript: str):
     metadata['provenance_notes'] = []
     for provenance in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance',
                                 namespaces=namespaces):
-        if provenance.get('type') == 'Provenance':
-            metadata['provenance'].append(''.join(provenance.xpath('.//text()')))
-        else:
-            metadata['provenance_notes'].append('{}{}'.format(''.join(provenance.xpath('.//text()')),
-                                                              ' (' + provenance.get('source').upper().replace(' ', '; ') + ')' if
-                                                              provenance.get('source') else ''))
+        if provenance.xpath('.//text()'):
+            if provenance.get('type') == 'Provenance':
+                metadata['provenance'].append(''.join(provenance.xpath('.//text()')))
+            else:
+                metadata['provenance_notes'].append('{}{}'.format(''.join(provenance.xpath('.//text()')),
+                                                                  ' (' + provenance.get('source').upper().replace(' ', '; ') + ')' if
+                                                                  provenance.get('source') else ''))
     metadata['bibliography'] = []
     metadata['online_description'] = []
     metadata['digital_representations'] = []
@@ -161,7 +162,7 @@ def handschrift(manuscript: str):
                     text = '<a href="{link}" target="_blank">{link}</a>'.format(link=b)
                 else:
                     text = b
-            metadata['online_description'].append(text)
+                metadata['online_description'].append(text)
         elif 'Digitalisat' in ''.join(bibl.xpath('.//text()')):
             texts = []
             for b in bibl.xpath('tei:idno/text()', namespaces=namespaces):
@@ -178,4 +179,8 @@ def handschrift(manuscript: str):
             elif bibl.xpath('tei:biblScope/@from', namespaces=namespaces):
                 pages = bibl.xpath('tei:biblScope/@from', namespaces=namespaces)[0] + '-' + bibl.xpath('tei:biblScope/@to', namespaces=namespaces)[0]
             metadata['bibliography'].append('{}{}'.format(title, ', S. ' + pages if pages else ''))
+    metadata['binding'] = []
+    for bind in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:bindingDesc',
+                          namespaces=namespaces):
+        metadata['binding'].append(' '.join(bind.xpath('.//text()')))
     return render_template('handschrift.html', title=name_dict[manuscript], m_d=metadata)

@@ -86,10 +86,6 @@
                     <td>{{ m_d['page_size'] }}</td>
                 </tr>
                 {% endif %}
-                <tr>
-                    <th scope="row">Lagen</th>
-                    <td></td>
-                </tr>
                 {% if m_d['dim_written'] %}
                 <tr>
                     <th scope="row">Schriftraum</th>
@@ -126,10 +122,12 @@
                     <td>{{ m_d['layout_notes']|join('. ') }}</td>
                 </tr>
                 {% endif %}
+                {% if m_d['binding'] %}
                 <tr>
                     <th scope="row">Einband</th>
-                    <td></td>
+                    <td>{{ m_d['binding']|join('. ') }}</td>
                 </tr>
+                {% endif %}
                 {% if m_d['condition'] %}
                 <tr>
                     <th scope="row">Zustand</th>
