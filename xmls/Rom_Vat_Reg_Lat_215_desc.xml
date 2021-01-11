@@ -75,13 +75,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p source="Traube 1901"><origPlace cert="low">Tours</origPlace></p>
-                            <p source="Traube 1892"><origPlace cert="low">Laon</origPlace></p>
-                            <p source="Contreni"><origPlace cert="unknown">unklar, Fleuy oder Tours eher als Laon</origPlace></p>
-                            <p source="Contreni"><origDate cert="high" notBefore="0877" notAfter="0900">9. Jhd. nach 877</origDate></p>
+                            <p><origPlace source="Traube 1901" cert="low">Tours</origPlace></p>
+                            <p><origPlace source="Traube 1892" cert="low">Laon</origPlace></p>
+                            <p><origPlace source="Contreni" cert="unknown">unklar, Fleuy oder Tours eher als Laon</origPlace></p>
+                            <p><origDate source="Contreni" cert="high" notBefore="0877" notAfter="0900">9. Jhd. nach 877</origDate></p>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                        <provenance>Vermutlich nicht in St-Martin entstanden, aber war sicher Bestandteil der dortigen Bibliothek, wie das Exlibris belegt.</provenance>
+                        <provenance>Vermutlich nicht in St-Martin entstanden, war die Handschrift sicher Bestandteil der dortigen Bibliothek, wie das Exlibris belegt.</provenance>
                         <acquisition><name type="Repository"></name></acquisition>
                     </history>
                     <additional>

@@ -107,17 +107,17 @@
                         <layout columns="2"/>
                         <layout writtenLines="51 52">51 (52)</layout>
                         <layout>
-                           <p>Rote und schwarze Titel</p>
-                           <p>Teilweise blaue Tinte zur Markierung der Schrifthierarchie</p>
-                           <p>Initialen von Gold auf Purpur.</p>
+                           <p>rote und schwarze Titel</p>
+                           <p>teilweise blaue Tinte zur Markierung der Schrifthierarchie</p>
+                           <p>Initialen von Gold auf Purpur</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">Mindestens 8 Hände.</p>
+                     <p source="Rand">mindestens 8 Hände</p>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">Perfekte turonische Minuskel.</p>
+                     <p source="Rand">perfekte turonische Minuskel</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -132,8 +132,8 @@
                <history>
                   <origin>
                      <p><origPlace cert="high">St-Martin</origPlace></p>
-                     <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0840">Um
-                           835.</origDate></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0840">um
+                           835</origDate></p>
                      <p>Durch den Tod des Schenkers Rorigo ca. 842 ziemlich präzise zu datieren.
                         Auch die Herstellung in St-Martin ist sehr sicher, da es sich um eine der
                         typischen Prachtbibeln aus diesem Skriptorium handelt.</p>

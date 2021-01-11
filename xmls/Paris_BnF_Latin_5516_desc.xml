@@ -53,11 +53,11 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="32">32 (26-37)</layout>
-                        <layout><p>Rote und schwarze Titel.</p></layout>
+                        <layout><p>rote und schwarze Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Verschiedene Hände.</p>
+                     <p>verschiedene Hände</p>
                   </handDesc>
                   <scriptDesc>
                      <p/>
@@ -83,8 +83,8 @@
                               >Tours</name>/<name type="Ort">Reims</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                            >2. Viertel 9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0829" notAfter="0840">Nach
-                           829 für den 2. Teil, wahrscheinlich nicht viel.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0829" notAfter="0840">nach
+                           829 für den 2. Teil, wahrscheinlich nicht viel</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>

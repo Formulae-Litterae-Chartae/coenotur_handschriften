@@ -1,0 +1,120 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>St. Gallen, Cod. Sang., 75</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Bei der St. Galler Alkuin-Bibel handelt es sich um die älteste erhaltene Vollbibel mit dem Text Alkuins aus St-Martin. Es scheint sich um einen Prototyp zu handeln, worauf die zahlreichen zeitgenössichen Korrekturen hindeuten.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Schweiz</country>
+                  <settlement>St-Gallen</settlement>
+                  <repository>Stiftsbibliothek</repository>
+                  <collection/>
+                  <idno>75</idno>
+                  <altIdentifier source="CLA">
+                     <idno>904</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>33</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>1</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5547</idno>
+                  </altIdentifier>
+                  <msName>St. Galler Alkuinbibel</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Bibel</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="840">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="54.5"/>
+                              <width n="40.1"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="38.2"/>
+                              <width n="11.7">11,7 cm pro Spalte</width>
+                           </dimensions>
+                        </extent>
+                        <condition>Recht gut erhalten, wobei zahlreiche Blätter Schaden genommen haben.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="50 51">51 (50)</layout>
+                        <layout><p source="Rand">Rote Titel. Hierachische Schriftwechsel von Kapitalis, Halbunziale und Minuskel</p>
+                       </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">zahlreiche Hände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="CLA">Karolingischen Minuskel.</p>
+                     <p source="Rand">Verbesserter Kursive; verzierte Halbunziale.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p source="Rand">Initialen und Kanontafeln in braun und weiß im typischen Toursstil mit verschlungnen Tierdarstellungen</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Rubrizierung</p>
+                     <p source="Scherrer">Zahlreiche Korrekturen einer abweichenden, zeitgenössichen Hand.</p>
+                     <p>Marginalia: Spätere Kapitelnummerierungen und einzelne Anmerkungen in den Margen.</p>
+                     <p n="Exlibris"><locus n=""/></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote></decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="high"><name>St-Martin, Tours</name></origPlace></p>
+                     <p><origDate source="Fischer Bischoff" cert="high" notBefore="0796" notAfter="0804">"796-804"</origDate></p>
+                     <p>Eine Entstehung unter Alkuin in St-Martin in Tours ist gesichert. Es scheint sich um eine der, wenn nicht die erste Vollbibel aus diesem Skriptorium zu handeln, die als Grundlage für die späteren Vollbibeln diente. Die zahlreichen zeitgenössischen Korrekturen, (vielleicht aus St.Gallen) deuten auf eine noch unollendete Revision hin.</p>
+                  </origin>
+                  <provenance type="Provenance"><name type="community">St-Gallen</name></provenance>
+                  <provenance>Hergestellt in St-Martin gelangt die Handschrift bereits im 9. Jahrhundert nach St-Gallen. Dort findet sie sich im Bibliothekskatalog (Cod. Sang. 728) aus der Mitte des 9. Jhds. </provenance>
+                  <acquisition><name type="Repository">Stiftsbibliothek St-Gallen</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://www.e-codices.unifr.ch/de/csg/0075/3</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://www.e-codices.unifr.ch/de/list/one/csg/0075</idno></bibl>
+                     <bibl><idno>Scherer 1875</idno><biblScope unit="pp" from="31" to="32"/></bibl>
+                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="417"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="109"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="364"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="303"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

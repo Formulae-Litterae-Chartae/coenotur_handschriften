@@ -68,7 +68,7 @@
                                         <width n="10.0"/>
                                     </dimensions>
                                 </extent>
-                                <condition>schlecht. Blätter teilweise so angegriffen, dass der TExt nicht mehr zu lesen ist</condition>
+                                <condition>schlecht. Blätter teilweise so angegriffen, dass der Text nicht mehr zu lesen ist</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -100,7 +100,7 @@
                     <history>
                         <origin>
                             <p><origPlace source="Bischoff" cert="low"><name>Tours?</name></origPlace></p>
-                            <p source="Bischoff"><origDate cert="low" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
+                            <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
                             <p>Wenn überhaupt, dann stammt nur Teil III (f.57-64) aus Tours, aber auch dieser Teil erscheint mir nicht sehr turonisch. Eine Entstehung eines Großteils der heutigen Handschrift in 4 verschiedenen mittelalterlichen Handschriften in Fleury erscheint sehr wahrscheinlich.</p>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>

@@ -8,6 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
+            <notesStmt><note type="Abschrift" source="Rand">Rand ermutet, dass es sich bei diesem Kochbuch um die Abschrift einer Handdschrift aus Fulda handelt.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -16,27 +17,6 @@
                         <repository>Vatlib</repository>
                         <collection/>
                         <idno>Urb. Lat. 1146</idno>
-                        <altIdentifier source="Colbert">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Faure">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Regius">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Dupuy">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rigault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Hurault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Jean de Gagny">
-                            <idno></idno>
-                        </altIdentifier>
                         <altIdentifier source="Rand">
                             <idno>90</idno>
                         </altIdentifier>
@@ -74,7 +54,7 @@
                                 <layout columns="1"/>
                                 <layout writtenLines="20"/>
                                 <layout>
-                                    <p>Rote und rot-schwarze Titel.</p>
+                                    <p>Rote und rot-schwarze Titel</p>
                                     <p>Keine Initialen</p>
                                     <p>Auch Purpur vorhanden</p>
                                 </layout>
@@ -105,7 +85,7 @@
                     <history>
                         <origin>
                             <p><origPlace cert="high"><name>Tours</name></origPlace></p>
-                            <p source="Köhler"><origDate cert="high" notBefore="0840" notAfter="0855">unter Vivian (844-851)</origDate></p>
+                            <p><origDate source="Köhler" cert="high" notBefore="0840" notAfter="0855">unter Vivian (844-851)</origDate></p>
                             <p></p>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>

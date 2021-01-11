@@ -16,32 +16,8 @@
                         <repository>Vatlib</repository>
                         <collection/>
                         <idno>Reg. Lat. 1484</idno>
-                        <altIdentifier source="Colbert">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Faure">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Regius">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Dupuy">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rigault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Hurault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Jean de Gagny">
-                            <idno></idno>
-                        </altIdentifier>
                         <altIdentifier source="Rand">
                             <idno>89</idno>
-                        </altIdentifier>
-                        <altIdentifier source="Köhler">
-                            <idno></idno>
                         </altIdentifier>
                         <altIdentifier source="Bischoff">
                             <idno>6780</idno>
@@ -81,7 +57,7 @@
                             <p source="Rand">mindestens 5 Hände</p>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand">Schrift erinnert an die Moutier-Grandal-Bibel</p>
+                            <p source="Rand">Die Schrift erinnert an die Moutier-Grandval-Bibel</p>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>

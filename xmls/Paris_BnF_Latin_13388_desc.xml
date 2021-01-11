@@ -1,0 +1,128 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 13388</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 13388</idno>
+                  <altIdentifier source="Saint-German-des-Près">
+                     <idno>668 u. 1317</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>143A</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4914</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author/>
+                     <title>Confessio S. Fulgentii / Liber Precum</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="108">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="21.6"/>
+                              <width n="16.6"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="15.5"/>
+                              <width n="11.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="18"/>
+                        <layout><p>rote, schwarze und goldene Titel Initialen und Ränder in Gold und
+                              anderen Farben</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">vermutlich zwei Hände, darunter der Schreiber von BL, Add.
+                        11849; Latin 267 und Beatty 11, Hand A</p>
+                     <p source="BnF">eine Haupthand</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">„Perfected“; karolingische Minuskel</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p n="Exlibris"><locus n="107v"/>aus Corbie aus dem 16. Jhd.: Pour la librarie
+                        de Corbye en Picardie sur Somme.</p>
+                     <p n="Exlibris"><locus n="2r"/>Sancti Germani a Pratis</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff" cert="medium"
+                           ><name>Tours</name></origPlace></p>
+                     <p><origPlace source="BnF" cert="medium">Nordfrankreich</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
+                           >2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875">Mitte
+                           9. Jhd.</origDate></p>
+                     <p>Tours scheint nicht angezweifelt zu werden, wobei Rand anmerkt, dass die
+                        Initiale B (fol. 82v) an den „Franco-Savon style“ erinnert. Eine Entstehung
+                        in Tours wird von Laura Albiero (BnF) angezweifelt. So scheint eine
+                        Entstehung in Nordfrankreich aufgrund der Präsenz der Heiligen Vaast, Médard
+                        und Géry wahrscheinlicher.</p>
+                  </origin>
+                  <provenance type="Provenance"><name>Corbie</name></provenance>
+                  <provenance>Geht noch im 9. Jhd. nach <name type="Kloster">Corbie</name>. Von
+                        <name type="Kloster">Corbie</name> gelangt die Handschrift zunächst nach
+                        <name type="Kloster">Saint-Germain-des-Près</name> und ging dann 1795/1796
+                     in den Besitz der BnF über.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b105423611</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc744131</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="169"/></bibl>
+                     <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="65"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="208"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

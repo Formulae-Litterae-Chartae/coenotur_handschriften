@@ -50,16 +50,16 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout/>
+                        <layout columns="1"/>
                         <layout writtenLines="19"/>
                         <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Mehrere Hände.</p>
+                     <p>mehrere Hände</p>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">Turonisch geprägt.</p>
+                     <p source="Bischoff">turonisch geprägt</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -72,7 +72,7 @@
                         Jhd., XXIIII. VII c . LXXVI</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Chagrinleder mit den Initialen von Louis-Philippe.</decoNote>
+                     <decoNote>Chagrinleder mit den Initialen von Louis-Philippe</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>

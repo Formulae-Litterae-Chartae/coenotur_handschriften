@@ -52,29 +52,29 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="31"/>
-                        <layout><p>Rote und schwarze Titel; Initialen im Tours-Stil.</p></layout>
+                        <layout><p>rote und schwarze Titel; Initialen im Tours-Stil</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Audgarius (nennt sich in einem Monogramm <locus n="214">f. 214.</locus></p>
+                     <p>Audgarius (nennt sich in einem Monogramm <locus n="214">f. 214</locus></p>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">Verbesserte karolingische Kursive.</p>
+                     <p source="Rand">verbesserte karolingische Kursive</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <p>3 vollseitige Bilder.</p>
+                        <p>3 vollseitige Bilder</p>
                         <p><locus n="1v"/>Theodosius II begleitet von seinen Söhnen, Marcianus und
-                           Valentianus sowie dem Kaiser des Okzidents Majorian.</p>
+                           Valentianus sowie dem Kaiser des Okzidents Majorian</p>
                         <p><locus n="2"/>Die Jurisconsulten Severus, Paulus, Gaius und
-                           Hermogenius.</p>
+                           Hermogenius</p>
                         <p><locus n="197"/>König Lodhanri umgeben von seinem Volk (Bischof, Herzog,
-                           Graf).</p>
+                           Graf)</p>
                      </decoNote>
                   </decoDesc>
                   <additions> </additions>
                   <bindingDesc>
-                     <decoNote type="Colbert">Colberteinband in rotem Maroquin.</decoNote>
+                     <decoNote type="Colbert">Colberteinband in rotem Maroquin</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -83,7 +83,7 @@
                      <p><origPlace source="BnF" cert="low">Loiretal</origPlace></p>
                      <p><origPlace source="Ganz" cert="low">"skilled imitation of
                         Tours"</origPlace></p>
-                     <p><origDate cert="medium" notBefore="0803" notAfter="0814">c.
+                     <p><origDate cert="medium" notBefore="0803" notAfter="0814">ca.
                            803-814</origDate></p>
                      <p/>
                   </origin>

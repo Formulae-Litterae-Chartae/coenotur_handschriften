@@ -14,7 +14,7 @@
                         <country>France</country>
                         <settlement>Tours</settlement>
                         <repository>BM</repository>
-                        <collection/>
+                        <collection></collection>
                         <idno>10</idno>
                         <altIdentifier source="Collon">
                             <idno>10</idno>
@@ -34,49 +34,49 @@
                         <altIdentifier source="Martène">
                             <idno>151</idno>
                         </altIdentifier>
-                        <msName/>
+                        <msName></msName>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Bibel">
-                            <author/>
+                            <author></author>
                             <title>Oktateuch</title>
-                            <textLang mainLang="la"/>
+                            <textLang mainLang="la"></textLang>
                             <msItem n="1.1">
-                                <locus from="1v" to="3v"/>
+                                <locus from="1v" to="3v"></locus>
                                 <author>Hieronymus</author>
                                 <title>Epistola ad Desiderii</title>
                             </msItem>
                             <msItem n="1.2">
-                                <locus from="3" to="72"/>
+                                <locus from="3" to="72"></locus>
                                 <title>Genesis</title>
                             </msItem>
                             <msItem n="1.3">
-                                <locus from="73" to="127"/>
+                                <locus from="73" to="127"></locus>
                                 <title>Exodus</title>
                             </msItem>
                             <msItem n="1.4">
-                                <locus from="128" to="164"/>
+                                <locus from="128" to="164"></locus>
                                 <title>Levitikus</title>
                             </msItem>
                             <msItem n="1.5">
-                                <locus from="165" to="219"/>
+                                <locus from="165" to="219"></locus>
                                 <title>Numeri</title>
                             </msItem>
                             <msItem n="1.6">
-                                <locus from="220" to="270"/>
+                                <locus from="220" to="270"></locus>
                                 <title>Deuteronomium</title>
                             </msItem>
                             <msItem n="1.7">
-                                <locus from="271" to="306"/>
+                                <locus from="271" to="306"></locus>
                                 <title>Josua</title>
                             </msItem>
                             <msItem n="1.8">
-                                <locus from="307" to="343"/>
+                                <locus from="307" to="343"></locus>
                                 <title>Richter</title>
                             </msItem>
                             <msItem n="1.9">
-                                <locus from="344v" to="351"/>
-                                <title>Ruth</title>
+                                <locus from="344v" to="351"></locus>
+                                <titel>Ruth</titel>
                             </msItem>
                         </msItem>
                     </msContents>
@@ -85,71 +85,53 @@
                             <supportDesc material="perg">
                                 <extent n="351">
                                     <dimensions type="leaf" unit="cm">
-                                        <height n="35,5"/>
-                                        <width n="25,7"/>
+                                        <height n="35,5"></height>
+                                        <width n="25,7"></width>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="27,3"/>
-                                        <width n="8,0"/>
+                                        <height n="27,3"></height>
+                                        <width n="8,0"></width>
                                     </dimensions>
                                 </extent>
-                                <condition source="Dorange">Mehrere frühe
-                                    Reparaturarbeiten</condition>
+                                <condition source="Dorange">Mehrere frühe Reparaturarbeiten</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="2"/>
-                                <layout writtenLines="30"/>
-                                <layout source="Rand">Rote und rot-schwarze Titel, einache rote und
-                                    schwarze Initialen in einem primitiven Toursstil</layout>
+                                <layout columns="2"></layout>
+                                <layout writtenLines="30"></layout>
+                                <layout source="Rand">Rote und rot-schwarze Titel, einache rote und schwarze Initialen in einem primitiven Toursstil</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="3">
-                            <p source="Rand">3 Haupthände, wobei B (fol. 7-23) und C (fol. 24-351)
-                                die wichtigsten sind. A hat den Anfang geschrieben und weicht in der
-                                Form ein wenig von B und C ab. Eine korrigierende Hand. Hand A
-                                ähnelt der Hand B aus Paris, BnF, Latin 4333 B </p>
+                            <p source="Rand">3 Haupthände, wobei B (fol. 7-23) und C (fol. 24-351) die wichtigsten sind. A hat den Anfang geschrieben und weicht in der Form ein wenig von B und C ab. Eine korrigierende Hand. Hand A ähnelt der Hand B aus Paris, BnF, Latin 4333 B </p>
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand" xml:id="Kursive">Verbesserte Kursive</p>
-                            <p source="Rand">Imperfekte Halbunziale, Nähe zum Vatikanischen
-                                Livius</p>
+                            <p source="Rand">Imperfekte Halbunziale, Nähe zum Vatikanischen Livius</p>
                         </scriptDesc>
                         <musicNotation>
-                            <p><locus n="164r"/>Neumen im Stil von <name type="Kloster"
-                                    >Fleury</name>
+                            <p><locus n="164r"></locus>Neumen im Stil von <name type="Kloster">Fleury</name>
                             </p>
                         </musicNotation>
                         <decoDesc>
-                            <decoNote/>
+                            <decoNote></decoNote>
                         </decoDesc>
                         <additions>
-                            <p source="Collon">Die Kapitelübersicht weicht von der üblichen Weise
-                                ab, die übliche Einteilung ist aber von einer späteren Hand
-                                hinzugefügt worden </p>
-                            <p n="Exlibris"><locus/>liber sancti martini turonensis 12. Jhd.</p>
+                            <p source="Collon">Die Kapitelübersicht weicht von der üblichen Weise ab, die übliche Einteilung ist aber von einer späteren Hand hinzugefügt worden </p>
+                            <p n="Exlibris"><locus></locus>liber sancti martini turonensis 12. Jhd.</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote/>
+                            <decoNote></decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <p source="Rand Bischoff"><origPlace cert="medium">Tours</origPlace></p>
                             <p source="Mostert"><origPlace cert="low">Fleury</origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0800"
-                                    notAfter="0825">Anfang 9. Jhd.</origDate></p>
-                            <note>Zuschreibung nach Tours vor allem aufgrund des Exlibris vom 12. Jhd. Überlegungen, die Entstehung der Handschrift in Fleury zu verorten verweisen auf die Neumierungen auf fol. 164r, die floriazensischen Ursprungs sind. Diese Neumen könnten durch eine Ausleihe nach Fleury oder durch einen St-Martin besuchenden floriazensischen Mönch angefertigt worden sein, ohne dass die Entstehung der gesamten Handschrift deshalb in Fleury gesucht werden muss (MOSTERT, mit Verweis auf RAND, sowie DOM BEYSSAC.)</note>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0800" notAfter="0825">Anfang 9. Jhd.</origDate></p>
                         </origin>
-                        <provenance type="Provenance"><name type="Kloster">St-Martin de
-                            Tours</name></provenance>
-                        <provenance source="Rand">Entstanden ist die Handschrift vermutlich in <name
-                                type="Kloster">St-Martin de Tours</name> vor den großen Bibeln. Sie
-                            diente womöglich <name type="Abt">Alkuin</name> als Vorbild für seine
-                            Text- und vor allem die Designreform der späteren turonischen
-                            Bibeln</provenance>
-                        <acquisition>Ging von <name type="Kloster">St-Martin de Tours</name> wie
-                            viele Handschriften des Klosters, an die <name type="Repository">Tours,
-                                BM</name> über</acquisition>
+                        <provenance type="Provenance"><name type="Kloster">St-Martin de Tours</name></provenance>
+                        <provenance source="Rand">Entstanden ist die Handschrift vermutlich in <name type="Kloster">St-Martin de Tours</name>vor den großen Bibeln. Sie diente womöglich <name type="Abt">Alkuin</name> als Vorbild für seine Text- und vor allem die Designreform der späteren turonischen Bibeln</provenance>
+                        <acquisition>Ging von <name type="Kloster">St-Martin de Tours</name> wie viele Handschriften des Klosters, an die <name type="Repository">Tours, BM</name> über</acquisition>
                     </history>
                     <additional>
                         <surrogates>
@@ -159,22 +141,19 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="98 99"/></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
-                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="250"/></bibl>
-                            <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="4"/></bibl>
-                            <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="8 9"/></bibl>
-                            <bibl><idno>Mercier II</idno><biblScope unit="pp" n="120"/></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="98 99"></biblScope></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"></biblScope></bibl>
+                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="250"></biblScope></bibl>
+                            <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="4"></biblScope></bibl>
+                            <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="8 9"></biblScope></bibl>
+                            <bibl><idno>Mercier II</idno><biblScope unit="pp" n="120"></biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text>
-        <body>
-            <div type="edition"/>
-        </body>
-    </text>
+    <text><body><div type="edition"></div></body></text>
 </TEI>
+

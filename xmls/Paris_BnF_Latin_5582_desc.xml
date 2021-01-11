@@ -52,21 +52,21 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="16"/>
-                        <layout><p>Rote, schwarze und blau-schwarze Titel.</p></layout>
+                        <layout><p>rote, schwarze und blau-schwarze Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Mindestens zwei Hände.</p>
+                     <p>mindestens zwei Hände</p>
                   </handDesc>
                   <scriptDesc>
-                     <p>Turonische Minuskel; Halbunziale; Unziale Rustica.</p>
+                     <p>turonische Minuskel; Halbunziale; Unziale Rustica</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions> </additions>
                   <bindingDesc>
-                     <decoNote>Ledereinband.</decoNote>
+                     <decoNote>Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>

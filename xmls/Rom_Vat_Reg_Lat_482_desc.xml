@@ -28,48 +28,48 @@
                             <author></author>
                             <title>Heiligenviten</title>
                             <textLang mainLang="la"></textLang>
-                        </msItem>
-                        <msItem n="1.1">
-                            <locus from="1r" to="10r"/>
-                            <author></author>
-                            <title>Passio sanctae Agathae martyris Catanensis</title>
-                            <textLang mainLang="la"></textLang>
-                        </msItem>
-                        <msItem n="1.2">
-                            <locus from="10v" to="11r"/>
-                            <author></author>
-                            <title>Passio sanctae Agathae martyris Catanensis</title>
-                            <textLang mainLang="la"></textLang>
-                        </msItem>
-                        <msItem n="1.3">
-                            <locus from="16v" to="26v"/>
-                            <author></author>
-                            <title>Passio sancti Potiti martyris Neapolitani</title>
-                            <textLang mainLang="la"></textLang>
-                        </msItem>
-                        <msItem n="1.4">
-                            <locus from="37r" to="44v"/>
-                            <author></author>
-                            <title>Inventio</title>
-                            <textLang mainLang="la"></textLang>
-                        </msItem>
-                        <msItem n="1.5">
-                            <locus from="44v" to="44v"/>
-                            <author></author>
-                            <title>Distichon</title>
-                            <textLang mainLang="la"></textLang>
-                        </msItem>
-                        <msItem n="1.6">
-                            <locus from="45r" to="49v"/>
-                            <author></author>
-                            <title>Passio Dorotheae et Theophili scolastici</title>
-                            <textLang mainLang="la"></textLang>
-                        </msItem>
-                        <msItem n="1.7">
-                            <locus from="155r" to="159r"/>
-                            <author>Anselm von Canterbury</author>
-                            <title>Meditationes</title>
-                            <textLang mainLang="la"></textLang>
+                            <msItem n="1.1">
+                                <locus from="1r" to="10r"/>
+                                <author></author>
+                                <title>Passio sanctae Agathae martyris Catanensis</title>
+                                <textLang mainLang="la"></textLang>
+                            </msItem>
+                            <msItem n="1.2">
+                                <locus from="10v" to="11r"/>
+                                <author></author>
+                                <title>Passio sanctae Agathae martyris Catanensis</title>
+                                <textLang mainLang="la"></textLang>
+                            </msItem>
+                            <msItem n="1.3">
+                                <locus from="16v" to="26v"/>
+                                <author></author>
+                                <title>Passio sancti Potiti martyris Neapolitani</title>
+                                <textLang mainLang="la"></textLang>
+                            </msItem>
+                            <msItem n="1.4">
+                                <locus from="37r" to="44v"/>
+                                <author></author>
+                                <title>Inventio</title>
+                                <textLang mainLang="la"></textLang>
+                            </msItem>
+                            <msItem n="1.5">
+                                <locus from="44v" to="44v"/>
+                                <author></author>
+                                <title>Distichon</title>
+                                <textLang mainLang="la"></textLang>
+                            </msItem>
+                            <msItem n="1.6">
+                                <locus from="45r" to="49v"/>
+                                <author></author>
+                                <title>Passio Dorotheae et Theophili scolastici</title>
+                                <textLang mainLang="la"></textLang>
+                            </msItem>
+                            <msItem n="1.7">
+                                <locus from="155r" to="159r"/>
+                                <author>Anselm von Canterbury</author>
+                                <title>Meditationes</title>
+                                <textLang mainLang="la"></textLang>
+                            </msItem>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -113,11 +113,11 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p source="Rand"><origPlace cert="low">Tours</origPlace></p>
-                            <p source="Rand"><origDate cert="low" notBefore="0796" notAfter="0804">unter Alkuin</origDate></p>
+                            <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
+                            <p><origDate source="Rand" cert="low" notBefore="0796" notAfter="0804">unter Alkuin</origDate></p>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster"></name></provenance>
-                        <provenance>Scheint bei Bonneval und P. Daniel gewesen zu sein</provenance>
+                        <provenance>Scheint bei Bonneval und P. Daniel gewesen zu sein.</provenance>
                         <acquisition>Gelangte später an die <name type="Repository">Vaticana</name></acquisition>
                     </history>
                     <additional>

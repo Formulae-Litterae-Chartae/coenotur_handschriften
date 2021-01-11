@@ -1,0 +1,127 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>St. Gallen, Cod. Sang., 268</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Schweiz</country>
+                  <settlement>St-Gallen</settlement>
+                  <repository>Stiftsbibliothek</repository>
+                  <collection/>
+                  <idno>268</idno>
+                  <altIdentifier source="CLA">
+                     <idno></idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>rejected</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>2</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5711</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bergmann/Stricker">
+                     <idno>213</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Grammatik">
+                     <author>Alcuinus</author>
+                     <title>Grammatica</title>
+                     <textLang mainLang="la"/>
+                     <note source="Scherrer">Vollständig, ohne Über- und Unterschriften</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="84">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="21.0"/>
+                              <width n="16.8"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="15.5"/>
+                              <width n="12.0 12.5">12,0/12,5</width>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="19 20">19-20</layout>
+                        <layout><p></p>
+                       </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Bergmann/Stricker">Eine Hand.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Köhler">"Unregelmäßige, altertümliche Minuskel".</p>
+                     <p source="Bergmann/Stricker">Karolingische Minuskel.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p></p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Bergmann/Stricker">"Glossen mit inhaltlichem Bezug zum Text."</p>
+                     <p n="Exlibris"><locus n="1r"/>Exlibris aus St-Gallen.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Bergmann/Stricker">Mit blindgepreßtem Leder überzogener Holzdeckel; eine Schließe.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium">Nicht Tours, "rejected"</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">"Westfrankreich (Tours nicht sicher)"</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bergmann/Stricker" cert="high" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                     <p>Eine Entstehung in Tours, bzw. St-Martin erscheint augrund des Inhaltes wahrscheinlich, ist aber keineswegs gesichert.</p>
+                  </origin>
+                  <provenance type="Provenance"><name type="community">St-Gallen</name></provenance>
+                  <provenance>Der Entstehungsort der Handschrift ist nicht gesichert. Sie gelangt jedoch früh nach St-Gallen und verblieb dort.</provenance>
+                  <acquisition><name type="Repository">Stiftsbibliothek St-Gallen</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://www.e-codices.unifr.ch/en/csg/0268/19</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>	https://www.e-codices.unifr.ch/en/list/one/csg/0268</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>	http://www.europeanaregia.eu/node/9030</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>	http://beta.biblissima.fr/fr/ark:/43093/mdataf0a2cee13c3bd7ecc5f676039bc987864efb4176</idno></bibl>
+                     <bibl><idno>Scherrer 1875</idno><biblScope unit="pp" n="101"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="364" to="365"/></bibl>
+                     <bibl><idno>Bischoff 1962</idno><biblScope unit="pp" n="13"/></bibl>
+                     <bibl><idno>Bergmann/Stricker 2005</idno><biblScope unit="pp" from="517" to="518"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="319"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

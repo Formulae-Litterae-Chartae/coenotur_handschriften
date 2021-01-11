@@ -86,38 +86,37 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="51"/>
-                        <layout>Schwarz-rote Titel, einige mit blauer Tinte.</layout>
+                        <layout>schwarz-rote Titel, einige mit blauer Tinte</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">Mindestens 6 Hände, alle sehr klar und flüssig, aber nicht
-                        ganz die Schönheit der Grandval-Bibel.</p>
+                     <p source="Rand">mindestens 6 Hände, alle sehr klar und flüssig, aber nicht
+                        ganz die Schönheit der Grandval-Bibel</p>
                   </handDesc>
                   <scriptDesc>
                      <p source="Rand">"Perfected"</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote source="Köhler">Sehr viele sehr schöne Miniaturen.</decoNote>
+                     <decoNote source="Köhler">sehr viele sehr schöne Miniaturen</decoNote>
                      <decoNote type="Miniature"><locus n="3v"/></decoNote>
                      <decoNote type="Miniature"><locus n="423r"/></decoNote>
                   </decoDesc>
                   <additions> </additions>
                   <bindingDesc>
-                     <decoNote type="Colbert">Colberteinband.</decoNote>
+                     <decoNote type="Colbert">Colberteinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace cert="high">St-Martin</origPlace></p>
                      <p><origDate source="Rand Bischoff" cert="high" notBefore="0843"
-                           notAfter="0851">843-851 Vivian, vielleicht vor 845.</origDate></p>
+                           notAfter="0851">843-851 Vivian, vielleicht vor 845</origDate></p>
                   </origin>
                   <provenance type="Provenance"><name type="Ort">Metz</name></provenance>
                   <provenance>Die Handschrift wurde unter <name type="Abt">Vivian</name> begonnen
                      und von diesem <name type="person">Karl dem Kahlen</name> im Beisein der
                      monastischen Amtsträger <name type="person">Amandus</name>, <name type="person"
-                        >Sigvaldus</name> und <name type="person">Aregarius</name>
-                     präsentiert.</provenance>
+                        >Sigvaldus</name> und <name type="person">Aregarius</name> präsentiert.</provenance>
                   <provenance><name type="person">Karl der Kahle</name> übergab die Bibel vermutlich
                      in Zusammenhang mit seiner Krönung zum König von Lotharingien im Jahr 869 an
                      die Kathedrale von <name type="Ort">Metz</name>.</provenance>

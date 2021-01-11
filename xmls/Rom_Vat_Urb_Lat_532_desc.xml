@@ -16,27 +16,6 @@
                         <repository>Vatlib</repository>
                         <collection/>
                         <idno>Urb. Lat. 532</idno>
-                        <altIdentifier source="Colbert">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Faure">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Regius">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Dupuy">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rigault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Hurault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Jean de Gagny">
-                            <idno></idno>
-                        </altIdentifier>
                         <altIdentifier source="Rand">
                             <idno>20</idno>
                         </altIdentifier>
@@ -107,8 +86,8 @@
                             <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium"><name>Wohl Paris</name></origPlace></p>
                             <p><origPlace source="Köhler" cert="high"><name>Nicht Tours</name></origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0825" notAfter="0875">ca. Mitte 9. Jhd.</origDate></p>
-                            <p source="Rand"><origDate cert="low" notBefore="0750" notAfter="0796"/>Pre-Alcuinian</p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875">ca. Mitte 9. Jhd.</origDate></p>
+                            <p><origDate source="Rand" cert="low" notBefore="0750" notAfter="0796"/>Pre-Alcuinian</p>
                             <p source="Köhler">Weder die Zierschrift noch die Minuskel sind turonisch. Auch die frühe Datierung bei Rand erscheint unwahrscheinlich.</p>
                             <p>Das Layout erscheint für Tours sehr untypisch. Eine Entstehung anderswo erscheint dementsprechend sehr wahrscheinlich, so dass davon auszugehen ist, dass es sich bei dieser Handschrift nicht um ein turonisches Produkt handelt.</p>
                         </origin>
@@ -127,9 +106,9 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Urb.lat.532</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="101"/></bibl>
                             <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="324"/></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="443"/></bibl>
-                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="288"/></bibl>
                             <bibl><idno>Chailley 1984</idno><biblScope unit="pp" n="64"/></bibl>
+                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="288"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="443"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

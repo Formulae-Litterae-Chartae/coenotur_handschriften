@@ -51,37 +51,37 @@
                            </dimensions>
                         </extent>
                         <condition source="Köhler">Anfang und Ende des Johannes-Evangeliums
-                           fehlen.</condition>
+                           fehlen</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="24"/>
-                        <layout><p>Rote und schwarze Titel.</p></layout>
+                        <layout><p>rote und schwarze Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">Eine Hand, ähnlich wie BL, Add. 11849 oder Beatty 11. Auch
-                        eine Nähe zu Latin 13388.</p>
+                     <p source="Rand">eine Hand, ähnlich wie BL, Add. 11849 oder Beatty 11; auch
+                        eine Nähe zu Latin 13388</p>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">Perfektionierte turonische Minuskel.</p>
+                     <p source="Rand">perfektionierte turonische Minuskel</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="144v"/>Notarielle Kopie einer Schenkung an Montmajour
+                     <p n="Exlibris"><locus n="144v"/>notarielle Kopie einer Schenkung an Montmajour
                         aus dem 15. Jhd.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote type="Colbert">Ledereinband mit dem Wappen von Colbert.</decoNote>
+                     <decoNote type="Colbert">Ledereinband mit dem Wappen von Colbert</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace cert="high"><name>Tours, St-Martin</name></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0860">Nach
-                           860.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0860">nach
+                           860</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance" cert="low"><name type="Kloster"

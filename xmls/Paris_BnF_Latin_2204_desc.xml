@@ -29,16 +29,15 @@
                </msIdentifier>
                <msContents>
                   <msItem class="Hagiographie">
-                     <locus from="10r" to="208v"/>
                      <author>Gregor von Tours</author>
                      <title>Libri octo miraculorum</title>
                      <textLang mainLang="la"/>
                      <msItem n="1.1">
-                        <locus n="10r"/>
+                        <locus from="10r"/>
                         <title>Liber in gloriam martyrum</title>
                      </msItem>
                      <msItem n="1.2">
-                        <locus n="10v"/>
+                        <locus from="10v"/>
                         <title>Liber Primus</title>
                      </msItem>
                      <msItem n="1.3">
@@ -90,8 +89,8 @@
                               <width n="16.5"/>
                            </dimensions>
                         </extent>
-                        <condition>Der Anfang der Capitula von Gregor von Tours fehlt und die
-                           Handschrift bricht im ersten Buch von Sulpicius Severus ab.</condition>
+                        <condition>der Anfang der Capitula von Gregor von Tours fehlt; die
+                           Handschrift bricht im ersten Buch von Sulpicius Severus ab</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -100,21 +99,21 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Mehrere Hände.</p>
+                     <p>mehrere Hände</p>
                   </handDesc>
                   <scriptDesc>
-                     <p>Minuskel.</p>
+                     <p>Minuskel</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                         <locus n="24r 215r"/>
-                        <p>Federzeichnungen.</p>
+                        <p>Federzeichnungen</p>
                      </decoNote>
                   </decoDesc>
                   <additions>
                      <p>Nachträge und Benutzungsspuren: Korrekturen des 9.-12. Jhd., darunter einige
-                        in Tironischen Noten. </p>
-                     <p n="Exlibris"><locus n="7"/>Exlibris von Antoine Faure.</p>
+                        in Tironischen Noten</p>
+                     <p n="Exlibris"><locus n="7"/>Exlibris von Antoine Faure</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -124,7 +123,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Westfrankreich</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >9. Jhd., ca. 1./2. Viertel</origDate></p>
+                        >9. Jhd., ca. 1./2. Viertel</origDate></p>
                      <p>Wenig scheint gesichert. Die Handschrift sieht nicht besonders turonisch
                         aus.</p>
                   </origin>

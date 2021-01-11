@@ -57,43 +57,43 @@
                               <width n="12.4"/>
                            </dimensions>
                         </extent>
-                        <condition>Einband und erste Folien stark beschädigt, z.T. in Fetzen. Untere
-                           Ecke überall angegriffen.</condition>
+                        <condition>Einband und erste Folien stark beschädigt, z.T. in Fetzen; untere
+                           Ecke überall angegriffen</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="50"/>
-                        <layout><p>Rote und schwarze Titel.</p>
-                           <p>Einfache Initialen, die nur mit rot eingefärbt sind.</p></layout>
+                        <layout><p>rote und schwarze Titel</p>
+                           <p>einfache Initialen, die nur mit rot eingefärbt sind</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">Ein Dutzend Hände.</p>
+                     <p source="Rand">ein Dutzend Hände</p>
                      <p source="Rand">Hand B hat 8 von 22 Lagen und ist nahe an der Hand von
                         Amalricus von Monza G. 1. Wenn Amalricus der Schreiber ist, dann ist Paris
                         BnF Latin 68 älter als die Bibel aus Monza, da sie noch zahlreiche kursive
-                        Elemente enthält.</p>
+                        Elemente enthält</p>
                   </handDesc>
                   <scriptDesc>
-                     <p>Karolingische Minuskel.</p>
+                     <p>karolingische Minuskel</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n="23r"/> Eine rote Schmuckinitiale: innen roter Füllstrich, außen
-                        rote Punkte. </decoNote>
+                        <locus n="23r"/>eine rote Schmuckinitiale: innen roter Füllstrich, außen
+                        rote Punkte</decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Einzelne Glossen bzw. hauptsächlich Korrekturen.</p>
-                     <p><locus n="108r"/>Eine Randnotiz, die mit einem NT-Zeichen beginnt.</p>
+                     <p>einzelne Glossen bzw. hauptsächlich Korrekturen</p>
+                     <p><locus n="108r"/>eine Randnotiz, die mit einem NT-Zeichen beginnt</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote type="Colbert">Colberteinband.</decoNote>
+                     <decoNote type="Colbert">Colberteinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low" source="Rand">Vielleicht Marmoutier.</origPlace></p>
-                     <p><origPlace cert="low" source="Bischoff">Tours.</origPlace></p>
+                     <p><origPlace cert="low" source="Rand">vielleicht Marmoutier</origPlace></p>
+                     <p><origPlace cert="low" source="Bischoff">Tours</origPlace></p>
                      <p><origPlace cert="low" source="Cinato">St-Martin?</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1.
                            Hälfte 9. Jhd.</origDate></p>

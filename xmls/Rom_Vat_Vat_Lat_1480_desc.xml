@@ -16,33 +16,6 @@
                         <repository>Vatlib</repository>
                         <collection/>
                         <idno>Vat. Lat. 1480</idno>
-                        <altIdentifier source="Colbert">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Faure">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Regius">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Dupuy">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rigault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Hurault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Jean de Gagny">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rand">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Köhler">
-                            <idno></idno>
-                        </altIdentifier>
                         <altIdentifier source="Bischoff">
                             <idno>6857</idno>
                         </altIdentifier>
@@ -103,7 +76,7 @@
                     <history>
                         <origin>
                             <p><origPlace source="Bischoff Martinellus.de" cert="high"><name>Tours</name></origPlace></p>
-                            <p source="Bischoff"><origDate cert="high" notBefore="0825" notAfter="0850"/>2. Viertel 9. Jhd.</p>
+                            <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0850"/>2. Viertel 9. Jhd.</p>
                             <p></p>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>

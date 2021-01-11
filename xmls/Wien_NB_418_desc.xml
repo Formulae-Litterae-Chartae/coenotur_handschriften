@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Wie, NB, Cod. 418</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Österreich</country>
+                        <settlement>Wien</settlement>
+                        <repository>NB</repository>
+                        <collection/>
+                        <idno>Cod. 418</idno>
+                        <altIdentifier source="Salzburg">
+                            <idno>266</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Hermann">
+                            <idno>45</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>22</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>7117</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem source="Tabula_codicum Hermann" class="Rechtstexte">
+                            <author/>
+                            <title>Acta concilii oecumenici VI</title>                     
+                            <textLang mainLang="la"/>
+                            <msItem n="1.1">
+                                <locus from="1r" to="4v"/>
+                                <author>Constantinus IV Imperator</author>
+                                <title>Dialis directa ad papam Agathonem et alia directa ad patriarcham Geogrium</title>
+                            </msItem>
+                            <msItem n="1.2">
+                                <locus from="4r" to="165r"/>
+                                <author/>
+                                <title>Acta concilii oecumenici VI</title>
+                            </msItem>
+                            <msItem n="1.3">
+                                <locus from="165r" to="167r"/>
+                                <author>Constantinus IV Imperator</author>
+                                <title>Exemplar diinae jussionis directae ad synodum apostolicae sedis antiquae Romae</title>
+                            </msItem>
+                            <msItem n="1.4">
+                                <locus from="167r" to="171r"/>
+                                <author>Leo II, Papa</author>
+                                <title>Litterae ad Constantinum IV Imperatorem</title>
+                            </msItem>
+                            <msItem n="1.5">
+                                <locus from="171r" to="171v"/>
+                                <author>Constnatinus IV Imperator</author>
+                                <title>Litterae ad Joannem V Papam</title>
+                            </msItem>
+                            <msItem n="1.6">
+                                <locus from="172r" to="174r"/>
+                                <author/>
+                                <title>Sermo in laudem Apostolorum Petri et Pauli</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="174">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="30.0"/>
+                                        <width n="18.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="22.0"/>
+                                        <width n="12.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="27"/>
+                                <layout><p></p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p source="Hermann">Kursive mit Halbunziale</p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                            <p n="Exlibris"><locus n=""/></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote source="Hermann">Weißes Pergament mit Golddruck über Pappdeckeln (Wien, um 1806)</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand" cert="medium">Possibly not Tours</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">wahscheinlich <name type="community">St-Amand</name></origPlace></p>
+                            <p><origDate source="Köhler Bischoff" cert="high" notBefore="0700" notAfter="0900">8./9. Jhd</origDate></p>
+                            <p>Die Handschrift ist wohl nicht in Tours entstanden. Eine Entstehung in St-Amand erscheint wahrscheinlich.</p>
+                        </origin>
+                        <provenance type="Provenance"><name type="community">Salzburg</name></provenance>
+                        <provenance source="Hermann">Die Handschrift gelangt vom Domkapitel 1806 in die Hofbibliothek.</provenance>
+                        <acquisition><name type="Repository">Wien HB</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                            <bibl><idno>Tabulae codicum</idno><biblScope unit="pp" from="67" to="68"/></bibl>
+                            <bibl><idno>Hermann 1923</idno><biblScope unit="pp" n="154"/></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="101"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="478"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 9603</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 9603</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>122</idno>
+                  </altIdentifier>
+                  <altIdentifier source="BnF, Supplément latin">
+                     <idno>477</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>155</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4611/4612</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Haimo von Auxerre</author>
+                     <title>Sermones</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="100">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="26.0"/>
+                              <width n="19.8"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="30 38">38 (30, 36, 37)</layout>
+                        <layout><p/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>drei Hände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Marginalia: Tironische Noten?</p>
+                     <p n="Exlibris"><locus n="2v"/>Iste liber est de armario beati Martini Tur.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low"><name>nicht
+                        Tours</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low"><name>Auxerre (?) (fol.1 mittleres
+                              Frankreich)</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875"
+                           >3. Viertel 9. Jhd. (2. Viertel für fol.1)</origDate></p>
+                     <p/>
+                  </origin>
+                  <provenance type="Provenance"><name>St-Martin</name></provenance>
+                  <provenance>Gekauft am 27. April 1831 durch M. Caron.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc776013</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="177"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="11"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="157"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

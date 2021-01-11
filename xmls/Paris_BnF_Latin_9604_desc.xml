@@ -1,0 +1,116 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 9604</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 9604</idno>
+                  <altIdentifier source="BnF, Supplément Latin">
+                     <idno>458</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>156</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4613</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Paulus Diaconus</author>
+                     <title>Homiliarium</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="143">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.8"/>
+                              <width n="26.4"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="24.1"/>
+                              <width n="8.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="30"/>
+                        <layout><p>rote und schwarze Titel; rote und schwarze Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>zwei Hände; Hand A ähnelt Latin 9603</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Kursive</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <decoNote>roter Maroquin-Einband des 19. Jhd.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff" cert="high"
+                        ><name>Tours</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0860"
+                           >circa Mitte 9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0830" notAfter="0850">vor 850
+                           (?)</origDate></p>
+                     <p/>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance>Die Handschrift könnte von <name type="Person">Lupus</name> bei seinem
+                     Aufenthalt in <name type="Kloster">St-Martin</name> mit nach <name
+                        type="Kloster">Ferrières</name> genommen worden und von dort dann an <name
+                        type="Person">Ebrardus</name> gegeben worden sein, der sie nach <name
+                        type="Kloster">Auxerre</name> brachte.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8426286p</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc57294s</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="177 178"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="158"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

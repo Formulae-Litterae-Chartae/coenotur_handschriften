@@ -1,0 +1,132 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 10848</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 10848</idno>
+                  <altIdentifier source="Rand">
+                     <idno>56</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>32</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4660</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Hagiographie Martinellus">
+                     <author/>
+                     <title>Martinellus</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="117">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="23.0"/>
+                              <width n="17.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="17.2"/>
+                              <width n="11.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="21"/>
+                        <layout><p>rote und schwarze Titel; einzelne schwarz, rote und rot-weiße
+                              Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>eine Hand</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>turonische Minuskel</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n="1v 5v 25v 64r 80r 102v 107v"/>
+                        <p>bunte Initialen in Grün, Blau, Rot und Gold</p>
+                        <locus n="40r"/>
+                        <p>Initiale, weniger prachtvoll</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Lagenkontrollvermerke. (Nachträgliche?) Interpunktion zur besseren
+                        Lesbarkeit. Einige wenige Glossierungen. Transkription des Titels in Schrift
+                        des 12. Jhd.? (f. 34r).</p>
+                     <p>Auf f. 102v, beim Sermo de transitu Gregors von Tours, werden die römischen
+                        Zahlen interlinear in Worte übertragen. In dem Sermo erfolgt auch eine
+                        (nachträgliche) Einteilung in Lektionen, die anders als sonst in der
+                        Handschrift nicht in Rotschrift direkt mitgeschrieben worden ist. Auf f.
+                        106r folgt auch eine Annotation zum Sermo de corpus eius translatem durch
+                        Gregor den Großen: In translatione sancti martini.</p>
+                     <p>Auf f. 117v folgte eine fehlerhafte/lückenhafte Liste der Bischöfe von
+                        Tours, im Anschluss an die Datierung zum Ende von Gregors Historien.</p>
+                     <p n="Exlibris"><locus n=""/></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Ledereinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="BnF" cert="medium"><name>Tours, St-Martin oder
+                              Marmoutier</name></origPlace></p>
+                     <p><origPlace source="Rand Köhler" cert="medium"><name>Tours,
+                           St-Martin</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0816" notAfter="0835"
+                           >816-835</origDate></p>
+                     <p>Datierung durch die Liste der Erzbischöfe auf f. 117r, in der der letzte
+                        Eintrag Landramnus (816-835) ist, ziemlich gut eingrenzbar. Vieles spricht
+                        für eine Entstehung in St-Martin. Die Nähe zur Moutier-Grandval-Bibel, bzw.
+                        zur Bamberg-Bibel, lässt eigentlich keine Zweifel.</p>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84267798</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                        <idno/>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34714c</bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="122 123"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="388"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="168"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

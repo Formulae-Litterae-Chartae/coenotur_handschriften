@@ -70,13 +70,13 @@
                             <p n="Konkordanzen">Konkorddanzen</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote>Holzeinband mit rotem Leder und dem apostolischen Wappen</decoNote>
+                            <decoNote>Holzeinband mit rotem Leder und dem apostolischen Wappen.</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p source="Traube Rand"><origPlace cert="low">"Offenbar aus Tours"</origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
+                            <p><origPlace source="Traube Rand" cert="low">"Offenbar aus Tours"</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
                             <p>Eine Entstehung in Tours erscheint unwahrscheinlich</p>
                         </origin>
                         <provenance type="Provenance"></provenance>

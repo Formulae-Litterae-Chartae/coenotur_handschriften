@@ -1,0 +1,120 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 9729</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 9729</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>90</idno>
+                  </altIdentifier>
+                  <altIdentifier source="BnF, Supplément Latin">
+                     <idno>548</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>157</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Hagiographie">
+                     <author/>
+                     <title>Vitae Patrum</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="159">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.5"/>
+                              <width n="21.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="21.1"/>
+                              <width n="14.3"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="31"/>
+                        <layout><p>rote Titel</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">ungefähr ein Dutzend Hände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">„Revived Cursive“</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Marginalia: </p>
+                     <p n="Exlibris"><locus n="2r"/>iste liber est de armario beati martini
+                        turonensis (12. Jhd./13. Jhd.)</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Kalbsledereinband mit rotem Rücken und den Initialen von
+                        Louis-Philippe</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low"><name>nicht
+                        Tours</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="low" notBefore="0900" notAfter="1000">10.
+                           Jhd.</origDate></p>
+                     <p><origDate source="BnF" cert="low" notBefore="0800" notAfter="0900">9.
+                           Jhd.</origDate></p>
+                     <p>Aus St-Martin, aber vermutlich nicht in Tours hergestellt.</p>
+                  </origin>
+                  <provenance type="Provenance"><name>St-Martin</name></provenance>
+                  <provenance>Entstehung ist unklar, aber gesichert ist, dass die Handschrift im 12.
+                     Jhd. in St-Martin war. 1832 wurde sie durch Danquin gekauft.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b100363877</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc777146</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="178"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="11"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="158"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

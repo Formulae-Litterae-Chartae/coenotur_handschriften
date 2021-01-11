@@ -53,21 +53,21 @@
                               <width n="11.7"/>
                            </dimensions>
                         </extent>
-                        <condition>Es fehlt der Anfang der Evangelien von Mättheus sowie
-                           Lukas.</condition>
+                        <condition>es fehlt der Anfang der Evangelien von Mättheus sowie
+                           Lukas</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="24"/>
-                        <layout><p>Rote und schwarze Titel, purpurne Bänder.</p></layout>
+                        <layout><p>rote und schwarze Titel, purpurne Bänder</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">Eine Hand.</p>
-                     <p source="BnF">Mindestens zwei Hände.</p>
+                     <p source="Rand">eine Hand</p>
+                     <p source="BnF">mindestens zwei Hände</p>
                   </handDesc>
                   <scriptDesc>
-                     <p>Turonische Minuskel.</p>
+                     <p>turonische Minuskel</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -76,14 +76,14 @@
                      <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Einband der bibliothèque royale, vor 1792.</decoNote>
+                     <decoNote>Einband der bibliothèque royale, vor 1792</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace cert="high"><name>St-Martin</name></origPlace></p>
-                     <p><origDate cert="high" notBefore="0820" notAfter="0843">Zwischen 820-843,
-                           unter Fridugisus oder Adalhardus.</origDate></p>
+                     <p><origDate cert="high" notBefore="0820" notAfter="0843">zwischen 820-843,
+                           unter Fridugisus oder Adalhardus</origDate></p>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">Meaux</name> (Abbaye de
                      Chage)</provenance>

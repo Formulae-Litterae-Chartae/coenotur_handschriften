@@ -3,7 +3,7 @@
     <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
-                <title>Rom, Vat., Vat. Lat. 43</title>
+                <title>Rom, Vat., Vat. Lat. 153</title>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -75,14 +75,14 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Tours, wohl St-Martin</p>
-                            <p source="Kautz"><origPlace cert="unknown">Frankreich (?)</origPlace></p>
-                            <p source="Bischoff"><origPlace cert="medium">Tours</origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                            <p><origPlace>Tours, wohl St-Martin</origPlace></p>
+                            <p><origPlace source="Kautz" cert="unknown">Frankreich (?)</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">Tours</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
                             <p>Die Ähnlichkeit mit dem vatikanischen Livius lässt eine Entstehung zu Beginn des 9. Jhds. in St-Martin naheliegend erscheinen. </p>
                         </origin>
                         <provenance type="Provenance"></provenance>
-                        <provenance source="Fugger Katalog von 1555"> Circa <date>1550</date> om lorentiner Giovani Manetti über Martin Gestmann an de Fugger verkaut</provenance>
+                        <provenance source="Fugger-Katalog"> Circa <date>1550</date> om lorentiner Giovani Manetti über Martin Gestmann an de Fugger verkaut</provenance>
                         <acquisition source="Kautz">Nach dem Tod Fuggers <date>1584</date> in den Besitz der Heidelberger Kürfürsten übergegangen</acquisition>
                     </history>
                     <additional>

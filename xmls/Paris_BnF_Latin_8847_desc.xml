@@ -1,0 +1,133 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 8847</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note type="" source=""></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin</idno>
+                  <altIdentifier source="Colbert">
+                     <idno></idno>
+                  </altIdentifier>
+                  <altIdentifier source="Faure">
+                     <idno></idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno></idno>
+                  </altIdentifier>
+                  <altIdentifier source="Dupuy">
+                     <idno></idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rigault">
+                     <idno></idno>
+                  </altIdentifier>
+                  <altIdentifier source="Hurault">
+                     <idno></idno>
+                  </altIdentifier>
+                  <altIdentifier source="Jean de Gagny">
+                     <idno></idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno></idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno></idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno></idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="">
+                           <dimensions type="leaf" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns=""/>
+                        <layout writtenLines=""/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source=""></p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source=""></p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p></p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Marginalia: </p>
+                     <p n="Exlibris"><locus n=""/></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote type=""></decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert=""><name></name></origPlace></p>
+                     <p><origDate source="" cert="" notBefore="" notAfter=""></origDate></p>
+                     <p></p>
+                  </origin>
+                  <provenance type="Provenance"><name type=""/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="" to=""/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

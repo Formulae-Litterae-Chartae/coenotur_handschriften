@@ -16,32 +16,11 @@
                         <repository>Vatlib</repository>
                         <collection/>
                         <idno>Reg. Lat. 647</idno>
-                        <altIdentifier source="Colbert">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Faure">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Regius">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Dupuy">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rigault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Hurault">
-                            <idno></idno>
-                        </altIdentifier>
                         <altIdentifier source="Montfaucon">
                             <idno>1313</idno>
                         </altIdentifier>
                         <altIdentifier source="Rand">
                             <idno>138</idno>
-                        </altIdentifier>
-                        <altIdentifier source="Köhler">
-                            <idno></idno>
                         </altIdentifier>
                         <altIdentifier source="Bischoff">
                             <idno>6726</idno>
@@ -53,7 +32,6 @@
                             <author>Ermentarius</author>
                             <title>Vita et Miracula S. Filiberi</title>
                             <textLang mainLang="la"/>
-                        </msItem>
                         <msItem n="1.1">
                             <locus from="1r" to="18v"></locus>
                             <author>Ermentarius</author>
@@ -65,6 +43,7 @@
                             <author>Ermentarius</author>
                             <title>Miracula sancti Filiberti</title>
                             <note>bis Buch II, cap. 2</note>
+                        </msItem>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -109,7 +88,7 @@
                             <p n="Exlibris"><locus n="2r"/>Exlibris von Alexandre Petau</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote type="apostolisch" source="Poupardin">Neuer Einbane mit dem Wappen von Pius IX.</decoNote>
+                            <decoNote type="apostolisch" source="Poupardin">Neuer Einband mit dem Wappen von Pius IX.</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>

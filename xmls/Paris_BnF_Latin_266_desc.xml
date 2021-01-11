@@ -61,38 +61,38 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="27"/>
-                        <layout><p>Rote und schwarze Titel.</p></layout>
+                        <layout><p>rote und schwarze Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Eine Hand.</p>
+                     <p>eine Hand</p>
                   </handDesc>
                   <scriptDesc>
-                     <p>Perfekte turonische Minuskel; Halbunziale; viele Seiten in Goldschrift.</p>
+                     <p>perfekte turonische Minuskel; Halbunziale; viele Seiten in Goldschrift</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                         <p source="Köhler">Miniaturen durch Maître C, den Maître der
-                           Vivian-Bibel.</p>
+                           Vivian-Bibel</p>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="67v">Aus Notre-Dame de Pontifroy, 1367.</locus></p>
+                     <p n="Exlibris"><locus n="67v">aus Notre-Dame de Pontifroy, 1367</locus></p>
                      <p n="Exlibris"><locus n="221r">De camera compotorum Bleisi. Bibliothek von
                            Blois, 1. Hälfte 16. Jhd.</locus></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Neuerer Ledereinband.</decoNote>
+                     <decoNote>neuerer Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace cert="high"><name type="Kloster">St-Martin</name>,
-                           Tours.</origPlace></p>
+                           Tours</origPlace></p>
                      <p><origDate  source="Bischoff" cert="high" notBefore="0843" notAfter="0855"
-                        >Zwischen 853 und 855; 849-851?</origDate></p>
-                     <p source="Rand">Aufgrund der Herstellung für Lothar ist die Datierung
-                        gesichert; vermutlich näher an 855 als 843.</p>
+                        >zwischen 853 und 855; 849-851?</origDate></p>
+                     <p source="Rand">aufgrund der Herstellung für Lothar ist die Datierung
+                        gesichert; vermutlich näher an 855 als 843</p>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">Notre-Dame de Pontifroy</name>
                      de Metz</provenance>

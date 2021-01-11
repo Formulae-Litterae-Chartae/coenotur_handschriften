@@ -14,7 +14,7 @@
                         <country>Deutschland</country>
                         <settlement>Berlin</settlement>
                         <repository>SB</repository>
-                        <collection/>
+                        <collection></collection>
                         <idno>Hamilton 82</idno>
                         <altIdentifier source="Rand">
                             <idno>97</idno>
@@ -22,12 +22,12 @@
                         <altIdentifier source="Bischoff">
                             <idno>352</idno>
                         </altIdentifier>
-                        <msName/>
+                        <msName></msName>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Bibel">
                             <title>Bibel</title>
-                            <textLang mainLang="la"/>
+                            <textLang mainLang="la"></textLang>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -43,7 +43,7 @@
                                         <width n="27,0"/>
                                     </dimensions>
                                 </extent>
-                                <condition/>
+                                <condition></condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2"/>
@@ -56,10 +56,9 @@
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand" xml:id="Kursive">Karolingische Minuskel</p>
-                            <p source="Rand"/>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote/>
+                            <decoNote></decoNote>
                         </decoDesc>
                         <additions>
                             <p>Gedichte Aldebals für Wilhelm von Dijon (10. Jhd.)</p>
@@ -67,43 +66,31 @@
                             <p source="Martinellus.de" n="tironischen Note"><locus n="58v"/>hic</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote>Brauner Ledereinband über Pappe mit Streicheisengliederung,
-                                19. Jhd.</decoNote>
+                            <decoNote>Brauner Ledereinband über Pappe mit Streicheisengliederung, 19. Jhd.</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p source="Bischoff"><origPlace cert="medium">Tours,
-                                    Marmoutier</origPlace></p>
-                            <p source="Fingernagel"><origPlace cert="high">Tours, St, Martin oder
-                                    Marmoutier</origPlace></p>
-                            <p source="Fingernagel"><origDate cert="high" notBefore="0820"
-                                    notAfter="0840">um 830, wohl unter <name type="Abt"
-                                        >Fredegisus</name></origDate></p>
+                            <p><origPlace source="Bischoff" cert="medium">Tours, Marmoutier</origPlace></p>
+                            <p><origPlace source="Fingernagel" cert="high">Tours, St, Martin oder Marmoutier</origPlace></p>
+                            <p><origDate source="Fingernagel" cert="high" notBefore="0820" notAfter="0840">um 830, wohl unter <name type="Abt">Fredegisus</name></origDate></p>
                         </origin>
-                        <provenance type="Provenance"><name type="Kloster">St-Béningne in
-                                Dijon</name></provenance>
-                        <provenance source="Fingernagel">Verse auf <locus n="435r"/> aus dem 10. und
-                            11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd.
-                            unter <name type="Abt">Wilhelm von Volpiano</name> in St-Bénigne war.
-                            Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift
-                            des Bibliothekskatalog zwischen 1592 und 1682 bestätigt</provenance>
-                        <acquisition><name type="Repository"/></acquisition>
+                        <provenance type="Provenance"><name type="Kloster">St-Bénigne in Dijon</name></provenance>
+                        <provenance source="Fingernagel">Verse auf <locus n="435r"></locus> aus dem 10. und 11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd. unter <name type="Abt">Wilhelm von Volpiano</name> in St-Bénigne war. Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift des Bibliothekskatalog zwischen 1592 und 1682 bestätigt</provenance>
+                        <acquisition><name type="Repository"></name></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno/>
+                                <idno></idno>
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>:
-                                    <idno>http://www.manuscripta-mediaevalia.de/dokumente/html/obj90699361,T</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="147"/></bibl>
-                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="73"/></bibl>
-                            <bibl><idno>Fingernagel 1999</idno><biblScope unit="pp" n="61 63"
-                                /></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/dokumente/html/obj90699361,T</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="147"></biblScope></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="73"></biblScope></bibl>
+                            <bibl><idno>Fingernagel 1999</idno><biblScope unit="pp" n="61 63"></biblScope></bibl>
                             <bibl><idno>Martinellus.de</idno></bibl>
                         </listBibl>
                     </additional>
@@ -111,9 +98,5 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text>
-        <body>
-            <div type="edition"/>
-        </body>
-    </text>
+    <text><body><div type="edition"></div></body></text>
 </TEI>

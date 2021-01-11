@@ -55,24 +55,24 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="20"/>
-                        <layout><p>Rote und schwarze Titel, manchmal mit blau. Nähe zu Latin 266 und
-                              Latin 9385, sowie Beatty 8.</p> Schöne bunte und goldene
-                           Initialen.</layout>
+                        <layout><p>rote und schwarze Titel, manchmal mit blau</p>
+                           <p>Nähe zu Latin 266 und Latin 9385, sowie Beatty 8</p>
+                           <p>schöne bunte und goldene Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Eine Hand.</p>
+                     <p>eine Hand</p>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">Perfekte turonische Minuskel, auf demselben Niveau wie Latin
-                        266 und Latin 9385, besser als Latin 261.</p>
-                     <p source="Bischoff">Evangelienprologe in Halbunziale.</p>
+                     <p source="Rand">perfekte turonische Minuskel, auf demselben Niveau wie Latin
+                        266 und Latin 9385, besser als Latin 261</p>
+                     <p source="Bischoff">Evangelienprologe in Halbunziale</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: Ja.</p>
+                     <p>Marginalia: Ja</p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Pappeinband</decoNote>

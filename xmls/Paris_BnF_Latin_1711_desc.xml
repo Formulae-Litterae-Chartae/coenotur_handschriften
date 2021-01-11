@@ -67,21 +67,21 @@
                               <width n="14,0"/>
                            </dimensions>
                         </extent>
-                        <condition>Der Anfang der Handschrift fehlt</condition>
+                        <condition>Der Anfang der Handschrift fehlt.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="28 29">28 (29)</layout>
-                        <layout source="Rand">Rote und schwarze Titel in Unziale</layout>
+                        <layout source="Rand">Rote und schwarze Titel in Unziale.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">Vermutlich eine, vielleicht drei sehr ähnliche Hände, die dem
-                        Stil des Vatikanischen Livius gleichen</p>
+                     <p source="Rand">vermutlich eine, vielleicht drei sehr ähnliche Hände, die dem
+                        Stil des Vatikanischen Livius gleichen.</p>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand" xml:id="Kursive">Verbesserte Kursive</p>
-                     <p source="Rand">Gemischte Majuskel und imperfekte Unziale, mit einem Hauch von
+                     <p source="Rand" xml:id="Kursive">verbesserte Kursive</p>
+                     <p source="Rand">gemischte Majuskel und imperfekte Unziale, mit einem Hauch von
                         Halbunziale</p>
                   </scriptDesc>
                   <decoDesc>
@@ -89,10 +89,10 @@
                         eines Königs</decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: Am Anfang zahlreiche Notizen, darunter zahlreiche
-                        Nota-Symbole.</p>
+                     <p>Marginalia: am Anfang zahlreiche Notizen, darunter zahlreiche
+                        Nota-Symbole</p>
                      <p n="Exlibris"><locus n="37v"/>Hic est liber Sancti Pauli cormaricensis,
-                        Sancti Optatii, 9. Jhd. (zweimal).</p>
+                        Sancti Optatii, 9. Jhd. (zweimal)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote type="Colbert">Saffianeinband mit dem Wappen von Colbert</decoNote>
@@ -108,9 +108,9 @@
                      Cormery</name></provenance>
                   <provenance>gelangte bereits im 9. Jhd. nach <name type="Kloster">St-Paul de
                         Cormery</name>, wie ein Eintrag auf fol. 37v. belegt.</provenance>
-                  <provenance>Gehört dann P. Pithou und J.-A- de Thou</provenance>
-                  <provenance>ging schließlich an <name type="person"
-                     >Colbert</name>über</provenance>
+                  <provenance>Gehört dann P. Pithou und J.-A- de Thou.</provenance>
+                  <provenance>Ging schließlich an <name type="person"
+                     >Colbert</name> über.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

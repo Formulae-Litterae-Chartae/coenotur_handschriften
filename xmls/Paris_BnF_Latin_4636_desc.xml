@@ -41,8 +41,8 @@
                               <width n="16.5"/>
                            </dimensions>
                         </extent>
-                        <condition source="Bischoff">Fol. 3-8 stark beschädigt. Hinter Fol. 31 zwei
-                           Fol. herausgerissen. Hinter Fol. 34 eine Fol. ausgeschnitten.</condition>
+                        <condition source="Bischoff">Fol. 3-8 stark beschädigt; hinter Fol. 31 zwei
+                           Fol. herausgerissen; hinter Fol. 34 eine Fol. ausgeschnitten</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -51,10 +51,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Mehrere Hände.</p>
+                     <p>mehrere Hände</p>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">Einige Hände regulär turonisch.</p>
+                     <p source="Bischoff">einige Hände regulär turonisch</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>

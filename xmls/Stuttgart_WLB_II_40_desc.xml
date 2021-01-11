@@ -1,0 +1,146 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Stuttgart, WLB, HB II 40</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note source="Köhler Burkhart">Dieses prächtige Evangeliar aus Tours zeichnet sich durch die fünf prächtigen Miniaturen aus. Hierbei handelt es sich die frühesten in turonischen Handschriften und beruhen auf wesentlich älteren Vorlagen on zwischen 650 und 750.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Stuttgart</settlement>
+                  <repository>WLB</repository>
+                  <collection/>
+                  <idno>HB II 40</idno>
+                  <altIdentifier source="Rand">
+                     <idno>103</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>18</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6068</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem source="Boese" class="Bibel">
+                     <author/>
+                     <title>Evangeliar</title>
+                     <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="2r" to="11r"/>
+                        <title>Einleitungsstücke</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="11v" to="60r"/>
+                        <title>Evangelium nach Matthäus</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="60v" to="91v"/>
+                        <title>Evangelium nach Markus</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="92r" to="145v"/>
+                        <title>Evangelium nach Lucas</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="146r" to="184v"/>
+                        <title>Evangelium nach Johannes</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="185r" to="197r"/>
+                        <title>Capitula evangeliorum</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="197">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="33.5"/>
+                              <width n="26.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="24 26">24-26</layout>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand"><name type="scribe">Adalbaldus</name>?</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Burkhard">Karolingische Minuskel</p>
+                     <p source="Burkhard">Prologe, Präfationen und Capitulatio in turonischer Halbunziale</p>
+                     <p source="Burkhard">Präfatio zu Matthäus und erste Spalte des Lukestextes in Unziale</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n="1v"/><p>Majestas</p>
+                        <locus n="16v"/><p>Matthäus</p>
+                        <locus n="63v"/><p>Markus</p>
+                        <locus n="95v"/><p>Lukas</p>
+                        <locus n="146v"/><p>Johannes</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p></p>
+                     <p n="Exlibris" source="Burkhardt"><locus n="197v"/>liber sanctimartini in wingartin. plenarium euwangelistarum (Um 1200)</p>
+                     <p n="Exlibris" source="Burkhardt"><locus n="2r"/>Monasterii Weingartensis 1628 (1628)</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Köhler">Holzdeckel mit Leder</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Köhler McKitterick Bischoff" cert="high"><name type="community">St-Martin</name>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="McKitterick Burkhart" cert="high" notBefore="0807" notAfter="0834">um 830, unter Fredegisus</origDate></p>
+                     <p>Die Handschrift ist mit großer Sicherheit in Tours unter <name type="abbot">Fredegisus</name> (807-834) entstanden.</p>
+                  </origin>
+                  <provenance type="Provenance"><name type="community">Weingarten</name></provenance>
+                  <provenance source="Burkhart">Die Handschrift war schon um 1200 in Weingarten, wie das Exlibris belegt. Vielleicht wurde sie "von den ersten Mönchen aus Altomünster mitgebracht oder [war] ein Geschenk Judiths von Flandern</provenance>
+                  <acquisition><name type="Repository">WLB</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>http://digital.wlb-stuttgart.de/purl/bsz353342416</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/dokumente/html/obj31910370</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="149"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="146" to="154"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="376" to="377"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
+                     <bibl><idno>Boese 1975</idno><biblScope unit="pp" from="44" to="46"/></bibl>
+                     <bibl><idno>McKitterick 1994</idno><biblScope unit="pp" n="71"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="358"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

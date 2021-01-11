@@ -49,21 +49,19 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="35"/>
-                        <layout><p>Rote und schwarze Titel; Initialen.</p></layout>
+                        <layout><p>rote und schwarze Titel; Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Mehrere Hände.</p>
+                     <p>mehrere Hände</p>
                   </handDesc>
                   <scriptDesc>
-                     <p>Verbesserte Kursive.</p>
+                     <p>verbesserte Kursive</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
@@ -71,7 +69,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="low"><name>Tours</name></origPlace></p>
-                     <p><origPlace source="Rand" cert="low">Vermutlich nicht Tours</origPlace></p>
+                     <p><origPlace source="Rand" cert="low">vermutlich nicht Tours</origPlace></p>
                      <p><origPlace source="Köhler" cert="low">Tours unwahrscheinlich</origPlace></p>
                      <p><origPlace source="McKitterick" cert="low">Region um Tours</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"

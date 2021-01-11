@@ -102,36 +102,36 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="50"/>
-                        <layout>Rote und schwarze Titel. Purpurne Bänder, Initialen und
-                           Kanontafeln.</layout>
+                        <layout>rote und schwarze Titel; purpurne Bänder, Initialen und
+                           Kanontafeln</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">Zwei sehr ähnliche Hände.</p>
+                     <p source="Rand">zwei sehr ähnliche Hände</p>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">Turonische Minuskel.</p>
+                     <p source="Rand">turonische Minuskel</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="1r">Bibliothekssignatur aus St-Denis aus dem 13. Jhd.
-                           (Köhler) bzw. aus dem 15. Jhd. (Bischoff).</locus></p>
+                           (Köhler) bzw. aus dem 15. Jhd. (Bischoff)</locus></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Roter Ledereinband des 19. Jhd.</decoNote>
+                     <decoNote>roter Ledereinband des 19. Jhd.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace cert="high">Tours, St-Martin</origPlace></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0810" notAfter="0830">Um
-                           820.</origDate></p>
-                     <p><origDate source="Mercier" cert="low" notBefore="0843" notAfter="0851">Unter
-                           Vivian (843-851).</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0810" notAfter="0830">um
+                           820</origDate></p>
+                     <p><origDate source="Mercier" cert="low" notBefore="0843" notAfter="0851">unter
+                           Vivian (843-851)</origDate></p>
                      <p><origDate source="Bischoff BnF" cert="medium" notBefore="0830"
-                           notAfter="0840">830-840 unter Fridugisius.</origDate></p>
+                           notAfter="0840">830-840 unter Fridugisius</origDate></p>
                      <p>Entstehung in St-Martin kann wegen der Nähe zur Moutier Grandval-Bibel
                         (London, BM Ms Add. 10546) als gesichert angesehen werden. Einzig die
                         Datierung ist nicht ganz gesichert. Die Handschrift scheint nach der

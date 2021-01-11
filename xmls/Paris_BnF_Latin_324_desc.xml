@@ -56,14 +56,14 @@
                         <layout columns="1"/>
                         <layout writtenLines="40"/>
                         <layout><p source="Rand">Einfluss einer anderen Schule, vielleicht Reims,
-                              sichtbar.</p></layout>
+                              sichtbar</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Eine Hand.</p>
+                     <p>eine Hand</p>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">Perfektionierte tironische Minuskel; "Tiny Tours."</p>
+                     <p source="Rand">perfektionierte tironische Minuskel; "Tiny Tours"</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -78,7 +78,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand BnF" cert="low"><name>Tours</name></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low"><name>Nicht
+                     <p><origPlace source="Köhler" cert="low"><name>nicht
                         Tours</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >3. Viertel 9. Jhd.</origDate></p>

@@ -1,0 +1,112 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>St. Gallen, Cod. Sang., 271</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Schweiz</country>
+                  <settlement>St-Gallen</settlement>
+                  <repository>Stiftsbibliothek</repository>
+                  <collection/>
+                  <idno>271</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Briefe">
+                     <author>Alcuinus</author>
+                     <title>Epistulae</title>
+                     <textLang mainLang="la"/>
+                     <note source="Scherrer">Brief LXVIII nicht enthalten</note>
+                  </msItem>
+                  <msItem>
+                     <author/>
+                     <title>Epigrammata de ecclesia S. Petri, de ponte Salario</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="117">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="20.0"/>
+                              <width n="12.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height/>
+                              <width/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                        <layout writtenLines="16 18">16-18</layout>
+                        <layout><p></p>
+                       </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Scherrer">Eine Hand.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p></p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p></p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Scherrer">"Korrekturen eines nicht viel jüngeren Schreibers".</p>
+                     <p n="Exlibris"><locus/></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote></decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Europeana-Regia e-codices" cert="low"><name type="community">St-Martin</name>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bullough" cert="medium"><name type="community">St-Gallen</name></origPlace></p>
+                     <p><origDate source="Scherrer" cert="medium" notBefore="0800" notAfter="0830">Anfang 9. Jhd.</origDate></p>
+                     <p><origDate source="Bullough" cert="medium" notBefore="0820" notAfter="0830">In the 820s.</origDate></p>
+                     <p>Eine Entstehung in St-Gallen erscheint nach den Ausfürhungen von Bullough am wahrscheinlichsten. Demnach ist die Handschrift als Abschrift in St-Gallen im Zusammenhang mit der Verbrüderung unter Fredegisus entstanden.</p>
+                  </origin>
+                  <provenance type="Provenance"><name type="community">St-Gallen</name></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">Stiftsbibliothek St-Gallen</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://www.e-codices.unifr.ch/en/list/one/csg/0271</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno> https://www.e-codices.unifr.ch/en/list/one/csg/0271</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno> http://www.europeanaregia.eu/node/9033</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno> http://beta.biblissima.fr/fr/ark:/43093/mdataeb607836f44c76eab10c8f75439413643c19ea6f</idno></bibl>
+                     <bibl><idno>Scherrer 1875</idno><biblScope unit="pp" n="102"/></bibl>
+                     <bibl><idno>Bullough 2003</idno><biblScope unit="pp" n="61"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

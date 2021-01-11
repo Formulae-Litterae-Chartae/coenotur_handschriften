@@ -16,34 +16,7 @@
                         <repository>Vatlib</repository>
                         <collection/>
                         <idno>Reg. Lat. 1127</idno>
-                        <altIdentifier source="Colbert">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Faure">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Regius">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Dupuy">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rigault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Hurault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Jean de Gagny">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rand">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Köhler">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Bischoff">
+                      <altIdentifier source="Bischoff">
                             <idno>6764</idno>
                         </altIdentifier>
                         <msName></msName>
@@ -81,7 +54,7 @@
                             <p></p>
                         </handDesc>
                         <scriptDesc>
-                            <p>schöne Karolingische Minuskel</p>
+                            <p>Schöne Karolingische Minuskel</p>
                             <p></p>
                         </scriptDesc>
                         <decoDesc>
@@ -102,7 +75,7 @@
                         <origin>
                             <p><origPlace cert="medium" source="Bischoff">Umkreis von <name>Tours</name></origPlace></p>
                             <p><origPlace cert="medium" source="Rand">Nicht aus <name>Tours</name></origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0800" notAfter="0900"></origDate>9. Jhd.</p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0900">9. Jhd.</origDate></p>
                             <p></p>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>

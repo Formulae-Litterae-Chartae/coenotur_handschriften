@@ -1,0 +1,115 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 9435</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 9435</idno>
+                  <altIdentifier source="St-Gatien">
+                     <idno>67</idno>
+                  </altIdentifier>
+                  <altIdentifier source="BnF, Supplément latin">
+                     <idno>1300</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>202</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Musik">
+                     <author>Guido von Arezzo</author>
+                     <title>Musica Missarum</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem class="Liturgie">
+                     <title>Missel de Tours</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="288">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="34.2"/>
+                              <width n="23.2"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="25.2"/>
+                              <width n="7.8"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="22"/>
+                        <layout><p/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">vielleicht italienisch</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions> </additions>
+                  <bindingDesc>
+                     <decoNote>roter Samteinband des 19. Jhd.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium"><name>Tours
+                        (?)</name></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1100">11.
+                           Jhd.</origDate></p>
+                     <p/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance source="Rand">Wenig ist bekannt; vielleicht nicht in Tours entstanden,
+                     aber mit ziemlicher Sicherheit an St-Gatien geschenkt.</provenance>
+                  <provenance>Gekauft am 11. Juni 1851 durch die BnF.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8422988p</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc38710z</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="196"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

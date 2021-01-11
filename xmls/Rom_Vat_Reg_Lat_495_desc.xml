@@ -26,9 +26,8 @@
                     <msContents>
                         <msItem class="Martinellus Heiligenviten">
                             <author></author>
-                            <title>MArtinellus</title>
+                            <title>Martinellus</title>
                             <textLang mainLang="la"></textLang>
-                        </msItem>
                         <msItem n="1.1">
                             <locus from="1r" to="2r"/>
                             <title>Liber Martini de Trinitate</title>
@@ -78,6 +77,7 @@
                             <author>Gregor von Tours</author>
                             <title>Vita sancti Briccii</title>
                         </msItem>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -123,8 +123,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p source="Bischoff Rand"><origPlace cert="medium">Tours</origPlace></p>
-                            <p source="Rand"><origDate cert="medium" notBefore="0796" notAfter="0810">unter Alkuin oder kurz danach</origDate></p>
+                            <p><origPlace source="Bischoff Rand" cert="medium">Tours</origPlace></p>
+                            <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0810">unter Alkuin oder kurz danach</origDate></p>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster"></name></provenance>
                         <acquisition><name type="Repository"></name></acquisition>

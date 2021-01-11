@@ -102,12 +102,12 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="29 31">29 (31 (Lage I))</layout>
-                        <layout>Rote und schwarze Überschriften. Einfache Initialen.</layout>
+                        <layout>rote und schwarze Überschriften; einfache Initialen</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">Fünf Hände: A 9r-14r; B 24r-88r; C 109r-161r; D 162r-204r; E
-                        163v-186v. Hand E sehr nah zu Hand B in Tours, BM, 10.</p>
+                     <p source="Rand">fünf Hände: A 9r-14r; B 24r-88r; C 109r-161r; D 162r-204r; E
+                        163v-186v. Hand E sehr nah zu Hand B in Tours, BM, 10</p>
                   </handDesc>
                   <scriptDesc>
                      <p/>
@@ -115,12 +115,12 @@
                   <decoDesc>
                      <decoNote>
                         <p>Kanontafeln mit typisch turonischen Motiven, insbesondere Tierwesen und
-                           Vogeln.</p>
+                           Vogeln</p>
                      </decoNote>
                   </decoDesc>
                   <additions> </additions>
                   <bindingDesc>
-                     <decoNote source="Köhler" type="Colbert">Colberteinband.</decoNote>
+                     <decoNote source="Köhler" type="Colbert">Colberteinband</decoNote>
                      <decoNote source="Rand">Einband mit Monogramm von Ludwig XV.</decoNote>
                   </bindingDesc>
                </physDesc>

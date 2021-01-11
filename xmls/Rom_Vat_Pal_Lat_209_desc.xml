@@ -86,9 +86,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p source="Bischoff"><origPlace cert="medium">Vielleicht etwa Fleury-Auxerre</origPlace></p>
-                            <p source="Rand"><origPlace cert="low">Tours</origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                            <p><origPlace source="Bischoff" cert="medium">Vielleicht etwa Fleury-Auxerre</origPlace></p>
+                            <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                             <p>Die Neumen könnten entweder aus Fleury oder aus Tours stammen</p>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster">Frankenthal</name></provenance>

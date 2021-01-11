@@ -1,0 +1,105 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 9385</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 9385</idno>
+                  <altIdentifier source="Rand">
+                     <idno>121</idno>
+                  </altIdentifier>
+                  <msName>Du Fay Evangeliar</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel Evangeliar">
+                     <author/>
+                     <title/>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="179">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.4"/>
+                              <width n="24.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="21.0"/>
+                              <width n="7.2"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="26"/>
+                        <layout><p>rot, schwarze, blau-schwarze, goldene und silberne
+                           Titel</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">eine Hand, vielleicht dieselbe wie Beatty 8</p>
+                     <p source="BnF">Perikopen von einer anderen Hand</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>perfektionierte turonische Minuskel</p>
+                     <p>Vorworte in Halbunziale, Incipits in Capitalis</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p>Bilder vom Maître C</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions> </additions>
+                  <bindingDesc>
+                     <decoNote type="BnF">Ledereinband des 18. Jhd.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="medium"><name>Tours, St-Martin</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0843" notAfter="0851"
+                           >843-851</origDate></p>
+                     <p>Hergestellt unter Vivian, sind Ort und Datierung nicht anzuzweifeln.</p>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8426037h</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc340412</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="159"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="406" to="408"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

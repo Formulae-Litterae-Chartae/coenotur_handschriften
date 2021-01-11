@@ -1,0 +1,118 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 11514</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 11514</idno>
+                  <altIdentifier source="Rand">
+                     <idno>57</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>12</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4685</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Bibel (Teile des alten Testaments)</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="207">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="48.3"/>
+                              <width n="35.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="38.3"/>
+                              <width n="12.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="50 51">50 (51)</layout>
+                        <layout><p>schwarze, rote und rot-schwarze Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>um die 16 Hände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>turonische Minuskel</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Einzelne Blätter durch eine Hand des 11. Jahrhunderts hinzugefügt.</p>
+                     <p n="Exlibris"><locus n=""/>St-Maur-des-Fossés vom 17. Jhd.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Pappeinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><name>Marmoutier</name></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low"><name>kein Grund für
+                           Marmoutier</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0815" notAfter="0820"
+                           >circa 815-820</origDate></p>
+                     <p>Datierung scheint unstrittig, Herkunft innerhalb Tours dagegen
+                        ungeklärt.</p>
+                  </origin>
+                  <provenance type="Provenance"><name>St-Maur-des-Fossés</name></provenance>
+                  <provenance>Nach Randnote auf fol. 24v wohl schon seit dem 13. Jhd. in
+                     St-Maur-des-Fossés.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b90808164</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73059g</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="123"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="371" to="372"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="173 175"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

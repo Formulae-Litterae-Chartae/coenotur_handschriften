@@ -16,30 +16,6 @@
                         <repository>Vatlib</repository>
                         <collection/>
                         <idno>Reg. Lat. 1128</idno>
-                        <altIdentifier source="Colbert">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Faure">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Regius">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Dupuy">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rigault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Hurault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Jean de Gagny">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rand">
-                            <idno></idno>
-                        </altIdentifier>
                         <altIdentifier source="Mostert">
                             <idno>1478</idno>
                         </altIdentifier>
@@ -101,8 +77,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="medium" source="Bischoff">Westrankrenreich (z.T. Tours?)</origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                            <p><origPlace source="Bischoff" cert="medium">Westfrankrenreich (z.T. Tours?)</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
                             <p>Schrift wirkt nicht besonders turonisch</p>
                         </origin>
                         <provenance type="Provenance"></provenance>

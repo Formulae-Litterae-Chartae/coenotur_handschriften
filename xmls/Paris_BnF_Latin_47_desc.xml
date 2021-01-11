@@ -60,30 +60,30 @@
                               <width n="11.2"/>
                            </dimensions>
                         </extent>
-                        <condition>Zum Teil stark beschädigt. Anfang und Ende fehlen. Zwischen f96
+                        <condition>zum Teil stark beschädigt; Anfang und Ende fehlen. Zwischen f96
                            und f97 fehlen Folien beim Anfang von Makkabäern 2 zu Matthäus, genau wie
                            in den Briefen des Paulus.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="49"/>
-                        <layout>: Rote und schwarze Titel; einfache Initialen.</layout>
+                        <layout>rote und schwarze Titel; einfache Initialen</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Eine Hand.</p>
+                     <p>eine Hand</p>
                   </handDesc>
                   <scriptDesc>
-                     <p>Turonische Minuskel; Halbunziale.</p>
+                     <p>turonische Minuskel; Halbunziale</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>Miniaturen vorhanden.</decoNote>
+                     <decoNote>Miniaturen vorhanden</decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: vereinzelte Korrekturen (so f33r und f33v).</p>
+                     <p>Marginalia: vereinzelte Korrekturen (so f33r und f33v)</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Alter Einband aus Pergament.</decoNote>
+                     <decoNote>Alter Einband aus Pergament</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -94,7 +94,7 @@
                      <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875"
                            >825-875</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0860" notAfter="0900"
-                           >Nach 860</origDate></p>
+                           >nach 860</origDate></p>
                      <p>Die Verlegung nach St-Denis erscheint unwahrscheinlich, da Format und vor
                         allem auch die Linierung exakt dem Usus aus St-Martin entsprechen.</p>
                   </origin>
