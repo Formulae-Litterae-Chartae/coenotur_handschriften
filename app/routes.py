@@ -77,12 +77,12 @@ def handschrift(manuscript: str):
         if p.xpath('.//text()'):
             metadata['origin']['place'].append('{}{}{}'.format(' '.join(p.xpath('.//text()')), '?' if p.get('cert') == 'low' else '',
                                                                ' (' + p.get('source').upper().replace(' ', '; ') + ')' if
-                                                               len(places) > 1 and p.get('source') else ''))
+                                                               p.get('source') else ''))
     for d in dates:
         if d.xpath('.//text()'):
             metadata['origin']['date'].append('{}{}{}'.format(' '.join(d.xpath('.//text()')), '?' if d.get('cert') == 'low' else '',
                                                               ' (' + d.get('source').upper().replace(' ', '; ') + ')' if
-                                                              len(dates) > 1 and d.get('source') else ''))
+                                                              d.get('source') else ''))
     for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:note/text()',
                        namespaces=namespaces):
         metadata['origin']['commentary'].append(c)
