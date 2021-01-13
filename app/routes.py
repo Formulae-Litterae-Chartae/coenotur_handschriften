@@ -103,7 +103,7 @@ def handschrift(manuscript: str):
         if d.xpath('.//text()'):
             cert_symbol = ''
             if d.get('cert'):
-                cert_symbol = '<span class="cert-{}">&#11044;</span>'.format(d.get('cert'))
+                cert_symbol = ' <span class="cert-{}">&#11044;</span>'.format(d.get('cert'))
             metadata['origin']['date'].append('{}{}{}'.format(' '.join(insert_style_spans(d)), cert_symbol,
                                                               ' (' + d.get('source').upper().replace(' ', '; ') + ')' if
                                                               d.get('source') else ''))
