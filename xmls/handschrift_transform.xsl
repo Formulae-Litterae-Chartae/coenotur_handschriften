@@ -144,12 +144,13 @@
                     <tr>
                         <th class="text-center" scope="col" colspan="2"><h4>ÄUßERES</h4></th>
                     </tr>
-                    {% if m_d['origin']['place'] %}
-                    <tr>
-                        <th scope="row">Entstehungsort</th>
-                        <td>{{ m_d['origin']['place']|join('; ') }}</td>
-                    </tr>
-                    {% endif %}
+                    
+                    <xsl:if test="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p/tei:origPlace">
+                        <tr>
+                            <th scope="row">Entstehungsort</th>
+                            <td>{{ m_d['origin']['place']|join('; ') }}</td>
+                        </tr>
+                    </xsl:if>
                     {% if m_d['origin']['date'] %}
                     <tr>
                         <th scope="row">Entstehungszeit</th>

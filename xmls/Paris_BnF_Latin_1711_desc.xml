@@ -91,8 +91,8 @@
                   <additions>
                      <p>Marginalia: am Anfang zahlreiche Notizen, darunter zahlreiche
                         Nota-Symbole</p>
-                     <p n="Exlibris"><locus n="37v"/>Hic est liber Sancti Pauli cormaricensis,
-                        Sancti Optatii, 9. Jhd. (zweimal)</p>
+                     <p n="Exlibris"><locus n="37v"/><seg type="lat">Hic est liber Sancti Pauli cormaricensis,
+                        Sancti Optatii</seg>, 9. Jhd. (zweimal)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote type="Colbert">Saffianeinband mit dem Wappen von Colbert</decoNote>
@@ -101,8 +101,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="high">Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
-                           >1. Drittel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833">1. Drittel 9. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">St-Paul de
                      Cormery</name></provenance>

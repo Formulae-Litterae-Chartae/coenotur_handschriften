@@ -37,7 +37,7 @@
                         <title>Liber in gloriam martyrum</title>
                      </msItem>
                      <msItem n="1.2">
-                        <locus from="10v"/>
+                        <locus from="10v" to="53v"/>
                         <title>Liber Primus</title>
                      </msItem>
                      <msItem n="1.3">
@@ -111,7 +111,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Nachträge und Benutzungsspuren: Korrekturen des 9.-12. Jhd., darunter einige
+                     <p>Korrekturen des 9.-12. Jhd., darunter einige
                         in Tironischen Noten</p>
                      <p n="Exlibris"><locus n="7"/>Exlibris von Antoine Faure</p>
                   </additions>

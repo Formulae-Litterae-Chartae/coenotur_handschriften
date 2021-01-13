@@ -62,7 +62,7 @@
                         </decoDesc>
                         <additions>
                             <p>Gedichte Aldebals für Wilhelm von Dijon (10. Jhd.)</p>
-                            <p>Briekopie (11. Jhd.)</p>
+                            <p>Briefkopie (11. Jhd.)</p>
                             <p source="Martinellus.de" n="tironischen Note"><locus n="58v"/><seg type="lat">hic</seg></p>
                         </additions>
                         <bindingDesc>
@@ -76,7 +76,7 @@
                             <p><origDate source="Fingernagel" cert="high" notBefore="0820" notAfter="0840">um 830, wohl unter <name type="Abt">Fredegisus</name></origDate></p>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster">St-Bénigne in Dijon</name></provenance>
-                        <provenance source="Fingernagel">Verse auf <locus n="435r"></locus> aus dem 10. und 11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd. unter <name type="Abt">Wilhelm von Volpiano</name> in St-Bénigne war. Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift des Bibliothekskatalog zwischen 1592 und 1682 bestätigt</provenance>
+                        <provenance source="Fingernagel">Verse auf <locus n="435r">435r</locus> aus dem 10. und 11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd. unter <name type="Abt">Wilhelm von Volpiano</name> in St-Bénigne war. Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift des Bibliothekskatalog zwischen 1592 und 1682 bestätigt</provenance>
                         <acquisition><name type="Repository"></name></acquisition>
                     </history>
                     <additional>

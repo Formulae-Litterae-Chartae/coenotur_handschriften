@@ -72,10 +72,9 @@
                      <p><origPlace source="Rand" cert="low">vermutlich nicht Tours</origPlace></p>
                      <p><origPlace source="Köhler" cert="low">Tours unwahrscheinlich</origPlace></p>
                      <p><origPlace source="McKitterick" cert="low">Region um Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
-                           >1. Viertel 9. Jhd.</origDate></p>
-                     <p>Von Köhler ursprünglich nach Tours gelegt, hat er sich, genau wie Rand
-                        schließlich gegen eine Entstehung in Tours ausgesprochen. </p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                     <note>Von Köhler ursprünglich nach Tours gelegt, hat er sich, genau wie Rand
+                        schließlich gegen eine Entstehung in Tours ausgesprochen. </note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster"
                      />St-Maur-des-Fossés</provenance>

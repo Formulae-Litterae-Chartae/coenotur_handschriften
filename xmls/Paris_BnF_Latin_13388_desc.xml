@@ -71,9 +71,9 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="107v"/>aus Corbie aus dem 16. Jhd.: Pour la librarie
-                        de Corbye en Picardie sur Somme.</p>
-                     <p n="Exlibris"><locus n="2r"/>Sancti Germani a Pratis</p>
+                     <p n="Exlibris"><locus n="107v"/>aus Corbie aus dem 16. Jhd.: <seg type="lat">Pour la librarie
+                        de Corbye en Picardie sur Somme.</seg></p>
+                     <p n="Exlibris"><locus n="2r"/><seg type="lat">Sancti Germani a Pratis</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>

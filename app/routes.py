@@ -19,6 +19,24 @@ language_mapping = {'la': 'Latein'}
 
 material_mapping = {'perg': 'Pergament'}
 
+style_span_mapping = {'lat': '<em>{}</em>'}
+
+def insert_style_spans(el: etree._Element) -> list:
+    """ Checks all text() descendents to see if they need special styling
+
+    :param el:
+    :return:
+    """
+    text_parts = []
+    for t in el.xpath('.//text()'):
+        par = t.getparent()
+        if par.tag == '{http://www.tei-c.org/ns/1.0}seg' and par.get('type') in style_span_mapping:
+            text_parts.append(style_span_mapping[par.get('type')].format(t))
+        else:
+            text_parts.append(t)
+    return text_parts
+
+
 @app.route('/')
 @app.route('/index')
 def index():
@@ -75,12 +93,12 @@ def handschrift(manuscript: str):
                       namespaces=namespaces)
     for p in places:
         if p.xpath('.//text()'):
-            metadata['origin']['place'].append('{}{}{}'.format(' '.join(p.xpath('.//text()')), '?' if p.get('cert') == 'low' else '',
+            metadata['origin']['place'].append('{}{}{}'.format(' '.join(insert_style_spans(p)), '?' if p.get('cert') == 'low' else '',
                                                                ' (' + p.get('source').upper().replace(' ', '; ') + ')' if
                                                                p.get('source') else ''))
     for d in dates:
         if d.xpath('.//text()'):
-            metadata['origin']['date'].append('{}{}{}'.format(' '.join(d.xpath('.//text()')), '?' if d.get('cert') == 'low' else '',
+            metadata['origin']['date'].append('{}{}{}'.format(' '.join(insert_style_spans(d)), '?' if d.get('cert') == 'low' else '',
                                                               ' (' + d.get('source').upper().replace(' ', '; ') + ')' if
                                                               d.get('source') else ''))
     for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:note/text()',
@@ -146,7 +164,7 @@ def handschrift(manuscript: str):
         if adds.xpath('tei:locus/@n', namespaces=namespaces) and adds.xpath('tei:locus/@n', namespaces=namespaces)[0]:
             metadata['marginal'].append('{}{}{}'.format('fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' ' if
                                                         adds.xpath('tei:locus/@n', namespaces=namespaces) else '',
-                                                        ''.join(adds.xpath('.//text()')),
+                                                        ''.join(insert_style_spans(adds)),
                                                         ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
                                                         adds.get('source') else ''))
     metadata['exlibris'] = []
@@ -156,10 +174,10 @@ def handschrift(manuscript: str):
         if adds.xpath('tei:locus/@n', namespaces=namespaces) and adds.xpath('tei:locus/@n', namespaces=namespaces)[0]:
             add_locus = 'fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' '
         if adds.get('n') == 'Exlibris':
-            metadata['exlibris'].append('{}{}'.format(add_locus, ''.join(adds.xpath('.//text()'))))
+            metadata['exlibris'].append('{}{}'.format(add_locus, ''.join(insert_style_spans(adds))))
         else:
             children = [etree.tostring(x) for x in adds.iterchildren() if x.text]
-            metadata['marginal'].append('{}{}{}'.format(add_locus, ''.join(adds.xpath('.//text()')),
+            metadata['marginal'].append('{}{}{}'.format(add_locus, ''.join(insert_style_spans(adds)),
                                                       ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
                                                       adds.get('source') else ''))
     metadata['provenance'] = []
@@ -168,9 +186,9 @@ def handschrift(manuscript: str):
                                 namespaces=namespaces):
         if provenance.xpath('.//text()'):
             if provenance.get('type') == 'Provenance':
-                metadata['provenance'].append(''.join(provenance.xpath('.//text()')))
+                metadata['provenance'].append(''.join(insert_style_spans(provenance)))
             else:
-                metadata['provenance_notes'].append('{}{}'.format(''.join(provenance.xpath('.//text()')),
+                metadata['provenance_notes'].append('{}{}'.format(''.join(insert_style_spans(provenance)),
                                                                   ' (' + provenance.get('source').upper().replace(' ', '; ') + ')' if
                                                                   provenance.get('source') else ''))
     metadata['bibliography'] = []
@@ -204,7 +222,7 @@ def handschrift(manuscript: str):
     metadata['binding'] = []
     for bind in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:bindingDesc',
                           namespaces=namespaces):
-        binding_text = ' '.join(bind.xpath('.//text()')).strip()
+        binding_text = ' '.join(insert_style_spans(bind)).strip()
         if binding_text:
             metadata['binding'].append(re.sub(r'\s+', ' ', binding_text))
     return render_template('handschrift.html', title=name_dict[manuscript], m_d=metadata)

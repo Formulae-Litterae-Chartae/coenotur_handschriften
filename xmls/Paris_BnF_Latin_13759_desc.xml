@@ -10,7 +10,7 @@
          </publicationStmt>
          <notesStmt>
             <note>Die Rückseite der letzten Folio weist Federproben auf. f.153r-154r: Lethanie de
-               defunctos aus anderer Zeit. </note>
+               defunctos aus anderer Zeit.</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -20,17 +20,17 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 13759</idno>
-                  <altIdentifier>
-                     <idno>N.1406</idno>
+                  <altIdentifier source="N.">
+                     <idno>1406</idno>
                   </altIdentifier>
-                  <altIdentifier>
+                  <altIdentifier source="olim">
                      <idno>652</idno>
-                  </altIdentifier>
-                  <altIdentifier source="Rand">
-                     <idno>15</idno>
                   </altIdentifier>
                   <altIdentifier source="Corbie">
                      <idno>214</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>15</idno>
                   </altIdentifier>
                   <altIdentifier source="Bischoff">
                      <idno>4933</idno>
@@ -42,7 +42,80 @@
                      <author/>
                      <title>Martinellus</title>
                      <textLang mainLang="la"/>
-                  </msItem>
+                     <msItem n="1.1">
+                        <locus from="1r" to="32v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Vita sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="32v" to="36r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Eusebium</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="36r" to="40r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Aurelium</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="40r" to="45r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Basulam</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="45r" to="74r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber primus</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="74r" to="93v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber secundus</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="93v" to="110v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber tertius</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="111r" to="115v"/>
+                        <title>Versi</title>
+                     </msItem>
+                     <msItem n="1.9">
+                        <locus from="115v" to="116v"/>
+                        <title>Liber Martini de Trinitate</title>
+                     </msItem>
+                     <msItem n="1.10">
+                        <locus from="117r" to="119v"/>
+                        <title>Versi</title>
+                     </msItem>
+                     <msItem n="1.11">
+                        <locus from="119r" to="121r"/>
+                        <title>Epistola de transitus sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.12">
+                        <locus from="121r" to="122r"/>
+                        <title>Versiculius de transitus sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.13">
+                        <locus from="122r" to="123r"/>
+                        <title>Ambrosii de transitus sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.14">
+                        <locus from="123r" to="124v"/>
+                        <title>De translatione Martini ?</title>
+                     </msItem>
+                     <msItem n="1.15">
+                        <locus from="124v" to="127v"/>
+                        <author>Gregor von Tours</author>
+                        <title>Vita sancti Bricci</title>
+                     </msItem>
+                     <msItem n="1.16">
+                        <locus from="127v" to="153r"/>
+                        <author>Paulinus von Périgueux</author>
+                        <title>Vita sancti Martini</title>
+                     </msItem>
+                 </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -81,8 +154,8 @@
                   </decoDesc>
                   <additions>
                      <p>Marginalia: Neumen</p>
-                     <p n="Exlibris"><locus n="1r"/>Liber S. Petri Corbeiensis – Sti Germani a
-                        Pratis</p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Liber S. Petri Corbeiensis – Sti Germani a
+                        Pratis</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Pergamenteinband des 17.-18. Jhd.</decoNote>
@@ -90,22 +163,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><name>Tours</name>, ziemlich sicher
-                           St-Martin</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
-                           >1. Viertel 9. Jhd.</origDate></p>
-                     <p>Entstehung in St-Martin ist sehr wahrscheinlich. Es besteht kein Anlass, die
-                        Datierung anzuzweifeln.</p>
+                     <p><origPlace source="Rand Ganz Bischoff" cert="high"><name>Tours</name>, ziemlich sicher St-Martin</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                     <note>Entstehung in St-Martin ist sehr wahrscheinlich. Es besteht kein Anlass, die Datierung anzuzweifeln.</note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">Corbie</name></provenance>
-                  <provenance>Die Handschrift geht bereits im 9. Jhd. nach <name type="Kloster"
-                        >Corbie</name> und findet sich im Katalog vom Ende des 12. Jahrhunderts von
-                        <name type="Kloster">Corbie</name> (Philipps, Berlin), nr. 214: Martini
-                     episcopi vite et transitus. Bleibt in <name type="Kloster">Corbie</name> bis
-                     mindestens 1621, findet sich im dortigen Katalog. Vermutlich wurde die
-                     Handschrift im Jahr 1636 wegen der Bedrohung durch die Spanier von <name
-                        type="Person">Luc d’Achery</name> nach <name type="Kloster"
-                        >St-Germain-des-Près</name> abtransportiert.</provenance>
+                  <provenance>Die Handschrift gelangte bereits im 9. Jhd. nach <name type="Kloster">Corbie</name> und findet sich im Katalog vom Ende des 12. Jahrhunderts von
+                        <name type="Kloster">Corbie</name> (Philipps, Berlin), nr. 214: <seg type="lat">Martini
+                     episcopi vite et transitus</seg>. Bleibt in <name type="Kloster">Corbie</name> bis
+                     mindestens 1621, findet sich im dortigen Katalog.</provenance>
+                  <provenance>Die Handschrift wurde im Jahr 1638 wegen der Bedrohung durch die Spanier von <name type="Person">Luc d’Achery</name> nach <name type="Kloster">St-Germain-des-Près</name> abtransportiert.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -116,13 +183,16 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc74664n</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="95 96"/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc74664n</idno></bibl>
                      <bibl><idno>Coyecque 1893</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="212"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="95 96"/></bibl>
+                     <bibl><idno>Vezin 1970</idno></bibl>
+                     <bibl><idno>Dolbeau 1979</idno></bibl>
+                     <bibl><idno>Pierre-Marie 1988</idno></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Bourgain/Heinzelmann 1997</idno><biblScope unit="pp"></biblScope></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="120"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="212"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>
