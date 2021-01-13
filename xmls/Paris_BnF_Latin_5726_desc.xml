@@ -47,8 +47,8 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">hauptsächlich eine Hand; von Lupus begonnen, danach wohl von
-                        Fredegaudus geschrieben</p>
+                     <p source="Rand">hauptsächlich eine Hand;Der Anang von Lupus, der Haupttext wohl von
+                        <name type="scribe">Fredegaudus</name> geschrieben</p>
                      <p source="Cinato">auf einzelnen Folia erscheint eine zweite unterstützende
                         Hand (bspw. F.21r)</p>
                   </handDesc>
@@ -60,7 +60,7 @@
                      <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
-                     <p source="Cinato">Nachträge und Benutzungsspuren: Korrekturen von der Hand von
+                     <p source="Cinato">Korrekturen von der Hand von
                         Lupus von Ferrières oder durch gute Imitation eines seiner Schüler,
                         vielleicht Heiric? Diese Korrekturen wurden vielleicht in Auxerre
                         durchgeführt</p>
@@ -75,9 +75,9 @@
                      <p><origPlace cert="high"><name>Tours</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0850">2.
                         Viertel 9. Jhd.</origDate></p>
-                     <p>Durch die klare Beteiligung von Lupus und der Nähe zum vatikanischen Livius
+                     <note>Durch die klare Beteiligung von Lupus und der Nähe zum vatikanischen Livius
                         erscheint die Entstehung in Saint-Martin in Tours in der ersten Hälfte des
-                        9. Jahrhunderts als äußerst wahrscheinlich.</p>
+                        9. Jahrhunderts als äußerst wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

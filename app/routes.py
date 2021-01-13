@@ -93,12 +93,18 @@ def handschrift(manuscript: str):
                       namespaces=namespaces)
     for p in places:
         if p.xpath('.//text()'):
-            metadata['origin']['place'].append('{}{}{}'.format(' '.join(insert_style_spans(p)), '?' if p.get('cert') == 'low' else '',
+            cert_symbol = ''
+            if p.get('cert'):
+                cert_symbol = ' <span class="cert-{}">&#11044;</span>'.format(p.get('cert'))
+            metadata['origin']['place'].append('{}{}{}'.format(' '.join(insert_style_spans(p)), cert_symbol,
                                                                ' (' + p.get('source').upper().replace(' ', '; ') + ')' if
                                                                p.get('source') else ''))
     for d in dates:
         if d.xpath('.//text()'):
-            metadata['origin']['date'].append('{}{}{}'.format(' '.join(insert_style_spans(d)), '?' if d.get('cert') == 'low' else '',
+            cert_symbol = ''
+            if d.get('cert'):
+                cert_symbol = '<span class="cert-{}">&#11044;</span>'.format(d.get('cert'))
+            metadata['origin']['date'].append('{}{}{}'.format(' '.join(insert_style_spans(d)), cert_symbol,
                                                               ' (' + d.get('source').upper().replace(' ', '; ') + ')' if
                                                               d.get('source') else ''))
     for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:note/text()',

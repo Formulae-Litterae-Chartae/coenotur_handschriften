@@ -30,7 +30,7 @@
                <msContents>
                   <msItem class="Bibel Evangelien">
                      <author/>
-                     <title/>
+                     <title>Evangelien</title>
                      <textLang mainLang="la"/>
                      <msItem n="1.1">
                         <locus from="1r" to="7v"/>
@@ -131,8 +131,8 @@
                            >8./9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="low" notBefore="0807" notAfter="0807"
                            >807?</origDate></p>
-                     <p>Eine Entstehung in Saint-Martin wohl unter Alkuin oder kurz danach erscheint
-                        höchst wahrscheinlich.</p>
+                     <note>Eine Entstehung in Saint-Martin wohl unter Alkuin oder kurz danach erscheint
+                        höchst wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance><p>Unter <name type="Abt">Alkuin</name> entstanden handelt es sich um

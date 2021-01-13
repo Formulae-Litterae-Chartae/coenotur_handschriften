@@ -66,8 +66,8 @@
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="1r"/>iste liber est de armario beati martini
-                        turonensis</p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">iste liber est de armario beati martini
+                        turonensis</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>

@@ -83,10 +83,10 @@
                <history>
                   <origin>
                      <p><origPlace cert="high">Tours<name type="Gemeinschaft">St-Martin</name></origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0820" notAfter="0830"/>820-830</p>
-                     <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0840"/>ca. 835</p>
-                     <p><origDate source="bl.uk" cert="high" notBefore="0830" notAfter="0840"/>ca. 830 - c. 840</p>
-                     <p><origDate source="Mercier" cert="medium" notBefore="0834" notAfter="0843"/>unter Adalhard, zwischen 834 und 843</p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0820" notAfter="0830">820-830</origDate></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0840">ca. 835</origDate></p>
+                     <p><origDate source="bl.uk" cert="high" notBefore="0830" notAfter="0840">ca. 830 - c. 840</origDate></p>
+                     <p><origDate source="Mercier" cert="medium" notBefore="0834" notAfter="0843">unter Adalhard, zwischen 834 und 843</origDate></p>
                      <note>Klar erkennbar ist diese Bibel im Skriptorium von St-Martin entstanden. Bezüglich der Datierung herrscht eine Uneinigkeit darüber, ob die Handschrift unter Fridegisius (RAND) oder erst unter Adalhard (BISCHOFF/MERCIER) entstanden ist. KÖHLER arbeitet im Anschluss an RAND heraus, dass die Ornamentik zum Teil später hinzugefügt wurde: Teile davon können frühestens unter Adalhard entstanden sein.</note>
                   </origin>
                   <provenance type="Provenance"><name type="community">Moutier Grandval</name></provenance>

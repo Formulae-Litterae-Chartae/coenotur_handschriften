@@ -3,7 +3,7 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Paris, BnF, Latin 6115</title>
+            <title>Paris, BnF, NAL 1577</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -15,70 +15,72 @@
                   <settlement>Paris</settlement>
                   <repository>BnF</repository>
                   <collection/>
-                  <idno>Latin 6115</idno>
+                  <idno>NAL 1577</idno>
                   <altIdentifier source="Rand">
-                     <idno>67</idno>
+                     <idno>184</idno>
                   </altIdentifier>
-                  <altIdentifier source="Bischoff">
-                     <idno>4397</idno>
+                  <altIdentifier source="Marmoutier">
+                     <idno>66</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Geschichtsschreibung">
-                     <author>Sueton</author>
-                     <title>Vita Caesarum</title>
+                  <msItem class="Theologie Exegese">
+                     <author>Hieronymus</author>
+                     <title>Expositio in Oseam</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="126">
+                        <extent n="110">
                            <dimensions type="leaf" unit="cm">
-                              <height n="22.0"/>
-                              <width n="20.5"/>
+                              <height n="32.5"/>
+                              <width n="27.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="17.3"/>
-                              <width n="14.3"/>
+                              <height n="24.8"/>
+                              <width n="18.8"/>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
-                        <layout writtenLines="29"/>
-                        <layout><p>rote und schwarze Titel; einfache Initialen</p></layout>
+                        <layout writtenLines="29 31">29, 30, 31</layout>
+                        <layout source="Rand"><p>Initialen mit traditionellem Design</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>eine Hand</p>
+                     <p>verschiedene Hände</p>
                   </handDesc>
                   <scriptDesc>
-                     <p>karolingische Minuskel</p>
+                     <p source="Rand">groß und klar</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
+                        <locus n=""/>
                         <p/>
                      </decoNote>
                   </decoDesc>
-                  <additions>
-                     <p n="Exlibris"><locus n="1"/><seg type="lat">Iste liber est de armario beati Martini
-                        Turonensis</seg> (12. Jhd.)</p>
-                  </additions>
+                  <additions> </additions>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2.
-                        Viertel 9. Jhd.</origDate></p>
+                     <p><origPlace source="Rand" cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">westliches Frankreich (nicht
+                           Tours)</origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0900" notAfter="1000">10.
+                           Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0870"
+                           >9. Jhd. ca. Mitte</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
@@ -91,9 +93,9 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc65167j</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="129"/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="116"/></bibl>
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69901s</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="191 192"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="239"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

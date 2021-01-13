@@ -65,7 +65,7 @@
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: Tironische Note Fol. <locus n="79v">79v</locus>: finis</p>
+                     <p><locus n="79v"/>Tironische Note <seg type="lat">finis</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -77,8 +77,8 @@
                            >Tours</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1./2. Viertel 9. Jhd.</origDate></p>
-                     <p>Die Handschrift wurde zu einem späteren Zeitpunkt zusammengefügt. Nur Fol.
-                        66-79 können auf Tours zurückgeführt werden.</p>
+                     <note>Die Handschrift wurde zu einem späteren Zeitpunkt zusammengefügt. Nur Fol.
+                        66-79 können auf Tours zurückgeführt werden.</note>
                   </origin>
                   <provenance type="Provenance">Fol. 1-52: <name type="Ort">Metz</name></provenance>
                   <provenance/>

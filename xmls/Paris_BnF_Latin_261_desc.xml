@@ -81,12 +81,12 @@
                      <p>Nachträge und Benutzungsspuren: sehr wenige Korrekturen, die womöglich auch
                         zeitgenössisch sind</p>
                      <p>Marginalia: einzelne Lagenkontrollvermerke</p>
-                     <p n="Exlibris"><locus n="19r 53r"/>Hunc codicem ornavit Gervasius auro, gemmis
-                        et emblematibus, tunc Cinomannensis postea Remensis episcopus. 11 Jhd.</p>
-                     <p n="Exlibris"><locus n="19r"/>Rhemensi ecclesiae profuit circa annum
-                        1100.</p>
-                     <p n="Exlibris"><locus n="0v"/>Achepté en la ville du Mans 43 solz, le vendredi
-                        1er juing 1582. N. Le Fevre.</p>
+                     <p n="Exlibris"><locus n="19r 53r"/><seg type="lat">Hunc codicem ornavit Gervasius auro, gemmis
+                        et emblematibus, tunc Cinomannensis postea Remensis episcopus</seg>. 11 Jhd.</p>
+                     <p n="Exlibris"><locus n="19r"/><seg type="lat">Rhemensi ecclesiae profuit circa annum
+                        1100</seg>.</p>
+                     <p n="Exlibris"><locus n="0v"/><seg type="lat">Achepté en la ville du Mans 43 solz, le vendredi
+                        1er juing 1582. N. Le Fevre.</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote>roter Ledereinband mit den Initialen von Louis-Philippe</decoNote>
@@ -102,11 +102,11 @@
                            >ca. 3. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Köhler" cert="low" notBefore="0853">nach
                         853</origDate></p>
-                     <p>Entstehung steht sicher im Zusammenhang mit Tours, darauf lassen die Schrift
+                     <note>Entstehung steht sicher im Zusammenhang mit Tours, darauf lassen die Schrift
                         und die Miniaturen schließen. Ob in Tours selbst, und wenn da, dann wohl in
                         St-Martin, ist nicht gesichert. Köhler setzt eine Entstehung in St-Martin
                         an, entstanden wohl auf Basis von Tours, BM, 23, das dem Stift nach der
-                        Zerstörung von 853 gegeben worden sei. </p>
+                        Zerstörung von 853 gegeben worden sei. </note>
                   </origin>
                   <provenance type="Provenance"><name type="Ort"/>Le Mans</provenance>
                   <provenance><p>Die Handschrift wurde 1582 von <name type="Person">Nicolas Le

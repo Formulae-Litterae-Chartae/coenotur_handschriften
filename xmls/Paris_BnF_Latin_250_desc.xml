@@ -30,7 +30,7 @@
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title/>
+                     <title>Novum Testamentum</title>
                      <textLang mainLang="la"/>
                      <msItem n="1.1">
                         <locus from="1r" to="2r"/>
@@ -117,7 +117,7 @@
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="1r">Bibliothekssignatur aus St-Denis aus dem 13. Jhd.
-                           (Köhler) bzw. aus dem 15. Jhd. (Bischoff)</locus></p>
+                           (KÖHLER) bzw. aus dem 15. Jhd. (BISCHOFF)</locus></p>
                   </additions>
                   <bindingDesc>
                      <decoNote>roter Ledereinband des 19. Jhd.</decoNote>

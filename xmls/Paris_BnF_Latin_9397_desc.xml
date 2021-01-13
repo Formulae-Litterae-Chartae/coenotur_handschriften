@@ -33,7 +33,7 @@
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title/>
+                     <title>Bibel</title>
                      <textLang mainLang="la"/>
                      <msItem n="1.1">
                         <locus from="1" to="24"/>
@@ -91,9 +91,9 @@
                         ><name>Marmoutier</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1. Hälfte 9. Jhd.</origDate></p>
-                     <p>Eine Entstehung in Marmoutier zu diesem Zeitpunkt erscheint unwahrscheinlich
+                     <note>Eine Entstehung in Marmoutier zu diesem Zeitpunkt erscheint unwahrscheinlich
                         und in der Literatur unbegründet. Der 3. Teil (fol. 61-84) ist deutlich
-                        später und könnte aus Marmoutier stammen.</p>
+                        später und könnte aus Marmoutier stammen.</note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
                   <provenance>Hergestellt vermutlich in St-Martin war die Handschrift in Marmoutier.

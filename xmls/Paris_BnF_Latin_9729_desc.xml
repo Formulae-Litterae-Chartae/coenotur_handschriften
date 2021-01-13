@@ -68,9 +68,9 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: </p>
-                     <p n="Exlibris"><locus n="2r"/>iste liber est de armario beati martini
-                        turonensis (12. Jhd./13. Jhd.)</p>
+                     <p></p>
+                     <p n="Exlibris"><locus n="2r"/><seg type="lat">iste liber est de armario beati martini
+                        turonensis</seg> (12. Jhd./13. Jhd.)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Kalbsledereinband mit rotem Rücken und den Initialen von
@@ -86,7 +86,7 @@
                            Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="low" notBefore="0800" notAfter="0900">9.
                            Jhd.</origDate></p>
-                     <p>Aus St-Martin, aber vermutlich nicht in Tours hergestellt.</p>
+                     <note>Aus St-Martin, aber vermutlich nicht in Tours hergestellt.</note>
                   </origin>
                   <provenance type="Provenance"><name>St-Martin</name></provenance>
                   <provenance>Entstehung ist unklar, aber gesichert ist, dass die Handschrift im 12.

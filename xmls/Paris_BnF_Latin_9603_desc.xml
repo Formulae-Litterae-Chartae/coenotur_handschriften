@@ -71,8 +71,8 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: Tironische Noten?</p>
-                     <p n="Exlibris"><locus n="2v"/>Iste liber est de armario beati Martini Tur.</p>
+                     <p>Tironische Noten?</p>
+                     <p n="Exlibris"><locus n="2v"/><seg type="lat">Iste liber est de armario beati Martini Tur</seg>.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>

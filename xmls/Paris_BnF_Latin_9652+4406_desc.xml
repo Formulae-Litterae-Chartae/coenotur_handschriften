@@ -67,9 +67,9 @@
                   <additions>
                      <p>Reichliche Glossierungen von mehreren späteren Händen, die aber nach wenigen
                         Folio deutlich abnehmen.</p>
-                     <p n="Exlibris"><locus n=""/>Exlibris aus Beauvais aus dem 19. Jhd.: «Ce livre
+                     <p n="Exlibris"><locus n=""/>Exlibris aus Beauvais aus dem 19. Jhd.: <seg type="lat">Ce livre
                         manuscrit apartient à la bibliothèque du chapitre de la cathédrale de
-                        Beauvais»</p>
+                        Beauvais</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -81,10 +81,10 @@
                               St-Martin</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                            >2. Viertel 9. Jhd.</origDate></p>
-                     <p>Eine Entstehung im sehr nahen Umfeld von <name type="Kloster"
+                     <note>Eine Entstehung im sehr nahen Umfeld von <name type="Kloster"
                            >St-Martin</name> erscheint wahrscheinlich. <name type="Kloster"
                            >St-Martin</name> selbst lehnt <name type="Person">Bischoff</name> ab,
-                        eine Tintenanalyse könnte da mehr Auskunft geben.</p>
+                        eine Tintenanalyse könnte da mehr Auskunft geben.</note>
                   </origin>
                   <provenance type="Provenance"><name>Beauvais, Saint-Pierre</name></provenance>
                   <provenance>Die Handschrift war noch bis ins 19. Jhd. in Beauvais.</provenance>

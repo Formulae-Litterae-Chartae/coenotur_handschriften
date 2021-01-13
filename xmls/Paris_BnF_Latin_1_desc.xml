@@ -37,7 +37,7 @@
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title/>
+                     <title>Bibel</title>
                      <textLang mainLang="la"/>
                      <msItem n="1.1">
                         <locus from="1r" to="2v"/>
@@ -122,7 +122,7 @@
                      die Kathedrale von <name type="Ort">Metz</name>.</provenance>
                   <provenance>Von dort ging sie 1675 in den Besitz von <name type="person"
                         >Colbert</name> über</provenance>
-                  <provenance>und dann 1732 in die Bibliothèque royale.</provenance>
+                  <provenance>Sie gelangte 1732 in die Bibliothèque royale.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

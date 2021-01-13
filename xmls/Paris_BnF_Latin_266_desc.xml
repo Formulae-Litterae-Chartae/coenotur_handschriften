@@ -78,7 +78,7 @@
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="67v">aus Notre-Dame de Pontifroy, 1367</locus></p>
-                     <p n="Exlibris"><locus n="221r">De camera compotorum Bleisi. Bibliothek von
+                     <p n="Exlibris"><locus n="221r"><seg type="lat">e camera compotorum Bleisi</seg>. Bibliothek von
                            Blois, 1. Hälfte 16. Jhd.</locus></p>
                   </additions>
                   <bindingDesc>
@@ -91,8 +91,8 @@
                            Tours</origPlace></p>
                      <p><origDate  source="Bischoff" cert="high" notBefore="0843" notAfter="0855"
                         >zwischen 853 und 855; 849-851?</origDate></p>
-                     <p source="Rand">aufgrund der Herstellung für Lothar ist die Datierung
-                        gesichert; vermutlich näher an 855 als 843</p>
+                     <note>Aufgrund der Herstellung für Lothar ist die Datierung
+                        gesichert; vermutlich näher an 855 als 843</note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">Notre-Dame de Pontifroy</name>
                      de Metz</provenance>

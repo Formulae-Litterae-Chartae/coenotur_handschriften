@@ -33,7 +33,7 @@
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title/>
+                     <title>Bibel</title>
                      <textLang mainLang="la"/>
                      <msItem n="1.1">
                         <locus from="1r" to="96v"/>
@@ -80,7 +80,7 @@
                      <decoNote>Miniaturen vorhanden</decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: vereinzelte Korrekturen (so f33r und f33v)</p>
+                     <p>vereinzelte Korrekturen (so f33r und f33v)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Alter Einband aus Pergament</decoNote>
@@ -90,13 +90,13 @@
                   <origin>
                      <p><origPlace cert="medium" source="Rand">Tours</origPlace></p>
                      <p><origPlace cert="medium" source="BnF">St-Martin</origPlace></p>
-                     <p><origPlace cert="low" source="Europeana regia">St-Denis</origPlace></p>
+                     <p><origPlace cert="low" source="Europeana_regia">St-Denis</origPlace></p>
                      <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875"
                            >825-875</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0860" notAfter="0900"
                            >nach 860</origDate></p>
-                     <p>Die Verlegung nach St-Denis erscheint unwahrscheinlich, da Format und vor
-                        allem auch die Linierung exakt dem Usus aus St-Martin entsprechen.</p>
+                     <note>Die Verlegung nach St-Denis erscheint unwahrscheinlich, da Format und vor
+                        allem auch die Linierung exakt dem Usus aus St-Martin entsprechen.</note>
                   </origin>
                   <provenance type="Provenance"><name type="Person">Faure</name></provenance>
                   <provenance>Aus der Sammlung von <name type="Person">Faure</name>, gelangt die

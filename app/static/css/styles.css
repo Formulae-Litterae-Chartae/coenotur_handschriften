@@ -1,0 +1,14 @@
+.table tr td span.cert-low {
+    color: red;
+    font-size: small;
+} 
+
+.table tr td span.cert-medium {
+    color: yellow;
+    font-size: small;
+} 
+
+.table tr td span.cert-high {
+    color: green;
+    font-size: small;
+} 

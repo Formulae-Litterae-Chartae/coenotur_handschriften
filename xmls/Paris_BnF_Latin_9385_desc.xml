@@ -73,7 +73,7 @@
                      <p><origPlace cert="medium"><name>Tours, St-Martin</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0843" notAfter="0851"
                            >843-851</origDate></p>
-                     <p>Hergestellt unter Vivian, sind Ort und Datierung nicht anzuzweifeln.</p>
+                     <note>Hergestellt unter <name type="abbot">Vivian</name>, sind Ort und Datierung nicht anzuzweifeln.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

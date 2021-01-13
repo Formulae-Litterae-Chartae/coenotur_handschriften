@@ -33,7 +33,7 @@
                <msContents>
                   <msItem class="Bibel Evangelien">
                      <author/>
-                     <title/>
+                     <title>Evangeliar</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -69,7 +69,7 @@
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n=""/></p>
+                     <p n="Exlibris"></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
