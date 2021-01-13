@@ -17,32 +17,8 @@
                         <repository>Vatlib</repository>
                         <collection/>
                         <idno>Vat. Lat. 1512</idno>
-                        <altIdentifier source="Colbert">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Faure">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Regius">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Dupuy">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Rigault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Hurault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Jean de Gagny">
-                            <idno></idno>
-                        </altIdentifier>
                         <altIdentifier source="Rand">
                             <idno>9</idno>
-                        </altIdentifier>
-                        <altIdentifier source="Köhler">
-                            <idno></idno>
                         </altIdentifier>
                         <altIdentifier source="Bischoff">
                             <idno>6859</idno>
@@ -91,7 +67,7 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p>MArginalia: vereinzelte Kommentare und einzelne farbige Zeichnungen</p>
+                            <p>Marginalia: vereinzelte Kommentare und einzelne farbige Zeichnungen</p>
                             <p n="Exlibris"><locus n=""/></p>
                         </additions>
                         <bindingDesc>
@@ -103,7 +79,7 @@
                             <p><origPlace cert="high" source="Bischoff Williams"><name>Luxeuil</name></origPlace></p>
                             <p><origPlace cert="low" source="Rand"><name>Tours</name></origPlace></p>
                             <p source="Bischoff"><origDate cert="high" notBefore="0790" notAfter="0810"/>kurz vor 800 oder um 800</p>
-                            <p>WILLIAMS weißt ausführlich nach, dass die Entstehung der Handschrift mit großer Wahrscheinlichkeit nach Luxeuil zu verorten ist. So erscheint Tours aufgrund des chaotischen Wechsels von Fell- zu Fleisch-Seite unwahrscheinlich. Auch das Schriftbild erscheint nicht als typisch turonisch.</p>
+                            <note>WILLIAMS weißt ausführlich nach, dass die Entstehung der Handschrift mit großer Wahrscheinlichkeit nach Luxeuil zu verorten ist. So erscheint Tours aufgrund des chaotischen Wechsels von Fell- zu Fleisch-Seite unwahrscheinlich. Auch das Schriftbild erscheint nicht als typisch turonisch.</note>
                         </origin>
                         <provenance type="Provenance">Entstehung in <name type="Kloster">Luxeuil</name>  durch Bischoff und Williams wahrscheinlich. Trotzdem überrascht es, dass die beiden einzigen anderen überlieferten Handschriften des Donatus beide sicher aus Tours stammen (Vat. lat. 1512 und Reg. Lat. 1484).</provenance>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>

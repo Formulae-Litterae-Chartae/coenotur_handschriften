@@ -100,7 +100,7 @@
                   <additions>
                      <p></p>
                      <p n="Exlibris" source="Burkhardt"><locus n="197v"/>liber sanctimartini in wingartin. plenarium euwangelistarum (Um 1200)</p>
-                     <p n="Exlibris" source="Burkhardt"><locus n="2r"/>Monasterii Weingartensis 1628 (1628)</p>
+                     <p n="Exlibris" source="Burkhardt"><locus n="2r"/><seg type="lat">Monasterii Weingartensis 1628 (1628)</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote source="Köhler">Holzdeckel mit Leder</decoNote>
@@ -110,7 +110,7 @@
                   <origin>
                      <p><origPlace source="Rand Köhler McKitterick Bischoff" cert="high"><name type="community">St-Martin</name>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="McKitterick Burkhart" cert="high" notBefore="0807" notAfter="0834">um 830, unter Fredegisus</origDate></p>
-                     <p>Die Handschrift ist mit großer Sicherheit in Tours unter <name type="abbot">Fredegisus</name> (807-834) entstanden.</p>
+                     <note>Die Handschrift ist mit großer Sicherheit in Tours unter <name type="abbot">Fredegisus</name> (807-834) entstanden.</note>
                   </origin>
                   <provenance type="Provenance"><name type="community">Weingarten</name></provenance>
                   <provenance source="Burkhart">Die Handschrift war schon um 1200 in Weingarten, wie das Exlibris belegt. Vielleicht wurde sie "von den ersten Mönchen aus Altomünster mitgebracht oder [war] ein Geschenk Judiths von Flandern</provenance>

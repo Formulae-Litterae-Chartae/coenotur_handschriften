@@ -3,7 +3,7 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Wie, NB, Cod. 89</title>
+            <title>Wien, NB, Cod. 89</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -144,7 +144,7 @@
                      <p><origPlace source="Köhler" cert="medium">Salzburg</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">St-Amand, erweitert in Salzburg</origPlace></p>
                      <p><origDate source="Köhler Bischoff" cert="high" notBefore="0800" notAfter="0850">Anfang 9. Jhd.</origDate></p>
-                     <p>Die Handschrift ist wohl nicht in Tours entstanden. Eine Entstehung in St-Amand mit Ergänzungen aus Salzburg erscheint wahrscheinlich.</p>
+                     <note>Die Handschrift ist wohl nicht in Tours entstanden. Eine Entstehung in St-Amand mit Ergänzungen aus Salzburg erscheint wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><name type="community">Salzburg</name></provenance>
                   <provenance source="Hermann">Die Handschrift gelangt unter Erzbischof Friedirch von Salzburg (938-991) in die Dombibliothek.</provenance>

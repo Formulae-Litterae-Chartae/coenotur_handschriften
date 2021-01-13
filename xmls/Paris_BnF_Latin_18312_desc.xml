@@ -1,0 +1,118 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 18312</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note>f.109 fehlt und ist in der frühen Neuzeit auf Papier ergänzt worden</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 18312</idno>
+                  <altIdentifier source="Rand">
+                     <idno>31</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5055</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Hagiographie Martinellus">
+                     <author/>
+                     <title>Martinellus</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="129">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="20.5"/>
+                              <width n="15.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="11.0"/>
+                              <width n="9.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>gut</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="22"/>
+                        <layout><p>rot-schwarze Überschriften; rote Anfangsbuchstaben</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">vermutlich Adalbaldus</p>
+                     <p source="Bischoff">die Vermutung Adalbaldus kaum zutreffend</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>turonische Minuskel von mehr als einer Hand</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>wenige Anmerkungen, von unterschiedlicher Art und Datierung</p>
+                     <p><locus n="129r"/>ADIUUANTEDNO NRO IHU XPO/ QUI CUM PATRE ETSPU SCO VIVIT /
+                        ET REGNAT PER OMNIASCLA /SCLORUM AMEN. QUI SCRIBERE / NESCIT NULLUM / PUTAT
+                        EE. LABOREM / TRES DIGITIS SCRIBUNT / SED TOTA MEMBRA / LABORANT SICUT /
+                        NAVIGANTIBUS OPTIMUS / PORTUS ITA SCRIPTORI / NAVISSIMUS / VERSUS</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>alter heller Ledereinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="medium"><name>Tours</name>, Saint-Martin</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
+                           >1. Drittel 9. Jhd.</origDate></p>
+                     <p/>
+                  </origin>
+                  <provenance type="Provenance"><name>Notre-Dame de Paris</name></provenance>
+                  <provenance>Es ist gut möglich, dass die vorliegende Handschrift eine der beiden
+                     Handschriften ist, die der Bischof <name type="Person">Thibault</name> von
+                     Paris (1142-1157) der Kathedralkirche Notre-Dame geschenkt hat. Durch die
+                     Angaben auf dem Vorblatt aus Papier aus dem 17. Jhd. ist gesichert, dass die
+                     Handschrift zu diesem Zeitpunkt zur Bibliothek von Notre-Dame de Paris
+                     gehörte</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b52508463f</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69179s</idno></bibl>
+                     <bibl><idno>Rand 1930</idno><biblScope unit="pp" n="108"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="232"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

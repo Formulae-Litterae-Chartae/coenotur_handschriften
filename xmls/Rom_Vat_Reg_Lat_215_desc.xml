@@ -67,7 +67,7 @@
                             <p n="Nota">Auf den ersten Folia, bis einschließlich f.10 finden sich zahlreiche Nota-Zeichen.</p>
                             <p n="Ergänzung">Ansonsten finden sich wenig Nachträge, ein paar Korrekturen und paar Zitationszeichen und zwei Mal Federproben.</p>
                             <p>Die Handschrift scheint eine Gebrauchshandschrift gewesen zu sein, die aber nicht kommentiert oder weiter beschriftet worden ist.</p>
-                            <p n="Exlibris"><locus n="1r"/>Hic liber est sce Mar. (14. Jhd.)</p>
+                            <p n="Exlibris"><locus n="1r"/><seg type="lat">Hic liber est sce Mar.</seg> (14. Jhd.)</p>
                         </additions>
                         <bindingDesc>
                             <decoNote></decoNote>

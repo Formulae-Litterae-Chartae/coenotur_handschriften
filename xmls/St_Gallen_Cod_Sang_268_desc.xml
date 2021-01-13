@@ -90,7 +90,7 @@
                      <p><origPlace source="Bischoff" cert="medium">"Westfrankreich (Tours nicht sicher)"</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Bergmann/Stricker" cert="high" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
-                     <p>Eine Entstehung in Tours, bzw. St-Martin erscheint augrund des Inhaltes wahrscheinlich, ist aber keineswegs gesichert.</p>
+                     <note>Eine Entstehung in Tours, bzw. St-Martin erscheint augrund des Inhaltes wahrscheinlich, ist aber keineswegs gesichert.</note>
                   </origin>
                   <provenance type="Provenance"><name type="community">St-Gallen</name></provenance>
                   <provenance>Der Entstehungsort der Handschrift ist nicht gesichert. Sie gelangt jedoch früh nach St-Gallen und verblieb dort.</provenance>

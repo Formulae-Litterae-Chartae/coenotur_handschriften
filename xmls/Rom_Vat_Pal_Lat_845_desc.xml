@@ -72,7 +72,7 @@
                         <origin>
                             <p><origPlace source="Bischoff" cert="medium">Mainz</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                            <p>Zu Recht als nicht aus Tours stammend deklariert</p>
+                            <note>Zu Recht als nicht aus Tours stammend deklariert</note>
                         </origin>
                         <provenance type="Provenance">St-Martin in Mainz</provenance>
                         <acquisition></acquisition>

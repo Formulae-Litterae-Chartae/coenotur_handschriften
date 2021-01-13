@@ -3,7 +3,7 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Paris, BnF, Latin 9434</title>
+            <title>Paris, BnF, NAL 442</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -15,48 +15,51 @@
                   <settlement>Paris</settlement>
                   <repository>BnF</repository>
                   <collection/>
-                  <idno>Latin 9434</idno>
+                  <idno>NAL 442</idno>
                   <altIdentifier source="Rand">
-                     <idno>201</idno>
+                     <idno>122</idno>
                   </altIdentifier>
-                  <altIdentifier source="St-Gatien">
-                     <idno>63</idno>
+                  <altIdentifier source="Libri">
+                     <idno>94</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5068 u. 5069</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Liturgie">
+                  <msItem class="Bibel Psalter">
                      <author/>
-                     <title>Missale Turonense</title>
+                     <title>Psalter</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="372">
+                        <extent n="97">
                            <dimensions type="leaf" unit="cm">
-                              <height n="30.0"/>
-                              <width n="20.1"/>
+                              <height n="17.8"/>
+                              <width n="13.2"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="22.9"/>
-                              <width n="12.5"/>
+                              <height n="11.7"/>
+                              <width n="3.7"/>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="1"/>
+                        <layout columns="2"/>
                         <layout writtenLines="19"/>
-                        <layout><p/></layout>
+                        <layout><p>Titel in hervorragender Capitalis Rustica</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <p/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <p>tironische Noten</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -65,37 +68,42 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Ergänzungen auf Griechisch</p>
-                     <p n="Exlibris"><locus n="1"/>Ex mss. Ecclesiae Turonensis (18. Jhd.)</p>
+                     <p>Marginalia: </p>
+                     <p n="Exlibris"><locus n="97v"/>Sancti Petri de Perusio (von Libri
+                        eingefügt)</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Kalbsledereinband</decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><name>Tours</name></origPlace></p>
-                     <p><origDate source="BnF" cert="low" notBefore="1000" notAfter="1100">11.
-                           Jhd.</origDate></p>
-                     <p><origDate source="Chantel Senseby" cert="low" notBefore="0980"
-                           notAfter="1000">Ende 10. Jhd.</origDate></p>
+                     <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low"><name>Reims</name></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low"><name>Reims</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0870"
+                           >ca. Mitte 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name>St-Gatien</name></provenance>
-                  <provenance>Am 18. Mai 1832 für die BnF gekauft.</provenance>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance>Gehörte <name type="Person">Bouhier</name>, bevor es an die Bibliothek
+                     der Medizin in <name type="Ort">Montpellier</name> übergegangen ist. Dort wurde
+                     es von <name type="Person">Libri</name> gestohlen und gelang über Ashburnham an
+                     die königliche Bibliothek.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84229878</idno>
+                        <idno>http://gallica.bnf.fr/ark:/12148/btv1b10036384w</idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc38709x</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="196"/></bibl>
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc71166v</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="159 160"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="235"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

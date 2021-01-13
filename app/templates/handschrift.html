@@ -58,7 +58,7 @@
                 {% endif %}
                 {% if m_d['origin']['commentary'] %}
                 <tr>
-                    <th scope="row">Kommentar zu Ort und Zeit</th>
+                    <th scope="row">Kommentar zu Entstehungsort und -zeit</th>
                     <td>{{ m_d['origin']['commentary']|join('. ') }}</td>
                 </tr>
                 {% endif %}
@@ -136,14 +136,10 @@
                 {% endif %}
                 {% if m_d['marginal'] %}
                 <tr>
+                    <th scope="row">Ergänzungen und Benutzungsspuren</th>
+                    <td>
                     {% for n in m_d['marginal'] %}
-                        {% if loop.first %}
-                        <th scope="row">Ergänzungen und Benutzungsspuren</th>
-                        <td>{{ n }}</td>
-                        {% else %}
-                        <th scope="row"></th>
-                        <td>{{ n }}</td>
-                        {% endif %}
+                    - {{ n }}<br>
                     {% endfor %}
                 </tr>
                 {% endif %}

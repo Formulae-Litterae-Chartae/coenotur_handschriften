@@ -14,37 +14,36 @@
                         <country>Vatikan</country>
                         <settlement>Rom</settlement>
                         <repository>Vatlib</repository>
-                        <collection/>
+                        <collection></collection>
                         <idno>Barb. Lat. 680</idno>
                         <altIdentifier source="Bischoff">
                             <idno>6427</idno>
                         </altIdentifier>
-                        <msName/>
+                        <msName></msName>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Rechtstexte Konzilsakten">
-                            <author/>
+                            <author></author>
                             <title>Concilium Chalcedinense</title>
-                            <textLang mainLang="la"/>
-                        </msItem>
+                            <textLang mainLang="la"></textLang>
+                            </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent n="161">161 (statt der angegebenen 163 ff.88 und 99
-                                    übersprungen) <dimensions type="leaf" unit="cm">
-                                        <height n="29.2"/>
-                                        <width n="22.5"/>
+                                <extent n="161">161 (statt der angegebenen 163 ff.88 und 99 übersprungen)
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="29.2"></height>
+                                        <width n="22.5"></width>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="21.5"/>
-                                        <width n="16.5"/>
-                                    </dimensions>
-                                </extent>
+                                        <height n="21.5"></height>
+                                        <width n="16.5"></width>
+                                    </dimensions> </extent>
                                 <condition>Pergament gut erhalten,, Bindung löst sich.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="2"/>
+                                <layout columns="2"></layout>
                                 <layout writtenLines="29 30">30 (29)</layout>
                                 <layout source="Rand">Überschriften in Rot</layout>
                             </layoutDesc>
@@ -56,13 +55,11 @@
                             <p source="Rand">Turonische Minuskel</p>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>keine Miniaturen, außer eine Federzeichnung als Federproben f.
-                                37v eines Königs</decoNote>
+                            <decoNote>keine Miniaturen, außer eine Federzeichnung als Federproben f. 37v eines Königs</decoNote>
                         </decoDesc>
                         <additions>
                             <p n="Korrekturen">wenige Korrekturen</p>
-                            <p n="Ergänzung">Einige wenige (moderne?) Datierungshinweise zu den
-                                Konzilien</p>
+                            <p n="Ergänzung">Einige wenige (moderne?) Datierungshinweise zu den Konzilien</p>
                         </additions>
                         <bindingDesc>
                             <decoNote>Weißer Ledereinband</decoNote>
@@ -71,33 +68,29 @@
                     <history>
                         <origin>
                             <p><origPlace source="Bischoff" cert="medium">Tours</origPlace></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0866"
-                                    notAfter="0900">3. Drittel 9. Jhd.</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0866" notAfter="0900">3. Drittel 9. Jhd.</origDate></p>
                         </origin>
-                        <provenance type="Provenance"><name type="Kloster"/></provenance>
-                        <acquisition><name type="Repository"/></acquisition>
+                        <provenance type="Provenance"><name type="Kloster"></name></provenance>
+                        <acquisition><name type="Repository"></name></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno/>
+                                <idno></idno>
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>:
-                                    <idno>https://opac.vatlib.it/mss/detail/Barb.lat.680</idno></bibl>
-                            <bibl><idno>Stürner 1969</idno><biblScope unit="pp" n="103 104"/></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="404"/></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Barb.lat.680</idno></bibl>
+                            <bibl><idno>Stürner 1969</idno><biblScope unit="pp" n="103 104"></biblScope></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="404"></biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text>
-        <body>
-            <div type="edition"/>
-        </body>
-    </text>
+    <text><body><div type="edition"></div></body></text>
 </TEI>
+
+

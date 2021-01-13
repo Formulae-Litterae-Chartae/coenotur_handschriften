@@ -69,7 +69,7 @@
                         </decoDesc>
                         <additions>
                             <p n="Korrekturen">einige wenige Korrekturen</p>
-                            <p n="Exlibris"><locus n=""/>Alexander Pauli filius Petauies Parisenses anno 1647</p>
+                            <p n="Exlibris"><locus n=""/><seg type="lat">Alexander Pauli filius Petauies Parisenses anno 1647</seg></p>
                         </additions>
                         <bindingDesc>
                             <decoNote></decoNote>
@@ -79,7 +79,7 @@
                         <origin>
                             <p><origPlace source="Bischoff" cert="medium">Westfrankrenreich (z.T. Tours?)</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
-                            <p>Schrift wirkt nicht besonders turonisch</p>
+                            <note>Die Schrift wirkt nicht besonders turonisch.</note>
                         </origin>
                         <provenance type="Provenance"></provenance>
                         <provenance>Wie das Exlibris belegt, war die Handschrift 1647 im Besitz von <name type="person">Alexandre Pauli</name>, dem Sohn von Petau.</provenance>

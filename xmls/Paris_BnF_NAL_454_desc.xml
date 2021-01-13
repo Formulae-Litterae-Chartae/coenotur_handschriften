@@ -3,7 +3,7 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Paris, BnF, Latin 9434</title>
+            <title>Paris, BnF, NAL 454</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -15,48 +15,58 @@
                   <settlement>Paris</settlement>
                   <repository>BnF</repository>
                   <collection/>
-                  <idno>Latin 9434</idno>
-                  <altIdentifier source="Rand">
-                     <idno>201</idno>
+                  <idno>NAL 454</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>33</idno>
                   </altIdentifier>
-                  <altIdentifier source="St-Gatien">
-                     <idno>63</idno>
+                  <altIdentifier source="Rand">
+                     <idno>159</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>21</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5074</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Delisle, Libri">
+                     <idno>41</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Liturgie">
-                     <author/>
-                     <title>Missale Turonense</title>
+                  <msItem class="Klassiker">
+                     <author>Cicero</author>
+                     <title>Traité sur la Vicillesse, et le Songe de Scipions avec le commentaire de
+                        Macrobe</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="372">
+                        <extent n="81">
                            <dimensions type="leaf" unit="cm">
-                              <height n="30.0"/>
-                              <width n="20.1"/>
+                              <height n="24.0"/>
+                              <width n="20.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="22.9"/>
-                              <width n="12.5"/>
+                              <height n="17.2"/>
+                              <width n="13.1"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>sehr schlechter Zustand</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
-                        <layout writtenLines="19"/>
+                        <layout writtenLines="27 28">27, 28 (29)</layout>
                         <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <p>nicht Adalbaldus</p>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <p source="Bischoff">Corbie-Minuskel der Hadoard-Zeit</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -65,37 +75,42 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Ergänzungen auf Griechisch</p>
-                     <p n="Exlibris"><locus n="1"/>Ex mss. Ecclesiae Turonensis (18. Jhd.)</p>
+                     <p source="Delisle">zahlreiche Glossen im ersten Teil der Handschrift</p>
+                     <p source="Ganz">Namensindex, der sich an Augustinus anlehnt, manche vom 9.
+                        Jhd.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Kalbsledereinband</decoNote>
+                     <decoNote source="Delisle">Holzeinband mit Lederrücken</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><name>Tours</name></origPlace></p>
-                     <p><origDate source="BnF" cert="low" notBefore="1000" notAfter="1100">11.
-                           Jhd.</origDate></p>
-                     <p><origDate source="Chantel Senseby" cert="low" notBefore="0980"
-                           notAfter="1000">Ende 10. Jhd.</origDate></p>
+                     <p><origPlace source="Bischoff" cert="medium"
+                        ><name>Corbie</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><name>Tours?</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
+                           >9. Jhd. ca. 3. Viertel</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name>St-Gatien</name></provenance>
-                  <provenance>Am 18. Mai 1832 für die BnF gekauft.</provenance>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin
+                     (?)</name></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84229878</idno>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10032141r</idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc38709x</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="196"/></bibl>
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc71178j</idno></bibl>
+                     <bibl><idno>Delisle 1888</idno><biblScope unit="pp" n="58 59"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="179"/></bibl>
+                     <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="78 96 153"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="236"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

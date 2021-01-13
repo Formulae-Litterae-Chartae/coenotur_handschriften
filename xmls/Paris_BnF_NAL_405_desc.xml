@@ -3,7 +3,7 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Paris, BnF, Latin 9434</title>
+            <title>Paris, BnF, NAL 405</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -15,48 +15,48 @@
                   <settlement>Paris</settlement>
                   <repository>BnF</repository>
                   <collection/>
-                  <idno>Latin 9434</idno>
+                  <idno>NAL 405</idno>
                   <altIdentifier source="Rand">
-                     <idno>201</idno>
+                     <idno>99</idno>
                   </altIdentifier>
-                  <altIdentifier source="St-Gatien">
-                     <idno>63</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>5067</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Liturgie">
-                     <author/>
-                     <title>Missale Turonense</title>
+                  <msItem class="Geschichtsschreibung">
+                     <author>Orosius</author>
+                     <title>Historia adversum Paganos</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="">
                      <supportDesc material="perg">
-                        <extent n="372">
+                        <extent n="1">
                            <dimensions type="leaf" unit="cm">
-                              <height n="30.0"/>
-                              <width n="20.1"/>
+                              <height n=""/>
+                              <width n=""/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="22.9"/>
-                              <width n="12.5"/>
+                              <height n=""/>
+                              <width n=""/>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="1"/>
-                        <layout writtenLines="19"/>
+                        <layout columns=""/>
+                        <layout writtenLines=""/>
                         <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <p>Adalbaldus</p>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <p source=""/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -65,37 +65,37 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Ergänzungen auf Griechisch</p>
-                     <p n="Exlibris"><locus n="1"/>Ex mss. Ecclesiae Turonensis (18. Jhd.)</p>
+                     <p>Marginalia: </p>
+                     <p n="Exlibris"><locus n=""/>HIC LIBER ADALBALDI ARTIFICIS</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Kalbsledereinband</decoNote>
+                     <decoNote type=""/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><name>Tours</name></origPlace></p>
-                     <p><origDate source="BnF" cert="low" notBefore="1000" notAfter="1100">11.
-                           Jhd.</origDate></p>
-                     <p><origDate source="Chantel Senseby" cert="low" notBefore="0980"
-                           notAfter="1000">Ende 10. Jhd.</origDate></p>
-                     <p/>
+                     <p><origPlace cert="medium"><name>Tours</name>, St-Martin</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
+                           >1. Hälfte 9. Jhd.</origDate></p>
+                     <p>Entstehungsort ist durch den Schreiber Adalbaldus sicher belegt. Datum kann
+                        dadurch vermutlich noch präzisiert werden.</p>
                   </origin>
-                  <provenance type="Provenance"><name>St-Gatien</name></provenance>
-                  <provenance>Am 18. Mai 1832 für die BnF gekauft.</provenance>
+                  <provenance type="Provenance"><name type=""/></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84229878</idno>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b100344209</idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc38709x</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="196"/></bibl>
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc711328</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="147"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="235"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

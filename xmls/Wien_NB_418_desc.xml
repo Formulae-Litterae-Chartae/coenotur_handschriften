@@ -4,7 +4,7 @@
     <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
-                <title>Wie, NB, Cod. 418</title>
+                <title>Wien, NB, Cod. 418</title>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -115,7 +115,7 @@
                             <p><origPlace source="Rand" cert="medium">Possibly not Tours</origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium">wahscheinlich <name type="community">St-Amand</name></origPlace></p>
                             <p><origDate source="Köhler Bischoff" cert="high" notBefore="0700" notAfter="0900">8./9. Jhd</origDate></p>
-                            <p>Die Handschrift ist wohl nicht in Tours entstanden. Eine Entstehung in St-Amand erscheint wahrscheinlich.</p>
+                            <note>Die Handschrift ist wohl nicht in Tours entstanden. Eine Entstehung in St-Amand erscheint wahrscheinlich.</note>
                         </origin>
                         <provenance type="Provenance"><name type="community">Salzburg</name></provenance>
                         <provenance source="Hermann">Die Handschrift gelangt vom Domkapitel 1806 in die Hofbibliothek.</provenance>

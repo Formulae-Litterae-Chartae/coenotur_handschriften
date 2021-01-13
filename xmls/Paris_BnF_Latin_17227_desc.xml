@@ -1,0 +1,120 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 17227</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 17227</idno>
+                  <altIdentifier source="Rand">
+                     <idno>30</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>9</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4998</idno>
+                  </altIdentifier>
+                  <msName>Evangeliar von Adalbaldus</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel Liturgie Evangeliar">
+                     <author/>
+                     <title>Evangeliar</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="232">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="28.0"/>
+                              <width n="19.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="22.0"/>
+                              <width n="12.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="21"/>
+                        <layout><p>rote und schwarze Titel, einfache Initialen, im
+                           Tours-Stil</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Die gesamte Handschrift wurde von Adalbaldus geschrieben. Fol. 6v: Deus
+                        adesto scribente Adalbaldo, in „griechischen“ Buchstaben.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Arbeit von Adalbaldus, mit wechselndem Schriftbild, mehr oder weniger
+                        kursiven Elementen, Kapitalis und Unziale.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n="1r 3r 4r 4v"/>
+                        <p>leicht verzierte Kanontafeln</p>
+                     </decoNote>
+                     <decoNote>
+                        <locus n="7r 68r 174v"/>
+                        <p>mehrere verzierte Initialen</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions> </additions>
+                  <bindingDesc>
+                     <decoNote>neuerer Ledereinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="medium"><name>Tours</name>, St-Martin</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
+                           >1. Drittel 9. Jhd.</origDate></p>
+                     <p/>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b9076857n</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc684305</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="107 108"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="369"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="223"/></bibl>
+                     <bibl><idno>Fischer 1957</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Hellmann 2000</idno><biblScope unit="pp" n=""/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

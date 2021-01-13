@@ -152,17 +152,16 @@ def handschrift(manuscript: str):
     metadata['exlibris'] = []
     for adds in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:additions/tei:p',
                           namespaces=namespaces):
+        add_locus = ''
         if adds.xpath('tei:locus/@n', namespaces=namespaces) and adds.xpath('tei:locus/@n', namespaces=namespaces)[0]:
-            if adds.get('n') == 'Exlibris':
-                metadata['exlibris'].append('{}{}'.format('fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' ' if
-                                                          adds.xpath('tei:locus/@n', namespaces=namespaces) else '',
-                                                          ''.join(adds.xpath('.//text()'))))
-            else:
-                metadata['marginal'].append('{}{}{}'.format('fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' ' if
-                                                          adds.xpath('tei:locus/@n', namespaces=namespaces) else '',
-                                                          ''.join(adds.xpath('.//text()')),
-                                                          ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
-                                                          adds.get('source') else ''))
+            add_locus = 'fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' '
+        if adds.get('n') == 'Exlibris':
+            metadata['exlibris'].append('{}{}'.format(add_locus, ''.join(adds.xpath('.//text()'))))
+        else:
+            children = [etree.tostring(x) for x in adds.iterchildren() if x.text]
+            metadata['marginal'].append('{}{}{}'.format(add_locus, ''.join(adds.xpath('.//text()')),
+                                                      ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
+                                                      adds.get('source') else ''))
     metadata['provenance'] = []
     metadata['provenance_notes'] = []
     for provenance in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance',

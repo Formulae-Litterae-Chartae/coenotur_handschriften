@@ -63,7 +63,7 @@
                         <additions>
                             <p>Gedichte Aldebals für Wilhelm von Dijon (10. Jhd.)</p>
                             <p>Briekopie (11. Jhd.)</p>
-                            <p source="Martinellus.de" n="tironischen Note"><locus n="58v"/>hic</p>
+                            <p source="Martinellus.de" n="tironischen Note"><locus n="58v"/><seg type="lat">hic</seg></p>
                         </additions>
                         <bindingDesc>
                             <decoNote>Brauner Ledereinband über Pappe mit Streicheisengliederung, 19. Jhd.</decoNote>
