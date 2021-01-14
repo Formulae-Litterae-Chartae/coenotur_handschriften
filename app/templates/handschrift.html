@@ -22,11 +22,6 @@
                         <ul class="list-unstyled mb-0">
                         {% for i in m_d['contents'] %}
                         <li>{% if i['locus'] %}{{ i['locus'] }} - {% endif %}{% if i['author'] != '' %}{{ i['author'] }}, {% endif %}{{ i['title'] }}
-                            {% for sub_i in i['parts'] %}
-                                {% if loop.first %}<ul>{% endif %}
-                            <li>{{ sub_i['locus']|safe }} - {{ sub_i['title']|safe }}</li>
-                                {% if loop.last %}</ul>{% endif %}
-                            {% endfor %}
                         </li>
                         {% endfor %}
                         </ul>
@@ -39,6 +34,12 @@
                 <tr>
                     <th scope="row">Thema / Text- bzw. Buchgattung</th>
                     <td>{% for i in m_d['contents']|unique(attribute="class") %}{{ i['class']|safe }}{% if not loop.last %}, {% endif %}{% endfor %}</td>
+                </tr>
+                {% endif %}
+                {% if m_d['general_notes'] %}
+                <tr>
+                    <th scope="row">Allgemeine Informationen</th>
+                    <td>{{ m_d['general_notes']|join(' ')|safe }}</td>
                 </tr>
                 {% endif %}
                 <tr>
@@ -164,19 +165,40 @@
                 {% if m_d['bibliography'] %}
                 <tr>
                     <th scope="row">Bibliographie</th>
-                    <td>{{ m_d['bibliography']|join('; ')|safe }}</td>
+                    <td>{% for b in m_d['bibliography'] %}{{ b }}{% if m_d['bibliography'][b] %}, {{ m_d['bibliography'][b]|join(', ')|safe }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}.</td>
                 </tr>
                 {% endif %}
                 {% if m_d['online_description'] %}
                 <tr>
                     <th scope="row">Online Beschreibung</th>
-                    <td>{{ m_d['online_description']|join('; ')|safe }}</td>
+                    <td>{{ m_d['online_description']|join('<br>')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['digital_representations'] %}
                 <tr>
                     <th scope="row">Digitalisat</th>
                     <td>{{ m_d['digital_representations']|join('; ')|safe }}</td>
+                </tr>
+                {% endif %}
+                <tr>
+                    <th class="text-center" scope="col" colspan="2"><h4>INNERES</h4></td>
+                </tr>
+                {% if m_d['contents'] %}
+                <tr>
+                    <th scope="row">Autor bzw. Sachtitel oder Inhaltsbeschreibung</th>
+                    <td>
+                        <ul class="list-unstyled mb-0">
+                        {% for i in m_d['contents'] %}
+                        <li>{% if i['locus'] %}{{ i['locus'] }} - {% endif %}{% if i['author'] != '' %}{{ i['author'] }}, {% endif %}{{ i['title'] }}
+                            {% for sub_i in i['parts'] %}
+                                {% if loop.first %}<ul>{% endif %}
+                            <li>{{ sub_i['locus']|safe }} - {{ sub_i['title']|safe }}</li>
+                                {% if loop.last %}</ul>{% endif %}
+                            {% endfor %}
+                        </li>
+                        {% endfor %}
+                        </ul>
+                    </td>
                 </tr>
                 {% endif %}
             </table>

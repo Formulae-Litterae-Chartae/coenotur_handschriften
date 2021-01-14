@@ -197,7 +197,7 @@ def handschrift(manuscript: str):
                 metadata['provenance_notes'].append('{}{}'.format(''.join(insert_style_spans(provenance)),
                                                                   ' (' + provenance.get('source').upper().replace(' ', '; ') + ')' if
                                                                   provenance.get('source') else ''))
-    metadata['bibliography'] = []
+    metadata['bibliography'] = dict()
     metadata['online_description'] = []
     metadata['digital_representations'] = []
     for bibl in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional//tei:bibl',
@@ -221,14 +221,29 @@ def handschrift(manuscript: str):
             title = bibl.xpath('tei:idno/text()', namespaces=namespaces)[0].upper() if bibl.xpath('tei:idno/text()', namespaces=namespaces) else ''
             pages = ''
             if bibl.xpath('tei:biblScope/@n', namespaces=namespaces):
-                pages = bibl.xpath('tei:biblScope/@n', namespaces=namespaces)[0].replace(' ', '-')
+                pages = 'S. ' + bibl.xpath('tei:biblScope/@n', namespaces=namespaces)[0].replace(' ', '-')
             elif bibl.xpath('tei:biblScope/@from', namespaces=namespaces):
-                pages = bibl.xpath('tei:biblScope/@from', namespaces=namespaces)[0] + '-' + bibl.xpath('tei:biblScope/@to', namespaces=namespaces)[0]
-            metadata['bibliography'].append('{}{}'.format(title, ', S. ' + pages if pages else ''))
+                pages = 'S. ' + bibl.xpath('tei:biblScope/@from', namespaces=namespaces)[0] + '-' + bibl.xpath('tei:biblScope/@to', namespaces=namespaces)[0]
+            elif bibl.xpath('tei:biblScope//text()', namespaces=namespaces):
+                pages = re.sub(r'\s+', ' ', ' '.join(insert_style_spans(bibl.xpath('tei:biblScope', namespaces=namespaces)[0])))
+            if title in metadata['bibliography'] and metadata['bibliography'][title] != []:
+                if pages:
+                    metadata['bibliography'][title].append(re.sub(r'^S\. ', '', pages.strip()))
+            else:
+                if pages:
+                    metadata['bibliography'][title] = [pages.strip()]
+                else:
+                    metadata['bibliography'][title] = []
     metadata['binding'] = []
     for bind in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:bindingDesc',
                           namespaces=namespaces):
         binding_text = ' '.join(insert_style_spans(bind)).strip()
         if binding_text:
             metadata['binding'].append(re.sub(r'\s+', ' ', binding_text))
+    metadata['general_notes'] = []
+    for note in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note/tei:p',
+                          namespaces=namespaces):
+        if note.xpath('.//text()'):
+            metadata['general_notes'].append('{}{}.'.format(re.sub(r'\s+', ' ', ' '.join(insert_style_spans(note)).rstrip('.')),
+                                                            ' ({})'.format(note.get('source').upper()) if note.get('source') else ''))
     return render_template('handschrift.html', title=name_dict[manuscript], m_d=metadata)

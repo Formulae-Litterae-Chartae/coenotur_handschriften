@@ -8,7 +8,12 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese prächtige Vulgata-Handschrift beinhaltet den von Alkuin (gest. 804) überarbeiteten Bibelttext. Es handelt sich um einen prachtvollen Pandekt, der in der Tradtition der großen turonischen Bibeln wohl unter Abt Adalhard (ca. 834-844) in St-Martin hergestellt wurde. Es handelt sich um eine von nur 3 überlebenden bebilderten Bibelhandschriften aus Tours. <p source="McKitterick"> Zusammen mit der Bibel Zürich C. 1 kann die Ausstattung der Moutier-Grandval-Bibel als Standart für die turonischen Bibeln angesehen werden.</p> Es handelt sich um eine von nur 3 überlebenden</note></notesStmt>
+         <notesStmt><note>
+            <p>Diese prächtige Vulgata-Handschrift beinhaltet den von Alkuin (gest. 804) überarbeiteten Bibelttext.</p>
+            <p>Es handelt sich um einen prachtvollen Pandekt, der in der Tradtition der großen turonischen Bibeln wohl unter Abt Adalhard (ca. 834-844) in St-Martin hergestellt wurde.</p> 
+            <p>Es handelt sich um eine von nur 3 überlebenden bebilderten Bibelhandschriften aus Tours.</p>
+            <p source="McKitterick">Zusammen mit der Bibel Zürich C. 1 kann die Ausstattung der Moutier-Grandval-Bibel als Standart für die turonischen Bibeln angesehen werden.</p>
+         </note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
