@@ -113,7 +113,7 @@
                 {% endif %}
                 {% if m_d['hand_desc'] %}
                 <tr>
-                    <th scope="row">Angaben zu Schrift / Schreibern</th>
+                    <th scope="row">Angaben zu Schreibern</th>
                     <td>{{ m_d['hand_desc']|join('. ')|safe }}</td>
                 </tr>
                 {% endif %}
@@ -135,6 +135,12 @@
                     <td>{{ m_d['condition']|join('. ')|safe }}</td>
                 </tr>
                 {% endif %}
+                {% if m_d['illuminations'] %}
+                <tr>
+                    <th scope="row">Illuminationen</th>
+                    <td>{{ m_d['illuminations']|join('<br>')|safe }}</td>
+                </tr>
+                {% endif %}
                 {% if m_d['marginal'] %}
                 <tr>
                     <th scope="row">Ergänzungen und Benutzungsspuren</th>
@@ -142,6 +148,17 @@
                     {% for n in m_d['marginal'] %}
                     - {{ n|safe }}<br>
                     {% endfor %}
+                    </td>
+                </tr>
+                {% endif %}
+                {% if m_d['neumen'] %}
+                <tr>
+                    <th scope="row">Neumierung</th>
+                    <td>
+                    {% for n in m_d['neumen'] %}
+                    - {{ n|safe }}<br>
+                    {% endfor %}
+                    </td>
                 </tr>
                 {% endif %}
                 {% if m_d['exlibris'] %}
@@ -180,26 +197,28 @@
                     <td>{{ m_d['digital_representations']|join('; ')|safe }}</td>
                 </tr>
                 {% endif %}
-                <tr>
-                    <th class="text-center" scope="col" colspan="2"><h4>INNERES</h4></td>
-                </tr>
-                {% if m_d['contents'] %}
-                <tr>
-                    <th scope="row">Autor bzw. Sachtitel oder Inhaltsbeschreibung</th>
-                    <td>
-                        <ul class="list-unstyled mb-0">
-                        {% for i in m_d['contents'] %}
-                        <li>{% if i['locus'] %}{{ i['locus'] }} - {% endif %}{% if i['author'] != '' %}{{ i['author'] }}, {% endif %}{{ i['title'] }}
-                            {% for sub_i in i['parts'] %}
-                                {% if loop.first %}<ul>{% endif %}
-                            <li>{{ sub_i['locus']|safe }} - {{ sub_i['title']|safe }}</li>
-                                {% if loop.last %}</ul>{% endif %}
+                {% if m_d['contents']|selectattr('parts')|list|length > 0 %}
+                    <tr>
+                        <th class="text-center" scope="col" colspan="2"><h4>INNERES</h4></td>
+                    </tr>
+                    {% if m_d['contents'] %}
+                    <tr>
+                        <th scope="row">Autor bzw. Sachtitel oder Inhaltsbeschreibung</th>
+                        <td>
+                            <ul class="list-unstyled mb-0">
+                            {% for i in m_d['contents'] %}
+                            <li>{% if i['locus'] %}{{ i['locus'] }} - {% endif %}{% if i['author'] != '' %}{{ i['author'] }}, {% endif %}{{ i['title'] }}
+                                {% for sub_i in i['parts'] %}
+                                    {% if loop.first %}<ul>{% endif %}
+                                <li>{{ sub_i['locus']|safe }} - {{ sub_i['title']|safe }}</li>
+                                    {% if loop.last %}</ul>{% endif %}
+                                {% endfor %}
+                            </li>
                             {% endfor %}
-                        </li>
-                        {% endfor %}
-                        </ul>
-                    </td>
-                </tr>
+                            </ul>
+                        </td>
+                    </tr>
+                    {% endif %}
                 {% endif %}
             </table>
         </div>

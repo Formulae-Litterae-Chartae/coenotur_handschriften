@@ -76,7 +76,7 @@
                             </msItem>
                             <msItem n="1.9">
                                 <locus from="344v" to="351"></locus>
-                                <titel>Ruth</titel>
+                                <title>Ruth</title>
                             </msItem>
                         </msItem>
                     </msContents>
@@ -117,7 +117,7 @@
                         </decoDesc>
                         <additions>
                             <p source="Collon">Die Kapitelübersicht weicht von der üblichen Weise ab, die übliche Einteilung ist aber von einer späteren Hand hinzugefügt worden </p>
-                            <p n="Exlibris"><locus></locus><seg type="lat">liber sancti martini turonensis 12. Jhd.</seg></p>
+                            <p n="Exlibris"><locus></locus><seg type="lat">liber sancti martini turonensis</seg> 12. Jhd.</p>
                         </additions>
                         <bindingDesc>
                             <decoNote></decoNote>

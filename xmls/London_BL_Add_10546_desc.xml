@@ -8,12 +8,20 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>
-            <p>Diese prächtige Vulgata-Handschrift beinhaltet den von Alkuin (gest. 804) überarbeiteten Bibelttext.</p>
-            <p>Es handelt sich um einen prachtvollen Pandekt, der in der Tradtition der großen turonischen Bibeln wohl unter Abt Adalhard (ca. 834-844) in St-Martin hergestellt wurde.</p> 
-            <p>Es handelt sich um eine von nur 3 überlebenden bebilderten Bibelhandschriften aus Tours.</p>
-            <p source="McKitterick">Zusammen mit der Bibel Zürich C. 1 kann die Ausstattung der Moutier-Grandval-Bibel als Standart für die turonischen Bibeln angesehen werden.</p>
-         </note></notesStmt>
+         <notesStmt>
+            <note>
+               <p>Diese prächtige Vulgata-Handschrift beinhaltet den von Alkuin (gest. 804)
+                  überarbeiteten Bibelttext.</p>
+               <p>Es handelt sich um einen prachtvollen Pandekt, der in der Tradtition der großen
+                  turonischen Bibeln wohl unter Abt Adalhard (ca. 834-844) in St-Martin hergestellt
+                  wurde.</p>
+               <p>Es handelt sich um eine von nur 3 überlebenden bebilderten Bibelhandschriften aus
+                  Tours.</p>
+               <p source="McKitterick">Zusammen mit der Bibel Zürich C. 1 kann die Ausstattung der
+                  Moutier-Grandval-Bibel als Standart für die turonischen Bibeln angesehen
+                  werden.</p>
+            </note>
+         </notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -50,12 +58,14 @@
                               <width n="12.3">12,3 cm pro Spalte</width>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="50"/>
-                        <layout><p>Die Anfänge der jeweiligen Bücher sind systematisch in goldener Unziale, schwarzer Unciale, Halbunziale und karolingischer Minuskel geschrieben.</p></layout>
+                        <layout><p>Die Anfänge der jeweiligen Bücher sind systematisch in goldener
+                              Unziale, schwarzer Unciale, Halbunziale und karolingischer Minuskel
+                              geschrieben.</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -66,41 +76,79 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <p><locus n="1v"/>Das Incipit des Hieronymusbriefes ist mit Goldschrift auf Purpur abgefasst, umfasst von einem </p>
-                        <p>Die Handschrift weißt zahlreiche prachtolle Initialen im typischen Stil on Tours, bzw. St-Martin auf.</p>
-                        <p>Die Kanontafeln f. 349v-351r sowie f. 408v-409r sind prächtig illuminiert. Besonders die "tektonische" (KÖHLER) Ausformung stellt eine neuartige Entwicklung dar.</p>
-                        <p><locus n="5v"/>Darstellung der Schöpfungsgeschichte: Die ERschaffung von Adam und Eva, der Sündefall, die Vertreibung aus dem Paradies und Eva beim Stillen und Adam beim Arbeiten.</p>
-                        <p><locus n="25v"/>Darstellung von Moses, der die Gesetze empfängt und von Moses der Aaron und die Israeliten unterrichtet</p>
-                        <p><locus n="352v"/>Darstellung von Christus umgeben von den vier Evangelisten und deren Symbolen</p>
-                        <p><locus n="449r"/>Darstellung vom Buch der Sieben Siegel mit unschuldigem Schaaf und dem Löwen von Judea und Darstellung einer thronenden Figur umgeben on den vier Evangelisten. </p>
-                        <p source="Köhler">Die Seitenrahmung der Bibel nähert sich der Rahmung des Arnaldusevangeliars, von Paris, BnF, Lat. 274 und Wolfenbüttel 2186 an.</p>
+                        <p><locus n="1v"/>Das Incipit des Hieronymusbriefes ist mit Goldschrift auf
+                           Purpur abgefasst, umfasst von einem </p>
+                        <p>Die Handschrift weißt zahlreiche prachtolle Initialen im typischen Stil
+                           on Tours, bzw. St-Martin auf.</p>
+                        <p>Die Kanontafeln f. 349v-351r sowie f. 408v-409r sind prächtig
+                           illuminiert. Besonders die "tektonische" (KÖHLER) Ausformung stellt eine
+                           neuartige Entwicklung dar.</p>
+                        <p><locus n="5v"/>Darstellung der Schöpfungsgeschichte: Die ERschaffung von
+                           Adam und Eva, der Sündefall, die Vertreibung aus dem Paradies und Eva
+                           beim Stillen und Adam beim Arbeiten.</p>
+                        <p><locus n="25v"/>Darstellung von Moses, der die Gesetze empfängt und von
+                           Moses der Aaron und die Israeliten unterrichtet</p>
+                        <p><locus n="352v"/>Darstellung von Christus umgeben von den vier
+                           Evangelisten und deren Symbolen</p>
+                        <p><locus n="449r"/>Darstellung vom Buch der Sieben Siegel mit unschuldigem
+                           Schaaf und dem Löwen von Judea und Darstellung einer thronenden Figur
+                           umgeben on den vier Evangelisten. </p>
+                        <p source="Köhler">Die Seitenrahmung der Bibel nähert sich der Rahmung des
+                           Arnaldusevangeliars, von Paris, BnF, Lat. 274 und Wolfenbüttel 2186
+                           an.</p>
                      </decoNote>
                   </decoDesc>
                   <additions>
                      <p source="Hellmann">Lagenkontrollvermerke und Imitationen</p>
                      <p>Rubriken und nachträgliche Kapitelangaben in den Margen</p>
-                     <p n="Exlibris" source="Berger"><locus n=""/>Eine Urkunde von 1589-1597 aus Moutier-Grandval</p>
+                     <p n="Exlibris" source="Berger"><locus n=""/>Eine Urkunde von 1589-1597 aus
+                        Moutier-Grandval</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high">Tours<name type="Gemeinschaft">St-Martin</name></origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0820" notAfter="0830">820-830</origDate></p>
-                     <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0840">ca. 835</origDate></p>
-                     <p><origDate source="bl.uk" cert="high" notBefore="0830" notAfter="0840">ca. 830 - c. 840</origDate></p>
-                     <p><origDate source="Mercier" cert="medium" notBefore="0834" notAfter="0843">unter Adalhard, zwischen 834 und 843</origDate></p>
-                     <note>Klar erkennbar ist diese Bibel im Skriptorium von St-Martin entstanden. Bezüglich der Datierung herrscht eine Uneinigkeit darüber, ob die Handschrift unter Fridegisius (RAND) oder erst unter Adalhard (BISCHOFF/MERCIER) entstanden ist. KÖHLER arbeitet im Anschluss an RAND heraus, dass die Ornamentik zum Teil später hinzugefügt wurde: Teile davon können frühestens unter Adalhard entstanden sein.</note>
+                     <p><origPlace cert="high">Tours<name type="Gemeinschaft"
+                           >St-Martin</name></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0820" notAfter="0830"
+                           >820-830</origDate></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0840">ca.
+                           835</origDate></p>
+                     <p><origDate source="bl.uk" cert="high" notBefore="0830" notAfter="0840">ca.
+                           830 - c. 840</origDate></p>
+                     <p><origDate source="Mercier" cert="medium" notBefore="0834" notAfter="0843"
+                           >unter Adalhard, zwischen 834 und 843</origDate></p>
+                     <note>Klar erkennbar ist diese Bibel im Skriptorium von St-Martin entstanden.
+                        Bezüglich der Datierung herrscht eine Uneinigkeit darüber, ob die
+                        Handschrift unter Fridegisius (RAND) oder erst unter Adalhard
+                        (BISCHOFF/MERCIER) entstanden ist. KÖHLER arbeitet im Anschluss an RAND
+                        heraus, dass die Ornamentik zum Teil später hinzugefügt wurde: Teile davon
+                        können frühestens unter Adalhard entstanden sein.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="community">Moutier Grandval</name></provenance>
-                  <provenance>Hergestellt wurde die Bibel in St-Martin, vermutlich für Moutier Grandval, wohin sie bereits früh gelangte.</provenance>
-                  <provenance source="bl.uk">Die Gemeinschaft verließ 1534 im Zuge der Schweizer Reformation Moutier Grandval und siedelte nach Delémont um. Es findet sich eine undatierte Urkunde, in der der Propst, der Erzdiakon und alle Mitglieder des Kapitels der Gemeinschaft bestätigen, dass die vorliegende Bibel ihnen gehört. Die Urkunde lässt sich durch die beteiligten Personen auf 1589-1597 datieren. Zu diesem Zeitpunkt lag die Bibel war die Bibel also noch im Bezug der Gemeinschaft und mit dieser nach Delémont umgezogen.</provenance>
-                  <provenance source="Berger bl.uk">Im Zuge der Französischen Revolution wurde die Gemeinschaft von Moutier-Grandval aufgelösst, die Bibel ging verloren, wurde von Kindern gefunden und an "demoiselles Verdat" übergeben.</provenance>
-                  <provenance source="bl.uk">Alexis Bennot, Anwalt in Delémont kauft die Handschrift.</provenance>
-                  <provenance source="Berger">Er verkaufte sie im Jahr 1822 an den M. de Speyr-Passavant.</provenance>
-                  <acquisition source="Berger">Dieser versuchte zunächst die Bibel an Karl X. von Frankreich zu verkaufen. Als dies scheiterte verkaufte er sie schließlich 1836 an das Britisch Museum, von wo sie in den Besitz der <name type="Repository">British Library</name> überging.</acquisition>
+                  <provenance type="Provenance"><name type="community">Moutier
+                     Grandval</name></provenance>
+                  <provenance>Hergestellt wurde die Bibel in St-Martin, vermutlich für Moutier
+                     Grandval, wohin sie bereits früh gelangte.</provenance>
+                  <provenance source="bl.uk">Die Gemeinschaft verließ 1534 im Zuge der Schweizer
+                     Reformation Moutier Grandval und siedelte nach Delémont um. Es findet sich eine
+                     undatierte Urkunde, in der der Propst, der Erzdiakon und alle Mitglieder des
+                     Kapitels der Gemeinschaft bestätigen, dass die vorliegende Bibel ihnen gehört.
+                     Die Urkunde lässt sich durch die beteiligten Personen auf 1589-1597 datieren.
+                     Zu diesem Zeitpunkt lag die Bibel war die Bibel also noch im Bezug der
+                     Gemeinschaft und mit dieser nach Delémont umgezogen.</provenance>
+                  <provenance source="Berger bl.uk">Im Zuge der Französischen Revolution wurde die
+                     Gemeinschaft von Moutier-Grandval aufgelösst, die Bibel ging verloren, wurde
+                     von Kindern gefunden und an "demoiselles Verdat" übergeben.</provenance>
+                  <provenance source="bl.uk">Alexis Bennot, Anwalt in Delémont kauft die
+                     Handschrift.</provenance>
+                  <provenance source="Berger">Er verkaufte sie im Jahr 1822 an den M. de
+                     Speyr-Passavant.</provenance>
+                  <acquisition source="Berger">Dieser versuchte zunächst die Bibel an Karl X. von
+                     Frankreich zu verkaufen. Als dies scheiterte verkaufte er sie schließlich 1836
+                     an das Britisch Museum, von wo sie in den Besitz der <name type="Repository"
+                        >British Library</name> überging.</acquisition>
                </history>
                <additional>
                   <surrogates>
@@ -110,10 +158,11 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_10546</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_10546</idno></bibl>
                      <bibl><idno>Berger 1893</idno><biblScope unit="pp" from="209" to="212"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="135" to="136"/></bibl>
-                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="194" to="209"></biblScope></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="194" to="209"/></bibl>
                      <bibl><idno>McKitterick 1994</idno><biblScope>passim</biblScope></bibl>
                      <bibl><idno>Mercier II</idno><biblScope unit="pp" n="121"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="94"/></bibl>
