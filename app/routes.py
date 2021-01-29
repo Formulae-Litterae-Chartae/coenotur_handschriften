@@ -78,9 +78,11 @@ def handschrift(manuscript: str):
                 loci.append(l.get('n', ''))
         item_dict['locus'] = '/'.join(loci)
         for sub_item in item.xpath('tei:msItem', namespaces=namespaces):
-            sub_item_info = {'title': '', 'locus': ''}
+            sub_item_info = {'title': '', 'locus': '', 'author': '', 'notes': ''}
             sub_item_info['title'] = ', '.join(sub_item.xpath('tei:title/text()', namespaces=namespaces))
             sub_loci = []
+            sub_item_info['author'] = ', '.join(sub_item.xpath('tei:author/text()', namespaces=namespaces))
+            sub_item_info['notes'] = '; '.join(sub_item.xpath('tei:note/text()', namespaces=namespaces))
             for l in sub_item.xpath('tei:locus', namespaces=namespaces):
                 if l.get('from'):
                     sub_loci.append('{}{}'.format(l.get('from'), '-' + l.get('to') if l.get('to') else ''))
@@ -101,7 +103,7 @@ def handschrift(manuscript: str):
             cert_symbol = ''
             if p.get('cert'):
                 cert_symbol = ' <span class="cert-{}" title="Sicherheit: {}">&#11044;</span>'.format(p.get('cert'), cert_dict.get(p.get('cert'), '?'))
-            metadata['origin']['place'].append('{}{}{}'.format(' '.join(insert_style_spans(p)), cert_symbol,
+            metadata['origin']['place'].append('{}{}{}'.format(''.join(insert_style_spans(p)), cert_symbol,
                                                                ' (' + p.get('source').upper().replace(' ', '; ') + ')' if
                                                                p.get('source') else ''))
     for d in dates:
@@ -109,7 +111,7 @@ def handschrift(manuscript: str):
             cert_symbol = ''
             if d.get('cert'):
                 cert_symbol = ' <span class="cert-{}" title="Sicherheit: {}">&#11044;</span>'.format(d.get('cert'), cert_dict.get(d.get('cert'), '?'))
-            metadata['origin']['date'].append('{}{}{}'.format(' '.join(insert_style_spans(d)), cert_symbol,
+            metadata['origin']['date'].append('{}{}{}'.format(''.join(insert_style_spans(d)), cert_symbol,
                                                               ' (' + d.get('source').upper().replace(' ', '; ') + ')' if
                                                               d.get('source') else ''))
     for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:note/text()',
@@ -164,15 +166,16 @@ def handschrift(manuscript: str):
                                                          ' (' + scr_desc.get('source').upper().replace(' ', '; ') + ')' if
                                                          scr_desc.get('source') else ''))
     metadata['hand_desc'] = []
-    for hand_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:p',
-                              namespaces=namespaces):
-        metadata['hand_desc'].append('{}{}'.format(hand_desc.text,
-                                                   ' (' + hand_desc.get('source').upper().replace(' ', '; ') + ')'
-                                                   if hand_desc.get('source') else ''))
+    for hand_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote',
+                               namespaces=namespaces):
+        if hand_desc.text:
+            metadata['hand_desc'].append('{}{}'.format(hand_desc.text,
+                                                       ' (' + hand_desc.get('source').upper().replace(' ', '; ') + ')'
+                                                       if hand_desc.get('source') else ''))
     metadata['marginal'] = []
     metadata['neumen'] = []
     for adds in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:musicNotation/tei:p',
-                           namespaces=namespaces):
+                          namespaces=namespaces):
         neumen_locus = ''
         if adds.xpath('tei:locus/@n', namespaces=namespaces) and adds.xpath('tei:locus/@n', namespaces=namespaces)[0]:
             neumen_locus = adds.xpath('tei:locus/@n', namespaces=namespaces)[0]
@@ -184,15 +187,17 @@ def handschrift(manuscript: str):
     for adds in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:additions/tei:p',
                           namespaces=namespaces):
         add_locus = ''
+        marked_up_text = ''.join(insert_style_spans(adds))
         if adds.xpath('tei:locus/@n', namespaces=namespaces) and adds.xpath('tei:locus/@n', namespaces=namespaces)[0]:
             add_locus = 'fol. ' + adds.xpath('tei:locus/@n', namespaces=namespaces)[0] + ' '
         if adds.get('n') == 'Exlibris':
-            metadata['exlibris'].append('{}{}'.format(add_locus, ''.join(insert_style_spans(adds))))
+            if add_locus or marked_up_text:
+                metadata['exlibris'].append('{}{}'.format(add_locus, marked_up_text))
         else:
-            children = [etree.tostring(x) for x in adds.iterchildren() if x.text]
-            metadata['marginal'].append('{}{}{}'.format(add_locus, ''.join(insert_style_spans(adds)),
-                                                        ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
-                                                        adds.get('source') else ''))
+            if add_locus or marked_up_text:
+                metadata['marginal'].append('{}{}{}'.format(add_locus, marked_up_text,
+                                                            ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
+                                                            adds.get('source') else ''))
     metadata['provenance'] = []
     metadata['provenance_notes'] = []
     for provenance in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance',
@@ -223,7 +228,8 @@ def handschrift(manuscript: str):
                     texts.append('<a href="{link}" target="_blank">{link}</a>'.format(link=b))
                 else:
                     texts.append(b)
-            metadata['digital_representations'].append('; '.join(texts))
+            if texts:
+                metadata['digital_representations'].append('; '.join(texts))
         else:
             title = bibl.xpath('tei:idno/text()', namespaces=namespaces)[0].upper() if bibl.xpath('tei:idno/text()', namespaces=namespaces) else ''
             pages = ''
@@ -257,12 +263,14 @@ def handschrift(manuscript: str):
     for deco in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:p',
                           namespaces=namespaces):
         locus = []
+        deco_text = ''.join(deco.xpath('.//text()')).rstrip('. ')
         for l in deco.xpath('tei:locus', namespaces=namespaces):
             if l.get('n'):
                 locus.append(l.get('n'))
             elif l.get('from'):
                 locus.append('{}{}'.format(l.get('from'), '-' + l.get('to') if l.get('to') else ''))
-        metadata['illuminations'].append('- {}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
-                                                           ''.join(deco.xpath('.//text()')).rstrip('. '),
-                                                           ' (' + deco.get('source').upper() + ').' if deco.get('source') else '.'))
+        if locus or deco_text:
+            metadata['illuminations'].append('- {}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
+                                                               deco_text,
+                                                               ' (' + deco.get('source').upper() + ').' if deco.get('source') else '.'))
     return render_template('handschrift.html', title=name_dict[manuscript], m_d=metadata)

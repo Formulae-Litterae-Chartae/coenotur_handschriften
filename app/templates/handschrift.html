@@ -60,7 +60,7 @@
                 {% if m_d['origin']['commentary'] %}
                 <tr>
                     <th scope="row">Kommentar zu Entstehungsort und -zeit</th>
-                    <td>{{ m_d['origin']['commentary']|join('. ')|safe }}</td>
+                    <td>{{ m_d['origin']['commentary']|join('. ')|safe }}.</td>
                 </tr>
                 {% endif %}
                 {% if m_d['obj_form'] %}
@@ -114,19 +114,19 @@
                 {% if m_d['hand_desc'] %}
                 <tr>
                     <th scope="row">Angaben zu Schreibern</th>
-                    <td>{{ m_d['hand_desc']|join('. ')|safe }}</td>
+                    <td>{{ m_d['hand_desc']|join('. ')|safe }}.</td>
                 </tr>
                 {% endif %}
                 {% if m_d['layout_notes'] %}
                 <tr>
                     <th scope="row">Layout</th>
-                    <td>{{ m_d['layout_notes']|join('. ')|safe }}</td>
+                    <td>{{ m_d['layout_notes']|join('<br>')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['binding'] %}
                 <tr>
                     <th scope="row">Einband</th>
-                    <td>{{ m_d['binding']|join('. ')|safe }}</td>
+                    <td>{{ m_d['binding']|join('. ')|safe }}.</td>
                 </tr>
                 {% endif %}
                 {% if m_d['condition'] %}
@@ -176,7 +176,7 @@
                 {% if m_d['provenance_notes'] %}
                 <tr>
                     <th scope="row">Geschichte der Handschrift</th>
-                    <td>{{ m_d['provenance_notes']|join('. ')|safe }}</td>
+                    <td>{{ m_d['provenance_notes']|join('. ')|safe }}.</td>
                 </tr>
                 {% endif %}
                 {% if m_d['bibliography'] %}
@@ -210,7 +210,7 @@
                             <li>{% if i['locus'] %}{{ i['locus'] }} - {% endif %}{% if i['author'] != '' %}{{ i['author'] }}, {% endif %}{{ i['title'] }}
                                 {% for sub_i in i['parts'] %}
                                     {% if loop.first %}<ul>{% endif %}
-                                <li>{{ sub_i['locus']|safe }} - {{ sub_i['title']|safe }}</li>
+                                <li>{{ sub_i['locus']|safe }} - {% if sub_i['author'] %}{{ sub_i['author']|safe }}, {% endif %}{{ sub_i['title']|safe }}{% if sub_i['notes'] %} ({{ sub_i['notes']|safe }}){% endif %}</li>
                                     {% if loop.last %}</ul>{% endif %}
                                 {% endfor %}
                             </li>
