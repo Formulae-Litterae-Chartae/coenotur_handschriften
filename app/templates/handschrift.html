@@ -48,13 +48,13 @@
                 {% if m_d['origin']['place'] %}
                 <tr>
                     <th scope="row">Entstehungsort</th>
-                    <td>{{ m_d['origin']['place']|join('; ')|safe }}</td>
+                    <td>{{ m_d['origin']['place']|join('<br>')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['origin']['date'] %}
                 <tr>
                     <th scope="row">Entstehungszeit</th>
-                    <td>{{ m_d['origin']['date']|join('; ')|safe }}</td>
+                    <td>{{ m_d['origin']['date']|join('<br>')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['origin']['commentary'] %}
