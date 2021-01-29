@@ -60,7 +60,7 @@
                 {% if m_d['origin']['commentary'] %}
                 <tr>
                     <th scope="row">Kommentar zu Entstehungsort und -zeit</th>
-                    <td>{{ m_d['origin']['commentary']|join('. ')|safe }}.</td>
+                    <td>{{ m_d['origin']['commentary']|join(' ')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['obj_form'] %}
@@ -114,7 +114,7 @@
                 {% if m_d['hand_desc'] %}
                 <tr>
                     <th scope="row">Angaben zu Schreibern</th>
-                    <td>{{ m_d['hand_desc']|join('. ')|safe }}.</td>
+                    <td>{{ m_d['hand_desc']|join(' ')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['layout_notes'] %}
@@ -126,13 +126,13 @@
                 {% if m_d['binding'] %}
                 <tr>
                     <th scope="row">Einband</th>
-                    <td>{{ m_d['binding']|join('. ')|safe }}.</td>
+                    <td>{{ m_d['binding']|join(' ')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['condition'] %}
                 <tr>
                     <th scope="row">Zustand</th>
-                    <td>{{ m_d['condition']|join('. ')|safe }}</td>
+                    <td>{{ m_d['condition']|join(' ')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['illuminations'] %}
@@ -176,7 +176,7 @@
                 {% if m_d['provenance_notes'] %}
                 <tr>
                     <th scope="row">Geschichte der Handschrift</th>
-                    <td>{{ m_d['provenance_notes']|join('. ')|safe }}.</td>
+                    <td>{{ m_d['provenance_notes']|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['bibliography'] %}
