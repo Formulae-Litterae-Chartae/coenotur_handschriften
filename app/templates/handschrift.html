@@ -176,7 +176,7 @@
                 {% if m_d['provenance_notes'] %}
                 <tr>
                     <th scope="row">Geschichte der Handschrift</th>
-                    <td>{{ m_d['provenance_notes']|safe }}</td>
+                    <td>{{ m_d['provenance_notes']|join(' ')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['bibliography'] %}
