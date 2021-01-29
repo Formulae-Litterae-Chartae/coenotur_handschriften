@@ -117,7 +117,7 @@
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="1r">Bibliothekssignatur aus St-Denis aus dem 13. Jhd.
-                           (KÖHLER) bzw. aus dem 15. Jhd. (BISCHOFF)</locus></p>
+                           bzw. aus dem 15. Jhd.</locus></p>
                   </additions>
                   <bindingDesc>
                      <decoNote>roter Ledereinband des 19. Jhd.</decoNote>
@@ -132,10 +132,10 @@
                            Vivian (843-851)</origDate></p>
                      <p><origDate source="Bischoff BnF" cert="medium" notBefore="0830"
                            notAfter="0840">830-840 unter Fridugisius</origDate></p>
-                     <p>Entstehung in St-Martin kann wegen der Nähe zur Moutier Grandval-Bibel
+                     <note>Entstehung in St-Martin kann wegen der Nähe zur Moutier Grandval-Bibel
                         (London, BM Ms Add. 10546) als gesichert angesehen werden. Einzig die
                         Datierung ist nicht ganz gesichert. Die Handschrift scheint nach der
-                        Moutier-Grandval-Bibel entstanden zu sein.</p>
+                        Moutier-Grandval-Bibel entstanden zu sein.</note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">St-Denis</name></provenance>
                   <provenance source="Vezin">Gelangt noch im 9. Jahrhundert nach <name

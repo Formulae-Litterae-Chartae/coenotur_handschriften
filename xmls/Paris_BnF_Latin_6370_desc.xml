@@ -64,8 +64,10 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p><locus from="108r" to="109v"/> ganzseitiger Nachtrag von Lupus von Ferrières</p>
-                     <p>Tironische Noten 39v: antiquus; 68r, 81r, 85v: deest rota</p>
+                     <p><locus from="108r" to="109v"/>ganzseitiger Nachtrag von Lupus von
+                        Ferrières</p>
+                     <p>Tironische Noten <locus n="39v"/><seg type="lat">antiquus</seg>; <locus
+                           n="68r 81r 85v"/><seg type="lat">deest rota</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -76,8 +78,8 @@
                      <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                            >2. Viertel 9. Jhd.</origDate></p>
-                     <note>Es besteht ein Zusammenhang mit den Handschriften von
-                        Lupus von Ferrières.</note>
+                     <note>Es besteht ein Zusammenhang mit den Handschriften von Lupus von
+                        Ferrières.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

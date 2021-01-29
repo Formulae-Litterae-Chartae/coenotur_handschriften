@@ -1,0 +1,120 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 23</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>23</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>147</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>149</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6121</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel Evangelien">
+                     <author/>
+                     <title>Evangelien</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="193">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="28.8"/>
+                              <width n="23.1"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="17.7"/>
+                              <width n="12.3"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="21"/>
+                        <layout><p>Goldschrift zu Beginn der Evangelien, auf der ersten Seite in
+                              Kapitalis Rustica</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">„rather Martinian than genuine Tours“</p>
+                     <p source="Dorange">romanische Minuskel</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p>einzelne Goldinitialen; schöner Schmuck mit Vogelköpfen</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Korrekturen bzw. Rettungen an beschädigten Stellen durch eine deutlich
+                        spätere, gotische Hand</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="low">franko-sächsisch</origPlace></p>
+                     <p><origPlace source="Rand" cert="low">eher martinisch als
+                           touronisch</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
+                           >3. Viertel 9. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance source="Köhler">Die Handschrift entstand wohl in der frankosächsischen
+                     Schule und gelangt noch in der zweiten Hälfte des 9. Jhd. nach <name
+                        type="Kloster">St-Martin</name>, wohl nach der Zerstörung der Abtei durch
+                     die Normannen 853.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://bvmm.irht.cnrs.fr/resultRecherche/resultRecherche.php?COMPOSITION_ID=2354</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="9 10"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="17 18"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="173 174"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="327"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

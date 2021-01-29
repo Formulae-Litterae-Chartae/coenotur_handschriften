@@ -77,7 +77,7 @@
                     <history>
                         <origin>
                             <p><origPlace cert="high"><name type="Gemeinschaft">St-Martin de Tours</name></origPlace></p>
-                            <p><origDate cert="high" notBefore="0810" notAfter="0860"/>circa 850, oder eher 820-843</p>
+                            <p><origDate cert="high" notBefore="0810" notAfter="0860">circa 850, oder eher 820-843</origDate></p>
                             <note>Durch die Nähe zur Grandval-Bibel und dem doch sehr typisch-wirkenden Erscheinungsbild ist eine Entstehung in St-Martin anzunehmen. Dies würde dann eine Datierung eher um 820-843 nahelegen.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
@@ -96,7 +96,7 @@
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="143"/></bibl>
                             <bibl><idno>Schipke 1994</idno><biblScope unit="pp"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="439"/></bibl>
-                            <bibl><idno>MArtinellus.de</idno><biblScope/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

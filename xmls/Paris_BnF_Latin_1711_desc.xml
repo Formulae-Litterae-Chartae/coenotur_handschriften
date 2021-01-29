@@ -59,25 +59,25 @@
                      <supportDesc material="perg">
                         <extent n="37">
                            <dimensions type="leaf" unit="cm">
-                              <height n="27,3"/>
-                              <width n="19,2"/>
+                              <height n="27.3"/>
+                              <width n="19.2"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="21,0"/>
-                              <width n="14,0"/>
+                              <height n="21.0"/>
+                              <width n="14.0"/>
                            </dimensions>
                         </extent>
-                        <condition>Der Anfang der Handschrift fehlt.</condition>
+                        <condition>der Anfang der Handschrift fehlt</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="28 29">28 (29)</layout>
-                        <layout source="Rand">Rote und schwarze Titel in Unziale.</layout>
+                        <layout source="Rand">rote und schwarze Titel in Unziale</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <p source="Rand">vermutlich eine, vielleicht drei sehr ähnliche Hände, die dem
-                        Stil des Vatikanischen Livius gleichen.</p>
+                        Stil des Vatikanischen Livius gleichen</p>
                   </handDesc>
                   <scriptDesc>
                      <p source="Rand" xml:id="Kursive">verbesserte Kursive</p>
@@ -85,14 +85,13 @@
                         Halbunziale</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>keine Miniaturen, außer eine Federzeichnung als Federproben f. 37v
-                        eines Königs</decoNote>
+                     <decoNote>keine Miniaturen, außer <locus n="37v">eine Federzeichnung eines
+                           Königs als Federproben</locus></decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: am Anfang zahlreiche Notizen, darunter zahlreiche
-                        Nota-Symbole</p>
-                     <p n="Exlibris"><locus n="37v"/><seg type="lat">Hic est liber Sancti Pauli cormaricensis,
-                        Sancti Optatii</seg>, 9. Jhd. (zweimal)</p>
+                     <p>am Anfang zahlreiche Notizen, darunter zahlreiche Nota-Symbole</p>
+                     <p n="Exlibris"><locus n="37v"/><seg type="lat">Hic est liber Sancti Pauli
+                           cormaricensis, Sancti Optatii</seg>, 9. Jhd. (zweimal)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote type="Colbert">Saffianeinband mit dem Wappen von Colbert</decoNote>
@@ -101,15 +100,16 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="high">Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833">1. Drittel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
+                           >1. Drittel 9. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">St-Paul de
                      Cormery</name></provenance>
-                  <provenance>gelangte bereits im 9. Jhd. nach <name type="Kloster">St-Paul de
-                        Cormery</name>, wie ein Eintrag auf fol. 37v. belegt.</provenance>
-                  <provenance>Gehört dann P. Pithou und J.-A- de Thou.</provenance>
-                  <provenance>Ging schließlich an <name type="person"
-                     >Colbert</name> über.</provenance>
+                  <provenance>Die Handschrift gelangte bereits im 9. Jhd. nach <name type="Kloster">St-Paul de
+                        Cormery</name>, wie ein Eintrag auf fol. 37v. belegt</provenance>
+                  <provenance>Gehörte dann P. Pithou und J.-A- de Thou</provenance>
+                  <provenance>Ging schließlich an <name type="person">Colbert</name>
+                     über.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

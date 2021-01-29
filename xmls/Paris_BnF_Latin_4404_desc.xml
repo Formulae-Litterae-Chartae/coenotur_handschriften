@@ -44,7 +44,7 @@
                            </dimensions>
                            <dimensions type="written" unit="cm">
                               <height n="28.6"/>
-                              <width n=""/>
+                              <width n="81 91">81-91</width>
                            </dimensions>
                         </extent>
                         <condition/>
@@ -56,7 +56,8 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p><locus n="214"/><name type="scribe">Audgarius</name> (nennt sich in einem Monogramm).</p>
+                     <p><locus n="214"/><name type="scribe">Audgarius</name> (nennt sich in einem
+                        Monogramm).</p>
                   </handDesc>
                   <scriptDesc>
                      <p source="Rand">verbesserte karolingische Kursive</p>
@@ -72,7 +73,7 @@
                            Graf)</p>
                      </decoNote>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote type="Colbert">Colberteinband in rotem Maroquin</decoNote>
                   </bindingDesc>

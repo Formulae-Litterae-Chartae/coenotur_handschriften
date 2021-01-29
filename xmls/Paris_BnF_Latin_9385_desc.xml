@@ -63,17 +63,18 @@
                         <p>Bilder vom Maître C</p>
                      </decoNote>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote type="BnF">Ledereinband des 18. Jhd.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours, St-Martin</name></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0843" notAfter="0851"
+                     <p><origPlace cert="high"><name>Tours, St-Martin</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0843" notAfter="0851"
                            >843-851</origDate></p>
-                     <note>Hergestellt unter <name type="abbot">Vivian</name>, sind Ort und Datierung nicht anzuzweifeln.</note>
+                     <note>Hergestellt unter <name type="abbot">Vivian</name>, sind Ort und
+                        Datierung nicht anzuzweifeln.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

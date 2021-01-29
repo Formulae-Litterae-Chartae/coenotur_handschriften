@@ -1,0 +1,123 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 1587</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 1587</idno>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel Evangelien">
+                     <author/>
+                     <title>Evangelium von St. Gatien</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="109">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="30.3 30.4"/>
+                              <width n="24.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="25.0"/>
+                              <width n="19.0 19.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="27 29">29 (27, 28)</layout>
+                        <layout><p>rote Titel; schwarz, rote und weiße Initialen mit irischen
+                              Formen, umgeben von roten Punkten; zum Teil anspruchsvollere
+                              Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">drei Hände; die letzte hat die Subskription eingefügt;
+                        Subskription durch Holcundus</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">runde, insulare Schrift</p>
+                     <p source="Bichoff">keltische, wahrscheinlich bretonische Halbunziale</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p>erste Seite vollständig ornamentiert, mit einfachen grellen Farben: rot,
+                           grün, gelb, schwarz, purpurn</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Korrekturen in einer frühen kontinentalen Hand; Markierungen für die
+                        Lektion</p>
+                     <p><locus n="1r"/>Walnerius</p>
+                     <p><locus n="53v"/><seg type="lat">Pippinus rix Francorum</seg></p>
+                     <p><seg type="lat">Monasterio Sancti Zenonis Majoris Veronae</seg> durch Libri
+                        hinzugefügt</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>italienischer Stil, mit nacktem Holz und braunem Lederrücken,
+                        angefertigt für Libri</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low">Bretagne</origPlace></p>
+                     <p><origPlace source="Delisle Chatelain" cert="low">Irland</origPlace></p>
+                     <p><origPlace source="Zimmermann" cert="low">Nordfrankreich</origPlace></p>
+                     <p><origPlace source="Katalog" cert="low">Wales?</origPlace></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0730" notAfter="0770">Mitte 8.
+                           Jhd.</origDate></p>
+                     <p><origDate source="Zimmermann" cert="low" notBefore="0780" notAfter="0820">um
+                           800</origDate></p>
+                     <note source="Rand">Datierung und Herkunft umstritten; die Nähe zu Tours, BM,
+                        22 aufgrund der irischen Charakteristiken deutet auf eine Entstehung in
+                        Tours hin</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance>Entstanden ist die Handschrift wohl entweder in der Bretagne oder in
+                     Irland und gelangte dann vermutlich im 9. Jhd. nach <name>Tours</name>. Im
+                     Bibliothekskatalog von 1706 von <name type="Kloster">St-Gatien</name>, 1842
+                     durch <name type="Person">Libri</name> gestohlen, 1847 an Lord <name
+                        type="Person">Ashburnham</name> gelangt. 1888 durch die BnF
+                     gekauft.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34647j</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://gallica.bnf.fr/ark:/12148/btv1b8423842n</idno></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

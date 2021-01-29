@@ -53,15 +53,15 @@
                      <p/>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">bis F.34v turonische Minuskel mit Neuerungen; danach späte
-                        Halbunziale und Minuskel, nicht Tours</p>
+                     <p source="Bischoff">bis fol. 34v turonische Minuskel mit Neuerungen; danach
+                        späte Halbunziale und Minuskel, nicht Tours</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                         <p/>
                      </decoNote>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
@@ -69,8 +69,8 @@
                <history>
                   <origin>
                      <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">9.
-                        Jhd. ca. 3. Viertel</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
+                           >9. Jhd. ca. 3. Viertel</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><name>Colbertinus</name></provenance>

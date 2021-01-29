@@ -1,0 +1,136 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 1589</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 1589</idno>
+                  <altIdentifier source="St-Gatien">
+                     <idno>64</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>36</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Delisle, Libri">
+                     <idno>36</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>161</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>58</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5093</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Liturgie Sakramentar">
+                     <author/>
+                     <title>Sacramentarium Gregorianum</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="122">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="29.4"/>
+                              <width n="22.8"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="19.5"/>
+                              <width n="13.7"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="22"/>
+                        <layout><p>rot-schwarze Titel; verschiedenfarbige Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>mehrere Hände</p>
+                     <p><locus n="10"/>Monogramm des Schreibers oder des Adressaten: <seg type="lat"
+                           >Langobardos sacerdos vivat in xpo</seg></p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">„Decadent Perfected and Revived Cursive“</p>
+                     <p>turonische Minuskel</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p><locus from="9" to="13"/>Gold und Rot auf Purpur, mit grün-orangenem
+                           Rand</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p n="Exlibris"><locus n="122"/><seg type="lat">Liber abbatiae S. Mariae de
+                           Florentia</seg></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Köhler">moderner Holzeinband</decoNote>
+                     <decoNote source="Delisle">Holzeinband mit Lederrücken</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff" cert="high"
+                        ><name>Tours</name></origPlace></p>
+                     <p><origDate source="Rand nach Delisle" cert="medium" notBefore="0880"
+                           notAfter="0900">Ende 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900"
+                           >4. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Delisle BnF" cert="medium" notBefore="0900"
+                           notAfter="1000">Teil des 10. Jhd.</origDate></p>
+                     <note>Über Entstehung und Datierung scheint sich die Forschung einig, wobei
+                        nicht klar ist, in welchem touroner Skriptorium.</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance>Bis zur Revolution war die Handschrift in der Bibliothek von <name
+                        type="Kloster">St-Gatien</name>, bevor sie von <name type="Person"
+                        >Libri</name> gestohlen wurde und dann über Lord <name type="Person"
+                        >Ashburnham</name> an die BnF gelangt</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b85624674</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69913g</idno></bibl>
+                     <bibl><idno>Delisle 1888</idno><biblScope unit="pp" from="12" to="14"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="179 180"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="421" to="423"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="240"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

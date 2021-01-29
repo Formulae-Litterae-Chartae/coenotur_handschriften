@@ -57,8 +57,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Die gesamte Handschrift wurde von <name type="scribe">Adalbaldus</name> geschrieben.</p> 
-                     <p><locus n="6v"/>Fol. 6v: <seg type="lat">Deus adesto scribente Adalbaldo</seg>, in „griechischen“ Buchstaben.</p>
+                     <p>Die gesamte Handschrift wurde von <name type="scribe">Adalbaldus</name>
+                        geschrieben.</p>
+                     <p><locus n="6v"/><seg type="lat">Deus adesto scribente Adalbaldo</seg>, in
+                        „griechischen“ Buchstaben.</p>
                   </handDesc>
                   <scriptDesc>
                      <p>Arbeit von Adalbaldus, mit wechselndem Schriftbild, mehr oder weniger
@@ -66,15 +68,13 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n="1r 3r 4r 4v"/>
-                        <p>leicht verzierte Kanontafeln</p>
+                        <p><locus n="1r 3r 4r 4v"/>leicht verzierte Kanontafeln</p>
                      </decoNote>
                      <decoNote>
-                        <locus n="7r 68r 174v"/>
-                        <p>mehrere verzierte Initialen</p>
+                        <p><locus n="7r 68r 174v"/>mehrere verzierte Initialen</p>
                      </decoNote>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote>neuerer Ledereinband</decoNote>
                   </bindingDesc>
@@ -82,8 +82,11 @@
                <history>
                   <origin>
                      <p><origPlace cert="medium"><name>Tours</name>, St-Martin</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833">1. Drittel 9. Jhd.</origDate></p>
-                     <note>Dadurch, dass die Handschrift sicher durch Adalbaldus abgefasst wurde, ist eine Entstehung im 1. Drittel des 9. Jhd. in St-Martin in Tours gesichert.</note>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
+                           >1. Drittel 9. Jhd.</origDate></p>
+                     <note>Dadurch, dass die Handschrift sicher durch Adalbaldus abgefasst wurde,
+                        ist eine Entstehung im 1. Drittel des 9. Jhd. in St-Martin in Tours
+                        gesichert.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

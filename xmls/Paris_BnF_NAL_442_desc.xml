@@ -59,18 +59,14 @@
                      <p/>
                   </handDesc>
                   <scriptDesc>
-                     <p>tironische Noten</p>
+                     <p>Tironische Noten</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p/>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: </p>
-                     <p n="Exlibris"><locus n="97v"/>Sancti Petri de Perusio (von Libri
-                        eingefügt)</p>
+                     <p n="Exlibris"><locus n="97v"/><seg type="lat">Sancti Petri de Perusio</seg>
+                        (von Libri eingefügt)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -83,7 +79,6 @@
                      <p><origPlace source="Köhler" cert="low"><name>Reims</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0870"
                            >ca. Mitte 9. Jhd.</origDate></p>
-                     <p/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance>Gehörte <name type="Person">Bouhier</name>, bevor es an die Bibliothek

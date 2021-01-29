@@ -1,0 +1,154 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 22</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>22</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>247</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Collon">
+                     <idno>22</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Mostert">
+                     <idno>1299</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Dorange">
+                     <idno>22</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>23</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6120</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Evangelien">
+                     <author/>
+                     <title>Evangeliar</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="279">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.0"/>
+                              <width n="23.3"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="22.3"/>
+                              <width n="6.3"/>
+                           </dimensions>
+                        </extent>
+                        <condition>perfekt erhalten</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="25"/>
+                        <layout><p>kein Schmuck im Text; Initialen zu Beginn der
+                           Evangelien</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">4 Hände, vielleicht 2 zusätzliche</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Berger">vollständig in goldener Unziale; irischer Stil</p>
+                     <p source="Rand">nicht von einem Iren</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p><locus from="279" to="285">spätere Hinzufügung</locus></p>
+                     <p><locus n="289"/><seg type="lat">Serment que font les Princes et Barons lors
+                           qu’ils sont recus Chanoines d’honneur dans l’église de St.
+                        Martin</seg></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="low">Frankreich</origPlace></p>
+                     <p><origPlace source="Köhler" cert="low"><name type="Kloster"
+                           >Fleury</name>?</origPlace></p>
+                     <p><origPlace source="Mostert" cert="low">nicht Fleury</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><name type="Kloster"
+                           >St-Martin</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="low" notBefore="0814" notAfter="1137">nach
+                           814?</origDate></p>
+                     <p><origDate source="Collon Dorange" cert="low" notBefore="0700"
+                           notAfter="0800">8. Jhd.</origDate></p>
+                     <p><origDate source="Berger" cert="low" notBefore="0700" notAfter="0796">vor
+                           Alkuin</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0780" notAfter="0820">um
+                           800</origDate></p>
+                     <note>Weder der Ort noch der Zeitpunkt der Entstehung der Handschrift kann
+                        genauer festgelegt werden. Mostert, als der größte Kenner Fleurys, lehnt
+                        eine Entstehung dort ab, selbst wenn Köhler und Berger aufgrund der Nähe zu
+                        Bern 348 eine Entstehung in Fleury für wahrscheinlich halten. Gegen
+                        St-Martin unter Alkuin aufgrund der Goldlettern zu argumentieren, die Alkuin
+                        abgelehnt habe, wie Berger es tut, erscheint für ein solches Prachtexemplar
+                        unbefriedigend. Letztendlich kann wohl nur die vorsichtige Festlegung
+                        Bischoffs festgehalten werden, die von „Frankreich“ ausgeht. Was die
+                        Datierung anbelangt, erscheint jede Angabe, die über „um 800“ hinausgeht,
+                        äußerst fragwürdig.</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance>Sicher ist, dass von 1137 bis 1650 die französischen Könige ihren Eid
+                     bei der Übernahme als Äbte und Kanoniker von <name type="Kloster"
+                        >St-Martin</name> auf diesem Buch geschworen haben, so dass die Handschrift
+                     mindestens seit dieser Zeit in <name type="Kloster">St-Martin</name> gewesen
+                     sein muss.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://bvmm.irht.cnrs.fr/resultRecherche/resultRecherche.php?COMPOSITION_ID=2353</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="22"/></bibl>
+                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="272 273"/></bibl>
+                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="420"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="102 103"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="324"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
+                     <bibl><idno>Dorange</idno><biblScope unit="pp" n="8 9"/></bibl>
+                     <bibl><idno>Collon</idno><biblScope unit="pp" n="16 17"/></bibl>
+                     <bibl><idno>Mostert</idno><biblScope unit="pp" n="250"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

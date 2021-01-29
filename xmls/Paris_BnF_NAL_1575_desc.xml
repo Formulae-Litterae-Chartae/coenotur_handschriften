@@ -41,7 +41,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
-                        <layout writtenLines="31">32 (29, 30,31, 33 ,34, 34, 38, 41)</layout>
+                        <layout writtenLines="31">32 (29, 30, 31, 33 ,34, 34, 38, 41)</layout>
                         <layout><p>rote und schwarze Titel, simple Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -52,10 +52,7 @@
                      <p>Unziale, Halbunziale, Minuskel</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p/>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p>ausführliche Korrekturen in grüner Tinte; weitere Korrekturen in
@@ -68,23 +65,24 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><name>Tours</name>,
-                           St-Martin</origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"><name>Tours</name>, <name
+                              type="Kloster">St-Martin</name></origPlace></p>
                      <p><origDate source="Mercier" cert="low" notBefore="0725" notAfter="0750"
                            >725-750</origDate></p>
                      <p><origDate source="Hellmann" cert="low" notBefore="0700" notAfter="0725"
                            >Anfang 8. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="low" notBefore="0600" notAfter="0625">Anfang
                            7. Jhd.</origDate></p>
-                     <p source="Mercier">Wohl entstanden am Anfang des 8. Jahrhunderts, vermutlich
-                        unter Abt Wictbert. Die Datierung von Rand erscheint unglaubwürdig.</p>
+                     <note source="Mercier">Wohl entstanden am Anfang des 8. Jahrhunderts,
+                        vermutlich unter Abt <name type="Abt">Wictbert</name>. Die Datierung von
+                        Rand erscheint unglaubwürdig.</note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
                   <provenance>Vermutlich entstanden in <name type="Kloster">St-Martin</name>. Dort
-                     aufbewahrt, bis Teile durch Libri gestohlen wurden, gelangte die Handschrift
-                     zwischen 1820 und 1830 in die Bibliothek von Jules <name type="Person"
-                        >Desnoyers</name> und wurde 1888 durch Delisle für die BnF
-                     gekauft.</provenance>
+                     aufbewahrt, bis Teile durch <name type="Person">Libri</name> gestohlen wurden,
+                     gelangte die Handschrift zwischen 1820 und 1830 in die Bibliothek von Jules
+                        <name type="Person">Desnoyers</name> und wurde 1888 durch <name
+                        type="Person">Delisle</name> für die BnF gekauft.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

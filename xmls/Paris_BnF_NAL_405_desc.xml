@@ -27,7 +27,7 @@
                <msContents>
                   <msItem class="Geschichtsschreibung">
                      <author>Orosius</author>
-                     <title>Historia adversum Paganos</title>
+                     <title>Historia adversum Paganos (Fragmente)</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -56,20 +56,16 @@
                      <p>Adalbaldus</p>
                   </handDesc>
                   <scriptDesc>
-                     <p source=""/>
+                     <p/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p/>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: </p>
-                     <p n="Exlibris"><locus n=""/>HIC LIBER ADALBALDI ARTIFICIS</p>
+                     <p n="Exlibris"><seg type="lat">HIC LIBER ADALBALDI ARTIFICIS</seg></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote type=""/>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -77,8 +73,8 @@
                      <p><origPlace cert="medium"><name>Tours</name>, St-Martin</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1. Hälfte 9. Jhd.</origDate></p>
-                     <p>Entstehungsort ist durch den Schreiber Adalbaldus sicher belegt. Datum kann
-                        dadurch vermutlich noch präzisiert werden.</p>
+                     <note>Entstehungsort ist durch den Schreiber Adalbaldus sicher belegt. Datum
+                        kann dadurch vermutlich noch präzisiert werden.</note>
                   </origin>
                   <provenance type="Provenance"><name type=""/></provenance>
                   <provenance/>

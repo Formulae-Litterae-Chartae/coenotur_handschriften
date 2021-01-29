@@ -9,10 +9,10 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt>
-            <note>In der heutigen Form handelt es sich um eine zusammengesetzte
-               Handschrift, deren ersten beide Teile deutlich jünger, vermutlich aus dem 13-14. Jhd.
-               stammen. f.1 enthält ein Kalenderfragment, f.2-5 laut Beschreibung der BnF Fragmente
-               der Passio b. Achati.</note>
+            <note>In der heutigen Form handelt es sich um eine zusammengesetzte Handschrift, deren
+               ersten beide Teile deutlich jünger, vermutlich aus dem 13-14. Jhd. stammen. fol. 1
+               enthält ein Kalenderfragment, fol. 2-5 laut Beschreibung der BnF Fragmente der Passio
+               b. Achati.</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -72,13 +72,10 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n=""/>
                         <p/>
                      </decoNote>
                   </decoDesc>
-                  <additions>
-                     <p n="Exlibris"><locus n=""/></p>
-                  </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote>neuerer Holzeinband; Bindung in braunem Schafsleder von
                         Louis-Philippe</decoNote>
@@ -87,7 +84,7 @@
                <history>
                   <origin>
                      <p><origPlace cert="low"><name>Marmoutier (?)</name></origPlace></p>
-                     <p><origDate source="" cert="" notBefore="" notAfter=""/></p>
+                     <p><origDate/></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><name>Marmoutier</name></provenance>

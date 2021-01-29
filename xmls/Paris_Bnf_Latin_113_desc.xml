@@ -36,7 +36,7 @@
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title>Bibel</title>
+                     <title/>
                      <textLang mainLang="la"/>
                      <msItem>
                         <locus from="1v" to="61v"/>
@@ -77,9 +77,9 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p source="BnF">Nachträge und Benutzungsspuren: korrigiert und punktiert durch
+                     <p source="BnF">korrigiert und punktiert durch
                         eine zeitgenössische Hand</p>
-                     <p>Marginalia: <locus n="85r 105r"/>Tironische Noten</p>
+                     <p><locus n="85r 105r"/>Tironische Noten</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>

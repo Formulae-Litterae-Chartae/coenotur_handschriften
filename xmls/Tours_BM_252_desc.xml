@@ -1,0 +1,108 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 252</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Auf fol. 1, das leider zerrissen ist, befand sich ein Verzeichnis der Homilien. Das vorletzte Blatt entstammt einem Missale des 13. Jhd.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>252</idno>
+                  <altIdentifier source="Marmoutier">
+                     <idno>136</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>208</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="">
+                     <author/>
+                     <title></title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="222">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.2"/>
+                              <width n="22.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="25.0"/>
+                              <width n="17.4"/>
+                           </dimensions>
+                        </extent>
+                        <condition>perfekter Erhaltungsstand</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="41"/>
+                        <layout><p>rot-braune Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p></p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n="2"/>
+                        <locus n="146v"/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>stabiler Kalbseinband des 17. Jhd.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="" cert=""></origPlace></p>
+                     <p><origDate source="Collon" cert="low" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="142"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="183 184"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="197"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

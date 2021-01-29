@@ -9,7 +9,7 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt>
-            <note>f.109 fehlt und ist in der frühen Neuzeit auf Papier ergänzt worden</note>
+            <note>fol. 109 fehlt und ist in der frühen Neuzeit auf Papier ergänzt worden</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -63,14 +63,15 @@
                      <p>turonische Minuskel von mehr als einer Hand</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p>wenige Anmerkungen, von unterschiedlicher Art und Datierung</p>
-                     <p><locus n="129r"/>ADIUUANTEDNO NRO IHU XPO/ QUI CUM PATRE ETSPU SCO VIVIT /
-                        ET REGNAT PER OMNIASCLA /SCLORUM AMEN. QUI SCRIBERE / NESCIT NULLUM / PUTAT
-                        EE. LABOREM / TRES DIGITIS SCRIBUNT / SED TOTA MEMBRA / LABORANT SICUT /
-                        NAVIGANTIBUS OPTIMUS / PORTUS ITA SCRIPTORI / NAVISSIMUS / VERSUS</p>
+                     <p><locus n="129r"/><seg type="lat">ADIUUANTEDNO NRO IHU XPO/ QUI CUM PATRE
+                           ETSPU SCO VIVIT / ET REGNAT PER OMNIASCLA /SCLORUM AMEN. QUI SCRIBERE /
+                           NESCIT NULLUM / PUTAT EE. LABOREM / TRES DIGITIS SCRIBUNT / SED TOTA
+                           MEMBRA / LABORANT SICUT / NAVIGANTIBUS OPTIMUS / PORTUS ITA SCRIPTORI /
+                           NAVISSIMUS / VERSUS</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote>alter heller Ledereinband</decoNote>

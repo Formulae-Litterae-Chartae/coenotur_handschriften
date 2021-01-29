@@ -20,7 +20,7 @@
                      <idno>55</idno>
                   </altIdentifier>
                   <altIdentifier source="Deynoyers">
-                     <idno></idno>
+                     <idno/>
                   </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>100</idno>
@@ -28,7 +28,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>5090</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Theologie Exegese">
@@ -50,43 +50,46 @@
                               <width n="7.0"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines=""/>
-                        <layout><p>Titel in grün und gelb; Initialen in grün und gelb. Farben und Design sind nicht typisch für Tours.</p></layout>
+                        <layout><p>Titel in grün und gelb; Initialen in grün und gelb. Farben und
+                              Design sind nicht typisch für Tours.</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p></p>
+                     <p/>
                   </handDesc>
                   <scriptDesc>
-                     <p></p>
+                     <p/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p></p>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: </p>
-                     <p n="Exlibris"><locus n="87r"/>hic est liber sancti maximini miciacensis</p>
+                     <p n="Exlibris"><locus n="87r"/><seg type="lat">hic est liber sancti maximini
+                           miciacensis</seg></p>
                   </additions>
-                  <bindingDesc>
-                     <decoNote></decoNote>
-                  </bindingDesc>
+                  <bindingDesc/>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"><name>Micy</name>?</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><name type="Kloster"
+                           >Micy</name>?</origPlace></p>
                      <p><origPlace source="Bischoff" cert="low">etwa Paris</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                     <p>Entstehungsort unklar, Tours kann aber wohl ausgeschlossen werden. Findet sich in der Liste, da es ursprünglich von Delisle als zweifelhaft nach Tours verortet wurde.</p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
+                           >1. Viertel 9. Jhd.</origDate></p>
+                     <note>Entstehungsort unklar, Tours kann aber wohl ausgeschlossen werden. Findet
+                        sich in der Liste, da es ursprünglich von Delisle als zweifelhaft nach Tours
+                        verortet wurde.</note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance>Vermutlich geschrieben in Micy oder im Pariser Raum, gelangte die Handschrift irgendwann nach <name type="Kloster">St-Martin</name>. Von dort ging sie in den Besitz von Desnoyer über.</provenance>
+                  <provenance>Vermutlich geschrieben in <name type="Kloster">Micy</name> oder im
+                     Pariser Raum, gelangte die Handschrift irgendwann nach <name type="Kloster"
+                        >St-Martin</name>. Von dort ging sie in den Besitz von Desnoyer
+                     über.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -97,7 +100,8 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69896p</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69896p</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="148"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="239"/></bibl>
                   </listBibl>

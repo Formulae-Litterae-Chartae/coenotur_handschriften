@@ -8,7 +8,6 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note type="" source=""></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -16,109 +15,86 @@
                   <settlement>Paris</settlement>
                   <repository>BnF</repository>
                   <collection/>
-                  <idno>Latin</idno>
-                  <altIdentifier source="Colbert">
-                     <idno></idno>
-                  </altIdentifier>
-                  <altIdentifier source="Faure">
-                     <idno></idno>
-                  </altIdentifier>
-                  <altIdentifier source="Regius">
-                     <idno></idno>
-                  </altIdentifier>
-                  <altIdentifier source="Dupuy">
-                     <idno></idno>
-                  </altIdentifier>
-                  <altIdentifier source="Rigault">
-                     <idno></idno>
-                  </altIdentifier>
-                  <altIdentifier source="Hurault">
-                     <idno></idno>
-                  </altIdentifier>
-                  <altIdentifier source="Jean de Gagny">
-                     <idno></idno>
-                  </altIdentifier>
-                  <altIdentifier source="Rand">
-                     <idno></idno>
-                  </altIdentifier>
-                  <altIdentifier source="Köhler">
-                     <idno></idno>
-                  </altIdentifier>
+                  <idno>Latin 8847</idno>
                   <altIdentifier source="Bischoff">
-                     <idno></idno>
+                     <idno>4566</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="">
+                  <msItem class="Bibel">
                      <author/>
-                     <title/>
+                     <title>Bibel (Propheten und Neues Testament)</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="">
+                        <extent n="177">
                            <dimensions type="leaf" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="45.5"/>
+                              <width n="33.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="36 37">36-37</height>
+                              <width n="24 26">24-26</width>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines=""/>
-                        <layout><p></p></layout>
+                        <layout columns="2"/>
+                        <layout writtenLines="39 51">39-51</layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source=""></p>
+                     <p>mehrere Hände</p>
                   </handDesc>
                   <scriptDesc>
-                     <p source=""></p>
+                     <p source="Bischoff">„Noch nicht gestraffte turonische Min.“</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p></p>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
-                  <additions>
-                     <p>Marginalia: </p>
-                     <p n="Exlibris"><locus n=""/></p>
-                  </additions>
+                  <additions/>
                   <bindingDesc>
-                     <decoNote type=""></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert=""><name></name></origPlace></p>
-                     <p><origDate source="" cert="" notBefore="" notAfter=""></origDate></p>
-                     <p></p>
+                     <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0795" notAfter="0805"
+                           >gegen 800</origDate></p>
+                     <note>Um 800 und noch unter Alkuin in St-Martin entstanden, und vielleicht
+                        sogar vor der Ankunft Alkuins begonnen, handelt es sich um das älteste
+                        überlieferte Zeugnis eines Pandektes aus St-Martin.</note>
                   </origin>
-                  <provenance type="Provenance"><name type=""/></provenance>
-                  <provenance></provenance>
+                  <provenance type="Provenance"><name type="Kloster">Echternach</name></provenance>
+                  <provenance source="Ferrari">Die Wiederherstellung von Schriftteilen, die sicher
+                     in <name type="Kloster">Echternach</name> durchgeführt wurden, belegen, dass
+                     die Handschrift spätestens im 11. Jhd. in <name type="Kloster"
+                        >Echternach</name> lag.</provenance>
+                  <provenance>Ein Teil der Handschrift ist bis in 16. Jhd. in Echternach geblieben,
+                     wobei ein Großteil der Folio des Alten Testamentes zu diesem Zeitpunkt bereits
+                     verloren waren. Von Echternach gelangt der erhaltene Teil nach Luxemburg und
+                     wurde dort im 19. Jhd. von <name type="Person">Jean-Baptiste Maugerard</name>
+                     in einem Speicher gefunden. </provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8438679t</idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="" to=""/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc873714</idno></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="146 147"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -1,0 +1,135 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 1595</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 1595</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>74</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>42</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Mostert">
+                     <idno>1243</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>58</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5094</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie">
+                     <author>Augustinus</author>
+                     <title>De doctrina christiana</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="137">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="26.0"/>
+                              <width n="18.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="20.0"/>
+                              <width n="12.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="24 27">24 (25, 26, 27)</layout>
+                        <layout><p>rote und schwarze Titel; rote und schwarze Initialen im Stil von
+                              Tours</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">5 Hände. Hand A ähnlich wie Theodogrimus; B ähnlich wie die
+                        Zusatzhand in BnF, Latin 5726; C ähnlich wie Aldo; E ähnlich wie B in
+                        Boulogne 51 </p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <musicNotation><p source="Rand">Neumen, vermutlich aus dem 11. Jahrhundert, die
+                        denjenigen von Fleury ähneln</p></musicNotation>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n="67v"/>
+                        <p>eine bunte Initiale</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>einzelne zeitgenössische Korrekturen; Korrekturen und Marginalnotizen einer
+                        späteren Hand</p>
+                     <p n="Exlibris"><locus n="136"/><seg type="lat">monasterii S. Zenonis maioris
+                           Veronae</seg> von Libri gefälscht</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote type="Libri">Holzeinband, durch Libri in Auftrag gegeben</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium"><name>Tours</name> oder
+                           Umkreis</origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"
+                        ><name>St-Martin</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
+                           >1. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0820"
+                           >Alkuin oder kurz danach</origDate></p>
+                     <note>Entstehung unklar</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance>Die Handschrift ist vermutlich in <name type="Kloster"
+                        >St-Martin</name> entstanden und dort geblieben. Durch die Neumen könnte
+                     eine Verbindung mit <name type="Kloster">Fleury</name> erkennbar sein. Im 19.
+                     Jhd. wurde sie durch <name type="Person">Libri</name> gestohlen und an Lord
+                        <name type="Person">Ashburnham</name> verkauft.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84789989</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc13695r</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="123 124"/></bibl>
+                     <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="239"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="240"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 2633</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 2633</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>5149-5157; fol. 12 5152</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel Fragmente">
+                     <author/>
+                     <title>verschiedene Fragmente; Pentateuch (Leviticus)</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="fragment">
+                     <supportDesc material="perg">
+                        <extent n="1">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="16.5">(16,5)</height>
+                              <width n="26"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="12.5">(12,5)</height>
+                              <width n="20.3"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="18"/>
+                        <layout><p/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>turonische Minuskel</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="unknown"><name>Tours</name></origPlace></p>
+                     <p><origDate cert="unknown" notBefore="0857" notAfter="0862">ca.
+                           857-862</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc70809d</idno></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="250 251"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

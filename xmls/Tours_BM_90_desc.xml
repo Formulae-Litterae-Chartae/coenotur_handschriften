@@ -1,0 +1,109 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 90</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>90</idno>
+                  <altIdentifier source="Marmoutier">
+                     <idno>142</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>205</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Liturgie">
+                     <author/>
+                     <title>Paraphrase der Psalmen durch einen Mönch von Marmoutier</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="255">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="32.2"/>
+                              <width n="18.6"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="23.2"/>
+                              <width n="8.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>es fehlen die ersten 4 Hefte</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="30 35">30, 32, 35</layout>
+                        <layout><p/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>schöne, klare Minuskel</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>zahlreiche Korrekturen</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="low"><name type="Kloster">Marmoutier</name></origPlace></p>
+                     <p><origDate source="Dorange" cert="medium" notBefore="1070" notAfter="1100"
+                           >11. Jhd., um 1090</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance source="Dorange">Hergestellt wurde die Handschrift als Kopie des
+                     Autorenexemplars für die Bibliothek von Marmoutier, und vermutlich vom Autor
+                     selbst korrigiert.</provenance>
+                  <provenance>Die fehlenden Hefte fehlten bereits im 17. Jahrhundert, als Dom
+                     Anselme Le Michel die Handschrift beschreiben hat.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" from="35" to="37"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="54" to="56"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="197"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

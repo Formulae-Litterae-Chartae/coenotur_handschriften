@@ -67,11 +67,10 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n=""/>
                         <p/>
                      </decoNote>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote>roter Samteinband des 19. Jhd.</decoNote>
                   </bindingDesc>
@@ -83,10 +82,12 @@
                      <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
                      <p/>
-                     <note>Über die Entstehung ist wenig gesichert. Es ist gut möglich, dass die Handschrift nicht in Tours entstanden ist.</note>
+                     <note>Über die Entstehung ist wenig gesichert. Es ist gut möglich, dass die
+                        Handschrift nicht in Tours entstanden ist.</note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
-                  <provenance>Unabhängig vom Entstehungsort wurde die Handschrift mit ziemlicher Sicherheit an St-Gatien geschenkt.</provenance>
+                  <provenance>Unabhängig vom Entstehungsort wurde die Handschrift mit ziemlicher
+                     Sicherheit an St-Gatien geschenkt.</provenance>
                   <provenance>Gekauft am 11. Juni 1851 durch die BnF.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

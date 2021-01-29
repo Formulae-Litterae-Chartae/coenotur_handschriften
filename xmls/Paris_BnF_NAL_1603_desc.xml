@@ -1,0 +1,123 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 1603</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 1603</idno>
+                  <altIdentifier source="St-Gatien">
+                     <idno>143</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>91</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Delisle, Libri">
+                     <idno>32</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>162</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5098</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Klassiker Geschichtsschreibung">
+                     <author>Cassiodorus</author>
+                     <title>Historio Tripartita</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="230">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="33.9"/>
+                              <width n="26.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="22.5"/>
+                              <width n="16.0 18.0">16,0-18,0</width>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="29"/>
+                        <layout><p>rote und schwarze Titel; einfache Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand Bischoff">drei Haupthände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Bischoff">„Kräftige kalligr. Min.“</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p n="Exlibris"><locus n="230"/><seg type="lat">Liber abbatiae s. mariae de
+                           florentia</seg> von Libri</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Delisle">Holzeinband in Leder mit Lederrücken</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">etwa Niederrhein
+                        (?)</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875"
+                           >2. (oder 3.) Viertel 9. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance>Die Handschrift lagerte bis zur Revolution in der Kathedrale von
+                     Tours, wurde schließlich von <name type="Person">Libri</name> gestohlen und
+                     gelangte vermutlich über Lord <name type="Person">Ashburnham</name> an die
+                     BnF</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10037288n</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69927n</idno></bibl>
+                     <bibl><idno>Delisle 1888</idno><biblScope unit="pp" n="45 46"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="180 181"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="241"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -72,9 +72,7 @@
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
-                  <additions>
-                     <p n="Exlibris"></p>
-                  </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote>Einband der bibliothèque royale, vor 1792</decoNote>
                   </bindingDesc>
@@ -83,7 +81,8 @@
                   <origin>
                      <p><origPlace cert="high"><name>St-Martin</name></origPlace></p>
                      <p><origDate cert="high" notBefore="0820" notAfter="0843">zwischen 820-843,
-                           unter <name type="abbot">Fridugisus</name> oder <name type="abbot">Adalhardus</name></origDate></p>
+                           unter <name type="abbot">Fridugisus</name> oder <name type="abbot"
+                              >Adalhardus</name></origDate></p>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">Meaux</name> (Abbaye de
                      Chage)</provenance>

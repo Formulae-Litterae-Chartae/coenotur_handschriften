@@ -38,47 +38,64 @@
                               <width n="6.5"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="31 32">31/32</layout>
-                        <layout><p>Titel in rot und rot-schwarz; einzelne größere Initialen</p></layout>
+                        <layout><p>Titel in rot und rot-schwarz; einzelne größere
+                           Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">drei Hände, teilweise Nutzung von Halbunziale und früher Minuskel; einzelne Spalten einer späteren Hand. Rainardus (f.63r oben), und „ego Gislardus“ f. 123r. Hierbei scheint es sich nicht um einen der beiden Gislardus aus dem Sankt Galler Verbrüderungsbuch (Nummern 64 und 195) zu handeln, sondern um einen älteren Mönch</p>
+                     <p source="Rand">drei Hände, teilweise Nutzung von Halbunziale und früher
+                        Minuskel; einzelne Spalten einer späteren Hand. Rainardus (fol. 63r oben),
+                        und „ego Gislardus“ fol. 123r. Hierbei scheint es sich nicht um einen der
+                        beiden Gislardus aus dem Sankt Galler Verbrüderungsbuch (Nummern 64 und 195)
+                        zu handeln, sondern um einen älteren Mönch</p>
                   </handDesc>
                   <scriptDesc>
                      <p>Unziale</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p></p>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p>Einzelne Korrekturen in Minuskel des frühen 9. Jahrhunderts. Die fol. 89-98 wurden im 10. Jahrhundert ausgebessert und mit einer Minuskel neu beschrieben. Tironische Noten. 
-                     </p>
-                     <p n="Exlibris"><locus n=""/></p>
+                     <p>Einzelne Korrekturen in Minuskel des frühen 9. Jahrhunderts. Die fol. 89-98
+                        wurden im 10. Jahrhundert ausgebessert und mit einer Minuskel neu
+                        beschrieben.</p>
+                     <p>tironische Noten</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote type=""></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><name>Marmoutier</name></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium"><name>Tours</name></origPlace></p>
-                     <p><origPlace source="Winandy" cert="medium"><name>St-Martin</name></origPlace></p>
-                     <p><origDate source="Delisle Chatelain Bischoff" cert="medium" notBefore="0800" notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0730" notAfter="0770">Mitte 8. Jhd.</origDate></p>
-                     <p><origDate source="Nouveau Traité" cert="low" notBefore="0600" notAfter="0700">7. Jhd.</origDate></p>
-                     <p>Eine Entstehung zu Beginn des 9. Jahrhunderts erscheint wahrscheinlich. Damit könnte es sich beim Schreiber Gislardus um einen der beiden im Verbrüderungsbuch genannten handeln. </p>
+                     <p><origPlace source="Rand" cert="medium"
+                        ><name>Marmoutier</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"
+                        ><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Winandy" cert="medium"
+                        ><name>St-Martin</name></origPlace></p>
+                     <p><origDate source="Delisle Chatelain Bischoff" cert="medium" notBefore="0800"
+                           notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0730" notAfter="0770">Mitte
+                           8. Jhd.</origDate></p>
+                     <p><origDate source="Nouveau Traité" cert="low" notBefore="0600"
+                           notAfter="0700">7. Jhd.</origDate></p>
+                     <note>Eine Entstehung zu Beginn des 9. Jahrhunderts erscheint wahrscheinlich.
+                        Damit könnte es sich beim Schreiber Gislardus um einen der beiden im
+                        Verbrüderungsbuch genannten handeln.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
-                  <provenance>Abgefasst vermutlich in St-Martin ist die Handschrift schnell nach Marmoutier gelangt, wurde vielleicht sogar für Marmoutier verfasst. Durch Libri gestohlen gelang sie an den Lord Ashburnham und schließlich 1888 durch Kauf von Delisle an die BnF. </provenance>
+                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name>, <name
+                        type="Person">Libri</name></provenance>
+                  <provenance>Abgefasst vermutlich in <name type="Kloster">St-Martin</name> ist die
+                     Handschrift schnell nach <name type="Kloster">Marmoutier</name> gelangt, wurde
+                     vielleicht sogar für <name type="Kloster">Marmoutier</name> verfasst. Durch
+                        <name type="Person">Libri</name> gestohlen gelang sie an den Lord <name
+                        type="Person">Ashburnham</name> und schließlich 1888 durch Kauf von <name
+                        type="Person">Delisle</name> an die BnF.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -89,7 +106,8 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69910r</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69910r</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
                      <bibl><idno>Delisle 1888</idno><biblScope unit="pp" n=""/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>

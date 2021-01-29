@@ -1,0 +1,124 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 2322</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 2322</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>85</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Desnoyers">
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>101</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5125/5126/5127</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Gebete">
+                     <author>Paulus Diaconus</author>
+                     <title>Sammlung von Sermones</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem class="Gebete" n="1 2">
+                     <author>Gregorius</author>
+                     <title>Sermones</title>
+                  </msItem>
+                  <msItem class="Gebete" n="3">
+                     <author>Philippus</author>
+                     <title>Commentarii in librum Iob</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="215">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="40.5"/>
+                              <width n="27.8"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="28.3 29.6"/>
+                              <width n="8.8"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="37 42">37, 39, 40, 41, 42</layout>
+                        <layout><p>rote und rot-schwarze Titel; einfache rot-schwarze
+                           Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>sieben Hände von sehr verschiedener Kompetenz</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>keine Halbunziale; Tironische Noten</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">Umgebung von <name>Tours</name>
+                           wahrscheinlicher als Tours selbst</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">fol. 1-2: Nordostfrankreich; fol. 3:
+                           Tours (?)</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
+                           >2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0823" notAfter="0877">Karl
+                           der Kahle</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10035788v</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc70536s</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="148 149"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="247"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

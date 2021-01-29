@@ -101,7 +101,7 @@
                      <decoNote type="Miniature"><locus n="3v"/></decoNote>
                      <decoNote type="Miniature"><locus n="423r"/></decoNote>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote type="Colbert">Colberteinband</decoNote>
                   </bindingDesc>
@@ -116,7 +116,8 @@
                   <provenance>Die Handschrift wurde unter <name type="Abt">Vivian</name> begonnen
                      und von diesem <name type="person">Karl dem Kahlen</name> im Beisein der
                      monastischen Amtsträger <name type="person">Amandus</name>, <name type="person"
-                        >Sigvaldus</name> und <name type="person">Aregarius</name> präsentiert.</provenance>
+                        >Sigvaldus</name> und <name type="person">Aregarius</name>
+                     präsentiert.</provenance>
                   <provenance><name type="person">Karl der Kahle</name> übergab die Bibel vermutlich
                      in Zusammenhang mit seiner Krönung zum König von Lotharingien im Jahr 869 an
                      die Kathedrale von <name type="Ort">Metz</name>.</provenance>

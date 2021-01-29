@@ -64,14 +64,13 @@
                      <p source="Rand">verbesserte Kursive; gemischte Majuskel</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p><locus n="68r"/><seg type="lat">BOSO ME FECIT</seg>,
-                        eingeritzt</p>
-                     <p>Glossen und Korrekturen aus dem 12. Jhd. übersetzen Toponyme in
-                        ihre Zeit. Die Glossierungen hören Fol. 45r mit dem Ende der Briefe des
-                        Sulpicius Severus auf</p>
+                     <p><locus n="68r"/><seg type="lat">BOSO ME FECIT</seg>, eingeritzt</p>
+                     <p>Glossen und Korrekturen aus dem 12. Jhd. übersetzen Toponyme in ihre Zeit.
+                        Die Glossierungen hören fol. 45r mit dem Ende der Briefe des Sulpicius
+                        Severus auf</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -80,8 +79,8 @@
                <history>
                   <origin>
                      <p><origPlace cert="high"><name>Tours</name></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1.
-                        Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
+                           >1. Viertel 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>

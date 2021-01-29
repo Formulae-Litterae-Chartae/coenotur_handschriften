@@ -1,0 +1,104 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 2332</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 2332</idno>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie Exegese">
+                     <author>Philippus</author>
+                     <title>Expositio in Iob</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="fragment">
+                     <supportDesc material="perg">
+                        <extent n="1">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.8"/>
+                              <width n="21.4"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="23.4"/>
+                              <width n="14"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Fragmente</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="30"/>
+                        <layout><p/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>„Merowingische Kursive“</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="low"><name>Tours</name>
+                        (?)</origPlace></p>
+                     <p><origDate source="Bischoff" cert="low" notBefore="0800" notAfter="0833">1.
+                           Drittel 9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0750" notAfter="0796"
+                           >„pre-alcuinian“</origDate></p>
+                     <note>Da es sich um ein einzelnes Blatt handelt, ist die Datierung und
+                        Lokalisierung äußerst fragwürdig.</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance source="Delisle">Bleibt wohl bis mindestens 1807 in <name
+                        type="Kloster">St-Martin</name>, wo <name type="Person">Jean-Louis
+                        Chalmel</name> das Manuskript noch gesehen hat.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b100390355</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc705460</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Gorman 2006</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

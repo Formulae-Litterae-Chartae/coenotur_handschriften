@@ -68,13 +68,12 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Im Teil der Vita wurden später
-                        Worttrennungen eingefügt für eine bessere Lesbarkeit; das Verschwinden der
-                        Trennungszeichen in der späteren Handschrift könnte an weniger Benutzung
-                        dieser Teile liegen, oder an einem Schreiberwechsel, der zweite Schreiber
-                        trennt die Worte klarer voneinander</p>
-                     <p><locus n="136v"/>Neuem des 11. Jhd. von zwei verschiedenen
-                        Händen</p>
+                     <p>Im Teil der Vita wurden später Worttrennungen eingefügt für eine bessere
+                        Lesbarkeit; das Verschwinden der Trennungszeichen in der späteren
+                        Handschrift könnte an weniger Benutzung dieser Teile liegen, oder an einem
+                        Schreiberwechsel, der zweite Schreiber trennt die Worte klarer
+                        voneinander</p>
+                     <p><locus n="136v"/>Neuem des 11. Jhd. von zwei verschiedenen Händen</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -84,7 +83,7 @@
                   <origin>
                      <p><origPlace cert="low"><name>Tours</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
-                        >2. Viertel 9. Jhd.</origDate></p>
+                           >2. Viertel 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>

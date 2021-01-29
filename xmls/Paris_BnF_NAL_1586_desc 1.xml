@@ -1,0 +1,125 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 1586</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 1586</idno>
+                  <msName>Marmoutier Prophets</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Die Propheten</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="209">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.0"/>
+                              <width n="24.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="25.7"/>
+                              <width n="6.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="31 32">31/32</layout>
+                        <layout><p>Titel in rot und rot-schwarz; einzelne größere
+                           Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">drei Hände, teilweise Nutzung von Halbunziale und früher
+                        Minuskel; einzelne Spalten einer späteren Hand. Rainardus (f.63r oben), und
+                        „ego Gislardus“ f. 123r. Hierbei scheint es sich nicht um einen der beiden
+                        Gislardus aus dem Sankt Galler Verbrüderungsbuch (Nummern 64 und 195) zu
+                        handeln, sondern um einen älteren Mönch</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Unziale</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions>
+                     <p>Einzelne Korrekturen in Minuskel des frühen 9. Jahrhunderts. Die fol. 89-98
+                        wurden im 10. Jahrhundert ausgebessert und mit einer Minuskel neu
+                        beschrieben.</p>
+                     <p>tironische Noten</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium"
+                        ><name>Marmoutier</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"
+                        ><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Winandy" cert="medium"
+                        ><name>St-Martin</name></origPlace></p>
+                     <p><origDate source="Delisle Chatelain Bischoff" cert="medium" notBefore="0800"
+                           notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0730" notAfter="0770">Mitte
+                           8. Jhd.</origDate></p>
+                     <p><origDate source="Nouveau Traité" cert="low" notBefore="0600"
+                           notAfter="0700">7. Jhd.</origDate></p>
+                     <note>Eine Entstehung zu Beginn des 9. Jahrhunderts erscheint wahrscheinlich.
+                        Damit könnte es sich beim Schreiber Gislardus um einen der beiden im
+                        Verbrüderungsbuch genannten handeln.</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name>, <name
+                        type="Person">Libri</name></provenance>
+                  <provenance>Abgefasst vermutlich in <name type="Kloster">St-Martin</name> ist die
+                     Handschrift schnell nach <name type="Kloster">Marmoutier</name> gelangt, wurde
+                     vielleicht sogar für <name type="Kloster">Marmoutier</name> verfasst. Durch
+                        <name type="Person">Libri</name> gestohlen gelang sie an den Lord <name
+                        type="Person">Ashburnham</name> und schließlich 1888 durch Kauf von <name
+                        type="Person">Delisle</name> an die BnF.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10037416m</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69910r</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Delisle 1888</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

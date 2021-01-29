@@ -44,13 +44,13 @@
                               <width n="11.0"/>
                            </dimensions>
                         </extent>
-                        <condition>sehr schlecht; eine Sichtung ist derzeit aufgrund der Zerstörung an der Bindung nicht möglich</condition>
+                        <condition>sehr schlecht; eine Sichtung ist derzeit aufgrund der Zerstörung
+                           an der Bindung nicht möglich</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="20"/>
-                        <layout><p>rote und schwarze Titel; rote und schwarze
-                           Initialen</p></layout>
+                        <layout><p>rote und schwarze Titel; rote und schwarze Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -64,7 +64,7 @@
                         <p/>
                      </decoNote>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
@@ -75,8 +75,8 @@
                            >Tours</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                            >2. Viertel 9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="high" notBefore="0796" notAfter="0820">Unter
-                           <name type="abbot">Alkuin</name> oder nicht viel später</origDate></p>
+                     <p><origDate source="Rand" cert="high" notBefore="0796" notAfter="0820">unter
+                              <name type="abbot">Alkuin</name> oder nicht viel später</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>

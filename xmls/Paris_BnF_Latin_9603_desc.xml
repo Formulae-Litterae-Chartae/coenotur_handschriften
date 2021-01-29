@@ -66,13 +66,13 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n=""/>
                         <p/>
                      </decoNote>
                   </decoDesc>
                   <additions>
                      <p>Tironische Noten?</p>
-                     <p n="Exlibris"><locus n="2v"/><seg type="lat">Iste liber est de armario beati Martini Tur</seg>.</p>
+                     <p n="Exlibris"><locus n="2v"/><seg type="lat">Iste liber est de armario beati
+                           Martini Tur</seg>.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -83,10 +83,10 @@
                      <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
                      <p><origPlace source="Köhler" cert="low"><name>nicht
                         Tours</name></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low"><name>Auxerre (?) (fol.1 mittleres
+                     <p><origPlace source="Bischoff" cert="low"><name>Auxerre (?) (fol. 1 mittleres
                               Frankreich)</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875"
-                           >3. Viertel 9. Jhd. (2. Viertel für fol.1)</origDate></p>
+                           >3. Viertel 9. Jhd. (2. Viertel für fol. 1)</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><name>St-Martin</name></provenance>

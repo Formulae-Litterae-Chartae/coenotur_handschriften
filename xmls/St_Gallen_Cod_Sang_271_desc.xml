@@ -75,11 +75,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Europeana-Regia e-codices" cert="low"><name type="community">St-Martin</name>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Europeana-Regia e-codices" cert="low"><name ref="https://www.geonames.org/12128404/basilique-saint-martin.html" type="community">St-Martin</name>, <placeName ref="https://sws.geonames.org/2972191/">Tours</placeName></origPlace></p>
                      <p><origPlace source="Bullough" cert="medium"><name type="community">St-Gallen</name></origPlace></p>
                      <p><origDate source="Scherrer" cert="medium" notBefore="0800" notAfter="0830">Anfang 9. Jhd.</origDate></p>
                      <p><origDate source="Bullough" cert="medium" notBefore="0820" notAfter="0830">In the 820s.</origDate></p>
-                     <note>Eine Entstehung in St-Gallen erscheint nach den Ausfürhungen von Bullough am wahrscheinlichsten. Demnach ist die Handschrift als Abschrift in St-Gallen im Zusammenhang mit der Verbrüderung unter Fredegisus entstanden.</note>
+                     <note>Eine Entstehung in St-Gallen erscheint nach den Ausführungen von Bullough am wahrscheinlichsten. Demnach wäre die Handschrift wahrscheinlich als Abschrift in St-Gallen im Zusammenhang mit der Verbrüderung unter Fredegisus entstanden.</note>
                   </origin>
                   <provenance type="Provenance"><name type="community">St-Gallen</name></provenance>
                   <provenance></provenance>

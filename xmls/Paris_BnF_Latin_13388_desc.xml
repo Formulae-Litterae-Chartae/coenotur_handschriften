@@ -66,14 +66,14 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n=""/>
                         <p/>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="107v"/>aus Corbie aus dem 16. Jhd.: <seg type="lat">Pour la librarie
-                        de Corbye en Picardie sur Somme.</seg></p>
-                     <p n="Exlibris"><locus n="2r"/><seg type="lat">Sancti Germani a Pratis</seg></p>
+                     <p n="Exlibris"><locus n="107v"/>aus Corbie aus dem 16. Jhd.: <seg type="lat"
+                           >Pour la librarie de Corbye en Picardie sur Somme.</seg></p>
+                     <p n="Exlibris"><locus n="2r"/><seg type="lat">Sancti Germani a
+                        Pratis</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -88,11 +88,11 @@
                            >2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875">Mitte
                            9. Jhd.</origDate></p>
-                     <p>Tours scheint nicht angezweifelt zu werden, wobei Rand anmerkt, dass die
+                     <note>Tours scheint nicht angezweifelt zu werden, wobei Rand anmerkt, dass die
                         Initiale B (fol. 82v) an den „Franco-Savon style“ erinnert. Eine Entstehung
                         in Tours wird von Laura Albiero (BnF) angezweifelt. So scheint eine
                         Entstehung in Nordfrankreich aufgrund der Präsenz der Heiligen Vaast, Médard
-                        und Géry wahrscheinlicher.</p>
+                        und Géry wahrscheinlicher.</note>
                   </origin>
                   <provenance type="Provenance"><name>Corbie</name></provenance>
                   <provenance>Geht noch im 9. Jhd. nach <name type="Kloster">Corbie</name>. Von

@@ -1,0 +1,99 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 33</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>33</idno>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Bibelzitate</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="135">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="18.1"/>
+                              <width n="12.7"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="="/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p></p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Mercier" cert="low"><name type="Kloster">St-Martin</name></origPlace></p>
+                     <p><origDate cert="low" notBefore="1200" notAfter="1300">13. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="14"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="22 23"/></bibl>
+                     <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="123"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

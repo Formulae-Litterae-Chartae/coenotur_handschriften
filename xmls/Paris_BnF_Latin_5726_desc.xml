@@ -47,10 +47,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">hauptsächlich eine Hand;Der Anang von Lupus, der Haupttext wohl von
-                        <name type="scribe">Fredegaudus</name> geschrieben</p>
+                     <p source="Rand">hauptsächlich eine Hand; der Anfang von Lupus, der Haupttext
+                        wohl von <name type="scribe">Fredegaudus</name> geschrieben</p>
                      <p source="Cinato">auf einzelnen Folia erscheint eine zweite unterstützende
-                        Hand (bspw. F.21r)</p>
+                        Hand (bspw. fol .21r)</p>
                   </handDesc>
                   <scriptDesc>
                      <p source="Rand">karolingische Minuskel mit wenig Abkürzungen; Halbunziale
@@ -60,24 +60,24 @@
                      <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
-                     <p source="Cinato">Korrekturen von der Hand von
-                        Lupus von Ferrières oder durch gute Imitation eines seiner Schüler,
-                        vielleicht Heiric? Diese Korrekturen wurden vielleicht in Auxerre
-                        durchgeführt</p>
+                     <p source="Cinato">Korrekturen von der Hand von Lupus von Ferrières oder durch
+                        gute Imitation eines seiner Schüler, vielleicht Heiric? Diese Korrekturen
+                        wurden vielleicht in Auxerre durchgeführt</p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Pergamenteinband; auf dem Buchrücken der Titel durch die Hand eines
-                        der Dupuy-Brüder: Titi Livii Lib. VI, VII, VIII, IX, X</decoNote>
+                        der Dupuy-Brüder: <seg type="Latin">Titi Livii Lib. VI, VII, VIII, IX,
+                           X</seg></decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace cert="high"><name>Tours</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0850">2.
-                        Viertel 9. Jhd.</origDate></p>
-                     <note>Durch die klare Beteiligung von Lupus und der Nähe zum vatikanischen Livius
-                        erscheint die Entstehung in Saint-Martin in Tours in der ersten Hälfte des
-                        9. Jahrhunderts als äußerst wahrscheinlich.</note>
+                           Viertel 9. Jhd.</origDate></p>
+                     <note>Durch die klare Beteiligung von Lupus und der Nähe zum vatikanischen
+                        Livius erscheint die Entstehung in Saint-Martin in Tours in der ersten
+                        Hälfte des 9. Jahrhunderts als äußerst wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

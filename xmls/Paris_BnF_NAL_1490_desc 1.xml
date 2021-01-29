@@ -1,0 +1,116 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 1490</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 1490</idno>
+                  <altIdentifier source="Rand">
+                     <idno>87 u. 160</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5086 u. 5087</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Kirchengeschichte">
+                     <locus from="1" to="87"/>
+                     <author>Hegesippus</author>
+                     <title/>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem class="Kirchengeschichte">
+                     <locus from="88" to="165"/>
+                     <author>Johannes Scottus Eriugena</author>
+                     <title/>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="87+80">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="29.4"/>
+                              <width n="22.8"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="22.7"/>
+                              <width n="15.2"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="35 36">35, 36</layout>
+                        <layout><p>Teil 1: rote Titel und rote Initialen; Teil 2: rote Titel,
+                              einfache rote und schwarze Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>mindestens zwei Hände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>turonische Minuskel</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium">Teil 1: Tours; Teil 2:
+                           (östliches) Frankreich</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
+                           >ca. 3. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="BnF" cert="low" notBefore="0900" notAfter="1000">10.
+                           Jhd.</origDate></p>
+                     <p>Wenig scheint über die Entstehung und Geschichte der Handschrift
+                        bekannt.</p>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b100372480</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69810k</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="142"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="179"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="238"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

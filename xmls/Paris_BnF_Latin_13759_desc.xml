@@ -9,7 +9,7 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt>
-            <note>Die Rückseite der letzten Folio weist Federproben auf. f.153r-154r: Lethanie de
+            <note>Die Rückseite der letzten Folio weist Federproben auf. fol. 153r-154r: Lethanie de
                defunctos aus anderer Zeit.</note>
          </notesStmt>
          <sourceDesc>
@@ -115,7 +115,7 @@
                         <author>Paulinus von Périgueux</author>
                         <title>Vita sancti Martini</title>
                      </msItem>
-                 </msItem>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -146,16 +146,15 @@
                   <scriptDesc>
                      <p source="Bischoff">turonische Minuskel</p>
                   </scriptDesc>
+                  <musicNotation>Neumen</musicNotation>
                   <decoDesc>
                      <decoNote>
-                        <locus n=""/>
                         <p/>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Marginalia: Neumen</p>
-                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Liber S. Petri Corbeiensis – Sti Germani a
-                        Pratis</seg></p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Liber S. Petri Corbeiensis – Sti
+                           Germani a Pratis</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Pergamenteinband des 17.-18. Jhd.</decoNote>
@@ -163,16 +162,23 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Ganz Bischoff" cert="high"><name>Tours</name>, ziemlich sicher St-Martin</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                     <note>Entstehung in St-Martin ist sehr wahrscheinlich. Es besteht kein Anlass, die Datierung anzuzweifeln.</note>
+                     <p><origPlace source="Rand Ganz Bischoff" cert="high"><name>Tours</name>,
+                           ziemlich sicher St-Martin</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
+                           >1. Viertel 9. Jhd.</origDate></p>
+                     <note>Entstehung in St-Martin ist sehr wahrscheinlich. Es besteht kein Anlass,
+                        die Datierung anzuzweifeln.</note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">Corbie</name></provenance>
-                  <provenance>Die Handschrift gelangte bereits im 9. Jhd. nach <name type="Kloster">Corbie</name> und findet sich im Katalog vom Ende des 12. Jahrhunderts von
-                        <name type="Kloster">Corbie</name> (Philipps, Berlin), nr. 214: <seg type="lat">Martini
-                     episcopi vite et transitus</seg>. Bleibt in <name type="Kloster">Corbie</name> bis
-                     mindestens 1621, findet sich im dortigen Katalog.</provenance>
-                  <provenance>Die Handschrift wurde im Jahr 1638 wegen der Bedrohung durch die Spanier von <name type="Person">Luc d’Achery</name> nach <name type="Kloster">St-Germain-des-Près</name> abtransportiert.</provenance>
+                  <provenance>Die Handschrift gelangte bereits im 9. Jhd. nach <name type="Kloster"
+                        >Corbie</name> und findet sich im Katalog vom Ende des 12. Jahrhunderts von
+                        <name type="Kloster">Corbie</name> (Philipps, Berlin), nr. 214: <seg
+                        type="lat">Martini episcopi vite et transitus</seg>. Bleibt in <name
+                        type="Kloster">Corbie</name> bis mindestens 1621, findet sich im dortigen
+                     Katalog.</provenance>
+                  <provenance>Die Handschrift wurde im Jahr 1638 wegen der Bedrohung durch die
+                     Spanier von <name type="Person">Luc d’Achery</name> nach <name type="Kloster"
+                        >St-Germain-des-Près</name> abtransportiert.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -183,14 +189,15 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc74664n</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc74664n</idno></bibl>
                      <bibl><idno>Coyecque 1893</idno><biblScope unit="pp" n=""/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="95 96"/></bibl>
                      <bibl><idno>Vezin 1970</idno></bibl>
                      <bibl><idno>Dolbeau 1979</idno></bibl>
                      <bibl><idno>Pierre-Marie 1988</idno></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Bourgain/Heinzelmann 1997</idno><biblScope unit="pp"></biblScope></bibl>
+                     <bibl><idno>Bourgain/Heinzelmann 1997</idno><biblScope unit="pp"/></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="120"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="212"/></bibl>
                   </listBibl>

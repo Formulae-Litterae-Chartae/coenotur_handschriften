@@ -1,0 +1,111 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 1575</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 1575</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie">
+                     <author>Eugippius</author>
+                     <title>Excerpta ex operibus Augustini</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="138">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.0"/>
+                              <width n="20.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="23.4"/>
+                              <width n="16.1"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="31">32 (29, 30,31, 33 ,34, 34, 38, 41)</layout>
+                        <layout><p>rote und schwarze Titel, simple Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>ca. 20 Schreiber (8 Unziale, 3 Halbunziale, 23 Merowingische Kursive)</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Unziale, Halbunziale, Minuskel</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions>
+                     <p>ausführliche Korrekturen in grüner Tinte; weitere Korrekturen in
+                        abweichenden Händen</p>
+                     <p>Tironische Noten, Notizen und Lagenkontrollvermerke</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium"><name>Tours</name>, <name
+                              type="Kloster">St-Martin</name></origPlace></p>
+                     <p><origDate source="Mercier" cert="low" notBefore="0725" notAfter="0750"
+                           >725-750</origDate></p>
+                     <p><origDate source="Hellmann" cert="low" notBefore="0700" notAfter="0725"
+                           >Anfang 8. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0600" notAfter="0625">Anfang
+                           7. Jhd.</origDate></p>
+                     <note source="Mercier">Wohl entstanden am Anfang des 8. Jahrhunderts,
+                        vermutlich unter Abt <name type="Abt">Wictbert</name>. Die Datierung von
+                        Rand erscheint unglaubwürdig.</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance>Vermutlich entstanden in <name type="Kloster">St-Martin</name>. Dort
+                     aufbewahrt, bis Teile durch <name type="Person">Libri</name> gestohlen wurden,
+                     gelangte die Handschrift zwischen 1820 und 1830 in die Bibliothek von Jules
+                        <name type="Person">Desnoyers</name> und wurde 1888 durch <name
+                        type="Person">Delisle</name> für die BnF gekauft.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b105154174</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69899d</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Mercier 2010</idno><biblScope unit="pp" n=""/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

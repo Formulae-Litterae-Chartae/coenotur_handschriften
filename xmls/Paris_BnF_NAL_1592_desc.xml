@@ -1,0 +1,145 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 1592</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 1592</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>23</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>1</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Delisle">
+                     <idno>32</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>1</idno>
+                  </altIdentifier>
+                  <altIdentifier source="CLA">
+                     <idno>5/685</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie Exegese">
+                     <author>Hilarius von Poitiers</author>
+                     <title>De Trinitate, Bücher 6-11</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="278">278 (+1 an Anfang und +2 am Ende) <dimensions type="leaf"
+                              unit="cm">
+                              <height n="28.0"/>
+                              <width n="24.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="18.0"/>
+                              <width n="15.7"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="22"/>
+                        <layout><p>erste Zeile eines jeden Buchs rot; Titel am Anfang und am Ende
+                              der Bücher in Kapitalis; viele Seiten haben oben eine laufende
+                              Titelangabe</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">eine Haupthand</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Unziale</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Gasnault">ein verlorenes Ex-libris aus der zweiten Hälfte des 8.
+                        Jhd.</p>
+                     <p source="Palma">in der ersten Hälfte der Handschrift Glossen, wohl des
+                        neapolitanischen Geistlichen Donatus</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><name type="Kloster">Tours</name>, wohl
+                              <name type="Kloster">St-Martin</name></origPlace></p>
+                     <p><origPlace source="CLA Gasnault Mercier" cert="medium"
+                        >Italien</origPlace></p>
+                     <p><origDate cert="medium" notBefore="0500" notAfter="0600">6.
+                        Jhd.</origDate></p>
+                     <note>Gasnault übernimmt die Entstehung in Italien und benennt zahlreiche
+                        Verbindungen zwischen Tours und Rom aus dem 6. und 7. Jahrhundert, die eine
+                        Wanderung der Handschrift glaubhaft werden lassen. Eine Datierung vor die
+                        570er Jahre nach Italien erscheint durch die Glossen des Donatus aus Neapel
+                        wahrscheinlich.</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name>; <name
+                        type="Person">Libri</name></provenance>
+                  <provenance><p>Entstanden entweder in <name type="Kloster">St-Martin</name>, in
+                           <name type="Kloster">Tours</name> oder in Italien, war die Handschrift
+                        früh in <name type="Kloster">Tours</name>.</p>
+                     <p source="Bischoff">Sie befand sich zur Zeit der Übernahme des Klosters durch
+                        Alkuin bereits dort.</p>
+                     <p source="Mercier">Im 7. Jahrhundert sei die Handschrift entweder durch den
+                        Diakon Agiluf oder einen römischen Kleriker nach Tours gebracht worden.</p>
+                     <p source="Gasnault">Die Handschrift ist in der zweiten Hälfte des 8.
+                        Jahrhunderts durch ein Ex-libris, das Martène überliefert, in Tours
+                        attestiert.</p>
+                     <p>Sie bleibt in <name type="Kloster">Tours</name> bis 1826, wird dann von
+                           <name type="Person">Libri</name> gestohlen und 1847 an Lord <name
+                           type="Person">Ashburnham</name> verkauft. Gelangt 1888 durch <name
+                           type="Person">Delisle</name> an die BnF.</p></provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10515456b</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc699166</idno></bibl>
+                     <bibl><idno>Delisle 1883</idno><biblScope unit="pp" from="46" to="49"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="81 82"/></bibl>
+                     <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Gasnault 1971</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Palma 1998</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Palma 2000</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Mercier 2010</idno><biblScope unit="pp" n=""/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

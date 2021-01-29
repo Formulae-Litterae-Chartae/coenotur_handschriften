@@ -53,8 +53,7 @@
                         <layout columns="1"/>
                         <layout writtenLines="37 54">I: 37 (35, 36, 38); II: 54 (53, 55,
                            57)</layout>
-                        <layout><p>rote und schwarze Titel; rote und schwarze
-                           Initialen</p></layout>
+                        <layout><p>rote und schwarze Titel; rote und schwarze Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -66,14 +65,13 @@
                      <p>karolingische Minuskel</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p>Korrekturen, z. T. durch dieselben
-                        Schreiber</p>
-                     <p>Glossen, darunter einige in Tironischen Noten. Glossen, wobei
-                        Teile durch eine Beschneidung in Zuge der Neubindung im 17. Jhd. verloren
-                        gegangen sind</p>
+                     <p>Korrekturen, z. T. durch dieselben Schreiber</p>
+                     <p>Glossen, darunter einige in Tironischen Noten. Glossen, wobei Teile durch
+                        eine Beschneidung in Zuge der Neubindung im 17. Jhd. verloren gegangen
+                        sind</p>
                   </additions>
                   <bindingDesc>
                      <decoNote type="Colbert">Colberteinband</decoNote>
@@ -92,7 +90,8 @@
                      <note>Eine Entstehung in St-Martin unter Fridigisus erscheint sehr
                         wahrscheinlich, zeitgenössisch mit Paris, BnF, Latin 250. Die Zuordnung der
                         Handschrift durch Bischoff zu denjenigen, die fälschlicherweise als aus
-                        Tours stammend angesehen werden, wird heute nicht mehr aufrechterhalten.</note>
+                        Tours stammend angesehen werden, wird heute nicht mehr
+                        aufrechterhalten.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance>Wenig ist über die Geschichte bekannt. Nach der Produktion in <name

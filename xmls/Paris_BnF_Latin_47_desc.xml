@@ -8,6 +8,13 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt>
+            <note>Die sehr wenigen Korrekturen treten fast immer auf einem und demselben Folio vorne
+               und hinten auf.</note>
+            <note>Die Evangelien sind, wie für eine Gruppe turonischer Bibeln üblich, in derselben
+               kleinen Schrift wie die Capitula verfasst. Das deutet darauf hin, dass die Bibel
+               tatsächlich zum Vorlesen gedacht war.</note>
+         </notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -60,9 +67,9 @@
                               <width n="11.2"/>
                            </dimensions>
                         </extent>
-                        <condition>zum Teil stark beschädigt; Anfang und Ende fehlen. Zwischen f96
-                           und f97 fehlen Folien beim Anfang von Makkabäern 2 zu Matthäus, genau wie
-                           in den Briefen des Paulus.</condition>
+                        <condition>zum Teil stark beschädigt; Anfang und Ende fehlen. Zwischen fol.
+                           96 und fol. 97 fehlen Folien beim Anfang von Makkabäern 2 zu Matthäus,
+                           genau wie in den Briefen des Paulus.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -80,10 +87,10 @@
                      <decoNote>Miniaturen vorhanden</decoNote>
                   </decoDesc>
                   <additions>
-                     <p>vereinzelte Korrekturen (so f33r und f33v)</p>
+                     <p><locus n="33r 33v"/>vereinzelte Korrekturen</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Alter Einband aus Pergament</decoNote>
+                     <decoNote>alter Einband aus Pergament</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>

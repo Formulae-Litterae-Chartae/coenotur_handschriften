@@ -64,25 +64,23 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n="1v 5v 25v 64r 80r 102v 107v"/>
-                        <p>bunte Initialen in Grün, Blau, Rot und Gold</p>
-                        <locus n="40r"/>
-                        <p>Initiale, weniger prachtvoll</p>
+                        <p><locus n="1v 5v 25v 64r 80r 102v 107v"/> bunte Initialen in Grün, Blau,
+                           Rot und Gold</p>
+                        <p><locus n="40r"/> Initiale, weniger prachtvoll</p>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p><locus n="34r"/>Lagenkontrollvermerke. (Nachträgliche?) Interpunktion zur besseren
-                        Lesbarkeit. Einige wenige Glossierungen. Transkription des Titels in Schrift
-                        des 12. Jhd.? (f. 34r).</p>
-                     <p><locus n="102v"/>Auf f. 102v, beim Sermo de transitu Gregors von Tours, werden die römischen
-                        Zahlen interlinear in Worte übertragen. In dem Sermo erfolgt auch eine
-                        (nachträgliche) Einteilung in Lektionen, die anders als sonst in der
+                     <p>Lagenkontrollvermerke. (Nachträgliche?) Interpunktion zur besseren
+                        Lesbarkeit. Einige wenige Glossierungen.</p>
+                     <p><locus n="34r"/>Transkription des Titels in Schrift des 12. Jhd.?.</p>
+                     <p><locus n="102v"/>Beim Sermo de transitu Gregors von Tours werden die
+                        römischen Zahlen interlinear in Worte übertragen. In dem Sermo erfolgt auch
+                        eine (nachträgliche) Einteilung in Lektionen, die anders als sonst in der
                         Handschrift nicht in Rotschrift direkt mitgeschrieben worden ist.</p>
-                        <p><locus n="106r"/>Auf f. 106r folgt auch eine Annotation zum Sermo de corpus eius translatem durch
-                        Gregor den Großen: In translatione sancti martini.</p>
-                     <p><locus n="117v"/>Auf f. 117v folgte eine fehlerhafte/lückenhafte Liste der Bischöfe von
-                        Tours, im Anschluss an die Datierung zum Ende von Gregors Historien.</p>
-                     <p n="Exlibris"/>
+                     <p><locus n="106r"/>eine Annotation zum Sermo de corpus eius translatem durch
+                        Gregor den Großen: <seg type="lat">In translatione sancti martini</seg>.</p>
+                     <p><locus n="117v"/>eine fehlerhafte/lückenhafte Liste der Bischöfe von Tours,
+                        im Anschluss an die Datierung zum Ende von Gregors Historien.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Ledereinband</decoNote>
@@ -96,10 +94,11 @@
                            St-Martin</name></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0816" notAfter="0835"
                            >816-835</origDate></p>
-                     <p>Datierung durch die Liste der Erzbischöfe auf f. 117r, in der der letzte
-                        Eintrag Landramnus (816-835) ist, ziemlich gut eingrenzbar. Vieles spricht
-                        für eine Entstehung in St-Martin. Die Nähe zur Moutier-Grandval-Bibel, bzw.
-                        zur Bamberg-Bibel, lässt eigentlich keine Zweifel.</p>
+                     <note>Datierung durch die Liste der Erzbischöfe auf fol. 117r, in der der
+                        letzte Eintrag Landramnus (816-835) ist, ziemlich gut eingrenzbar. Vieles
+                        spricht für eine Entstehung in St-Martin. Die Nähe zur
+                        Moutier-Grandval-Bibel bzw. zur Bamberg-Bibel lässt eigentlich keine
+                        Zweifel.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

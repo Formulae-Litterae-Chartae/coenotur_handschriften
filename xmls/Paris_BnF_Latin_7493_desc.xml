@@ -25,7 +25,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>4445/4446</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="">
@@ -37,7 +37,7 @@
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="104"> 
+                        <extent n="104">
                            <dimensions type="leaf" unit="cm">
                               <height n=""/>
                               <width n=""/>
@@ -47,43 +47,41 @@
                               <width n=""/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1 3">1 u. 3</layout>
                         <layout writtenLines="33 51">33 u. 29-51</layout>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p></p>
+                     <p/>
                   </handDesc>
                   <scriptDesc>
-                     <p></p>
+                     <p/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n=""/>
-                        <p></p>
+                        <p/>
                      </decoNote>
                   </decoDesc>
-                  <additions>
-                     <p></p>
-                     <p n="Exlibris"></p>
-                  </additions>
+                  <additions/>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low">Fol. 1-104 Tours; Fol. 105-167 Westfrankreich, vielleicht Gegend von Tours</origPlace></p>
-                     <p><origPlace source="Rand" cert="low">Nicht Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">ca. 2. Viertel 9. Jhd.</origDate></p>
-                     <p></p>
+                     <p><origPlace source="Bischoff" cert="low">fol. 1-104 Tours; fol. 105-167
+                           Westfrankreich, vielleicht Gegend von Tours</origPlace></p>
+                     <p><origPlace source="Rand" cert="low">nicht Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
+                           >ca. 2. Viertel 9. Jhd.</origDate></p>
+                     <p/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -94,7 +92,8 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc20900w</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc20900w</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="123 124"/></bibl>
                   </listBibl>
                </additional>

@@ -67,15 +67,9 @@
                      <p>turonische Minuskel</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p/>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
-                  <additions>
-                     <p>Marginalia: </p>
-                     <p n="Exlibris"><locus n=""/></p>
-                  </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
@@ -88,8 +82,8 @@
                            >ca. 3. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="low" notBefore="0900" notAfter="1000">10.
                            Jhd.</origDate></p>
-                     <p>Wenig scheint über die Entstehung und Geschichte der Handschrift
-                        bekannt.</p>
+                     <note>Wenig scheint über die Entstehung und Geschichte der Handschrift
+                        bekannt.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>
@@ -105,7 +99,8 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69810k</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="142 179"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="142"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="179"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="238"/></bibl>
                   </listBibl>
                </additional>

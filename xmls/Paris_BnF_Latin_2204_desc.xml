@@ -106,13 +106,11 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n="24r 215r"/>
-                        <p>Federzeichnungen</p>
+                        <locus n="24r 215r">Federzeichnungen</locus>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Korrekturen des 9.-12. Jhd., darunter einige
-                        in Tironischen Noten</p>
+                     <p>Korrekturen des 9.-12. Jhd., darunter einige in Tironischen Noten</p>
                      <p n="Exlibris"><locus n="7"/>Exlibris von Antoine Faure</p>
                   </additions>
                   <bindingDesc>
@@ -123,9 +121,9 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Westfrankreich</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                        >9. Jhd., ca. 1./2. Viertel</origDate></p>
-                     <p>Wenig scheint gesichert. Die Handschrift sieht nicht besonders turonisch
-                        aus.</p>
+                           >9. Jhd., ca. 1./2. Viertel</origDate></p>
+                     <note>Wenig scheint gesichert. Die Handschrift sieht nicht besonders turonisch
+                        aus.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance>Die Handschrift war im Besitz von Antoine <name type="person"
