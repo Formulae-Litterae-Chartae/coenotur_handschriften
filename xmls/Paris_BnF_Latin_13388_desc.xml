@@ -88,8 +88,8 @@
                            >2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875">Mitte
                            9. Jhd.</origDate></p>
-                     <note>Tours scheint nicht angezweifelt zu werden, wobei Rand anmerkt, dass die
-                        Initiale B (fol. 82v) an den „Franco-Savon style“ erinnert. Eine Entstehung
+                     <note>Tours ist nicht gesichert. RAND merkt an, dass die
+                        Initiale B (fol. 82v) an den „Franco-Saxon style“ erinnert. Eine Entstehung
                         in Tours wird von Laura Albiero (BnF) angezweifelt. So scheint eine
                         Entstehung in Nordfrankreich aufgrund der Präsenz der Heiligen Vaast, Médard
                         und Géry wahrscheinlicher.</note>
@@ -112,6 +112,7 @@
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc744131</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="169"/></bibl>
+                     <bibl><idno>Wilmart 1940</idno><biblScope unit="pp"/></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="65"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="208"/></bibl>
                   </listBibl>

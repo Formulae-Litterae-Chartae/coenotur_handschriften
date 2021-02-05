@@ -1,0 +1,127 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 279</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>279</idno>
+                  <altIdentifier source="Marmoutier">
+                     <idno>77</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>170</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6128 u. 6129</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Kirchenväter">
+                     <author>Augustinus, Hieronymus</author>
+                     <title/>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="I: 58; II: 133">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="28.0"/>
+                              <width n="21.8"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="22.4 21.3"/>
+                              <width n="21.3 14.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="32 34">I: 32; II: 34</layout>
+                        <layout><p>rote Titel</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Teil I: 2 Hände; Teil II: mehrere Hände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Martinellus.de">Lagenkontrollvermerke</p>
+                     <p source="Dorange">Benutzungsspuren durch die Benediktiner für ihre Edition
+                        der Schriften von Augustinus und Hieronymus</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Köhler" cert="low">Marmoutier?</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">); Teil I: westliches, mehr
+                           nördliches Frankreich (nicht Tours); Teil II: westliches, etwas südliches
+                           (?) Frankreich (nicht Tours) </origPlace></p>
+                     <p><origPlace source="Martinellus.de" cert="low">Schriftheimat
+                           Tours</origPlace></p>
+                     <p><origDate source="Dorange" cert="low" notBefore="0875" notAfter="0925">Ende
+                           9./Anfang 10. Jhd.</origDate></p>
+                     <p><origDate source="Köhler" cert="low" notBefore="0800" notAfter="0850">1.
+                           Hälfte 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="low" notBefore="0850" notAfter="0875"
+                           >circa 3. Viertel 9. Jhd.</origDate></p>
+                     <note source="Köhler">Es handelt sich um zwei unterschiedliche, später
+                        zusammengefügte Handschriften. Könnte in Marmoutier vor der Zerstörung 853
+                        entstanden sein.</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance source="Dorange">ist von den Benediktinern für die Edition der
+                     Schriften von Augustinus und Hieronymus sehr bedeutend zu Rate gezogen
+                     worden</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" from="155" to="159"
+                        /></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="201" to="206"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="184 185"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="329"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
+                     <bibl><idno>Martinellus.de</idno></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

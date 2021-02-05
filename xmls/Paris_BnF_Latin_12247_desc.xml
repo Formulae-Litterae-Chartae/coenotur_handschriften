@@ -1,0 +1,116 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 12247</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 12247</idno>
+                  <altIdentifier source="N.">
+                     <idno>275</idno>
+                  </altIdentifier>
+                  <altIdentifier source="olim">
+                     <idno>156</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4792</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie Exegese Kirchenväter">
+                     <author>Gregorius I.</author>
+                     <title>Moralia in Iob</title>
+                     <note>libri XVII-XXII</note>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="163">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="36.0"/>
+                              <width n="26.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                        <layout/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p></p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p></p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p></p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p></p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">ex libris Corbeiensis abbatiae</seg></p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Sti Germani a Pratis</seg></p>
+                     <p n="Exlibris"><locus n="163r"/><seg type="lat">liber sancti petri corbeie</seg></p>
+                     <p n="Exlibris"><locus n="163v"/><seg type="lat">Ut corbeia bono caruit Fulcone Patrono Cepit destitui Nobilitate Sui Sicut fulco mori mitis natura negaret fultatur tuis auxiliis humeris nunquam corbeie labaret</seg></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Alter weißer Pergamenteinband über Holz</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Ganz Bischoff" cert="high"><name>Tours</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0850">1./(2.) Viertel 9. Jhd.</origDate></p>
+                     <note></note>
+                  </origin>
+                  <provenance type="Provenance"><name type="community"/>Saint-Germain des Pres</provenance>
+                  <provenance source="Ganz">Gelangte noch im 9. Jhd nach Corbie</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73564b</idno></bibl>
+                     <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="65"/></bibl>
+                     <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="157"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="193"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

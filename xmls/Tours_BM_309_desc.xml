@@ -1,0 +1,117 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 309</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>309</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>142</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>136</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6136</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie Kirchenväter Exegese">
+                     <author>Gregor der Große</author>
+                     <title>Homeliae in Evangelia</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="136">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.2"/>
+                              <width n="24.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="23.1"/>
+                              <width n="6.6"/>
+                           </dimensions>
+                        </extent>
+                        <condition source="Dorange">die oberen Ränder der ersten 16 Folien sind
+                           durch Feuchtigkeit beschädigt, was aber die Lesbarkeit des Textes nicht
+                           beeinflusst </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="23 24">23 (24)</layout>
+                        <layout><p>rote und schwarze Titel</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Winandy">verschiedene Hände, die zum Teil stark voneinander
+                        abweichen</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">Paris, wohl
+                           St-Germain-des-Près</origPlace></p>
+                     <p><origPlace source="Köhler" cert="low">Tours sehr zweifelhaft</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
+                           >3. Viertel 9. Jhd.</origDate></p>
+                     <note>das gesamte Schriftbild weicht doch sehr stark von den anderen
+                        turonischen Handschriften ab</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="173 174"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="230 231"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="164"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="326"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -9,11 +9,24 @@ dirname = os.path.dirname(__file__)
 
 namespaces = {'tei': 'http://www.tei-c.org/ns/1.0'}
 xmls = glob(os.path.join(dirname, '../xmls/*.xml'))
-name_dict = dict()
+
+
+def sort_manuscript_list(l: tuple) -> tuple:
+    """ Sorts the dictionary of manuscript names in a more sensible manner
+
+    :param d: dictionary of MS names
+    :return: sorted dictionary of MS names
+    """
+    man_num = re.search(r'(.*)_(\d+)(.*)_desc', l[0])
+    return (man_num.group(1), int(man_num.group(2)), man_num.group(3))
+
+
+manuscript_list = list()
 for x in xmls:
     xml = etree.parse(x)
     for t in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/text()', namespaces=namespaces):
-        name_dict[os.path.basename(x)] = t
+        manuscript_list.append((os.path.basename(x), t))
+manuscript_list = sorted(manuscript_list, key=sort_manuscript_list)
 
 language_mapping = {'la': 'Latein'}
 
@@ -48,7 +61,7 @@ def index():
 
 @app.route('/handschriften')
 def handschriften():
-    return render_template('handschriften.html', title='Handschriftenliste', handschriften_dict=name_dict)
+    return render_template('handschriften.html', title='Handschriftenliste', handschriften_dict=manuscript_list)
 
 
 @app.route('/handschrift/<manuscript>')
@@ -314,4 +327,4 @@ def handschrift(manuscript: str):
                                                                  ' (' + deco.get('source').upper() + ').'
                                                                  if deco.get('source') else '.',
                                                                  end_symbol))
-    return render_template('handschrift.html', title=name_dict[manuscript], m_d=metadata)
+    return render_template('handschrift.html', title=manuscript_list[manuscript], m_d=metadata)

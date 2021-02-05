@@ -1,0 +1,115 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 11671</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 11671</idno>
+                  <altIdentifier source="N.">
+                     <idno>269</idno>
+                  </altIdentifier>
+                  <altIdentifier source="olim">
+                     <idno>154</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4700</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie Exegese Kirchenväter">
+                     <author>Gregorius I.</author>
+                     <title>Moralia in Iob</title>
+                     <note>libri I-V</note>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="156">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="38.0"/>
+                              <width n="25.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="30"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p></p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p></p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p></p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p></p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Ex-libris Corbeiens abbatiae</seg></p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Sti Germani a Pratis</seg></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Einband aus dem 19. Jhd. mit dem Wappen von Louis-Philippe</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Ganz" cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0825">9. Jhd. 1. Viertel</origDate></p>
+                     <note></note>
+                  </origin>
+                  <provenance type="Provenance"><name type="community"/>St-Germain des Près</provenance>
+                  <provenance source="Ganz">Die Handschrift gelangt, gemeinsam mit Latin 11672 nach im 9. Jhd. nach Corbie</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73155p</idno></bibl>
+                     <bibl><idno>Vezin 1970</idno><biblScope unit="pp" n="95 96"/></bibl>
+                     <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="65"/></bibl>
+                     <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="157"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="174"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

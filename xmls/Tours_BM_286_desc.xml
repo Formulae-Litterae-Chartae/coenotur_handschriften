@@ -1,0 +1,111 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 286</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>286</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>29</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Dorange">
+                     <idno>286</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Collon">
+                     <idno>286</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Kirchenväter">
+                     <author>Augustinus</author>
+                     <title>De Musica</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="116">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="27.3"/>
+                              <width n="20.2"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="21.0"/>
+                              <width n="23.8"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="23"/>
+                        <layout><p/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">2 Haupthände, ähnlich wie Fredegaudus und Aldo aus dem
+                        Vatikanischen Livius</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>verbesserte Kursive</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Dorange">zahlreiche Glossierungen und tironische Noten einer
+                        zeitgenössischen Hand; Zahlreiche Notizen des 11. Jhd.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="high">Tours, St-Martin</origPlace></p>
+                     <p><origDate source="" cert="" notBefore="" notAfter=""/></p>
+                     <note>die Nähe zum vatikanischen Livius lässt eine Entstehung in St-Martin zu
+                        Beginn des 9. Jahrhunderts sehr wahrscheinlich erscheinen</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance>In St-Martin geschrieben und vermutlich durchgehend dort
+                     geblieben.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="161"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="212"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="passim"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

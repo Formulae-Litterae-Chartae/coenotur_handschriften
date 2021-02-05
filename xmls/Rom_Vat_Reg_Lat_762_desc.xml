@@ -97,8 +97,10 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.762</idno></bibl>
+                            <bibl><idno>Shipley 1904</idno><biblScope unit="pp"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="96" to="97"/></bibl>
                             <bibl><idno>Colophons de manuscrits Bd. 5 1979</idno><biblScope unit="pp" n="489"></biblScope></bibl>
+                            <bibl><idno>Bischoff 1990</idno><biblScope unit="pp" n="58 60"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="435"/></bibl>
                         </listBibl>
                     </additional>

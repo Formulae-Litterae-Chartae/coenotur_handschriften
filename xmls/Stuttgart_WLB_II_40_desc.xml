@@ -99,8 +99,8 @@
                   </decoDesc>
                   <additions>
                      <p></p>
-                     <p n="Exlibris" source="Burkhardt"><locus n="197v"/>liber sanctimartini in wingartin. plenarium euwangelistarum (Um 1200)</p>
-                     <p n="Exlibris" source="Burkhardt"><locus n="2r"/><seg type="lat">Monasterii Weingartensis 1628 (1628)</seg></p>
+                     <p n="Exlibris" source="Burkhardt"><locus n="197v"/><seg type="lat">liber sanctimartini in wingartin. plenarium euwangelistarum</seg> (Um 1200)</p>
+                     <p n="Exlibris" source="Burkhardt"><locus n="2r"/><seg type="lat">Monasterii Weingartensis 1628</seg> (1628)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote source="Köhler">Holzdeckel mit Leder</decoNote>

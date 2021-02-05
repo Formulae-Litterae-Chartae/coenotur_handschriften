@@ -1,0 +1,120 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 281</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>281</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>153</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>75</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>145</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6130</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Kirchenväter Briefe">
+                     <author>Augustinus, Hieronymus</author>
+                     <title>Briefe</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="230">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="25.0 24.5"/>
+                              <width n="20.5 19.6"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="16.5"/>
+                              <width n="12.6"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="23"/>
+                        <layout><p>rote Titel und Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Adalbaldus</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">exzellente Hand, jedoch eines der weniger eleganten Bücher von
+                        Adalbaldus, da seine „unterschiedlichen Stimmungen“ (various moods) zu
+                        erkennen sind. „He is a free spirit.“</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Rand">Korrekturen in eine Glossenhand mit kursiven Zügen</p>
+                     <p source="Martinellus.de">Notizen in Tironischen Noten</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="high">St-Martin</origPlace></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0834">2.
+                           Viertel 9. Jhd. („vor 834“) </origDate></p>
+                     <note>dadurch, dass die Handschrift von Adalbaldus ist, sind Ort und Zeit der
+                        Entstehung gesichert</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance>Entstanden in St-Martin ist die Handschrift dort verblieben. Die
+                     letzten 14 Blätter sind von <name type="Person">Libri</name> gestohlen und an
+                     Lord <name type="Person">Ashburnham</name>, verkauft worden und schließlich an
+                     die BnF gelangt.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="158"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="207 208"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="145"/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

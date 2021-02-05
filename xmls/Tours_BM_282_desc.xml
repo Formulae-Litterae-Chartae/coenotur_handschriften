@@ -1,0 +1,112 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 282</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>282</idno>
+                  <altIdentifier source="St-Gatien">
+                     <idno>137</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>171</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6131</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Briefe Kirchenväter">
+                     <author>Augustinus</author>
+                     <title>Briefe</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="97">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="36.5"/>
+                              <width n="26.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="25.6"/>
+                              <width n="17.3"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="39 40">39 (40)</layout>
+                        <layout><p>rote Titel</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Collon">Glossen aus dem 13. oder 14. Jhd.</p>
+                     <p><locus n="1"/>ein Brief von 1051 der Kleriker von Nantes an den Papst, in
+                        dem sich über die Verwaltung des Bischofs Airard von Nantes beschwert
+                        wird</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>alter Holzeinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="low">Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
+                           >3. Viertel 9. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="158 159"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="208 209"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="185"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

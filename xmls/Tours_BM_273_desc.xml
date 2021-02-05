@@ -1,0 +1,120 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 273</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>273</idno>
+                  <altIdentifier source="St-Gatien">
+                     <idno>123</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>109</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6126</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Dorange">
+                     <idno>273</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Collon">
+                     <idno>273</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Exegese">
+                     <author>Hieronymus</author>
+                     <title>Expositio in Isaiam (1-10)</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="272">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="33.5"/>
+                              <width n="26.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="24.3"/>
+                              <width n="8.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition>perfekte Konservierung</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="26 27">27 (26)</layout>
+                        <layout><p>rote Titel und Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">mindestens 4 Hände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>kursive karolingische Minuskel, keine Halbunziale</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions> </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low">Tours?</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">offenbar Auxerre (nicht
+                           Tours)</origPlace></p>
+                     <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0850">2.
+                           Viertel 9. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>Décor:
+                           https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/8402/manifest
+                           Initiale: http://initiale.irht.cnrs.fr/codex/4339 </idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="153"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="109"/></bibl>
+                     <bibl><idno>Weber 1955</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Gryson/Deproost 1989</idno><biblScope unit="pp" n="204 205"
+                        /></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -66,14 +66,14 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <p><locus n="1v"/>Das Incipit des Hieronymusbriefes ist mit Goldschrift auf Purpur abgefasst, umfasst von einem </p>
                         <p>Die Handschrift weißt zahlreiche prachtolle Initialen im typischen Stil on Tours, bzw. St-Martin auf.</p>
                         <p>Die Kanontafeln f. 349v-351r sowie f. 408v-409r sind prächtig illuminiert. Besonders die "tektonische" (KÖHLER) Ausformung stellt eine neuartige Entwicklung dar.</p>
-                        <p><locus n="5v"/>Darstellung der Schöpfungsgeschichte: Die ERschaffung von Adam und Eva, der Sündefall, die Vertreibung aus dem Paradies und Eva beim Stillen und Adam beim Arbeiten.</p>
+                        <p source="Köhler">Die Seitenrahmung der Bibel nähert sich der Rahmung des Arnaldusevangeliars, von Paris, BnF, Lat. 274 und Wolfenbüttel 2186 an.</p>
+                        <p><locus n="1v"/>Das Incipit des Hieronymusbriefes ist mit Goldschrift auf Purpur abgefasst</p>
+                        <p><locus n="5v"/>Darstellung der Schöpfungsgeschichte: Die Erschaffung von Adam und Eva, der Sündefall, die Vertreibung aus dem Paradies und Eva beim Stillen und Adam beim Arbeiten</p>
                         <p><locus n="25v"/>Darstellung von Moses, der die Gesetze empfängt und von Moses der Aaron und die Israeliten unterrichtet</p>
                         <p><locus n="352v"/>Darstellung von Christus umgeben von den vier Evangelisten und deren Symbolen</p>
-                        <p><locus n="449r"/>Darstellung vom Buch der Sieben Siegel mit unschuldigem Schaaf und dem Löwen von Judea und Darstellung einer thronenden Figur umgeben on den vier Evangelisten. </p>
-                        <p source="Köhler">Die Seitenrahmung der Bibel nähert sich der Rahmung des Arnaldusevangeliars, von Paris, BnF, Lat. 274 und Wolfenbüttel 2186 an.</p>
+                        <p><locus n="449r"/>Darstellung vom Buch der Sieben Siegel mit unschuldigem Schaaf und dem Löwen von Judea und Darstellung einer thronenden Figur umgeben on den vier Evangelisten</p>
                      </decoNote>
                   </decoDesc>
                   <additions>
@@ -87,7 +87,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high">Tours<name type="Gemeinschaft">St-Martin</name></origPlace></p>
+                     <p><origPlace cert="high">Tours<name type="Gemeinschaft">, St-Martin</name></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0820" notAfter="0830">820-830</origDate></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0840">ca. 835</origDate></p>
                      <p><origDate source="bl.uk" cert="high" notBefore="0830" notAfter="0840">ca. 830 - c. 840</origDate></p>

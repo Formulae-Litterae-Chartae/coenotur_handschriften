@@ -1,0 +1,111 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 272</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier source="St-Martin">
+                     <idno>44</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>169</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6125</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Exegese Theologie Kirchenväter">
+                     <author>Hieronymus</author>
+                     <title>Expositio in Isaiam (Fragmente)</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="146">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="26.4"/>
+                              <width n="25.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="19.5"/>
+                              <width n="14.9"/>
+                           </dimensions>
+                        </extent>
+                        <condition source="Dorange">unvollständig am Anfang und am Ende</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="27"/>
+                        <layout><p>rote Titel und einfache Initialen, zum Teil rot</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">mindestens 8 Schreiber; bei manchen finden sich noch die
+                        Namen, die zur Produktion am Anfang der Hefte angebracht wurden: <locus
+                           n="29r">Isimbertus</locus>, <locus n="53r">Amadeus</locus>, <locus
+                           n="83r">Odericus</locus></p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">erneuerte Kursive</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions> </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">Umkreis von Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="low" notBefore="0875" notAfter="0900">4.
+                           Viertel 9. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="272"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="199"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="184"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="272"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
