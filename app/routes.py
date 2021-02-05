@@ -4,6 +4,7 @@ from glob import glob
 import os
 from flask import render_template
 import re
+from collections import OrderedDict
 
 dirname = os.path.dirname(__file__)
 
@@ -18,14 +19,16 @@ def sort_manuscript_list(l: tuple) -> tuple:
     :return: sorted dictionary of MS names
     """
     man_num = re.search(r'(.*)_(\d+)(.*)_desc', l[0])
-    return (man_num.group(1), int(man_num.group(2)), man_num.group(3))
+    return (man_num.group(1).lower(), int(man_num.group(2)), man_num.group(3))
 
 
 manuscript_list = list()
+manuscript_dict = dict()
 for x in xmls:
     xml = etree.parse(x)
     for t in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/text()', namespaces=namespaces):
         manuscript_list.append((os.path.basename(x), t))
+        manuscript_dict[os.path.basename(x)] = t
 manuscript_list = sorted(manuscript_list, key=sort_manuscript_list)
 
 language_mapping = {'la': 'Latein'}
@@ -327,4 +330,4 @@ def handschrift(manuscript: str):
                                                                  ' (' + deco.get('source').upper() + ').'
                                                                  if deco.get('source') else '.',
                                                                  end_symbol))
-    return render_template('handschrift.html', title=manuscript_list[manuscript], m_d=metadata)
+    return render_template('handschrift.html', title=manuscript_dict[manuscript], m_d=metadata)
