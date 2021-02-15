@@ -90,11 +90,11 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n="1v"/><p>Majestas</p>
-                        <locus n="16v"/><p>Matthäus</p>
-                        <locus n="63v"/><p>Markus</p>
-                        <locus n="95v"/><p>Lukas</p>
-                        <locus n="146v"/><p>Johannes</p>
+                        <p><locus n="1v"/>Majestas</p>
+                        <p><locus n="16v"/>Matthäus</p>
+                        <p><locus n="63v"/>Markus</p>
+                        <p><locus n="95v"/>Lukas</p>
+                        <p><locus n="146v"/>Johannes</p>
                      </decoNote>
                   </decoDesc>
                   <additions>

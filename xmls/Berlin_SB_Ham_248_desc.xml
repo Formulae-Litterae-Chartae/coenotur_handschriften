@@ -1,0 +1,152 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Berlin, SB, Hamilton 248</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <repository>SB</repository>
+                  <collection/>
+                  <idno>Hamilton 248</idno>
+                  <altIdentifier source="Rand">
+                     <idno>124</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>354</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie Bibel Evangelien">
+                     <author/>
+                     <title>Evangelia</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem n="1.1">
+                     <locus from="1v" to="8r"></locus>
+                     <author>Hieronymus</author>
+                     <title>Epistulae</title>
+                  </msItem>
+                  <msItem n="1.2">
+                     <locus from="9r" to="12v"></locus>
+                     <author/>
+                     <title>Kanontafeln</title>
+                  </msItem>
+                  <msItem n="1.3">
+                     <locus from="13r" to="71v"></locus>
+                     <author/>
+                     <title>Evangelium secundum Mattheum</title>
+                  </msItem>
+                  <msItem n="1.4">
+                     <locus from="72r" to="108v"></locus>
+                     <author/>
+                     <title>Evangelium secundum Marcum</title>
+                  </msItem>
+                  <msItem n="1.5">
+                     <locus from="109r" to="170r"></locus>
+                     <author/>
+                     <title>Evangelium secundum Lucam</title>
+                  </msItem>
+                  <msItem n="1.6">
+                     <locus from="170v" to="219r"></locus>
+                     <author/>
+                     <title>Evangelium secundum Iohannem</title>
+                  </msItem>
+                  <msItem n="1.7">
+                     <locus from="219v" to="235v"></locus>
+                     <author/>
+                     <title>Capitulare Evangeliorum</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="236">235 nummerierte und 184bis
+                           <dimensions type="leaf" unit="cm">
+                              <height n="26.0"/>
+                              <width n="20.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="17.7"/>
+                              <width n="11.7"/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="22"/>
+                        <layout>
+                           <p>Überschriften in Goldunziale</p>
+                           <p>Seitentitel und Explizit in brauner Capitalis rustica</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Fingernagel">Bis auf f. 13 von einer Hand</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Fingernagel">Karolingische Minuskel im Stil von Tours</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p></p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p></p>
+                     <p n="Exlibris"><locus n=""/></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Fingernagel">Blauer Samteinband aus Engalng(?) aus dem 18./19. Jhd.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium"><name>Tours</name>, und eine anderes französisches Zentrum für die künstlerische Ausstattung</origPlace></p>
+                     <p><origPlace source="Fingernagel" cert="medium"><name>Tours</name>, für die Schrift, Ausstattung wohl in Lothringen (Metz?).</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Rand Fingernagel" cert="medium" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
+                     <note></note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Klloster">St-Vinzent, Metz</name></provenance>
+                  <provenance source="Fingernagel">Drei Handschriften aus Metz (Metz, BM, 77 (zerstört); Paris, BnF, Latin 9393; Paris, BnF, Latin 9393) , die im 10. Jahrhundert nach dem Vorbild von Ham. 248 entstanden sind, belegen, dass die Handschrift sich spätestens seit dem 10. Jahrhundert in Metz befand..</provenance>
+                  <provenance>Anfang des 19. Jhds. war die Handschrift im Besitz des Londoner Buchhändlers James Edwards.</provenance>
+                  <provenance>Von Edwards ging sie wohl in den Besitz von Alexander Hamilton Douglas über.</provenance>
+                  <provenance>Wie der REst der Sammlung Hamiltons gelangte die Handschrift schließlich 1882/83 an die Königliche Bibliothek Berlin.</provenance>
+                  <acquisition><name type="Repository">SB Berlin</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/dokumente/html/obj90698738,T</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="160"/></bibl>
+                     <bibl><idno>Fingernagel 1989</idno><biblScope unit="pp" from="63" to="66"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="74"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

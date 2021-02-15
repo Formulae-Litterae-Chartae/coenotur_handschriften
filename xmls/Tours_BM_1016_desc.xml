@@ -1,0 +1,110 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 1016</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>1016</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>75</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>193</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6147</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="">
+                     <author/>
+                     <title>Werke zum Leben von Dionysius Areopagita</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="87">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="23.0"/>
+                              <width n="19.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="15.0"/>
+                              <width n="11.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>zerstört</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="15"/>
+                        <layout>Titel mit Worten in wechselnden Farben (rot, schwarz, gelb,
+                           blau)</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions> </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="low">Tours</origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
+                           notAfter="1000">10. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0875" notAfter="1100">11.
+                           Jhd., oder vielleicht auch Ende 9. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance>die Handschrift wurde im Zweiten Weltkrieg zerstört</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>http://medium-avance.irht.cnrs.fr/Manuscrits/Voir?idFicheManuscrit=100031823</idno></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="443 444"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="731 732"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="194"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

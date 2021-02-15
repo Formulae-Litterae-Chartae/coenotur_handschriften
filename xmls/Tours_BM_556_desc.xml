@@ -1,0 +1,129 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 556</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>556</idno>
+                  <altIdentifier source="Marmoutier">
+                     <idno>37</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>174</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6140</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Rechtstext">
+                     <author/>
+                     <title>Canonum collectio Hibernensis</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="67">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="25.4"/>
+                              <width n="14.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="21.2"/>
+                              <width n="11.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>zerstört (1939-1945)</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="30"/>
+                        <layout><p source="Rand">rote Titel, einfache rote und schwarze
+                              Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">hauptsächlich von einer Hand</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">Kursive ohne Halbunziale</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Dorange"><locus n="63v"/>Benutzungsspuren durch Dom Martène: <seg
+                           type="lat">De officiis episcoporum</seg></p>
+                     <p source="Dorange Collon">bei den Schutzfolien am Anfang und am Ende handelt
+                        es sich um Fragmente eines liturgischen Buches aus dem 9. Jhd.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Collon">Holzeinband in weißem Pergament</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="low" notBefore="0800"
+                           notAfter="0900">9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0880" notAfter="0900">Ende 9.
+                           Jhd.</origDate></p>
+                     <p><origDate source="Kéry" cert="low" notBefore="0875" notAfter="0900">4.
+                           Viertel 9. Jhd.</origDate></p>
+                     <note>Nur wenig ist bekannt. Eine Datierung ins Ende des 9. Jahrhunderts und
+                        eine Entstehung in Tours, vielleicht St-Martin, erscheint wahrscheinlich.
+                        Die Provenienz aus Marmoutier bedeutet nicht, dass die Handschrift mit einer
+                        größeren Wahrscheinlichkeit in Marmoutier als in St-Martin entstanden ist.
+                        Da die Handschrift zerstört ist, können auch keine neuen Untersuchungen
+                        durchgeführt werden.</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>http://medium-avance.irht.cnrs.fr/ark:/63955/md29p2679d26</idno>
+                        <idno>http://bibale.irht.cnrs.fr/47282</idno>
+                        <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A15943</idno></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="286"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="447" to="449"/></bibl>
+                     <bibl><idno>Wilmart 1922</idno><biblScope unit="pp" n="239"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="187"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="329"/></bibl>
+                     <bibl><idno>Speculum 1954</idno><biblScope unit="pp" n="337"/></bibl>
+                     <bibl><idno>Kéry 2013</idno><biblScope unit="pp" n="73 74"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

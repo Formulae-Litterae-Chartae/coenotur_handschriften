@@ -71,7 +71,7 @@
                         <title>Die 7 Katholischen Briefe</title>
                      </msItem>
                      <msItem n="1.10">
-                        <locus from="67vr" to="99v"/>
+                        <locus from="67r" to="99v"/>
                         <title>Die Paulusbriefe</title>
                      </msItem>
                      <msItem n="1.11">
@@ -133,13 +133,13 @@
                      <p><origDate source="Bischoff BnF" cert="medium" notBefore="0830"
                            notAfter="0840">830-840 unter Fridugisius</origDate></p>
                      <note>Entstehung in St-Martin kann wegen der Nähe zur Moutier Grandval-Bibel
-                        (London, BM Ms Add. 10546) als gesichert angesehen werden. Einzig die
+                        (London, BL, Ms Add. 10546) als gesichert angesehen werden. Einzig die
                         Datierung ist nicht ganz gesichert. Die Handschrift scheint nach der
                         Moutier-Grandval-Bibel entstanden zu sein.</note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">St-Denis</name></provenance>
                   <provenance source="Vezin">Gelangt noch im 9. Jahrhundert nach <name
-                        type="Kloster">St-Denis</name>.</provenance>
+                        type="Kloster">St-Denis</name>, wie an den diesem Kloster eigenen Korrekturen, Interpunktuationen und Verweisen erkennbar ist.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

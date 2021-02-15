@@ -1,0 +1,128 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 844</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>844</idno>
+                  <altIdentifier source="St-Gatien">
+                     <idno>152</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>92</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6143</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="">
+                     <author>Isidor</author>
+                     <title>Etymologiae</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="167">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="36.3"/>
+                              <width n="29.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="30.0"/>
+                              <width n="22.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>gut erhalten</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="39 41">39 (36, 37, 40, 41)</layout>
+                        <layout source="Rand">rote Titel und rote Initialen</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">mindestens 6 Hände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote source="Rand">mathematische und andere Diagramme</decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p n="Exlibris" source="Dorange">letztes Schutzfolium, 15. Jhd.: <seg
+                           type="lat">Pro ecclesia Turonensi extractus et commodatus honorabili
+                           domino cancellario Francie, de mandato dominorum ejusdem ecclesie, die
+                           XVIIa mensis novembris, M°CCC°LXXXIX°. Ita est F. REGIS</seg> sowie <seg
+                           type="lat">Restituit Ecclesie</seg></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Collon">Maroquineinband mit dem Wappen der Stadt
+                        Tours</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff" cert="high">Tours</origPlace></p>
+                     <p><origPlace source="Rand" cert="low">St-Maurice?</origPlace></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0804" notAfter="0820">„later
+                           member of Regular Style (804-820)“</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
+                           >(1./)2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
+                           notAfter="1000">10. Jhd.</origDate></p>
+                     <note>Die Datierung um 820-830 erscheint, genau wie die Entstehung in Tours,
+                        unstrittig. Eine Produktion in St-Maurice ist unwahrscheinlich, da keine
+                        weiteren Handschriften aus einem dortigen Skriptorium zu dieser Zeit bekannt
+                        sind. Vermutlich entstand auch diese Handschrift in St-Martin. </note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>Teile:
+                           https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/8510/manifesthttp://initiale.irht.cnrs.fr/codex/4450</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>http://medium-avance.irht.cnrs.fr/ark:/63955/md60cv43qw34</idno>
+                        <idno>http://bibale.irht.cnrs.fr/47053</idno>
+                        <idno>http://fama.irht.cnrs.fr/manuscrit/69003</idno>
+                        <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A18069</idno></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="383"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="617"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="58"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="145"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="369"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

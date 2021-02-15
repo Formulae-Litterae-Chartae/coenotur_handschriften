@@ -1,0 +1,119 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 850</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note source="Collon">es besteht ein Zusammenhang mit Cambrai, BM, 693, sowie Paris,
+               BnF, Latin 11529 und Latin 11530</note>
+            <note source="Dorange">Fol. 76v–83v weisen Fehler in der alphabetischen Sortierung
+               auf</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>850</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>272</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>175</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6144</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="">
+                     <author/>
+                     <title>Liber Glossarum</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="495">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="49.4"/>
+                              <width n="29.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="41.6"/>
+                              <width n="29.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition source="Dorange">Es finden sich Spuren der ersten drei
+                           zerrissenen Blätter. Außerdem fehlen die Buchstaben G und H; I beginnt
+                           erst bei <seg type="lat">Inpulitum, herudictum</seg>.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="46 50">46, 47, 50</layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">ungefähr 20 Hände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">Kursive mit alten Elementen</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Martinellus.de"><locus n="236v"/>Tironische Note</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>alter Holzeinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff" cert="medium">Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
+                           >1. Viertel 9. Jhd.</origDate></p>
+                     <note>da einige der Hände deutlich ältere kursive Elemente aufweisen, vermutet
+                        RAND, dass es sich vielleicht um die Abschrift einer Handschrift des 8.
+                        Jahrhunderts handelt</note>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="385"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="621 622"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="187"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="369"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

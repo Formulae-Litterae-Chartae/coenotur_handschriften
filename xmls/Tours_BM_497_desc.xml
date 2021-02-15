@@ -1,0 +1,108 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 497</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>497</idno>
+                  <altIdentifier source="St-Gatien">
+                     <idno>104</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>224</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Liturgie Predigten">
+                     <author/>
+                     <title>Predigtsammlung</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="265">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="40.0"/>
+                              <width n="28.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition>sehr gut</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines=""/>
+                        <layout><p>blaue und rote Initialen und Titel</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Collon">alter Holzeinband umgeben mit weißem Pergament in
+                        sehr schlechtem Zustand</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="low">Tours</origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="low" notBefore="1000"
+                           notAfter="1100">11. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="1100" notAfter="1200"
+                           >vielleicht erst 12. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="263 264"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="399" to="406"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="200"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

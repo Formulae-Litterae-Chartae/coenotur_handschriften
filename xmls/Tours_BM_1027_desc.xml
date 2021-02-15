@@ -1,0 +1,109 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 1027</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>1027</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>47</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>194</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6148</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Hagiographie">
+                     <author>Johannes Diaconus</author>
+                     <title>Vita Sancti Gregorii</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="145">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="25.0"/>
+                              <width n="18.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="20.7"/>
+                              <width n="12.9"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines=""/>
+                        <layout><p/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+                  <scriptDesc>
+                     <p/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions> </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low">vielleicht nicht Tours</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">„Rom (Schreiber: Johannes
+                           presbiter)“</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900"
+                           >ca. Ende 9. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno/>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="453"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="748"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="194"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="369"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

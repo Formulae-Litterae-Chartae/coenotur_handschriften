@@ -1,0 +1,112 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 335</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>335</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>93</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>173</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6139</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="">
+                     <author>Beda</author>
+                     <title>De Tabernaculo</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="96">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="26.0"/>
+                              <width n="17.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="18.8"/>
+                              <width n="13.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>sehr schlecht gealtert</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="29 28">29, 28</layout>
+                        <layout><p>rote und schwarze Titel</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Rand">eine Hand</p>
+                     <p source="Winandy">mehrere Hände</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p></p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Winandy">Korrekturen mit schwarzer Tinte; Unterstreichungen in Schwarz und Rot mit Anführungszeichen am Rand</p>
+                     <p source="Winandy">Quellenglossierung</p>
+                     <p source="Martinellus.de">Lagenkontrollvermerke</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff" cert="medium">Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">(1./)2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Dorange Collon" cert="low" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="190"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="225"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="186 187"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
