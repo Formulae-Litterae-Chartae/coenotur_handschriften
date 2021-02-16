@@ -130,3 +130,5 @@ dmypy.json
 
 .flaskenv
 .idea
+*.mo
+app.db

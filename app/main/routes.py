@@ -1,15 +1,15 @@
-from app import app
 from lxml import etree
 from glob import glob
 import os
 from flask import render_template
+from flask_login import login_required
 import re
-from collections import OrderedDict
+from app.main import bp
 
 dirname = os.path.dirname(__file__)
 
 namespaces = {'tei': 'http://www.tei-c.org/ns/1.0'}
-xmls = glob(os.path.join(dirname, '../xmls/*.xml'))
+xmls = glob(os.path.join(dirname, '../../xmls/*.xml'))
 
 
 def sort_manuscript_list(l: tuple) -> tuple:
@@ -56,21 +56,24 @@ def insert_style_spans(el: etree._Element) -> list:
     return text_parts
 
 
-@app.route('/')
-@app.route('/index')
+@bp.route('/')
+@bp.route('/index')
+@login_required
 def index():
     return render_template('index.html')
 
 
-@app.route('/handschriften')
+@bp.route('/handschriften')
+@login_required
 def handschriften():
     return render_template('handschriften.html', title='Handschriftenliste', handschriften_dict=manuscript_list)
 
 
-@app.route('/handschrift/<manuscript>')
+@bp.route('/handschrift/<manuscript>')
+@login_required
 def handschrift(manuscript: str):
     metadata = dict()
-    xml = etree.parse(os.path.join(dirname, '../xmls', manuscript))
+    xml = etree.parse(os.path.join(dirname, '../../xmls', manuscript))
     metadata['old_sigs'] = list()
     for alt_id in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier',
                             namespaces=namespaces):

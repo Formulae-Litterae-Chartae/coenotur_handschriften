@@ -6,7 +6,7 @@
             <h1>Handschriften</h1>
             <ul>
                 {% for k, v in handschriften_dict %}
-                <li><a href="{{ url_for('handschrift', manuscript=k) }}">{{ v }}</a></li>
+                <li><a href="{{ url_for('main.handschrift', manuscript=k) }}">{{ v }}</a></li>
                 {% endfor %}
             </ul>
         </div>
