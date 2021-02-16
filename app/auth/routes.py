@@ -8,6 +8,12 @@ from app.models import User
 from .email import send_password_reset_email, send_email_reset_email
 from app.auth import bp
 from app import db
+from flask_wtf.csrf import CSRFError
+
+
+@bp.errorhandler(CSRFError)
+def handle_csrf_error(e):
+    return render_template('csrf_error.html', reason=e.description), 400
 
 
 @bp.route('/login', methods=['GET', 'POST'])
