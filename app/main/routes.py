@@ -133,9 +133,16 @@ def handschrift(manuscript: str):
             metadata['origin']['date'].append('{}{}{}'.format(''.join(insert_style_spans(d)), cert_symbol,
                                                               ' (' + d.get('source').upper().replace(' ', '; ') + ')' if
                                                               d.get('source') else ''))
-    for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:note/text()',
+    for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:note',
                        namespaces=namespaces):
-        metadata['origin']['commentary'].append(c)
+        c_text = ''.join(c.xpath('.//text()'))
+        end_symbol = ''
+        if c_text.strip().endswith('.'):
+            end_symbol = '.'
+        metadata['origin']['commentary'].append('{}{}{}'.format(c_text.strip('. '),
+                                                                ' (' + c.get('source').upper().replace(' ', '; ') + ')' if
+                                                                c.get('source') else '',
+                                                                end_symbol))
     metadata['layout_notes'] = []
     metadata['condition'] = []
     for obj_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc',
@@ -199,11 +206,12 @@ def handschrift(manuscript: str):
     metadata['hand_desc'] = []
     for hand_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote',
                                namespaces=namespaces):
-        if hand_desc.text:
+        hand_desc_text = ''.join(hand_desc.xpath('.//text()'))
+        if hand_desc_text:
             end_symbol = ''
-            if hand_desc.text.strip().endswith('.'):
+            if hand_desc_text.strip().endswith('.'):
                 end_symbol = '.'
-            metadata['hand_desc'].append('{}{}{}'.format(hand_desc.text.strip('. '),
+            metadata['hand_desc'].append('{}{}{}'.format(hand_desc_text.strip('. '),
                                                          ' (' + hand_desc.get('source').upper().replace(' ', '; ') + ')'
                                                          if hand_desc.get('source') else '',
                                                          end_symbol))

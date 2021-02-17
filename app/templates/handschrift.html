@@ -21,7 +21,7 @@
                     <td>
                         <ul class="list-unstyled mb-0">
                         {% for i in m_d['contents'] %}
-                        <li>{% if i['locus'] %}{{ i['locus'] }} - {% endif %}{% if i['author'] != '' %}{{ i['author'] }}, {% endif %}{{ i['title'] }}
+                        <li>{% if i['author'] != '' %}{{ i['author'] }}, {% endif %}{{ i['title'] }}
                         </li>
                         {% endfor %}
                         </ul>
@@ -114,7 +114,7 @@
                 {% if m_d['hand_desc'] %}
                 <tr>
                     <th scope="row">Angaben zu Schreibern</th>
-                    <td>{{ m_d['hand_desc']|join(' ')|safe }}</td>
+                    <td>{{ m_d['hand_desc']|join('<br>')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['layout_notes'] %}
@@ -164,7 +164,7 @@
                 {% if m_d['exlibris'] %}
                 <tr>
                     <th scope="row">Exlibris</th>
-                    <td>{{ m_d['exlibris']|join('; ')|safe }}</td>
+                    <td>{{ m_d['exlibris']|join('<br>')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['provenance'] %}

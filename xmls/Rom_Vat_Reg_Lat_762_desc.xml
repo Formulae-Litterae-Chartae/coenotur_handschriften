@@ -54,9 +54,9 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p source="Rand">Acht Schreiber, deren Namen am Ende der Lagen genanntn werden</p>
-                            <p><name type="scribe">Gyslarius</name>, <name type="scribe">Aldo</name>, <name type="scribe">Fredegaudus</name>, <name type="scribe">Nauto</name>, <name type="scribe">Theogrimnus</name>, <name type="scribe">Theodegrimnus</name>, <name type="scribe">Ansoaldus</name>, <name type="scribe">Landemarus</name>.</p>
-                            <p source="Rand">Der Teil on Landemarus ist die Arbeit von zwei Schreibern</p>
+                            <handNote source="Rand">Acht Schreiber, deren Namen am Ende der Lagen genanntn werden</handNote>
+                            <handNote><name type="scribe">Gyslarius</name>, <name type="scribe">Aldo</name>, <name type="scribe">Fredegaudus</name>, <name type="scribe">Nauto</name>, <name type="scribe">Theogrimnus</name>, <name type="scribe">Theodegrimnus</name>, <name type="scribe">Ansoaldus</name>, <name type="scribe">Landemarus</name>.</handNote>
+                            <handNote source="Rand">Der Teil on Landemarus ist die Arbeit von zwei Schreibern</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand">Verbesserte Kursive</p>
