@@ -163,43 +163,46 @@ def handschrift(manuscript: str):
                         metadata['dim_written'] = '{} x {}'.format(dim_height[0] + ' ' + dim_unit if dim_height else '',
                                                                    dim_width[0] + ' ' + dim_unit if dim_width else '')
             for condition in sup_desc.xpath('tei:condition', namespaces=namespaces):
-                if condition.text:
+                condition_text = ''.join(condition.xpath('.//text()'))
+                if condition_text:
                     end_symbol = ''
-                    if condition.text.strip().endswith('.'):
+                    if condition_text.strip().endswith('.'):
                         end_symbol = '.'
-                    metadata['condition'].append('{}{}{}'.format(condition.text.strip('. '),
+                    metadata['condition'].append('{}{}{}'.format(condition_text.strip('. '),
                                                                  ' (' + condition.get('source').upper().replace(' ', '; ') + ')' if
                                                                  condition.get('source') else '',
                                                                  end_symbol))
         for lay_desc in obj_desc.xpath('tei:layoutDesc', namespaces=namespaces):
             for layout in lay_desc.xpath('tei:layout', namespaces=namespaces):
+                layout_text = ''.join(layout.xpath('.//text()'))
                 if layout.get('columns'):
-                    if layout.text:
-                        metadata['num_columns'] = layout.text
+                    if layout_text:
+                        metadata['num_columns'] = layout_text
                     else:
                         metadata['num_columns'] = layout.get('columns')
                 elif layout.get('writtenLines'):
-                    if layout.text:
-                        metadata['written_lines'] = layout.text
+                    if layout_text:
+                        metadata['written_lines'] = layout_text
                     else:
                         metadata['written_lines'] = layout.get('writtenLines')
                 else:
-                    if layout.text:
+                    if layout_text:
                         end_symbol = ''
-                        if layout.text.strip().endswith('.'):
+                        if layout_text.strip().endswith('.'):
                             end_symbol = '.'
-                        metadata['layout_notes'].append('{}{}{}'.format(layout.text.strip('. '),
+                        metadata['layout_notes'].append('{}{}{}'.format(layout_text.strip('. '),
                                                                         ' (' + layout.get('source').upper().replace(' ', '; ') + ')' if
                                                                         layout.get('source') else '',
                                                                         end_symbol))
     metadata['script_desc'] = []
     for scr_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:scriptDesc/tei:p',
                               namespaces=namespaces):
-        if scr_desc.text:
+        scr_desc_text = ''.join(scr_desc.xpath('.//text()'))
+        if scr_desc_text:
             end_symbol = ''
-            if scr_desc.text.strip().endswith('.'):
+            if scr_desc_text.strip().endswith('.'):
                 end_symbol = '.'
-            metadata['script_desc'].append('{}{}{}'.format(scr_desc.text.strip('. '),
+            metadata['script_desc'].append('{}{}{}'.format(scr_desc_text.strip('. '),
                                                            ' (' + scr_desc.get('source').upper().replace(' ', '; ') + ')' if
                                                            scr_desc.get('source') else '',
                                                            end_symbol))
