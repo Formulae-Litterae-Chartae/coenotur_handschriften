@@ -54,9 +54,9 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Rand">Acht Schreiber, deren Namen am Ende der Lagen genanntn werden</handNote>
-                            <handNote><name type="scribe">Gyslarius</name>, <name type="scribe">Aldo</name>, <name type="scribe">Fredegaudus</name>, <name type="scribe">Nauto</name>, <name type="scribe">Theogrimnus</name>, <name type="scribe">Theodegrimnus</name>, <name type="scribe">Ansoaldus</name>, <name type="scribe">Landemarus</name>.</handNote>
-                            <handNote source="Rand">Der Teil on Landemarus ist die Arbeit von zwei Schreibern</handNote>
+                            <p source="Rand">Acht Schreiber, deren Namen am Ende der Lagen genanntn werden</p>
+                            <p><name type="scribe">Gyslarius</name>, <name type="scribe">Aldo</name>, <name type="scribe">Fredegaudus</name>, <name type="scribe">Nauto</name>, <name type="scribe">Theogrimnus</name>, <name type="scribe">Theodegrimnus</name>, <name type="scribe">Ansoaldus</name>, <name type="scribe">Landemarus</name>.</p>
+                            <p source="Rand">Der Teil on Landemarus ist die Arbeit von zwei Schreibern</p>
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand">Verbesserte Kursive</p>
@@ -84,8 +84,9 @@
                             <note>Durch die Nennung der Schreiber, deren Namen auch im Sankt Galler Verbrüderungsbuch zu finden sind, mit Sicherheit nach Saint Martin zu verorten und zu Beginn des 9. Jahrhunderts zu datieren. Da das Verbrüderungsbuch zur Zeit Fridugisus angelegt wurde, erscheint eine Datierung auf seine Regierungszeit wahrscheinlich. Dagegen spricht die Schriftentwicklung, die eine Stufe vor den großen Prachtbibeln darstellt. Da dieser unter Alkuin entstanden aber erst unter Fridugisus seine volle Wirksamkeit entfaltete, erscheint eine Datierung auf die Anfangsjahre Fridugisus oder sehr kurz davor wahrscheinlich.</note>
                         </origin>
                         <provenance source="Rand" type="Provenance" cert="low">Umgebung von <name type="Gemeinschaft">Fleury</name></provenance>
-                        <provenance>Die Handschrift war im Besitz von <name type="person">Alexandre Petau</name></provenance>
-                        <provenance>Von dort gelangte sie in den Besitz der Königin <name type="person">Christina on Schweden</name></provenance>
+                        <provenance>Die Handschrift war im Besitz von <name type="person">Alexandre Petau.</name></provenance>
+                        <provenance>Von dort gelangte sie in den Besitz der Königin <name type="person">Christina von Schweden.</name></provenance>
+                        <provenance>Von dort gelangt sie an die <name type="Repository">Vatikanische Bibliothek</name>.</provenance>
                         <acquisition>Von dort gelangt sie an die <name type="Repository">Vatikanische Bibliothek</name></acquisition>
                     </history>
                     <additional>

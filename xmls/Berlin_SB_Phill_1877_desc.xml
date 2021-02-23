@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Bei dieser Handschrift handelt es sich um einen prächtigen, vielleicht den schönsten (RAND) Martinellus aus St-Martin</note></notesStmt>
+         <notesStmt><note><p>Bei dieser Handschrift handelt es sich um einen prächtigen, vielleicht den schönsten (RAND) Martinellus aus St-Martin</p></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -57,7 +57,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Eine Hand</p>
+                     <handNote>Eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
                      <p>Karolingischen Minuskel</p>
@@ -65,9 +65,9 @@
                   <decoDesc>
                      <decoNote>
                         <locus n=""/>
-                        <p source="Rose"><locus n="9v"/><locus n="45v"/>Sehr schön gemalte Titelblätter: Goldinschrift in einer vereckingen Tafel, mit Blattwek un Flechtwerken.</p>
+                        <p source="Rose"><locus n="9v"/><locus n="45v"/>Sehr schön gemalte Titelblätter: Goldinschrift in einer vereckingen Tafel, mit Blattwek und Flechtwerken.</p>
                         <p source="Rose"><locus n="59v"/><locus n="133v"/>Zwei einfachere Titelblätter mit einem Säulenbogen.</p>
-                        <p>eine ausfürhlich Beschreibung der Miniaturen und der geschmückten Initialen findet sich bei Kirchen.</p>
+                        <p>Eine ausfürhlich Beschreibung der Miniaturen und der geschmückten Initialen findet sich bei Kirchen.</p>
                      </decoNote>
                   </decoDesc>
                   <additions>
@@ -83,15 +83,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><name>St-Martin</name>, Tours</origPlace></p>
+                     <p><origPlace cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
                      <note></note>
                   </origin>
-                  <provenance type="Provenance"><name type="Gemeinschaft">St-Vinzenz</name>, Metz</provenance>
-                  <provenance source="Rand">Die Handschrift gehörte im 11. Jhd. dem Bischof Dietrich von Metz, wobei nicht geklärt ist, ob Dietrich I. (964-984) oder Dietrich II. (1006-1046).</provenance>
-                  <provenance source="Rand">Von Dietrich wurde sie an st-Vinzenz übergeben.</provenance>
-                  <provenance source="Rand">Von St-Vinzenen gelangte sie über das College Clermont und Meermann un Thomas Phillips.</provenance>
-                  <provenance source="Rand">Von Phillips gelangte sie wie die anderen Handschriften schließlich nach Berlin.</provenance>
+                  <provenance type="Provenance"><orgName>St-Vinzenz</orgName>, <placeName>Metz</placeName></provenance>
+                  <provenance source="Rand">Die Handschrift gehörte im 11. Jhd. dem Bischof <persName>Dietrich von Metz</persName>, wobei nicht geklärt ist, ob Dietrich I. (964-984) oder Dietrich II. (1006-1046).</provenance>
+                  <provenance source="Rand">Von Dietrich wurde sie an St-Vinzenz übergeben.</provenance>
+                  <provenance source="Rand">Von St-Vinzenz gelangte sie über das College Clermont und Meermann an Thomas Phillips.</provenance>
+                  <provenance source="Rand">Von Phillips gelangte sie, gemeinsam mit einem Teil seiner Handschriften, schließlich nach Berlin.</provenance>
                   <acquisition><name type="Repository">SB</name></acquisition>
                </history>
                <additional>

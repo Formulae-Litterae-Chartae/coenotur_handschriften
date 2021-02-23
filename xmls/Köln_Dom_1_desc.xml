@@ -1,0 +1,145 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Köln, Dombibliothek 1</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Cologne</settlement>
+                  <repository>Dombibliothek</repository>
+                  <collection/>
+                  <idno>1</idno>
+                  <altIdentifier source="Anderson">
+                     <idno>34,984</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>137</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>1867</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Darmstadt">
+                     <idno>2003</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Bibel</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="382">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="50.0"/>
+                              <width n="35.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="37.0"/>
+                              <width n="27.4"/>
+                           </dimensions>
+                        </extent>
+                        <condition>gut erhalten, bricht aber nach Apokalypse 22,11 ab</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="51 54">51 (54)</layout>
+                        <layout><p source="CEEC">rote und schwarze Auszeichnungsschrift in Capitalis
+                              oder Unziale, Titel zum Teil in Gold auf Purpur</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Anderson">eine Hand</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>karolingische Minuskel, (Halb-)Unziale</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote><locus n="2r 303v"/>vollseitige Schmuckinitiale in Gold, Silber,
+                        Purpur, Grün, Gelb, Rot, Weiß, Schwarz</decoNote>
+                     <decoNote><locus from="300v" to="302r"/>architektonische Ausschmückung der
+                        Kanontafeln</decoNote>
+                     <decoNote><locus from="350v" to="351r"/>architektonische Ausschmückung der
+                        Konkordanz zu den Paulusbriefen</decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Anderson">einzelne Ergänzungen aus dem 13.-15. Jhd.</p>
+                     <p source="Anderson"><locus n="338v"/>Zeichnung einer männlichen Büste</p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">LIBER S(AN)C(T)I PETRI A PIO
+                           PATRE HERIMANNO DATUS</seg> (890-923)</p>
+                     <p n="Exlibris" source="Anderson"><locus n="1r"/><seg type="lat">Rutgheri</seg>
+                        (9./10. Jhd.)</p>
+                     <p n="Exlibris" source="Anderson"><locus n="1r"/><seg type="lat">In tabula
+                           altaris beate marie accepte sunt, pro xviiii m. argenti, xiii m. auri et
+                           dimidium</seg> (12./13. Jhd.)</p>
+                     <p n="Exlibris" source="Anderson"><locus n="1r"/><seg type="lat">Hic liber est
+                           sancti petri in colonia concessus conventui de prato sancte marie per
+                           manum domini alberti subdecani, quem idem conventus reddet sine
+                           contradictione, cum repitittus fuerit a capitulo sancti petri, sicut
+                           continetur in litteris, quibus se predictus sanctimonialium conventus
+                           obligavit. Et in eo sunt multa folia truncata. Anno MCCXLI.</seg>
+                        (1241)</p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">LIBER SANCTI PETRI IN
+                           COLONIA</seg> (14. Jhd.)</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Pergament, Mitte des 18. Jhd.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="CEEC Rand Köhler" cert="high">Tours</origPlace></p>
+                     <p><origDate source="von Euw, Bischoff" cert="high" notBefore="0850"
+                           notAfter="0890">2. Hälfte 9. Jhd.</origDate></p>
+                     <note>Die Entstehung in Tours sowie die Datierung in die 2. Hälfte des 9. Jhd.
+                        können als sicher angesehen weren. Als terminus ante quem scheint 890
+                        gesichert, da in diesem Jahr die Amtszeit des Erzbischofes Hermann I.
+                        begann. Sowohl Bischoff als Anderson schlagen eine Datierung zwischen 857
+                        und 862 vor, ohne diese jedoch genauer zu begründen.</note>
+                  </origin>
+                  <provenance type="Provenance"><name>Dombibliothek Köln</name></provenance>
+                  <provenance source="CEEC"><p>Die Handschrift wurde von Erzbischof <name
+                           type="Person">Hermann I.</name> dem Dom gestiftet.</p>
+                     <p>1241 wurde sie an den Zisterzienserinnenkonvent in <name type="Ort"
+                           >Benden</name> ausgeliehen.</p>
+                     <p>Im 14. Jhd. war sie wieder im Besitz des Kölner Domes.</p></provenance>
+                  <acquisition><name type="Repository">Dombibliothek Köln</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/pagesma/%22kn28-0001_001.jpg%22/segment/%22body%22</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/katl/%22kn28-0001%22</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="164 165"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="6"/></bibl>
+                     <bibl><idno>von Euw 1989</idno><biblScope unit="pp" n="46 47"/></bibl>
+                     <bibl><idno>Anderson 1997</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="386"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

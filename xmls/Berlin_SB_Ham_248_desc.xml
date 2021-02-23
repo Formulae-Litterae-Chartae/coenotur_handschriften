@@ -30,7 +30,6 @@
                      <author/>
                      <title>Evangelia</title>
                      <textLang mainLang="la"/>
-                  </msItem>
                   <msItem n="1.1">
                      <locus from="1v" to="8r"></locus>
                      <author>Hieronymus</author>
@@ -66,6 +65,7 @@
                      <author/>
                      <title>Capitulare Evangeliorum</title>
                   </msItem>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -92,7 +92,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Fingernagel">Bis auf f. 13 von einer Hand</p>
+                     <handNote source="Fingernagel">Bis auf f. 13 von einer Hand</handNote>
                   </handDesc>
                   <scriptDesc>
                      <p source="Fingernagel">Karolingische Minuskel im Stil von Tours</p>
@@ -113,17 +113,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium"><name>Tours</name>, und eine anderes französisches Zentrum für die künstlerische Ausstattung</origPlace></p>
-                     <p><origPlace source="Fingernagel" cert="medium"><name>Tours</name>, für die Schrift, Ausstattung wohl in Lothringen (Metz?).</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, und eine anderes französisches Zentrum für die künstlerische Ausstattung</origPlace></p>
+                     <p><origPlace source="Fingernagel" cert="medium"><placeName>Tours</placeName>, für die Schrift, Ausstattung wohl in Lothringen (<placeName>Metz</placeName>?).</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand Fingernagel" cert="medium" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
                      <note></note>
                   </origin>
-                  <provenance type="Provenance"><name type="Klloster">St-Vinzent, Metz</name></provenance>
-                  <provenance source="Fingernagel">Drei Handschriften aus Metz (Metz, BM, 77 (zerstört); Paris, BnF, Latin 9393; Paris, BnF, Latin 9393) , die im 10. Jahrhundert nach dem Vorbild von Ham. 248 entstanden sind, belegen, dass die Handschrift sich spätestens seit dem 10. Jahrhundert in Metz befand..</provenance>
+                  <provenance type="Provenance"><orgName>St-Vinzent</orgName>, <placeName>Metz</placeName></provenance>
+                  <provenance source="Fingernagel">Drei Handschriften aus Metz: (Metz, BM, 77 (zerstört); Paris, BnF, Latin 9393; Paris, BnF, Latin 9393) , die im 10. Jahrhundert nach dem Vorbild von Ham. 248 entstanden sind, belegen, dass die Handschrift sich spätestens seit dem 10. Jahrhundert in Metz befand..</provenance>
                   <provenance>Anfang des 19. Jhds. war die Handschrift im Besitz des Londoner Buchhändlers James Edwards.</provenance>
                   <provenance>Von Edwards ging sie wohl in den Besitz von Alexander Hamilton Douglas über.</provenance>
-                  <provenance>Wie der REst der Sammlung Hamiltons gelangte die Handschrift schließlich 1882/83 an die Königliche Bibliothek Berlin.</provenance>
+                  <provenance>Wie der Rest der Sammlung Hamiltons gelangte die Handschrift schließlich 1882/83 an die Königliche Bibliothek Berlin.</provenance>
                   <acquisition><name type="Repository">SB Berlin</name></acquisition>
                </history>
                <additional>

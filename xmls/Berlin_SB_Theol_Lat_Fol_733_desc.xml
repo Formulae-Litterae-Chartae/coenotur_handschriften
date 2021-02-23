@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Berlin, SB, Theol. Lat. Fol. 733</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note><p>Dieses prächtige Evangeliar ist von Kaiser Lothar (gest. 855 in der Abtei Prüm) der Abtei geschenkt worden.</p></note></notesStmt>
+             <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Berlin</settlement>
+                        <repository>SB</repository>
+                        <collection></collection>
+                        <idno>Theol. Lat. Fol. 733</idno>
+                        <altIdentifier source="Görres">
+                            <idno>94</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>107</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>470</idno>
+                        </altIdentifier>
+                        <msName>Evangeliar von Prüm</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Evangeliar Bibel">
+                            <title>Evangeliar</title>
+                            <textLang mainLang="la"></textLang>
+                            <msItem n="1.1">
+                                <locus from="1r" to="1r"/>
+                                <title>Praefatio Sancti Hieronimi</title>
+                            </msItem>
+                            <msItem n="1.2">
+                                <locus from="1v" to="5r"/>
+                                <title>Beato Papae Damaso Hieronimus</title>
+                            </msItem>
+                            <msItem n="1.3">
+                                <locus from="5v" to="6r"/>
+                                <title>Item Argumentum</title>
+                            </msItem>
+                            <msItem n="1.4">
+                                <locus from="6v" to="10r"/>
+                                <title>Praefatio Evangeliorum</title>
+                            </msItem>
+                            <msItem n="1.5">
+                                <locus from="10v" to="12v"/>
+                                <title>Epistula Eusebii De Evangelio</title>
+                            </msItem>
+                            <msItem n="1.6">
+                                <locus from="13r" to="14r"/>
+                                <title>Praefatio in Mattheum</title>
+                            </msItem>
+                            <msItem n="1.7">
+                                <locus from="14v" to="16v"/>
+                                <title>Capitula Mattheum</title>
+                            </msItem>
+                            <msItem n="1.8">
+                                <locus from="18r" to="21v"/>
+                                <title>Canonestafeln</title>
+                            </msItem>
+                            <msItem n="1.9">
+                                <locus from="23r" to="74v"/>
+                                <title>Evangelium secundum Mattheum</title>
+                            </msItem>
+                            <msItem n="1.10">
+                                <locus from="1r" to="1r"/>
+                                <title>Praefatio Sancti Hieronimi</title>
+                            </msItem>
+                            <msItem n="1.11">
+                                <locus from="75r" to="76v"/>
+                                <title>Prologus in Marcum</title>
+                            </msItem>
+                            <msItem n="1.12">
+                                <locus from="77r" to="78v"/>
+                                <title>Capitula Marcum</title>
+                            </msItem>
+                            <msItem n="1.13">
+                                <locus from="80r" to="111v"/>
+                                <title>Evangelium secundum MArcum</title>
+                            </msItem>
+                            <msItem n="1.14">
+                                <locus from="112r" to="113v"/>
+                                <title>Prologus in Luca</title>
+                            </msItem>
+                            <msItem n="1.15">
+                                <locus from="114r" to="115v"/>
+                                <title>Capitula in Lucam</title>
+                            </msItem>
+                            <msItem n="1.16">
+                                <locus from="117r" to="174r"/>
+                                <title>Evangelium Luca</title>
+                            </msItem>
+                            <msItem n="1.17">
+                                <locus from="175r" to="176r"/>
+                                <title>Prologus in Iohannem</title>
+                            </msItem>
+                            <msItem n="1.18">
+                                <locus from="176vr" to="177r"/>
+                                <title>Capitula in Iohannis</title>
+                            </msItem>
+                            <msItem n="1.19">
+                                <locus from="177v" to="221r"/>
+                                <title>Praefatio Sancti Hieronimi</title>
+                            </msItem>
+                            <msItem n="1.20">
+                                <locus from="222r" to="233r"/>
+                                <title>Capitulare Evangeliorum de Circulo Anni</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="234">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="29.5"/>
+                                        <width n="24.2"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="19.0"/>
+                                        <width n="14.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="21"/>
+                                <layout/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Schillmann">Ein Schreiber, der aber verschiedenen Schriftarten verwendet.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <p source="Rand">Karolingische Minuskel</p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p>Zahlreiche Miniaturen:</p>
+                                <p><locus n="22v"/>Matthäus</p>
+                                <p><locus n="79r"/>Marcus</p>
+                                <p><locus n="116v"/>Lucas</p>
+                                <p><locus n="178v"/>Johannes</p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p source="Martinellus.de" n="tironischen Note">Imitationen von tironischen Noten</p>
+                            <p n="Exlibris" source="Schillmann"><seg type="lat">Anno dominicę incarnationis. DCCC. Iii. Indictione xv. / 
+                                adueniens Lotharius imperator prumiam monasterium / quod est constructum in honore domini et saluatoris nostri. / 
+                                ihu xpi necnon et genitricis eiusdem dei et domini nostri. / beatissimi quoque iohannis babtistę et precursoris eius. / 
+                                sanctissimorum etiam apostolorum Petri et pauli. ceterorumque / apostolorum. Stephani quoque prothomartiris. cunctorum/
+                                que sanctorum martirum. Martini etiam benedicti. / venerabilissimorum confessorum. cunctorumque sanctorum. / 
+                                Anno imperii sui in italia xxxiii. et in francia / xiii. et optulit hęc mente deuota sancto saluatori. / 
+                                et omnibus prefatis sanctis. pro remedio animę suę et / coniugis defunctę prolisque et omnium predecessorum / 
+                                suorum pro statu regni.</seg></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>
+                                <p source="Schillmann">Jüngerer Holzeinband mit weißem Lederrücken.</p>
+                            </decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Schillmann Rand Bischoff" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="high" notBefore="0843" notAfter="0851">843-851 unter <persName type="Abt">Vivian</persName></origDate></p>
+                        <note>Es handelt sich um ein Evangeliar aus St-Martin. Durch die Lebenszeit von Kaiser Lothar, der die Handschrift dem Kloster Prüm schenkte, ist die Entstehung sehr präzise zu datieren.</note>
+                        </origin>
+                        <provenance type="Provenance"><orgName>St-Maximin</orgName>, <placeName>Trier</placeName></provenance>
+                        <provenance>Ein Eintrag auf fol. 234r belegt, dass die Handschrift dem Kloster Prüm durch Kaiser Lothar I. 852 bei seinem Eintritt in die Abtei übergeben wurde.</provenance>
+                        <provenance>Von dort gelangte sie im 18. Jahrhundert vielleicht nach St-Maximin in Trier, wobei SCHILLMANN darauf aufmerksam macht, das nicht klar ist, wie, wann und warum.</provenance>
+                        <provenance>Über die Bibliothek von Joseph Görres gelangte die Handschrift schließlich durch den Kauf von mehreren Gönner an die Königliche Bibliothek in Berlin.</provenance>
+                        <acquisition><name type="Repository"></name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                            <bibl><idno>Schillmann 1919</idno><biblScope unit="pp" n="94 100"></biblScope></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="151"></biblScope></bibl>
+                            <bibl><idno>Becker/Brandis 1985</idno><biblScope unit="pp" n="298"></biblScope></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="99 100"></biblScope></bibl>
+                            <bibl><idno>Martinellus.de</idno></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body><div type="edition"></div></body></text>
+</TEI>
+

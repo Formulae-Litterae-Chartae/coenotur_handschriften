@@ -93,9 +93,9 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno> https://www.e-codices.unifr.ch/en/list/one/csg/0271</idno></bibl>
-                     <bibl><title>Online Beschreibung</title>: <idno> http://www.europeanaregia.eu/node/9033</idno></bibl>
-                     <bibl><title>Online Beschreibung</title>: <idno> http://beta.biblissima.fr/fr/ark:/43093/mdataeb607836f44c76eab10c8f75439413643c19ea6f</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://www.e-codices.unifr.ch/en/list/one/csg/0271</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www.europeanaregia.eu/node/9033</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://beta.biblissima.fr/fr/ark:/43093/mdataeb607836f44c76eab10c8f75439413643c19ea6f</idno></bibl>
                      <bibl><idno>Scherrer 1875</idno><biblScope unit="pp" n="102"/></bibl>
                      <bibl><idno>Bullough 2003</idno><biblScope unit="pp" n="61"/></bibl>
                   </listBibl>

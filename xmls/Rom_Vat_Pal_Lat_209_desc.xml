@@ -67,18 +67,18 @@
                             <p></p>
                         </scriptDesc>
                         <musicNotation>
-                            <p>Neumen, vielleict aus <name type="Kloster">Tours</name> oder aus<name type="Kloster">Fleury</name>
+                            <p>Neumen, vielleicht aus <name type="Kloster">Tours</name> oder aus <name type="Kloster">Fleury</name>
                             </p>
                         </musicNotation>
                         <decoDesc>
                             <p></p>
                         </decoDesc>
                         <additions>
-                            <p n="Exlibris"><locus n="46v"></locus>Ad maius Franckendall inter Spiram et Wormatiam pertinet liber iste</p>
-                            <p n="Exlibris"><locus n="58r"></locus>Codex monasterij beate Marie Magdalene in Franckentall inter Spiram et Wormatiam canonicorum regularium ordinis</p>
-                            <p n="Exlibris"><locus n="69v"></locus>Liber fratrum canonicorum regularium in maiori Franckental</p>
-                            <p n="Exlibris"><locus n="124r"></locus>Ad maius Franckental pertinet liber iste</p>
-                            <p n="Exlibris"><locus n="126v"></locus>Iste liber pertinet monasterio beate Marie Magdalene in Franckentall inter Spiram et Wormatiam situato canonicorum regularium ordinis sancti Augustinu episcopi</p>
+                            <p n="Exlibris"><locus n="46v"></locus><seg type="lat">Ad maius Franckendall inter Spiram et Wormatiam pertinet liber iste</seg></p>
+                            <p n="Exlibris"><locus n="58r"></locus><seg type="lat">Codex monasterij beate Marie Magdalene in Franckentall inter Spiram et Wormatiam canonicorum regularium ordinis</seg></p>
+                            <p n="Exlibris"><locus n="69v"></locus><seg type="lat">Liber fratrum canonicorum regularium in maiori Franckental</seg></p>
+                            <p n="Exlibris"><locus n="124r"></locus><seg type="lat">Ad maius Franckental pertinet liber iste</seg></p>
+                            <p n="Exlibris"><locus n="126v"></locus><seg type="lat">Iste liber pertinet monasterio beate Marie Magdalene in Franckentall inter Spiram et Wormatiam situato canonicorum regularium ordinis sancti Augustinu episcopi</seg></p>
                         </additions>
                         <bindingDesc>
                             <decoNote type="Roman">Römischer Einband zwischen 1878 und 1889</decoNote>
@@ -92,7 +92,7 @@
                             <note>Die Neumen könnten entweder aus Fleury oder aus Tours stammen.</note>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster">Frankenthal</name></provenance>
-                        <acquisition>Ging irgendwann an die Vatikana über</acquisition>
+                        <acquisition>Ging irgendwann an die Vatikana über.</acquisition>
                     </history>
                     <additional>
                         <surrogates>

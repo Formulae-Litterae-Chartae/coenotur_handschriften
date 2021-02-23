@@ -1,10 +1,11 @@
 from lxml import etree
 from glob import glob
 import os
-from flask import render_template
+from flask import render_template, g
 from flask_login import login_required
 import re
 from app.main import bp
+from app.search.forms import SearchForm
 
 dirname = os.path.dirname(__file__)
 
@@ -54,6 +55,11 @@ def insert_style_spans(el: etree._Element) -> list:
         else:
             text_parts.append(t)
     return text_parts
+
+
+@bp.before_app_request
+def before_request():
+    g.search_form = SearchForm()
 
 
 @bp.route('/')

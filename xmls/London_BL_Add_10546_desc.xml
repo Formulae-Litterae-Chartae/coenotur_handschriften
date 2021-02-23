@@ -87,7 +87,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high">Tours<name type="Gemeinschaft">, St-Martin</name></origPlace></p>
+                     <p><origPlace cert="high">Tours, <name type="Gemeinschaft">St-Martin</name></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0820" notAfter="0830">820-830</origDate></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0840">ca. 835</origDate></p>
                      <p><origDate source="bl.uk" cert="high" notBefore="0830" notAfter="0840">ca. 830 - c. 840</origDate></p>
@@ -100,6 +100,7 @@
                   <provenance source="Berger bl.uk">Im Zuge der Französischen Revolution wurde die Gemeinschaft von Moutier-Grandval aufgelösst, die Bibel ging verloren, wurde von Kindern gefunden und an "demoiselles Verdat" übergeben.</provenance>
                   <provenance source="bl.uk">Alexis Bennot, Anwalt in Delémont kauft die Handschrift.</provenance>
                   <provenance source="Berger">Er verkaufte sie im Jahr 1822 an den M. de Speyr-Passavant.</provenance>
+                  <provenance source="Berger">Dieser versuchte zunächst die Bibel an Karl X. von Frankreich zu verkaufen. Als dies scheiterte verkaufte er sie schließlich 1836 an das Britisch Museum, von wo sie in den Besitz der <name type="Repository">British Library</name> überging.</provenance>
                   <acquisition source="Berger">Dieser versuchte zunächst die Bibel an Karl X. von Frankreich zu verkaufen. Als dies scheiterte verkaufte er sie schließlich 1836 an das Britisch Museum, von wo sie in den Besitz der <name type="Repository">British Library</name> überging.</acquisition>
                </history>
                <additional>

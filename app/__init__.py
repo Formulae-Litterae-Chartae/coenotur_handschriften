@@ -9,6 +9,7 @@ from flask_mail import Mail
 from flask_bootstrap import Bootstrap
 from flask_babel import Babel, lazy_gettext as _l
 from config import Config
+from elasticsearch import Elasticsearch
 
 db = SQLAlchemy()
 migrate = Migrate()
@@ -23,6 +24,17 @@ babel = Babel()
 def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(config_class)
+    if app.config['ELASTICSEARCH_URL']:
+        if app.config['ES_CLIENT_CERT'] or app.config['ES_CLIENT_KEY']:
+            app.elasticsearch = Elasticsearch(app.config['ELASTICSEARCH_URL'],
+                                              use_ssl=True,
+                                              verify_certs=True,
+                                              client_cert=app.config['ES_CLIENT_CERT'],
+                                              client_key=app.config['ES_CLIENT_KEY'])
+        else:
+            app.elasticsearch = Elasticsearch(app.config['ELASTICSEARCH_URL'])
+    else:
+        app.elasticsearch = None
 
     db.init_app(app)
     migrate.init_app(app, db)
@@ -36,6 +48,9 @@ def create_app(config_class=Config):
 
     from app.main import bp as main_bp
     app.register_blueprint(main_bp)
+
+    from app.search import bp as search_bp
+    app.register_blueprint(search_bp, url_prefix="/search")
 
     if not app.debug and not app.testing:
         if app.config['MAIL_SERVER']:
