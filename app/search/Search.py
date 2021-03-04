@@ -89,13 +89,16 @@ def advanced_query_index(simple_q: str = '',
                          autocomplete_orig_place: str = '',
                          autocomplete_orig_place_cert: list = None,
                          autocomplete_person_role: list = None,
-                         autocomplete_person_identifier: str = '') -> Tuple[List[Dict[str, Union[str, list, dict]]],
+                         autocomplete_person_identifier: str = '',
+                         with_digitalisat: str = '') -> Tuple[List[Dict[str, Union[str, list, dict]]],
                                                                             int,
                                                                             dict]:
     if not current_app.elasticsearch:
         return [], 0, {}
     # all parts of the query should be appended to the 'must' list. This assumes AND and not OR at the highest level
     body_template = dict({"query": {"bool": {"must": []}}, "sort": '_id', 'size': 10000, 'aggs': AGGREGATIONS})
+    if with_digitalisat:
+        body_template['query']['bool']['must'].append({'term': {'with_digitalisat': True}})
     fields = {'flat_fields':
                   {'identifier': identifier,
                    'ms_item': ms_item,

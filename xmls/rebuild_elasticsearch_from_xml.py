@@ -46,6 +46,7 @@ index_properties.update({'provenance': {"type": "text"}})
 index_properties.update({'autocomplete_orig_place': {"type": "nested", "properties": {"cert": {"type": "keyword"}, "place": {"type": "text", "analyzer": "autocompletion", "search_analyzer": "standard"}}}})
 index_properties.update({'autocomplete_ms_item': {"type": "text", "analyzer": "autocompletion", "search_analyzer": "standard"}})
 index_properties.update({'autocomplete_person': {"type": "nested", "properties": {"name": {"type": "text", "analyzer": "autocompletion", "search_analyzer": "standard"}, "role": {"type": "keyword"}, "identifier": {"type": "keyword"}}}})
+index_properties.update({'with_digitalisat': {'type': 'boolean'}})
 
 
 for file in files:
@@ -118,6 +119,10 @@ for file in files:
     provenance_strings = []
     for prov in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance', namespaces=namespaces):
         provenance_strings.append(re.sub(r'\s+', ' ', ''.join(prov.xpath('.//text()', namespaces=namespaces))))
+        
+    with_digitalisat = False
+    if xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:surrogates/tei:bibl/tei:idno/text()', namespaces={'tei': 'http://www.tei-c.org/ns/1.0'}):
+        with_digitalisat = True
     
     if not es.indices.exists(new_index):
         print("Creating index {}".format(new_index))
@@ -133,7 +138,8 @@ for file in files:
             'provenance': '; '.join(provenance_strings),
             'autocomplete_person': persons,
             'autocomplete_orig_place': places, 
-            'autocomplete_ms_item': items
+            'autocomplete_ms_item': items,
+            'with_digitalisat': with_digitalisat
             }
     
     if places:

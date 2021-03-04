@@ -76,6 +76,7 @@
                                 {{ form.orig_year_end(size=4, class="form-control") }}
                                 {% endif %}
                             </div>
+                        </div>
                     </div>
                     <div class="form-group mb-2">
                         <div class="text-center search-section-label"><strong>{{ _('Manuskriptinhalt') }}</strong></div>
@@ -119,6 +120,12 @@
                             {{ form.provenance(class="form-control my-0", placeholder=form.provenance.label.text, id="provenance-search-box", list="provenance-search-datalist", default=form.provenance.label.text, autocomplete="off") }}
                             <datalist id="provenance-search-datalist">
                             </datalist>
+                        </div>
+                    </div>
+                    <div class="form-group mb-2">
+                        <div class="form-check form-check-inline form-group mb-0">
+                            <input class="form-check-input" id="with_digitalisat_checkbox" name="with_digitalisat" type="checkbox" value="true">
+                            <label class="form-check-label" for="with_digitalisat_checkbox">{{ form.with_digitalisat.label.text }}</label>
                         </div>
                     </div>
                 </div>

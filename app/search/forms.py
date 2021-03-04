@@ -50,5 +50,6 @@ class AdvancedSearchForm(SearchForm):
     person = StringField(_l('Personen'))
     person_role = SelectMultipleField(_l('Role'),  choices=[('', ''), ('Abt', _l('Abt')),
                                                                       ('scribe', _l('Schreiber'))])
-    provenance = StringField(_l('Provenance'))
+    provenance = StringField(_l('Provenienz'))
+    with_digitalisat = BooleanField(_l('Nur Handschriften mit Digitalisate'))
     submit = SubmitField(_l('Suche Durchführen'), id="advancedSearchSubmit")

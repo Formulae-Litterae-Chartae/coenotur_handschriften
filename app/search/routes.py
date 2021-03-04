@@ -54,7 +54,8 @@ def r_results():
                        autocomplete_orig_place=request.args.get('autocomplete_orig_place'),
                        autocomplete_orig_place_cert=request.args.get('autocomplete_orig_place_cert'),
                        autocomplete_person_role=request.args.get('autocomplete_person_role'),
-                       autocomplete_person_identifier=request.args.get('autocomplete_person_identifier'))
+                       autocomplete_person_identifier=request.args.get('autocomplete_person_identifier'),
+                       with_digitalisat=request.args.get('with_digitalisat'))
     posts, total, aggs = advanced_query_index(**search_args)
     return render_template('search/search.html', title=_('Suche'), posts=posts, current_page=page,
                            total_results=total, aggs=aggs, highlight_mapping=HIGHLIGHT_MAPPING)
