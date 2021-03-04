@@ -57,10 +57,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">hauptsächlich von einer Hand</p>
+                     <handNote source="Rand">hauptsächlich von einer Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">Kursive ohne Halbunziale</p>
+                     <scriptNote source="Rand">Kursive ohne Halbunziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote> </decoNote>
@@ -77,7 +77,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="low" notBefore="0800"
                            notAfter="0900">9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="low" notBefore="0880" notAfter="0900">Ende 9.
@@ -91,7 +92,7 @@
                         Da die Handschrift zerstört ist, können auch keine neuen Untersuchungen
                         durchgeführt werden.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

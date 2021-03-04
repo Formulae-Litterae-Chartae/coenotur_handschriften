@@ -102,7 +102,7 @@
                                         <width n="8.0"/>
                                     </dimensions>
                                 </extent>
-                                <condition source="Dorange">Mehrere frühe
+                                <condition source="Dorange">mehrere frühe
                                     Reparaturarbeiten</condition>
                             </supportDesc>
                             <layoutDesc>
@@ -113,19 +113,19 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="3">
-                            <p source="Rand">3 Haupthände, wobei B (fol. 7-23) und C (fol. 24-351)
-                                die wichtigsten sind. A hat den Anfang geschrieben und weicht in der
-                                Form ein wenig von B und C ab. Eine korrigierende Hand. Hand A
-                                ähnelt der Hand B aus Paris, BnF, Latin 4333 B </p>
+                            <handNote source="Rand">3 Haupthände, wobei B (fol. 7-23) und C (fol.
+                                24-351) die wichtigsten sind. Hand A hat den Anfang geschrieben und
+                                weicht in der Form ein wenig von B und C ab; Hand A ähnelt der Hand
+                                B aus Paris, BnF, Latin 4333B. Eine korrigierende Hand </handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand" xml:id="Kursive">verbesserte Kursive</p>
-                            <p source="Rand">imperfekte Halbunziale, Nähe zum Vatikanischen
-                                Livius</p>
+                            <scriptNote source="Rand" xml:id="Kursive">verbesserte
+                                Kursive</scriptNote>
+                            <scriptNote source="Rand">imperfekte Halbunziale, Nähe zum Vatikanischen
+                                Livius</scriptNote>
                         </scriptDesc>
                         <musicNotation>
-                            <p><locus n="164r"/>Neumen im Stil von <name type="Kloster"
-                                    >Fleury</name>
+                            <p><locus n="164r"/>Neumen im Stil von <orgName>Fleury</orgName>
                             </p>
                         </musicNotation>
                         <decoDesc>
@@ -144,23 +144,23 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Rand Bischoff" cert="medium">Tours</origPlace></p>
-                            <p><origPlace source="Mostert" cert="low">Fleury</origPlace></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0800"
+                            <p source="Rand Bischoff"><origPlace cert="medium">Tours</origPlace></p>
+                            <p source="Mostert"><origPlace cert="low">Fleury</origPlace></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0800"
                                     notAfter="0825">Anfang 9. Jhd.</origDate></p>
                             <note source="Collon">Die erste Lage ist wenig später hinzugefügt
                                 worden.</note>
                         </origin>
-                        <provenance type="Provenance"><name type="Kloster">St-Martin de
-                            Tours</name></provenance>
-                        <provenance source="Rand">Entstanden ist die Handschrift vermutlich in <name
-                                type="Kloster">St-Martin de Tours</name>vor den großen Bibeln. Sie
-                            diente womöglich <name type="Abt">Alkuin</name> als Vorbild für seine
-                            Text- und vor allem die Designreform der späteren turonischen
-                            Bibeln</provenance>
-                        <acquisition>Ging von <name type="Kloster">St-Martin de Tours</name> wie
-                            viele Handschriften des Klosters an die <name type="Repository">Tours,
-                                BM</name> über</acquisition>
+                        <provenance type="Provenance"><orgName>St-Martin de
+                            Tours</orgName></provenance>
+                        <provenance source="Rand">Entstanden ist die Handschrift vermutlich in
+                                <orgName>St-Martin</orgName> de Tours vor den großen Bibeln. Sie
+                            diente womöglich <persName>Alkuin</persName> als Vorbild für seine Text-
+                            und vor allem die Designreform der späteren turonischen
+                            Bibeln.</provenance>
+                        <acquisition>Ging von <orgName>St-Martin</orgName> de Tours wie viele
+                            Handschriften des Klosters an die <name type="Repository">Tours,
+                                BM</name> über.</acquisition>
                     </history>
                     <additional>
                         <surrogates>

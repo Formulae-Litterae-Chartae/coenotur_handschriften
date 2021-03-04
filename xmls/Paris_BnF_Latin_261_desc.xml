@@ -36,7 +36,7 @@
                <msContents>
                   <msItem class="Bibel Evangelien">
                      <author/>
-                     <title/>
+                     <title>Evangelien</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -62,10 +62,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>vier Hände</p>
+                     <handNote>vier Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">perfektionierte turonische Minuskel</p>
+                     <scriptNote source="Rand">perfektionierte turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote source="Köhler">
@@ -108,11 +108,11 @@
                         St-Martin an, entstanden wohl auf Basis von Tours, BM, 23, das dem Stift
                         nach der Zerstörung von 853 gegeben worden sei. </note>
                   </origin>
-                  <provenance type="Provenance"><name type="Ort"/>Le Mans</provenance>
-                  <provenance><p>Die Handschrift wurde 1582 von <name type="Person">Nicolas Le
-                           Fevre</name> in <name type="Ort">Le Mans</name> gekauft und gelangte dann
-                        in den Besitz von <name type="Person">J.-A. de Thou</name> und schließlich
-                        zu <name type="Person">Colbert</name>.</p></provenance>
+                  <provenance type="Provenance"><placeName>Le Mans</placeName></provenance>
+                  <provenance>Die Handschrift wurde 1582 von <persName>Nicolas Le Fevre</persName>
+                     in <placeName>Le Mans</placeName> gekauft und gelangte dann in den Besitz von
+                        <persName>J.-A. de Thou</persName> und schließlich zu
+                        <persName>Colbert</persName>.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

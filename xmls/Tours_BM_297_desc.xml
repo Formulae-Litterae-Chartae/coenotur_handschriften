@@ -49,18 +49,18 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines="="/>
+                        <layout writtenLines=""/>
                         <layout><p>feine rote Initialen und rote Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -71,12 +71,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low">Tours</origPlace></p>
+                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="low" notBefore="1000"
                            notAfter="1100">11. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

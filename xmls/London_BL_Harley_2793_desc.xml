@@ -1,0 +1,113 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>London, BL, Harley 2793</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <collection/>
+                        <idno>Harley 2793</idno>
+                        <altIdentifier source="Rand">
+                            <idno>28</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>7</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2458</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Bibel Psalter Liturgie">
+                            <author/>
+                            <title>Psalter</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="146">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="29.5"/>
+                                        <width n="22.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="19.5"/>
+                                        <width n="12.4"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="21"/>
+                                <layout><p source="Rand">Rote Titel, silberne und schwarze Initialen.</p>
+                                    <p source="Köhler">Psalmüberschriften in roter Unziale, Anfangszeilen in gezierter Halbunziale oder reiner Unziale.</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">3 ähnliche Hände</handNote>
+                            <handNote source="Köhler">zwei sehr verwandte Hände</handNote>
+                            <handNote source="Bischoff">mehrere Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Bischoff">FRühe turonische Minuskel</scriptNote>
+                        </scriptDesc>
+                        <musicNotation></musicNotation>
+                        <decoDesc>
+                            <decoNote>
+                                <p source="Rand">Initialen mit eingekreisten Vögeln</p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions></additions>
+                        <bindingDesc>
+                            <decoNote source="Köhler">Ledereinband des 18. Jahrhundert</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium" source="Bischoff"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                            <note></note>
+                        </origin>
+                        <provenance type="Provenance"></provenance>
+                        <provenance></provenance>
+                        <acquisition ><name type="Repository">British Library</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2793_fs001r</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=7313&amp;CollID=8&amp;NStart=2793</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="106"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="367 368"></biblScope></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="116"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
+

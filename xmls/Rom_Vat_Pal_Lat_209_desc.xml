@@ -61,13 +61,13 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p>2 Hände</p>
+                            <handNote>2 Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p></p>
                         </scriptDesc>
                         <musicNotation>
-                            <p>Neumen, vielleicht aus <name type="Kloster">Tours</name> oder aus <name type="Kloster">Fleury</name>
+                            <p>Neumen, vielleicht aus <placeName>Tours</placeName> oder aus <orgName>Fleury</orgName>
                             </p>
                         </musicNotation>
                         <decoDesc>
@@ -86,12 +86,12 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff" cert="medium">Vielleicht etwa Fleury-Auxerre</origPlace></p>
-                            <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">Vielleicht etwa <orgName>Fleury</orgName>-<placeName>Auxerre</placeName></origPlace></p>
+                            <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                            <note>Die Neumen könnten entweder aus Fleury oder aus Tours stammen.</note>
+                            <note>Die Neumen könnten entweder aus <orgName>Fleury</orgName> oder aus <placeName>Tours</placeName> stammen.</note>
                         </origin>
-                        <provenance type="Provenance"><name type="Kloster">Frankenthal</name></provenance>
+                        <provenance type="Provenance"><orgName>Frankenthal</orgName></provenance>
                         <acquisition>Ging irgendwann an die Vatikana über.</acquisition>
                     </history>
                     <additional>

@@ -56,13 +56,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -73,7 +73,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="" cert="low">Tours</origPlace></p>
+                     <p><origPlace source="" cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="" cert="low" notBefore="1000" notAfter="1025">Anfang 11.
                            Jhd. (Teile vom 15. Jhd.)</origDate></p>
                      <note/>

@@ -53,10 +53,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>zahlreiche Hände</p>
+                     <handNote>zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -71,13 +71,13 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="medium"
-                           ><name>Tours</name></origPlace></p>
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0875"
                            >Mitte (?) 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
-                  <provenance>Colbert.</provenance>
+                  <provenance>Colbert</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

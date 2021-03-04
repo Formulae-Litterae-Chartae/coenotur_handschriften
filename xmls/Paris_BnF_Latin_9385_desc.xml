@@ -24,7 +24,7 @@
                <msContents>
                   <msItem class="Bibel Evangeliar">
                      <author/>
-                     <title>Evangeliar</title>
+                     <title/>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -51,12 +51,12 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">eine Hand, vielleicht dieselbe wie Beatty 8</p>
-                     <p source="BnF">Perikopen von einer anderen Hand</p>
+                     <handNote source="Rand">eine Hand, vielleicht dieselbe wie Beatty 8</handNote>
+                     <handNote source="BnF">Perikopen von einer anderen Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>perfektionierte turonische Minuskel</p>
-                     <p>Vorworte in Halbunziale, Incipits in Capitalis</p>
+                     <scriptNote>perfektionierte turonische Minuskel</scriptNote>
+                     <scriptNote>Vorworte in Halbunziale, Incipits in Capitalis</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -70,11 +70,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><name>Tours, St-Martin</name></origPlace></p>
+                     <p><origPlace cert="high"><placeName>Tours</placeName>,
+                              <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0843" notAfter="0851"
                            >843-851</origDate></p>
-                     <note>Hergestellt unter <name type="abbot">Vivian</name>, sind Ort und
-                        Datierung nicht anzuzweifeln.</note>
+                     <note>Hergestellt unter <persName>Vivian</persName>, sind Ort und Datierung
+                        nicht anzuzweifeln.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

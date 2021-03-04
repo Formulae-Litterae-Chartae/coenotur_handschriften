@@ -59,10 +59,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>drei Hände</p>
+                     <handNote>drei Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -80,16 +80,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low"><name>nicht
-                        Tours</name></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low"><name>Auxerre (?) (fol. 1 mittleres
-                              Frankreich)</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                        ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low">nicht Tours</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low"><placeName>Auxerre</placeName> (?)
+                           (fol. 1 mittleres Frankreich)</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875"
                            >3. Viertel 9. Jhd. (2. Viertel für fol. 1)</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name>St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Gekauft am 27. April 1831 durch M. Caron.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

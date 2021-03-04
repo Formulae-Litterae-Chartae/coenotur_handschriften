@@ -67,7 +67,7 @@
                         <additions>
                             <p n="Korrekturen"><locus n="91v 94v"></locus>wenig Korrekturen</p>
                             <p n="Ergänzung"><locus n="89v">andere Schrift</locus></p>
-                            <p n="Konkordanzen">Konkorddanzen</p>
+                            <p n="Konkordanzen">Konkordanzen</p>
                         </additions>
                         <bindingDesc>
                             <decoNote>Holzeinband mit rotem Leder und dem apostolischen Wappen.</decoNote>
@@ -75,9 +75,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Traube Rand" cert="low">"Offenbar aus Tours"</origPlace></p>
+                            <p><origPlace source="Traube Rand" cert="low">"Offenbar aus <placeName>Tours</placeName>"</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
-                            <note>Eine Entstehung in Tours erscheint unwahrscheinlich.</note>
+                            <note>Eine Entstehung in <placeName>Tours</placeName> erscheint unwahrscheinlich.</note>
                         </origin>
                         <provenance type="Provenance"></provenance>
                     </history>

@@ -56,10 +56,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel</p>
+                     <scriptNote>turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -73,14 +73,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="high"><name type="Ort"
-                           >Tours</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="high"
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1./2. Viertel 9. Jhd.</origDate></p>
                      <note>Die Handschrift wurde zu einem späteren Zeitpunkt zusammengefügt. Nur
                         fol. 66-79 können auf Tours zurückgeführt werden.</note>
                   </origin>
-                  <provenance type="Provenance">fol. 1-52: <name type="Ort">Metz</name></provenance>
+                  <provenance type="Provenance">fol. 1-52: <placeName>Metz</placeName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

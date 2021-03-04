@@ -54,14 +54,14 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">eine Hand</p>
-                     <p source="Bischoff">mehr als eine Hand</p>
-                     <p>Boso</p>
-                     <p>viele verschiedenen Hände, sowie eine zeitgenössische Korrekturhand; eine
-                        weist Ähnlichkeit mit Tours, BM, 10 auf</p>
+                     <handNote source="Rand">eine Hand</handNote>
+                     <handNote source="Bischoff">mehr als eine Hand</handNote>
+                     <handNote>Boso</handNote>
+                     <handNote>viele verschiedenen Hände, sowie eine zeitgenössische Korrekturhand;
+                        eine weist Ähnlichkeit mit Tours, BM, 10 auf</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">verbesserte Kursive; gemischte Majuskel</p>
+                     <scriptNote source="Rand">verbesserte Kursive; gemischte Majuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -78,12 +78,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >1. Viertel 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"/>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

@@ -57,13 +57,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Berilandus Levita</p>
+                     <handNote>Berilandus Levita</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p><locus n="45"/><seg type="lat">Ego Berilandus Levita indignus favente deo
@@ -76,7 +76,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="low">vielleicht nicht aus
-                        Tours</origPlace></p>
+                              <placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="low">Nordostfrankreich (nicht zu fern von
                            Corbie?)</origPlace></p>
                      <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0860">2.

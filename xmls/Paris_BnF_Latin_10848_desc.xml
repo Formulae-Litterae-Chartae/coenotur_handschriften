@@ -57,10 +57,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>eine Hand</p>
+                     <handNote>eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel</p>
+                     <scriptNote>turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -88,10 +88,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="BnF" cert="medium"><name>Tours, St-Martin oder
-                              Marmoutier</name></origPlace></p>
-                     <p><origPlace source="Rand Köhler" cert="medium"><name>Tours,
-                           St-Martin</name></origPlace></p>
+                     <p><origPlace source="BnF" cert="medium"><placeName>Tours</placeName>,
+                              <orgName>St-Martin</orgName> oder
+                           <orgName>Marmoutier</orgName></origPlace></p>
+                     <p><origPlace source="Rand Köhler" cert="medium"><placeName>Tours</placeName>,
+                              <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0816" notAfter="0835"
                            >816-835</origDate></p>
                      <note>Datierung durch die Liste der Erzbischöfe auf fol. 117r, in der der

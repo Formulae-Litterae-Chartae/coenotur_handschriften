@@ -62,10 +62,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand Bischoff">drei Haupthände</p>
+                     <handNote source="Rand Bischoff">drei Haupthände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">„Kräftige kalligr. Min.“</p>
+                     <scriptNote source="Bischoff">„Kräftige kalligr. Min.“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -82,18 +82,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">etwa Niederrhein
                         (?)</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875"
                            >2. (oder 3.) Viertel 9. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance>Die Handschrift lagerte bis zur Revolution in der Kathedrale von
-                     Tours, wurde schließlich von <name type="Person">Libri</name> gestohlen und
-                     gelangte vermutlich über Lord <name type="Person">Ashburnham</name> an die
-                     BnF</provenance>
+                     Tours, wurde schließlich von <persName>Libri</persName> gestohlen und gelangte
+                     vermutlich über Lord <persName>Ashburnham</persName> an die BnF</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

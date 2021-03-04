@@ -56,10 +56,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">ungefähr ein Dutzend Hände</p>
+                     <handNote source="Rand">ungefähr ein Dutzend Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">„Revived Cursive“</p>
+                     <scriptNote source="Rand">„Revived Cursive“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -67,7 +67,6 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p/>
                      <p n="Exlibris"><locus n="2r"/><seg type="lat">iste liber est de armario beati
                            martini turonensis</seg> (12. Jhd./13. Jhd.)</p>
                   </additions>
@@ -78,18 +77,19 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low"><name>nicht
-                        Tours</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                        ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low">nicht Tours</origPlace></p>
                      <p><origDate source="Bischoff" cert="low" notBefore="0900" notAfter="1000">10.
                            Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="low" notBefore="0800" notAfter="0900">9.
                            Jhd.</origDate></p>
                      <note>Aus St-Martin, aber vermutlich nicht in Tours hergestellt.</note>
                   </origin>
-                  <provenance type="Provenance"><name>St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Entstehung ist unklar, aber gesichert ist, dass die Handschrift im 12.
-                     Jhd. in St-Martin war. 1832 wurde sie durch Danquin gekauft.</provenance>
+                     Jhd. in <orgName>St-Martin</orgName> war. 1832 wurde sie durch
+                        <placeName>Danquin</placeName> gekauft.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

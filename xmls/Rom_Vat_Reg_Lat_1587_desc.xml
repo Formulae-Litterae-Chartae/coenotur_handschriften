@@ -28,12 +28,6 @@
                         <altIdentifier source="Mostert">
                             <idno>1514</idno>
                         </altIdentifier>
-                        <altIdentifier source="Rigault">
-                            <idno></idno>
-                        </altIdentifier>
-                        <altIdentifier source="Hurault">
-                            <idno></idno>
-                        </altIdentifier>
                         <altIdentifier source="Bischoff">
                             <idno>6789</idno>
                         </altIdentifier>
@@ -99,13 +93,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff" cert="low"><name>Tours?</name></origPlace></p>
+                            <p><origPlace source="Bischoff" cert="low"><placeName>Tours</placeName>?</origPlace></p>
                             <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
                             <note>Wenn überhaupt, dann stammt nur Teil III (f.57-64) aus Tours, aber auch dieser Teil erscheint mir nicht sehr turonisch. Eine Entstehung eines Großteils der heutigen Handschrift in 4 verschiedenen mittelalterlichen Handschriften in Fleury erscheint sehr wahrscheinlich.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
-                        <provenance>Die Handschrift war or 1560 im Besitz on <name type="person">Pierre Daniel</name>.</provenance>
-                        <provenance>Von dort gelangte sie dann in den Besitz von <name type="person">Heinsius</name>.</provenance>
+                        <provenance>Die Handschrift war or 1560 im Besitz on <persName>Pierre Daniel</persName>.</provenance>
+                        <provenance>Von dort gelangte sie dann in den Besitz von <persName>Heinsius</persName>.</provenance>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
                     </history>
                     <additional>

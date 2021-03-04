@@ -90,11 +90,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">mindestens 6 Hände, alle sehr klar und flüssig, aber nicht
-                        ganz die Schönheit der Grandval-Bibel</p>
+                     <handNote source="Rand">mindestens 6 Hände, alle sehr klar und flüssig, aber
+                        nicht ganz die Schönheit der Grandval-Bibel</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">"Perfected"</p>
+                     <scriptNote source="Rand">„perfected“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote source="Köhler">sehr viele sehr schöne Miniaturen</decoNote>
@@ -110,19 +110,18 @@
                   <origin>
                      <p><origPlace cert="high">St-Martin</origPlace></p>
                      <p><origDate source="Rand Bischoff" cert="high" notBefore="0843"
-                           notAfter="0851">843-851 Vivian, vielleicht vor 845</origDate></p>
+                           notAfter="0851">843-851 unter Vivian, vielleicht vor 845</origDate></p>
                   </origin>
-                  <provenance type="Provenance"><name type="Ort">Metz</name></provenance>
-                  <provenance>Die Handschrift wurde unter <name type="Abt">Vivian</name> begonnen
-                     und von diesem <name type="person">Karl dem Kahlen</name> im Beisein der
-                     monastischen Amtsträger <name type="person">Amandus</name>, <name type="person"
-                        >Sigvaldus</name> und <name type="person">Aregarius</name>
-                     präsentiert.</provenance>
-                  <provenance><name type="person">Karl der Kahle</name> übergab die Bibel vermutlich
-                     in Zusammenhang mit seiner Krönung zum König von Lotharingien im Jahr 869 an
-                     die Kathedrale von <name type="Ort">Metz</name>.</provenance>
-                  <provenance>Von dort ging sie 1675 in den Besitz von <name type="person"
-                        >Colbert</name> über</provenance>
+                  <provenance type="Provenance"><placeName>Metz</placeName></provenance>
+                  <provenance>Die Handschrift wurde unter <persName>Vivian</persName> begonnen und
+                     von diesem <persName>Karl dem Kahlen</persName> im Beisein der monastischen
+                     Amtsträger <persName>Amandus</persName>, <persName>Sigvaldus</persName> und
+                        <persName>Aregarius</persName> präsentiert.</provenance>
+                  <provenance><persName>Karl der Kahle</persName> übergab die Bibel vermutlich in
+                     Zusammenhang mit seiner Krönung zum König von Lotharingien im Jahr 869 an die
+                     Kathedrale von <placeName>Metz</placeName>.</provenance>
+                  <provenance>Von dort ging sie 1675 in den Besitz von <persName>Colbert</persName>
+                     über</provenance>
                   <provenance>Sie gelangte 1732 in die Bibliothèque royale.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

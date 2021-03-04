@@ -73,13 +73,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="medium" source="Bischoff">Umkreis von <name>Tours</name></origPlace></p>
-                            <p><origPlace cert="medium" source="Rand">Nicht aus <name>Tours</name></origPlace></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0900">9. Jhd.</origDate></p>
+                            <p><origPlace cert="medium" source="Bischoff">Umkreis von <placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace cert="medium" source="Rand">Nicht aus <placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0899">9. Jhd.</origDate></p>
                             <p></p>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
-                        <provenance>Wie das Inhaltsverzeichnis vor f.1 belegt, war die Handschrift 1647 im Besitz von <name type="person">Alexandre Pauli</name>, Sohn von Petau.</provenance>
+                        <provenance>Wie das Inhaltsverzeichnis vor f.1 belegt, war die Handschrift 1647 im Besitz von <persName>Alexandre Pauli</persName>, Sohn von Petau.</provenance>
                         <acquisition><name type="Repository">BnF</name></acquisition>
                     </history>
                     <additional>

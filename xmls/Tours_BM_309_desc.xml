@@ -58,14 +58,14 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Winandy">verschiedene Hände, die zum Teil stark voneinander
-                        abweichen</p>
+                     <handNote source="Winandy">verschiedene Hände, die zum Teil stark voneinander
+                        abweichen</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -76,16 +76,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">Paris, wohl
-                           St-Germain-des-Près</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                        ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low"><placeName>Paris</placeName>, wohl
+                              <orgName>St-Germain-des-Près</orgName></origPlace></p>
                      <p><origPlace source="Köhler" cert="low">Tours sehr zweifelhaft</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >3. Viertel 9. Jhd.</origDate></p>
                      <note>das gesamte Schriftbild weicht doch sehr stark von den anderen
                         turonischen Handschriften ab</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

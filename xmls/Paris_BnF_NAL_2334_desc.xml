@@ -48,10 +48,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p>Unziale und Ergänzungen in karolingischer Minuskel</p>
+                     <scriptNote>Unziale und Ergänzungen in karolingischer Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -69,29 +69,28 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"><name>Tours</name>, vielleicht
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>, vielleicht
                            St-Maurice</origPlace></p>
                      <p><origPlace source="Mercier" cert="low">Norditalien (?), Osteuropa (?),
                            Nordafrika (?), Tours (?)</origPlace></p>
-                     <p><origPlace source="Katalog" cert="low"><name>Fleury</name>
-                        (?)</origPlace></p>
+                     <p><origPlace source="Katalog" cert="low"><orgName>Fleury</orgName>
+                           (?)</origPlace></p>
                      <p><origPlace source="Köhler" cert="low">nicht
-                        <name>Tours</name></origPlace></p>
+                           <placeName>Tours</placeName></origPlace></p>
                      <p><origDate cert="low" notBefore="0500" notAfter="0900">6.-9.
                         Jhd.</origDate></p>
                      <note>Die Entstehung der Handschrift liegt im Dunkeln. Sie gelang spätestens im
                         8. Jahrhundert ins Frankenreich.</note>
                   </origin>
-                  <provenance type="Provenance" source="Köhler"><name type="Kloster">Tours</name>,
-                     gehörte der Kathedrale</provenance>
-                  <provenance source="Köhler">Entstanden ist die Handschrift wohl nicht in <name
-                        type="Kloster">Tours</name>.</provenance>
+                  <provenance type="Provenance" source="Köhler"><orgName>Tours</orgName>, gehörte
+                     der Kathedrale</provenance>
+                  <provenance source="Köhler">Entstanden ist die Handschrift wohl nicht in
+                        <placeName>Tours</placeName>.</provenance>
                   <provenance>Sie gelangte im Laufe des 8. Jahrhunderts ins Frankenreich und ist ab
-                     dem 9. Jahrhundert in <name type="Kloster">Tours</name>
-                     nachweisbar.</provenance>
-                  <provenance>1842 von <name type="Person">Libri</name> gestohlen, wurde sie 1847
-                     von Lord <name type="Person">Ashburnham</name> gekauft und gelang 1888 durch
-                        <name type="Person">Delisle</name> an die BnF.</provenance>
+                     dem 9. Jahrhundert in <placeName>Tours</placeName> nachweisbar.</provenance>
+                  <provenance>1842 von <persName>Libri</persName> gestohlen, wurde sie 1847 von Lord
+                        <persName>Ashburnham</persName> gekauft und gelang 1888 durch
+                        <persName>Delisle</persName> an die BnF.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

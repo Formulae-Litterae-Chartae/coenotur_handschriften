@@ -54,22 +54,22 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout/>
-                        <layout/>
-                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Bischoff">mehrere Hände</p>
+                     <handNote source="Bischoff">mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">vorkarolingische turonische Minuskel</p>
+                     <scriptNote source="Bischoff">vorkarolingische turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris" source="CLA"><locus n="2r"/><seg type="lat">LIBER SCI MAXINI (sic) MICIACENS</seg> (9. Jhd.)</p>
-                     <p n="Exlibris" source="CLA"><locus n="1r"/><seg type="lat">Liber Sancti maximini relectus a petro abbate</seg> (9. Jhd.)</p>
+                     <p n="Exlibris" source="CLA"><locus n="2r"/><seg type="lat">LIBER SCI MAXINI
+                           MICIACENS</seg>(sic) (9. Jhd.)</p>
+                     <p n="Exlibris" source="CLA"><locus n="1r"/><seg type="lat">Liber Sancti
+                           maximini relectus a petro abbate</seg> (9. Jhd.)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -77,18 +77,24 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low"><name type="Ort"
-                           >Micy</name></origPlace></p>
-                     <p><origPlace source="Mercier" cert="low"><name type="Ort"
-                           >Tours</name></origPlace></p>
-                     <p><origDate source="CLA" cert="medium" notBefore="0750" notAfter="0800">751-800</origDate></p>
+                     <p><origPlace source="Bischoff" cert="low"
+                           ><placeName>Micy</placeName></origPlace></p>
+                     <p><origPlace source="Mercier" cert="low"
+                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="CLA" cert="medium" notBefore="0750" notAfter="0800"
+                           >751-800</origDate></p>
                      <p><origDate source="Mercier BnF" cert="medium" notBefore="0700"
                            notAfter="0800">8. Jhd.</origDate></p>
-                     <note>Die Entstehung der Handschrift ist nicht gesichert. Es scheint jedoch so, dass der Abt Peter von Micy Korrekturen an der HAndschrift vorgenommen hat, wie aus der zitierten Anmerkung herorgeht. Auch scheint er die bereits frühzeitig verlorenen f. 9-13 ersetzt zu haben (DELISLE).</note>
+                     <note source="Delisle">Die Entstehung der Handschrift ist nicht gesichert. Es
+                        scheint jedoch so, dass der Abt Peter von Micy Korrekturen an der
+                        Handschrift vorgenommen hat, wie aus der zitierten Anmerkung hervorgeht.
+                        Auch scheint er die bereits frühzeitig verlorenen fol. 9-13 ersetzt zu
+                        haben.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Ort">Micy</name></provenance>
-                  <provenance>Durch das Exlibris von Peter von Micy, der von 840-859 Abt in Micy war, steht fest, dass die Handschrift bereits im 9. Jhd. nach <name type="Kloster"
-                        >St-Mesmin de Micy</name> gelangte. </provenance>
+                  <provenance type="Provenance"><placeName>Micy</placeName></provenance>
+                  <provenance>Durch das Exlibris von <persName>Peter von Micy</persName>, der von
+                     840-859 Abt in Micy war, steht fest, dass die Handschrift bereits im 9. Jhd.
+                     nach <orgName>St-Mesmin de Micy</orgName> gelangte. </provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -101,7 +107,8 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc597866</idno></bibl>
-                     <bibl><idno>Delisle 1863</idno><biblScope unit="pp" from="408" to="409"/></bibl>
+                     <bibl><idno>Delisle 1863</idno><biblScope unit="pp" from="408" to="409"
+                        /></bibl>
                      <bibl><idno>Mercier 2012 II</idno><biblScope unit="pp" n="118"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="45"/></bibl>
                   </listBibl>

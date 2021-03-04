@@ -56,11 +56,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">vermutlich <name type="scribe">Adalbaldus</name></p>
-                     <p source="Bischoff">die Vermutung Adalbaldus kaum zutreffend</p>
+                     <handNote source="Rand">vermutlich <persName>Adalbaldus</persName></handNote>
+                     <handNote source="Bischoff">die Vermutung Adalbaldus kaum zutreffend</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel von mehr als einer Hand</p>
+                     <scriptNote>turonische Minuskel von mehr als einer Hand</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -79,18 +79,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours</name>, Saint-Martin</origPlace></p>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName>,
+                              <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
                            >1. Drittel 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name>Notre-Dame de Paris</name></provenance>
+                  <provenance type="Provenance"><orgName>Notre-Dame de Paris</orgName></provenance>
                   <provenance>Es ist gut möglich, dass die vorliegende Handschrift eine der beiden
-                     Handschriften ist, die der Bischof <name type="Person">Thibault</name> von
-                     Paris (1142-1157) der Kathedralkirche Notre-Dame geschenkt hat. Durch die
-                     Angaben auf dem Vorblatt aus Papier aus dem 17. Jhd. ist gesichert, dass die
-                     Handschrift zu diesem Zeitpunkt zur Bibliothek von Notre-Dame de Paris
-                     gehörte</provenance>
+                     Handschriften ist, die der Bischof <persName>Thibault</persName> von Paris
+                     (1142-1157) der Kathedralkirche Notre-Dame geschenkt hat. Durch die Angaben auf
+                     dem Vorblatt aus Papier aus dem 17. Jhd. ist gesichert, dass die Handschrift zu
+                     diesem Zeitpunkt zur Bibliothek von Notre-Dame de Paris gehörte</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

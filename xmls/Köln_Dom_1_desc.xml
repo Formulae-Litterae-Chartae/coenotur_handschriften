@@ -28,6 +28,9 @@
                   <altIdentifier source="Darmstadt">
                      <idno>2003</idno>
                   </altIdentifier>
+                  <altIdentifier source="von_Euw">
+                     <idno>4</idno>
+                  </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
@@ -60,10 +63,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Anderson">eine Hand</p>
+                     <handNote source="Anderson">eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>karolingische Minuskel, (Halb-)Unziale</p>
+                     <scriptNote>karolingische Minuskel, (Halb-)Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote><locus n="2r 303v"/>vollseitige Schmuckinitiale in Gold, Silber,
@@ -99,8 +102,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="CEEC Rand Köhler" cert="high">Tours</origPlace></p>
-                     <p><origDate source="von Euw, Bischoff" cert="high" notBefore="0850"
+                     <p><origPlace source="CEEC Rand Köhler" cert="high"
+                              ><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="von_Euw, Bischoff" cert="high" notBefore="0850"
                            notAfter="0890">2. Hälfte 9. Jhd.</origDate></p>
                      <note>Die Entstehung in Tours sowie die Datierung in die 2. Hälfte des 9. Jhd.
                         können als sicher angesehen weren. Als terminus ante quem scheint 890
@@ -108,11 +112,11 @@
                         begann. Sowohl Bischoff als Anderson schlagen eine Datierung zwischen 857
                         und 862 vor, ohne diese jedoch genauer zu begründen.</note>
                   </origin>
-                  <provenance type="Provenance"><name>Dombibliothek Köln</name></provenance>
-                  <provenance source="CEEC"><p>Die Handschrift wurde von Erzbischof <name
-                           type="Person">Hermann I.</name> dem Dom gestiftet.</p>
-                     <p>1241 wurde sie an den Zisterzienserinnenkonvent in <name type="Ort"
-                           >Benden</name> ausgeliehen.</p>
+                  <provenance type="Provenance"><orgName>Dombibliothek Köln</orgName></provenance>
+                  <provenance source="CEEC"><p>Die Handschrift wurde von Erzbischof
+                           <persName>Hermann I.</persName> dem Dom gestiftet.</p>
+                     <p>1241 wurde sie an den Zisterzienserinnenkonvent in
+                           <placeName>Benden</placeName> ausgeliehen.</p>
                      <p>Im 14. Jhd. war sie wieder im Besitz des Kölner Domes.</p></provenance>
                   <acquisition><name type="Repository">Dombibliothek Köln</name></acquisition>
                </history>

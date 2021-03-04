@@ -57,14 +57,14 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Die gesamte Handschrift wurde von <name type="scribe">Adalbaldus</name>
-                        geschrieben.</p>
-                     <p><locus n="6v"/><seg type="lat">Deus adesto scribente Adalbaldo</seg>, in
-                        „griechischen“ Buchstaben.</p>
+                     <handNote>Die gesamte Handschrift wurde von <persName>Adalbaldus</persName>
+                        geschrieben.</handNote>
+                     <handNote><locus n="6v"/><seg type="lat">Deus adesto scribente Adalbaldo</seg>,
+                        in „griechischen“ Buchstaben.</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>Arbeit von Adalbaldus, mit wechselndem Schriftbild, mehr oder weniger
-                        kursiven Elementen, Kapitalis und Unziale.</p>
+                     <scriptNote>Arbeit von Adalbaldus, mit wechselndem Schriftbild, mehr oder
+                        weniger kursiven Elementen, Kapitalis und Unziale.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -81,7 +81,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours</name>, St-Martin</origPlace></p>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName>,
+                              <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
                            >1. Drittel 9. Jhd.</origDate></p>
                      <note>Dadurch, dass die Handschrift sicher durch Adalbaldus abgefasst wurde,

@@ -22,7 +22,7 @@
                   <altIdentifier source="Rand">
                      <idno>204</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Bibel">
@@ -44,7 +44,7 @@
                               <width n="7.5"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -53,42 +53,42 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p></p>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p></p>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <p></p>
+                        <p/>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p></p>
+                     <p/>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="" cert="low"><name>Tours</name></origPlace></p>
-                     <p><origDate source="" cert="" notBefore="" notAfter=""></origDate></p>
-                     <note></note>
+                     <p><origPlace source="" cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="" cert="" notBefore="" notAfter=""/></p>
+                     <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="197"/></bibl>
                   </listBibl>
                </additional>

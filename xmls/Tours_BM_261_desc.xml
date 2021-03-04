@@ -57,13 +57,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>mindestens 4 Hände</p>
+                     <handNote>mindestens 4 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -81,7 +81,7 @@
                         Zeitpunkten entstanden und erst später zusammengebunden worden zu
                         sein</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

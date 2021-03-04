@@ -57,17 +57,15 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">vermutlich zwei Hände, darunter der Schreiber von BL, Add.
-                        11849; Latin 267 und Beatty 11, Hand A</p>
-                     <p source="BnF">eine Haupthand</p>
+                     <handNote source="Rand">vermutlich zwei Hände, darunter der Schreiber von BL,
+                        Add. 11849; Latin 267 und Beatty 11, Hand A</handNote>
+                     <handNote source="BnF">eine Haupthand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">„Perfected“; karolingische Minuskel</p>
+                     <scriptNote source="Rand">„Perfected“; karolingische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p/>
-                     </decoNote>
+                     <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="107v"/>aus Corbie aus dem 16. Jhd.: <seg type="lat"
@@ -82,23 +80,23 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="medium"
-                           ><name>Tours</name></origPlace></p>
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="BnF" cert="medium">Nordfrankreich</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                            >2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875">Mitte
                            9. Jhd.</origDate></p>
-                     <note>Tours ist nicht gesichert. RAND merkt an, dass die
-                        Initiale B (fol. 82v) an den „Franco-Saxon style“ erinnert. Eine Entstehung
+                     <note>Tours scheint nicht angezweifelt zu werden, wobei Rand anmerkt, dass die
+                        Initiale B (fol. 82v) an den „Franco-Savon style“ erinnert. Eine Entstehung
                         in Tours wird von Laura Albiero (BnF) angezweifelt. So scheint eine
                         Entstehung in Nordfrankreich aufgrund der Präsenz der Heiligen Vaast, Médard
                         und Géry wahrscheinlicher.</note>
                   </origin>
-                  <provenance type="Provenance"><name>Corbie</name></provenance>
-                  <provenance>Geht noch im 9. Jhd. nach <name type="Kloster">Corbie</name>. Von
-                        <name type="Kloster">Corbie</name> gelangt die Handschrift zunächst nach
-                        <name type="Kloster">Saint-Germain-des-Près</name> und ging dann 1795/1796
-                     in den Besitz der BnF über.</provenance>
+                  <provenance type="Provenance"><orgName>Corbie</orgName></provenance>
+                  <provenance>Geht noch im 9. Jhd. nach <orgName>Corbie</orgName>. Von
+                        <orgName>Corbie</orgName> gelangt die Handschrift zunächst nach
+                        <orgName>Saint-Germain-des-Près</orgName> und ging dann 1795/1796 in den
+                     Besitz der BnF über.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -112,7 +110,6 @@
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc744131</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="169"/></bibl>
-                     <bibl><idno>Wilmart 1940</idno><biblScope unit="pp"/></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="65"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="208"/></bibl>
                   </listBibl>

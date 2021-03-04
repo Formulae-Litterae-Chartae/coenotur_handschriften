@@ -65,10 +65,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">turonische Minuskel, aber nicht der reine Stil</p>
+                     <scriptNote source="Bischoff">turonische Minuskel, aber nicht der reine
+                        Stil</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -83,13 +84,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><name>Marmoutier (?)</name></origPlace></p>
+                     <p><origPlace cert="low"><orgName>Marmoutier</orgName> (?)</origPlace></p>
                      <p><origDate/></p>
-                     <p/>
                   </origin>
-                  <provenance type="Provenance"><name>Marmoutier</name></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance>Die Handschrift wurde am 12. Mai 1832 für die bibliothèque royale
-                     durch <name type="Person">M. Miller</name> gekauft.</provenance>
+                     durch <persName>M. Miller</persName> gekauft.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

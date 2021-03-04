@@ -33,7 +33,7 @@
                <msContents>
                   <msItem class="Bibel Evangelien">
                      <author/>
-                     <title/>
+                     <title>Evangelien</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -61,12 +61,12 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>eine Hand</p>
+                     <handNote>eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">perfekte turonische Minuskel, auf demselben Niveau wie Latin
-                        266 und Latin 9385, besser als Latin 261</p>
-                     <p source="Bischoff">Evangelienprologe in Halbunziale</p>
+                     <scriptNote source="Rand">perfekte turonische Minuskel, auf demselben Niveau wie Latin
+                        266 und Latin 9385, besser als Latin 261</scriptNote>
+                     <scriptNote source="Bischoff">Evangelienprologe in Halbunziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -82,7 +82,7 @@
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >3. Viertel 9. Jhd.</origDate></p>
                   </origin>
-                  <provenance type="Provenance"><name type="Person">Colbert</name></provenance>
+                  <provenance type="Provenance"><persName>Colbert</persName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

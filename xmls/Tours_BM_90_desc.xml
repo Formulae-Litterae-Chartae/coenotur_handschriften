@@ -53,13 +53,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p>schöne, klare Minuskel</p>
+                     <scriptNote>schöne, klare Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p>zahlreiche Korrekturen</p>
@@ -70,17 +70,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><name type="Kloster">Marmoutier</name></origPlace></p>
+                     <p><origPlace cert="low"><orgName>Marmoutier</orgName></origPlace></p>
                      <p><origDate source="Dorange" cert="medium" notBefore="1070" notAfter="1100"
                            >11. Jhd., um 1090</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance source="Dorange">Hergestellt wurde die Handschrift als Kopie des
-                     Autorenexemplars für die Bibliothek von Marmoutier, und vermutlich vom Autor
-                     selbst korrigiert.</provenance>
-                  <provenance>Die fehlenden Hefte fehlten bereits im 17. Jahrhundert, als Dom
-                     Anselme Le Michel die Handschrift beschreiben hat.</provenance>
+                     Autorenexemplars für die Bibliothek von <orgName>Marmoutier</orgName>, und
+                     vermutlich vom Autor selbst korrigiert.</provenance>
+                  <provenance>Die fehlenden Hefte fehlten bereits im 17. Jahrhundert, als
+                        <persName>Dom Anselme Le Michel</persName> die Handschrift beschreiben
+                     hat.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>

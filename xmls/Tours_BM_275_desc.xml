@@ -57,10 +57,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -72,12 +72,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low">Tours</origPlace></p>
+                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange" cert="low" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

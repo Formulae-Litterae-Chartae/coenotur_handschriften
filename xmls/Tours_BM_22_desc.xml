@@ -66,16 +66,15 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">4 Hände, vielleicht 2 zusätzliche</p>
+                     <handNote source="Rand">4 Hände, vielleicht 2 zusätzliche</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Berger">vollständig in goldener Unziale; irischer Stil</p>
-                     <p source="Rand">nicht von einem Iren</p>
+                     <scriptNote source="Berger">vollständig in goldener Unziale; irischer
+                        Stil</scriptNote>
+                     <scriptNote source="Rand">nicht von einem Iren</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p/>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p><locus from="279" to="285">spätere Hinzufügung</locus></p>
@@ -90,11 +89,11 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="low">Frankreich</origPlace></p>
-                     <p><origPlace source="Köhler" cert="low"><name type="Kloster"
-                           >Fleury</name>?</origPlace></p>
+                     <p><origPlace source="Köhler" cert="low"
+                        ><orgName>Fleury</orgName>?</origPlace></p>
                      <p><origPlace source="Mostert" cert="low">nicht Fleury</origPlace></p>
-                     <p><origPlace source="Rand" cert="low"><name type="Kloster"
-                           >St-Martin</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                        ><orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="low" notBefore="0814" notAfter="1137">nach
                            814?</origDate></p>
                      <p><origDate source="Collon Dorange" cert="low" notBefore="0700"
@@ -114,12 +113,11 @@
                         Datierung anbelangt, erscheint jede Angabe, die über „um 800“ hinausgeht,
                         äußerst fragwürdig.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Sicher ist, dass von 1137 bis 1650 die französischen Könige ihren Eid
-                     bei der Übernahme als Äbte und Kanoniker von <name type="Kloster"
-                        >St-Martin</name> auf diesem Buch geschworen haben, so dass die Handschrift
-                     mindestens seit dieser Zeit in <name type="Kloster">St-Martin</name> gewesen
-                     sein muss.</provenance>
+                     bei der Übernahme als Äbte und Kanoniker von <orgName>St-Martin</orgName> auf
+                     diesem Buch geschworen haben, so dass die Handschrift mindestens seit dieser
+                     Zeit in <orgName>St-Martin</orgName> gewesen sein muss.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>

@@ -50,10 +50,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote><locus n="43v"/>Miniatur von Maria-Magdalena und den heiligen Frauen
@@ -68,13 +68,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Wordsworth" cert="low"><name type="Kloster"
-                           >Tours</name></origPlace></p>
+                     <p><origPlace source="Wordsworth" cert="low"><orgName>
+                           >Tours</orgName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="medium" notBefore="1180"
                            notAfter="1200">Ende 12. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

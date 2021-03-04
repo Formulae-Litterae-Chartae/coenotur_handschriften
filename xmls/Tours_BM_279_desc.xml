@@ -56,13 +56,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Teil I: 2 Hände; Teil II: mehrere Hände</p>
+                     <handNote>Teil I: 2 Hände; Teil II: mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p source="Martinellus.de">Lagenkontrollvermerke</p>
@@ -75,7 +75,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Köhler" cert="low">Marmoutier?</origPlace></p>
+                     <p><origPlace source="Köhler" cert="low"
+                           ><orgName>Marmoutier</orgName>?</origPlace></p>
                      <p><origPlace source="Bischoff" cert="low">); Teil I: westliches, mehr
                            nördliches Frankreich (nicht Tours); Teil II: westliches, etwas südliches
                            (?) Frankreich (nicht Tours) </origPlace></p>
@@ -91,7 +92,7 @@
                         zusammengefügte Handschriften. Könnte in Marmoutier vor der Zerstörung 853
                         entstanden sein.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance source="Dorange">ist von den Benediktinern für die Edition der
                      Schriften von Augustinus und Hieronymus sehr bedeutend zu Rate gezogen
                      worden</provenance>

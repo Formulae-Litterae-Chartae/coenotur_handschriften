@@ -53,23 +53,23 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>verschiedene Hände</p>
+                     <handNote>verschiedene Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>Miniaturen vorhanden; COLLON enthält eine etwas ausführliche
                         Beschreibung der Miniaturen </decoNote>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low">Tours</origPlace></p>
+                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="low" notBefore="1000"
                            notAfter="1100">11. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="low" notBefore="1100" notAfter="1200"
@@ -78,7 +78,7 @@
                         Hauptkriterium für eine spätere Datierung stellen die Initialen dar, die
                         aber wohlmöglich später hinzugefügt wurden </note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

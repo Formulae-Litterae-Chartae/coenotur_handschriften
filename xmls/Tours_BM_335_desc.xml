@@ -56,18 +56,18 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">eine Hand</p>
-                     <p source="Winandy">mehrere Hände</p>
+                     <handNote source="Rand">eine Hand</handNote>
+                     <handNote source="Winandy">mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p></p>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                     </decoNote>
+                     <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
-                     <p source="Winandy">Korrekturen mit schwarzer Tinte; Unterstreichungen in Schwarz und Rot mit Anführungszeichen am Rand</p>
+                     <p source="Winandy">Korrekturen mit schwarzer Tinte; Unterstreichungen in
+                        Schwarz und Rot mit Anführungszeichen am Rand</p>
                      <p source="Winandy">Quellenglossierung</p>
                      <p source="Martinellus.de">Lagenkontrollvermerke</p>
                   </additions>
@@ -77,20 +77,23 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff" cert="medium">Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">(1./)2. Viertel 9. Jhd.</origDate></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
+                     <p><origPlace source="Rand Bischoff" cert="medium"
+                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
+                           >(1./)2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Dorange Collon" cert="low" notBefore="1000"
+                           notAfter="1100">11. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>

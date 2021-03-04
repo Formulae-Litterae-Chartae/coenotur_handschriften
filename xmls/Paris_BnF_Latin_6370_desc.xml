@@ -53,15 +53,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>mehrere Hände</p>
+                     <handNote>mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel</p>
+                     <scriptNote>turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p/>
-                     </decoNote>
+                     <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
                      <p><locus from="108r" to="109v"/>ganzseitiger Nachtrag von Lupus von
@@ -75,13 +73,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                            >2. Viertel 9. Jhd.</origDate></p>
                      <note>Es besteht ein Zusammenhang mit den Handschriften von Lupus von
                         Ferrières.</note>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"/>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

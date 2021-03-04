@@ -99,10 +99,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>mehrere Hände</p>
+                     <handNote>mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>Minuskel</p>
+                     <scriptNote>Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -125,10 +125,9 @@
                      <note>Wenig scheint gesichert. Die Handschrift sieht nicht besonders turonisch
                         aus.</note>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
-                  <provenance>Die Handschrift war im Besitz von Antoine <name type="person"
-                        >Faure</name> und gelangte hierdurch in die königliche
-                     Bibliothek.</provenance>
+                  <provenance type="Provenance"/>
+                  <provenance>Die Handschrift war im Besitz von Antoine <persName>Faure</persName>
+                     und gelangte hierdurch in die königliche Bibliothek.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

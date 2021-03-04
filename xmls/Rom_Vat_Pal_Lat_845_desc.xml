@@ -61,8 +61,8 @@
                             <p></p>
                         </decoDesc>
                         <additions>
-                            <p n="Ergänzung">Einzelne Nachträge on erschiedenen Händen unterschiedlicher Zeiten</p>
-                            <p n="Ergänzung">Wenige T und X Markierungen am Rand</p>
+                            <p>Einzelne Nachträge on erschiedenen Händen unterschiedlicher Zeiten</p>
+                            <p>Wenige T und X Markierungen am Rand</p>
                         </additions>
                         <bindingDesc>
                             <decoNote>Grün</decoNote>
@@ -70,9 +70,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff" cert="medium">Mainz</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium"><placeName>Mainz</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                            <note>Zu Recht als nicht aus Tours stammend deklariert</note>
+                            <note>Zu Recht als nicht aus <placeName>Tours</placeName> stammend deklariert</note>
                         </origin>
                         <provenance type="Provenance">St-Martin in Mainz</provenance>
                         <acquisition></acquisition>

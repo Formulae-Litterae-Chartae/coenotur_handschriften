@@ -54,7 +54,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p source="Rand">mindestens 5 Hände</p>
+                            <handNote source="Rand">mindestens 5 Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand">Die Schrift erinnert an die Moutier-Grandval-Bibel</p>
@@ -66,7 +66,7 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p n="Korrekturen">Korrekturen durch die Hand von <name type="scribe">Lupus von Ferrières</name></p>
+                            <p n="Korrekturen">Korrekturen durch die Hand von <persName type="scribe">Lupus von Ferrières</persName></p>
                             <p n="Anmerkungen">Weitere Anmerkungen einer abweichenden, ermutlich späteren Hand</p>
                             <p n="Exlibris"><locus n=""/></p>
                         </additions>
@@ -76,9 +76,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="high"><name type="Gemeinschaft">St-Martin de Tours</name></origPlace></p>
+                            <p><origPlace cert="high"><name type="Gemeinschaft"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></name></origPlace></p>
                             <p><origDate cert="high" notBefore="0810" notAfter="0860">circa 850, oder eher 820-843</origDate></p>
-                            <note>Durch die Nähe zur Grandval-Bibel und dem doch sehr typisch-wirkenden Erscheinungsbild ist eine Entstehung in St-Martin anzunehmen. Dies würde dann eine Datierung eher um 820-843 nahelegen.</note>
+                            <note>Durch die Nähe zur Grandval-Bibel und dem doch sehr typisch-wirkenden Erscheinungsbild ist eine Entstehung in <orgName>St-Martin</orgName> anzunehmen. Dies würde dann eine Datierung eher um 820-843 nahelegen.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance></provenance>

@@ -46,10 +46,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>ca. 20 Schreiber (8 Unziale, 3 Halbunziale, 23 Merowingische Kursive)</p>
+                     <handNote>ca. 20 Schreiber (8 Unziale, 3 Halbunziale, 23 Merowingische
+                        Kursive)</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>Unziale, Halbunziale, Minuskel</p>
+                     <scriptNote>Unziale, Halbunziale, Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -65,8 +66,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><name>Tours</name>, <name
-                              type="Kloster">St-Martin</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName>,
+                              <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Mercier" cert="low" notBefore="0725" notAfter="0750"
                            >725-750</origDate></p>
                      <p><origDate source="Hellmann" cert="low" notBefore="0700" notAfter="0725"
@@ -74,15 +75,15 @@
                      <p><origDate source="Rand" cert="low" notBefore="0600" notAfter="0625">Anfang
                            7. Jhd.</origDate></p>
                      <note source="Mercier">Wohl entstanden am Anfang des 8. Jahrhunderts,
-                        vermutlich unter Abt <name type="Abt">Wictbert</name>. Die Datierung von
-                        Rand erscheint unglaubwürdig.</note>
+                        vermutlich unter Abt <persName>Wictbert</persName>. Die Datierung von Rand
+                        erscheint unglaubwürdig.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance>Vermutlich entstanden in <name type="Kloster">St-Martin</name>. Dort
-                     aufbewahrt, bis Teile durch <name type="Person">Libri</name> gestohlen wurden,
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance>Vermutlich entstanden in <orgName>St-Martin</orgName>. Dort
+                     aufbewahrt, bis Teile durch <persName>Libri</persName> gestohlen wurden,
                      gelangte die Handschrift zwischen 1820 und 1830 in die Bibliothek von Jules
-                        <name type="Person">Desnoyers</name> und wurde 1888 durch <name
-                        type="Person">Delisle</name> für die BnF gekauft.</provenance>
+                        <persName>Desnoyers</persName> und wurde 1888 durch
+                        <persName>Delisle</persName> für die BnF gekauft.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

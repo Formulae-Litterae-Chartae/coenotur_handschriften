@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p source="Rand"></p>
+                            <handNote></handNote>
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand">2 völlig abweichende Schriftbilder</p>
@@ -76,7 +76,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff" cert="unknown">vielleicht Tours?</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="unknown">vielleicht <placeName>Tours</placeName>?</origPlace></p>
                             <p><origDate cert="medium" notBefore="0877" notAfter="0900">9. Jhd. nach 877</origDate></p>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster"></name></provenance>

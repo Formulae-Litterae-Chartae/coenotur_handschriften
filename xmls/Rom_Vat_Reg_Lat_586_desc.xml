@@ -59,7 +59,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p source="Rand"></p>
+                            <handNote></handNote>
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand">Karolingische Minuskel</p>
@@ -81,7 +81,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
+                            <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875"/>Mitte 9. Jhd.</p>
                             <p></p>
                         </origin>

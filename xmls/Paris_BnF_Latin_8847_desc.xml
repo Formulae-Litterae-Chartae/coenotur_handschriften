@@ -50,10 +50,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>mehrere Hände</p>
+                     <handNote>mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">„Noch nicht gestraffte turonische Min.“</p>
+                     <scriptNote source="Bischoff">„Noch nicht gestraffte turonische
+                        Min.“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -65,23 +66,23 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0795" notAfter="0805"
                            >gegen 800</origDate></p>
                      <note>Um 800 und noch unter Alkuin in St-Martin entstanden, und vielleicht
                         sogar vor der Ankunft Alkuins begonnen, handelt es sich um das älteste
                         überlieferte Zeugnis eines Pandektes aus St-Martin.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Echternach</name></provenance>
+                  <provenance type="Provenance"><orgName>Echternach</orgName></provenance>
                   <provenance source="Ferrari">Die Wiederherstellung von Schriftteilen, die sicher
-                     in <name type="Kloster">Echternach</name> durchgeführt wurden, belegen, dass
-                     die Handschrift spätestens im 11. Jhd. in <name type="Kloster"
-                        >Echternach</name> lag.</provenance>
+                     in <orgName>Echternach</orgName> durchgeführt wurden, belegen, dass die
+                     Handschrift spätestens im 11. Jhd. in <orgName>Echternach</orgName>
+                     lag.</provenance>
                   <provenance>Ein Teil der Handschrift ist bis in 16. Jhd. in Echternach geblieben,
                      wobei ein Großteil der Folio des Alten Testamentes zu diesem Zeitpunkt bereits
                      verloren waren. Von Echternach gelangt der erhaltene Teil nach Luxemburg und
-                     wurde dort im 19. Jhd. von <name type="Person">Jean-Baptiste Maugerard</name>
-                     in einem Speicher gefunden. </provenance>
+                     wurde dort im 19. Jhd. von <persName>Jean-Baptiste Maugerard</persName> in
+                     einem Speicher gefunden. </provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

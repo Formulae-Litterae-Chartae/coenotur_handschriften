@@ -56,13 +56,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>verschiedene Hände</p>
+                     <handNote>verschiedene Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">Halbunziale selten und ornamental</p>
+                     <scriptNote source="Rand">Halbunziale selten und ornamental</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -73,13 +73,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium">Tours</origPlace></p>
-                     <p><origPlace source="Köhler" cert="low">Marmoutier</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"
+                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low"
+                           ><orgName>Marmoutier</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1./2. Viertel 9. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

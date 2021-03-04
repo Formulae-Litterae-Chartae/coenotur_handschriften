@@ -56,11 +56,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p><locus n="214"/><name type="scribe">Audgarius</name> (nennt sich in einem
-                        Monogramm).</p>
+                     <handNote><locus n="214"/><persName>Audgarius</persName> (nennt sich in
+                        einem Monogramm).</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">verbesserte karolingische Kursive</p>
+                     <scriptNote source="Rand">verbesserte karolingische Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -82,19 +82,19 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
                      <p><origPlace source="BnF" cert="low">Loiretal</origPlace></p>
-                     <p><origPlace source="Ganz" cert="low">"skilled imitation of
-                        Tours"</origPlace></p>
+                     <p><origPlace source="Ganz" cert="low">„skilled imitation of
+                        Tours“</origPlace></p>
                      <p><origDate cert="medium" notBefore="0803" notAfter="0814">ca.
                            803-814</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name type="Person">Colbert</name></provenance>
+                  <provenance type="Provenance"><persName>Colbert</persName></provenance>
                   <provenance>Der Entstehungsort ist ungewiss; wahrscheinlicht erscheint das
-                     Loiretal in der Nähe von Tours. Durch <name type="Person">Colbert</name>
-                     erfahren wir, dass die Handschrift aus der Gallia Narbonnense stammte, bevor er
-                     sie 1682 in <name type="Ort">Montpellier</name> gekauft hat. Die Handschrift
-                     gelangte 1732 mit den weiteren Handschriften von <name type="Person"
-                        >Colbert</name> in die königliche Bibliothek.</provenance>
+                     Loiretal in der Nähe von Tours. Durch <persName>Colbert</persName> erfahren
+                     wir, dass die Handschrift aus der Gallia Narbonnense stammte, bevor er sie 1682
+                     in <placeName>Montpellier</placeName> gekauft hat. Die Handschrift gelangte
+                     1732 mit den weiteren Handschriften von <persName>Colbert</persName> in die
+                     königliche Bibliothek.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

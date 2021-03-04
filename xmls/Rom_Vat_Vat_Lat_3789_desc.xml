@@ -52,7 +52,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p>mindestens 2 Hände</p>
+                            <handNote>mindestens 2 Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p>Karolingische Minuskel</p>
@@ -77,8 +77,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="low" source="Bischoff"><name>etwa Tours?</name> <name>Italien?</name></origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0867" notAfter="0900"/>9. Jhd. nach 867, dem Tod on Nikolaus I.</p>
+                            <p><origPlace cert="low" source="Bischoff">etwa <placeName>Tours</placeName>?; Italien?</origPlace></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0867" notAfter="0900"/>9. Jhd. nach 867, dem Tod von <persName type="King">Nikolaus I.</persName></p>
                             <p></p>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>

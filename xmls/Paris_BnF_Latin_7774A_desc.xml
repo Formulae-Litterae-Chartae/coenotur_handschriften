@@ -56,10 +56,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -71,7 +71,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1./2. Viertel 9. Jhd.</origDate></p>
                      <p/>

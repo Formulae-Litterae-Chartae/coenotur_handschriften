@@ -48,14 +48,14 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">drei Hände, teilweise Nutzung von Halbunziale und früher
-                        Minuskel; einzelne Spalten einer späteren Hand. Rainardus (fol. 63r oben),
-                        und „ego Gislardus“ fol. 123r. Hierbei scheint es sich nicht um einen der
-                        beiden Gislardus aus dem Sankt Galler Verbrüderungsbuch (Nummern 64 und 195)
-                        zu handeln, sondern um einen älteren Mönch</p>
+                     <handNote source="Rand">drei Hände, teilweise Nutzung von Halbunziale und
+                        früher Minuskel; einzelne Spalten einer späteren Hand. Rainardus (fol. 63r
+                        oben), und „ego Gislardus“ fol. 123r. Hierbei scheint es sich nicht um einen
+                        der beiden Gislardus aus dem Sankt Galler Verbrüderungsbuch (Nummern 64 und
+                        195) zu handeln, sondern um einen älteren Mönch</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>Unziale</p>
+                     <scriptNote>Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -64,7 +64,7 @@
                      <p>Einzelne Korrekturen in Minuskel des frühen 9. Jahrhunderts. Die fol. 89-98
                         wurden im 10. Jahrhundert ausgebessert und mit einer Minuskel neu
                         beschrieben.</p>
-                     <p>tironische Noten</p>
+                     <p>Tironische Noten</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -73,11 +73,11 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium"
-                        ><name>Marmoutier</name></origPlace></p>
+                           ><orgName>Marmoutier</orgName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium"
-                        ><name>Tours</name></origPlace></p>
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Winandy" cert="medium"
-                        ><name>St-Martin</name></origPlace></p>
+                           ><placeName>St-Martin</placeName></origPlace></p>
                      <p><origDate source="Delisle Chatelain Bischoff" cert="medium" notBefore="0800"
                            notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0730" notAfter="0770">Mitte
@@ -88,14 +88,14 @@
                         Damit könnte es sich beim Schreiber Gislardus um einen der beiden im
                         Verbrüderungsbuch genannten handeln.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name>, <name
-                        type="Person">Libri</name></provenance>
-                  <provenance>Abgefasst vermutlich in <name type="Kloster">St-Martin</name> ist die
-                     Handschrift schnell nach <name type="Kloster">Marmoutier</name> gelangt, wurde
-                     vielleicht sogar für <name type="Kloster">Marmoutier</name> verfasst. Durch
-                        <name type="Person">Libri</name> gestohlen gelang sie an den Lord <name
-                        type="Person">Ashburnham</name> und schließlich 1888 durch Kauf von <name
-                        type="Person">Delisle</name> an die BnF.</provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName>, <persName
+                        type="Person">Libri</persName></provenance>
+                  <provenance>Abgefasst vermutlich in <orgName>St-Martin</orgName> ist die
+                     Handschrift schnell nach <orgName>Marmoutier</orgName> gelangt, wurde
+                     vielleicht sogar für <orgName>Marmoutier</orgName> verfasst. Durch
+                        <persName>Libri</persName> gestohlen gelang sie an den Lord
+                        <persName>Ashburnham</persName> und schließlich 1888 durch Kauf von
+                        <persName>Delisle</persName> an die BnF.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

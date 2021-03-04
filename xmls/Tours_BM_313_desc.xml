@@ -79,13 +79,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -96,14 +96,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">Reims</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                        ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low"
+                           ><placeName>Reims</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="low" notBefore="0850" notAfter="0875">II:
                            3. Viertel 9. Jhd.</origDate></p>
                      <note>Teile I und III sind spätere Teile aus dem 12. Jhd, die sicher nicht aus
                         Tours sind; über den Rest der Handschrift ist wenig bekannt</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

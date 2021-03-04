@@ -56,10 +56,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>mindestens zwei Hände</p>
+                     <handNote>mindestens zwei Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel; Halbunziale; Unziale Rustica</p>
+                     <scriptNote>turonische Minuskel; Halbunziale; Unziale Rustica</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -71,13 +71,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate cert="medium" notBefore="0825" notAfter="0875">Mitte 9.
                            Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
-                  <provenance>Colbertinus.</provenance>
+                  <provenance type="Provenance"/>
+                  <provenance><persName>Colbertinus</persName></provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

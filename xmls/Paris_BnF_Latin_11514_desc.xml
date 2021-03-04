@@ -56,16 +56,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>um die 16 Hände</p>
+                     <handNote>um die 16 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel</p>
+                     <scriptNote>turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p/>
-                     </decoNote>
+                     <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
                      <p>einzelne Blätter durch eine Hand des 11. Jahrhunderts hinzugefügt</p>
@@ -77,15 +74,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"><name>Marmoutier</name></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low"><name>kein Grund für
-                           Marmoutier</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                           ><orgName>Marmoutier</orgName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low">kein Grund für
+                        Marmoutier</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0815" notAfter="0820"
                            >circa 815-820</origDate></p>
                      <note>Datierung scheint unstrittig, Herkunft innerhalb Tours dagegen
                         ungeklärt.</note>
                   </origin>
-                  <provenance type="Provenance"><name>St-Maur-des-Fossés</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Maur-des-Fossés</orgName></provenance>
                   <provenance>Nach Randnote auf fol. 24v wohl schon seit dem 13. Jhd. in
                      St-Maur-des-Fossés.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>

@@ -8,7 +8,10 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Auf fol. 1, das leider zerrissen ist, befand sich ein Verzeichnis der Homilien. Das vorletzte Blatt entstammt einem Missale des 13. Jhd.</note></notesStmt>
+         <notesStmt>
+            <note>Auf fol. 1, das leider zerrissen ist, befand sich ein Verzeichnis der Homilien.
+               Das vorletzte Blatt entstammt einem Missale des 13. Jhd.</note>
+         </notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -28,7 +31,7 @@
                <msContents>
                   <msItem class="">
                      <author/>
-                     <title></title>
+                     <title/>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -54,10 +57,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p></p>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -66,7 +69,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                     <p/>
                   </additions>
                   <bindingDesc>
                      <decoNote>stabiler Kalbseinband des 17. Jhd.</decoNote>
@@ -74,19 +77,20 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="" cert=""></origPlace></p>
-                     <p><origDate source="Collon" cert="low" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
+                     <p><origPlace source="" cert=""/></p>
+                     <p><origDate source="Collon" cert="low" notBefore="1000" notAfter="1100">11.
+                           Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
-                  <provenance></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>

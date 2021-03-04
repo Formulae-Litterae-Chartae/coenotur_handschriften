@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>London, BL, Harley 2790</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <collection/>
+                        <idno>Harley 2790</idno>
+                        <altIdentifier source="Rand">
+                            <idno>27</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>5</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2457</idno>
+                        </altIdentifier>
+                        <msName>Gospels of St Cyr of Nevers</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Bibel Evangelium">
+                            <author/>
+                            <title>Evangelium</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="271">271 (+ 5 nicht nummerierte Blätter am Anfang und 3 am Ende)
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="32.0"/>
+                                        <width n="22.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="21.5"/>
+                                        <width n="12.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="22"/>
+                                <layout><p source="Köhler">Überschriften meist in wechselnd roten und braunen Unzialzeilen, die erste Zeile jedes Evangeliums in roter Capitalis ohne Schmuck.</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Köhler"><locus n="23r"/><persName type="scribe">Gedeon</persName></handNote>
+                            <handNote source="Köhler">In der Minuskel 2 Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Bischoff">Große weiche frühturonische Min. (halbunz. Formen eingemischt)</scriptNote>
+                        </scriptDesc>
+                        <musicNotation>Neumen aus Nevers aus dem 10. Jhd.</musicNotation>
+                        <decoDesc>
+                            <decoNote>
+                                <p><locus from="20r" to="27r"/>Braune Kanontafeln, leicht koloriert in fleckigem Grün und hellem Gelb, wohl von <persName type="scribe">Gedeon</persName>.</p>
+                                </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p source="Hellmann">Lagenkontrollvermerke und Imitationen</p>
+                            <p>Rubriken und nachträgliche Kapitelangaben in den Margen</p>
+                            <p n="Exlibris"><locus n="19v"/>9. Jhd:<seg type="lat">Me quicumque legis Herimanni sis memor oro/ Cuius me studio possidet iste locus/ Obtulit eclesiae sibi commissae memorandus/ Praesul me fateor pro bonitatis ope/ Me sancto Cyrico tali sub conditione/ En dedit ut pereat qui cupit abstrahere</seg>. Herimannus war Bischof von Nevers, crica 841-859.</p>
+                            <p n="Exlibris"><locus n="1v"/>12. Jhd:<seg type="lat">Notum fieri volumus omnibus sanctae dei ecclesiae filiis. quod ego hugo nivernensis episcopus rotgerius priorem abbatiae sanctae marie et sanctis stephani cum duobus monachis Arnulfo scilicet et adalardo theutonico propter in obedientiam quam dominum et michi fecerunt. feci venire nudis pedibus usque ad altare sancti cruci ante presentiam meam et titius ecclesiae. ad satis faciendum dominum et michi in ipsa festivitate sancti stephani post natali domini</seg>.</p>
+                            <p n="Exlibris"><locus n="262v"/>12. Jhd:<seg type="lat">hi sunt libri domni abb[ati] Brostagni</seg>.</p>
+                            <p n="Exlibris"><locus n="263r"/>10./11. Jhd:<seg type="lat">Heac sunt nomina librorum qui sunt armario Sancti</seg>.</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Roter "Harley-Eiband", nach 1600</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium" source="Bischoff"><placeName>Tours</placeName>?</origPlace></p>
+                            <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                            <note></note>
+                        </origin>
+                        <provenance type="Provenance"><orgName>St Cys</orgName>, <placeName>Nevers</placeName></provenance>
+                        <provenance>Wie das Exlibris belegt, gehörte die Handschrift bereits vor 860 der Kathedrale von <orgName>St Cyr</orgName> in <placeName>Nevers</placeName>.</provenance>
+                         <acquisition><name type="Repository">British Library</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>http://www.bl.uk/catalogues/illuminatedmanuscripts/ILLUMIN.ASP?Size=mid&amp;IllID=17653</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=8612&amp;CollID=8&amp;NStart=2790</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="105"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="366 367"></biblScope></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="116"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

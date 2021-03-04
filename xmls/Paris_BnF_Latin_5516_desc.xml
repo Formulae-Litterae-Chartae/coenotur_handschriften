@@ -57,10 +57,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>verschiedene Hände</p>
+                     <handNote>verschiedene Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -75,22 +75,22 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">Teil 1: <name type="Ort"
-                           >Tours</name></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">Teil 1: <name type="Ort"
-                           >Rom</name></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">Teil 2: <name type="Ort"
-                              >Tours</name>/<name type="Ort">Reims</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="low">Teil 1:
+                           <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">Teil 1:
+                           <placeName>Rom</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">Teil 2:
+                              <placeName>Tours</placeName>/<placeName>Reims</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                            >2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0829" notAfter="0840">nach
                            829 für den 2. Teil, wahrscheinlich nicht viel</origDate></p>
-                     <note>Entstehungszeit scheint festzustehen, Ort dagegen sehr zweifelhaft.</note>/>
-                  </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance>Von <name type="Kloster">St-Martin</name> ging die Handschrift in die
-                     Sammlung von <name type="Person">Colbert</name> über und von dort in die
-                     königliche Bibliothek.</provenance>
+                     <note>Entstehungszeit scheint festzustehen, Ort dagegen sehr
+                        zweifelhaft.</note>/> </origin>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance>Von <orgName>St-Martin</orgName> ging die Handschrift in die Sammlung
+                     von <persName>Colbert</persName> über und von dort in die königliche
+                     Bibliothek.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

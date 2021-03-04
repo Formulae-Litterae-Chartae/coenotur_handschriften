@@ -47,14 +47,14 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="29"/>
-                        <layout><p/></layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>mehrere Hände</p>
+                     <handNote>mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">einige Hände regulär turonisch</p>
+                     <scriptNote source="Bischoff">einige Hände regulär turonisch</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -69,9 +69,8 @@
                      <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866"
                            >2. Drittel 9. Jhd.</origDate></p>
-                     <p/>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"/>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

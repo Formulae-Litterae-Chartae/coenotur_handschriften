@@ -47,17 +47,17 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">hauptsächlich eine Hand; der Anfang von Lupus, der Haupttext
-                        wohl von <name type="scribe">Fredegaudus</name> geschrieben</p>
-                     <p source="Cinato">auf einzelnen Folia erscheint eine zweite unterstützende
-                        Hand (bspw. fol .21r)</p>
+                     <handNote source="Rand">hauptsächlich eine Hand; der Anfang von Lupus, der Haupttext
+                        wohl von <persName>Fredegaudus</persName> geschrieben</handNote>
+                     <handNote source="Cinato">auf einzelnen Folia erscheint eine zweite unterstützende
+                        Hand (bspw. fol. 21r)</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">karolingische Minuskel mit wenig Abkürzungen; Halbunziale
-                        selten und imperfekt</p>
+                     <scriptNote source="Rand">karolingische Minuskel mit wenig Abkürzungen; Halbunziale
+                        selten und imperfekt</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote></decoNote>
                   </decoDesc>
                   <additions>
                      <p source="Cinato">Korrekturen von der Hand von Lupus von Ferrières oder durch
@@ -72,14 +72,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0850">2.
                            Viertel 9. Jhd.</origDate></p>
                      <note>Durch die klare Beteiligung von Lupus und der Nähe zum vatikanischen
-                        Livius erscheint die Entstehung in Saint-Martin in Tours in der ersten
+                        Livius erscheint die Entstehung in St-Martin in Tours in der ersten
                         Hälfte des 9. Jahrhunderts als äußerst wahrscheinlich.</note>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

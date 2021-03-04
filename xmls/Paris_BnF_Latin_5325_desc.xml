@@ -54,15 +54,14 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>eine Hand</p>
+                     <handNote>eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">karolingische Minuskel; turonische Minuskel</p>
+                     <scriptNote source="Bischoff">karolingische Minuskel; turonische
+                        Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p/>
-                     </decoNote>
+                     <decoNote> </decoNote>
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
@@ -71,15 +70,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium"><name type="Ort"
-                           >Tours</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                            >2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="high" notBefore="0796" notAfter="0820">unter
-                              <name type="abbot">Alkuin</name> oder nicht viel später</origDate></p>
+                              <persName>Alkuin</persName> oder nicht viel später</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"/>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

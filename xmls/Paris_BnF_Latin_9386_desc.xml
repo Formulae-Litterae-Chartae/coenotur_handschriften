@@ -33,7 +33,7 @@
                <msContents>
                   <msItem class="Bibel Evangelien">
                      <author/>
-                     <title/>
+                     <title>Bibel</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -59,11 +59,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p>touronisch, mit irischem Einfluss; Minuskel mit Einmischung von
-                        Halbunzialen</p>
+                     <scriptNote>touronisch, mit irischem Einfluss; Minuskel mit Einmischung von
+                        Halbunzialen</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -78,7 +78,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="low">wohl nicht Tours; Meaux</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">in weiterem turonischen (und
+                     <p><origPlace source="Bischoff" cert="low">im weiteren turonischen (und
                            bretonischen?) Einflußbereich</origPlace></p>
                      <p><origPlace source="BnF" cert="low">Westfrankreich</origPlace></p>
                      <p><origPlace source="Porcher" cert="low">Chartres</origPlace></p>
@@ -88,7 +88,7 @@
                         zweifelhaft. Eher von einem „Irishman aspiring to the manner of
                         Tours”.</note>
                   </origin>
-                  <provenance type="Provenance"><name>Chartres</name>, Kapitel der
+                  <provenance type="Provenance"><orgName>Chartres</orgName>, Kapitel der
                      Kathedrale</provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>

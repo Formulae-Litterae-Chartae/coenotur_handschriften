@@ -53,10 +53,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>mehrere Hände</p>
+                     <handNote>mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>verbesserte Kursive</p>
+                     <scriptNote>verbesserte Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -68,17 +68,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low"
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Rand" cert="low">vermutlich nicht Tours</origPlace></p>
                      <p><origPlace source="Köhler" cert="low">Tours unwahrscheinlich</origPlace></p>
                      <p><origPlace source="McKitterick" cert="low">Region um Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
+                           >1. Viertel 9. Jhd.</origDate></p>
                      <note>Von Köhler ursprünglich nach Tours gelegt, hat er sich, genau wie Rand
                         schließlich gegen eine Entstehung in Tours ausgesprochen. </note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster"
-                     />St-Maur-des-Fossés</provenance>
-                  <provenance><name type="Person">Colbert.</name></provenance>
+                  <provenance type="Provenance"><orgName/>St-Maur-des-Fossés</provenance>
+                  <provenance><persName>Colbert</persName></provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

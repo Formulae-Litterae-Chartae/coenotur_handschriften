@@ -56,10 +56,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -67,9 +67,9 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p></p>
-                     <p n="Exlibris"><locus n="1"/><seg type="lat">Majoris monasterii congreg. S. Mauri</seg>, 18.
-                        Jhd.</p>
+                     <p/>
+                     <p n="Exlibris"><locus n="1"/><seg type="lat">Majoris monasterii congreg. S.
+                           Mauri</seg>, 18. Jhd.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -77,14 +77,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="low" notBefore="1100" notAfter="1200">12.
                            Jhd.</origDate></p>
                      <p><origDate source="Collon BnF" cert="low" notBefore="1000" notAfter="1100"
                            >11. Jhd.</origDate></p>
                      <p><origDate source="Manno" cert="low" notBefore="1080" notAfter="1200">Ende
                            11. Jhd. + 13. Jhd.</origDate></p>
-                     <p/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

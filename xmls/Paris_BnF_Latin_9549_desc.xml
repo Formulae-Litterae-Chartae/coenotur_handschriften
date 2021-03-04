@@ -57,11 +57,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>ein bis drei Hände</p>
+                     <handNote>ein bis drei Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>nicht typisch turonisch; sehr abweichendes Schriftbild je nach Qualität des
-                        Pergamentes; später als 9. Jhd.</p>
+                     <scriptNote>nicht typisch turonisch; sehr abweichendes Schriftbild je nach
+                        Qualität des Pergamentes; später als 9. Jhd.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -75,13 +75,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"><name>Tours (?)</name>; „probably from
-                           another monastery“</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName> (?);
+                           „probably from another monastery“</origPlace></p>
                      <p><origDate source="Collon" cert="medium" notBefore="0900" notAfter="1000">10.
                            Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name>St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Wurde am 9. März 1836 von Armans-Alexis Monteil
                      abgekauft.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>

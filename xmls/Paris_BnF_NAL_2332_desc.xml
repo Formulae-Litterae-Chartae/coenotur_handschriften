@@ -47,10 +47,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p>„Merowingische Kursive“</p>
+                     <scriptNote>„Merowingische Kursive“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -62,8 +62,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low"><name>Tours</name>
-                        (?)</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low"><placeName>Tours</placeName>
+                           (?)</origPlace></p>
                      <p><origDate source="Bischoff" cert="low" notBefore="0800" notAfter="0833">1.
                            Drittel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="low" notBefore="0750" notAfter="0796"
@@ -71,10 +71,10 @@
                      <note>Da es sich um ein einzelnes Blatt handelt, ist die Datierung und
                         Lokalisierung äußerst fragwürdig.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance source="Delisle">Bleibt wohl bis mindestens 1807 in <name
-                        type="Kloster">St-Martin</name>, wo <name type="Person">Jean-Louis
-                        Chalmel</name> das Manuskript noch gesehen hat.</provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance source="Delisle">Bleibt wohl bis mindestens 1807 in
+                        <orgName>St-Martin</orgName>, wo <persName>Jean-Louis Chalmel</persName> das
+                     Manuskript noch gesehen hat.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

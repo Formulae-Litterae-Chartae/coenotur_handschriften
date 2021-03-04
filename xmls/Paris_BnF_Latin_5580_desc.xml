@@ -57,11 +57,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">vier Hände; Hand B ähnelt Hand J in Angers 1</p>
+                     <handNote source="Rand">vier Hände; Hand B ähnelt Hand J in Angers 1</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel mit Halbunziale</p>
+                     <scriptNote>turonische Minuskel mit Halbunziale</scriptNote>
                   </scriptDesc>
+                  <musicNotation><locus n="136v"/>Neumen des 11. Jhd. von zwei verschiedenen
+                     Händen</musicNotation>
                   <decoDesc>
                      <decoNote>
                         <p>Kapitelarkaden</p>
@@ -71,9 +73,8 @@
                      <p>Im Teil der Vita wurden später Worttrennungen eingefügt für eine bessere
                         Lesbarkeit; das Verschwinden der Trennungszeichen in der späteren
                         Handschrift könnte an weniger Benutzung dieser Teile liegen, oder an einem
-                        Schreiberwechsel, der zweite Schreiber trennt die Worte klarer
+                        Schreiberwechsel; der zweite Schreiber trennt die Worte klarer
                         voneinander</p>
-                     <p><locus n="136v"/>Neuem des 11. Jhd. von zwei verschiedenen Händen</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -81,13 +82,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                            >2. Viertel 9. Jhd.</origDate></p>
-                     <p/>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
-                  <provenance>Puteanus; Dupuy.</provenance>
+                  <provenance type="Provenance"/>
+                  <provenance><persName>Puteanus</persName>;
+                     <persName>Dupuy</persName>.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

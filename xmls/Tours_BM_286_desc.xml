@@ -56,18 +56,18 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">2 Haupthände, ähnlich wie Fredegaudus und Aldo aus dem
-                        Vatikanischen Livius</p>
+                     <handNote source="Rand">2 Haupthände, ähnlich wie Fredegaudus und Aldo aus dem
+                        Vatikanischen Livius</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>verbesserte Kursive</p>
+                     <scriptNote>verbesserte Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p source="Dorange">zahlreiche Glossierungen und tironische Noten einer
-                        zeitgenössischen Hand; Zahlreiche Notizen des 11. Jhd.</p>
+                     <p source="Dorange">zahlreiche Glossierungen und Tironische Noten einer
+                        zeitgenössischen Hand; zahlreiche Notizen des 11. Jhd.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -75,12 +75,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high">Tours, St-Martin</origPlace></p>
+                     <p><origPlace cert="high"><placeName>Tours</placeName>,
+                              <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="" cert="" notBefore="" notAfter=""/></p>
                      <note>die Nähe zum vatikanischen Livius lässt eine Entstehung in St-Martin zu
                         Beginn des 9. Jahrhunderts sehr wahrscheinlich erscheinen</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>In St-Martin geschrieben und vermutlich durchgehend dort
                      geblieben.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>

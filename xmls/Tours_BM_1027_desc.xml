@@ -56,29 +56,30 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">vielleicht nicht Tours</origPlace></p>
+                     <p><origPlace source="Rand" cert="low">vielleicht nicht
+                              <placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="low">„Rom (Schreiber: Johannes
                            presbiter)“</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900"
                            >ca. Ende 9. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

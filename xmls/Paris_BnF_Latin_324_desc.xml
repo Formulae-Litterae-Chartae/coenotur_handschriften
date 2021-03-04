@@ -60,10 +60,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>eine Hand</p>
+                     <handNote>eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">perfektionierte tironische Minuskel; "Tiny Tours"</p>
+                     <scriptNote source="Rand">perfektionierte tironische Minuskel; „Tiny
+                        Tours“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -75,12 +76,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand BnF" cert="low"><name>Tours</name></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low"><name>nicht
-                        Tours</name></origPlace></p>
+                     <p><origPlace source="Rand BnF" cert="low"
+                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low">nicht Tours</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >3. Viertel 9. Jhd.</origDate></p>
-                     <p/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

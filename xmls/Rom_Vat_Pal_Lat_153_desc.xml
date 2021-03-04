@@ -55,9 +55,9 @@
                         </objectDesc>
                         <handDesc>
                             <handNote source="Rand">Mindestens 12 Hände</handNote>
-                            <handNote scribe="Fredegaudus" source="Rand">Hand B könnte Fredegaudus sein</handNote>
-                            <handNote scribe="Theodegrimus" source="Rand"> Die Hände F und H könnten von Theodegrimus sein</handNote>
-                            <handNote scribe="Theogrmnus" source="Rand"> Die Hand C könnte Theogrimnus sein</handNote>
+                            <handNote scribe="Fredegaudus" source="Rand">Hand B könnte <persName type="scribe">Fredegaudus</persName> sein</handNote>
+                            <handNote scribe="Theodegrimus" source="Rand"> Die Hände F und H könnten von <persName type="scribe">Theodegrimus</persName> sein</handNote>
+                            <handNote scribe="Theogrmnus" source="Rand"> Die Hand C könnte <persName type="scribe">Theogrimnus</persName> sein</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p></p>
@@ -75,14 +75,14 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace>Tours, wohl St-Martin</origPlace></p>
+                            <p><origPlace><placeName>Tours</placeName>, wohl <orgName>St-Martin</orgName></origPlace></p>
                             <p><origPlace source="Kautz" cert="unknown">Frankreich (?)</origPlace></p>
-                            <p><origPlace source="Bischoff" cert="medium">Tours</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
-                            <note>Die Ähnlichkeit mit dem vatikanischen Livius lässt eine Entstehung zu Beginn des 9. Jhds. in St-Martin naheliegend erscheinen.</note>
+                            <note>Die Ähnlichkeit mit dem vatikanischen Livius lässt eine Entstehung zu Beginn des 9. Jhds. in <orgName>St-Martin</orgName> naheliegend erscheinen.</note>
                         </origin>
                         <provenance type="Provenance"></provenance>
-                        <provenance source="Fugger-Katalog"> Circa <date>1550</date> om lorentiner Giovani Manetti über Martin Gestmann an de Fugger verkaut</provenance>
+                        <provenance source="Fugger-Katalog"> Circa <date>1550</date> vom lorentiner Giovani Manetti über Martin Gestmann an die Fugger verkaut</provenance>
                         <acquisition source="Kautz">Nach dem Tod Fuggers <date>1584</date> in den Besitz der Heidelberger Kürfürsten übergegangen</acquisition>
                     </history>
                     <additional>

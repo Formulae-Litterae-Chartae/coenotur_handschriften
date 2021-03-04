@@ -56,10 +56,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">mindestens 6 Hände</p>
+                     <handNote source="Rand">mindestens 6 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote source="Rand">mathematische und andere Diagramme</decoNote>
@@ -78,8 +78,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff" cert="high">Tours</origPlace></p>
-                     <p><origPlace source="Rand" cert="low">St-Maurice?</origPlace></p>
+                     <p><origPlace source="Rand Bischoff" cert="high"
+                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                           ><orgName>St-Maurice</orgName>?</origPlace></p>
                      <p><origDate source="Rand" cert="low" notBefore="0804" notAfter="0820">„later
                            member of Regular Style (804-820)“</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
@@ -91,7 +93,7 @@
                         weiteren Handschriften aus einem dortigen Skriptorium zu dieser Zeit bekannt
                         sind. Vermutlich entstand auch diese Handschrift in St-Martin. </note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

@@ -53,29 +53,29 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote source="Dorange">Kalbsledereinband des 17. Jhd.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low">Tours</origPlace></p>
+                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange" cert="low" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
                      <p><origDate source="Collon" cert="low" notBefore="1180" notAfter="1220">Ende
                            11. Jhd. bzw. Anfang 12. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

@@ -101,7 +101,7 @@
                               <width n="12.3"/>
                            </dimensions>
                         </extent>
-                        <condition>Perfekt erhalten</condition>
+                        <condition>perfekt erhalten</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -114,17 +114,15 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">mindestens 8 Hände</p>
+                     <handNote source="Rand">mindestens 8 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">perfekte turonische Minuskel</p>
+                     <scriptNote source="Rand">perfekte turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
-                  <additions>
-                     <p/>
-                  </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote>Ledereinband des 17. Jhd.</decoNote>
                   </bindingDesc>
@@ -138,19 +136,17 @@
                         Auch die Herstellung in St-Martin ist sehr sicher, da es sich um eine der
                         typischen Prachtbibeln aus diesem Skriptorium handelt.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster"
-                     >St-Maur-des-Fossés</name></provenance>
-                  <provenance>In <name type="Kloster">St-Martin</name> gefertigt, ist die
-                     Handschrift von <name type="person">Graf Rorigo</name> (gest. ca. 842) an <name
-                        type="Kloster">St-Maur de Glanfeuil</name> geschenkt worden.</provenance>
-                  <provenance source="Bischoff">Bereits im 10. Jhd. war sie in <name type="Kloster"
-                        >St-Maur-des-Fossés</name>, wie ein Polyptychon von dort erkennen
+                  <provenance type="Provenance"><orgName>St-Maur-des-Fossés</orgName></provenance>
+                  <provenance>In <orgName>St-Martin</orgName> gefertigt, ist die Handschrift von
+                        <persName>Graf Rorigo</persName> (gest. ca. 842) an <orgName>St-Maur de
+                        Glanfeuil</orgName> geschenkt worden.</provenance>
+                  <provenance source="Bischoff">Bereits im 10. Jhd. war sie in
+                        <orgName>St-Maur-des-Fossés</orgName>, wie ein Polyptychon von dort erkennen
                      lässt.</provenance>
-                  <provenance>Von dort gelangte sie in den Besitz von zunächst <name type="person"
-                        >Philippe Hurault de Cheverny</name>, Kanzler von Frankreich
-                     (1527-1599)</provenance>
-                  <provenance>und später an <name type="person">Philippe Hurault de Cheverny</name>,
-                     Bischof von Chartres (1579-1620).</provenance>
+                  <provenance>Von dort gelangte sie in den Besitz von zunächst <persName>Philippe
+                        Hurault de Cheverny</persName>, Kanzler von Frankreich (1527-1599) und
+                     später an <persName>Philippe Hurault de Cheverny</persName>, Bischof von
+                     Chartres (1579-1620).</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

@@ -53,10 +53,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -65,7 +65,8 @@
                   </decoDesc>
                   <additions>
                      <p>Ergänzungen auf Griechisch</p>
-                     <p n="Exlibris"><locus n="1"/><seg type="lat">Ex mss. Ecclesiae Turonensis</seg> (18. Jhd.)</p>
+                     <p n="Exlibris"><locus n="1"/><seg type="lat">Ex mss. Ecclesiae
+                           Turonensis</seg> (18. Jhd.)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Kalbsledereinband</decoNote>
@@ -73,14 +74,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="BnF" cert="low" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
-                     <p><origDate source="Senseby" cert="low" notBefore="0980"
-                           notAfter="1000">Ende 10. Jhd.</origDate></p>
+                     <p><origDate source="Senseby" cert="low" notBefore="0980" notAfter="1000">Ende
+                           10. Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name>St-Gatien</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance>Am 18. Mai 1832 für die BnF gekauft.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

@@ -60,13 +60,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>zahlreiche Hände</p>
+                     <handNote>zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p source="Hellmann.de">Lagenkontrollvermerk und eine Subskription in
@@ -82,20 +82,20 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium">Tours, vermutlich <name type="Kloster"
-                              >St-Martin</name></origPlace></p>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName>, vermutlich
+                              <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0842" notAfter="0880"
                            >Mitte 9. Jhd., nach 842</origDate></p>
                      <note>Terminus post quem 842 ist durch das Abfassungsdatum des enthaltenen
                         Werkes gesichert. St-Martin erscheint sehr wahrscheinlich, aufgrund der
                         engen Verbindung zwischen Hrabanus Maurus und St-Martin. </note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance>Entstehung in <name type="Kloster">St-Martin</name> wahrscheinlich.
-                     Wenn nicht, gelangte die Handschrift bereits sehr früh nach <name
-                        type="Kloster">St-Martin</name>. Sie belegt das Interesse an den Schriften
-                     von <name type="Person">Hrabanus Maurus</name>, einem Schüler Alkuins, der
-                     selbst Kanoniker in Tours gewesen ist.</provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance>Entstehung in <orgName>St-Martin</orgName> wahrscheinlich. Wenn nicht,
+                     gelangte die Handschrift bereits sehr früh nach <orgName>St-Martin</orgName>.
+                     Sie belegt das Interesse an den Schriften von <persName>Hrabanus
+                        Maurus</persName>, einem Schüler Alkuins, der selbst Kanoniker in Tours
+                     gewesen ist.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>

@@ -36,12 +36,8 @@
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title/>
+                     <title>Bibel</title>
                      <textLang mainLang="la"/>
-                     <msItem>
-                        <author/>
-                        <title/>
-                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -68,11 +64,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">ein Dutzend Hände</p>
-                     <p source="Rand">Hand B hat 8 von 22 Lagen und ist nahe an der Hand von
+                     <handNote source="Rand">ein Dutzend Hände</handNote>
+                     <handNote source="Rand">Hand B hat 8 von 22 Lagen und ist nahe an der Hand von
                         Amalricus von Monza G. 1. Wenn Amalricus der Schreiber ist, dann ist Paris
                         BnF Latin 68 älter als die Bibel aus Monza, da sie noch zahlreiche kursive
-                        Elemente enthält</p>
+                        Elemente enthält</handNote>
                   </handDesc>
                   <scriptDesc>
                      <p>karolingische Minuskel</p>
@@ -95,15 +91,15 @@
                      <p><origPlace cert="low" source="Rand">vielleicht Marmoutier</origPlace></p>
                      <p><origPlace cert="low" source="Bischoff">Tours</origPlace></p>
                      <p><origPlace cert="low" source="Cinato">St-Martin?</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1.
-                           Hälfte 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
+                           >1. Hälfte 9. Jhd.</origDate></p>
                      <note>Wenig erscheint geklärt. Die Handschrift ähnelt den großen touroner
                         Prachtbibeln, ist aber gleichzeitig deutlich simpler gehalten. Deshalb wurde
                         sie von Rand als vielleicht in Marmoutier entstanden deklariert, wobei er
                         gleichzeitig eine der Haupthände mit der vom Amalricus aus St-Martin
                         vergleicht.</note>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"/>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

@@ -43,21 +43,20 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="="/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p></p>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                     </decoNote>
+                     <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                     <p/>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -65,19 +64,21 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="low"><name type="Kloster">St-Martin</name></origPlace></p>
-                     <p><origDate cert="low" notBefore="1200" notAfter="1300">13. Jhd.</origDate></p>
+                     <p><origPlace source="Mercier" cert="low"
+                           ><orgName>St-Martin</orgName></origPlace></p>
+                     <p><origDate cert="low" notBefore="1200" notAfter="1300">13.
+                        Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>

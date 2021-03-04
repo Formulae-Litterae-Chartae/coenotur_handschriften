@@ -63,19 +63,18 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">5 Hände. Hand A ähnlich wie Theodogrimus; B ähnlich wie die
-                        Zusatzhand in BnF, Latin 5726; C ähnlich wie Aldo; E ähnlich wie B in
-                        Boulogne 51 </p>
+                     <handNote source="Rand">5 Hände. Hand A ähnlich wie Theodogrimus; B ähnlich wie
+                        die Zusatzhand in BnF, Latin 5726; C ähnlich wie Aldo; E ähnlich wie B in
+                        Boulogne 51 </handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <musicNotation><p source="Rand">Neumen, vermutlich aus dem 11. Jahrhundert, die
                         denjenigen von Fleury ähneln</p></musicNotation>
                   <decoDesc>
                      <decoNote>
-                        <locus n="67v"/>
-                        <p>eine bunte Initiale</p>
+                        <p><locus n="67v"/>eine bunte Initiale</p>
                      </decoNote>
                   </decoDesc>
                   <additions>
@@ -90,22 +89,22 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium"><name>Tours</name> oder
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName> oder
                            Umkreis</origPlace></p>
                      <p><origPlace source="Rand" cert="medium"
-                        ><name>St-Martin</name></origPlace></p>
+                           ><orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >1. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0820"
                            >Alkuin oder kurz danach</origDate></p>
                      <note>Entstehung unklar</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance>Die Handschrift ist vermutlich in <name type="Kloster"
-                        >St-Martin</name> entstanden und dort geblieben. Durch die Neumen könnte
-                     eine Verbindung mit <name type="Kloster">Fleury</name> erkennbar sein. Im 19.
-                     Jhd. wurde sie durch <name type="Person">Libri</name> gestohlen und an Lord
-                        <name type="Person">Ashburnham</name> verkauft.</provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance>Die Handschrift ist vermutlich in <orgName>St-Martin</orgName>
+                     entstanden und dort geblieben. Durch die Neumen könnte eine Verbindung mit
+                        <orgName>Fleury</orgName> erkennbar sein. Im 19. Jhd. wurde sie durch
+                        <persName>Libri</persName> gestohlen und an Lord
+                        <persName>Ashburnham</persName> verkauft.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

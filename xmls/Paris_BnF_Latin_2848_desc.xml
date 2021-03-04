@@ -56,19 +56,20 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>mehrere Hände</p>
+                     <handNote>mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">turonisch geprägt</p>
+                     <scriptNote source="Bischoff">turonisch geprägt</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p source="BnF">Nachträge und Benutzungsspuren: <locus n="176v"/><seg type="lat">Bigot est touz hors du sens et a si male hure que nus ne
-                        peut di[re]</seg>. 13. Jhd. </p>
-                     <p n="Exlibris"><locus n="1"/>Signaturen aus St-Denis: 13. Jhd., <seg type="lat">K Q +. 15.
-                        Jhd., XXIIII. VII c . LXXVI</seg></p>
+                     <p source="BnF">Nachträge und Benutzungsspuren: <locus n="176v"/><seg
+                           type="lat">Bigot est touz hors du sens et a si male hure que nus ne peut
+                           di[re]</seg>. 13. Jhd. </p>
+                     <p n="Exlibris"><locus n="1"/>Signaturen aus St-Denis: 13. Jhd., <seg
+                           type="lat">K Q +. 15. Jhd., XXIIII. VII c . LXXVI</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Chagrinleder mit den Initialen von Louis-Philippe</decoNote>
@@ -83,7 +84,7 @@
                            Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Denis</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Denis</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

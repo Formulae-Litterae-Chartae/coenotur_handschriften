@@ -62,29 +62,30 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">mindestens 4 Hände</p>
+                     <handNote source="Rand">mindestens 4 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>kursive karolingische Minuskel, keine Halbunziale</p>
+                     <scriptNote>kursive karolingische Minuskel, keine Halbunziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">Tours?</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">offenbar Auxerre (nicht
-                           Tours)</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                           ><placeName>Tours</placeName>?</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">offenbar
+                              <placeName>Auxerre</placeName> (nicht Tours)</origPlace></p>
                      <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0850">2.
                            Viertel 9. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

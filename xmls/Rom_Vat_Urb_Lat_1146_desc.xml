@@ -61,11 +61,10 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p source="Rand">Eine Hand: "In beauty the script is a rival with the best of Tours"</p>
+                            <handNote source="Rand">Eine Hand: "In beauty the script is a rival with the best of Tours"</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p source="Köhler">Karolingische Minuskel, mit vielfältiger Verwendung der Halbunziale und zahlreichen Kürzungen.</p>
-                            <p></p>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote source="Köhler">
@@ -84,12 +83,12 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="high"><name>Tours</name></origPlace></p>
-                            <p><origDate source="Köhler" cert="high" notBefore="0840" notAfter="0855">unter Vivian (844-851)</origDate></p>
+                            <p><origPlace cert="high"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Köhler" cert="high" notBefore="0840" notAfter="0855">unter <persName type="Abt">Vivian</persName> (844-851)</origDate></p>
                             <p></p>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
-                        <provenance source="Bischoff">Die Prachthandschrift wurde als Geschenk an Karl den Kahlen geschenkt </provenance>
+                        <provenance source="Bischoff">Die Prachthandschrift wurde als Geschenk an <persName type="King">Karl der Kahle</persName> geschenkt </provenance>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
                     </history>
                     <additional>

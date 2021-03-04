@@ -112,12 +112,12 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Rand" cert="medium">Possibly not Tours</origPlace></p>
-                            <p><origPlace source="Bischoff" cert="medium">wahscheinlich <name type="community">St-Amand</name></origPlace></p>
+                            <p><origPlace source="Rand" cert="medium">Possibly not <placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">wahscheinlich <orgName>St-Amand</orgName></origPlace></p>
                             <p><origDate source="Köhler Bischoff" cert="high" notBefore="0700" notAfter="0900">8./9. Jhd</origDate></p>
-                            <note>Die Handschrift ist wohl nicht in Tours entstanden. Eine Entstehung in St-Amand erscheint wahrscheinlich.</note>
+                            <note>Die Handschrift ist wohl nicht in <placeName>Tours</placeName> entstanden. Eine Entstehung in <orgName>St-Amand</orgName> erscheint wahrscheinlich.</note>
                         </origin>
-                        <provenance type="Provenance"><name type="community">Salzburg</name></provenance>
+                        <provenance type="Provenance"><orgName>Salzburg</orgName></provenance>
                         <provenance source="Hermann">Die Handschrift gelangt vom Domkapitel 1806 in die Hofbibliothek.</provenance>
                         <acquisition><name type="Repository">Wien HB</name></acquisition>
                     </history>

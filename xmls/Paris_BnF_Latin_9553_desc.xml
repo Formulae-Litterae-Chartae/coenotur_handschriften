@@ -63,10 +63,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -85,7 +85,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="1075" notAfter="1100"
                            >spätes 11. Jhd.</origDate></p>
                      <p><origDate source="Collon BnF" cert="medium" notBefore="0900" notAfter="1000"
@@ -94,7 +94,7 @@
                            notAfter="1100">11. Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name>St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Die Handschrift hat die Bibliothek von Tours ungefähr im Jahr 1830
                      verlassen und wurde am 27. April 1831 durch die Bibliotheque royale
                      gekauft.</provenance>

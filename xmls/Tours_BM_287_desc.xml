@@ -53,13 +53,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -70,14 +70,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low">Tours</origPlace></p>
+                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange" cert="low" notBefore="0980" notAfter="1000">Ende
                            10. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
-                  <provenance source="Dorange">die Handschrift gehörte nach Marmoutier und wurde
-                     1850 durch Luzarche für die BM gekauft </provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
+                  <provenance source="Dorange">Die Handschrift gehörte nach
+                        <orgName>Marmoutier</orgName> und wurde 1850 durch
+                        <persName>Luzarche</persName> für die BM gekauft.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>

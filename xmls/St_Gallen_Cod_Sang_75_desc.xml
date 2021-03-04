@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Bei der St. Galler Alkuin-Bibel handelt es sich um die älteste erhaltene Vollbibel mit dem Text Alkuins aus St-Martin. Es scheint sich um einen Prototyp zu handeln, worauf die zahlreichen zeitgenössichen Korrekturen hindeuten.</note></notesStmt>
+         <notesStmt><note>Bei der St. Galler Alkuin-Bibel handelt es sich um die älteste erhaltene Vollbibel mit dem Text <persName type="Abt">Alkuin</persName> aus St-Martin. Es scheint sich um einen Prototyp zu handeln, worauf die zahlreichen zeitgenössichen Korrekturen hindeuten.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -61,7 +61,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">zahlreiche Hände</p>
+                     <handNote source="Rand">zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <p source="CLA">Karolingischen Minuskel.</p>
@@ -84,12 +84,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="high"><name>St-Martin, Tours</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Fischer Bischoff" cert="high" notBefore="0796" notAfter="0804">"796-804"</origDate></p>
-                     <note>Eine Entstehung unter Alkuin in St-Martin in Tours ist gesichert. Es scheint sich um eine der, wenn nicht die erste Vollbibel aus diesem Skriptorium zu handeln, die als Grundlage für die späteren Vollbibeln diente. Die zahlreichen zeitgenössischen Korrekturen, (vielleicht aus St.Gallen) deuten auf eine noch unollendete Revision hin.</note>
+                     <note>Eine Entstehung unter <persName type="Abt">Alkuin</persName> in <orgName>St-Martin</orgName> in <placeName>Tours</placeName> ist gesichert. Es scheint sich um eine der, wenn nicht die erste Vollbibel aus diesem Skriptorium zu handeln, die als Grundlage für die späteren Vollbibeln diente. Die zahlreichen zeitgenössischen Korrekturen, (vielleicht aus <orgName>St-Gallen</orgName>) deuten auf eine noch unollendete Revision hin.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="community">St-Gallen</name></provenance>
-                  <provenance>Hergestellt in St-Martin gelangt die Handschrift bereits im 9. Jahrhundert nach St-Gallen. Dort findet sie sich im Bibliothekskatalog (Cod. Sang. 728) aus der Mitte des 9. Jhds. </provenance>
+                  <provenance type="Provenance"><orgName>St-Gallen</orgName></provenance>
+                  <provenance>Hergestellt in <orgName>St-Martin</orgName> gelangt die Handschrift bereits im 9. Jahrhundert nach <orgName>St-Gallen</orgName>. Dort findet sie sich im Bibliothekskatalog (Cod. Sang. 728) aus der Mitte des 9. Jhds. </provenance>
                   <acquisition><name type="Repository">Stiftsbibliothek St-Gallen</name></acquisition>
                </history>
                <additional>

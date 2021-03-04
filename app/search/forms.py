@@ -49,6 +49,6 @@ class AdvancedSearchForm(SearchForm):
     ms_item = StringField(_l('Inhalt'))
     person = StringField(_l('Personen'))
     person_role = SelectMultipleField(_l('Role'),  choices=[('', ''), ('Abt', _l('Abt')),
-                                                                      ('Schreiber', _l('Schreiber'))])
+                                                                      ('scribe', _l('Schreiber'))])
     provenance = StringField(_l('Provenance'))
     submit = SubmitField(_l('Suche Durchführen'), id="advancedSearchSubmit")

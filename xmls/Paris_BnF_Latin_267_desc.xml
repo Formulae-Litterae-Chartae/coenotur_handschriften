@@ -33,7 +33,7 @@
                <msContents>
                   <msItem class="Bibel Evangelien">
                      <author/>
-                     <title/>
+                     <title>Evangelien</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -60,14 +60,14 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">eine Hand, ähnlich wie BL, Add. 11849 oder Beatty 11; auch
-                        eine Nähe zu Latin 13388</p>
+                     <handNote source="Rand">eine Hand, ähnlich wie BL, Add. 11849 oder Beatty 11;
+                        auch eine Nähe zu Latin 13388</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">perfektionierte turonische Minuskel</p>
+                     <scriptNote source="Rand">perfektionierte turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="144v"/>notarielle Kopie einer Schenkung an Montmajour
@@ -79,15 +79,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><name>Tours, St-Martin</name></origPlace></p>
+                     <p><origPlace cert="high"><placeName>Tours</placeName>,
+                              <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0860">nach
                            860</origDate></p>
-                     <p/>
                   </origin>
-                  <provenance type="Provenance" cert="low"><name type="Kloster"
-                     >Montmajour</name></provenance>
-                  <provenance>Die Handschrift befand sich in der Sammlung von <name type="Person"
-                        >Colbert</name> und ging von dort in die königliche Bibliothek
+                  <provenance type="Provenance" cert="low"
+                     ><orgName>Montmajour</orgName></provenance>
+                  <provenance>Die Handschrift befand sich in der Sammlung von
+                        <persName>Colbert</persName> und ging von dort in die königliche Bibliothek
                      über.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

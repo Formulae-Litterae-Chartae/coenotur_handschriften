@@ -51,13 +51,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -68,7 +68,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                        ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
                            notAfter="1000">10. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="low" notBefore="1000" notAfter="1100">11. Jhd.

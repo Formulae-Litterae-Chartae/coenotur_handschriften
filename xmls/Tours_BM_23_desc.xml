@@ -53,15 +53,15 @@
                         <layout columns="1"/>
                         <layout writtenLines="21"/>
                         <layout><p>Goldschrift zu Beginn der Evangelien, auf der ersten Seite in
-                              Kapitalis Rustica</p></layout>
+                              Capitalis Rustica</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">„rather Martinian than genuine Tours“</p>
-                     <p source="Dorange">romanische Minuskel</p>
+                     <scriptNote source="Rand">„rather Martinian than genuine Tours“</scriptNote>
+                     <scriptNote source="Dorange">romanische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -85,11 +85,11 @@
                            >3. Viertel 9. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance source="Köhler">Die Handschrift entstand wohl in der frankosächsischen
-                     Schule und gelangt noch in der zweiten Hälfte des 9. Jhd. nach <name
-                        type="Kloster">St-Martin</name>, wohl nach der Zerstörung der Abtei durch
-                     die Normannen 853.</provenance>
+                     Schule und gelangt noch in der zweiten Hälfte des 9. Jhd. nach
+                        <orgName>St-Martin</orgName>, wohl nach der Zerstörung der Abtei durch die
+                     Normannen 853.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>

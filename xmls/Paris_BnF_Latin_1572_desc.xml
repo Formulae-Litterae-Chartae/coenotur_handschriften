@@ -43,14 +43,15 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="26"/>
-                        <layout><p/></layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>23 Hände</p>
+                     <handNote>23 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>"Mixed Majuskel"; Unziale und Semi-Unziale nur für die Auszeichnung</p>
+                     <scriptNote>„Mixed Majuskel“; Unziale und Semi-Unziale nur für die
+                        Auszeichnung</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -62,13 +63,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><name type="Ort">Tours</name></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low">Nicht Tours</origPlace></p>
+                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low">nicht Tours</origPlace></p>
                      <p><origDate source="BnF" notBefore="0780" notAfter="0800">Ende 8.
                            Jhd.</origDate></p>
-                     <p/>
                   </origin>
-                  <provenance type="Provenance"><name type="Ort">Tours</name></provenance>
+                  <provenance type="Provenance"><placeName>Tours</placeName></provenance>
                   <provenance source="Köhler">Nach einer Schreiberiniziale scheint es sich um einen
                      Import zu handen.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
@@ -83,7 +83,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="" to=""/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n=""/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
                   </listBibl>
                </additional>

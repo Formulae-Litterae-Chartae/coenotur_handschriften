@@ -47,22 +47,23 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="low">St-Martin</origPlace></p>
+                     <p><origPlace source="Mercier" cert="low"
+                           ><orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="low" notBefore="1300"
                            notAfter="1400">14. Jhd.</origDate></p>
                      <note/>

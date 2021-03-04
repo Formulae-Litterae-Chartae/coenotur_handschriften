@@ -83,9 +83,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
-                            <p><origPlace source="Bischoff" cert="medium"><name>Wohl Paris</name></origPlace></p>
-                            <p><origPlace source="Köhler" cert="high"><name>Nicht Tours</name></origPlace></p>
+                            <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">Wohl <placeName>Paris</placeName></origPlace></p>
+                            <p><origPlace source="Köhler" cert="high">Nicht <placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875">ca. Mitte 9. Jhd.</origDate></p>
                             <p><origDate source="Rand" cert="low" notBefore="0750" notAfter="0796"/>Pre-Alcuinian</p>
                             <note>Nach KÖHLER sind weder die Zierschrift noch die Minuskel turonisch. Auch die frühe Datierung bei Rand erscheint unwahrscheinlich.</note>

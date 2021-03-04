@@ -63,10 +63,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>nicht Adalbaldus</p>
+                     <handNote>nicht Adalbaldus</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">Corbie-Minuskel der Hadoard-Zeit</p>
+                     <scriptNote source="Bischoff">Corbie-Minuskel der Hadoard-Zeit</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -83,14 +83,14 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium"
-                        ><name>Corbie</name></origPlace></p>
-                     <p><origPlace source="Rand" cert="low"><name>Tours?</name></origPlace></p>
+                           ><placeName>Corbie</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>
+                           (?)</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >9. Jhd. ca. 3. Viertel</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin
-                     (?)</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName> (?)</provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

@@ -65,13 +65,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>mehrere Hände</p>
-                     <p><locus n="10"/>Monogramm des Schreibers oder des Adressaten: <seg type="lat"
-                           >Langobardos sacerdos vivat in xpo</seg></p>
+                     <handNote>mehrere Hände</handNote>
+                     <handNote><locus n="10"/>Monogramm des Schreibers oder des Adressaten: <seg
+                           type="lat">Langobardos sacerdos vivat in xpo</seg></handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">„Decadent Perfected and Revived Cursive“</p>
-                     <p>turonische Minuskel</p>
+                     <scriptNote source="Rand">„Decadent Perfected and Revived Cursive“</scriptNote>
+                     <scriptNote>turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -91,7 +91,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="high"
-                        ><name>Tours</name></origPlace></p>
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand nach Delisle" cert="medium" notBefore="0880"
                            notAfter="0900">Ende 9. Jhd.</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900"
@@ -101,11 +101,11 @@
                      <note>Über Entstehung und Datierung scheint sich die Forschung einig, wobei
                         nicht klar ist, in welchem touroner Skriptorium.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
-                  <provenance>Bis zur Revolution war die Handschrift in der Bibliothek von <name
-                        type="Kloster">St-Gatien</name>, bevor sie von <name type="Person"
-                        >Libri</name> gestohlen wurde und dann über Lord <name type="Person"
-                        >Ashburnham</name> an die BnF gelangt</provenance>
+                  <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
+                  <provenance>Bis zur Revolution war die Handschrift in der Bibliothek von
+                        <orgName>St-Gatien</orgName>, bevor sie von <persName>Libri</persName>
+                     gestohlen wurde und dann über Lord <persName>Ashburnham</persName> an die BnF
+                     gelangt</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

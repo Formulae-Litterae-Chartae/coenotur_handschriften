@@ -53,10 +53,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>eine Hand</p>
+                     <handNote>eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>karolingische Minuskel</p>
+                     <scriptNote>karolingische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -64,8 +64,8 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="1"/><seg type="lat">Iste liber est de armario beati Martini
-                        Turonensis</seg> (12. Jhd.)</p>
+                     <p n="Exlibris"><locus n="1"/><seg type="lat">Iste liber est de armario beati
+                           Martini Turonensis</seg> (12. Jhd.)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -73,12 +73,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><name>Tours</name></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2.
-                        Viertel 9. Jhd.</origDate></p>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
+                           >2. Viertel 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"/>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

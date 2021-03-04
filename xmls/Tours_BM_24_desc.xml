@@ -50,10 +50,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -67,13 +67,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="low"><name type="Kloster"
-                           >St-Martin</name></origPlace></p>
+                     <p><origPlace source="Mercier" cert="low"
+                           ><orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="medium" notBefore="1200"
                            notAfter="1300">13. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

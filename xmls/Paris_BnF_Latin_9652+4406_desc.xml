@@ -53,16 +53,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>eine Haupthand, ähnlich derjenigen von Tours, BM, 286</p>
+                     <handNote>eine Haupthand, ähnlich derjenigen von Tours, BM, 286</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">Tours-ähnliche Minuskel</p>
+                     <scriptNote source="Bischoff">Tours-ähnliche Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p/>
-                     </decoNote>
+                     <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
                      <p>Reichliche Glossierungen von mehreren späteren Händen, die aber nach wenigen
@@ -77,16 +74,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium"><name>Tours, kaum
-                              St-Martin</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>,
+                           kaum <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                            >2. Viertel 9. Jhd.</origDate></p>
-                     <note>Eine Entstehung im sehr nahen Umfeld von <name type="Kloster"
-                           >St-Martin</name> erscheint wahrscheinlich. <name type="Kloster"
-                           >St-Martin</name> selbst lehnt <name type="Person">Bischoff</name> ab,
-                        eine Tintenanalyse könnte da mehr Auskunft geben.</note>
+                     <note>Eine Entstehung im sehr nahen Umfeld von <orgName>St-Martin</orgName>
+                        erscheint wahrscheinlich. <orgName>St-Martin</orgName> selbst lehnt
+                           <persName>Bischoff</persName> ab, eine Tintenanalyse könnte da mehr
+                        Auskunft geben.</note>
                   </origin>
-                  <provenance type="Provenance"><name>Beauvais, Saint-Pierre</name></provenance>
+                  <provenance type="Provenance"><placeName>Beauvais</placeName>,
+                        <orgName>Saint-Pierre</orgName></provenance>
                   <provenance>Die Handschrift war noch bis ins 19. Jhd. in Beauvais.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

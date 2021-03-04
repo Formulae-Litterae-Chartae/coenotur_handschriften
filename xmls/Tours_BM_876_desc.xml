@@ -73,17 +73,17 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">erneuerte Kursive</p>
+                     <scriptNote source="Rand">erneuerte Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
-                     <p source="Collon">: Interlinearglossen und Marginalnotizen, besonders im
-                        ersten Teil</p>
+                     <p source="Collon">Interlinearglossen und Marginalnotizen, besonders im ersten
+                        Teil</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -91,14 +91,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                        ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
                            notAfter="1000">10. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
-                  <provenance>Wenig bekannt, noch von <name type="Person">Rand</name> benutzt, wurde
-                     die Handschrift 1939-1945 im Krieg zerstört.</provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
+                  <provenance>Wenig bekannt, noch von <persName>Rand</persName> benutzt, wurde die
+                     Handschrift 1939-1945 im Krieg zerstört.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>

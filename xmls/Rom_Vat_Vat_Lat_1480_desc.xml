@@ -51,7 +51,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p>mehrere Hände</p>
+                            <handNote>mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p>Karolingische Minuskel</p>
@@ -75,7 +75,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff Martinellus.de" cert="high"><name>Tours</name></origPlace></p>
+                            <p><origPlace source="Bischoff Martinellus.de" cert="high"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0850"/>2. Viertel 9. Jhd.</p>
                             <p></p>
                         </origin>

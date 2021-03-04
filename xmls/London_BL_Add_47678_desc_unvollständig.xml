@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>London, BL, Egerton 2831 + Genf, BPU, lat. 169</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note>Es ahdnelt sich um die wichtigste überlieferte Cicero-Handschrift. Sie ist stark beschädigt. Neben dem Großteil, der in London liegt, liegt ein einzelnes Blatt in Genf.</note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <msName></msName>
+                        <altIdentifier source="Holkham Hall">
+                            <idno>387</idno>
+                        </altIdentifier>
+                    <altIdentifier source="Rand">
+                        <idno>25</idno>
+                    </altIdentifier>
+                    <altIdentifier source="Bischoff">
+                        <idno>2409</idno>
+                    </altIdentifier>
+                    </msIdentifier>
+                    <msFrag>
+                        <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <repository>BL</repository>
+                        <collection/>
+                        <idno>Add. 47678</idno>
+                        </msIdentifier> 
+                        <msContents>
+                        <msItem class="Köassiker">
+                            <author>Cicero</author>
+                            <title>Orationes</title>
+                            <textLang mainLang="la"/>
+                            <note>Fragmente</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="39">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="31.8"/>
+                                        <width n="23.2"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="24.8"/>
+                                        <width n="7.5">7,5 cm pro Spalte</width>
+                                    </dimensions>
+                                </extent>
+                                <condition>stark beschädigt</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="24 25">24 (25)</layout>
+                                <layout><p source="Rand">Rote und schwarze Titel. Einfache Initialen.</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">Vermutlich drei Hände mit einer Haupthand.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <p source="Rand">Verbesserte Kursive</p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Zahlreiche Korrekturen und Anmerkungen</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0830">Anfang 9. Jhd.</origDate></p>
+                            <note></note>
+                        </origin>
+                        <provenance type="Provenance"><orgName>Cluny</orgName></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">BL</name></acquisition>
+                    </history>
+                        <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_47678_fs001r</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_47678_fs001r</idno></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="104"/></bibl>
+                        </listBibl>
+                    </additional>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Switzerland</country>
+                            <settlement>Genf</settlement>
+                            <repository>PUB</repository>
+                            <collection/>
+                            <idno>lat. 169</idno>
+                        </msIdentifier>
+                    </msFrag>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

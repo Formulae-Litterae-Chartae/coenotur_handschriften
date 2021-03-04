@@ -94,7 +94,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p source="Rand">eine Hand (erscheint mir sehr unwahrscheinlich)</p>
+                            <handNote source="Rand">eine Hand (erscheint mir sehr unwahrscheinlich)</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p></p>
@@ -113,8 +113,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
-                            <p><origDate source="Rand" cert="low" notBefore="0796" notAfter="0804">unter Alkuin</origDate></p>
+                            <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Rand" cert="low" notBefore="0796" notAfter="0804">unter <persName type="Abt">Alkuin</persName></origDate></p>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster"></name></provenance>
                         <provenance>Scheint bei Bonneval und P. Daniel gewesen zu sein.</provenance>

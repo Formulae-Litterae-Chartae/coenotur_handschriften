@@ -54,17 +54,16 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p></p>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                     <p/>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -73,18 +72,18 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
-                     <p><origDate source="" cert="" notBefore="" notAfter=""></origDate></p>
+                     <p><origDate source="" cert="" notBefore="" notAfter=""/></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type=""/></provenance>
-                  <provenance></provenance>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>

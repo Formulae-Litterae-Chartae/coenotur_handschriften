@@ -69,7 +69,7 @@
                         </extent>
                         <condition>zum Teil stark beschädigt; Anfang und Ende fehlen. Zwischen fol.
                            96 und fol. 97 fehlen Folien beim Anfang von Makkabäern 2 zu Matthäus,
-                           genau wie in den Briefen des Paulus.</condition>
+                           genau wie in den Briefen des Paulus</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -78,10 +78,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>eine Hand</p>
+                     <handNote>eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel; Halbunziale</p>
+                     <scriptNote>turonische Minuskel; Halbunziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>Miniaturen vorhanden</decoNote>
@@ -105,8 +105,8 @@
                      <note>Die Verlegung nach St-Denis erscheint unwahrscheinlich, da Format und vor
                         allem auch die Linierung exakt dem Usus aus St-Martin entsprechen.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Person">Faure</name></provenance>
-                  <provenance>Aus der Sammlung von <name type="Person">Faure</name>, gelangt die
+                  <provenance type="Provenance"><persName>Faure</persName></provenance>
+                  <provenance>Aus der Sammlung von <persName>Faure</persName>, gelangt die
                      Handschrift 1701 durch Kauf der Sammlung Faure in Besitz der königlichen
                      Bibliothek.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>

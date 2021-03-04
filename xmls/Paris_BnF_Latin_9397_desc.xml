@@ -68,10 +68,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p>karolingische Minuskel</p>
+                     <scriptNote>karolingische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -86,16 +86,16 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="medium"
-                           ><name>Tours</name></origPlace></p>
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Rand Ganz" cert="low"
-                        ><name>Marmoutier</name></origPlace></p>
+                           ><orgName>Marmoutier</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1. Hälfte 9. Jhd.</origDate></p>
-                     <note>Eine Entstehung in Marmoutier zu diesem Zeitpunkt erscheint unwahrscheinlich
-                        und in der Literatur unbegründet. Der 3. Teil (fol. 61-84) ist deutlich
-                        später und könnte aus Marmoutier stammen.</note>
+                     <note>Eine Entstehung in Marmoutier zu diesem Zeitpunkt erscheint
+                        unwahrscheinlich und in der Literatur unbegründet. Der 3. Teil (fol. 61-84)
+                        ist deutlich später und könnte aus Marmoutier stammen.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance>Hergestellt vermutlich in St-Martin war die Handschrift in Marmoutier.
                      Von dort gelangte sie 1832 in die BnF.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>

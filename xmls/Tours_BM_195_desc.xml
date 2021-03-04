@@ -53,13 +53,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -70,12 +70,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="" cert="low">St-Martin (?)</origPlace></p>
+                     <p><origPlace source="" cert="low"><orgName>St-Martin</orgName>
+                        (?)</origPlace></p>
                      <p><origDate source="" cert="low" notBefore="1400" notAfter="1500">15.
                            Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

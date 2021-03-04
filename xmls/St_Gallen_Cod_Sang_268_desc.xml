@@ -17,9 +17,6 @@
                   <repository>Stiftsbibliothek</repository>
                   <collection/>
                   <idno>268</idno>
-                  <altIdentifier source="CLA">
-                     <idno></idno>
-                  </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>rejected</idno>
                   </altIdentifier>
@@ -65,7 +62,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Bergmann/Stricker">Eine Hand.</p>
+                     <handNote source="Bergmann/Stricker">Eine Hand.</handNote>
                   </handDesc>
                   <scriptDesc>
                      <p source="Köhler">"Unregelmäßige, altertümliche Minuskel".</p>
@@ -78,7 +75,7 @@
                   </decoDesc>
                   <additions>
                      <p source="Bergmann/Stricker">"Glossen mit inhaltlichem Bezug zum Text."</p>
-                     <p n="Exlibris"><locus n="1r"/>Exlibris aus St-Gallen.</p>
+                     <p n="Exlibris"><locus n="1r"/>Exlibris aus <orgName>St-Gallen</orgName></p>
                   </additions>
                   <bindingDesc>
                      <decoNote source="Bergmann/Stricker">Mit blindgepreßtem Leder überzogener Holzdeckel; eine Schließe.</decoNote>
@@ -86,14 +83,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium">Nicht Tours, "rejected"</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium">"Westfrankreich (Tours nicht sicher)"</origPlace></p>
+                     <p><origPlace source="Rand" cert="medium">Nicht <placeName>Tours</placeName>, "rejected"</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">"Westfrankreich (<placeName>Tours</placeName> nicht sicher)"</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Bergmann/Stricker" cert="high" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
-                     <note>Eine Entstehung in Tours, bzw. St-Martin erscheint aufgrund des Inhaltes wahrscheinlich, ist aber keineswegs gesichert.</note>
+                     <note>Eine Entstehung in <placeName>Tours</placeName>, bzw. <orgName>St-Martin</orgName> erscheint aufgrund des Inhaltes wahrscheinlich, ist aber keineswegs gesichert.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="community">St-Gallen</name></provenance>
-                  <provenance>Der Entstehungsort der Handschrift ist nicht gesichert. Sie gelangt jedoch früh nach St-Gallen und verblieb dort.</provenance>
+                  <provenance type="Provenance"><orgName>St-Gallen</orgName></provenance>
+                  <provenance>Der Entstehungsort der Handschrift ist nicht gesichert. Sie gelangt jedoch früh nach <orgName>St-Gallen</orgName> und verblieb dort.</provenance>
                   <acquisition><name type="Repository">Stiftsbibliothek St-Gallen</name></acquisition>
                </history>
                <additional>

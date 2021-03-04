@@ -1,0 +1,124 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>London, BL, Egerton 2831</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Wenig ist über die Geschichte dieser Handschrift bekannt. Sie scheint vor-alkuinisch, aber trotzdem im fränkischen Raum entstanden zu sein. Sie war zur Zeit Alkuins in St-Martin, gelangte vielleicht mit diesem dorthin. Die insulare Hand die Korrekturen vorgenommen hat, könnte aus dem Umfeld des angelsächsischern Abtes stammen.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <repository>BL</repository>
+                  <collection/>
+                  <idno>Egerton 2831</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>141</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>7</idno>
+                  </altIdentifier>
+                  <altIdentifier source="CLA">
+                     <idno>196a</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie Exegese">
+                     <author>Hieronymus</author>
+                     <title>Expositio in Isaiam</title>
+                     <textLang mainLang="la"/>
+                     <note>Bücher 14-17/18?</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="143">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="29.6"/>
+                              <width n="21.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="25.3"/>
+                              <width n="19.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="28"/>
+                        <layout><p source="Rand">Teil 1: Rote und schwarze Titel, rote und schwarze Initialen; Teil 2: eine einzelne einfache Initiale.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Teil 1 (f. 1-109) vorkarolingische Minuskel von 3 Händen (RAND); Teil 2 (f. 110-143) insulare, irische (RAND) bzw. angelsächsische Hand (BISCHOFF) mit wenig kontinentaler Beeinflussung (RAND).</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <p>Minuskel</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p></p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Korrekturen durch eine (BISCHOFF), bzw. mehrere (RAND) insulare Hände, sowie eine voralkuinische touronische Hand (RAND).</p>
+                     <p source="Köhler">Zwei kleine Schreiberinizialen</p>
+                     <p source="Martinellus.de"><locus n="19v"/><locus n="56v"/><locus n="91v"/>Tironische Noten</p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Hic habet librum Sci. Martini Turensem de caenubio bi [? ibi] quo quiescit [? se]d de illo armario et qui me furauerit uel hoc folium inciscerit [anathema] sit.</seg></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Grüner Samteinband mit Muster (nach 1600)</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0730" notAfter="0780">Mitte 8. Jhd.</origDate></p>
+                     <note>BISCHOFF geht davon aus, dass die Handschrift zu einer Handschriftengruppe gehört, die „unter demselben Dach von einer sich allmählich wandelnden Schule geschaffen wurden“. Dagegen stellt KÖHLER 1931 fest, dass die Entstehung in St-Martin sich nur auf den alten Besitzeintrag stützen kann.</note>
+                  </origin>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance source="Köhler">Die Handschrift befand sich nach einer alten Besitzeintragung bereits ab dem 8. Jhd. im Besitz von St-Martin.</provenance>
+                  <provenance>Zur Zeit des Katalogs von CHALMEL 1807 befand sich die Handschrift noch im Besitz von St-Martin, wird aber 1883 von DELISLE als verschwunden gelistet.</provenance>
+                  <provenance source="Rand">Gehörte Barrois und ab 1849 Ashburnham, wird sie 1901 durch das British Museum gekauft.</provenance>
+                  <acquisition><name type="Repository">BL</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=7717</idno></bibl>
+                     <bibl><idno>Delisle 1883</idno><biblScope unit="pp" n="56"/></bibl>
+                     <bibl><idno>Katalog 1907</idno><biblScope unit="pp" n="385 386"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="88 90"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="324"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="89"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="428"/></bibl>
+                     <bibl><idno>Bischoff 1939</idno><biblScope unit="pp" n="30 32"/></bibl>
+                     <bibl><idno>Bischoff 1962</idno><biblScope unit="pp" n="12"/></bibl>
+                     <bibl><idno>Gasnault 1971</idno><biblScope unit="pp" n="50 51"/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope unit="pp" n=""/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

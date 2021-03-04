@@ -60,13 +60,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -77,8 +77,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">näher an Orléans</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                        ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low">näher an
+                              <placeName>Orléans</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="low" notBefore="0800" notAfter="0850">ca.
                            1./2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Dorange" cert="low" notBefore="1080" notAfter="1100">Ende

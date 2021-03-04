@@ -64,10 +64,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">eine Haupthand</p>
+                     <handNote source="Rand">eine Haupthand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>Unziale</p>
+                     <scriptNote>Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote> </decoNote>
@@ -84,8 +84,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"><name type="Kloster">Tours</name>, wohl
-                              <name type="Kloster">St-Martin</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>, wohl
+                              <orgName>St-Martin</orgName></origPlace></p>
                      <p><origPlace source="CLA Gasnault Mercier" cert="medium"
                         >Italien</origPlace></p>
                      <p><origDate cert="medium" notBefore="0500" notAfter="0600">6.
@@ -96,11 +96,11 @@
                         570er Jahre nach Italien erscheint durch die Glossen des Donatus aus Neapel
                         wahrscheinlich.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name>; <name
-                        type="Person">Libri</name></provenance>
-                  <provenance><p>Entstanden entweder in <name type="Kloster">St-Martin</name>, in
-                           <name type="Kloster">Tours</name> oder in Italien, war die Handschrift
-                        früh in <name type="Kloster">Tours</name>.</p>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName>;
+                        <persName>Libri</persName></provenance>
+                  <provenance><p>Entstanden entweder in <orgName>St-Martin</orgName>, in
+                           <orgName>Tours</orgName> oder in Italien, war die Handschrift früh in
+                           <orgName>Tours</orgName>.</p>
                      <p source="Bischoff">Sie befand sich zur Zeit der Übernahme des Klosters durch
                         Alkuin bereits dort.</p>
                      <p source="Mercier">Im 7. Jahrhundert sei die Handschrift entweder durch den
@@ -108,10 +108,10 @@
                      <p source="Gasnault">Die Handschrift ist in der zweiten Hälfte des 8.
                         Jahrhunderts durch ein Ex-libris, das Martène überliefert, in Tours
                         attestiert.</p>
-                     <p>Sie bleibt in <name type="Kloster">Tours</name> bis 1826, wird dann von
-                           <name type="Person">Libri</name> gestohlen und 1847 an Lord <name
-                           type="Person">Ashburnham</name> verkauft. Gelangt 1888 durch <name
-                           type="Person">Delisle</name> an die BnF.</p></provenance>
+                     <p>Sie bleibt in <orgName>Tours</orgName> bis 1826, wird dann von
+                           <persName>Libri</persName> gestohlen und 1847 an Lord
+                           <persName>Ashburnham</persName> verkauft. Gelangt 1888 durch
+                           <persName>Delisle</persName> an die BnF.</p></provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

@@ -118,7 +118,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Hermann">Vielleicht durch <name type="scribe">Sigihar</name> aus Salzburg.</p>
+                     <handNote source="Hermann">Vielleicht durch <persName type="scribe">Sigihar</persName> aus Salzburg.</handNote>
                   </handDesc>
                   <scriptDesc>
                      <p source="Rand">Verbesserte Kursive mit unperfekter Halbunziale</p>
@@ -140,14 +140,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium">Vielleicht nicht Tours</origPlace></p>
-                     <p><origPlace source="Köhler" cert="medium">Salzburg</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium">St-Amand, erweitert in Salzburg</origPlace></p>
+                     <p><origPlace source="Rand" cert="medium">Vielleicht nicht <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium"><placeName>Salzburg</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><orgName>St-Amand</orgName>, erweitert in <placeName>Salzburg</placeName></origPlace></p>
                      <p><origDate source="Köhler Bischoff" cert="high" notBefore="0800" notAfter="0850">Anfang 9. Jhd.</origDate></p>
-                     <note>Die Handschrift ist wohl nicht in Tours entstanden. Eine Entstehung in St-Amand mit Ergänzungen aus Salzburg erscheint wahrscheinlich.</note>
+                     <note>Die Handschrift ist wohl nicht in <placeName>Tours</placeName> entstanden. Eine Entstehung in <orgName>St-Amand</orgName> mit Ergänzungen aus <placeName>Salzburg</placeName> erscheint wahrscheinlich.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="community">Salzburg</name></provenance>
-                  <provenance source="Hermann">Die Handschrift gelangt unter Erzbischof Friedirch von Salzburg (938-991) in die Dombibliothek.</provenance>
+                  <provenance type="Provenance"><placeName>Salzburg</placeName></provenance>
+                  <provenance source="Hermann">Die Handschrift gelangt unter Erzbischof <persName>Friedirch von Salzburg</persName> (938-991) in die Dombibliothek.</provenance>
                   <provenance source="Hermann">Von dort gelangte sie 1806 in die Hofbibliothek.</provenance>
                   <acquisition><name type="Repository">Wien HB</name></acquisition>
                </history>

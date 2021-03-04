@@ -52,10 +52,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -69,19 +69,19 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><name>Tours,
-                           St-Maurice</name></origPlace></p>
-                     <p><origPlace source="BnF" cert="low"><name>„pourrait avoir été copié à
-                              l’abbaye de Marmoutier“</name></origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName>,
+                              <orgName>St-Maurice</orgName></origPlace></p>
+                     <p><origPlace source="BnF" cert="low">„pourrait avoir été copié à l’abbaye de
+                              <orgName>Marmoutier</orgName>“</origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="medium" notBefore="1000" notAfter="1025">Anfang
                            11. Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name>St-Gatien</name></provenance>
-                  <provenance source="Rand">Wenn nicht in St-Maurice hergestellt, dann zumindest für
-                     St-Maurice.</provenance>
+                  <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
+                  <provenance source="Rand">Wenn nicht in <orgName>St-Maurice</orgName> hergestellt,
+                     dann zumindest für St-Maurice.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

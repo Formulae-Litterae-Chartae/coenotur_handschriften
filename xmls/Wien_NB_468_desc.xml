@@ -124,9 +124,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high" source="Hermann"><name type="community">St-Martin</name>, <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Hermann" cert="high" notBefore="0800" notAfter="0850">wahrscheinlich unter <name type="abbot">Adalbald</name>, um 840.</origDate></p>
-                     <note>Es kann als gesichert angesehen werden, dass die Handschrift in St-Martin unter Abt Adalhard angefertigt worden ist.</note>
+                     <p><origPlace cert="high" source="Hermann"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Hermann" cert="high" notBefore="0800" notAfter="0850">wahrscheinlich unter <persName type="abt">Adalbald</persName>, um 840.</origDate></p>
+                     <note>Es kann als gesichert angesehen werden, dass die Handschrift in <orgName>St-Martin</orgName> unter Abt <persName type="abt">Adalhard</persName> angefertigt worden ist.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance source="Hermann">Die Handschrift wurde 1524 vermutlich durch Philipp Gundel einem Händler Ja. Cucullis abgekauft.</provenance>

@@ -49,12 +49,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">drei Hände; die letzte hat die Subskription eingefügt;
-                        Subskription durch Holcundus</p>
+                     <handNote source="Rand">drei Hände; die letzte hat die Subskription eingefügt;
+                        Subskription durch Holcundus</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">runde, insulare Schrift</p>
-                     <p source="Bichoff">keltische, wahrscheinlich bretonische Halbunziale</p>
+                     <scriptNote source="Rand">runde, insulare Schrift</scriptNote>
+                     <scriptNote source="Bichoff">keltische, wahrscheinlich bretonische
+                        Halbunziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -77,11 +78,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"><name>Tours</name></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low">Bretagne</origPlace></p>
-                     <p><origPlace source="Delisle Chatelain" cert="low">Irland</origPlace></p>
-                     <p><origPlace source="Zimmermann" cert="low">Nordfrankreich</origPlace></p>
-                     <p><origPlace source="Katalog" cert="low">Wales?</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                        ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low"
+                           ><placeName>Bretagne</placeName></origPlace></p>
+                     <p><origPlace source="Delisle Chatelain" cert="low"
+                              ><placeName>Irland</placeName></origPlace></p>
+                     <p><origPlace source="Zimmermann" cert="low"
+                              ><placeName>Nordfrankreich</placeName></origPlace></p>
+                     <p><origPlace source="Katalog" cert="low"
+                           ><placeName>Wales</placeName>?</origPlace></p>
                      <p><origDate source="Rand" cert="low" notBefore="0730" notAfter="0770">Mitte 8.
                            Jhd.</origDate></p>
                      <p><origDate source="Zimmermann" cert="low" notBefore="0780" notAfter="0820">um
@@ -90,13 +96,13 @@
                         22 aufgrund der irischen Charakteristiken deutet auf eine Entstehung in
                         Tours hin</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Gatien</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance>Entstanden ist die Handschrift wohl entweder in der Bretagne oder in
-                     Irland und gelangte dann vermutlich im 9. Jhd. nach <name>Tours</name>. Im
-                     Bibliothekskatalog von 1706 von <name type="Kloster">St-Gatien</name>, 1842
-                     durch <name type="Person">Libri</name> gestohlen, 1847 an Lord <name
-                        type="Person">Ashburnham</name> gelangt. 1888 durch die BnF
-                     gekauft.</provenance>
+                     Irland und gelangte dann vermutlich im 9. Jhd. nach
+                        <placeName>Tours</placeName>. Im Bibliothekskatalog von 1706 von
+                        <orgName>St-Gatien</orgName>, 1842 durch <persName>Libri</persName>
+                     gestohlen, 1847 an Lord <persName>Ashburnham</persName> gelangt. 1888 durch die
+                     BnF gekauft.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

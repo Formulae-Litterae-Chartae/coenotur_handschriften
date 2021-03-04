@@ -39,7 +39,7 @@
                <msContents>
                   <msItem class="Mönchsregeln">
                      <author/>
-                     <title/>
+                     <title>Mönchsregeln</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -65,11 +65,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>zwei Hände; Hand A ähnelt Troyes 1742, Hand B ähnelt Tours, BM, 10, zum Teil
-                        auch BnF, NAL 1575</p>
+                     <handNote>zwei Hände; Hand A ähnelt Troyes 1742, Hand B ähnelt Tours, BM, 10,
+                        zum Teil auch BnF, NAL 1575</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>verbesserte Kursive</p>
+                     <scriptNote>verbesserte Kursive</scriptNote>
                   </scriptDesc>
                   <musicNotation><locus n="73r">Neumen aus Tours</locus></musicNotation>
                   <decoDesc>
@@ -84,25 +84,25 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Köhler" cert="medium"><name type="Ort"
-                           >Tours</name></origPlace></p>
+                     <p><origPlace source="Rand Köhler" cert="medium"
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">Gegend von Tours</origPlace></p>
-                     <p><origPlace source="Mostert Manno" cert="medium"><name type="Kloster"
-                              >St-Martin</name> oder <name type="Kloster"
-                           >Marmoutier</name></origPlace></p>
+                     <p><origPlace source="Mostert Manno" cert="medium"><orgName>St-Martin</orgName>
+                           oder <orgName>Marmoutier</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >1. Viertel 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Fleury</name></provenance>
-                  <provenance><p source="Bischoff">Die Handschrift entstand laut <name type="Person"
-                           >Bischoff</name> nicht in <name type="Ort">Tours</name>, sondern in der
-                        Gegend von Tours, war aber bereits ab dem 9. Jhd. in Tours vorhanden.</p>
-                     <p>Gefunden wurde die Handschrift 1638 durch <name type="Person">Dom
-                           Ménard</name> in <name type="Kloster">Fleury</name> und gelangte dann zu
-                        den Karmelitern von <name type="Kloster">Clermont-Ferrand</name>, um
-                        schließlich über die Sammlung <name type="Person">Colbert</name> zur
-                        königlichen Bibliothek zu kommen.</p></provenance>
+                  <provenance type="Provenance"><orgName>Fleury</orgName></provenance>
+                  <provenance><p source="Bischoff">Die Handschrift entstand laut
+                           <persName>Bischoff</persName> nicht in <placeName>Tours</placeName>,
+                        sondern in der Gegend von Tours, war aber bereits ab dem 9. Jhd. in Tours
+                        vorhanden.</p>
+                     <p>Gefunden wurde die Handschrift 1638 durch <persName>Dom Ménard</persName> in
+                           <orgName>Fleury</orgName> und gelangte dann zu den Karmelitern von
+                           <orgName>Clermont-Ferrand</orgName>, um schließlich über die Sammlung
+                           <persName>Colbert</persName> zur königlichen Bibliothek zu
+                     kommen.</p></provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

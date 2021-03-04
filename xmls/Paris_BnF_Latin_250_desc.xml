@@ -71,7 +71,7 @@
                         <title>Die 7 Katholischen Briefe</title>
                      </msItem>
                      <msItem n="1.10">
-                        <locus from="67r" to="99v"/>
+                        <locus from="67vr" to="99v"/>
                         <title>Die Paulusbriefe</title>
                      </msItem>
                      <msItem n="1.11">
@@ -107,13 +107,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">zwei sehr ähnliche Hände</p>
+                     <handNote source="Rand">zwei sehr ähnliche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">turonische Minuskel</p>
+                     <scriptNote source="Rand">turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="1r">Bibliothekssignatur aus St-Denis aus dem 13. Jhd.
@@ -133,13 +133,13 @@
                      <p><origDate source="Bischoff BnF" cert="medium" notBefore="0830"
                            notAfter="0840">830-840 unter Fridugisius</origDate></p>
                      <note>Entstehung in St-Martin kann wegen der Nähe zur Moutier Grandval-Bibel
-                        (London, BL, Ms Add. 10546) als gesichert angesehen werden. Einzig die
+                        (London, BM Ms Add. 10546) als gesichert angesehen werden. Einzig die
                         Datierung ist nicht ganz gesichert. Die Handschrift scheint nach der
                         Moutier-Grandval-Bibel entstanden zu sein.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Denis</name></provenance>
-                  <provenance source="Vezin">Gelangt noch im 9. Jahrhundert nach <name
-                        type="Kloster">St-Denis</name>, wie an den diesem Kloster eigenen Korrekturen, Interpunktuationen und Verweisen erkennbar ist.</provenance>
+                  <provenance type="Provenance"><orgName>St-Denis</orgName></provenance>
+                  <provenance source="Vezin">Gelangt noch im 9. Jahrhundert nach
+                        <orgName>St-Denis</orgName>.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

@@ -1,0 +1,137 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Köln, Dombibliothek 13</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Cologne</settlement>
+                  <repository>Dombibliothek</repository>
+                  <collection/>
+                  <idno>13</idno>
+                  <altIdentifier source="Anderson">
+                     <idno>43,588</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>41</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>1870</idno>
+                  </altIdentifier>
+                  <altIdentifier source="von_Euw">
+                     <idno>2</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Darmstadt">
+                     <idno>2013</idno>
+                  </altIdentifier>
+                  <msName>Hiltfred-Evangeliar</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Evangelien">
+                     <author/>
+                     <title>Evangelien</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="195">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="36.0"/>
+                              <width n="26.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="25.5 27.0">25,5 cm – 27,0 cm</height>
+                              <width n="15.8 17.9">15,8 cm – 17,9 cm</width>
+                           </dimensions>
+                        </extent>
+                        <condition>vollständig überliefert, Fol. 97-107 am oberen Rand
+                           beschädigt</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="33 35">34 (33, 35)</layout>
+                        <layout><p>rote Auszeichnungsschrift und rote Initialen in
+                           Unziale</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Hiltfredus: <locus n="54r"/><seg type="lat">a capite usque hic
+                           scripsit et requisivit servus vester Hiltfredus</seg></handNote>
+                     <handNote source="Bischoff">jedes Evangelium jeweils von einem anderen
+                        Schreiber </handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>karolingische Minuskel; (Halb-)Unziale</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>zu jedem Evangelium ein ganzseitiges, mehrfarbiges (rot, grün, blau,
+                        gelb, braun, schwarz) Evangelistenbild: <locus n="1v">Matthäus</locus>,
+                           <locus n="55v">Markus</locus>, <locus n="91r">Lucas</locus>, <locus
+                           n="152r">Johannes</locus></decoNote>
+                     <decoNote>zwei Schmuckinitialen: <locus n="92r">Q mit Schlange, Vogel,
+                           Fisch</locus>; <locus n="153r">I mit Flechtband</locus></decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="von_Euw"><locus from="194v" to="195v"/>„Fragment eines Capitulare
+                        Evangeliorum, wohl von jüngerer Hand“</p>
+                     <p source="Anderson"><locus from="194v" to="195v"/>grobe Federzeichnungen
+                        verschiedener männlicher Büsten</p>
+                     <p source="Bischoff Surmann">Tironische Noten</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>braunes Leder (16. Jhd.)</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="CEEC" cert="medium">Westfrankenreich</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">„im Umfeld turonischen
+                           Einflusses“</origPlace></p>
+                     <p><origDate source="CEEC Bischoff" cert="high" notBefore="0800"
+                           notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                     <note>Die Datierung in die erste Hälfte des 9. Jhd. scheint gesichert. Eine
+                        sichere Zuschreibung an Tours ist nicht möglich, jedoch spricht viel für
+                        eine Entstehung im turonischen Einflussbereich.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName>Köln</placeName>, Domkirche</provenance>
+                  <provenance>Möglicherweise von Erzbischof <persName>Hildebald</persName> von Köln
+                     (785-818) erworben. </provenance>
+                  <acquisition><name type="Repository">Dombibliothek Köln</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/pagesma/%22kn28-0013_001.jpg%22/segment/%22body%22</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/katl/%22kn28-0013%22</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="115"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
+                     <bibl><idno>von Euw 1989</idno><biblScope unit="pp" from="42" to="44"/></bibl>
+                     <bibl><idno>Anderson 1997</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="386"/></bibl>
+                     <bibl><idno>Surmann 1999</idno><biblScope unit="pp" from="70" to="72"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

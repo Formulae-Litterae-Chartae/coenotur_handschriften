@@ -8,7 +8,10 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note source="Dorange">Die vier ersten und letzten Blätter enthalten Fragmente eines Lektionars des 9. Jhd.</note></notesStmt>
+         <notesStmt>
+            <note source="Dorange">Die vier ersten und letzten Blätter enthalten Fragmente eines
+               Lektionars des 9. Jhd.</note>
+         </notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -28,7 +31,7 @@
                <msContents>
                   <msItem class="Theologie Kirchenväter">
                      <author>Ambrosius, Augustinus, Hieronymus</author>
-                     <title></title>
+                     <title/>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -54,37 +57,37 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">klare, runde Schrift</p>
+                     <scriptNote source="Rand">klare, runde Schrift</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                     </decoNote>
+                     <decoNote> </decoNote>
                   </decoDesc>
-                  <additions>
-                  </additions>
+                  <additions> </additions>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low">Tours</origPlace></p>
-                     <p><origDate source="Dorange" cert="low" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
-                     <p><origDate source="Collon" cert="low" notBefore="0875" notAfter="0900">Ende 9. Jhd.</origDate></p>
+                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange" cert="low" notBefore="0900" notAfter="1000">10.
+                           Jhd.</origDate></p>
+                     <p><origDate source="Collon" cert="low" notBefore="0875" notAfter="0900">Ende
+                           9. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
-                  <provenance></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>

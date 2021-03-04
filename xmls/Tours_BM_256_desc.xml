@@ -57,10 +57,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>zahlreiche Hände</p>
+                     <handNote>zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote> </decoNote>
@@ -79,17 +79,20 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">Tours?</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">Nordostfrankreich?</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"
+                           ><placeName>Tours</placeName>?</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low"
+                              ><placeName>Nordostfrankreich</placeName>?</origPlace></p>
                      <p><origDate source="Bischoff" cert="low" notBefore="0800" notAfter="0825"
                            >Anfang 9. Jhd.</origDate></p>
                      <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
                            notAfter="1000">10. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance source="Dorange">1703 nach St-Martin zurückgekehrt und neugebunden
-                     durch Gatien de Galliczon, Kanoniker und Vorsinger von St-Martin.</provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance source="Dorange">1703 nach <orgName>St-Martin</orgName> zurückgekehrt
+                     und neugebunden durch Gatien de Galliczon, Kanoniker und Vorsinger von
+                     St-Martin.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>

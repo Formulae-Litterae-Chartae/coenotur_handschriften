@@ -102,8 +102,8 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p source="Rand">eine Hand</p>
-                            <p source="Bannister">zwei Hände</p>
+                            <handNote source="Rand">eine Hand</handNote>
+                            <handNote source="Bannister">zwei Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p></p>
@@ -123,8 +123,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff Rand" cert="medium">Tours</origPlace></p>
-                            <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0810">unter Alkuin oder kurz danach</origDate></p>
+                            <p><origPlace source="Bischoff Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0810">unter <persName type="Abt">Alkuin</persName> oder kurz danach</origDate></p>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster"></name></provenance>
                         <acquisition><name type="Repository"></name></acquisition>

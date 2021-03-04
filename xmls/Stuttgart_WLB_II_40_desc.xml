@@ -81,7 +81,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand"><name type="scribe">Adalbaldus</name>?</p>
+                     <handNote source="Rand"><persName type="scribe">Adalbaldus</persName>?</handNote>
                   </handDesc>
                   <scriptDesc>
                      <p source="Burkhard">Karolingische Minuskel</p>
@@ -108,12 +108,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Köhler McKitterick Bischoff" cert="high"><name type="community">St-Martin</name>, <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="McKitterick Burkhart" cert="high" notBefore="0807" notAfter="0834">um 830, unter Fredegisus</origDate></p>
-                     <note>Die Handschrift ist mit großer Sicherheit in Tours unter <name type="abbot">Fredegisus</name> (807-834) entstanden.</note>
+                     <p><origPlace source="Rand Köhler McKitterick Bischoff" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="McKitterick Burkhart" cert="high" notBefore="0807" notAfter="0834">um 830, unter <persName type="abt">Fridigisus</persName></origDate></p>
+                     <note>Die Handschrift ist mit großer Sicherheit in <orgName>St-Martin</orgName>, <placeName>Tours</placeName> unter <persName type="abt">Fridigisus</persName> (807-834) entstanden.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="community">Weingarten</name></provenance>
-                  <provenance source="Burkhart">Die Handschrift war schon um 1200 in Weingarten, wie das Exlibris belegt. Vielleicht wurde sie "von den ersten Mönchen aus Altomünster mitgebracht oder [war] ein Geschenk Judiths von Flandern</provenance>
+                  <provenance type="Provenance"><orgName>Weingarten</orgName></provenance>
+                  <provenance source="Burkhart">Die Handschrift war schon um 1200 in <orgName>Weingarten</orgName>, wie das Exlibris belegt. Vielleicht wurde sie "von den ersten Mönchen aus Altomünster mitgebracht oder [war] ein Geschenk Judiths von Flandern</provenance>
                   <acquisition><name type="Repository">WLB</name></acquisition>
                </history>
                <additional>

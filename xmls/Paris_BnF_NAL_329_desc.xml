@@ -53,10 +53,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Bischoff">wohl eine Hand</p>
+                     <handNote source="Bischoff">wohl eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Bischoff">mäßig schräge einheitliche Minuskel</p>
+                     <scriptNote source="Bischoff">mäßig schräge einheitliche Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -76,7 +76,7 @@
                            Jhd.</origDate></p>
                      <p/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Cluny</name></provenance>
+                  <provenance type="Provenance"><orgName>Cluny</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

@@ -53,17 +53,17 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p></p>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                     </decoNote>
+                     <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
-                    <p><locus n="1"/>Notiz von Dom Le Michel: <seg type="lat">Ambrosius Ausbertus benedictus in Apocalipsim</seg></p>
+                     <p><locus n="1"/>Notiz von Dom Le Michel: <seg type="lat">Ambrosius Ausbertus
+                           benedictus in Apocalipsim</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -71,19 +71,19 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="" cert=""></origPlace></p>
-                     <p><origDate source="" cert="" notBefore="" notAfter=""></origDate></p>
+                     <p><origPlace source="" cert=""/></p>
+                     <p><origDate source="" cert="" notBefore="" notAfter=""/></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">Marmoutier</name></provenance>
-                  <provenance></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>

@@ -64,10 +64,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">ungefähr 20 Hände</p>
+                     <handNote source="Rand">ungefähr 20 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">Kursive mit alten Elementen</p>
+                     <scriptNote source="Rand">Kursive mit alten Elementen</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote> </decoNote>
@@ -81,14 +81,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff" cert="medium">Tours</origPlace></p>
+                     <p><origPlace source="Rand Bischoff" cert="medium"
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >1. Viertel 9. Jhd.</origDate></p>
                      <note>da einige der Hände deutlich ältere kursive Elemente aufweisen, vermutet
                         RAND, dass es sich vielleicht um die Abschrift einer Handschrift des 8.
                         Jahrhunderts handelt</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

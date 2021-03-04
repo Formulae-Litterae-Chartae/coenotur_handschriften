@@ -56,13 +56,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -84,12 +84,12 @@
                            Hälfte 9. Jhd.</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance>Entstehungsort ist nicht gesichert; wenn nicht in St-Martin, gelangte
-                     die Handschrift später an den Stift, wie am Exlibris erkennbar ist. Vermutlich
-                     hat die Handschrift zwischenzeitlich St-Martin verlassen und ist später wieder
-                     dorthin gelangt. Wohin die Handschrift ging, ist leider nicht
-                     nachvollziehbar.</provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance>Entstehungsort ist nicht gesichert; wenn nicht in
+                        <orgName>St-Martin</orgName>, gelangte die Handschrift später an den Stift,
+                     wie am Exlibris erkennbar ist. Vermutlich hat die Handschrift zwischenzeitlich
+                     St-Martin verlassen und ist später wieder dorthin gelangt. Wohin die
+                     Handschrift ging, ist leider nicht nachvollziehbar.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>

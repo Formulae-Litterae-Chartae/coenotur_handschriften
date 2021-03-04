@@ -52,13 +52,13 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p source="Rand">zahlreiche Hände</p>
+                            <handNote source="Rand">zahlreiche Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand">Kleine Kapitalis</p>
                         </scriptDesc>
                         <musicNotation>
-                            <p source="Rand">Neumen, vielleict aus <name type="Kloster">Tours</name> oder aus<name type="Kloster">Fleury</name></p>
+                            <p source="Rand">Neumen, vielleict aus <placeName>Tours</placeName> oder aus <orgName>Fleury</orgName></p>
                         </musicNotation>
                         <decoDesc>
                             <decoNote></decoNote>
@@ -75,13 +75,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Traube 1901" cert="low">Tours</origPlace></p>
-                            <p><origPlace source="Traube 1892" cert="low">Laon</origPlace></p>
-                            <p><origPlace source="Contreni" cert="unknown">unklar, Fleuy oder Tours eher als Laon</origPlace></p>
+                            <p><origPlace source="Traube 1901" cert="low"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Traube 1892" cert="low"><placeName>Laon</placeName></origPlace></p>
+                            <p><origPlace source="Contreni" cert="unknown">unklar, <orgName>Fleury</orgName> oder <placeName>Tours</placeName> eher als <placeName>Laon</placeName></origPlace></p>
                             <p><origDate source="Contreni" cert="high" notBefore="0877" notAfter="0900">9. Jhd. nach 877</origDate></p>
                         </origin>
-                        <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                        <provenance>Vermutlich nicht in St-Martin entstanden, war die Handschrift sicher Bestandteil der dortigen Bibliothek, wie das Exlibris belegt.</provenance>
+                        <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                        <provenance>Vermutlich nicht in <orgName>St-Martin</orgName> entstanden, war die Handschrift sicher Bestandteil der dortigen Bibliothek, wie das Exlibris belegt.</provenance>
                         <acquisition><name type="Repository"></name></acquisition>
                     </history>
                     <additional>

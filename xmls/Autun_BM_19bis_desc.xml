@@ -1,0 +1,115 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Autun, BM, 19bis</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Dieses Sakramentar wurde für <persName type="Abt">Raganaldus</persName>, dem Abt von Mamroutier, geschrieben</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Autun</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>19bis</idno>
+                  <altIdentifier source="Rand">
+                     <idno>105</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>37</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>156</idno>
+                  </altIdentifier>
+                  <msName>Sacramantaire de Marmoutier</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Sakramentar">
+                     <author/>
+                     <title>Sacramentarium Gregorianum</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="200">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="33.8"/>
+                              <width n="24.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="23.0"/>
+                              <width n="14.3"/>
+                           </dimensions>
+                        </extent>
+                        <condition source="Köhler">Durch Feuchtigkeit stark beschädigt</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="27"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Rand">(Fast)-Vollständig von einer Hand</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">Perfected</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p>ja, siehe Köhler</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p></p>
+                     <p n="Exlibris"><locus n=""/></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Ledereinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand Bischoff" cert="high" notBefore="0840" notAfter="0850">844/845</origDate></p>
+                     <note>Dadurch, dass gesichert ist, dass die Handschrift für <persName>Ragalnaldus</persName>, den Abt von Marmoutier abgefasst wurde, ist die Datierung gesichert. Entstanden ist die Handschrift sicher in <placeName>Tours</placeName>, wobei nicht klar ist in welcher Gemeinschaft. Die Herstellung für Raganaldus bedeutet nicht, dass die Handschrift gezwungenermaßen in <orgName>Marmoutier</orgName> entstanden sein muss.</note>
+                  </origin>
+                  <provenance type="Provenance"><orgName>Kathdrale von Autun</orgName></provenance>
+                  <provenance source="Köhler">Die Handschrift war sicher ab dem 11. Jhd, vielleicht bereits ab dem 10. Jahrhundert, in Autun. Dies lässt sich an der für den heiligen Nazarius eingeschobenen Blatt (f. 64) erkennen.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="150"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="236 237"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="393 396"/></bibl>
+                     <bibl><idno>Bischoff 1994</idno><biblScope unit="pp" n="37"/></bibl>
+                     <bibl><idno>Voyer 2015</idno><biblScope unit="pp" n=""/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

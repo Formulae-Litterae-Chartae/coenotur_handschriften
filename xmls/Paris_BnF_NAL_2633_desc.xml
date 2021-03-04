@@ -50,10 +50,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel</p>
+                     <scriptNote>turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -67,7 +67,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="unknown"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="unknown"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate cert="unknown" notBefore="0857" notAfter="0862">ca.
                            857-862</origDate></p>
                      <note/>

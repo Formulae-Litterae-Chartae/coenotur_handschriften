@@ -60,10 +60,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -72,12 +72,13 @@
                      <p n="Exlibris"><locus n="87r"/><seg type="lat">hic est liber sancti maximini
                            miciacensis</seg></p>
                   </additions>
-                  <bindingDesc/>
+                  <bindingDesc>
+                     <p/>
+                  </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"><name type="Kloster"
-                           >Micy</name>?</origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><orgName>Micy</orgName>?</origPlace></p>
                      <p><origPlace source="Bischoff" cert="low">etwa Paris</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >1. Viertel 9. Jhd.</origDate></p>
@@ -85,11 +86,10 @@
                         sich in der Liste, da es ursprünglich von Delisle als zweifelhaft nach Tours
                         verortet wurde.</note>
                   </origin>
-                  <provenance type="Provenance"><name type="Kloster">St-Martin</name></provenance>
-                  <provenance>Vermutlich geschrieben in <name type="Kloster">Micy</name> oder im
-                     Pariser Raum, gelangte die Handschrift irgendwann nach <name type="Kloster"
-                        >St-Martin</name>. Von dort ging sie in den Besitz von Desnoyer
-                     über.</provenance>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance>Vermutlich geschrieben in <orgName>Micy</orgName> oder im Pariser
+                     Raum, gelangte die Handschrift irgendwann nach <orgName>St-Martin</orgName>.
+                     Von dort ging sie in den Besitz von Desnoyer über.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

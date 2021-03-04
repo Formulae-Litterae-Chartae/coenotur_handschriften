@@ -50,14 +50,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p/>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <p/>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n=""/>
                         <p/>
                      </decoNote>
                   </decoDesc>
@@ -70,8 +69,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="low"><name type="Kloster"
-                           >St-Martin</name></origPlace></p>
+                     <p><origPlace source="Mercier" cert="low"
+                           ><orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="low" notBefore="1300"
                            notAfter="1400">14. Jhd.</origDate></p>
                      <note/>

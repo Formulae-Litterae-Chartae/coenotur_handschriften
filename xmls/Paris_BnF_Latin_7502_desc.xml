@@ -57,12 +57,12 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Rand">fünf oder mehr Hände</p>
-                     <p>eine Hand, die die Hand des Leiters des Skriptoriums sein könnte, ähnelt
-                        derjenigen von Paris, BnF, Latin 250</p>
+                     <handNote source="Rand">fünf oder mehr Hände</handNote>
+                     <handNote>eine Hand, die die Hand des Leiters des Skriptoriums sein könnte,
+                        ähnelt derjenigen von Paris, BnF, Latin 250</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>karolingische Minuskel</p>
+                     <scriptNote>karolingische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -79,14 +79,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low"
+                           ><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Hellmann" cert="low">Schriftheimat Tours</origPlace></p>
                      <p><origPlace source="Cinato" cert="medium"
-                        ><name>St-Martin</name></origPlace></p>
+                           ><orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1. Hälfte 9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0820">Unter
-                           Alkuin oder wenig später.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0820">unter
+                           Alkuin oder wenig später</origDate></p>
                      <note>Eine Entstehung in St-Martin unter Fridigisus erscheint sehr
                         wahrscheinlich, zeitgenössisch mit Paris, BnF, Latin 250. Die Zuordnung der
                         Handschrift durch Bischoff zu denjenigen, die fälschlicherweise als aus
@@ -94,10 +95,10 @@
                         aufrechterhalten.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
-                  <provenance>Wenig ist über die Geschichte bekannt. Nach der Produktion in <name
-                        type="Kloster">St-Martin</name> ist die Handschrift vielleicht in privaten
-                     Besitz übergegangen und erscheint erst wieder im 17. Jhd. im Besitz von <name
-                        type="Person">Colbert</name>, von wo sie 1732 in die königliche Bibliothek
+                  <provenance>Wenig ist über die Geschichte bekannt. Nach der Produktion in
+                        <orgName>St-Martin</orgName> ist die Handschrift vielleicht in privaten
+                     Besitz übergegangen und erscheint erst wieder im 17. Jhd. im Besitz von
+                        <persName>Colbert</persName>, von wo sie 1732 in die königliche Bibliothek
                      übergeht.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

@@ -36,7 +36,7 @@
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title/>
+                     <title>Bibel</title>
                      <textLang mainLang="la"/>
                      <msItem>
                         <locus from="1v" to="61v"/>
@@ -66,19 +66,16 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>mehrere Hände</p>
+                     <handNote>mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel</p>
+                     <scriptNote>turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus/>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p source="BnF">korrigiert und punktiert durch
-                        eine zeitgenössische Hand</p>
+                     <p source="BnF">korrigiert und punktiert durch eine zeitgenössische Hand</p>
                      <p><locus n="85r 105r"/>Tironische Noten</p>
                   </additions>
                   <bindingDesc>
@@ -93,7 +90,7 @@
                      <p><origDate source="BnF" cert="low" notBefore="0890" notAfter="0910">Ende 9.,
                            Anfang 10. Jhd.</origDate></p>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"/>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

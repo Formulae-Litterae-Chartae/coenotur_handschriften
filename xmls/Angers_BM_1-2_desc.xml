@@ -1,0 +1,126 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Angers, BM, 1-2</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>
+            <p>Die beiden Handschriften bilden eine Einheit.</p>
+            <p>Es handelt sich um eine sehr spannende Handschrift, die wohl Aufschluss über die Arbeit und den Austausch von Skriptorien, in diesem Fall St-Martin und Angers, bietet.</p>
+            <p source="Webber_Jones">So hat wohl von ein Mönch aus St-Martin eine Bibel nach Angers gebracht und dort, gemeinsam mit den dortigen Mönchen, eine Abschrift, die vorliegende Handschrift, vorgenommen.</p>
+            <p>BERGER merkt die Auffälligkeit an, dass im Vorwort zur Apostelgeschichte <seg type="lat">et</seg> und <seg type="lat">em</seg> Ligaturen erscheinen, was untypisch für Tours ist. Dies lässt sich jedoch mit der besonderen Entstehungsgeschichte begründen</p>
+         </note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Angers</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>1</idno>
+                  <altIdentifier source="Rand">
+                     <idno>70</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>46</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>47</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Bibel</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="419">212 und 207
+                           <dimensions type="leaf" unit="cm">
+                              <height n="46.2"/>
+                              <width n="33.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="38.1"/>
+                              <width n="21.8"/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="50 52">51 (50, 52)</layout>
+                        <layout><p>Rote und schwarze Titel</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Rand">mindestens 12 Hände</handNote>
+                     <handNote>Nähe einzelner Hände zu Geneviève 1260, Pierpont Morgan 191 und Harley 2805</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Rand">Minuskel, mit seltener Halbunziale</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p></p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>zahlreiche Ergänzungen</p>
+                     <p n="Exlibris"><locus n="207"/> 2. Teil: <seg type="lat">Macé de Senz, monacus Sancti Albini Andegavensis</seg>, 15. Jhd.</p>
+                     <p n="Exlibris"><locus n="207"/> 2. Teil: <seg type="lat">Fr. Luc Brindejonc vous prie de prier Dieu pour lui, 13 novembre 1742. </seg></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote></decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low">possibly done at <orgName>Marmoutier</orgName>, <placeName>Tours</placeName>></origPlace></p>
+                     <p><origPlace source="Rand Köhler Weber_Jones" cert="high"><orgName>St-Aubin</orgName>, <placeName>Angers</placeName>></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0810" notAfter="0830">about 820</origDate></p>
+                     <note>Die Entsthungsgeschichte dieser Handschift ist sehr spannend: So wird heute davon ausgegangen, dass eine Mönch aus St-Martin die Bibelrezension von Alkuin nach St-Aubin gebracht hat, und dort gemeinsam mit zahlreichen Mönchen aus Angers die vorliegen Handschrift abgeschrieben hat. </note>
+                     <note>Die vermutete Entstehung in Marmoutier bei RAND geht vermutlich auf die verwirrende Entstehung zurück, die eine große Nähe zu St-Martin aufzeigt und gleichzeitig zu sehr vom typischen Schriftbild abweicht.</note>
+                  </origin>
+                  <provenance type="Provenance"><orgName>St-Aubin</orgName>, <placeName>Angers</placeName></provenance>
+                  <provenance source="Fischer">Die Handschrift gealngte wohl schon im 9. Jahrhundert nach <orgName>St-Aubin</orgName>, <placeName>Angers</placeName>. Dort diente sie für Angers, BM, 3-4 als Vorlage.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://commulysse.angers.fr/ark:/54380/a011504254863c0xTjv</idno></bibl>
+                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="220 221"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="131"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
+                     <bibl><idno>Weber Jones 1938</idno><biblScope unit="pp" n="144"/></bibl>
+                     <bibl><idno>Weber Jones 1938</idno><biblScope unit="pp" n="160"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="62"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="95"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="16"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

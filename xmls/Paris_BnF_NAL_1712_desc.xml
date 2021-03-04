@@ -54,11 +54,12 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>drei Hände</p>
-                     <p><locus n="106v"/><seg type="lat">Ernolinus me fecit</seg> (ca. 10. Jhd.)</p>
+                     <handNote>drei Hände</handNote>
+                     <handNote><locus n="106v"/><seg type="lat">Ernolinus me fecit</seg> (ca. 10.
+                        Jhd.)</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>turonische Minuskel</p>
+                     <scriptNote>turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -72,13 +73,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="unknown"><name>Tours</name></origPlace></p>
+                     <p><origPlace cert="unknown"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                         />2. Viertel 9. Jhd.</p>
                      <note>Die zweite Lage, fol. 9-16, wurde später, vermutlich im 11. Jhd.
                         hinzugefügt.</note>
                   </origin>
-                  <provenance type="Provenance"><name>St-Pierre de Beauvais</name></provenance>
+                  <provenance type="Provenance"><orgName>St-Pierre de
+                     Beauvais</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
