@@ -157,17 +157,21 @@ def handschrift(manuscript: str):
         for sup_desc in obj_desc.xpath('tei:supportDesc', namespaces=namespaces):
             metadata['obj_material'] = material_mapping.get(sup_desc.get('material'), sup_desc.get('material'))
             for extent in sup_desc.xpath('tei:extent', namespaces=namespaces):
-                metadata['num_pages'] = extent.get('n')
+                metadata['num_pages'] = extent.text.strip() if extent.text.strip() else extent.get('n')
                 for dimension in extent.xpath('tei:dimensions', namespaces=namespaces):
                     dim_unit = dimension.get('unit')
-                    dim_height = dimension.xpath('tei:height/@n', namespaces=namespaces)
-                    dim_width = dimension.xpath('tei:width/@n', namespaces=namespaces)
+                    height_element = dimension.xpath('tei:height', namespaces=namespaces)
+                    width_element = dimension.xpath('tei:width', namespaces=namespaces)
+                    dim_height = ''
+                    dim_width = ''
+                    if len(height_element) > 0:
+                        dim_height = height_element[0].text.strip() if height_element[0].text and height_element[0].text.strip() else height_element[0].get('n').replace('.', ',') + ' ' + dim_unit
+                    if len(width_element) > 0:
+                        dim_width = width_element[0].text.strip() if width_element[0].text and width_element[0].text.strip() else width_element[0].get('n').replace('.', ',') + ' ' + dim_unit
                     if dimension.get('type') == 'leaf':
-                        metadata['page_size'] = '{} x {}'.format(dim_height[0] + ' ' + dim_unit if dim_height else '',
-                                                                 dim_width[0] + ' ' + dim_unit if dim_width else '')
+                        metadata['page_size'] = '{} x {}'.format(dim_height, dim_width)
                     if dimension.get('type') == 'written':
-                        metadata['dim_written'] = '{} x {}'.format(dim_height[0] + ' ' + dim_unit if dim_height else '',
-                                                                   dim_width[0] + ' ' + dim_unit if dim_width else '')
+                        metadata['dim_written'] = '{} x {}'.format(dim_height, dim_width)
             for condition in sup_desc.xpath('tei:condition', namespaces=namespaces):
                 condition_text = ''.join(condition.xpath('.//text()'))
                 if condition_text:
