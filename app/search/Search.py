@@ -98,7 +98,7 @@ def advanced_query_index(simple_q: str = '',
     # all parts of the query should be appended to the 'must' list. This assumes AND and not OR at the highest level
     body_template = dict({"query": {"bool": {"must": []}}, "sort": '_id', 'size': 10000, 'aggs': AGGREGATIONS})
     if with_digitalisat in ['True', True]:
-        body_template['query']['bool']['must'].append({'term': {'with_digitalisat': True}})
+        body_template['query']['bool']['must'].append({'regexp': {'with_digitalisat': {'value': '.*'}}})
     fields = {'flat_fields':
                   {'identifier': identifier,
                    'ms_item': ms_item,
@@ -130,7 +130,7 @@ def advanced_query_index(simple_q: str = '',
                    'orig_place.place']
               }
 
-    search_highlight = {'identifier': {}, 'ms_item': {}, 'provenance': {}}
+    search_highlight = {'identifier': {}, 'ms_item': {}, 'provenance': {}, 'with_digitalisat': {}}
     if simple_q:
         search_highlight.update({'person.name': {}, 'orig_place.place': {}})
     body_template['highlight'] = {'fields': search_highlight,

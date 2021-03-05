@@ -15,7 +15,8 @@ HIGHLIGHT_MAPPING = {'identifier': _('Signatur'),
                      'person.identifier': _('ID'),
                      'orig_place.cert': _('Sicherheit'),
                      'person': _('Person'),
-                     'orig_place': _('Entstehungsort')
+                     'orig_place': _('Entstehungsort'),
+                     'with_digitalisat': _('Digitalisate')
                      }
 
 

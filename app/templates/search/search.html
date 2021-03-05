@@ -32,7 +32,11 @@
                     {% for k, v in post['highlight'].items() %}
                     <p class="card-text m-0"><u>{{ highlight_mapping[k] }}</u></p>
                     {% for h in v %}
-                    <p class="card-text m-0"><small>- {{ h|safe }}</small></p>
+                        {% if k == 'with_digitalisat' %}
+                        <p class="card-text m-0"><small>- <a href="{{ h|striptags }}" target="_blank">{{ h|safe }}</a></small></p>
+                        {% else %}
+                        <p class="card-text m-0"><small>- {{ h|safe }}</small></p>
+                        {% endif %}
                     {% endfor %}
                     {% endfor %}
                     {% endif %}
