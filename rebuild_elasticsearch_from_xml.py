@@ -28,7 +28,7 @@ for k, v in es.indices.get_alias().items():
         
 new_index = 'coenotur_v{}'.format(old_index_number + 1)
 
-files = glob('*.xml')
+files = glob('xmls/*.xml')
 namespaces = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 # The 'auto_analyzer' and 'auto_filter' are for the 'autocomplete field. Since this is not supported, and may never be necessary, I am commenting them out.
