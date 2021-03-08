@@ -47,6 +47,11 @@ index_properties.update({'autocomplete_orig_place': {"type": "nested", "properti
 index_properties.update({'autocomplete_ms_item': {"type": "text", "analyzer": "autocompletion", "search_analyzer": "standard"}})
 index_properties.update({'autocomplete_person': {"type": "nested", "properties": {"name": {"type": "text", "analyzer": "autocompletion", "search_analyzer": "standard"}, "role": {"type": "keyword"}, "identifier": {"type": "keyword"}}}})
 index_properties.update({'with_digitalisat': {'type': 'keyword'}})
+index_properties.update({'illuminated': {'type': 'boolean'}})
+index_properties.update({'musicNotation': {'type': 'boolean'}})
+index_properties.update({'exlibris': {'type': 'boolean'}})
+index_properties.update({'tironoten': {'type': 'boolean'}})
+index_properties.update({'named_scribe': {'type': 'boolean'}})
 
 
 for file in files:
@@ -112,8 +117,11 @@ for file in files:
             
     # Get persons
     persons = []
+    named_scribe = False
     for n in xml.xpath('//tei:persName', namespaces=namespaces):
         persons.append({'name': re.sub(r'\s+', ' ', ''.join(n.xpath('.//text()', namespaces=namespaces))), 'role': n.get('type'), 'identifier': n.get('n')})
+        if n.get('type') == 'scribe': 
+            named_scribe = True
         
     # Get provenance
     provenance_strings = []
@@ -123,6 +131,22 @@ for file in files:
     with_digitalisat = []
     for idno in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:additional/tei:surrogates/tei:bibl/tei:idno/text()', namespaces={'tei': 'http://www.tei-c.org/ns/1.0'}):
         with_digitalisat.append(idno)
+        
+    illuminated = False
+    if xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:p/text()', namespaces=namespaces):
+        illuminated = True
+        
+    musicNotation = False
+    if xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:musicNotation/tei:p/text()', namespaces=namespaces):
+        musicNotation = True
+        
+    exlibris = False
+    if xml.xpath('//tei:p[@n="Exlibris"]', namespaces=namespaces):
+        exlibris = True
+        
+    tironoten = False
+    if xml.xpath('//tei:p[@n="tironischen Note"]', namespaces=namespaces):
+        tironoten = True
     
     if not es.indices.exists(new_index):
         print("Creating index {}".format(new_index))
@@ -138,7 +162,12 @@ for file in files:
             'provenance': '; '.join(provenance_strings),
             'autocomplete_person': persons,
             'autocomplete_orig_place': places, 
-            'autocomplete_ms_item': items
+            'autocomplete_ms_item': items,
+            'illuminated': illuminated,
+            'musicNotation': musicNotation,
+            'exlibris': exlibris,
+            'tironoten': tironoten,
+            'named_scribe': named_scribe
             }
     
     if places:

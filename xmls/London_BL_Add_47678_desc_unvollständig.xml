@@ -4,12 +4,12 @@
     <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
-                <title>London, BL, Egerton 2831 + Genf, BPU, lat. 169</title>
+                <title>London, BL, Add 47678 + Genf, BPU, lat. 169</title>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note>Es ahdnelt sich um die wichtigste überlieferte Cicero-Handschrift. Sie ist stark beschädigt. Neben dem Großteil, der in London liegt, liegt ein einzelnes Blatt in Genf.</note></notesStmt>
+            <notesStmt><note>Es handelt sich um die wichtigste überlieferte Cicero-Handschrift. Sie ist stark beschädigt. Neben dem Großteil, der in London liegt, liegt ein einzelnes Blatt in Genf.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>

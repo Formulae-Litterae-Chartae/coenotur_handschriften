@@ -167,6 +167,12 @@
                     <td>{{ m_d['exlibris']|join('<br>')|safe }}</td>
                 </tr>
                 {% endif %}
+                {% if m_d['tironoten'] %}
+                <tr>
+                    <th scope="row">Tironische Noten</th>
+                    <td>{{ m_d['tironoten']|join('<br>')|safe }}</td>
+                </tr>
+                {% endif %}
                 {% if m_d['provenance'] %}
                 <tr>
                     <th scope="row">Provenienz</th>

@@ -90,15 +90,35 @@ def advanced_query_index(simple_q: str = '',
                          autocomplete_orig_place_cert: list = None,
                          autocomplete_person_role: list = None,
                          autocomplete_person_identifier: str = '',
-                         with_digitalisat: str = '') -> Tuple[List[Dict[str, Union[str, list, dict]]],
+                         with_digitalisat: str = '',
+                         with_scribe: str = '',
+                         with_illuminations: str = '',
+                         with_exlibris: str = '',
+                         with_tironoten: str = '',
+                         with_neumierung: str = '') -> Tuple[List[Dict[str, Union[str, list, dict]]],
                                                                             int,
                                                                             dict]:
     if not current_app.elasticsearch:
         return [], 0, {}
     # all parts of the query should be appended to the 'must' list. This assumes AND and not OR at the highest level
     body_template = dict({"query": {"bool": {"must": []}}, "sort": '_id', 'size': 10000, 'aggs': AGGREGATIONS})
+    search_highlight = {'identifier': {}, 'ms_item': {}, 'provenance': {}, 'with_digitalisat': {}}
+    if simple_q:
+        search_highlight.update({'person.name': {}, 'orig_place.place': {}})
     if with_digitalisat in ['True', True]:
         body_template['query']['bool']['must'].append({'regexp': {'with_digitalisat': {'value': '.*'}}})
+    if with_scribe in ['True', True]:
+        body_template['query']['bool']['must'].append({'nested': {'path': 'person', 'query': {'match': {'person.role': 'scribe'}},
+                                                       'inner_hits': {'highlight': {'fields': {'person.role': {}},
+                                                                           'pre_tags': [PRE_TAGS],
+                                                                           'post_tags': [POST_TAGS],
+                                                                           'encoder': 'html'}}}})
+    for bool_arg, arg_name in [(with_exlibris, 'exlibris'),
+                               (with_illuminations, 'illuminated'),
+                               (with_neumierung, 'musicNotation'),
+                               (with_tironoten, 'tironoten')]:
+        if bool_arg in ['True', True]:
+            body_template['query']['bool']['must'].append({'term': {arg_name: True}})
     fields = {'flat_fields':
                   {'identifier': identifier,
                    'ms_item': ms_item,
@@ -130,9 +150,6 @@ def advanced_query_index(simple_q: str = '',
                    'orig_place.place']
               }
 
-    search_highlight = {'identifier': {}, 'ms_item': {}, 'provenance': {}, 'with_digitalisat': {}}
-    if simple_q:
-        search_highlight.update({'person.name': {}, 'orig_place.place': {}})
     body_template['highlight'] = {'fields': search_highlight,
                                   'pre_tags': [PRE_TAGS],
                                   'post_tags': [POST_TAGS],

@@ -1,0 +1,116 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Köln, Dombibliothek 98</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Cologne</settlement>
+                  <repository>Dombibliothek</repository>
+                  <collection/>
+                  <idno>98</idno>
+                  <altIdentifier source="Anderson">
+                     <idno>35,110</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Darnstadt">
+                     <idno>2098</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>1912a</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Exegese">
+                     <author>Isidorus</author>
+                     <title>Quaestiones in Vetus Testamentum</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="166">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="25.7"/>
+                              <width n="18.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="20.5"/>
+                              <width n="13.7"/>
+                           </dimensions>
+                        </extent>
+                        <condition>der Kommentar zum Buch der Makkabäer fehlt</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="25 27">25-27</layout>
+                        <layout><p>rote Auszeichnungsschrift in Halbunziale; einfache rote
+                              Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>mehrere Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>frühe karolingische Minuskel</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>einzelne schlichte Schmuckinitialen </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Tironische Noten (<seg type="lat">requisitum est</seg>) sowie einzelne
+                        Korrekturen aus dem 8./9. Jhd.</p>
+                     <p><locus n="158v"/>zwei Namen in angelsächsischer Minuskel: <seg type="lat"
+                           >uuirinhere</seg>, <seg type="lat">fredegart</seg> (8./9. Jhd.)</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Pergament, 18. Jhd.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Surmann Anderson" cert="high">Tours</origPlace></p>
+                     <p><origDate source="Surmann Anderson" cert="high" notBefore="0740"
+                           notAfter="0760">Mitte 8. Jhd.</origDate></p>
+                     <note>aufgrund der Schrift und der Nähe zu CLA VI, 762 kann eine Entstehung in
+                        Tours um 750 angenommen werden</note>
+                  </origin>
+                  <provenance type="Provenance"><orgName>Dombibliothek Köln</orgName></provenance>
+                  <provenance source="Surmann">vermutlich gehörte die Handschrift schon zur Zeit des
+                     Erzbischofs <persName>Hildebold</persName> zum Bestand der Kölner
+                     Dombibliothek.</provenance>
+                  <acquisition><name type="Repository">Dombibliothek Köln</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/pagesma/%22kn28-0098_001.jpg%22/segment/%22body%22</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/katl/%22kn28-0098%22</idno></bibl>
+                     <bibl><idno>Anderson 1997</idno></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="397"/></bibl>
+                     <bibl><idno>Surmann 1998</idno><biblScope unit="pp" n="89 90"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

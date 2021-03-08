@@ -71,7 +71,9 @@
                   <scriptDesc>
                      <scriptNote>verbesserte Kursive</scriptNote>
                   </scriptDesc>
-                  <musicNotation><locus n="73r">Neumen aus Tours</locus></musicNotation>
+                  <musicNotation>
+                     <p><locus n="73r">Neumen aus Tours</locus></p>
+                  </musicNotation>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>

@@ -64,7 +64,8 @@
                         <scriptDesc>
                             <scriptNote source="Bischoff">Große weiche frühturonische Min. (halbunz. Formen eingemischt)</scriptNote>
                         </scriptDesc>
-                        <musicNotation>Neumen aus Nevers aus dem 10. Jhd.</musicNotation>
+                        <musicNotation>
+                            <p>Neumen aus Nevers aus dem 10. Jhd.</p></musicNotation>
                         <decoDesc>
                             <decoNote>
                                 <p><locus from="20r" to="27r"/>Braune Kanontafeln, leicht koloriert in fleckigem Grün und hellem Gelb, wohl von <persName type="scribe">Gedeon</persName>.</p>

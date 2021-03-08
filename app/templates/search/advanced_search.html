@@ -123,10 +123,30 @@
                         </div>
                     </div>
                     <div class="form-group mb-2">
-                        <div class="text-center search-section-label"><strong>{{ _('Digitalisate') }}</strong></div>
+                        <div class="text-center search-section-label"><strong>{{ _('Suche eingrenzen') }}</strong></div>
                         <div class="form-check form-check-inline form-group mb-0">
                             <input class="form-check-input" id="with_digitalisat_checkbox" name="with_digitalisat" type="checkbox" value="true">
                             <label class="form-check-label" for="with_digitalisat_checkbox">{{ form.with_digitalisat.label.text }}</label>
+                        </div>
+                        <div class="form-check form-check-inline form-group mb-0">
+                            <input class="form-check-input" id="with_scribe_checkbox" name="with_scribe" type="checkbox" value="true">
+                            <label class="form-check-label" for="with_scribe_checkbox">{{ form.with_scribe.label.text }}</label>
+                        </div>
+                        <div class="form-check form-check-inline form-group mb-0">
+                            <input class="form-check-input" id="with_illumination_checkbox" name="with_illuminations" type="checkbox" value="true">
+                            <label class="form-check-label" for="with_illumination_checkbox">{{ form.with_illuminations.label.text }}</label>
+                        </div>
+                        <div class="form-check form-check-inline form-group mb-0">
+                            <input class="form-check-input" id="with_neumierung_checkbox" name="with_neumierung" type="checkbox" value="true">
+                            <label class="form-check-label" for="with_neumierung_checkbox">{{ form.with_neumierung.label.text }}</label>
+                        </div>
+                        <div class="form-check form-check-inline form-group mb-0">
+                            <input class="form-check-input" id="with_tironoten_checkbox" name="with_tironoten" type="checkbox" value="true">
+                            <label class="form-check-label" for="with_tironoten_checkbox">{{ form.with_tironoten.label.text }}</label>
+                        </div>
+                        <div class="form-check form-check-inline form-group mb-0">
+                            <input class="form-check-input" id="with_exlibris_checkbox" name="with_exlibris" type="checkbox" value="true">
+                            <label class="form-check-label" for="with_exlibris_checkbox">{{ form.with_exlibris.label.text }}</label>
                         </div>
                     </div>
                 </div>

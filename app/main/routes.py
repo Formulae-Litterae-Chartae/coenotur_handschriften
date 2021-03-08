@@ -228,7 +228,6 @@ def handschrift(manuscript: str):
                                                          ' (' + hand_desc.get('source').upper().replace(' ', '; ') + ')'
                                                          if hand_desc.get('source') else '',
                                                          end_symbol))
-    metadata['marginal'] = []
     metadata['neumen'] = []
     for adds in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:musicNotation/tei:p',
                           namespaces=namespaces):
@@ -245,6 +244,8 @@ def handschrift(manuscript: str):
                                                     adds.get('source') else '',
                                                     end_symbol))
     metadata['exlibris'] = []
+    metadata['tironoten'] = []
+    metadata['marginal'] = []
     for adds in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:additions/tei:p',
                           namespaces=namespaces):
         add_locus = ''
@@ -255,11 +256,14 @@ def handschrift(manuscript: str):
             if add_locus or marked_up_text:
                 metadata['exlibris'].append('{}{}'.format(add_locus, marked_up_text))
         else:
+            m_d_target = 'marginal'
+            if adds.get('n') == 'tironischen Note':
+                m_d_target = 'tironoten'
             if add_locus or marked_up_text:
                 end_symbol = ''
                 if marked_up_text.strip().endswith('.'):
                     end_symbol = '.'
-                metadata['marginal'].append('{}{}{}{}'.format(add_locus, marked_up_text,
+                metadata[m_d_target].append('{}{}{}{}'.format(add_locus, marked_up_text,
                                                               ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
                                                               adds.get('source') else '',
                                                               end_symbol))
