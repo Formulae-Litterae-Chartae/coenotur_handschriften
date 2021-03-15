@@ -211,9 +211,9 @@ def advanced_query_index(simple_q: str = '',
     if orig_year_start or orig_year_end:
         date_clauses = []
         if orig_year_end:
-            date_clauses.append({'range': {'min_date': {'lte': orig_year_end}}})
+            date_clauses.append({'range': {'min_date': {'lte': '{:04}'.format(int(orig_year_end))}}})
         if orig_year_start:
-            date_clauses.append({'range': {'max_date': {'gte': orig_year_start}}})
+            date_clauses.append({'range': {'max_date': {'gte': '{:04}'.format(int(orig_year_start))}}})
         body_template['query']['bool']['must'].append({'bool': {'must': date_clauses}})
 
     search = current_app.elasticsearch.search(index='coenotur', doc_type="", body=body_template)
