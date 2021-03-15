@@ -1,0 +1,114 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Köln, Dombibliothek 104</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Cologne</settlement>
+                  <repository>Dombibliothek</repository>
+                  <collection/>
+                  <idno>104</idno>
+                  <altIdentifier source="Darmstadt">
+                     <idno>2104</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>1917</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Exegese">
+                     <author>Beda</author>
+                     <title>Super Epistolas Pauli</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="160">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="32.0"/>
+                              <width n="20.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="24.0"/>
+                              <width n="13.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition source="Bischoff">der vom Schreiber Cosmas verfasste Teil
+                           fehlt</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="25"/>
+                        <layout><p>rote Auszeichnungsschrift, einfache Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>vier Schreiber nennen sich selbst: Hadoldus, Wicbertus, Grimbaldus,
+                        Cosmas</handNote>
+                     <handNote><locus n="118r"/><seg type="lat">Hoc scedulum licet sit vili scriptu
+                           formatus. Saltim devoti conpingunt hunc divisione quaterna. Cuius inicium
+                           proponit devotus Hadololdus scribendi. Sequens propositum mox eius
+                           Uuicbertus supplex. Tunc partem ternalem praesumens Grimbaldus indignus.
+                           Quem complens scribendo Cosmas concludit in finem.</seg></handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>karolingische Minuskel</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Tironische Noten</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium">wohl
+                           <placeName>Köln</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
+                           >1./2. Viertel 9. Jhd.</origDate></p>
+                     <note>Wenn der Schreiber Cosmas mit dem Schreiber desselben Namens von Köln,
+                        Dombibliothek, Codex 52 identisch ist, ist eine Entstehung in Köln sehr
+                        wahrscheinlich.</note>
+                  </origin>
+                  <provenance type="Provenance"/>
+                  <provenance/>
+                  <acquisition><name type="Repository">Dombibliothek Köln</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/pagesma/%22kn28-0104_001.jpg%22/segment/%22body%22</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/katl/%22kn28-0104%22</idno></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="397 398"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

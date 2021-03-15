@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Leiden, UB, Voss. Lat. F. 113</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note><p>Bei der heutigen Handschrift handelt es sich um 2 einzelnen Handschriften, die später zusammengefügt wurden.</p></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Netherlands</country>
+                        <settlement>Leiden</settlement>
+                        <repository>UB</repository>
+                        <collection/>
+                        <idno>Voss. Lat. F. 113</idno>
+                        <altIdentifier source="Rand">
+                            <idno>114</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2209</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2210</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Variae">
+                            <locus from="1" to="70"></locus>
+                            <author/>
+                            <title>Misc</title>
+                            <textLang mainLang="la"/>
+                            <msItem n="1.1">
+                                <author>Pseudo-Aethicus</author>
+                                <title>De Cosmographia</title>
+                            </msItem>
+                            <msItem n="1.2">
+                                <author/>
+                                <title>Historia Apolloniis Regis Tyri</title>
+                            </msItem>
+                            <msItem n="1.3">
+                                <author>Augustinus</author>
+                                <title>Sermo adversus quinque hereses</title>
+                            </msItem>
+                            <msItem n="1.4">
+                                <author>Augustinus</author>
+                                <title>De Vita Christiana</title>
+                            </msItem>
+                        </msItem>
+                        <msItem class="Variae">
+                            <locus from="71" to="90"></locus>
+                            <author>Anonymus Leidensis (G.)</author>
+                            <title>De situ orbis</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="91">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="27.1"/>
+                                        <width n="22.9"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="19.0 20.5">Teil I: 19,0 cm x 13,0 cm; Teil II: 20,5 cm x 15,5 cm</height>
+                                        <width n="13.0 15.5"/>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="36 38">I: 38; II: 36</layout>
+                                <layout><p>einfache rote Titel und Initialen</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>verschiedene Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote>Karolingische Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Pappeinband mit Pergamentüberzug des 17. Jhds.</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0899">ca. 3. Viertel 9. Jhd.</origDate></p>
+                            <note/>
+                        </origin>
+                        <provenance type="Provenance"><placeName/></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">UB Leiden</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://primarysources.brillonline.com/browse/vossiani-latini/vlf-113-geographica-historica-hagiographica-augustiniana/summarized-description-in-english;vossianivlf11302vlf113description</bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="154"/></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="55 56"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
+

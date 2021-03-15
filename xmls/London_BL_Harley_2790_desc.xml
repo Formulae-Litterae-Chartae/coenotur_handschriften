@@ -89,7 +89,7 @@
                             <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                             <note></note>
                         </origin>
-                        <provenance type="Provenance"><orgName>St Cys</orgName>, <placeName>Nevers</placeName></provenance>
+                        <provenance type="Provenance"><orgName>St Cyr</orgName>, <placeName>Nevers</placeName></provenance>
                         <provenance>Wie das Exlibris belegt, gehörte die Handschrift bereits vor 860 der Kathedrale von <orgName>St Cyr</orgName> in <placeName>Nevers</placeName>.</provenance>
                          <acquisition><name type="Repository">British Library</name></acquisition>
                     </history>
@@ -97,7 +97,7 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno>http://www.bl.uk/catalogues/illuminatedmanuscripts/ILLUMIN.ASP?Size=mid&amp;IllID=17653</idno>
+                                <idno>http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2790_fs001r</idno>
                             </bibl>
                         </surrogates>
                         <listBibl>

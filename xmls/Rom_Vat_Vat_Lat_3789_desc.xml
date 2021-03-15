@@ -55,12 +55,10 @@
                             <handNote>mindestens 2 Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p>Karolingische Minuskel</p>
+                            <scriptNote>Karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
-                                <p></p>
                             </decoNote>
                         </decoDesc>
                         <additions>
@@ -69,7 +67,6 @@
                             <p>Zahlreiche Anmerkungen/Inhaltsangaben einer späteren Hand</p>
                             <p n="LKV"><locus n="16v">Lagenkontrollermerk</locus></p>
                             <p n="SK"><locus n="16v">Schreiberkürzel</locus></p>
-                            <p n="Exlibris"><locus n=""/></p>
                         </additions>
                         <bindingDesc>
                             <decoNote></decoNote>
@@ -78,7 +75,7 @@
                     <history>
                         <origin>
                             <p><origPlace cert="low" source="Bischoff">etwa <placeName>Tours</placeName>?; Italien?</origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0867" notAfter="0900"/>9. Jhd. nach 867, dem Tod von <persName type="King">Nikolaus I.</persName></p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0867" notAfter="0900">9. Jhd. nach 867, dem Tod von <persName type="pope">Nikolaus I.</persName></origDate></p>
                             <p></p>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>

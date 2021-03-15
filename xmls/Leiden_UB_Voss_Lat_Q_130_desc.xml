@@ -3,95 +3,91 @@
     <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
-                <title>Rom, Vat., Vat. Lat. 1480</title>
+                <title>Leiden, UB, Voss. Lat. Q. 130</title>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
+            <notesStmt><note></note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <country>Vatikan</country>
-                        <settlement>Rom</settlement>
-                        <repository>Vatlib</repository>
+                        <country>Netherlands</country>
+                        <settlement>Leiden</settlement>
+                        <repository>UB</repository>
                         <collection/>
-                        <idno>Vat. Lat. 1480</idno>
+                        <idno>Voss. Lat. Q. 230</idno>
                         <altIdentifier source="Bischoff">
-                            <idno>6857</idno>
+                            <idno>2243</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
-                        <msItem class="Grammatik">
-                            <author>Priscian</author>
-                            <title>Institutiones grammaticae</title>
+                        <msItem class="Klassiker Auslegung">
+                            <author/>
+                            <title>Commentarii in Ciceronis orationes</title>
                             <textLang mainLang="la"/>
-                            <note>1-14</note>
+                            
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent n="136">
+                                <extent n="54">
                                     <dimensions type="leaf" unit="cm">
-                                        <height n="35.5"/>
-                                        <width n="26.5"/>
+                                        <height n="21.3"/>
+                                        <width n="21.0"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="27.5"/>
-                                        <width n="17.2"/>
+                                        <height n="13.0"></height>
+                                        <width n="13.0"></width>
                                     </dimensions>
                                 </extent>
-                                <condition>gut</condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
-                                <layout writtenLines="37"/>
-                                <layout><p>Rote Überschriften in Unziale? Eher capitalis rustica?</p></layout>
+                                <layout writtenLines="18"/>
+                                <layout></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>mehrere Hände</handNote>
+                            <handNote source="Bischoff">mehre Hände</handNote>                            
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote>Karolingische Minuskel</scriptNote>
+                            <scriptNote source="Bischoff">mehrere Hände</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
-                                <p></p>
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p>Sehr starke Glossierung, von mindestens 2 (vielleicht 3) verschiedenen Händen, sowie Glossen in tironischen Noten.</p>
-                            <p>Neben der Glossierung finden sich auch Anmerkungen/Korrekturen einer weiteren zeitgenössischen Hand.</p>
-                            <p n="LKV">Lagenkontrollvermerke</p>
-                        </additions>
+                            </additions>
                         <bindingDesc>
-                            <decoNote>rot-braunes Leder</decoNote>
+                            <decoNote source="Onlinekatalog">Pergamenteinban des 16./17. Jhd. vermutlich angefertig für Paul Pétau</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff Martinellus.de" cert="high"><placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
-                            <p></p>
+                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">ca. 2. Viertel 9. Jhd.</origDate></p>
+                            <note/>
                         </origin>
-                        <provenance type="Provenance"><name/></provenance>
+                        <provenance type="Provenance"></provenance>
                         <provenance></provenance>
-                        <acquisition><name type="Repository">Vatlib</name></acquisition>
+                        <acquisition><name type="Repository">UB Leiden</name></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno>https://digi.vatlib.it/view/MSS_Vat.lat.1480</idno>
+                                <idno></idno>
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.1480</idno></bibl>
-                            <bibl><idno>Martinellus.de</idno></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="447"/></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://primarysources.brillonline.com/browse/vossiani-latini/vlq-130-in-ciceronis-orationes-commentarii</bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="63"/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -104,3 +100,7 @@
         </body>
     </text>
 </TEI>
+
+
+
+

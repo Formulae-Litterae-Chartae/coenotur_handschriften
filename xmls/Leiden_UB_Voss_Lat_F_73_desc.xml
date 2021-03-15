@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Leiden, UB, Voss. Lat. F. 73</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Netherlands</country>
+                        <settlement>Leiden</settlement>
+                        <repository>UB</repository>
+                        <collection/>
+                        <idno>Voss. Lat. F. 73</idno>
+                        <altIdentifier source="Rand">
+                            <idno>26</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>8</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2198</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2199</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Theologie">
+                            <author>Nonius Marcellus</author>
+                            <title>De compendiosa doctrin</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="253">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="29.0"/>
+                                        <width n="23.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="21.5 23.0">21,5 x 23,0 cm</height>
+                                        <width n="17.5 18.0">17,5 x 18,0 cm</width>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="22"/>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">zahlreiche, mindestens 7 Hände</handNote>
+                            <handNote source="Köhler">wechselnde Hände von sehr verschiedenem Charakter</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Rand">Verbesserte Kursive</scriptNote>
+                            <scriptNote source="Köhler">zuweilen fast reine Halbunziale</scriptNote>
+                            <scriptNote source="Bischoff">frühturonische Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Korrekturen durch 2 Hände, von denen eine an <persName type="scribe">Lupus von Ferrières</persName> erinnert.</p>
+                            <p n="Exlibris"><locus n="1"/><seg type="lat">iste liber est de armario beati martini turonensis</seg> (12. Jhd.)</p>
+                            <p n="Exlibris"><locus n="1"/><seg type="lat">iste liber est beati martini quicumque eum furatus fuerit aut inadio [sic] ceperit anathema sit</seg> (13. Jhd. ?) (12. Jhd.)</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Neuer Lederienband über Pappe</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Onlinkatalog" cert="medium" notBefore="0800" notAfter="0804">kurz nach 800, noch unter Alkuin</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                            <note>Spätestens seit dem 12. Jahrhundert ist die Handschrift durch das Exlibris in St-Martin gewesen.</note>
+                        </origin>
+                        <provenance type="Provenance"><orgName>St-Martin</orgName>, <placeName/>Tours</provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">UB Leiden</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://catalogue.leidenuniv.nl/permalink/f/a8bnm1/UBL_ALMA51265040010002711</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://primarysources.brillonline.com/browse/vossiani-latini/vlf-073-nonius-marcellus</bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="105"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="368"/></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="53"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
+
+

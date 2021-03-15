@@ -1,0 +1,125 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Florenz, Laur., XLV 15</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note><p source="Bischoff">Die Vorlage für diese Handschrift scheint der Codex Vat. Lat. 1512, der vermutlich aus Luxeuil stammt, gewesen zu sein.</p>
+            <p>Da es sich zum Teil um eine angelsächsische HAnd handelt, ist die Zuweisung nach Tours durch Rand mit großer Vorsicht zu sehen, da eine die gesamte "The Irish at Tours" keineswegs als gesicherte turonische Produkte angesehen werden kann.</p>
+            </note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Florence</settlement>
+                        <repository>Laur.</repository>
+                        <collection/>
+                        <idno>XLV 15</idno>
+                        <altIdentifier source="J. Jouffroy">
+                            <idno>1436</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>8</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>1227</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Klassiker Auslegung">
+                            <author>Tiberius Claudius Donatus</author>
+                            <title>Interpretationes Vergilianae Aeneidos</title>
+                            <textLang mainLang="la"/>
+                            <note>lib. 1-5</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="160">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="37.5"/>
+                                        <width n="26.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="28.5 29.5">28,5-28,5 cm</height>
+                                        <width n="21.0 22.0">21,0-22,0 cm</width>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="35 38">35-38</layout>
+                                <layout>Vergilstellen in Unziale</layout>
+                                <layout>Rote Tiel und häufige rote Lemmata</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>                            
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Bischoff"><locus n="1 56"/>Angelsächsische Minuskle und 1. Zeile in angelsächsischer Halbunziale</scriptNote>
+                            <scriptNote source="Bischoff"><locus n="57 160"/>breite turonische Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Bischoff" cert="medium">Westfränkisches Skriptorium (auf <placeName>Tours</placeName> kann auch die angelsächsische Schrift weisen</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0700" notAfter="0899">8.-9. Jhd.</origDate></p>
+                       <note>
+                           <p>Geschrieben wurde der Erste Teil dieser Handschrift vermutlich durch eine irishe Hand. Es könnte sich um jemanden handeln, der mit Alkuin nach Tours gelangte</p>
+                           <p source="Rand">Durch die paläographische Nähe des ersten Teils zu London, BL, Egerton 2831 und die textuelle Nähe zu den Handschriften Vat., Reg. Lat., 1484 und Vat., Vat. Lat., 1512 erscheint eine Enstehung in Saint Martin wahrscheinlich.</p>
+                           <p source="Köhler">Zweifelt in seiner Rezension an Tours, da für ihn nur Vat., Reg. Lat. 1484 wirklich turonisch ist.</p>
+                           <p source="Bischoff">Die Handschrift könnte als frühes Prouktion aus der Zeit <persName type="abt">Alkuin</persName>s stammen.</p></note>
+                        </origin>
+                        <provenance type="Provenance"></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">Laurenziana</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>http://mss.bmlonline.it/s.aspx?Id=AWOIe-I9I1A4r7GxMIDQ&amp;c=Donati%20Expositio%20libror.%20Aeneidos%20characteribus%20longobardis%20exarata#/book</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                            <bibl><idno>Bandini 1775</idno><biblScope unit="column" n="350"/></bibl>
+                            <bibl><idno>Rand 1930</idno><biblScope unit="pp" n="90 91"/></bibl>
+                            <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="324"/></bibl>
+                            <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="14"/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="260"/></bibl>
+                            <bibl><idno>Mercier II</idno><biblScope unit="pp" n="118"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
+
+
+
+

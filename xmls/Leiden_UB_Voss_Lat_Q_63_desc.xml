@@ -1,0 +1,107 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Leiden, UB, Voss. Lat. Q. 63</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Netherlands</country>
+                        <settlement>Leiden</settlement>
+                        <repository>UB</repository>
+                        <collection/>
+                        <idno>Voss. Lat. Q. 63</idno>
+                        <altIdentifier source="CLA">
+                            <idno>26</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Geschichtsschreibung">
+                            <author>Gregor von Tours</author>
+                            <title>Historiae</title>
+                            <textLang mainLang="la"/>
+                            <note>Teile</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="93">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="24.7"/>
+                                        <width n="19.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="20.0"></height>
+                                        <width n="15.5"></width>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="22 26">22-26</layout>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+<handNote></handNote>                            
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote>zahlreiche Schreiber mit verschiedenen Schriften</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p source="Hellmann" n="tironische Note">Lagenkontrollvermerke in tironischen Noten</p>
+                            </additions>
+                        <bindingDesc>
+                            <decoNote>Pappeinband in Leder aus dem 19. Jhd.</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Hellmann" cert="medium">Schriftheimat: <placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="CLA" cert="medium" notBefore="0700" notAfter="0750">1. Hälfte 8. Jhd.</origDate></p>
+                            <p><origDate source="Hellmann" cert="medium" notBefore="0700" notAfter="0799">8. Jhd.</origDate></p>
+                            <note/>
+                        </origin>
+                        <provenance type="Provenance"></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">UB Leiden</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://login.ezproxy.leidenuniv.nl:2443/login?url=http://dx.doi.org/10.1163/9789004264243_Q_063</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://primarysources.brillonline.com/browse/vossiani-latini/vlq-063-gregorius-turonensis</bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://elmss.nuigalway.ie/catalogue/315</bibl>
+                            <bibl><idno>MArtinellus.de</idno><biblScope/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
+
+
+

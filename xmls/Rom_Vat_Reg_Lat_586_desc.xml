@@ -40,7 +40,7 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent n="15">nur Teil C stammt aus Tours
+                                <extent n="15">15; nur Teil C stammt aus Tours
                                     <dimensions type="leaf" unit="cm">
                                         <height n="23.2"/>
                                         <width n="17.0"/>
@@ -62,18 +62,14 @@
                             <handNote></handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand">Karolingische Minuskel</p>
-                            <p source="Rand">keine Halbunziale</p>
+                            <scriptNote source="Rand">Karolingische Minuskel</scriptNote>
+                            <scriptNote source="Rand">keine Halbunziale</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
-                                <p></p>
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
-                            <p n="Exlibris"><locus n=""/></p>
                         </additions>
                         <bindingDesc>
                             <decoNote></decoNote>
@@ -82,7 +78,7 @@
                     <history>
                         <origin>
                             <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875"/>Mitte 9. Jhd.</p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
                             <p></p>
                         </origin>
                         <provenance type="Provenance"><name></name></provenance>

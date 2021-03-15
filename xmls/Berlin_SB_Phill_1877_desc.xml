@@ -64,7 +64,6 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n=""/>
                         <p source="Rose"><locus n="9v"/><locus n="45v"/>Sehr schön gemalte Titelblätter: Goldinschrift in einer vereckingen Tafel, mit Blattwek und Flechtwerken.</p>
                         <p source="Rose"><locus n="59v"/><locus n="133v"/>Zwei einfachere Titelblätter mit einem Säulenbogen.</p>
                         <p>Eine ausfürhlich Beschreibung der Miniaturen und der geschmückten Initialen findet sich bei Kirchen.</p>
@@ -85,7 +84,6 @@
                   <origin>
                      <p><origPlace cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
-                     <note></note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Vinzenz</orgName>, <placeName>Metz</placeName></provenance>
                   <provenance source="Rand">Die Handschrift gehörte im 11. Jhd. dem Bischof <persName>Dietrich von Metz</persName>, wobei nicht geklärt ist, ob Dietrich I. (964-984) oder Dietrich II. (1006-1046).</provenance>

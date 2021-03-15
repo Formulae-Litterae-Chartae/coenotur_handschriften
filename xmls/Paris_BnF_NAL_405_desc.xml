@@ -53,7 +53,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Adalbaldus</handNote>
+                     <handNote><persName type="scribe">Adalbaldus</persName></handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote/>
@@ -74,10 +74,10 @@
                               <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1. Hälfte 9. Jhd.</origDate></p>
-                     <note>Entstehungsort ist durch den Schreiber Adalbaldus sicher belegt. Datum
+                     <note>Entstehungsort ist durch den Schreiber <persName type="scribe">Adalbaldus</persName> sicher belegt. Datum
                         kann dadurch vermutlich noch präzisiert werden.</note>
                   </origin>
-                  <provenance type="Provenance"><name type=""/></provenance>
+                  <provenance type="Provenance"></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

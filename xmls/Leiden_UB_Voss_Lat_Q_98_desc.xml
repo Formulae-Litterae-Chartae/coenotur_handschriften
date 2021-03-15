@@ -1,0 +1,114 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Leiden, UB, Voss. Lat. Q. 98</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Netherlands</country>
+                        <settlement>Leiden</settlement>
+                        <repository>UB</repository>
+                        <collection/>
+                        <idno>Voss. Lat. Q. 98</idno>
+                        <altIdentifier source="Bischoff">
+                            <idno>2232</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Kirchenväter">
+                            <author>Augustinus</author>
+                            <title>De baptismo parvulorum</title>
+                            <textLang mainLang="la"/>
+                            <note>et al.</note>
+                        </msItem>
+                        <msItem class="Kirchenväter">
+                            <author>Ambrosius</author>
+                            <title>De sacramentis</title>
+                            <textLang mainLang="la"/>
+                            <note>et al.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="157">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="23 23.7">23-23,7 cm</height>
+                                        <width n="17.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="17 18.5">17-18,5 cm</height>
+                                        <width n="12.5"></width>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="30"/>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Bischoff">mehr als eine Hand</handNote>                            
+                            <handNote source="Onlinekatalog">eine Hand</handNote>                            
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p source="Hellmann" n="tironische Note">testkritische Anmerkungen in tironischen Noten</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Pappeinband in mehrfarbigem Papier des 18. Jhd.</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
+                            <note/>
+                        </origin>
+                        <provenance type="Provenance"></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">UB Leiden</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://primarysources.brillonline.com/browse/vossiani-latini/vlq-098-augustinus</bibl>
+                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="61"/></bibl>
+                             <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
+
+
+
+

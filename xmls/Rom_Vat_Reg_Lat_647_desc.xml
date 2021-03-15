@@ -74,13 +74,10 @@
                             <p></p>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand">Sehr nah an der turonischen Minuskel, mit gelegentlichen Halbunzialen</p>
-                            <p></p>
+                            <scriptNote source="Rand">Sehr nah an der turonischen Minuskel, mit gelegentlichen Halbunzialen</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
-                                <p></p>
                             </decoNote>
                         </decoDesc>
                         <additions>
@@ -95,7 +92,7 @@
                         <origin>
                             <p><origPlace source="Rand" cert="medium"><name>wahrscheinlich nicht <placeName>Tours</placeName></name></origPlace></p>
                             <p><origPlace source="Bischoff" cert="high"><name>Westfrankreich</name></origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0825" notAfter="0875"/>Mitte 9. Jhd.</p>
+                            <p source="Bischoff"><origDate cert="medium" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
                             <note>RAND macht darauf aumerksam, dass die Handschrift derjenigen aus <placeName>Tours</placeName> nicht unähnlich ist und wahrscheinlich kurz nach der Abfassung des Textes c. 863 im Umfeld von Tours geschrieben wurde.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
