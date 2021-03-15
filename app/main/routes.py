@@ -165,9 +165,15 @@ def handschrift(manuscript: str):
                     dim_height = ''
                     dim_width = ''
                     if len(height_element) > 0:
-                        dim_height = height_element[0].text.strip() if height_element[0].text and height_element[0].text.strip() else height_element[0].get('n').replace('.', ',') + ' ' + dim_unit
+                        if height_element[0].text and height_element[0].text.strip():
+                            dim_height = height_element[0].text.strip()
+                        elif height_element[0].get('n'):
+                            height_element[0].get('n').replace('.', ',') + ' ' + dim_unit
                     if len(width_element) > 0:
-                        dim_width = width_element[0].text.strip() if width_element[0].text and width_element[0].text.strip() else width_element[0].get('n').replace('.', ',') + ' ' + dim_unit
+                        if width_element[0].text and width_element[0].text.strip():
+                            dim_width = width_element[0].text.strip()
+                        elif width_element[0].get('n'):
+                            width_element[0].get('n').replace('.', ',') + ' ' + dim_unit
                     if dimension.get('type') == 'leaf':
                         metadata['page_size'] = '{} x {}'.format(dim_height, dim_width)
                     if dimension.get('type') == 'written':
