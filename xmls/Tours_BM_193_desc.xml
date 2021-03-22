@@ -9,9 +9,11 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt>
-            <note source="Dorange">Dieses Missale wurde in St-Martin verwendet. Es findet sich weder
+            <note>
+               <p source="Dorange">Dieses Missale wurde in St-Martin verwendet. Es findet sich weder
                im Katalog von Montfaucon, noch in dem von Chalmel, vermutlich, weil es so wertvoll
-               war, dass es im Tresor und nicht in der Bibliothek gelagert wurde.</note>
+               war, dass es im Tresor und nicht in der Bibliothek gelagert wurde.</p>
+            </note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -73,8 +75,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate cert="low" notBefore="1100" notAfter="1300">12. und 13.
+                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate cert="medium" notBefore="1100" notAfter="1300">12. und 13.
                            Jhd.</origDate></p>
                      <note/>
                   </origin>
@@ -86,7 +88,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno>https://bvmm.irht.cnrs.fr/resultRecherche/resultRecherche.php?COMPOSITION_ID=2450</idno>
+                        <idno>https://bvmm.irht.cnrs.fr/iiif/32072/canvas/canvas-2811488/view</idno>
                      </bibl>
                   </surrogates>
                   <listBibl>

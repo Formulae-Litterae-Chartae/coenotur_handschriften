@@ -48,7 +48,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
+                        <layout/>
                         <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -82,7 +82,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno>https://bvmm.irht.cnrs.fr/resultRecherche/resultRecherche.php?COMPOSITION_ID=16241</idno>
+                        <idno>https://bvmm.irht.cnrs.fr/iiif/32092/canvas/canvas-2814700/view</idno>
                      </bibl>
                   </surrogates>
                   <listBibl>

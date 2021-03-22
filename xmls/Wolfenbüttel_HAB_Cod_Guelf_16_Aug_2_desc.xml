@@ -1,0 +1,110 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Wolfenbüttel, HAB, Cod. Guelf. 16 Aug 2</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>Wolfenbüttel</settlement>
+                        <repository>HAB</repository>
+                        <collection/>
+                        <idno>Cod. Guelf. 16 Aug 2</idno>
+                        <altIdentifier source="Heinemann">
+                            <idno>2186</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>128</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>7284</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Bibel Evangeliar">
+                            <author/>
+                            <title>Evangeliar</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="162">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="30.1"/>
+                                        <width n="25.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n=""/>
+                                        <width n=""/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout/>
+                                <layout/>
+                                <layout><p></p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus/>
+                                <p>ja</p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>unüberzogener holzdeckel</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0860">ca. Mitte 9. Jhd.</origDate></p>
+                            <note></note>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance>Die Handschrift wurde um 900 der Abtei Erstein geschenkt, vll . durch deren Gründerin Irmingard. Um 1500 war die Handschrift in Straßburg, bevor sie vor 1611/12 an Herzog August von Braunschweig-Lüneburg ging.</provenance>
+                        <acquisition><name type="Repository">HAB</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>http://diglib.hab.de/mss/16-aug-2f/start.htm</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://diglib.hab.de/?db=mss&amp;list=ms&amp;id=16-aug-2f</idno></bibl>
+                            <bibl><idno>Heinemann 1895</idno><biblScope unit="pp" n="201 204"/></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="161"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="499"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

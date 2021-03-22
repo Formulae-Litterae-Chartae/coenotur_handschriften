@@ -28,7 +28,7 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Theologie">
                      <author/>
                      <title>Confessio S. Fulgentii / Liber Precum</title>
                      <textLang mainLang="la"/>
@@ -86,9 +86,9 @@
                            >2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875">Mitte
                            9. Jhd.</origDate></p>
-                     <note>Tours scheint nicht angezweifelt zu werden, wobei Rand anmerkt, dass die
-                        Initiale B (fol. 82v) an den „Franco-Savon style“ erinnert. Eine Entstehung
-                        in Tours wird von Laura Albiero (BnF) angezweifelt. So scheint eine
+                     <note>RAND merkt an, dass die
+                        Initiale B (fol. 82v) an den „Franco-Saxon Style“ erinnert. Eine Entstehung
+                        in Tours wird von Laura ALBIERO (BnF) angezweifelt. Für sie scheint eine
                         Entstehung in Nordfrankreich aufgrund der Präsenz der Heiligen Vaast, Médard
                         und Géry wahrscheinlicher.</note>
                   </origin>

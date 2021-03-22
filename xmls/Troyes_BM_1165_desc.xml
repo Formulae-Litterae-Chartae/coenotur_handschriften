@@ -1,0 +1,111 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Troyes, BM, 1165</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Troyes</settlement>
+                        <repository>BM</repository>
+                        <collection/>
+                        <idno>1165</idno>
+                        <altIdentifier source="Rand">
+                            <idno>232</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6271</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Briefe">
+                            <author>Alkuin</author>
+                            <title>Epistulae</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="210">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="24.0"/>
+                                        <width n="17.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height/>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout/>
+                                <layout/>
+                                <layout><p></p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote/>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                            <p></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote/>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Hellmann" cert="medium">Schriftheimat <placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Rand" cert="medium">nicht Tours</origPlace></p>
+                            <p><origDate source="Rand" cert="medium" notBefore="0800" notAfter="0899">9. Jhd.</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0820">Anfang 9. Jhd.</origDate></p>
+                            <p><origDate source="Onlinekatalog" cert="medium" notBefore="0800" notAfter="0999">9.-10. Jhd.</origDate></p>
+                            <note>RAND lehnt eine Entstehung in Tours ab, wobeidie neuere Forschung (ohne klares Argument) von einer Entstehung in Tours ausgeht.</note>
+                        </origin>
+                        <provenance type="Provenance"><orgName>Collège de l'Oratoire</orgName> de <placeName>Troyes</placeName></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">BM</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2072</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2072</bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="385"/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

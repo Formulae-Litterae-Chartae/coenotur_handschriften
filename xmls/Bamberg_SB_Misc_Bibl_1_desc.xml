@@ -1,0 +1,115 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Paris, BnF, Latin </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>Bamberg</settlement>
+                        <repository>SB</repository>
+                        <collection/>
+                        <idno>Misc. Bibl. 1</idno>
+                        <altIdentifier source="Rand">
+                            <idno>47</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>34</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno></idno>
+                        </altIdentifier>
+                        <msName>Bamberger Alkuinbibel</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Bibel">
+                            <author/>
+                            <title>Bibel</title>
+                            <textLang mainLang="la"/>
+                            <note>Alkuinbibel</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="423">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="47.4"/>
+                                        <width n="35.3"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n=""/>
+                                        <width n=""/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="50 52"/>
+                                <layout><p></p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                            <p n="Exlibris"><locus n=""/></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="high" source="Rand"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                            <p><origDate></origDate></p>
+                            <note></note>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">SB Bamberg</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>urn:nbn:de:bvb:22-dtl-0000098100</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://digital.bib-bvb.de/R/T78L2AF5LM6KR3BJQBDRNHJDASAPACA6BYM7NCGI3KTNIQBH7A-00570?func=results-jump-full&amp;set_entry=000001&amp;set_number=001135&amp;base=SBG</idno></bibl>
+                            <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="206 207"/></bibl>
+                            <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="376 377"/></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="117"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="389 391"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

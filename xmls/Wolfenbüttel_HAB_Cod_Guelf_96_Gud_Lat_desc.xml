@@ -1,0 +1,108 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Wolfenbüttel, HAB, Cod. Guelf. 96 Gud. Lat.</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>Wolfenbüttel</settlement>
+                        <repository>HAB</repository>
+                        <collection/>
+                        <idno>Cod. Guelf. 96 Gud. Lat.</idno>
+                        <altIdentifier source="Milchsack">
+                            <idno>4400</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>94</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>7313</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Nonius Marcellus</author>
+                            <title>Compemdiosa Doctrina ad Filium</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="157">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="28.0"/>
+                                        <width n="15.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="17.6"/>
+                                        <width n="7.2"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="30"/>
+                                <layout><p></p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Roter Schweinslederband des 17. Jhds.</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium" source="Rand Bischoff"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Milchsack" cert="medium" notBefore="0800" notAfter="0999">9./10. Jhd.</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel</origDate></p>
+                            <note></note>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance source="Milchsack">Die Handschrift wurde von Josias Mercier für eine Ausgabe bei St-Victor in Paris benutzt. Sie gelangte wohl durch Napoleon zurück nach Paris, wurde aber nach dem Friedensschluss nach Wolfbüttel zurückgegeben.</provenance>
+                        <acquisition><name type="Repository">HAB</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://diglib.hab.de/?db=mss&amp;list=ms&amp;id=96-gud-lat&amp;catalog=Milchsack&amp;hi=gud.%20lat.%2096</idno></bibl>
+                            <bibl><idno>Milchsack 1913</idno><biblScope unit="pp" n="136 137"/></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="146"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="502"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

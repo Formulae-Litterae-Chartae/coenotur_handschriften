@@ -1,0 +1,109 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Florenz, Laur., S. Croce XXII Sin. 1</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note>
+            </note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Florence</settlement>
+                        <repository>Laur.</repository>
+                        <collection/>
+                        <idno>S. Croce XXII Sin. 1</idno>
+                        <altIdentifier source="Bischoff">
+                            <idno>1242</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Klassiker Auslegung">
+                            <author>Servius</author>
+                            <title>Commentarii in Vergilii opera</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="181">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="29.8"/>
+                                        <width n="22.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="24.7"/>
+                                        <width n="17.5"/>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="49 53">49, 53</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>                            
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Bischoff">schlichte Tours-Minuskel</scriptNote>
+                          </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p n="tironische Noten"><locus n="136v"/></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866">ca. 2. Drittel</origDate></p>
+                            <note>
+                               <p>Sehr wenig ist mir über diese Handschrift bekannt.</p>
+                            </note>
+                        </origin>
+                        <provenance type="Provenance"></provenance>
+                        <provenance source="Bischoff">Vermutlich war die Handschrift im 10/11. Jhd. in Chartres</provenance> 
+                        <provenance source="Bischoff">Ab dem 12. Jhd. dann wahrscheinlich in Paris</provenance>
+                        <acquisition><name type="Repository">Laurenziana</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="263"/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
+
+
+
+

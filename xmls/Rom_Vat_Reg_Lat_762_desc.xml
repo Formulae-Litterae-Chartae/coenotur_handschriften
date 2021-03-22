@@ -63,8 +63,6 @@
                             </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
-                                <p></p>
                             </decoNote>
                         </decoDesc>
                         <additions>
@@ -78,8 +76,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="high"><orgName>St-Martin</orgName> de <placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0840">um 800, vermutlich zu Beginn des Abbatiats von <persName type="Abt">Fridugisus</persName> (804-834)</origDate></p>
+                            <p><origPlace cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0820">um 800, vermutlich zu Beginn des Abbatiats von <persName type="Abt">Fridugisus</persName> (804-834)</origDate></p>
                             <note>Durch die Nennung der Schreiber, deren Namen auch im Sankt Galler Verbrüderungsbuch zu finden sind, mit Sicherheit nach Saint Martin zu verorten und zu Beginn des 9. Jahrhunderts zu datieren. Da das Verbrüderungsbuch zur Zeit Fridugisus angelegt wurde, erscheint eine Datierung auf seine Regierungszeit wahrscheinlich. Dagegen spricht die Schriftentwicklung, die eine Stufe vor den großen Prachtbibeln darstellt. Da dieser unter Alkuin entstanden aber erst unter Fridugisus seine volle Wirksamkeit entfaltete, erscheint eine Datierung auf die Anfangsjahre Fridugisus oder sehr kurz davor wahrscheinlich.</note>
                         </origin>
                         <provenance source="Rand" type="Provenance" cert="low">Umgebung von <orgName>Fleury</orgName></provenance>

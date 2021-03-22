@@ -111,8 +111,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Rand" cert="low" notBefore="0796" notAfter="0804">unter <persName type="Abt">Alkuin</persName></origDate></p>
+                            <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0804">unter <persName type="Abt">Alkuin</persName></origDate></p>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster"></name></provenance>
                         <provenance>Scheint bei Bonneval und P. Daniel gewesen zu sein.</provenance>

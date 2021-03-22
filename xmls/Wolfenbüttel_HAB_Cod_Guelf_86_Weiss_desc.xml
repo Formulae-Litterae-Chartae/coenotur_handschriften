@@ -1,0 +1,109 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Wolfenbüttel, HAB, Cod. Guelf. 86 Weiss</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>Wolfenbüttel</settlement>
+                        <repository>HAB</repository>
+                        <collection/>
+                        <idno>Cod. Guelf. 86 Weiss</idno>
+                        <altIdentifier source="CLA">
+                            <idno>1394</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Heinemann">
+                            <idno>4170</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>7424A</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Grammatik">
+                            <author>Pompeius Maurus</author>
+                            <title>Commentum artis Donati</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="219">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="22.0"/>
+                                        <width n="15.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="18.0"/>
+                                        <width n="12.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="23 24"/>
+                                <layout>
+                                    <p>Titel in roter und tintenbrauner Unziale. Kleine Initialen</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote>Vorkarolingische Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions><p n="tironische Noten" source="Butzmann Hellmann">Lagenzählung in tironischen Noten</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium" source="Butzmann"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Butzmann" cert="medium" notBefore="0740" notAfter="0760">Mitte 8. Jhd.</origDate></p>
+                            <note source="Butzmann">Geschreiben wohl unter Abt <persName type="abt">Wicterp</persName> (gest. 756)</note>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance>Über Fulda nach Weissenburg gelangt? Sie geht wohl mal der BnF.</provenance>
+                        <acquisition><name type="Repository">HAB</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>http://diglib.hab.de/mss/86-weiss/start.htm</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://diglib.hab.de/?db=mss&amp;list=ms&amp;id=86-weiss&amp;catalog=Butzmann&amp;hi=86%20weiss.</idno></bibl>
+                            <bibl><idno>Butzmann 1964</idno><biblScope unit="pp" n="248 249"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="512"/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

@@ -93,9 +93,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno>Décor:
-                           https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/8402/manifest
-                           Initiale: http://initiale.irht.cnrs.fr/codex/4339 </idno>
+                        <idno></idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -104,8 +102,7 @@
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n=""/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="109"/></bibl>
                      <bibl><idno>Weber 1955</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Gryson/Deproost 1989</idno><biblScope unit="pp" n="204 205"
-                        /></bibl>
+                     <bibl><idno>Gryson/Deproost 1989</idno><biblScope unit="pp" n="204 205"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
                   </listBibl>
                </additional>

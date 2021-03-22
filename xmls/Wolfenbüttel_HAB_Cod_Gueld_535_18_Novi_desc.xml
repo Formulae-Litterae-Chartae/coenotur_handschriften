@@ -1,0 +1,101 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Wolfenbüttel, HAB, Cod. Guelf. 535.18 Novi</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>Wolfenbüttel</settlement>
+                        <repository>HAB</repository>
+                        <collection/>
+                        <idno>Cod. Guelf. 535.18 Novi</idno>
+                        <altIdentifier source="Bischoff">
+                            <idno>7365</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Anonymi Scoti (?)</author>
+                            <title>Commentarius in Cantica canticorum</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="23">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="29.0"/>
+                                        <width n="21.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n=""/>
+                                        <width n=""/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout/>
+                                <layout writtenLines="29"/>
+                                <layout><p></p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium" source="Butzmann"><placeName>Tours</placeName> (?)</origPlace></p>
+                            <p><origPlace cert="medium" source="Bischoff"><placeName>Frankreich</placeName>(nicht zu nördlich)</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900">3./4. Viertel 9. Jhd.</origDate></p>
+                            <note></note>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance>Vielleicht war die Handschrift im Besitz von St-Peter und Paul in Weißenburg.</provenance>
+                        <acquisition><name type="Repository">HAB</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>http://diglib.hab.de/mss/535-18-novi/start.htm</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://diglib.hab.de/?db=mss&amp;list=ms&amp;id=535-18-novi&amp;catalog=Butzmann</idno></bibl>
+                            <bibl><idno>Butzmann 1972</idno><biblScope unit="pp" n="348 349"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="507"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
