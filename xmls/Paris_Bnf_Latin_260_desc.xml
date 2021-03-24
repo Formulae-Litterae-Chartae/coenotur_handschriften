@@ -111,13 +111,21 @@
                         10</handNote>
                   </handDesc>
                   <scriptDesc>
+                     <scriptNote></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p>Kanontafeln mit typisch turonischen Motiven, insbesondere Tierwesen und
-                           Vogeln</p>
+                     <decoNote type="initial">
+                        <p><locus n="25r"/>Bunte Initiale. Darstellung eines Kreuzes.</p>
+                        <p><locus n="112r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="17r 23v"/>Ganzseitige Bunte Kanontafeln mit dekorierten architektonischen Rahmen. </p>
+                     </decoNote>
+                     <decoNote type="border" subtype="add">
+                        <p><locus n="189v"/>Zeichnung eines roten Kreuzes am Rand. </p>
                      </decoNote>
                   </decoDesc>
+                  
                   <additions> </additions>
                   <bindingDesc>
                      <decoNote source="Köhler" type="Colbert">Colberteinband</decoNote>

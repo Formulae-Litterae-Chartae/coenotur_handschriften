@@ -67,10 +67,18 @@
                         <musicNotation>
                             <p>Neumen aus Nevers aus dem 10. Jhd.</p></musicNotation>
                         <decoDesc>
-                            <decoNote>
-                                <p><locus from="20r" to="27r"/>Braune Kanontafeln, leicht koloriert in fleckigem Grün und hellem Gelb, wohl von <persName type="scribe">Gedeon</persName>.</p>
-                                </decoNote>
+                            <decoNote type="initial">
+                                <p><locus n=""/>Die Initialen sind größer als der restliche Text. Sind sie mit einer anderen Tinte geschrieben als der Rest des Textes? Sind sie alle mit der gleichen Tinte geschrieben? </p>
+                            </decoNote>
+                            <decoNote type="canon">
+                                <p><locus n="20r 27v"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen, mit Flechtwerk, Pflanzenmotiven und geometrischen Motiven. </p>
+                            </decoNote>
+                            <decoNote type="border" subtype="add">
+                                <p><locus n="28r"/>Pflanzenmotiv in der oberen linken Ecke. </p>
+                                <p><locus n="88r, 89r, 91r, 129r, 207r, 262r"/>Gekritzel</p>
+                            </decoNote>
                         </decoDesc>
+                        
                         <additions>
                             <p source="Hellmann">Lagenkontrollvermerke und Imitationen</p>
                             <p>Rubriken und nachträgliche Kapitelangaben in den Margen</p>

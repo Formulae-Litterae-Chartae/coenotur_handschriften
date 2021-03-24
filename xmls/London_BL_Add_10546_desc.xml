@@ -65,17 +65,110 @@
                      <scriptNote source="Rand">Perfekte Karolingische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p>Die Handschrift weißt zahlreiche prachtvolle Initialen im typischen Stil on Tours, bzw. St-Martin auf.</p>
-                        <p>Die Kanontafeln f. 349v-351r sowie f. 408v-409r sind prächtig illuminiert. Besonders die "tektonische" (KÖHLER) Ausformung stellt eine neuartige Entwicklung dar.</p>
-                        <p source="Köhler">Die Seitenrahmung der Bibel nähert sich der Rahmung des Arnaldusevangeliars, von Paris, BnF, Lat. 274 und Wolfenbüttel 2186 an.</p>
-                        <p><locus n="1v"/>Das Incipit des Hieronymusbriefes ist mit Goldschrift auf Purpur abgefasst</p>
-                        <p><locus n="5v"/>Darstellung der Schöpfungsgeschichte: Die Erschaffung von Adam und Eva, der Sündefall, die Vertreibung aus dem Paradies und Eva beim Stillen und Adam beim Arbeiten</p>
-                        <p><locus n="25v"/>Darstellung von Moses, der die Gesetze empfängt und von Moses der Aaron und die Israeliten unterrichtet</p>
-                        <p><locus n="352v"/>Darstellung von Christus umgeben von den vier Evangelisten und deren Symbolen</p>
-                        <p><locus n="449r"/>Darstellung vom Buch der Sieben Siegel mit unschuldigem Schaaf und dem Löwen von Judea und Darstellung einer thronenden Figur umgeben von den vier Evangelisten</p>
+                     <decoNote type="miniature">
+                        <p><locus n="1v"/>Seitenverzierter Incipit mit in Gold geschriebenem Text auf violetten Bändern und einer vollen Bordüre in Farben, Gold und Silber, mit Flechtdekor.</p>
+                        <p><locus n="5v"/>Miniatur in vier Registern: Erschaffung von Adam und Eva; der Sündenfall; die Vertreibung aus dem Paradies; und Eva beim Stillen und Adam bei der Arbeit. Gott wird durch einen jungen Mann mit einem Heiligenschein dargestellt, der eine Toga trägt.</p>
+                        <p><locus n="25v"/>Miniatur in zwei Registern: Mose empfängt die Gesetzestafeln; Mose spricht zu Aaron und den Hebräern. </p>
+                        <p><locus n="352v"/>Miniatur von Christus in Majestät, umgeben von den Evangelisten und einer anthropomorphisierten Version des Tetramorphs.</p>
+                        <p><locus n="449v"/>Miniatur in zwei Registern auf einem Altar, das vom Lamm und dem Löwen von Juda geöffnet wird, mit dem haloed Tetramorph; darunter ein Christus in Majestät auch mit dem haloed Tetramorph.</p>
+                     </decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="2r"/>Große Initiale (F) in Farben, Gold und Silber mit Flechtdekor. Die Enden des Buchstabes sind mit einer Palme und manchmal mit einem Vogel verziert. Die Zwischenräume zwischen den vertikalen Balken sind mit liturgischen Gegenständen geschmückt. </p>
+                        <p><locus n="6r"/>Große Initiale (D) in Farben, Gold und Silber mit Flechtdekor. Der Raum des D ist mit Zeichnungen von Vögeln, die aus einem Springbrunnen trinken, und stilisierten Pflanzenmotiven gefüllt.</p>
+                        <p><locus n="7r"/>Große Initiale (I) in Farben, Gold und Silber mit Flechtdekor. Capitula in goldenen Tinten auf violettem Hintergrund ("Geneseos") und in roten Tinten, umgeben von geometrischen Mustern. </p>
+                        <p><locus n="26r"/>Große Initiale (H) in Farben, Gold und Silber mit Flechtdekor. Überragt von einem Vogel. An den Enden, Palmen und geometrische Motive. </p>
+                        <p><locus n="41r"/>Große Initiale (V) in Farben, Gold und Silber mit Flechtdekor. In der Mitte ein Medaillon mit einer ausgestreckten Hand. Capitula in goldenen Tinten auf violettem Hintergrund (Quenos) und in rote Tinten. </p>
+                        <p><locus n="52r"/>Große Initiale (L) in Farben, Gold und Silber mit Flechtdekor. Capitula in rote Tinten. </p>
+                        <p><locus n="67v"/>Große Initiale (H) in Farben, Gold und Silber mit Flechtdekor. Capitula in silbernen Tinten auf violettem Hintergrund ("Deutero") und in rote Tinten. </p>
+                        <p><locus n="80r"/>Große Initiale (T) in Gold, Rot umrandet. Capitula in silbernen Tinten auf violettem Hintergrund, goldenen Tinten auf violettem Hintergrund und in rote Tinten. </p>
+                        <p><locus n="81r"/>Große Initiale (C) in Farben mit Flechtdekor. Capitula in goldenen Tinten auf violettem Hintergrund ("Iesunave") und in rote Tinte. </p>
+                        <p><locus n="89v"/>Große Initiale (F) in Farben, Gold und Silber mit Flechtdekor. Die Enden des Buchstabes sind mit einer Palme verziert. Capitula in silbernen Tinten, goldenen Tinten und in rote Tinten. </p>
+                        <p><locus n="97v"/>Große Initiale (I) in Farben und Gold mit Flechtdekor. Die Enden des Buchstabes sind mit einer Palme verziert. Capitula in rote Tinten. </p>
+                        <p><locus n="99r"/>Große Initiale (V) in Farbe mit Flechtdekor. In der Mitte ein geometrisches Muster. Capitula in rote und graue Tinte. </p>
+                        <p><locus n="100r"/>Große Initiale (F) in Farben und Gold mit Flechtdekor. Die Enden des Buchstabes sind mit einer Palme verziert. Die Mitte ist mit einem geometrischen Muster gefüllt. Capitula in rote Tinten. </p>
+                        <p><locus n="111v"/>Große Initiale (F) in Farben und Gold mit Flechtdekor. Die Zwischenräume zwischen den vertikalen Balken sind mit einem Vogel gefüllt. Capitula in goldenen Tinten auf violettem Hintergrund und in rote Tinten. </p>
+                        <p><locus n="120v"/>Große Initiale (E) in Farben und Gold mit Flechtdekor. Die Zwischenräume zwischen den vertikalen Balken sind mit einem Vogel gefüllt. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="130v"/>Große Initiale (C) in Gold, Rot umrandet. In der Mitte ein geometrisches Muster. Capitula in goldenen und in rote Tinte. </p>
+                        <p><locus n="141r"/>Große Initiale (N) in Farben mit Flechtdekor. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="141v"/>Große Initiale (U) in Farben und Gold mit Flechtdekor. Der Raum ist mit Zeichnungen von Vögeln, die aus einem Springbrunnen trinken gefüllt. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="159v"/>Große Initiale (H) in Farben und Gold mit Flechtdekor. Capitula in rote Tinten. </p>
+                        <p><locus n="160r"/>Große Initiale (V) in Farbe und Gold mit Flechtdekor. In der Mitte ein geometrisches Muster. Capitula in rote Tinten. </p>
+                        <p><locus n="182r"/>Große Initiale (E) in Farben und Gold mit Flechtdekor. Die Zwischenräume zwischen den vertikalen Balken sind mit liturgischen Gegenständen gefüllt. Capitula in rote Tinten. </p>
+                        <p><locus n="201r"/>Große Initiale (D) in Grau, Rot umrandet. In der Mitte ein geometrisches Muster. Capitula in goldenen und in rote Tinte. </p>
+                        <p><locus n="201v"/>Große Initiale (A) in Farben und Gold mit Flechtdekor. An den Enden und in der Mitte, Palmen Motive. Capitula in goldenen Tinten auf violettem Hintergrund (Prophetae) und in rote Tinten. </p>
+                        <p><locus n="209v"/>Große Initiale (N) in Farben mit Flechtdekor. Die Enden des Buchstabes sind mit einer Palme verziert. Capitula in silbernen Tinten auf violettem Hintergrund, in goldenen Tinten und in rote Tinten. </p>
+                        <p><locus n="210r"/>Große Initiale (V) in Farbe und Gold mit stilisiertem Pflanzenmotiv. Capitula in goldenen Tinten auf violettem Hintergrund und in rote Tinten. </p>
+                        <p><locus n="212v"/>Große Initiale (V) in Farbe und Gold mit stilisiertem Pflanzenmotiv. Capitula in goldenen Tinten auf violettem Hintergrund und in rote Tinten. </p>
+                        <p><locus n="213v"/>Große Initiale (V) in Rot und Grau mit stilisiertem Pflanzenmotiv. Capitula in goldenen Tinten und in rote Tinten. </p>
+                        <p><locus n="216r"/>Große Initiale (V) in Farben und Gold mit Flechtdekor. In der Mitte ein Medaillon. Capitula in goldenen Tinten und in rote Tinten. </p>
+                        <p><locus n="216r"/>Große Initiale (E) in Farben und Gold mit Flechtdekor. Die Zwischenräume zwischen den vertikalen Balken sind mit einem Vogel und einem Medaillon gefüllt. Capitula in goldenen Tinten und in rote Tinten. </p>
+                        <p><locus n="217r"/>Große Initiale (V) in Farben und Gold mit Flechtdekor. In der Mitte ein Medaillon. Capitula in silbernen Tinten auf violettem Hintergrund und in rote Tinten. </p>
+                        <p><locus n="218v"/>Große Initiale (F) in Farben und Gold mit stilisiertem Pflanzenmotiv. In der Mitte steht ein Topf. Capitula in rote Tinten. </p>
+                        <p><locus n="219r"/>Große Initiale (O) in Rot mit stilisiertem Pflanzenmotiv (in Farbe). In der Mitte ein Medaillon. Capitula in goldenen Tinten und in rote Tinten. </p>
+                        <p><locus n="220r"/>Große Initiale (V) in Farbe mit stilisiertem Pflanzenmotiv. Capitula in goldenen Tinten und in rote Tinten. </p>
+                        <p><locus n="220v"/>Große Initiale (I) in Grau. Das Ende des Buchstabes ist mit einer Palme verziert. Capitula in rote Tinten. </p>
+                        <p><locus n="221r"/>Große Initiale (I) in Farbe und Gold. Das Ende des Buchstabes ist mit einer Palme verziert. Capitula in rote Tinten.</p>
+                        <p><locus n="224r"/>Große Initiale (O) in Gold, rot umrandet. Mit stilisiertem Pflanzenmotiv (in Blau). In der Mitte ein geometrisches Muster. Capitula in goldenen Tinten. </p>
+                        <p><locus n="225r"/>Große Initiale (C) in Farben mit Flechtdekor. In der Mitte ist ein Vogel. Capitula in rote Tinten. </p>
+                        <p><locus n="225v"/>Große Initiale (V) in Farben und Gold mit Flechtdekor. In der Mitte sind Tiere in Rot mit einer Goldfüllung gezeichnet. Capitula in rote Tinten. </p>
+                        <p><locus n="249r"/>Große Initiale (I) in Farben und Gold mit Flechtdekor. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="250r"/>Große Initiale (P) in Farben und Silber mit Flechtdekor. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="258r"/>Große Initiale (V) in Farbe und Gold mit stilisiertem Pflanzenmotiv. Capitula in rote Tinten. </p>
+                        <p><locus n="260v"/>Große Initiale (O) in Farben, Gold und Silber mit stilisiertem Pflanzenmotiv (in Farbe). In der Mitte ist ein Vogel. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="269r"/>Große Initiale (O) in Grau. In der Mitte eine Hand, die ein Kreuz und liturgische Gegenstände (in Gold, rot umrandet) hält. Capitula in rote Tinte. </p>
+                        <p><locus n="285r"/>Große Initiale (S) in Grau mit stilisiertem Pflanzenmotiv in Gold und Rot. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="285v"/>Große Initiale (A) in Farben, Gold und Silber mit Flechtdekor. In der Mitte sind Tiere und ein Gegenstand. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="295r"/>Große Initiale (C) in Farben mit Flechtdekor. In der Mitte ist ein Tier. Capitula in rote Tinten. </p>
+                        <p><locus n="308r"/>Große Initiale (I) in Farbe, Gold und Silber. Das Ende des Buchstabes ist mit einer Palme verziert. Capitula in rote Tinten.</p>
+                        <p><locus n="316v"/>Große Initiale (I) in Farbe, Gold und Silber. Das Ende des Buchstabes ist mit einer Palme verziert. Capitula in rote Tinten.</p>
+                        <p><locus n="321r"/>Große Initiale (T) in Farbe und Gold. Die Enden des Buchstabes sind mit einer Palme verziert. Capitula in rote Tinten.</p>
+                        <p><locus n="324r"/>Große Initiale (A) in Silber. In der Mitte ein geometrisches Muster. Capitula in goldenen Tinten. </p>
+                        <p><locus n="324r"/>Große Initiale (A) in Silber und Gold mit stilisiertem Pflanzenmotiv. Capitula in goldenen Tinten. </p>
+                        <p><locus n="329v"/>Große Initiale (E) in Farben und Gold mit Flechtdekor. Die Zwischenräume zwischen den vertikalen Balken sind mit Tieren gefüllt. Capitula in rote Tinten. </p>
+                        <p><locus n="340r"/>Große Initiale (F) in Farbe und Gold mit Flechtdekor. Die Zwischenräume zwischen den vertikalen Balken sind mit liturgischen Gegenständen gefüllt. Capitula in rote Tinten.</p>
+                        <p><locus n="349r"/>Große Initiale (B) in Farben und Gold mit Flechtdekor. Capitula in goldenen Tinten auf violettem Hintergrund und in rote Tinten. </p>
+                        <p><locus n="353r"/>Große Initiale (L) in Farben und Gold mit Flechtdekor. Capitula in goldene und in rote Tinte. </p>
+                        <p><locus n="363r"/>Große Initiale (I) in Farbe und Gold mit stilisiertem Pflanzenmotiv. Capitula in rote Tinten. Pflanzenfries </p>
+                        <p><locus n="370r"/>Große Initiale (L) in Farbe und Gold mit stilisiertem Pflanzenmotiv. Capitula in goldenen Tinten auf violettem Hintergrund und in rote Tinten. </p>
+                        <p><locus n="370r"/>Große Initiale (Q) in Farbe und Gold. In der Mitte ein geometrisches Muster. Capitula in rote Tinten. Pflanzenfries </p>
+                        <p><locus n="382r"/>Große Initiale (I) in Farbe und Gold mit stilisiertem Pflanzenmotiv und mit Flechtdekor. Capitula in rote Tinten. Pflanzenfries </p>
+                        <p><locus n="402r"/>Große Initiale (N) in Farben mit Flechtdekor. Die Enden des Buchstabes sind mit einer Palme verziert, in Rot umrandet und Goldfüllung. Capitula in goldene und in rote Tinte. </p>
+                        <p><locus n="402v"/>Große Initiale (I) in Farben und Gold mit Flechtdekor. Capitula in rote Tinten. </p>
+                        <p><locus n="404r"/>Große Initiale (P) in Farben und Gold mit Flechtdekor. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="405r"/>Große Initiale (S) in Grau mit stilisiertem Pflanzenmotiv in Gold und Rot. Capitula in rote Tinten.</p>
+                        <p><locus n="407r"/>Große Initiale (S) in Grau mit stilisiertem Pflanzenmotiv am Ende in Grün. Die Zwischenräume zwischen den Schleifen des S sind mit einem Medaillon und einem geometrischen Muster gefüllt. Capitula in rote Tinten.</p>
+                        <p><locus n="407r"/>Große Initiale (S) in Grau mit stilisiertem Pflanzenmotiv am Ende in Gold und Grün. Capitula in rote Tinten.</p>
+                        <p><locus n="417r"/>Große Initiale (P) in Rot mit Flechtdekor. In der Mitte ein geometrisches Muster. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="422r"/>Große Initiale (P) in Rot. Pflanzenfries in Gold. Geometrisches Muster. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="422r"/>Große Initiale (P) in Rot. Pflanzenfries in Gold. In der Mitte ein geometrisches Muster. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="425v"/>Große Initiale (P) in Rot. Die Enden des Buchstabes sind mit einer Palme verziert. In der Mitte ein geometrisches Muster. Capitula in rote und schwarze Tinte. Pflanzenfries in Farbe und Gold. </p>
+                        <p><locus n="427v"/>Große Initiale (P) in Rot. In der Mitte ein Medaillon. Geometrisches Muster. Capitula in rote Tinten. Fries in Gold. </p>
+                        <p><locus n="429v"/>Große Initiale (P) in Rot. Capitula in rote und schwarze Tinte. </p>
+                        <p><locus n="429v"/>Große Initiale (P) in Rot. Im Inneren des Buchstabes ist das Gesicht eines Mannes gezeichnet. Capitula in rote Tinten. Fries in Gold. </p>
+                        <p><locus n="431r"/>Große Initiale (P) in Rot und Gold. Im Inneren des Buchstabes ist ein Tier gezeichnet. Capitula in rote und schwarz Tinte. </p>
+                        <p><locus n="432v"/>Große Initiale (P) in Rot und Gold. Fries in silbernen. Im Inneren des Buchstabes ist ein Tier gezeichnet. Capitula in rote Tinten. </p>
+                        <p><locus n="433r"/>Große Initiale (P) in Rot und Gold. In der Mitte ein geometrisches Muster. Capitula in rote Tinten. Fries in Gold und ein anderes geometrisches Muster</p>
+                        <p><locus n="434v"/>Große Initiale (P) in Rot und Gold. Tiere. Geometrisches Muster. Capitula in rote Tinten. </p>
+                        <p><locus n="436r"/>Große Initiale (P) in Rot und Gold. In der Mitte ein geometrisches Muster. Capitula in rote Tinten. Fries in Grün und ein anderes geometrisches Muster</p>
+                        <p><locus n="437r"/>Große Initiale (P) in Rot und Fries in Gold. In der Mitte ein Medaillon. Capitula in rote Tinten. </p>
+                        <p><locus n="437v"/>Große Initiale (P) in Rot und Fries in Grün. In der Mitte ein Medaillon. Capitula in rote Tinten. </p>
+                        <p><locus n="438v"/>Große Initiale (M) in Rot. Der Raum ist mit stilisierten Pflanzenmotiven und ein geometrisches Mustergefüllt. Capitula in rote und schwarz Tinte. </p>
+                        <p><locus n="441v"/>Große Initiale (P) in Rot und Gold mit stilisiertem Pflanzenmotiv. Capitula in rote und schwarz Tinte. </p>
+                        <p><locus n="442v"/>Große Initiale (A) in Farben und Gold mit Flechtdekor. Capitula in goldenen Tinten auf violettem Hintergrund (Apoca//pocalypsis) und in rote Tinten.</p>
+                     </decoNote>
+                     <decoNote type="figureinitial">
+                        <p><locus n="234r"/>Große Initiale (B) in Farben und Gold mit Flechtdekor und Pflanzenmotiv. In der Mitte pflanzliche Verzierungen und Darstellung eines Mannes, der das Maul eines Hundes hält. Capitula in goldenen Tinten auf violettem Hintergrund.</p>
+                        <p><locus n="262v"/>Große Initiale (D) in Farben, Gold und Silber mit Flechtdekor. Die Enden des Buchstabes sind mit einer Palme verziert. In der Mitte Darstellung einer Figur mit Heiligenschein, die ein Gespenst hält. Personifikation der Weisheit.</p>
+                        <p><locus n="390v"/>Große Initiale (P) in Farben und Gold mit Flechtdekor. In der Mitte ist Tiere in Rot mit einem Golde und Farbefüllung gezeichnet. Capitula in rote Tinten.</p>
+                        <p><locus n="406r"/>Große Initiale (Q) in Farbe und Gold. Pflanzenfries. In der Mitte ein Medaillon mit einer Hand. Capitula in rote Tinten.</p>
+                        <p><locus n="411v"/>Große Initiale (P) in Farben und Gold mit Flechtdekor. Darstellung von Gesichtern. In der Mitte sind Tiere gezeichnet. Capitula in goldenen Tinten auf violettem Hintergrund und in rote Tinten.</p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="349v 351r"/> Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen. </p>
+                        <p><locus n="408v 409r"/> Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen und Tiere. </p>
                      </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p source="Hellmann">Lagenkontrollvermerke und Imitationen</p>
                      <p>Rubriken und nachträgliche Kapitelangaben in den Margen</p>

@@ -66,8 +66,11 @@
                             <scriptNote source="Bischoff">Frühe turonische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
-                                <p source="Rand">Initialen mit eingekreisten Vögeln</p>
+                            <decoNote type="figureinitial">
+                                <p><locus n="33r"/>Große zoomorphe Initiale mit einem Vogel und einem Fisch und Flechtwerkdekor in Schwarz, Rot, Grün und Gelb. </p>
+                            </decoNote>
+                            <decoNote type="initial">
+                                <p><locus n="3r"/>Verschönerte Initiale in der Farbe des Textes</p>
                             </decoNote>
                         </decoDesc>
                         <additions></additions>

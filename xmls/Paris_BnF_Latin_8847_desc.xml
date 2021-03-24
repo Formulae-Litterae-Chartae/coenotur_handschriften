@@ -57,8 +57,18 @@
                         Min.“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="91v"/>Verschönerte Initiale in der Farbe des Textes</p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="89r"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen. </p> 
+                        <p><locus n="89v 90r"/>Ganzseitige Kanontafeln </p>
+                     </decoNote>
+                     <decoNote type="border">
+                        <p><locus n="87v"/>Kleine farbige Zeichnung mit Rot.</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions/>
                   <bindingDesc>
                      <decoNote/>

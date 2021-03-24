@@ -97,9 +97,159 @@
                      <scriptNote source="Rand">„perfected“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote source="Köhler">sehr viele sehr schöne Miniaturen</decoNote>
-                     <decoNote type="Miniature"><locus n="3v"/></decoNote>
-                     <decoNote type="Miniature"><locus n="423r"/></decoNote>
+                     <decoNote type="miniature">
+                        <p><locus n="3v"/>Darstellung dreier religiöser Szenen aus dem Leben des heiligen Hieronymus: er übersetzt die Bibel und gibt Abschriften. </p>
+                        <p><locus n="10v"/>Szenen aus der Genesis (Erschaffung von Adam und Eva, Kostprobe der verfluchten Frucht, Vertreibung aus dem Paradies)</p>
+                        <p><locus n="27v"/>Zwei Szenen aus Exodus: Moses empfängt vor dem brennenden Dornbusch die Gesetzestafeln und gibt sie den Hebräern. </p>
+                        <p><locus n="215v"/>Die anthropomorphisierten Psalmen (6) und ihr Autor, König David, sind in einer Mandorla mit blauem Hintergrund, grau umrandet, dargestellt. Um die Mandorla herum befinden sich vier weitere anthropomorphisierte Psalmen. Die Namen der Zeichen sind in goldener Tinte angegeben. </p>
+                        <p><locus n="329v"/>Darstellung des majestätischen Christi in einer Mandorla, deren Spitzen mit vier großen Propheten (Daniel, Jesaja, Hesekiel und Jeremia) besetzt sind. Um sie herum sind die vier Evangelisten dargestellt. Im Inneren befinden sich die vier Tiere des Tetramorphs.</p>
+                        <p><locus n="386v"/>Darstellung des Römerbriefes, Bekehrung des Heiligen Paulus. Miniaturen auf drei Ebenen. Reich verzierte Miniatur</p>
+                        <p><locus n="415v"/>Apokalypse. Reich verzierte Miniatur mit farbigem Rahmen. </p>
+                        <p><locus n="423r"/>Graf Vivien bietet Karl dem Kahlen das Manuskript der Bibel aus der Abtei Saint-Martin in Tours an. Karl der Kahle wird auf einem goldenen und silbernen Thron sitzend dargestellt, gekrönt und das Zepter haltend. Er wendet sich nach rechts, wo ihm drei Kleriker die große, rot bedeckte Bibel auf einem Tuch überreichen. Neun weitere Kleriker bilden einen Bogen mit Blick auf den Herrscher. Die ganze Szene ist in einem Bogen enthalten, der von zwei Säulen flankiert wird. In den oberen Ecken des Bildes befinden sich Figuren, die eine Krone halten. Eine Hand greift aus dem Himmel. Die Miniatur wird durch einen farbigen Rahmen geschlossen.</p>
+                     </decoNote>
+                     <decoNote type="figureinitial">
+                        <p><locus n="4v"/>Reichhaltig dekoriert Initiale. Unvollständige Darstellung des Tetramorphs (ein Mönch, der im Fuß des F liest, ein Stier, eine Hand, ein Löwe und ein nicht identifiziertes Tier, das kein Adler sein kann), Rest des Textes in Gold und Rot. </p>
+                        <p><locus n="8r"/>P reich illustriert. Mehrere Zeichnungen. Der größte Teil der Seite ist auf violettem Hintergrund mit goldener Beschriftung. </p>
+                        <p><locus n="11r "/>Große Buchstaben. Architekturdekoration, eine Miniatur eines Heiligen</p>
+                        <p><locus n="49r"/>Initiale in Farbe und Gold mit Flechtdekor. Initiale überhöht von einem goldenen Zeichen mit rot umrandet, die als Moses bezeichnet wird und eine Schriftrolle trägt.</p>
+                        <p><locus n="88v"/>Initiale. Innerhalb des Buchstabens, eine Darstellung von Noemia, die ein Kind trägt. Szene, die von einer Szene aus dem Buch Rut überragt wird, die die Begegnung von Rut und Boas darstellt</p>
+                        <p><locus n="101v"/>Initiale in Gold mit rot umrandet. Buchstabe, umgeben von einem geometrischen Muster. Überragt von einem Kopf in Gold, rot umrandet. </p>
+                        <p><locus n="192v"/>Initiale in Farbe und Gold mit Flechtdekor. Innerhalb der Initialen ist eine Figur mit Heiligenschein abgebildet, die eine Toga trägt und eine Schriftrolle hält. </p>
+                        <p><locus n="205v"/>Initiale in Gold mit rot umrandet. Der leere Raum wird von einem Kopf in Gold, rot umrandet ausgefüllt.</p>
+                        <p><locus n="206v"/>Initiale in Farbe und Gold mit Flechtdekor. Der leere Raum ist mit Tierdarstellungen gefüllt, die mit goldener Tinte gezeichnet und ebenfalls rot umrandet sind. </p>
+                        <p><locus n="265v"/>Initiale in Farbe und Gold mit Flechtdekor und mit pflanzlichen Motiven. </p>
+                        <p><locus n="297v"/>Initiale in Gold mit rot umrandet. Innerhalb der Initialen ist eine Figur abgebildet. </p>
+                        <p><locus n="300v"/>Initiale in Farbe und Gold mit Flechtdekor. Innerhalb der Initialen ist ein Kopf in Gold, rot umrandet, abgebildet. </p>
+                        <p><locus n="301r"/>Initiale in Farbe und Gold mit Flechtdekor. Innerhalb der Initialen ist ein Kopf in Gold, rot umrandet, abgebildet. </p>
+                        <p><locus n="339v"/>Initiale in Gold mit rot umrandet. Initiale überhöht von einem goldenen Zeichen mit rot umrandet.</p>
+                        <p><locus n="340r"/>Initiale in Farbe und Gold mit Flechtdekor. Initial von Tieren umgeben. </p>
+                        <p><locus n="347r"/>Initiale in Farbe und Gold mit Flechtdekor. Innerhalb der Initialen, Darstellung eines geflügelten Tieres. </p>
+                        <p><locus n="380r"/>Initiale in Gold. Initial von Tieren umgeben.</p>
+                     </decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="28r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="40r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="62v"/>Initiale in Farbe und Gold mit Flechtdekor und mit Palmotiv. </p>
+                        <p><locus n="73r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="74r"/>Initiale in Farbe und Gold mit Flechtdekor und mit Palmotiv. </p>
+                        <p><locus n="81v"/>Initiale in Farbe und Gold mit Flechtdekor und mit Palmotiv. </p>
+                        <p><locus n="90r"/>Initiale in Farbe und Gold mit Flechtdekor und mit Palmotiv. </p>
+                        <p><locus n="91r"/>Initiale in Farbe und Gold mit Flechtdekor und mit Palmotiv. </p>
+                        <p><locus n="110v"/>Initiale in Farbe und Gold mit Flechtdekor und mit Palmotiv. </p>
+                        <p><locus n="130r"/>Initiale in Farbe und Gold mit Flechtdekor und mit Palmotiv. </p>
+                        <p><locus n="130v"/>Initiale in Gold mit rot umrandet. Überragt von verschiedenen Illustrationen in Gold, rot umrandet. </p>
+                        <p><locus n="146r"/>Initiale in grau, mit goldenen Medaillons. </p>
+                        <p><locus n="146r"/>Initiale in Farbe und Gold mit Flechtdekor und mit pflanzlichen Motiven. </p>
+                        <p><locus n="166v"/>Initiale in Farbe und Gold mit Flechtdekor und mit pflanzlichen Motiven. </p>
+                        <p><locus n="167r"/>Initiale in Farbe und Gold mit Flechtdekor und mit pflanzlichen Motiven. </p>
+                        <p><locus n="184v"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="185r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="192r"/>Initiale in Gold.</p>
+                        <p><locus n="194v"/>Initiale in roter Tinte gezeichnet und von einer grünen Ranke umgeben, ohne Füllung.</p>
+                        <p><locus n="195v"/>Initiale in Gold.</p>
+                        <p><locus n="197r"/>Initiale in Gold.</p>
+                        <p><locus n="197v"/>Initiale in Gold.</p>
+                        <p><locus n="198r"/>Initiale in Gold.</p>
+                        <p><locus n="199v"/>Initiale in Gold.</p>
+                        <p><locus n="200r"/>Initiale in Gold.</p>
+                        <p><locus n="200v"/>Initiale in Gold.</p>
+                        <p><locus n="201v"/>Initiale in Farbe und Gold mit Flechtdekor und mit Palmotiv. </p>
+                        <p><locus n="202r"/>Initiale in Gold.</p>
+                        <p><locus n="204v"/>Initiale in Gold mit rot umrandet. Der leere Raum wird durch ein mit goldener Tinte gezeichnetes geometrisches Muster ausgefüllt.</p>
+                        <p><locus n="216r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="216r"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="216v"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="233r"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="234r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="241r"/>Initiale in Farbe und Gold mit Flechtdekor und mit pflanzlichen Motiven. </p>
+                        <p><locus n="243v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="245r"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="250r"/>Initiale in Gold. </p>
+                        <p><locus n="251r"/>Initiale in grauer Tinte gezeichnet. Das Zentrum des O ist mit einem geometrischen Ornament gefüllt.</p>
+                        <p><locus n="265r"/>Initiale in goldener Tinte gezeichnet, rot umrandet. Die Schlaufen des S sind mit einem geometrischen Ornament gefüllt, das mit roter Tinte gezeichnet und mit Gold ausgefüllt ist. </p>
+                        <p><locus n="274r"/>Initiale in Gold mit rot umrandet und mit Palmotiv. </p>
+                        <p><locus n="285r"/>Initiale in Gold mit rot umrandet und mit Palmotiv. </p>
+                        <p><locus n="285v"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="293r"/>Initiale in grauer Tinte gezeichnet. </p>
+                        <p><locus n="293r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="297v"/>Initiale in Gold und Rot mit Flechtdekor.</p>
+                        <p><locus n="306r"/>Initiale in Farbe und Gold mit Flechtdekor und mit pflanzlichen Motiven. </p>
+                        <p><locus n="317r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="324r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="324v"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="325r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="325v"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="328r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="330r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="346r"/>Initiale in Gold.</p>
+                        <p><locus n="358r"/>Initiale in Gold, mit pflanzlichen Motiven in Rot. </p>
+                        <p><locus n="358v"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="366v"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="367v"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="377v"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="378r"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="379r"/>Initiale in Farbe und Gold mit Flechtdekor und mit pflanzlichen Motiven. </p>
+                        <p><locus n="381r"/>Initiale in Gold mit rot umrandet. Im Inneren des Buchstabens, ein geometrisches Muster. </p>
+                        <p><locus n="382r"/>Initiale in Gold.</p>
+                        <p><locus n="382r"/>Initiale in Gold. Initiale umgeben von zwei Medaillons. </p>
+                        <p><locus n="382v"/>Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="383r"/>Initiale in Farbe und Gold mit Flechtdekor. Im Inneren des Buchstabens sind zwei geometrische Muster dargestellt. </p>
+                        <p><locus n="384v"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="385r"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="385v"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="387r"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven. </p>
+                        <p><locus n="391r"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="391v"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven. </p>
+                        <p><locus n="395v"/>Initiale in Gold mit rot umrandet. In dem Buchstaben, geometrisches Muster. Oberhalb des Schriftzuges ein Pflanzenmotiv. </p>
+                        <p><locus n="396r"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven. </p>
+                        <p><locus n="399r"/>Initiale in Gold. Geometrische Motive</p>
+                        <p><locus n="399v"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven. </p>
+                        <p><locus n="400v"/>Initiale in Gold.</p>
+                        <p><locus n="401r"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive. </p>
+                        <p><locus n="402v"/>Initiale in Gold.</p>
+                        <p><locus n="403r"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive. </p>
+                        <p><locus n="404r"/>Initiale in Gold.</p>
+                        <p><locus n="404v"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive. </p>
+                        <p><locus n="405v"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven. </p>
+                        <p><locus n="405v"/>Initiale in Gold.</p>
+                        <p><locus n="406r"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven. </p>
+                        <p><locus n="407r"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven. </p>
+                        <p><locus n="407r"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven. </p>
+                        <p><locus n="407v"/>Initiale in Gold.</p>
+                        <p><locus n="408r"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven. </p>
+                        <p><locus n="409r"/>Initiale in Gold.</p>
+                        <p><locus n="409v"/>Initiale in Gold.</p>
+                        <p><locus n="410r"/>Initiale in Gold.</p>
+                        <p><locus n="410v"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven. </p>
+                        <p><locus n="411r"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="411r"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="411r"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="411v"/>Initiale in Gold mit rot umrandet. </p>
+                        <p><locus n="416r"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive. </p>
+                        <p><locus n="416v"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven.</p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="9r 9v"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
+                        <p><locus n="326r 327v"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
+                        <p><locus n="383v 384r"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
+                     </decoNote>
+                     <decoNote type="border">
+                        <p><locus n="11v 12v"/>Fünf goldene und rote Medaillons pro Seite.</p>
+                     </decoNote>
+                     <decoNote type="maniculae" subtype="add">
+                        <p><locus n="169r"/></p>
+                     </decoNote>
+                     <decoNote type="frame">
+                        <p><locus n="1r 2v"/>Vergoldeter, festonierter Rahmen, violetter Hintergrund und goldene Schrift. Die Ecken sind mit Palmen verziert. </p>
+                        <p><locus n="4r"/>Goldrahmen mit Wellenschliff, goldene Schrift auf goldenem Hintergrund. Die Ecken sind mit Palmen verziert. </p>
+                        <p><locus n="28r"/>Dekorierter Rahmen</p>
+                        <p><locus n="74r"/>Goldrahmen mit Wellenschliff, mit Flechtdekor. </p>
+                        <p><locus n="130r"/>Bunter Rahmen mit pflanzlichen Motiven. </p>
+                        <p><locus n="324r"/>Goldrahmen mit Wellenschliff, mit Flechtdekor. Innerhalb der Initialen ist mit stilisierten Tieren gefüllt. </p>
+                        <p><locus n="330r"/>Bunter Rahmen mit pflanzlichen Motiven. </p>
+                        <p><locus n="416r"/>Vergoldeter, festonierter Rahmen. Die Ecken sind mit Palmen verziert. </p>
+                        <p><locus n="422r"/>Vergoldeter, festonierter Rahmen, violetter Hintergrund und goldene Schrift. Die Ecken sind mit Palmen verziert.</p>
+                     </decoNote>
                   </decoDesc>
                   <additions/>
                   <bindingDesc>

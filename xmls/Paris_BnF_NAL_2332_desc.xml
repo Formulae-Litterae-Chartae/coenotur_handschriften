@@ -53,8 +53,27 @@
                      <scriptNote>„Merowingische Kursive“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="9v"/>2 verschönerte Initialen</p>
+                        <p><locus n="10r"/>Verschönerte Initiale</p>
+                        <p><locus n="10v"/>Verschönerte Initiale</p>
+                        <p><locus n="11r"/>2 verschönerte Initialen</p>
+                        <p><locus n="11v"/>Verschönerte Initiale</p>
+                        <p><locus n="12r"/>Verschönerte Initiale</p>
+                        <p><locus n="12v"/>2 verschönerte Initialen</p>
+                        <p><locus n="17v"/>Verschönerte Initiale</p>
+                        <p><locus n="23r"/>3 verschönerte Initialen</p>
+                        <p><locus n="23v"/>Verschönerte Initiale</p>
+                        <p><locus n="24r"/>4 verschönerte Initialen</p>
+                        <p><locus n="24v"/>2 verschönerte Initialen</p>
+                        <p><locus n="25r"/>Verschönerte Initiale</p>
+                     </decoNote>
+                     <decoNote type="maniculae" subtype="add">
+                        <p><locus n="21r"/></p>
+                        <p><locus n="21v"/></p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions/>
                   <bindingDesc>
                      <decoNote/>

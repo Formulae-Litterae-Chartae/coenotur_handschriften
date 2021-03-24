@@ -56,8 +56,11 @@
                      <scriptNote source="Bischoff">„verh. stumpe Frühstufe von Tours“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="15r, 18v, 19v, 53r, 87v, 88r, 95r, 98r, 99v, 109r, 121r, 126r, 126v, 131r, 134r, 136v, 137r, 138v, 139v, 141r, 141v, 143r, 144v, 149v, 154r, 156v, 160r, 161v, 163v, 167r, 168v, 169v, 170r, 171v"/>Verschönerte Initiale</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p source="Bischoff">spätere Korrekturen in ab-Typ</p>
                   </additions>

@@ -58,11 +58,25 @@
                         Halbunziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p>erste Seite vollständig ornamentiert, mit einfachen grellen Farben: rot,
-                           grün, gelb, schwarz, purpurn</p>
+                     <decoNote type="miniature">
+                        <p><locus n="1v"/>Ganzseitige bunte Darstellung mit Tier- und Pflanzenmotiven.</p>
+                        <p><locus n="32v"/>Ganzseitige bunte Darstellung und Text mit Tier- und Pflanzenmotiven.</p>
+                        <p><locus n="52v"/>Ganzseitige bunte Darstellung und Text mit Tier- und Pflanzenmotiven.</p>
+                        <p><locus n="85v"/>Ganzseitige bunte Darstellung und Text mit Tier- und Pflanzenmotiven.</p>
+                     </decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="2r"/>Bunte Initiale in rot und schwarz mit Flechtdekor. </p>
+                        <p><locus n="2v"/>Bunte Initiale mit Flechtdekor. </p> 
+                        <p><locus n="53r"/>Bunte Initiale mit Flechtdekor. </p> 
+                     </decoNote>
+                     <decoNote type="border" subtype="add">
+                        <p><locus n="51r"/>Gekritzel</p>
+                        <p><locus n="52r"/>Gekritzel</p>
+                        <p><locus n="75r"/>Darstellung eines Hahns in der Farbe des Textes</p>
+                        <p><locus n="101r"/>Gekritzel</p>
                      </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p>Korrekturen in einer frühen kontinentalen Hand; Markierungen für die
                         Lektion</p>

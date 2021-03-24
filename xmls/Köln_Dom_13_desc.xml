@@ -73,13 +73,25 @@
                      <scriptNote>karolingische Minuskel; (Halb-)Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>zu jedem Evangelium ein ganzseitiges, mehrfarbiges (rot, grün, blau,
-                        gelb, braun, schwarz) Evangelistenbild: <locus n="1v">Matthäus</locus>,
-                           <locus n="55v">Markus</locus>, <locus n="91r">Lucas</locus>, <locus
-                           n="152r">Johannes</locus></decoNote>
-                     <decoNote>zwei Schmuckinitialen: <locus n="92r">Q mit Schlange, Vogel,
-                           Fisch</locus>; <locus n="153r">I mit Flechtband</locus></decoNote>
+                     <decoNote type="miniature">
+                        <p><locus n="1v"/>Bild des Evangelisten Matthaeus </p>
+                        <p><locus n="55v"/>Darstellung des Evangelisten Markus, auf einem Schemel sitzend, in einer antiken Arche. Oben: eine anthropomorphe Darstellung seines tetramorphen Tieres, eines Löwen. Beide Zeichnungen sind an den obigen Namen (Marcus bzw. Leo) zu erkennen.</p>
+                        <p><locus n="91r"/>Darstellung des Evangelisten Lukas (ohne Inschrift), auf einem Schemel sitzend, in einer antiken Arche. Oben: eine anthropomorphe Darstellung seines tetramorphen Tieres, eines Stiers mit der Inschrift uitu[lus] </p>
+                        <p><locus n="152r"/>Darstellung des Evangelisten Johannes, auf einem Schemel sitzend, in einer antiken Arche. Oben: eine anthropomorphe Darstellung seines tetramorphen Tieres, eines Adlers. Auf beiden Seiten des Medaillons mit seinem tetramorphen Tier befinden sich zwei weitere Vögel. Beide Zeichnungen sind an den obigen Namen (Jo[ha]nis bzw. Aquila) zu erkennen.</p>
+                     </decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="92r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="153r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="5r 7v"/>Rot umrandet</p>
+                     </decoNote>
+                     <decoNote type="border" subtype="add">
+                        <p><locus n="194v"/>Bunte Initiale mit Flechtdekor und stilisiertem Palmmotiv</p>
+                        <p><locus n="195v"/>Zeichnung am Rande. </p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p source="von_Euw"><locus from="194v" to="195v"/>„Fragment eines Capitulare
                         Evangeliorum, wohl von jüngerer Hand“</p>

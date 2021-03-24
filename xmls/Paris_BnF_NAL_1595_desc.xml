@@ -73,8 +73,9 @@
                   <musicNotation><p source="Rand">Neumen, vermutlich aus dem 11. Jahrhundert, die
                         denjenigen von Fleury ähneln</p></musicNotation>
                   <decoDesc>
-                     <decoNote>
-                        <p><locus n="67v"/>eine bunte Initiale</p>
+                     <decoNote type="initial">
+                        <p><locus n="67v"/>Bunte Initiale</p>
+                           <p><locus n="99v"/>Bunte Initiale</p>
                      </decoNote>
                   </decoDesc>
                   <additions>

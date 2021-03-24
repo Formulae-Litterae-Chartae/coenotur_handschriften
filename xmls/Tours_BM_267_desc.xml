@@ -71,8 +71,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">Tours</origPlace></p>
-                     <p><origDate source="" cert="" notBefore="" notAfter=""/></p>
+                     <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0900" notAfter="0999"/>10. Jhd.</p>
                      <note/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>

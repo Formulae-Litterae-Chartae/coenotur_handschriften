@@ -63,8 +63,16 @@
                      <scriptNote source="Bischoff">vorkarolingische turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="1r"/>Initiale mit Fischdekor.</p>
+                        <p><locus n="186r"/>Initiale mit Flechtdekor.</p>
+                     </decoNote>
+                     <decoNote type="frame">
+                        <p><locus n="35r"/>Pflanzenfries</p>
+                        <p><locus n="53v"/>Dreieckiger Rahmen. An jeder Ecke eine Palmenverzierung.</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p n="Exlibris" source="CLA"><locus n="2r"/><seg type="lat">LIBER SCI MAXINI
                            MICIACENS</seg>(sic) (9. Jhd.)</p>

@@ -89,14 +89,25 @@
                      <p source="Burkhard">Präfatio zu Matthäus und erste Spalte des Lukestextes in Unziale</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p><locus n="1v"/>Majestas</p>
-                        <p><locus n="16v"/>Matthäus</p>
-                        <p><locus n="63v"/>Markus</p>
-                        <p><locus n="95v"/>Lukas</p>
-                        <p><locus n="146v"/>Johannes</p>
+                     <decoNote type="miniature">
+                        <p><locus n="1v"/>Miniatur von Christus in Majestät, umgeben von einer anthropomorphisierten Version des Tetramorphs.  </p>
+                        <p><locus n="16v"/>Darstellung des Evangelisten Matthaeus. Oben: einen Engel.  </p>
+                        <p><locus n="63v"/>Darstellung des Evangelisten Markus. Oben: eine Darstellung seines Tetramorphen Tieres, eines Löwen.  </p>
+                        <p><locus n="95v"/>Darstellung des Evangelisten Lukas. Oben: eine Darstellung seines Tetramorphen Tieres, eines Stiers.  </p>
+                        <p><locus n="146v"/>Darstellung des Evangelisten Johannes. Oben: eine Darstellung seines Tetramorphen Tieres, eines Adlers. </p>
+                     </decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="2r"/>Verschönerte Initiale in Farbe mit Flechtdekor </p>
+                        <p><locus n="17r"/>Verschönerte Initiale in Farbe mit Flechtdekor </p>
+                        <p><locus n="64v"/>Verschönerte Initiale in Farbe mit Flechtdekor </p>
+                        <p><locus n="96r"/>Verschönerte Initiale in Farbe mit Flechtdekor </p>
+                        <p><locus n="149r"/>Verschönerte Initiale in Farbe mit Flechtdekor </p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="8r 11r"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen. </p>
                      </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p></p>
                      <p n="Exlibris" source="Burkhardt"><locus n="197v"/><seg type="lat">liber sanctimartini in wingartin. plenarium euwangelistarum</seg> (Um 1200)</p>

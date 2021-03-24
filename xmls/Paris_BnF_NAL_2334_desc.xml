@@ -54,8 +54,30 @@
                      <scriptNote>Unziale und Ergänzungen in karolingischer Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="9r"/>Verschönerte Initiale</p>
+                        <p><locus n="9v"/>2 verschönerte Initialen</p>
+                        <p><locus n="10r"/>Verschönerte Initiale</p>
+                        <p><locus n="10v"/>Verschönerte Initiale</p>
+                        <p><locus n="11r"/>2 verschönerte Initialen</p>
+                        <p><locus n="11v"/>Verschönerte Initiale</p>
+                        <p><locus n="12r"/>Verschönerte Initiale</p>
+                        <p><locus n="12v"/>2 verschönerte Initialen</p>
+                        <p><locus n="23r"/>3 verschönerte Initialen</p>
+                        <p><locus n="23v"/>2 verschönerte Initialen</p>
+                        <p><locus n="24r"/>4 verschönerte Initialen</p>
+                        <p><locus n="24v"/>2 verschönerte Initialen</p>
+                        <p><locus n="25r"/>Verschönerte Initiale</p>
+                     </decoNote>
+                     <decoNote type="border">
+                        <p><locus n="15r"/>Gekritzel </p>
+                        <p><locus n="15v"/>Nachträgliche Zeichnung am Rand? </p>
+                     </decoNote>
+                     <decoNote type="maniculae" subtype="add">
+                        <p><locus n="21r"/></p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p>zahlreiche Nachträge des 9. Jahrhunderts in karolingischer Minuskel; Teile
                         des Originaltextes radiert und überschrieben</p>

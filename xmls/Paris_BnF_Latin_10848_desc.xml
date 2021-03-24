@@ -63,12 +63,19 @@
                      <scriptNote>turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p><locus n="1v 5v 25v 64r 80r 102v 107v"/> bunte Initialen in Grün, Blau,
-                           Rot und Gold</p>
-                        <p><locus n="40r"/> Initiale, weniger prachtvoll</p>
+                     <decoNote type="initial">
+                        <p><locus n="1v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
+                        <p><locus n="5v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
+                        <p><locus n="25v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor</p> 
+                        <p><locus n="35v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
+                        <p><locus n="40r"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
+                        <p><locus n="64r"/>Bunte Initiale in Farbe und Gold mit Flechtdekor und stilisiertem Pflanzenmotiv</p>
+                        <p><locus n="80r"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
+                        <p><locus n="102v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
+                        <p><locus n="107v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor</p>
                      </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p>Lagenkontrollvermerke. (Nachträgliche?) Interpunktion zur besseren
                         Lesbarkeit. Einige wenige Glossierungen.</p>

@@ -71,8 +71,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="" cert=""/></p>
-                     <p><origDate source="" cert="" notBefore="" notAfter=""/></p>
+                     <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1099">11. Jhd.</origDate></p>
                      <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>

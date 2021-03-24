@@ -62,8 +62,11 @@
                      <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote source="Rand">mathematische und andere Diagramme</decoNote>
+                     <decoNote type="border">
+                        <p><locus n="110r"/>Diagramm einer Weltkarte. </p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p n="Exlibris" source="Dorange">letztes Schutzfolium, 15. Jhd.: <seg
                            type="lat">Pro ecclesia Turonensi extractus et commodatus honorabili

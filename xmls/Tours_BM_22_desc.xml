@@ -74,8 +74,26 @@
                      <scriptNote source="Rand">nicht von einem Iren</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="17r"/>Verschönerte Initiale in Rot und Gold</p>
+                        <p><locus n="95r"/>Verschönerte Initiale in Rot und Gold</p>
+                        <p><locus n="147r"/>Verschönerte Initiale in Rot und Gold</p>
+                        <p><locus n="223r"/>Verschönerte Initiale in Rot und Gold</p>
+                        <p><locus n="279r"/>zwei illustrierte GoldInitialen: eine auf rotem Hintergrund, eine auf blauem Hintergrund. </p>
+                        <p><locus n="279v"/>zwei illustrierte GoldInitialen: eine auf rotem Hintergrund, eine auf blauem Hintergrund. </p>
+                        <p><locus n="280r"/>GoldInitiale auf blauem Hintergrund. </p>
+                        <p><locus n="280v"/>GoldInitiale auf rotem Hintergrund. </p>
+                        <p><locus n="281r"/>GoldInitiale auf blauem Hintergrund. </p>
+                        <p><locus n="281v"/>GoldInitiale auf rotem Hintergrund. </p>
+                        <p><locus n="282v"/>zwei illustrierte GoldInitialen: eine auf rotem Hintergrund, eine auf blauem Hintergrund. </p>
+                        <p><locus n="283r"/>zwei illustrierte GoldInitialen: eine auf rotem Hintergrund, eine auf blauem Hintergrund.</p> 
+                        <p><locus n="283v"/>zwei illustrierte GoldInitialen: eine auf rotem Hintergrund, eine auf blauem Hintergrund. </p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="8r 15v"/>Ganzseitige Bunte Kanontafeln mit dekorierten architektonischen Rahmen. </p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p><locus from="279" to="285">spätere Hinzufügung</locus></p>
                      <p><locus n="289"/><seg type="lat">Serment que font les Princes et Barons lors

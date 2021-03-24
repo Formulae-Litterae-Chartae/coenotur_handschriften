@@ -148,10 +148,20 @@
                   </scriptDesc>
                   <musicNotation><p>Neumen</p></musicNotation>
                   <decoDesc>
-                     <decoNote>
-                        <p/>
+                     <decoNote type="initial">
+                        <p><locus n="1r"/>Initiale mit geometrisches Muster. </p>
+                        <p><locus n="5v"/>Initiale mit Flechtdekor.</p>
+                        <p><locus n="33r"/>Initiale mit Flechtdekor.</p>
+                        <p><locus n="41r"/>Initiale mit stilisiertem Pflanzenmotiv</p>
+                        <p><locus n="75r"/>Initiale mit stilisiertem Palmmotiv</p>
+                        <p><locus n="123r"/>Initiale mit Flechtdekor.</p>
+                     </decoNote>
+                     <decoNote type="border" subtype="add">
+                        <p><locus n="1r"/>Geometrische Objekte</p>
+                        <p><locus n="193v"/>Buchstaben mit Flechtdekor am Rand. </p>
                      </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p n="Exlibris"><locus n="1r"/><seg type="lat">Liber S. Petri Corbeiensis – Sti
                            Germani a Pratis</seg></p>

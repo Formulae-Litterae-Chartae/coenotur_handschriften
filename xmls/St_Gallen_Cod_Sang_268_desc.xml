@@ -69,10 +69,11 @@
                      <p source="Bergmann/Stricker">Karolingische Minuskel.</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p></p>
+                     <decoNote type="initial">
+                        <p><locus n="f. 19"/>Verschönerte Initiale in Rot und in der Farbe des Textes</p>
                      </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p source="Bergmann/Stricker">"Glossen mit inhaltlichem Bezug zum Text."</p>
                      <p n="Exlibris"><locus n="1r"/>Exlibris aus <orgName>St-Gallen</orgName></p>

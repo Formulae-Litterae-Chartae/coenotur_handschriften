@@ -68,10 +68,34 @@
                      <p source="Rand">Verbesserter Kursive; verzierte Halbunziale.</p>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p source="Rand">Initialen und Kanontafeln in braun und weiß im typischen Toursstil mit verschlungnen Tierdarstellungen</p>
+                     <decoNote type="initial">
+                        <p><locus n="f. 1"/>Verschönerte Initiale</p>
+                        <p><locus n="f. 3"/>Verschönerte Initiale</p>
+                        <p><locus n="f. 76"/>Bunte Initiale mit stilisiertem Palmmotiv</p>
+                        <p><locus n="f. 397"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 398"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 422"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 427"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 429"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 463"/>Verschönerten Initialen in der Farbe des Textes</p>
+                        <p><locus n="f. 464"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 467"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 498"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 521"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 525"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 606"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 649"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 674"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 694"/>Bunte Initiale mit stilisiertem Palmmotiv</p>
+                        <p><locus n="f. 694"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="f. 695"/>Initiale in Rot und in der Farbe des Textes</p>
+                        <p><locus n="f. 735"/>Verschönerte Initiale in der Farbe des Textes</p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="f. 690 f. 693"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
                      </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p>Rubrizierung</p>
                      <p source="Scherrer">Zahlreiche Korrekturen einer abweichenden, zeitgenössichen Hand.</p>

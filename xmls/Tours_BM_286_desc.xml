@@ -77,8 +77,10 @@
                   <origin>
                      <p><origPlace cert="high"><placeName>Tours</placeName>,
                               <orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="" cert="" notBefore="" notAfter=""/></p>
-                     <note>die Nähe zum vatikanischen Livius lässt eine Entstehung in St-Martin zu
+                     <p><origDate source="Rand" cert="medium" notBefore="0800" notAfter="0840"/>Anfang 9. Jhd.</p>
+                     <p><origDate source="Bischoff Nörr" cert="medium" notBefore="0790" notAfter="0810"/>Um 800</p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"/>2. Viertel 9. Jhd.</p>
+                     <note>Die Nähe zum vatikanischen Livius lässt eine Entstehung in St-Martin zu
                         Beginn des 9. Jahrhunderts sehr wahrscheinlich erscheinen</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
@@ -97,7 +99,9 @@
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="161"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="212"/></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="passim"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="99 100"/></bibl>
+                     <bibl><idno>Bischoff Nörr 1963</idno><biblScope unit="pp" n="13"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

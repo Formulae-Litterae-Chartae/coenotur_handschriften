@@ -58,8 +58,13 @@
                      <scriptNote>Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="45r"/>Verschönerte Initiale</p>
+                        <p><locus n="137r"/>Verschönerte Initiale</p>
+                        <p><locus n="209v"/>Verschönerte Initiale</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p>Einzelne Korrekturen in Minuskel des frühen 9. Jahrhunderts. Die fol. 89-98
                         wurden im 10. Jahrhundert ausgebessert und mit einer Minuskel neu

@@ -65,8 +65,21 @@
                      <scriptNote source="Rand">„Perfected“; karolingische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote type="miniature" subtype="add">
+                        <p><locus n="81r"/>Darstellung eines Christus am Kreuz. Zeichnung in Blau. </p>
+                     </decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="6r"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
+                        <p><locus n="10v"/>Bunte Initiale in Gold, rot umrandet </p>
+                        <p><locus n="82r"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
+                     </decoNote>
+                     <decoNote type="frame">
+                        <p><locus n="5v"/>Bunter Rahmen mit Palmen an den vier Ecken</p>
+                        <p><locus n="10r"/>Bunter Rahmen mit Palmen an den vier Ecken</p>
+                        <p><locus n="81v"/>Bunter Rahmen mit Palmen an den vier Ecken</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p n="Exlibris"><locus n="107v"/>aus Corbie aus dem 16. Jhd.: <seg type="lat"
                            >Pour la librarie de Corbye en Picardie sur Somme.</seg></p>

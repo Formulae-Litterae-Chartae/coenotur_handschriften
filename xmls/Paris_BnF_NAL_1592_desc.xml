@@ -70,8 +70,13 @@
                      <scriptNote>Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote type="frame">
+                        <p><locus n="40r"/>Roter Rahmen in Form einer architektonischen Dekoration.</p> 
+                        <p><locus n="81r"/>Pflanzenfries</p>
+                        <p><locus n="215r"/>Fries</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p source="Gasnault">ein verlorenes Ex-libris aus der zweiten Hälfte des 8.
                         Jhd.</p>

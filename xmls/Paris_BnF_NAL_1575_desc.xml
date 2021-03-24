@@ -53,8 +53,23 @@
                      <scriptNote>Unziale, Halbunziale, Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="1r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="3r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="11r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="67v"/>Verschönerte Initiale </p>
+                        <p><locus n="69r"/>Verschönerte Initiale </p>
+                        <p><locus n="71v"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="77v"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="80v"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="88v"/>Verschönerte Initiale</p>
+                     </decoNote>
+                     <decoNote type="border" subtype="add">
+                        <p><locus n="49v"/>Gekritzel</p>
+                        <p><locus n="61v"/>Gekritzel</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p>ausführliche Korrekturen in grüner Tinte; weitere Korrekturen in
                         abweichenden Händen</p>
@@ -68,9 +83,9 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName>,
                               <orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Mercier" cert="low" notBefore="0725" notAfter="0750"
+                     <p><origDate source="Mercier" cert="medium" notBefore="0725" notAfter="0750"
                            >725-750</origDate></p>
-                     <p><origDate source="Hellmann" cert="low" notBefore="0700" notAfter="0725"
+                     <p><origDate source="Hellmann" cert="medium" notBefore="0700" notAfter="0725"
                            >Anfang 8. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="low" notBefore="0600" notAfter="0625">Anfang
                            7. Jhd.</origDate></p>

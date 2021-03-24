@@ -63,8 +63,20 @@
                      <scriptNote>frühe karolingische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>einzelne schlichte Schmuckinitialen </decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="62r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="115r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="123r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="130v"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="141r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="155v"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="158v"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="162v"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="164v"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="165v"/>Verschönerte Initiale in der Farbe des Textes</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p>Tironische Noten (<seg type="lat">requisitum est</seg>) sowie einzelne
                         Korrekturen aus dem 8./9. Jhd.</p>

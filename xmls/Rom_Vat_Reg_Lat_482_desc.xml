@@ -100,8 +100,25 @@
                             <p></p>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote type="figureinitial">
+                                <p><locus n="37r"/>Sehr große verschönerte Initiale in Farbe mit Flechtdekor </p>
+                            </decoNote>
+                            <decoNote type="initial">
+                                <p><locus n="1v"/>Sehr große verschönerte Initiale in Farbe mit Flechtdekor </p>
+                                <p><locus n="13r"/>Sehr große verschönerte Initiale in Farbe mit Flechtdekor </p>
+                                <p><locus n="17r"/>Sehr große verschönerte Initiale in Farbe mit Flechtdekor </p>
+                                <p><locus n="27v"/>Große verschönerte Initiale in Farbe mit Flechtdekor </p>
+                                <p><locus n="35r"/>Sehr große verschönerte Initiale in Farbe mit Flechtdekor </p>
+                                <p><locus n="45r"/>Sehr große verschönerte Initiale in Farbe mit Flechtdekor</p>
+                            </decoNote>
+                            <decoNote type="border" subtype="add">
+                                <p><locus n="12r"/>Zwei Kritzeleien im unteren Rand. </p>
+                                <p><locus n="13r"/>Gekritzel im oberen Rand. </p>
+                                <p><locus n="17r"/>Nachträgliche Zeichnung im unteren Rand? </p>
+                            </decoNote>
+                            </decoNote>
                         </decoDesc>
+                        
                         <additions>
                             <p n="Ergänzung">Zahlreiche Einschübe und Glossen</p>
                             </additions>

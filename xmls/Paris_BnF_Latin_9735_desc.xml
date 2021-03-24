@@ -9,10 +9,10 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt>
-            <note>In der heutigen Form handelt es sich um eine zusammengesetzte Handschrift, deren
+            <note><p>In der heutigen Form handelt es sich um eine zusammengesetzte Handschrift, deren
                ersten beide Teile deutlich jünger, vermutlich aus dem 13-14. Jhd. stammen. fol. 1
                enthält ein Kalenderfragment, fol. 2-5 laut Beschreibung der BnF Fragmente der Passio
-               b. Achati.</note>
+               b. Achati.</p></note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -84,8 +84,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><orgName>Marmoutier</orgName> (?)</origPlace></p>
-                     <p><origDate/></p>
+                     <p><origPlace source="Rand Bischoff" cert="medium"><orgName>Marmoutier</orgName> (?)</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">ca. 2. Viertel 9. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance>Die Handschrift wurde am 12. Mai 1832 für die bibliothèque royale

@@ -1,9 +1,8 @@
-<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
-                <title>Paris, BnF, Latin </title>
+                <title>Bamberg, SB, Misc. Bibl. 1</title>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -45,8 +44,8 @@
                                         <width n="35.3"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n=""/>
-                                        <width n=""/>
+                                        <height n="35.3"/>
+                                        <width n="26.3"/>
                                     </dimensions>
                                 </extent>
                                 <condition></condition>
@@ -58,15 +57,16 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote></handNote>
+                            <handNote source="Bischoff">mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote></scriptNote>
+                            <scriptNote source="Bischoff">Minuskel; Buchanfänge in Unziale und Halbunziale</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
                                 <locus n=""/>
-                                <p></p>
+                                <p>Kanontafeln</p>
+                                <p>2 ganzseitige Bilder in Rahmen</p>
                             </decoNote>
                         </decoDesc>
                         <additions>
@@ -80,7 +80,8 @@
                     <history>
                         <origin>
                             <p><origPlace cert="high" source="Rand"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
-                            <p><origDate></origDate></p>
+                            <p><origPlace cert="medium" source="Bischoff"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
+                            <p><origDate cert="medium" source="Bischoff" notBefore="0834" notAfter="0843">834-843</origDate></p>
                             <note></note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
@@ -91,16 +92,17 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno>urn:nbn:de:bvb:22-dtl-0000098100</idno>
+                                <idno></idno>
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno>http://digital.bib-bvb.de/R/T78L2AF5LM6KR3BJQBDRNHJDASAPACA6BYM7NCGI3KTNIQBH7A-00570?func=results-jump-full&amp;set_entry=000001&amp;set_number=001135&amp;base=SBG</idno></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
                             <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="206 207"/></bibl>
                             <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="376 377"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="117"/></bibl>
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="389 391"/></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                            <bibl><idno>Leitschuh/Fischer 1966</idno><biblScope unit="pp" n="1 2"/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="44"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
