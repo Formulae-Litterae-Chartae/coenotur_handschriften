@@ -61,7 +61,8 @@
                     {% endif %}
                 </td>
                 <td>{% if post['_source']['date_string'] != ' ' %}{{ post['_source']['date_string'] }}{% endif %}</td>
-                <td data-order="{{ loop.index }}"><a class="internal-link" href="{{ url_for('main.handschrift', manuscript=post['_id']+'.xml') }}">{{ post['_id']|replace('_desc', '')|replace('_', ' ') }}</a></td>
+                <td data-order="{{ loop.index }}"><a class="internal-link"
+                                                     href="{{ url_for('main.handschrift', manuscript=post['_id']+'.xml') }}">{{ post['_source']['signature'] }}</a></td>
             </tr>
         {% endfor %}
         </tbody>

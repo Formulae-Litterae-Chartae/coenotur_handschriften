@@ -36,7 +36,7 @@ auto_filter = {"filter": {"autocomplete_filter": {"type": "edge_ngram", "min_gra
 auto_analyzer = {"analyzer": {"autocompletion": {"type": "custom", "tokenizer": "standard", "filter": ["lowercase", "autocomplete_filter"]}}}
 # new_indices should also have the latest index name in it.
 new_indices = {}
-index_properties = {'identifier': {'type': 'text'}, 'date_string': {'type': 'keyword'}}
+index_properties = {'identifier': {'type': 'text'}, 'date_string': {'type': 'keyword'}, 'signature': {'type': 'keyword'}}
 index_properties.update({'min_date': {'type': 'date', 'format': 'yyyy'},
                          'max_date': {'type': 'date', 'format': 'yyyy'}})
 index_properties.update({'orig_place': {"type": "nested", "properties": {"cert": {"type": "keyword"}, "place": {"type": "text"}}}})
@@ -59,13 +59,17 @@ for file in files:
     # Get identifiers and alt ids
     ids = list()
     altids = list()
+    msNames = list()
     for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/*', namespaces=namespaces):
-        if c.tag != '{http://www.tei-c.org/ns/1.0}altIdentifier':
+        if c.tag == '{http://www.tei-c.org/ns/1.0}altIdentifier':
+            altids.append(c.get('source') + ' ' + ' '.join(c.xpath('.//text()')).strip())
+        elif c.tag == '{http://www.tei-c.org/ns/1.0}msName':
+            msNames.append(''.join(c.xpath('.//text()')).strip())
+        else:
             if c.text:
                 ids.append(''.join(c.xpath('.//text()')).strip())
-        else:
-            altids.append(c.get('source') + ' ' + ' '.join(c.xpath('.//text()')).strip())
-    identifiers = ' '.join(ids) + '; ' + '; '.join(altids)
+    identifiers = ', '.join(msNames) + '; ' + ', '.join(ids) + '; ' + '; '.join(altids)
+    signature = ' '.join(xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title//text()', namespaces=namespaces))
     
     # Get dates
     dates = {'min_dates': [], 'max_dates': []}
@@ -156,6 +160,7 @@ for file in files:
                                                                            "analyzer": auto_analyzer["analyzer"]}},
                                                               "mappings": {"properties": index_properties}})
     body = {'identifier': identifiers, 
+            'signature': signature,
             'date_string': date_string,
             'ms_item': items,
             'person': persons, 
