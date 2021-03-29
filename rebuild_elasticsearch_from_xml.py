@@ -39,7 +39,7 @@ new_indices = {}
 index_properties = {'identifier': {'type': 'text'}, 'date_string': {'type': 'keyword'}, 'signature': {'type': 'keyword'}}
 index_properties.update({'min_date': {'type': 'date', 'format': 'yyyy'},
                          'max_date': {'type': 'date', 'format': 'yyyy'}})
-index_properties.update({'orig_place': {"type": "nested", "properties": {"cert": {"type": "keyword"}, "place": {"type": "text"}}}})
+index_properties.update({'orig_place': {"type": "nested", "properties": {"cert": {"type": "keyword"}, "place": {"type": "text"}, "source": {"type": "text"}}}})
 index_properties.update({'ms_item': {"type": "text"}})
 index_properties.update({'person': {"type": "nested", "properties": {"name": {"type": "text"}, "role": {"type": "keyword"}, "identifier": {"type": "keyword"}}}})
 index_properties.update({'provenance': {"type": "text"}})
@@ -90,7 +90,7 @@ for file in files:
     # Get origPlace
     places = []
     for p in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p/tei:origPlace', namespaces=namespaces):
-        places.append({'cert': p.get('cert'), 'place': re.sub(r'\s+', ' ', ''.join(p.xpath('.//text()')))})
+        places.append({'cert': p.get('cert'), 'place': re.sub(r'\s+', ' ', ''.join(p.xpath('.//text()'))), 'source': p.get('source', '')})
         
     # Get msItems
     items = set()

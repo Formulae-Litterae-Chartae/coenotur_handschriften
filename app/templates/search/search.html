@@ -21,6 +21,8 @@
             <tr>
                 <th id="results-text-column" scope="col">{{ _('Text') }}</th>
                 <th id="results-date-column" scope="col">{{ _('Entstehungszeit') }}</th>
+                <th id="results-place-column" scope="col">{{ _('Entstehungsort') }}</th>
+                <th id="results-contents-column" scope="col">{{ _('Inhalt') }}</th>
                 <th id="results-title-column" scope="col">{{ _('Manuskript') }}</th>
             </tr>
         </thead>
@@ -60,7 +62,16 @@
                     {% endfor %}
                     {% endif %}
                 </td>
-                <td>{% if post['_source']['date_string'] != ' ' %}{{ post['_source']['date_string'] }}{% endif %}</td>
+                <td>{% if post['_source']['date_string']|trim %}{{ post['_source']['date_string'] }}{% endif %}</td>
+                <td>{% for p in post['_source']['orig_place'] %}{% if p['place']|trim %}{% if not loop.first
+                    %}<br>{% endif %}- {{
+                    p['place'] }}{% if p['source']|trim and loop.length > 1 %} ({{ p['source']|upper }}){% endif %}{%
+                    endif
+                    %}{% endfor
+                    %}</td>
+                <td>{% if post['_source']['ms_item']|trim %}- {{ post['_source']['ms_item']|join('<br>- ')|safe }}{%
+                    endif
+                    %}</td>
                 <td data-order="{{ loop.index }}"><a class="internal-link"
                                                      href="{{ url_for('main.handschrift', manuscript=post['_id']+'.xml') }}">{{ post['_source']['signature'] }}</a></td>
             </tr>
