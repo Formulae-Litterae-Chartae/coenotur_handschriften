@@ -49,7 +49,7 @@ class AdvancedSearchForm(SearchForm):
     ms_item = StringField(_l('Inhalt'))
     person = StringField(_l('Personen'))
     person_role = SelectMultipleField(_l('Role'),  choices=[('', ''), ('Abt', _l('Abt')),
-                                                                      ('scribe', _l('Schreiber'))])
+                                                                      ('Schreiber', _l('Schreiber'))])
     provenance = StringField(_l('Provenienz'))
     with_digitalisat = BooleanField(_l('Nur Handschriften mit Digitalisate'))
     with_scribe = BooleanField(_l('Nur Handschriften mit genannten Schreibern'))

@@ -90,7 +90,7 @@ for file in files:
     # Get origPlace
     places = []
     for p in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p/tei:origPlace', namespaces=namespaces):
-        places.append({'cert': p.get('cert'), 'place': re.sub(r'\s+', ' ', ''.join(p.xpath('.//text()'))), 'source': p.get('source', '')})
+        places.append({'cert': p.get('cert'), 'place': re.sub(r'\s+', ' ', ''.join(p.xpath('.//text()'))), 'source': p.get('source', '').replace(' ', '/')})
         
     # Get msItems
     items = set()
@@ -123,7 +123,7 @@ for file in files:
     persons = []
     named_scribe = False
     for n in xml.xpath('//tei:persName', namespaces=namespaces):
-        persons.append({'name': re.sub(r'\s+', ' ', ''.join(n.xpath('.//text()', namespaces=namespaces))), 'role': n.get('type'), 'identifier': n.get('n')})
+        persons.append({'name': re.sub(r'\s+', ' ', ''.join(n.xpath('.//text()', namespaces=namespaces))), 'role': n.get('type', '').replace('scribe', 'Schreiber'), 'identifier': n.get('n')})
         if n.get('type') == 'scribe': 
             named_scribe = True
         

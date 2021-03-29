@@ -76,12 +76,12 @@ def suggest_word_search(**kwargs) -> Union[List[str], None]:
 def advanced_query_index(simple_q: str = '',
                          identifier: str = '',
                          orig_place: str = '',
-                         orig_place_cert: str = '',
+                         orig_place_cert: list = None,
                          orig_year_start: str = '',
                          orig_year_end: str = '',
                          ms_item: str = '',
                          person: str = '',
-                         person_role: str = '',
+                         person_role: list = None,
                          person_identifier: str = '',
                          provenance: str = '',
                          autocomplete_ms_item: str = '',
@@ -187,8 +187,10 @@ def advanced_query_index(simple_q: str = '',
         for sub_key, sub_value in v.items():
             if sub_value:
                 if sub_key in fields['keyword_fields']:
+                    print(sub_value)
                     if isinstance(sub_value, list):
-                        sub_value_clauses.append({'bool': {'should': [{'match': {sub_key: x} for x in sub_value}], 'minimum_should_match': 1}})
+                        if any(sub_value):
+                            sub_value_clauses.append({'bool': {'should': [{'match': {sub_key: x}} for x in sub_value], 'minimum_should_match': 1}})
                     else:
                         sub_value_clauses.append({'match': {sub_key: sub_value}})
                 else:

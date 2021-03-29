@@ -11,6 +11,7 @@ HIGHLIGHT_MAPPING = {'identifier': _('Signatur'),
                      'provenance': _('Geschichte der Handschrift'),
                      'person.name': _('Name'),
                      'orig_place.place': _('Ort'),
+                     'orig_place.source': _('Quelle'),
                      'person.role': _('Role'),
                      'person.identifier': _('ID'),
                      'orig_place.cert': _('Sicherheit'),
@@ -42,19 +43,19 @@ def r_results():
     search_args = dict(simple_q=request.args.get('simple_q'),
                        identifier=request.args.get('identifier'),
                        orig_place=request.args.get('orig_place'),
-                       orig_place_cert=request.args.get('orig_place_cert'),
+                       orig_place_cert=request.args.get('orig_place_cert', '').split('+'),
                        orig_year_start=request.args.get('orig_year_start'),
                        orig_year_end=request.args.get('orig_year_end'),
                        ms_item=request.args.get('ms_item'),
                        person=request.args.get('person'),
-                       person_role=request.args.get('person_role'),
+                       person_role=request.args.get('person_role', '').split('+'),
                        person_identifier=request.args.get('person_identifier'),
                        provenance=request.args.get('provenance'),
                        autocomplete_ms_item=request.args.get('autocomplete_ms_item'),
                        autocomplete_person=request.args.get('autocomplete_person'),
                        autocomplete_orig_place=request.args.get('autocomplete_orig_place'),
-                       autocomplete_orig_place_cert=request.args.get('autocomplete_orig_place_cert'),
-                       autocomplete_person_role=request.args.get('autocomplete_person_role'),
+                       autocomplete_orig_place_cert=request.args.get('autocomplete_orig_place_cert', '').split('+'),
+                       autocomplete_person_role=request.args.get('autocomplete_person_role', '').split('+'),
                        autocomplete_person_identifier=request.args.get('autocomplete_person_identifier'),
                        with_digitalisat=request.args.get('with_digitalisat'),
                        with_scribe=request.args.get('with_scribe'),
@@ -73,6 +74,9 @@ def r_advanced_search():
     data_present = [x for x in form.data if form.data[x]]
     if form.validate() and data_present and 'submit' in data_present:
         data = form.data
+        for k, v in data.items():
+            if isinstance(v, list):
+                data[k] = '+'.join(v)
         return redirect(url_for('.r_results', source="advanced", **data))
     for k, m in form.errors.items():
         flash(k + ': ' + m[0])
