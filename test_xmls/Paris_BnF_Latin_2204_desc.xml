@@ -107,8 +107,12 @@
                      <scriptNote>Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
+                     <decoNote source="First great source!">
                         <locus n="24r 215r">Federzeichnungen</locus>
+                     </decoNote>
+                     <decoNote>
+                        <locus from="1r" to="2r"/>
+                        <p source="Second great source">Cool drawings.</p>
                      </decoNote>
                   </decoDesc>
                   <additions>

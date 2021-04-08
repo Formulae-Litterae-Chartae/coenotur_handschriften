@@ -1,0 +1,102 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Berlin, SB, Hamilton 82</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Berlin</settlement>
+                        <repository>SB</repository>
+                        <collection></collection>
+                        <idno>Hamilton 82</idno>
+                        <altIdentifier source="Rand">
+                            <idno>97</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>352</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Bibel">
+                            <title>Bibel</title>
+                            <textLang mainLang="la"></textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="435">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="49.0"/>
+                                        <width n="37.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="37.5"/>
+                                        <width n="27.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="52"/>
+                                <layout source="Rand"/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">14 Schreiber</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <p source="Rand" xml:id="Kursive">Karolingische Minuskel</p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Gedichte <persName>Aldebalds</persName>für <persName>Wilhelm von Dijon</persName> (10. Jhd.)</p>
+                            <p>Briefkopie (11. Jhd.)</p>
+                            <p source="Martinellus.de" n="tironischen Note"><locus n="58v"/><seg type="lat">hic</seg></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Brauner Ledereinband über Pappe mit Streicheisengliederung, 19. Jhd.</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, <orgName>Marmoutier</orgName></origPlace></p>
+                            <p><origPlace source="Fingernagel" cert="high"><placeName>Tours</placeName>, <orgName>St-Martin</orgName> oder <orgName>Marmoutier</orgName></origPlace></p>
+                            <p><origDate source="Fingernagel" cert="high" notBefore="0820" notAfter="0840">um 830, wohl unter <persName type="Abt">Fredegisus</persName></origDate></p>
+                        </origin>
+                        <provenance type="Provenance"><orgName>St-Bénigne in Dijon</orgName></provenance>
+                        <provenance source="Fingernagel">Verse auf <locus n="435r">435r</locus> aus dem 10. und 11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd. unter <persName type="Abt">Wilhelm von Volpiano</persName> in St-Bénigne war. Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift des Bibliothekskatalog zwischen 1592 und 1682 bestätigt.</provenance>
+                        <acquisition><name type="Repository"></name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/dokumente/html/obj90699361,T</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="147"></biblScope></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="73"></biblScope></bibl>
+                            <bibl><idno>Fingernagel 1999</idno><biblScope unit="pp" n="61 63"></biblScope></bibl>
+                            <bibl><idno>Martinellus.de</idno></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body><div type="edition"></div></body></text>
+</TEI>

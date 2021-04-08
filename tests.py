@@ -128,8 +128,43 @@ class TestRoutes(CoenoturTests):
             self.assertEqual('33', metadata['written_lines'])
             self.assertEqual(metadata['script_desc'], ['Minuskel'])
             self.assertEqual(metadata['hand_desc'], ['mehrere Hände'])
+            self.assertEqual(metadata['exlibris'], ['fol. 7 Exlibris von Antoine Faure'])
+            self.assertEqual(metadata['online_description'], ['<a href="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60091v" target="_blank">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60091v</a>'])
+            self.assertEqual(metadata['illuminations'], ['- fol. 24r 215r - Federzeichnungen (FIRST GREAT SOURCE!)',
+                                                         '- fol. 1r-2r - Cool drawings (SECOND GREAT SOURCE).'])
 
-            # Test Neumen
+            # Test Neumen & Marginal notes
             c.get('/handschrift/Tours_BM_10_desc.xml', follow_redirects=True)
             metadata = self.get_context_variable('m_d')
             self.assertEqual(metadata['neumen'], ['fol. 164r - Neumen im Stil von Fleury (MUNSON).'])
+            self.assertEqual(metadata['marginal'], ['Die Kapitelübersicht weicht von der üblichen Weise\n'
+                                                    '                                ab, die übliche Einteilung ist aber von '
+                                                    'einer späteren Hand\n'
+                                                    '                                hinzugefügt worden. (COLLON).'])
+            self.assertEqual(metadata['online_description'], ['Another_strange_idno'])
+            self.assertEqual(metadata['digital_representations'], ['Some_strange_id'])
+            self.assertEqual(metadata['general_notes'],
+                             ['Die Zuschreibung nach Tours erfolgt vor allem aufgrund des Exlibris vom 12. Jhd.; Überlegungen, die Entstehung der Handschrift in Leury zu verorten, verweisen auf die Neumierungen auf fol. 163r, die floriazensischen Ursprungs sind. Diese Neumen könnten durch eine Ausleihe nach Fleury oder durch einen St-Martin besuchenden floriazensischen Mönch angefertigt worden sein, ohne dass die Entstehung der gesamten Handschrift deshalb in Fleury gesucht werden muss (MOSTERT).'])
+
+
+            # Test tironischen Noten & Provenence (notes)
+            c.get('/handschrift/Berlin_SB_Ham_82_desc.xml', follow_redirects=True)
+            metadata = self.get_context_variable('m_d')
+            self.assertEqual(metadata['tironoten'], ['fol. 58v <em>hic</em> (MARTINELLUS.DE)'])
+            self.assertEqual(metadata['provenance'], ['St-Bénigne in Dijon'])
+            self.assertEqual(metadata['provenance_notes'],
+                             ['Verse auf 435r aus dem 10. und 11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd. unter Wilhelm von Volpiano in St-Bénigne war. Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift des Bibliothekskatalog zwischen 1592 und 1682 bestätigt (FINGERNAGEL).'])
+            self.assertEqual(metadata['binding'], ['Brauner Ledereinband über Pappe mit Streicheisengliederung, 19. Jhd.'])
+
+            # Test handDesc and scriptDesc <p>
+            c.get('/handschrift/Tours_BM_1019_desc.xml', follow_redirects=True)
+            metadata = self.get_context_variable('m_d')
+            self.assertEqual(metadata['script_desc'], ['Some scriptDesc paragraph (MUNSON).'])
+            self.assertEqual(metadata['hand_desc'], ['Some handDesc paragraph (MUNSON).'])
+            self.assertEqual({'COLLON 1900': ['S. 736-739', '800'], 'DORANGE 1875': ['S. 447-448'], 'RAND 1929': []}, metadata['bibliography'])
+
+            # Test noteStmt/note/p
+            c.get('/handschrift/Tours_BM_193_desc.xml', follow_redirects=True)
+            metadata = self.get_context_variable('m_d')
+            self.assertEqual(metadata['general_notes'],
+                             ['Dieses Missale wurde in St-Martin verwendet. Es findet sich weder im Katalog von Montfaucon, noch in dem von Chalmel, vermutlich, weil es so wertvoll war, dass es im Tresor und nicht in der Bibliothek gelagert wurde (DORANGE).'])

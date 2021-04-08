@@ -198,17 +198,18 @@ def handschrift(manuscript: str):
                                                                note.get('source') else '',
                                                                end_symbol))
     metadata['hand_desc'] = []
-    for hand_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote',
+    for hand_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc',
                                namespaces=current_app.namespaces):
-        hand_desc_text = ''.join(hand_desc.xpath('.//text()'))
-        if hand_desc_text:
-            end_symbol = ''
-            if hand_desc_text.strip().endswith('.'):
-                end_symbol = '.'
-            metadata['hand_desc'].append('{}{}{}'.format(hand_desc_text.strip('. \n'),
-                                                         ' (' + hand_desc.get('source').upper().replace(' ', '; ') + ')'
-                                                         if hand_desc.get('source') else '',
-                                                         end_symbol))
+        for note in hand_desc.xpath('./tei:p|./tei:handNote', namespaces=current_app.namespaces):
+            hand_desc_text = ''.join(note.xpath('.//text()'))
+            if hand_desc_text:
+                end_symbol = ''
+                if hand_desc_text.strip().endswith('.'):
+                    end_symbol = '.'
+                metadata['hand_desc'].append('{}{}{}'.format(hand_desc_text.strip('. \n'),
+                                                             ' (' + note.get('source').upper().replace(' ', '; ') + ')'
+                                                             if note.get('source') else '',
+                                                             end_symbol))
     metadata['neumen'] = []
     for adds in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:musicNotation/tei:p',
                           namespaces=current_app.namespaces):
@@ -309,22 +310,32 @@ def handschrift(manuscript: str):
         if binding_text:
             metadata['binding'].append(re.sub(r'\s+', ' ', binding_text))
     metadata['general_notes'] = []
-    for note in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note/tei:p',
+    for note in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note',
                           namespaces=current_app.namespaces):
+        source = note.get('source')
+        if not source:
+            for p_tag in note.xpath('./tei:p/@source', namespaces=current_app.namespaces):
+                if p_tag:
+                    source = p_tag
         if note.xpath('.//text()'):
             end_symbol = ''
             note_text = ' '.join(insert_style_spans(note))
             if note_text.strip().endswith('.'):
                 end_symbol = '.'
-            metadata['general_notes'].append('{}{}{}'.format(re.sub(r'\s+', ' ', note_text.rstrip('. \n')),
-                                                             ' ({})'.format(note.get('source').upper()) if
-                                                             note.get('source') else '',
+            metadata['general_notes'].append('{}{}{}'.format(re.sub(r'\s+', ' ', note_text.strip('. \n')),
+                                                             ' ({})'.format(source.upper()) if
+                                                             source else '',
                                                              end_symbol))
     metadata['illuminations'] = []
-    for deco in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:p',
+    for deco in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote',
                           namespaces=current_app.namespaces):
         locus = []
-        deco_text = ''.join(deco.xpath('.//text()')).rstrip('. \n')
+        deco_text = ''.join(deco.xpath('.//text()')).rstrip()
+        source = deco.get('source')
+        if not source:
+            for p_tag in deco.xpath('./tei:p/@source', namespaces=current_app.namespaces):
+                if p_tag:
+                    source = p_tag
         for l in deco.xpath('tei:locus', namespaces=current_app.namespaces):
             if l.get('n'):
                 locus.append(l.get('n'))
@@ -336,7 +347,7 @@ def handschrift(manuscript: str):
                 end_symbol = '.'
             metadata['illuminations'].append('- {}{}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
                                                                  deco_text.strip('. \n'),
-                                                                 ' (' + deco.get('source').upper() + ').'
-                                                                 if deco.get('source') else '.',
+                                                                 ' (' + source.upper() + ')'
+                                                                 if source else '',
                                                                  end_symbol))
     return render_template('handschrift.html', title=current_app.manuscript_dict[manuscript], m_d=metadata)

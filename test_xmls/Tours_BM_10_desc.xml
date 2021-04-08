@@ -132,9 +132,9 @@
                             <decoNote/>
                         </decoDesc>
                         <additions>
-                            <p source="Collon">die Kapitelübersicht weicht von der üblichen Weise
+                            <p source="Collon">Die Kapitelübersicht weicht von der üblichen Weise
                                 ab, die übliche Einteilung ist aber von einer späteren Hand
-                                hinzugefügt worden</p>
+                                hinzugefügt worden.</p>
                             <p n="Exlibris"><locus/><seg type="lat">liber sancti martini
                                     turonensis</seg> 12. Jhd.</p>
                         </additions>
@@ -166,11 +166,11 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno>https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/32056/manifest</idno>
+                                <idno>Some_strange_id</idno>
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>Another_strange_idno</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="98 99"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
                             <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="250"/></bibl>
