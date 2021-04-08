@@ -1,0 +1,115 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Gent, UB, 102</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Belgium</country>
+                        <settlement>Gent</settlement>
+                        <repository>UB</repository>
+                        <collection/>
+                        <idno>102</idno>
+                        <altIdentifier source="Genois">
+                            <idno>436</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>24</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>11</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>1358</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Theologie Exeges">
+                            <author>Hieronymus</author>
+                            <title>Expositio in Isaiam</title>
+                            <textLang mainLang="la"/>
+                            <note>X-XVIII</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="505">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="31.8"/>
+                                        <width n="24.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="24.2"/>
+                                        <width n="16.2"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="31"/>
+                                <layout><p>Überschriften in roten oder wechselnd roten und brauten Kapitalzeilen. Jedes Buch beginnt mit einer Initiale.</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>2 Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote>Anfänge in gezierter Halbunziale,; Text in früher Tours-Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                            <p n="Exlibris"><locus n=""/>Mehrere Besitzeinträge aus St-Maximin in Trier</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="high" source="Rand Köhler Bischoff Hellmann"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace cert="low" source="Rand"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">Anfang 9. Jhd.</origDate></p>
+                            <note>Durch die zahlreichen Besitzeinträge aus St-Maximin, ist belegt, dass sich die Handschrift bis mindestens 1742, dem letzten Eintrag, dort befunden hat.</note>
+                        </origin>
+                        <provenance type="Provenance"><orgName>St-Maximin</orgName>, <placeName>Trier</placeName></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">BnF</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://lib.ugent.be/viewer/archive.ugent.be:53346CFA-BB3A-11E7-8341-EF341AB1B84C#?c=&amp;m=&amp;s=&amp;cv=&amp;xywh=-1735%2C-250%2C7091%2C4986</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://lib.ugent.be/en/catalog/rug01:000991228?i=1&amp;q=102&amp;type=manuscript</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="104"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="370 371"/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="285"/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

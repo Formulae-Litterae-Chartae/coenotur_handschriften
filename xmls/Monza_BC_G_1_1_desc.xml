@@ -1,0 +1,112 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Monza, Bibliotheca Capitolare, G 1/1</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Monza</settlement>
+                        <repository>Bibliotheca Capitolare</repository>
+                        <collection/>
+                        <idno>G 1/1</idno>
+                        <altIdentifier source="Rand">
+                            <idno>29</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>10</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2893</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Bibel">
+                            <author/>
+                            <title>Bibel</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="395">395 (zwischen Bl. 73 und 74 fehlen 5 Blätter)
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="51.5"/>
+                                        <width n="37.3"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="38.3"/>
+                                        <width n="11.4"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="51"/>
+                                <layout><p>Große, braun gezeichnete Initialen</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Bischoff"><locus n="395v"/><persName type="scribe">Amalricus</persName> nennt sich hier hinter der Formale <seg type="lat">Nauta rudis</seg> in eigenen Versen.</handNote>
+                            <handNote>KÖHLER spricht von Amalricus als einem der Schreiber, wohingegen RAND davon ausgeht, dass Amalricus den gesamten Codex geschrieben hat.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Bischoff">Turonische Minuskel mehrerer Hände</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><locus n="395v"/><seg type="lat">Hos tandem dignos exaravit dextera libros exiguus christo devotus famulus almo Amalricus atque hic sua otio frangit</seg></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium" source="Rand Köhler Bischoff"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">Anfang 9. Jhd.</origDate></p>
+                            <note></note>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">BnF</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://manus.iccu.sbn.it/opac_SchedaScheda.php?ID=50333</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="107"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="369 370"/></bibl>
+                            <bibl><idno>Fischer 1957</idno><biblScope unit="pp" n=""/></bibl>
+                            <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n=""/></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="215"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

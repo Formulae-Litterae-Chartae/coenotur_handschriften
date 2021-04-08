@@ -133,3 +133,4 @@ dmypy.json
 *.mo
 app.db
 logs/
+migrations/

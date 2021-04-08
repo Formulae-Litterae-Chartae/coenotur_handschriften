@@ -1,0 +1,128 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>München, Bayerische Staatsbibliothek Clm 12741</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Munich</settlement>
+                  <repository>Dombibliothek</repository>
+                  <collection/>
+                  <idno>Clm 12741</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>3117</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Bibel</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="353">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="55.0"/>
+                              <width n="37.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="36.5 37"/>
+                              <width n="27.5 28"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Zustand Wasserschaden, einzelne fehlende Blätter</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="51"/>
+                        <layout><p>Layout rote Auszeichnungsschrift, einfache Initialen;
+                              Kanontafeln, Concordia; typisch turonischer Stil</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>mehrere Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>karolingische Minuskel; Auszeichnung in Capitalis oder
+                        Unziale</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote><p>Schmuckinitialen zu Beginn der Prologe sowie der jeweiligen
+                           Bücher, teilweise mehrfarbig koloriert und mit Flecht- oder Tiermustern
+                           verziert</p>
+                        <p>architektonischer Ausschmückung der Kanontafeln sowie Concordia</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p><locus n="42r"/>Tironische Noten</p>
+                     <p>Glossen und Korrekturen, 11. Jhd.</p>
+                     <p>Marginalia, 14. Jhd.</p>
+                     <p>mehrere Enträge auf dem Vorderspiegel: <seg type="lat">Iste liber pertinet
+                           ad sanctum Erhardum in Ratispona</seg> (15. Jhd.); <seg type="lat"
+                           >Reverendissima domina abatissa d[onum] d[edi]t patribus Capuccinis
+                           ib[i]dem decimo septimo Julij anno domini M DCXXVIII</seg> (1628); <seg
+                           type="lat">Ne quis hunc librum laceret, concedat extraneis aut alio
+                           transferat, prohibet tota reverenda definitio, anno 1678</seg>.
+                        Unterschrieben von: <seg type="lat">Frater Erhardus, Frater Athanasius,
+                           Frater Henricus, Frater Lucius</seg> (1678); eingeklebter Zettel: <seg
+                           type="lat">Anno Christi 937 scriptum est opus hoc a Domino Mariano Schoti
+                           profess. mathem. oratore et poeta insigni et tribus annis finitum.</seg>
+                        (16./17. Jhd.); eingeklebter Zettel vom 22.9.1858 mit einer Beschreibung der
+                        Handschrift durch Michael Stenglein </p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Ledereinband, 15. Jhd.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate cert="high" notBefore="0830" notAfter="0834"
+                        >830-834</origDate></p>
+                     <note>Kommentar zu Ort und Zeit Entstehungsort sowie -zeit können aufgrund der
+                        Handschriftgestaltung als gesichert angesehen werden.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName>Regensburg</placeName></provenance>
+                  <provenance>Wohl in den letzten Jahren der Amtszeit des Abtes Fridugisus in Tours
+                     entstanden. Im 11. Jhd. ist die Handschrift in Regensburg, spätestens im 15.
+                     Jhd. im Frauenstift Niedermünster. 1628 schenkte die Äbtissin des Stiftes die
+                     Handschrift dem Kapuzinerkloster in Regensburg. Nach der Säkularisation ging
+                     die Handschrift an die BSB.</provenance>
+                  <acquisition><name type="Repository">Bayerische Staatsbibliothek
+                     München</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://daten.digitale-sammlungen.de/~db/0004/bsb00047279/images/</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://opacplus.bsb-muenchen.de/title/BV036088196</idno></bibl>
+                     <bibl><idno>Bischoff 1960</idno><biblScope unit="pp" n="261"/></bibl>
+                     <bibl><idno>Bierbrauer 1990</idno><biblScope unit="pp" n="136ff."/></bibl>
+                     <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="248"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Montpellier, BU, H. 412</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Montpellier</settlement>
+                        <repository>BU</repository>
+                        <collection/>
+                        <idno>H. 412</idno>
+                        <altIdentifier source="Rand">
+                            <idno>11</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2873</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Theologie Exegese">
+                            <author>Augustinus</author>
+                            <title>Enchiridion de fide et spe et caritate</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="133">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="17.1"/>
+                                        <width n="13.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="12.9"/>
+                                        <width n="9.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition source="calames">Samteinband abgenutzt, Bindung gebrochen</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="21"/>
+                                <layout><p source="Rand">Unziale im Titel; Rote Titel und Initialen, einige ornamental Initialen im Tours Stil </p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Bischoff">Mehrere Hände</handNote>
+                            <handNote source="Rand">Minuskelhand ähnelt derjenigen von <persName type="scribe">Fredegaudus</persName> von Reg. Lat. 732, die sich auch in Latin 5726 und Latin 13759 wiederfindet.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Rand">Verbesserte Kursive</scriptNote>
+                            <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p source="Bischoff"><locus n="86"/>im 11. Jhd. ergänzt</p>
+                            <p source="Bischoff">Korrekturen aus dem 9. Jhd., vielleicht von <persName type="scribe">Lupus von Ferrières</persName>.</p>
+                       </additions>
+                        <bindingDesc>
+                            <decoNote source="Calames">Alter Einband Bouhier aus schwarzem Samt und roter Bindung</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="medium" source="Rand Bischoff"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Rand" cert="medium" notBefore="0780" notAfter="0796">pre-Alcuinian</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                            <note>Eine Datierung um 800 erscheint wahrscheinlich. Auf eine Entstehung in Tours, vermutlich St-Martin lässt die paläographische Untersuchung von Rand und Bischoff schließen.</note>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance>Die Handschrift gelangte 1804 durch den Einsatz von G. Prunelle aus der Sammlung Bouhier nach Montpellier.</provenance>
+                        <acquisition><name type="Repository">BnF</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://ged.biu-montpellier.fr/florabium/jsp/nodoc.jsp?NODOC=2017_DOC_MONT_MBUM_2</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="93 94"/></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="209"/></bibl>
+                            <bibl><idno>Cames 2004/2005</idno><biblScope unit="pp" n="26"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
