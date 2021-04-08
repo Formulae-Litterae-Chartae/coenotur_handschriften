@@ -32,4 +32,6 @@ jobs:
       run: |
         coverage run --source=app -m unittest discover 
     - name: Coverage Report
-      run: coverage report -m
+      run: coverage report -m > pytest-coverage.txt
+    - name: Post coverage report
+      uses: coroo/pytest-coverage-commentator@v1.0.2
