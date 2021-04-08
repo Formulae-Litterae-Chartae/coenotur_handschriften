@@ -108,7 +108,7 @@ def advanced_query_index(simple_q: str = '',
     if with_digitalisat in ['True', True]:
         body_template['query']['bool']['must'].append({'regexp': {'with_digitalisat': {'value': '.*'}}})
     if with_scribe in ['True', True]:
-        body_template['query']['bool']['must'].append({'nested': {'path': 'person', 'query': {'match': {'person.role': 'scribe'}},
+        body_template['query']['bool']['must'].append({'nested': {'path': 'person', 'query': {'match': {'person.role': 'Schreiber'}},
                                                        'inner_hits': {'highlight': {'fields': {'person.role': {}},
                                                                            'pre_tags': [PRE_TAGS],
                                                                            'post_tags': [POST_TAGS],
@@ -187,7 +187,6 @@ def advanced_query_index(simple_q: str = '',
         for sub_key, sub_value in v.items():
             if sub_value:
                 if sub_key in fields['keyword_fields']:
-                    print(sub_value)
                     if isinstance(sub_value, list):
                         if any(sub_value):
                             sub_value_clauses.append({'bool': {'should': [{'match': {sub_key: x}} for x in sub_value], 'minimum_should_match': 1}})
