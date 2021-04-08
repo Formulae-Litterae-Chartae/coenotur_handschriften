@@ -1,0 +1,114 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>New York, Pierpont Morgan Library, MS 191</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>New York</settlement>
+                        <repository>Pierpont Morgan Library</repository>
+                        <collection/>
+                        <idno>Ms 191</idno>
+                        <altIdentifier source="Rand">
+                            <idno>35</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>21</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>3613</idno>
+                        </altIdentifier>
+                        <msName>Morgan Gospel</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Bibel Evangelien">
+                            <author/>
+                            <title>Evangeliar</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="238">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="27.8"/>
+                                        <width n="19.1"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="19.1"/>
+                                        <width n="10.4"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="21"/>
+                                <layout><p></p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Köhler">Von drei sehr verschiedenen Händen geschrieben.</handNote>
+                            <handNote>Ähnliche, bzw. selbe Hand wie London, BM, Harley 2805 und Angers, BM, 1 2, deuten auf St-Martin hin (RAND), wobei Angers, BM, 1 2 vielleicht, laut KÖHLER aus Angers stammt, was aber von FISCHER nicht übernommen worden ist. </handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p>schöne farbige Kanontafeln</p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>LAgenkontrollvermerke in tironischen Noten</p>
+                            <p n="Exlibris"><locus n="1"/><seg type="lat">San Lorenzo el Real del Escorial</seg></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="high" source="Rand Bischoff"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0834">ca. 830-834</origDate></p>
+                            <note></note>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance>Von Libri gestohlen und an Lord Ashburnham verkauft.</provenance>
+                        <acquisition><name type="Repository"></name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://www.themorgan.org/manuscript/146949</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://ica.themorgan.org/manuscript/thumbs/146949</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="110 111"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="379"/></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="317"/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,116 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Bamberg, SB, Misc. Class. 5</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>Bamberg</settlement>
+                        <repository>SB</repository>
+                        <collection/>
+                        <idno>Misc. Class. 5</idno>
+                        <altIdentifier source=" H. J.">
+                            <idno>IV. 12</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>71</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>39</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>204</idno>
+                        </altIdentifier>
+                        <msName>Boethius für Karl den Kahlen</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Arithmetik">
+                            <author>Boethius</author>
+                            <title>De istitutione arithmetica</title>
+                            <textLang mainLang="la"/>
+                            <note>unvollständig</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="139">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="23.5"/>
+                                        <width n="17.3"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="16.7"/>
+                                        <width n="11.2"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="19"/>
+                                <layout><p>Titel in rot und weiteren Farben</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Bischoff">mehrere Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Bischoff">Halbunziale</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <locus n=""/>
+                                <p>2 Bildseiten</p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p n="tironische Noten"><locus n="12v"/><seg type="lat">Platonis sententia</seg></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="high" source="Rand Köhler Bischoff"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate cert="medium" source="Rand" notBefore="0830" notAfter="0840">ca. 832 für Karl den Kahlen</origDate></p>
+                            <p><origDate cert="medium" source="Bischoff Hellmann" notBefore="0840" notAfter="0850">ca. 845 für Karl den Kahlen</origDate></p>
+                            <note>Der Entstehungsort kann als gesichert angesehen werden. Wann genau die Handschrift für Karl den Kahlen entstand bleibt umstritten.</note>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance>die Handschrift wurde für Karl den Kahlen gefertigt und diesem überreicht.</provenance>
+                        <acquisition><name type="Repository">SB Bamberg</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="131 132"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="401 402"/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="46"/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

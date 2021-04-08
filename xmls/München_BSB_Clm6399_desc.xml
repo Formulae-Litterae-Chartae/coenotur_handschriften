@@ -1,0 +1,112 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>München, Bayerische Staatsbibliothek Clm 6399</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Munich</settlement>
+                  <repository>Dombibliothek</repository>
+                  <collection/>
+                  <idno>Clm 6399</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>3072</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Grammatik">
+                     <author>Beda Venerabilis</author>
+                     <title>Opera didascalica</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="32">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="27.5"/>
+                              <width n="20.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="22.5"/>
+                              <width n="14 16">14-16</width>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="28"/>
+                        <layout><p>rote Auszeichnungsschrift sowie einfache Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>zwei Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>karolingische Minuskel, Unziale</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote> </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p source="Glauche">„Verzeichnis vorhandener Schulbücher des Domkapitels“ (2.
+                        Hälfte 10. Jhd.)</p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Liber iste est sancte Marie et
+                           sancti Corbiniani Frisinge</seg> (12. Jhd.)</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Glauche">Freisinger Ledereinband, spätottonisch</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Glauche" cert="low">Bereich von Tours</origPlace></p>
+                     <p><origPlace source="Bischoff_2004" cert="low">„wohl
+                        Frankreich“</origPlace></p>
+                     <p><origDate source="Glauche Bischoff" cert="high" notBefore="0850"
+                           notAfter="0900">2. Hälfte 9. Jhd.</origDate></p>
+                     <note>Die Entstehung in der zweiten Hälfte des neunten Jahrhunderts scheint
+                        gesichert, über den genauen Entstehungsort fehlen Indizien. </note>
+                  </origin>
+                  <provenance type="Provenance"><orgName>Dombibliothek
+                     Freising</orgName></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">Bayerische Staatsbibliothek
+                     München</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://daten.digitale-sammlungen.de/~db/0006/bsb00065393/images/</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://opacplus.bsb-muenchen.de/title/BV037451072</idno></bibl>
+                     <bibl><idno>Bischoff 1960</idno><biblScope unit="pp" n="148 149"/></bibl>
+                     <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="241"/></bibl>
+                     <bibl><idno>Glauche 2011</idno><biblScope unit="pp" from="184" to="186"
+                        /></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

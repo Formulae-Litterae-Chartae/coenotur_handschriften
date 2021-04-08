@@ -1,0 +1,117 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>München, Bayerische Staatsbibliothek Clm 29260/4</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note>Fragment mit einigen Bibelversen: Is 54,80-58,11; Ier 9,3-11,18</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Munich</settlement>
+                  <repository>Dombibliothek</repository>
+                  <collection/>
+                  <idno>Clm 29260/4</idno>
+                  <altIdentifier source="München, BSB">
+                     <idno>Clm 29158</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3359</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Bibel</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="fragment">
+                     <supportDesc material="perg">
+                        <extent n="1">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="49.0"/>
+                              <width n="35.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="36.5"/>
+                              <width n="24.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="51"/>
+                        <layout><p/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Hauke">Schreibername vorhanden, allerdings nicht mehr lesbar:
+                           <seg type="lat">Hadebertus</seg></handNote>
+                     <handNote source="Bischoff_2004)"><seg type="lat">Hildebertus</seg> statt <seg
+                           type="lat">Hadebertus</seg>
+                     </handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>karolingische Minuskel; Auszeichnungschrift in Unziale</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff Hauke" cert="high"
+                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff Hauke" cert="high" notBefore="0800"
+                           notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><orgName>Altomünster</orgName></provenance>
+                  <provenance>Das Doppelblatt wurde als Umschlag einer Liber-Usuum-Handschrift aus
+                     Altomünster verwendet.</provenance>
+                  <acquisition><name type="Repository">Bayerische Staatsbibliothek
+                     München</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://daten.digitale-sammlungen.de/~db/0003/bsb00034695/images/
+                        </idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>:
+                           <idno>https://opacplus.bsb-muenchen.de/title/BV035294353 </idno></bibl>
+                     <bibl><idno>Bischoff 1960</idno><biblScope unit="pp" n="169"/></bibl>
+                     <bibl><idno>Hauke 1994</idno><biblScope unit="pp" n="66"/></bibl>
+                     <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="277"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
