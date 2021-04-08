@@ -10,6 +10,9 @@ from flask_bootstrap import Bootstrap
 from flask_babel import Babel, lazy_gettext as _l
 from config import Config
 from elasticsearch import Elasticsearch
+from glob import glob
+from lxml import etree
+import re
 
 db = SQLAlchemy()
 migrate = Migrate()
@@ -51,6 +54,28 @@ def create_app(config_class=Config):
 
     from app.search import bp as search_bp
     app.register_blueprint(search_bp, url_prefix="/search")
+
+    app.namespaces = {'tei': 'http://www.tei-c.org/ns/1.0'}
+    xmls = glob(os.path.join(app.config['XML_LOCATION'], '*.xml'))
+
+
+    def sort_manuscript_list(l: tuple) -> tuple:
+        """ Sorts the dictionary of manuscript names in a more sensible manner
+
+        :param d: dictionary of MS names
+        :return: sorted dictionary of MS names
+        """
+        man_num = re.search(r'(.*)_(\d+)(.*)_desc', l[0])
+        return (man_num.group(1).lower(), int(man_num.group(2)), man_num.group(3))
+
+    app.manuscript_list = list()
+    app.manuscript_dict = dict()
+    for x in xmls:
+        xml = etree.parse(x)
+        for t in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/text()', namespaces=app.namespaces):
+            app.manuscript_list.append((os.path.basename(x), t))
+            app.manuscript_dict[os.path.basename(x)] = t
+    app.manuscript_list = sorted(app.manuscript_list, key=sort_manuscript_list)
 
     if not app.debug and not app.testing:
         if app.config['MAIL_SERVER']:
