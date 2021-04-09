@@ -33,7 +33,12 @@ jobs:
         echo "::set-output name=unittest-report::$(coverage run --source=app -m unittest discover)"
       id: unittest
     - name: Coverage Report
-      run: echo "::set-output name=coverage-report::$(coverage report -m)"
+      run: |
+        covoutput=$(coverage report -m)
+        covoutput="${REPORT//'%'/'%25'}"
+        covoutput="${REPORT//$'\n'/'%0A'}"
+        covoutput="${REPORT//$'\r'/'%0D'}"
+        echo "::set-output name=coverage-report::$covoutput"
       id: coverage
     - name: Post test results
       uses: b4b4r07/action-github-comment@v1
