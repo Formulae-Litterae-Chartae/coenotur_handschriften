@@ -30,18 +30,8 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with coverage
       run: |
-        coverage run --source=app -m unittest discover
+        coverage run --source=app -m unittest discover > pytest-coverage.txt
     - name: Coverage Report
-      run: coverage report -m > pytest-coverage.txt
+      run: coverage report -m >> pytest-coverage.txt
     - name: Post test results
-      uses: actions/github-script@v3
-      with:
-        github-token: ${{secrets.GITHUB_TOKEN}}
-        result-encoding: string
-        script: |
-          github.issues.createComment({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: 'Adding a comment',
-            issue_number: context.issue.number
-          });
+      uses: coroo/pytest-coverage-commentator@v1.0.2
