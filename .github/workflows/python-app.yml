@@ -38,7 +38,7 @@ jobs:
     - name: Post test results
       uses: b4b4r07/action-github-comment@v1
       with:
-        body: ${{ steps.unittest.outputs.unittest-report }}
+        body: ${{ steps.coverage.outputs.coverage-report }}
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         LOG: trace
