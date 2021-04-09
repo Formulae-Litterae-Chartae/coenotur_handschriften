@@ -36,14 +36,9 @@ jobs:
       run: echo "::set-output name=coverage-report::$(coverage report -m)"
       id: coverage
     - name: Post test results
-      uses: actions/github-script@v3
+      uses: b4b4r07/action-github-comment@v1
       with:
-        github-token: ${{secrets.GITHUB_TOKEN}}
-        result-encoding: string
-        script: |
-          github.issues.createComment({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: ${{ steps.unittest.outputs.unittest-report }},
-            issue_number: context.issue.number
-          });
+        body: ${{ steps.unittest.outputs.unittest-report }}
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        LOG: trace
