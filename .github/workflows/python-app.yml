@@ -42,6 +42,6 @@ jobs:
           github.issues.createComment({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: 'Adding a comment'
+            body: 'Adding a comment',
             issue_number: context.issue.number
           });
