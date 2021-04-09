@@ -35,9 +35,9 @@ jobs:
     - name: Coverage Report
       run: |
         covoutput=$(coverage report -m)
-        covoutput="${REPORT//'%'/'%25'}"
-        covoutput="${REPORT//$'\n'/'%0A'}"
-        covoutput="${REPORT//$'\r'/'%0D'}"
+        covoutput="${covoutput//'%'/'%25'}"
+        covoutput="${covoutput//$'\n'/'%0A'}"
+        covoutput="${covoutput//$'\r'/'%0D'}"
         echo "::set-output name=coverage-report::$covoutput"
       id: coverage
     - name: Post test results
