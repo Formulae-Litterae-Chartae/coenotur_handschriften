@@ -31,7 +31,7 @@ jobs:
     - name: Test with coverage
       run: |
         pytest --cache-clear --cov=app ./tests.py > pytest-coverage.txt
-        pytest --cache-clear --cov=app ./tests.py
+        cat pytest-coverage.txt
       id: unittest
     - name: Post test results
       uses: coroo/pytest-coverage-commentator@v1.0.2
