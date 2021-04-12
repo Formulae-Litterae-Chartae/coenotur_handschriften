@@ -38,7 +38,6 @@ jobs:
       id: unittest
     - name: Post test results
       uses: b4b4r07/action-github-comment@v1
-      if: always()
       with:
         body: ${{ steps.unittest.outputs.coverage-report }}
       env:

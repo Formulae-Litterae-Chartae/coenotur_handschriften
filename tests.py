@@ -80,6 +80,20 @@ class TestRoutes(CoenoturTests):
             except SyntaxError as E:
                 exceptions.append(E)
         if exceptions != []:
+            print('#Not All XML Files Passed\n| File | Error |\n| --- | --- |\n' + '\n'.join(['| {} | {} |'.format(x.filename.split('/')[-1], str(x).split('(')[0]) for x in exceptions]))
+        else:
+            print('#All XML Files Passed')
+
+    def test_file_load_with_fail(self):
+        """ Make sure all XML files can be loaded and pass Schema"""
+        all_xmls = glob(Config.XML_LOCATION + '/*.xml')
+        exceptions = []
+        for x in all_xmls:
+            try:
+                etree.parse(x)
+            except SyntaxError as E:
+                exceptions.append(E)
+        if exceptions != []:
             print('#Not All XML Files Passed')
             print('| File | Error |\n| :--- | :--- |\n' + '\n'.join(['| {} | {} |'.format(x.filename.split('/')[-1], str(x).split('(')[0]) for x in exceptions]))
             self.fail()
