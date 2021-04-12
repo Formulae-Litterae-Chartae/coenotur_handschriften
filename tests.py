@@ -80,7 +80,7 @@ class TestRoutes(CoenoturTests):
             except SyntaxError as E:
                 exceptions.append(E)
         if exceptions != []:
-            print('<h1 style="color:Red>Not All XML Files Passed</h1>\n| File | Error |\n| --- | --- |\n' + '\n'.join(['| {} | {} |'.format(x.filename.split('/')[-1], str(x).split('(')[0]) for x in exceptions]))
+            print('<h1 style="color:Red">Not All XML Files Passed</h1>\n| File | Error |\n| --- | --- |\n' + '\n'.join(['| {} | {} |'.format(x.filename.split('/')[-1], str(x).split('(')[0]) for x in exceptions]))
         else:
             print('# All XML Files Passed')
 
