@@ -34,7 +34,7 @@
                      <title>Sacramentarium Gregorianum</title>
                      <textLang mainLang="la"/>
                   </msItem>
-               <!--</msContents>-->
+               </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
