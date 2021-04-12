@@ -5,6 +5,8 @@ from app.models import User
 from config import Config
 from flask import template_rendered, message_flashed, current_app
 from flask_login import current_user
+from glob import glob
+from lxml import etree
 
 
 class TestConfig(Config):
@@ -67,6 +69,18 @@ class CoenoturTests(unittest.TestCase):
 
 
 class TestRoutes(CoenoturTests):
+
+    def test_file_load(self):
+        """ Make sure all XML files can be loaded and pass Schema"""
+        all_xmls = glob(Config.XML_LOCATION + '/*.xml')
+        exceptions = []
+        for x in all_xmls:
+            try:
+                etree.parse(x)
+            except SyntaxError as E:
+                exceptions.append(E)
+        if exceptions != []:
+            raise SyntaxError('\n'.join([str(x) for x in exceptions]))
 
     def test_project_member(self):
         with self.client as c:
