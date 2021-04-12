@@ -34,7 +34,7 @@ jobs:
       id: unittest
     - name: Coverage Report
       run: |
-        covoutput=$(coverage report -m)
+        covoutput=$(coverage html)
         covoutput="${covoutput//'%'/'%25'}"
         covoutput="${covoutput//$'\n'/'%0A'}"
         covoutput="${covoutput//$'\r'/'%0D'}"
