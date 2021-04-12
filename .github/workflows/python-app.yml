@@ -28,9 +28,23 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with coverage
+    - name: XML testing
+      run: |
+        xmlTestOutput=$(python -m unittest tests.TestRoutes.test_file_load)
+        xmlTestOutput="${xmlTestOutput//'%'/'%25'}"
+        xmlTestOutput="${xmlTestOutput//$'\n'/'%0A'}"
+        xmlTestOutput="${xmlTestOutput//$'\r'/'%0D'}"
+        echo "::set-output name=coverage-report::$xmlTestOutput"
+      id: unittest
+    - name: Post test results
+      uses: b4b4r07/action-github-comment@v1
+      with:
+        body: ${{ steps.unittest.outputs.coverage-report }}
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        LOG: trace
+    - name: Code testing with coverage
       run: |
         pytest --cache-clear --cov=app ./tests.py
-      id: unittest
     - name: Post test results
       uses: coroo/pytest-coverage-commentator@v1.0.2
