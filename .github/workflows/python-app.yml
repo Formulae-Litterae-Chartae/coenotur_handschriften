@@ -45,6 +45,6 @@ jobs:
         LOG: trace
     - name: Code testing with coverage
       run: |
-        pytest --cache-clear --cov=app ./tests.py
+        pytest --cache-clear --cov=app ./tests.py > pytest-coverage.txt
     - name: Post test results
       uses: coroo/pytest-coverage-commentator@v1.0.2
