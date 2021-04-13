@@ -27,3 +27,4 @@ class Config(object):
     SESSION_COOKIE_SECURE = os.environ.get('SESSION_COOKIE_SECURE', True)
     REMEMBER_COOKIE_SECURE = os.environ.get('REMEMBER_COOKIE_SECURE', True)
     REDIS_URL = os.environ.get('REDIS_URL') or 'redis://'
+    XML_LOCATION = os.environ.get('XML_LOCATION') or os.path.abspath('./xmls')

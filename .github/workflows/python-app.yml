@@ -1,0 +1,51 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Python application
+
+on:
+  [ pull_request ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 pytest pytest-cov
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Lint with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: XML testing
+      run: |
+        xmlTestOutput=$(python -m unittest tests.TestRoutes.test_file_load)
+        xmlTestOutput="${xmlTestOutput//'%'/'%25'}"
+        xmlTestOutput="${xmlTestOutput//$'\n'/'%0A'}"
+        xmlTestOutput="${xmlTestOutput//$'\r'/'%0D'}"
+        echo "::set-output name=coverage-report::$xmlTestOutput"
+      id: unittest
+      continue-on-error: true
+    - name: Post test results
+      uses: b4b4r07/action-github-comment@v1
+      with:
+        body: ${{ steps.unittest.outputs.coverage-report }}
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        LOG: trace
+    - name: Code testing with coverage
+      run: |
+        pytest --cache-clear --cov=app --cov-report term-missing ./tests.py > pytest-coverage.txt
+    - name: Post test results
+      uses: coroo/pytest-coverage-commentator@v1.0.2
