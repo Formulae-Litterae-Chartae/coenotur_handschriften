@@ -30,7 +30,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: XML testing
       run: |
-        xmlTestOutput=$(pytest --show-capture=stdout tests.py::TestRoutes::test_file_load)
+        xmlTestOutput=$(python -m unittest tests.TestRoutes.test_file_load)
         xmlTestOutput="${xmlTestOutput//'%'/'%25'}"
         xmlTestOutput="${xmlTestOutput//$'\n'/'%0A'}"
         xmlTestOutput="${xmlTestOutput//$'\r'/'%0D'}"
