@@ -81,6 +81,7 @@ class TestRoutes(CoenoturTests):
                 exceptions.append(E)
         if exceptions != []:
             print('# Not All XML Files Passed\n| File | Error |\n| --- | --- |\n' + '\n'.join(['| {} | {} |'.format(x.filename.split('/')[-1], str(x).split('(')[0]) for x in exceptions]))
+            self.fail()
         else:
             print('# All XML Files Passed')
 
