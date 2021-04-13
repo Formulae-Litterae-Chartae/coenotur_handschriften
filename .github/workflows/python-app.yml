@@ -36,6 +36,7 @@ jobs:
         xmlTestOutput="${xmlTestOutput//$'\r'/'%0D'}"
         echo "::set-output name=coverage-report::$xmlTestOutput"
       id: unittest
+      continue-on-error: true
     - name: Post test results
       uses: b4b4r07/action-github-comment@v1
       with:
