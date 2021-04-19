@@ -86,7 +86,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="low"
-                           ><placeName>Micy</placeName></origPlace></p>
+                           ><orgName>St-Mesmin de Micy</orgName></origPlace></p>
                      <p><origPlace source="Mercier" cert="low"
                            ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="CLA" cert="medium" notBefore="0750" notAfter="0800"
@@ -99,7 +99,7 @@
                         Auch scheint er die bereits frühzeitig verlorenen fol. 9-13 ersetzt zu
                         haben.</note>
                   </origin>
-                  <provenance type="Provenance"><placeName>Micy</placeName></provenance>
+                  <provenance type="Provenance"><orgName>St-Mesmin de Micy</orgName></provenance>
                   <provenance>Durch das Exlibris von <persName>Peter von Micy</persName>, der von
                      840-859 Abt in Micy war, steht fest, dass die Handschrift bereits im 9. Jhd.
                      nach <orgName>St-Mesmin de Micy</orgName> gelangte. </provenance>

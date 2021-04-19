@@ -41,12 +41,12 @@
                               <width n="27.5 28"/>
                            </dimensions>
                         </extent>
-                        <condition>Zustand Wasserschaden, einzelne fehlende Blätter</condition>
+                        <condition>Wasserschaden, einzelne fehlende Blätter</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="51"/>
-                        <layout><p>Layout rote Auszeichnungsschrift, einfache Initialen;
+                        <layout><p>rote Auszeichnungsschrift, einfache Initialen;
                               Kanontafeln, Concordia; typisch turonischer Stil</p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -58,17 +58,17 @@
                         Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote><p>Schmuckinitialen zu Beginn der Prologe sowie der jeweiligen
+                     <decoNote source="Bierbrauer"><p>Schmuckinitialen zu Beginn der Prologe sowie der jeweiligen
                            Bücher, teilweise mehrfarbig koloriert und mit Flecht- oder Tiermustern
                            verziert</p>
-                        <p>architektonischer Ausschmückung der Kanontafeln sowie Concordia</p>
+                        <p>architektonische Ausschmückung der Kanontafeln sowie Concordia</p>
                      </decoNote>
                   </decoDesc>
                   <additions>
                      <p><locus n="42r"/>Tironische Noten</p>
                      <p>Glossen und Korrekturen, 11. Jhd.</p>
                      <p>Marginalia, 14. Jhd.</p>
-                     <p>mehrere Enträge auf dem Vorderspiegel: <seg type="lat">Iste liber pertinet
+                     <p source="Wunderle">mehrere Enträge auf dem Vorderspiegel: <seg type="lat">Iste liber pertinet
                            ad sanctum Erhardum in Ratispona</seg> (15. Jhd.); <seg type="lat"
                            >Reverendissima domina abatissa d[onum] d[edi]t patribus Capuccinis
                            ib[i]dem decimo septimo Julij anno domini M DCXXVIII</seg> (1628); <seg
@@ -87,15 +87,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate cert="high" notBefore="0830" notAfter="0834"
+                     <p><origPlace source="Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0834"
                         >830-834</origDate></p>
-                     <note>Kommentar zu Ort und Zeit Entstehungsort sowie -zeit können aufgrund der
-                        Handschriftgestaltung als gesichert angesehen werden.</note>
+                     <note>Entstehungsort sowie -zeit können aufgrund der
+                        Handschriftgestaltung als gesichert angesehen werden; wohl in den letzten Jahren der Amtszeit des Abtes Fridugisus in Tours
+                        entstanden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName>Regensburg</placeName></provenance>
-                  <provenance>Wohl in den letzten Jahren der Amtszeit des Abtes Fridugisus in Tours
-                     entstanden. Im 11. Jhd. ist die Handschrift in Regensburg, spätestens im 15.
+                  <provenance source="Bierbrauer">Im 11. Jhd. ist die Handschrift in Regensburg, spätestens im 15.
                      Jhd. im Frauenstift Niedermünster. 1628 schenkte die Äbtissin des Stiftes die
                      Handschrift dem Kapuzinerkloster in Regensburg. Nach der Säkularisation ging
                      die Handschrift an die BSB.</provenance>

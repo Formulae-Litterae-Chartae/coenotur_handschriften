@@ -83,7 +83,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium"
-                           ><placeName>Corbie</placeName></origPlace></p>
+                           ><orgName>Corbie</orgName></origPlace></p>
                      <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>
                            (?)</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"

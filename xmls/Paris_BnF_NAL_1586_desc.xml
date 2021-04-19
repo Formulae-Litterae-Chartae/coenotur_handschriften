@@ -82,7 +82,7 @@
                      <p><origPlace source="Bischoff" cert="medium"
                            ><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Winandy" cert="medium"
-                           ><placeName>St-Martin</placeName></origPlace></p>
+                           ><orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Delisle Chatelain Bischoff" cert="medium" notBefore="0800"
                            notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0730" notAfter="0770">Mitte

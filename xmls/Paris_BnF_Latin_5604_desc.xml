@@ -70,7 +70,7 @@
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >9. Jhd. ca. 3. Viertel</origDate></p>
                   </origin>
-                  <provenance type="Provenance"><placeName>Colbertinus</placeName></provenance>
+                  <provenance type="Provenance">Colbertinus</provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
