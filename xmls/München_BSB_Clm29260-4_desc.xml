@@ -52,13 +52,12 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="51"/>
-                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote source="Hauke">Schreibername vorhanden, allerdings nicht mehr lesbar:
-                           <seg type="lat">Hadebertus</seg></handNote>
-                     <handNote source="Bischoff_2004)"><seg type="lat">Hildebertus</seg> statt <seg
+                        <seg type="lat"><persName type="scribe">Hadebertus</persName></seg></handNote>
+                     <handNote source="Bischoff_2004)"><seg type="lat"><persName type="scribe">Hildebertus</persName></seg> statt <seg
                            type="lat">Hadebertus</seg>
                      </handNote>
                   </handDesc>
@@ -69,7 +68,6 @@
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p/>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -81,7 +79,6 @@
                            ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff Hauke" cert="high" notBefore="0800"
                            notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>Altomünster</orgName></provenance>
                   <provenance>Das Doppelblatt wurde als Umschlag einer Liber-Usuum-Handschrift aus

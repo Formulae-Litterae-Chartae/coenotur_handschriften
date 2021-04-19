@@ -1,0 +1,169 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>London, BL, Add. 11848</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note>Es handelt sich hierbei um ein prachtvolles turonisches Evangeliar. CLARK und VAN DER WEERD haben im Jahr 2004 an den Miniaturen diesem Evangeliar Tintenanalysen vorgenommen, die die Deutung nahelegen, dass zu dieser Zeit noch kein Lapis Lazuli in Westeuropa verwendet wurde, da dieses Prachtevangeliar sicher mit den wertvollsten möglichen Fabrtinkturen ausgestattet worden wäre.</note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Great Britain</country>
+                        <settlement>Laondon</settlement>
+                        <repository>BL</repository>
+                        <collection/>
+                        <idno>Add. 11848</idno>
+                        <altIdentifier source="Rand">
+                            <idno>78</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>19</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2361</idno>
+                        </altIdentifier>
+                        <msName>Evangeliar von Compiègne</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Bibel Evangeliar">
+                            <author/>
+                            <title>Evangeliar</title>
+                            <textLang mainLang="la"/>
+                            <msItem n="1.1">
+                                <locus from="1v" to="4r"/>
+                                <author>Hieronymus</author>
+                                <title>Erster Brief an Damasus</title>
+                            </msItem>
+                            <msItem n="1.2">
+                                <locus from="4v" to="5r"/>
+                                <author>Hieronymus</author>
+                                <title>Zweiter Brief an Damasus</title>
+                            </msItem>
+                            <msItem n="1.3">
+                                <locus from="5v" to="8r"/>
+                                <author>Hieronymus</author>
+                                <title>Prolog zum Evangelium</title>
+                            </msItem>
+                            <msItem n="1.4">
+                                <locus from="8v" to="9v"/>
+                                <author>Eusebius</author>
+                                <title>Brief an Carpianus</title>
+                            </msItem>
+                            <msItem n="1.5">
+                                <locus from="10r" to="12r"/>
+                                <title>Kanontafeln</title>
+                            </msItem>
+                            <msItem n="1.6">
+                                <locus from="12v" to="70v"/>
+                                <title>Evangelium nach Matthäus</title>
+                            </msItem>
+                            <msItem n="1.7">
+                                <locus from="71v" to="106v"/>
+                                <title>Evangelium nach Markus</title>
+                            </msItem>
+                            <msItem n="1.8">
+                                <locus from="106v" to="163v"/>
+                                <title>Evangelium nach Lukas</title>
+                            </msItem>
+                            <msItem n="1.9">
+                                <locus from="164r" to="206r"/>
+                                <title>Evangelium nach Johannes</title>
+                            </msItem>
+                            <msItem n="1.10">
+                                <locus from="207r" to="218r"/>
+                                <title>Capitulare evangeliorum</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="219">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="30.0"/>
+                                        <width n="23.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="20.0"/>
+                                        <width n="18.5"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="22 24">23 (22, 24)</layout>
+                                <layout><p>Rote und Schwarze titel</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">Bis zu 4, vielleicht auch nur 1 Hand</handNote>
+                            <handNote source="Bischoff">Mehrere Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Bischoff">Turonische Minuskel und Vorstücke in Halbunziale. Die Evangelien beginnen mit mehreren Zeilen in Unziale.</scriptNote>
+                            <scriptNote source="Winandy">Die prologe zu den Evangelien auch in Unziale.</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p><locus n="1v"/><locus n="18v"/><locus n="110v"/><locus n="167v"></locus>Prachtvolle Initiale</p>
+                                <p><locus from="10r" to="12r"/>Kanontafeln</p>
+                                <p><locus n="17v">Darstellung des Matthäus</locus></p>
+                                <p><locus n="74v">Darstellung des Markus</locus></p>
+                                <p><locus n="109v">Darstellung des Lukas</locus></p>
+                                <p><locus n="166v">Darstellung des Johannes</locus></p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>einzelne, vermutlich zeitgleiche Korrekturen</p>
+                            <p>Zahlreiche Ergänzungen (Lesezeichen / Satzbeginne) zur liturgischen Nutzung</p>
+                            <p><locus n="20v"/>Vor Matthäus cap. 2 eingefügt: <seg type="lat">in illo tempore</seg>, durchgestrichen und ersetzt mit: <seg type="lat">Cum natus esset Iesus</seg>.</p>
+                            <p n="Exlibris"><locus n="1r"/><seg type="lat">Bibliotheca Suchtelen</seg></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote source="Bl.uk">Prachtvolle Schatzbindung aus der ersten Hälfte des 9. Jahrhunderts. Silberbeschlag über einem Holzdeckel mit Christus in der Majesta und dem Agnus Dei. Umgeben sind sie von den Symbolen der 4 Evangelisten in Email (Engeln (Johannes) und Ochse (Lukas), die beiden anderen fehlen) aus Limoges, vermutlich aus dem 14. Jahrhundert. Im 14. und 19. Jahrhundert wurden Erneuerungen am Deckel vorgenommen: so wurden die Steine ersetzt.</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace cert="high" source="Rand Köhler Bischoff"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="high" notBefore="0820" notAfter="0830">ca. 820-830</origDate></p>
+                            <p><origDate source="Bl.uk" cert="high" notBefore="0807" notAfter="0834">probably under Fridusgisus</origDate></p>
+                            <note>Die Entstehung kann aufgrund der Ähnlichkeiten zu den anderen sicher aus St-Martin stammenden Bibeln, als gesichert angesehen werden.</note>
+                        </origin>
+                        <provenance type="Provenance"><name/></provenance>
+                        <provenance source="bl.uk">Die Handschrift gehört Graf Jan Peter van Suchtelen (1751-1836), dem russichen Botschafter in Schweden.</provenance>
+                        <provenance source="bl.uk">Danach war sie im Besitz von Percy Clinton Sydney Smythe, dem englsichen Botschafter in Schweden und Russland.</provenance>
+                        <provenance source="bl.uk">Von dort gelangte sie durch Verkauf der Sammlung in Sotheby's an Samuel Butter.</provenance>
+                        <provenance source="bl.uk">Schließlich kaufte die BL die Handschrift dessen Sohn, Thomas Butler, im Jahr 1841 ab.</provenance>
+                        <acquisition><name type="Repository">BL</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_11848_fs001r</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_11848</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="136 137"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="377 378"/></bibl>
+                            <bibl><idno>Clark / van der Weerd 2004</idno><biblScope/></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="94"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
