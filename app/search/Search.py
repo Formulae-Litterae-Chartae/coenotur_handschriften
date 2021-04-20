@@ -120,8 +120,7 @@ def advanced_query_index(simple_q: str = '',
         if bool_arg in ['True', True]:
             body_template['query']['bool']['must'].append({'term': {arg_name: True}})
     fields = {'flat_fields':
-                  {'identifier': identifier,
-                   'ms_item': ms_item,
+                  {'ms_item': ms_item,
                    'autocomplete_ms_item': autocomplete_ms_item,
                    'provenance': provenance
                    },
@@ -132,7 +131,8 @@ def advanced_query_index(simple_q: str = '',
                                            'autocomplete_person.role': autocomplete_person_role,
                                            'autocomplete_person.identifier': autocomplete_person_identifier},
                    'autocomplete_orig_place': {'autocomplete_orig_place.place': autocomplete_orig_place,
-                                               'autocomplete_orig_place.cert': autocomplete_orig_place_cert}},
+                                               'autocomplete_orig_place.cert': autocomplete_orig_place_cert},
+                   'identifier': {'identifier.id': identifier}},
               'date_fields':
                   {'min_date': orig_year_start,
                    'max_date': orig_year_end},
@@ -143,7 +143,7 @@ def advanced_query_index(simple_q: str = '',
                                  'autocomplete_person.identifier',
                                  'autocomplete_orig_place.cert'],
               'simple_q_fields':
-                  ['identifier',
+                  ['identifier.id',
                    'ms_item',
                    'provenance',
                    'person.name',
@@ -166,7 +166,10 @@ def advanced_query_index(simple_q: str = '',
                 else:
                     clauses.append([{'span_term': {s_field: term}}])
             for clause in product(*clauses):
-                bool_clauses.append({'span_near': {'clauses': list(clause), 'slop': 0, 'in_order': False}})
+                if '.' in s_field:
+                    bool_clauses.append({'nested': {'path': s_field.split('.')[0], 'query': {'bool': {'must': [{'span_near': {'clauses': list(clause), 'slop': 100, 'in_order': False}}]}}}})
+                else:
+                    bool_clauses.append({'span_near': {'clauses': list(clause), 'slop': 100, 'in_order': False}})
         body_template['query']['bool']['must'].append({'bool': {'should': bool_clauses, 'minimum_should_match': 1}})
     for k, v in fields['flat_fields'].items():
         bool_clauses = []
@@ -217,5 +220,6 @@ def advanced_query_index(simple_q: str = '',
             date_clauses.append({'range': {'max_date': {'gte': '{:04}'.format(int(orig_year_start))}}})
         body_template['query']['bool']['must'].append({'bool': {'must': date_clauses}})
 
+    print(body_template)
     search = current_app.elasticsearch.search(index='coenotur', doc_type="", body=body_template)
     return search['hits']['hits'], search['hits']['total'], search['aggregations']
