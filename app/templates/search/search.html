@@ -65,7 +65,7 @@
                 <td>{% if post['_source']['date_string']|trim %}{{ post['_source']['date_string'] }}{% endif %}</td>
                 <td>{% for p in post['_source']['orig_place'] %}{% if p['place']|trim %}{% if not loop.first
                     %}<br>{% endif %}- {{
-                    p['place'] }}{% if p['source']|trim and loop.length > 1 %} ({{ p['source']|upper }}){% endif %}{%
+                    p['place'] }}{% if p['source']|trim %} ({{ p['source']|upper|replace('_', ' ') }}){% endif %}{%
                     endif
                     %}{% endfor
                     %}</td>
