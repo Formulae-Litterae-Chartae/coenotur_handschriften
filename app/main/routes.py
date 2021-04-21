@@ -103,7 +103,7 @@ def handschrift(manuscript: str):
             if p.get('cert'):
                 cert_symbol = ' <span class="cert-{}" title="Sicherheit: {}">&#11044;</span>'.format(p.get('cert'), cert_dict.get(p.get('cert'), '?'))
             metadata['origin']['place'].append('{}{}{}'.format(''.join(insert_style_spans(p)), cert_symbol,
-                                                               ' (' + p.get('source').upper().replace(' ', '; ') + ')' if
+                                                               ' (' + p.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
                                                                p.get('source') else ''))
     for d in dates:
         if d.xpath('.//text()'):
@@ -111,7 +111,7 @@ def handschrift(manuscript: str):
             if d.get('cert'):
                 cert_symbol = ' <span class="cert-{}" title="Sicherheit: {}">&#11044;</span>'.format(d.get('cert'), cert_dict.get(d.get('cert'), '?'))
             metadata['origin']['date'].append('{}{}{}'.format(''.join(insert_style_spans(d)), cert_symbol,
-                                                              ' (' + d.get('source').upper().replace(' ', '; ') + ')' if
+                                                              ' (' + d.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
                                                               d.get('source') else ''))
     for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:note',
                        namespaces=current_app.namespaces):
@@ -120,7 +120,7 @@ def handschrift(manuscript: str):
         if c_text.strip().endswith('.'):
             end_symbol = '.'
         metadata['origin']['commentary'].append('{}{}{}'.format(c_text.strip('. \n'),
-                                                                ' (' + c.get('source').upper().replace(' ', '; ') + ')' if
+                                                                ' (' + c.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
                                                                 c.get('source') else '',
                                                                 end_symbol))
     metadata['layout_notes'] = []
@@ -159,7 +159,7 @@ def handschrift(manuscript: str):
                     if condition_text.strip().endswith('.'):
                         end_symbol = '.'
                     metadata['condition'].append('{}{}{}'.format(condition_text.strip('. \n'),
-                                                                 ' (' + condition.get('source').upper().replace(' ', '; ') + ')' if
+                                                                 ' (' + condition.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
                                                                  condition.get('source') else '',
                                                                  end_symbol))
         for lay_desc in obj_desc.xpath('tei:layoutDesc', namespaces=current_app.namespaces):
@@ -181,7 +181,7 @@ def handschrift(manuscript: str):
                         if layout_text.strip().endswith('.'):
                             end_symbol = '.'
                         metadata['layout_notes'].append('{}{}{}'.format(layout_text.strip('. \n'),
-                                                                        ' (' + layout.get('source').upper().replace(' ', '; ') + ')' if
+                                                                        ' (' + layout.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
                                                                         layout.get('source') else '',
                                                                         end_symbol))
     metadata['script_desc'] = []
@@ -194,7 +194,7 @@ def handschrift(manuscript: str):
                 if scr_desc_text.strip().endswith('.'):
                     end_symbol = '.'
                 metadata['script_desc'].append('{}{}{}'.format(scr_desc_text.strip('. \n'),
-                                                               ' (' + note.get('source').upper().replace(' ', '; ') + ')' if
+                                                               ' (' + note.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
                                                                note.get('source') else '',
                                                                end_symbol))
     metadata['hand_desc'] = []
@@ -207,7 +207,7 @@ def handschrift(manuscript: str):
                 if hand_desc_text.strip().endswith('.'):
                     end_symbol = '.'
                 metadata['hand_desc'].append('{}{}{}'.format(hand_desc_text.strip('. \n'),
-                                                             ' (' + note.get('source').upper().replace(' ', '; ') + ')'
+                                                             ' (' + note.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')'
                                                              if note.get('source') else '',
                                                              end_symbol))
     metadata['neumen'] = []
@@ -222,7 +222,7 @@ def handschrift(manuscript: str):
             end_symbol = '.'
         metadata['neumen'].append('{}{}{}{}'.format('fol. ' + neumen_locus + ' - ' if neumen_locus else '',
                                                     neumen_text.strip('. \n'),
-                                                    ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
+                                                    ' (' + adds.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
                                                     adds.get('source') else '',
                                                     end_symbol))
     metadata['exlibris'] = []
@@ -246,7 +246,7 @@ def handschrift(manuscript: str):
                 if marked_up_text.strip().endswith('.'):
                     end_symbol = '.'
                 metadata[m_d_target].append('{}{}{}{}'.format(add_locus, marked_up_text,
-                                                              ' (' + adds.get('source').upper().replace(' ', '; ') + ')' if
+                                                              ' (' + adds.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
                                                               adds.get('source') else '',
                                                               end_symbol))
     metadata['provenance'] = []
@@ -262,7 +262,7 @@ def handschrift(manuscript: str):
                 if prov_text.strip().endswith('.'):
                     end_symbol = '.'
                 metadata['provenance_notes'].append('{}{}{}'.format(prov_text.strip('. \n'),
-                                                                    ' (' + provenance.get('source').upper().replace(' ', '; ') + ')' if
+                                                                    ' (' + provenance.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
                                                                     provenance.get('source') else '',
                                                                     end_symbol))
     metadata['bibliography'] = dict()
@@ -323,7 +323,7 @@ def handschrift(manuscript: str):
             if note_text.strip().endswith('.'):
                 end_symbol = '.'
             metadata['general_notes'].append('{}{}{}'.format(re.sub(r'\s+', ' ', note_text.strip('. \n')),
-                                                             ' ({})'.format(source.upper()) if
+                                                             ' ({})'.format(source.upper().replace('_', ' ')) if
                                                              source else '',
                                                              end_symbol))
     metadata['illuminations'] = []
@@ -347,7 +347,7 @@ def handschrift(manuscript: str):
                 end_symbol = '.'
             metadata['illuminations'].append('- {}{}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
                                                                  deco_text.strip('. \n'),
-                                                                 ' (' + source.upper() + ')'
+                                                                 ' (' + source.upper().replace('_', ' ') + ')'
                                                                  if source else '',
                                                                  end_symbol))
     return render_template('handschrift.html', title=current_app.manuscript_dict[manuscript], m_d=metadata)
