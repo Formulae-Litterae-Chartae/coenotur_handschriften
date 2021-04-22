@@ -46,6 +46,7 @@ jobs:
         LOG: trace
     - name: Produce PDF files
       run: |
+        sudo apt-get install wkhtmltopdf
         git diff --name-status master xmls/ > git_files.txt
         python -m unittest tests.TestXmlLoad.test_produce_new_pdfs
         git remote set-url origin ${{ secrets.ssh }}
