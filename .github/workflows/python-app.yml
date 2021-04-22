@@ -44,6 +44,15 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         LOG: trace
+    - name: Produce PDF files
+      run: |
+        git diff --name-status master xmls/ > git_files.txt
+        python -m unittest tests.TestXmlLoad.test_produce_new_pdfs
+        git remote set-url origin ${{ secrets.ssh }}
+        git status
+        git add -A
+        git commit -m "Auto update of PDF files according to changes in XMLs"
+        git push origin $GITHUB_HEAD_REF
     - name: Code testing with coverage
       run: |
         pytest --cache-clear --cov=app --cov-report term-missing ./tests.py::TestRoutes > pytest-coverage.txt

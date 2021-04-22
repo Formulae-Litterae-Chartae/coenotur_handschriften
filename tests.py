@@ -7,6 +7,9 @@ from flask import template_rendered, message_flashed, current_app
 from flask_login import current_user
 from glob import glob
 from lxml import etree
+import pdfkit
+import os
+import sys
 
 
 class TestConfig(Config):
@@ -75,42 +78,59 @@ class CoenoturTests(unittest.TestCase):
 class TestXmlLoad(CoenoturTests):
 
     def setUp(self):
-        super(TestXmlLoad, self).setUp()
         self.app = create_app(AllFilesConfig)
-
-    def test_app_setup(self):
-        self.assertEqual(self.app.config['XML_LOCATION'], './xmls')
+        self.client = self.app.test_client()
+        self._ctx = self.app.test_request_context()
+        self._ctx.push()
+        self.templates = []
+        self.flashed_messages = []
+        template_rendered.connect(self._add_template)
+        message_flashed.connect(self._add_flash_message)
+        db.create_all()
+        u = User(username="project.member", email="project.member@uni-hamburg.de", project_team=True)
+        u.set_password('some_password')
+        db.session.add(u)
+        db.session.add(u)
+        db.session.commit()
 
     def test_file_load(self):
         """ Make sure all XML files can be loaded and pass Schema"""
         all_xmls = glob(self.app.config['XML_LOCATION'] + '/*.xml')
+        os.makedirs('./pdfs', exist_ok=True)
         exceptions = []
         for x in all_xmls:
             try:
                 etree.parse(x)
             except SyntaxError as E:
                 exceptions.append(E)
+
         if exceptions != []:
             print('# Not All XML Files Passed\n| File | Error |\n| --- | --- |\n' + '\n'.join(['| {} | {} |'.format(x.filename.split('/')[-1], str(x).split('(')[0]) for x in exceptions]))
         else:
             print('# All XML Files Passed')
+
+    def test_produce_new_pdfs(self):
+        """ Produce new PDFs from the XML files that have changed from master"""
+        if os.environ.get('CI'):
+            with open('./git_files.txt') as f:
+                files = f.read().strip().split('\n')
+            for line in files:
+                status, x = line.split('\t')
+                xml_file = os.path.basename(x.strip('"'))
+                if status == 'D':
+                    os.remove('./pdfs/{}'.format(xml_file.replace('.xml', '.pdf')))
+                else:
+                    with self.client as c:
+                        c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                               follow_redirects=True)
+                        r = c.get('/handschrift/{}'.format(xml_file), follow_redirects=True)
+                        pdfkit.from_string(r.get_data(as_text=True), './pdfs/{}'.format(xml_file.replace('.xml', '.pdf')),
+                                           css='./app/static/css/styles.css', options={'quiet': ''})
+                        sys.stdout.write('.')
+                        sys.stdout.flush()
 
 
 class TestRoutes(CoenoturTests):
-
-    def test_file_load(self):
-        """ Make sure all XML files can be loaded and pass Schema"""
-        all_xmls = glob(Config.XML_LOCATION + '/*.xml')
-        exceptions = []
-        for x in all_xmls:
-            try:
-                etree.parse(x)
-            except SyntaxError as E:
-                exceptions.append(E)
-        if exceptions != []:
-            print('# Not All XML Files Passed\n| File | Error |\n| --- | --- |\n' + '\n'.join(['| {} | {} |'.format(x.filename.split('/')[-1], str(x).split('(')[0]) for x in exceptions]))
-        else:
-            print('# All XML Files Passed')
 
     def test_file_load_with_fail(self):
         """ Make sure all XML files can be loaded and pass Schema"""
