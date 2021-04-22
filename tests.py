@@ -17,6 +17,10 @@ class TestConfig(Config):
     XML_LOCATION = './test_xmls'
 
 
+class AllFilesConfig(TestConfig):
+    XML_LOCATION = './xmls'
+
+
 class CoenoturTests(unittest.TestCase):
 
     def setUp(self):
@@ -66,6 +70,30 @@ class CoenoturTests(unittest.TestCase):
             if name in context:
                 return context[name]
         raise AttributeError('{} does not exist in this context')
+
+
+class TestXmlLoad(CoenoturTests):
+
+    def setUp(self):
+        super(TestXmlLoad, self).setUp()
+        self.app = create_app(AllFilesConfig)
+
+    def test_app_setup(self):
+        self.assertEqual(self.app.config['XML_LOCATION'], './xmls')
+
+    def test_file_load(self):
+        """ Make sure all XML files can be loaded and pass Schema"""
+        all_xmls = glob(self.app.config['XML_LOCATION'] + '/*.xml')
+        exceptions = []
+        for x in all_xmls:
+            try:
+                etree.parse(x)
+            except SyntaxError as E:
+                exceptions.append(E)
+        if exceptions != []:
+            print('# Not All XML Files Passed\n| File | Error |\n| --- | --- |\n' + '\n'.join(['| {} | {} |'.format(x.filename.split('/')[-1], str(x).split('(')[0]) for x in exceptions]))
+        else:
+            print('# All XML Files Passed')
 
 
 class TestRoutes(CoenoturTests):

@@ -30,7 +30,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: XML testing
       run: |
-        xmlTestOutput=$(python -m unittest tests.TestRoutes.test_file_load)
+        xmlTestOutput=$(python -m unittest tests.TestXmlLoad.test_file_load)
         xmlTestOutput="${xmlTestOutput//'%'/'%25'}"
         xmlTestOutput="${xmlTestOutput//$'\n'/'%0A'}"
         xmlTestOutput="${xmlTestOutput//$'\r'/'%0D'}"
@@ -46,6 +46,6 @@ jobs:
         LOG: trace
     - name: Code testing with coverage
       run: |
-        pytest --cache-clear --cov=app --cov-report term-missing ./tests.py > pytest-coverage.txt
+        pytest --cache-clear --cov=app --cov-report term-missing ./tests.py::TestRoutes > pytest-coverage.txt
     - name: Post test results
       uses: coroo/pytest-coverage-commentator@v1.0.2
