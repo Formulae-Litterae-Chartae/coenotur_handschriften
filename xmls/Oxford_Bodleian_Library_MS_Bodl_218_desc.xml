@@ -1,0 +1,113 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Oxford, Bodleian Library, MS. Bodl. 218</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Great Britain</country>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <collection/>
+                        <idno>MS. Bodl. 218</idno>
+                        <altIdentifier source="Summary Catalogue">
+                            <idno>2054</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>66</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>378,</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Exegese">
+                            <author>Beda Venerabilis</author>
+                            <title>Expositio in Lucam</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="166">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="33.1"/>
+                                        <width n="26.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="28.8"/>
+                                        <width n="20.2"/>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="40"/>
+                                <layout><p>Rote und schwarze Initialen. Rote Titel</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote/>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Bischoff">"Reife turonische Minuskel"</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Ergänzungen in englischen Händen aus dem 9. und 11. Jahrhundert.</p>
+                            <p n="Neumen"><locus n="165v"/>Neumen aus Canterbury ?</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote source="Summary_Catalogue">Schwarzer Samteinband mit Messingschließen des 16. Jhd.</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Traube" cert="medium" notBefore="0815" notAfter="0825">ca. 820</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
+                            <note> <p>Entstehung in Tours paläographisch belegt. Datierung nicht ganz gesichert.</p>
+                            <p source="bodleian.ox.ac.uk">Im südlichen (?) England erhielt die Handschrift im 11. Jhd. (?) einige Ergänzungen.</p></note>
+                        </origin>
+                        <provenance type="Provenance"><placeName/></provenance>
+                        <provenance>Die Handschrift war Teil der Bibliothek Heinrichs VIII. und wurde für diesen neu gebunden.</provenance>
+                        <provenance source="bodleian.ox.ac.uk Carley">Sie war im Besitz von Charles Howard, earl of Nottingham. Möglicherweise ist sie von dessen Vater Walliam Howard von Thomas Copley konfiziert worden. Copley hatte sie vielleicht von der Royal Library in Nonsuch erhalten.</provenance>
+                        <acquisition><name type="Repository">BM</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1275</bibl>
+                            <bibl><idno>Summary Catalogue 1922</idno><biblScope unit="pp" n="186"/></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="129"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="360"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
