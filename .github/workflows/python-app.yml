@@ -67,7 +67,7 @@ jobs:
         echo "Commit"
         git commit -m "Auto update of PDF files according to changes in XMLs"
         echo "Push"
-        git push origin/$GITHUB_HEAD_REF
+        git push origin $GITHUB_HEAD_REF
     - name: Code testing with coverage
       run: |
         pytest --cache-clear --cov=app --cov-report term-missing ./tests.py::TestRoutes > pytest-coverage.txt
