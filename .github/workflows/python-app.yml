@@ -50,7 +50,7 @@ jobs:
         echo "Set up remote"
         git remote set-url origin $GITHUB_SERVER_URL/$GITHUB_REPOSITORY
         echo "Fetch master"
-        git fetch origin master
+        git fetch
         echo "Get diff from master"
         git diff --name-status origin/master xmls/ > git_files.txt
         echo "Produce PDF files"
