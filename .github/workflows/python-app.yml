@@ -57,8 +57,11 @@ jobs:
         python -m unittest tests.TestXmlLoad.test_produce_new_pdfs
         echo "Get status"
         git status
+        echo "Tell git who I am"
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         echo "Add new files"
-        git add -A
+        git add pdfs/
         echo "Commit"
         git commit -m "Auto update of PDF files according to changes in XMLs"
         echo "Push"
