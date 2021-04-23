@@ -47,13 +47,21 @@ jobs:
     - name: Produce PDF files
       run: |
         sudo apt-get install wkhtmltopdf
+        echo "Set up remote"
         git remote set-url origin $GITHUB_SERVER_URL/$GITHUB_REPOSITORY
+        echo "Fetch master"
         git fetch origin master
+        echo "Get diff from master"
         git diff --name-status master xmls/ > git_files.txt
+        echo "Produce PDF files"
         python -m unittest tests.TestXmlLoad.test_produce_new_pdfs
+        echo "Get status"
         git status
+        echo "Add new files"
         git add -A
+        echo "Commit"
         git commit -m "Auto update of PDF files according to changes in XMLs"
+        echo "Push"
         git push origin $GITHUB_HEAD_REF
     - name: Code testing with coverage
       run: |
