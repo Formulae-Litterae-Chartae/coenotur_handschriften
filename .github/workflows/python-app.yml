@@ -48,7 +48,7 @@ jobs:
       run: |
         sudo apt-get install wkhtmltopdf
         git remote set-url origin $GITHUB_SERVER_URL/$GITHUB_REPOSITORY
-        git fetch master
+        git fetch origin master
         git diff --name-status master xmls/ > git_files.txt
         python -m unittest tests.TestXmlLoad.test_produce_new_pdfs
         git status
