@@ -89,8 +89,8 @@
                <history>
                   <origin>
                      <p><origPlace cert="low" source="Rand">vielleicht Marmoutier</origPlace></p>
-                     <p><origPlace cert="low" source="Bischoff">Tours</origPlace></p>
-                     <p><origPlace cert="low" source="Cinato">St-Martin?</origPlace></p>
+                     <p><origPlace cert="medium" source="Bischoff">Tours</origPlace></p>
+                     <p><origPlace cert="medium" source="Cinato">St-Martin?</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1. Hälfte 9. Jhd.</origDate></p>
                      <note>Wenig erscheint geklärt. Die Handschrift ähnelt den großen touroner

@@ -121,7 +121,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
-                        <idno/>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34714c</bibl>
+                        <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34714c</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="122 123"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="388"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="168"/></bibl>

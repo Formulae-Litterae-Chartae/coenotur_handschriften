@@ -15,7 +15,7 @@
                   <settlement>Paris</settlement>
                   <repository>BnF</repository>
                   <collection/>
-                  <idno>Latin</idno>
+                  <idno>Latin 1451</idno>
                   <altIdentifier source="Rand">
                      <idno>44</idno>
                   </altIdentifier>
@@ -70,9 +70,9 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="low"
                            ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Rand" cert="low">vermutlich nicht Tours</origPlace></p>
-                     <p><origPlace source="Köhler" cert="low">Tours unwahrscheinlich</origPlace></p>
-                     <p><origPlace source="McKitterick" cert="low">Region um Tours</origPlace></p>
+                     <p><origPlace source="Rand" cert="medium">vermutlich nicht Tours</origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium">Tours unwahrscheinlich</origPlace></p>
+                     <p><origPlace source="McKitterick" cert="medium">Region um Tours</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >1. Viertel 9. Jhd.</origDate></p>
                      <note>Von Köhler ursprünglich nach Tours gelegt, hat er sich, genau wie Rand
