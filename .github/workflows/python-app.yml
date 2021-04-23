@@ -51,6 +51,8 @@ jobs:
         git remote set-url origin $GITHUB_SERVER_URL/$GITHUB_REPOSITORY
         echo "Fetch master"
         git fetch
+        echo "Check out HEAD branch"
+        git checkout $GITHUB_HEAD_REF
         echo "Get diff from master"
         git diff --name-status origin/master xmls/ > git_files.txt
         echo "Produce PDF files"
