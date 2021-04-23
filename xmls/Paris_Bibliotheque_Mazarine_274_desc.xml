@@ -1,0 +1,105 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, Bibliothèque Mazarine, 274</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque Mazarine</repository>
+                  <collection/>
+                  <idno>274</idno>
+                  <altIdentifier source="Rand">
+                     <idno>60</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Evangeliar">
+                     <author/>
+                     <title>Evangeliar</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="210">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="25.5"/>
+                              <width n="24.7"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="28.7"/>
+                              <width n="7.4">7,4 cm pro Spalte</width>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="32 34">32, 34 (33)</layout>
+                        <layout><p>Rote und schwarze Titel</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Rand">mindestens 5 Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Rand">Regulärer Tours Stil mit kursiven Zügen. Majuskel eirkt unsicher.</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p source="Rand">Ergänzungen einer Hand des 11. Jahrhunderts</p>
+                     <p n="Exlibris" source="Rand"><locus n="3"/><seg type="lat">iste est liber beati Arnulphie de scirpeio, qui hunc male subtraxerit uel titulum [absciderit ?] anathema sit.</seg></p>
+                     <p n="Exlibris" source="Rand"><locus n="3"/><seg type="lat">ex libris sancti Martini a Campis</seg> 18. Jhd. ?</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0804">Frühes Beispiel für die Reform Alkuins</origDate></p>
+                     <p><origDate source="Calames" cert="medium" notBefore="0900" notAfter="0925">Anfang 10. Jhd.</origDate></p>
+                     <note>Wenig ist gesichert. Die Handschrift taucht bei BISCHOFF nicht auf, vermutlich, weil dieser sie ins 10. Jahrhundert datiert. So auch MOLINIER, dem RAND aber entscheiden widerspricht.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/>http://www.calames.abes.fr/pub/ms/MAZA10504</bibl>
+                     <bibl><idno>Lauer 1902</idno><biblScope unit="pp" n="489 495"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="125"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

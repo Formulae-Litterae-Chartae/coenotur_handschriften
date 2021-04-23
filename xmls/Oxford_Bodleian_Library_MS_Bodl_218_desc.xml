@@ -95,7 +95,7 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1275</bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1275</idno></bibl>
                             <bibl><idno>Summary Catalogue 1922</idno><biblScope unit="pp" n="186"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="129"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="360"/></bibl>

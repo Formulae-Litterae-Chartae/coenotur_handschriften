@@ -1,0 +1,103 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Cambrai, BM, 386 (364)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note>Diese Handschrift ist mit hoher Wahrscheinlichkeit nicht in Tours entstanden. Sie wird hier aufgelistet, da sie in der grundliegenden Sammlung von RAND aufgelistet wird.</note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Cambrai</settlement>
+                        <repository>BM</repository>
+                        <collection/>
+                        <idno>386 (364)</idno>
+                        <altIdentifier source="Rand">
+                            <idno>177</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author></author>
+                            <title>Apocalipsis cum imaginibus depictis</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="48">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="31.1"/>
+                                        <width n="23.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="17.0"/>
+                                        <width n="16.0"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="18 19">19 (18)</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">drei Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p>Jede Doppelseite enthält eine wunderschöne große Miniatur, dieren Gegenseite den dazugehörigen Text enthält.</p>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote></decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>?</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">Frankreich (nicht Nordostfrankreich</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0900" notAfter="0950">1. Hälfte 9. Jhd.</origDate></p>
+                            <note>Der Entstehungsort der Handschrift ist nicht geklärt. Klar ist, so auch KÖHLER, dass die Handschrift nicht in Tours entstanden ist.</note>
+                        </origin>
+                        <provenance type="Provenance"><orgName>Kathedrale von Cambrai</orgName></provenance>
+                        <acquisition><name type="Repository">BM</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://bvmm.irht.cnrs.fr//consult/consult.php?VUE_ID=1712442</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D23011294</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="188"/></bibl>
+                            <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="327"/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="173"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

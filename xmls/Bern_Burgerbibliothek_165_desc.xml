@@ -1,0 +1,108 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Bern, Burgerbiliothek, 165</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Switzerland</country>
+                        <settlement>Bern</settlement>
+                        <repository>Burgerbibliothek</repository>
+                        <collection/>
+                        <idno>165</idno>
+                        <altIdentifier source="Rand">
+                            <idno>64</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>26</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>541</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Klassiker">
+                            <author>Vergilius</author>
+                            <title>Bucolica, Georgica, Aeneis / scholia Turonensia</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="219">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="32.5"/>
+                                        <width n="24.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="22.0"/>
+                                        <width n="11.7"/>
+                                    </dimensions>
+                                </extent>
+                                <condition>Schlußblatt fehlt</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="30"/>
+                                <layout><p>Rote Titel und einige ornamentale Initialen</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">Vermutlich 2 oder mehr Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Bischoff">Turonische Minuskel.</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote/>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand Köhler Bischoff" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
+                            <note>Die Handschrift wurde St-MArtin durch Berno gestiftet. RAND merkt an, dass, wenn es sich bei Berno um einen Schüler Alkuins handelt, dann scheint dieser vor der Verbrüderung mit St-Gallen (ca. 820) verstorben zu sein, da er dort nicht auftaucht, so dass die Entstehung der Handschrift auf vor ca. 820 zu datieren wäre.</note>
+                        </origin>
+                        <provenance type="Provenance"><placeName/></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">Burgerbibliothek</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://www.e-codices.unifr.ch/en/bbb/0165/2r</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://www.e-codices.unifr.ch/en/list/one/bbb/0165</bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="127 128"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="380 381"/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="114"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

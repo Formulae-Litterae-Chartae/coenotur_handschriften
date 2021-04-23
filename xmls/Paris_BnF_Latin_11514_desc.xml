@@ -90,9 +90,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
+                     <p><origPlace source="Rand" cert="medium"
                            ><orgName>Marmoutier</orgName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low">kein Grund für
+                     <p><origPlace source="Köhler" cert="medium">kein Grund für
                         Marmoutier</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0815" notAfter="0820"
                            >circa 815-820</origDate></p>
