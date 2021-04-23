@@ -134,3 +134,4 @@ dmypy.json
 app.db
 logs/
 migrations/
+git_files.txt
