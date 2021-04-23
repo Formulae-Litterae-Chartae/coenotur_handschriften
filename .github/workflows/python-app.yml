@@ -52,7 +52,7 @@ jobs:
         echo "Fetch master"
         git fetch origin master
         echo "Get diff from master"
-        git diff --name-status master xmls/ > git_files.txt
+        git diff --name-status origin/master xmls/ > git_files.txt
         echo "Produce PDF files"
         python -m unittest tests.TestXmlLoad.test_produce_new_pdfs
         echo "Get status"
