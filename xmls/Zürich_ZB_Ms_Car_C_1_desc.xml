@@ -1,0 +1,111 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Zürich, ZB, Ms. Car. C. 1</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>Zürich</settlement>
+                        <repository>ZB</repository>
+                        <collection/>
+                        <idno>Ms. Car. C. 1</idno>
+                        <altIdentifier source="Rand">
+                            <idno>63</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>16</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>7589</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Bibel">
+                            <author/>
+                            <title>Bibel</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="414">Abweichende Angaben 414-422
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="49.0"/>
+                                        <width n="36.2"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="36.2"/>
+                                        <width n="11.2">11,2 cm pro Spalte</width>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="49 50">50 (49)</layout>
+                                <layout><p>Rote Titel und einfach Initialen</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">mindestens ein halbes Dutzend.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Rand">Reguläre turonische Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                            <p n="Tironische Noten"><locus n="25r"/><locus n="39v"/>Tironische Noten</p>
+                            <p n="Exlibris">Es scheint vorne ein Exlibris zu geben, dass ich noch nicht eingesehen habe.</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote/>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand Bischoff" cert="high"><orgName>St-Martin</orgName><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
+                            <note>Auch wenn RAND und BISCHOFF es nicht explizit angeben, spricht alles an dieser Bibel für eine Entstehung in St-Martin.</note>
+                        </origin>
+                        <provenance type="Provenance"><placeName/></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">ZB</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://www.e-manuscripta.ch/zuz/content/pageview/1956415</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="126 127"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="374 375"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="518"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

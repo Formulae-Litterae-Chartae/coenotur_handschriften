@@ -1,0 +1,108 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Boulogne-sur-Mer, Bibliothèque des Annonciades, 51 (55)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Boulogne-sur-Mer</settlement>
+                        <repository>Bibliothèque des Annonciades</repository>
+                        <collection/>
+                        <idno>51 (55)</idno>
+                        <altIdentifier source="Rand">
+                            <idno>65</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>669</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Kirchenväter">
+                            <author>Augustinus</author>
+                            <title>De trinitate</title>
+                            <textLang mainLang="la"/>
+                            <note>Excerpte</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="54">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="27.2"/>
+                                        <width n="21.1"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="21.0"/>
+                                        <width n="12.8"/>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="22"/>
+                                <layout><p></p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">2 Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Bischoff">Schräge breite Tours-ähnliche Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                            <p n="Exlibris"><locus n="1r"/>Exlibris aus St-Bertin</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote/>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">ca. 1./2. Viertel. 9. Jhd.</origDate></p>
+                            <note source="Rand">Die Zusammenstellung der Exzerpte könnte unter Alkuin geschehen sein. Das würde für den Text auf eine Datierung um 800 hindeuten. Die Art der Linierung legt die Entstehung dieser Handschrift wohl auf nach 820.</note>
+                        </origin>
+                        <provenance type="Provenance"><orgName>St-Bertin</orgName></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">BdA</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno>https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/20255/manifest</idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D04030180</bibl>
+                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="128 129"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="142"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
