@@ -50,6 +50,8 @@ jobs:
         git push origin $GITHUB_HEAD_REF
         
   build:
+    if: always()
+      needs: [pdfs]
 
     runs-on: ubuntu-latest
 
