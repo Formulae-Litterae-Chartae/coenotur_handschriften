@@ -4,9 +4,7 @@
 name: Produce PDFs
 
 on:
-  push:
-    paths:
-      - '!pdfs/**'
+  [ push ]
 
 jobs:
   pdfs:
