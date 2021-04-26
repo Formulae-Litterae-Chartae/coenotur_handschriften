@@ -51,7 +51,7 @@ jobs:
         
   build:
     if: always()
-      needs: [pdfs]
+    needs: [pdfs]
 
     runs-on: ubuntu-latest
 
