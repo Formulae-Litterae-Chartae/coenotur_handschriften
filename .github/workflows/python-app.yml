@@ -4,9 +4,7 @@
 name: Python application
 
 on:
-  workflow_run:
-    workflows: ["Produce PDFs"]
-    branches-ignore: [master]
+  [ pull_request ]
 
 jobs:
   build:
