@@ -11,4 +11,8 @@
 .table tr td span.cert-high {
     color: green;
     font-size: small;
-} 
+}
+
+.surname {
+    font-variant: small-caps;
+}

@@ -87,11 +87,11 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno/>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84262858</idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34030m</idno></bibl>
                      <bibl><idno>Schipke 1994</idno><biblScope unit="pp" n="139"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="117"/></bibl>
                   </listBibl>

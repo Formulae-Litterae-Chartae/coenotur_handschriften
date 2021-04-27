@@ -1,0 +1,105 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Chartres, BM, 111</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note>Die Handschrift ist bei der Bombardierung am 26. Juni 1944 zerstört worden.</note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Chartres</settlement>
+                        <repository>BM</repository>
+                        <collection/>
+                        <idno>111 (59)</idno>
+                        <altIdentifier source="Rand">
+                            <idno>130</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>894</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Exegese">
+                            <author>Hieronymus</author>
+                            <title>Commentarii in Danielum</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="93">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="23.0"/>
+                                        <width n="21.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="15.7"/>
+                                        <width n="12.5"/>
+                                    </dimensions>
+                                </extent>
+                                <condition>Die Handschrift wurde bei der Bombardierung am 26. Juni 1944 zerstört.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="22"/>
+                                <layout><p>Einige rote Titel</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Rand">Mindestens 5 Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Rand">Spätere, elegante Turonische Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Pergamenteinband</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName>(?)</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0899">9. Jhd.</origDate></p>
+                            <note/>
+                        </origin>
+                        <provenance type="Provenance"><orgName/></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">BM</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D17010668</idno></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://www.manuscrits-de-chartres.fr/fr/manuscrits/chartres-bm-ms-111</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="161 162"/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="195"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>

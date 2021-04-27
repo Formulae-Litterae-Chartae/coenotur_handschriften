@@ -351,3 +351,14 @@ def handschrift(manuscript: str):
                                                                  if source else '',
                                                                  end_symbol))
     return render_template('handschrift.html', title=current_app.manuscript_dict[manuscript], m_d=metadata)
+
+
+@bp.route('/bibliographie')
+@login_required
+def bibliography() -> dict:
+        """ Bibliography route function
+
+        :return: Template to use for Bibliography page
+        :rtype: {str: str}
+        """
+        return render_template('bibliography.html')
