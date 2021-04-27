@@ -98,7 +98,7 @@ class TestRoutes(CoenoturTests):
             print('| File | Error |\n| :--- | :--- |\n' + '\n'.join(['| {} | {} |'.format(x.filename.split('/')[-1], str(x).split('(')[0]) for x in exceptions]))
             self.fail()
         else:
-            print('#All XML Files Passed')
+            print('# All XML Files Passed')
 
     def test_project_member(self):
         with self.client as c:
@@ -108,6 +108,8 @@ class TestRoutes(CoenoturTests):
                              'Correct User should have been logged in.')
             c.get('/', follow_redirects=True)
             self.assertIn('index.html', [x[0].name for x in self.templates])
+            c.get('/bibliographie', follow_redirects=True)
+            self.assertIn('bibliography.html', [x[0].name for x in self.templates])
             c.get('/handschriften', follow_redirects=True)
             self.assertEqual(len(self.get_context_variable('handschriften_dict')), len(current_app.manuscript_list),
                              'All XML files should be shown in the Handschriftenliste')
