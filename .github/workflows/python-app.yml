@@ -60,7 +60,7 @@ jobs:
         echo "Save last SHA in master to MASTER_SHA"
         export MASTER_SHA=`git rev-parse origin/master`
         echo "Check out HEAD branch"
-        git checkout $GITHUB_REF
+        git checkout $GITHUB_HEAD_REF
         echo "Get diff from master"
         git diff --name-status $MASTER_SHA xmls/ > git_files.txt
         echo "Produce PDF files"
@@ -75,4 +75,4 @@ jobs:
         echo "Commit"
         git commit -m "Auto update of PDF files according to changes in XMLs"
         echo "Push"
-        git request-pull master origin $GITHUB_REF
+        git request-pull master origin $GITHUB_HEAD_REF
