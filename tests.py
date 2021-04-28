@@ -112,22 +112,22 @@ class TestXmlLoad(CoenoturTests):
     def test_produce_new_pdfs(self):
         """ Produce new PDFs from the XML files that have changed from master"""
         if os.environ.get('CI'):
-            with open('./git_files.txt') as f:
-                files = f.read().strip().split('\n')
-            for line in files:
-                status, x = line.split('\t')
-                xml_file = os.path.basename(x.strip('"'))
-                if status == 'D':
-                    os.remove('./pdfs/{}'.format(xml_file.replace('.xml', '.pdf')))
-                else:
-                    with self.client as c:
-                        c.post('/auth/login', data=dict(username='project.member', password="some_password"),
-                               follow_redirects=True)
-                        r = c.get('/handschrift/{}'.format(xml_file), follow_redirects=True)
-                        pdfkit.from_string(r.get_data(as_text=True), './pdfs/{}'.format(xml_file.replace('.xml', '.pdf')),
-                                           css='./app/static/css/styles.css', options={'quiet': ''})
-                        sys.stdout.write('.')
-                        sys.stdout.flush()
+            all_xmls = glob(self.app.config['XML_LOCATION'] + '/*.xml')
+            all_pdfs = glob('./pdfs/*.pdf')
+            for pdf in all_pdfs:
+                os.remove(pdf)
+            sys.stdout.write('Old PDFs removed\n')
+            sys.stdout.flush()
+            for xml in all_xmls:
+                xml_file = os.path.basename(xml.strip('"'))
+                with self.client as c:
+                    c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                           follow_redirects=True)
+                    r = c.get('/handschrift/{}'.format(xml_file), follow_redirects=True)
+                    pdfkit.from_string(r.get_data(as_text=True), './pdfs/{}'.format(xml_file.replace('.xml', '.pdf')),
+                                       css='./app/static/css/styles.css', options={'quiet': ''})
+                    sys.stdout.write('.')
+                    sys.stdout.flush()
 
 
 class TestRoutes(CoenoturTests):
