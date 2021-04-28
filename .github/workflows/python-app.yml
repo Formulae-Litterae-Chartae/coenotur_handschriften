@@ -72,10 +72,11 @@ jobs:
         echo "Tell git who I am"
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        echo "Checkout new branch"
+        git checkout -b $GITHUB_SHA-new-pdfs
         echo "Add new files"
         git add pdfs/
         echo "Commit"
         git commit -m "Auto update of PDF files according to changes in XMLs"
         echo "Push"
-        export NEW_SHA=`git rev-parse $GITHUB_HEAD_REF`
-        git request-pull origin/master origin $NEW_SHA
+        git request-pull origin/master origin $GITHUB_SHA-new-pdfs
