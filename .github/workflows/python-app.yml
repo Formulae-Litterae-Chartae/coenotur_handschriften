@@ -4,9 +4,7 @@
 name: Python application
 
 on:
-  pull_request:
-    paths-ignore:
-      - 'pdfs/**'
+  [ pull_request ]
   
 jobs:
         

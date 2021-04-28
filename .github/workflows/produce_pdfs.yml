@@ -37,3 +37,5 @@ jobs:
         commit-message: Automatically Produce new PDFs
         delete-branch: true
         title: Automatically Produced PDFs
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        committer: Matthew Munson <matthew.munson@uni-hamburg.de>
