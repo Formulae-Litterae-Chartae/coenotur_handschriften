@@ -26,29 +26,10 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Produce PDF files
       run: |
-        sudo apt-get install wkhtmltopdf
-        echo "Set up remote"
-        git remote set-url origin $GITHUB_SERVER_URL/$GITHUB_REPOSITORY
-        echo "Fetch master"
-        git fetch
-        echo "Check out master branch"
-        git checkout origin/master
-        echo "Make sure master is at the latest version"
-        git pull origin master
         echo "Produce PDF files"
         python -m unittest tests.TestXmlLoad.test_produce_new_pdfs
-        echo "Get status"
-        git status
-        echo "Tell git who I am"
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        echo "Checkout new branch"
-        git checkout -b $GITHUB_SHA-new-pdfs
-        echo "Add new files"
-        git add pdfs/
-        echo "Commit"
-        git commit -m "Auto update of PDF files according to changes in XMLs"
-        echo "Push"
-        git push origin $GITHUB_SHA-new-pdfs
-        echo "Create PR"
-        git request-pull origin/master origin $GITHUB_SHA-new-pdfs
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        commit-message: Automatically Produce new PDFs
+        delete-branch: true
