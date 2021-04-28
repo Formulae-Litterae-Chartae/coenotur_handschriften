@@ -48,3 +48,29 @@ on:
         pytest --cache-clear --cov=app --cov-report term-missing ./tests.py::TestRoutes > pytest-coverage.txt
     - name: Post test results
       uses: coroo/pytest-coverage-commentator@v1.0.2
+    - name: Produce PDF files
+      run: |
+        sudo apt-get install wkhtmltopdf
+        echo "Set up remote"
+        git remote set-url origin $GITHUB_SERVER_URL/$GITHUB_REPOSITORY
+        echo "Fetch master"
+        git fetch
+        echo "Save last SHA in master to MASTER_SHA"
+        export MASTER_SHA=`git rev-parse origin/master`
+        echo "Check out HEAD branch"
+        git checkout $GITHUB_REF
+        echo "Get diff from master"
+        git diff --name-status $MASTER_SHA xmls/ > git_files.txt
+        echo "Produce PDF files"
+        python -m unittest tests.TestXmlLoad.test_produce_new_pdfs
+        echo "Get status"
+        git status
+        echo "Tell git who I am"
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        echo "Add new files"
+        git add pdfs/
+        echo "Commit"
+        git commit -m "Auto update of PDF files according to changes in XMLs"
+        echo "Push"
+        git request-pull master origin $GITHUB_REF
