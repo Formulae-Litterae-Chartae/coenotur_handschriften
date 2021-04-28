@@ -26,6 +26,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Produce PDF files
       run: |
+        sudo apt-get install wkhtmltopdf
         echo "Produce PDF files"
         python -m unittest tests.TestXmlLoad.test_produce_new_pdfs
     - name: Create Pull Request
