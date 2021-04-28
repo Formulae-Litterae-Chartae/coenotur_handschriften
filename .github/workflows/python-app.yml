@@ -78,4 +78,4 @@ jobs:
         git commit -m "Auto update of PDF files according to changes in XMLs"
         echo "Push"
         export NEW_SHA=`git rev-parse $GITHUB_HEAD_REF`
-        git request-pull origin/master origin $GITHUB_HEAD_REF
+        git request-pull origin/master origin $NEW_SHA
