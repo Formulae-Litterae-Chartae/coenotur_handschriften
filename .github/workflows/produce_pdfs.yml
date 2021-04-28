@@ -34,7 +34,7 @@ jobs:
         echo "Check out master branch"
         git checkout origin/master
         echo "Make sure master is at the latest version"
-        git pull origin/master
+        git pull origin master
         echo "Produce PDF files"
         python -m unittest tests.TestXmlLoad.test_produce_new_pdfs
         echo "Get status"
