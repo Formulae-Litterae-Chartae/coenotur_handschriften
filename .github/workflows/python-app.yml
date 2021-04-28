@@ -75,4 +75,4 @@ jobs:
         echo "Commit"
         git commit -m "Auto update of PDF files according to changes in XMLs"
         echo "Push"
-        git request-pull master origin $GITHUB_HEAD_REF
+        git request-pull origin/master origin $GITHUB_HEAD_REF
