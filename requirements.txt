@@ -40,6 +40,7 @@ MarkupSafe==1.1.1
 msgpack==0.6.2
 packaging==20.3
 parso==0.7.1
+pdfkit>=0.6.1
 pep517==0.8.2
 pexpect==4.8.0
 pickleshare==0.7.5
