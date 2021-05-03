@@ -1,0 +1,110 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Laon, BM, 220</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note></note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Laon</settlement>
+                        <repository>BM</repository>
+                        <collection/>
+                        <idno>220</idno>
+                        <altIdentifier source="Rand">
+                            <idno>75</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Köhler">
+                            <idno>23</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2093</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Amalarius</author>
+                            <title>De ecclesiasticis officiis</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="176">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="24.0"/>
+                                        <width n="18.4"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="20.3"/>
+                                        <width n="13.6"/>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="25 26">26 (25)</layout>
+                                <layout><p></p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote source="Köhler">wechselnde Hände von verschiedener Sorgfalt</handNote>
+                            <handNote source="Rand">mindestens 5 Hände</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Rand">turonische Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote/>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand Köhler Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Rand" cert="high" notBefore="0823" notAfter="0835">kurz nach der Entstehung des Werkes</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
+                            <note>Die Argmuente von RAND für eine Entstehung der Handschrift kurz nach der Abfassung des Werkes erscheinen überzeugend.</note>
+                        </origin>
+                        <provenance type="Provenance"><orgName>St-Vincent</orgName>, <placeName>Laon</placeName></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">BM</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D01020697</bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="134"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="379 380"/></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="29 30"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
