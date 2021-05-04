@@ -1,0 +1,117 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 4418</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Diese Handschrift wird dem Leges-Skriptorium zugeordnet.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 4418</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>82</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>4696</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Eckhardt">
+                     <idno>K 24</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4317</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Leges">
+                     <author/>
+                     <title>Breviarium Alarici</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="249">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="42.7"/>
+                              <width n="30.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="34.0"/>
+                              <width n="22.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="39 40"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Bischoff">mehr als eine Hand</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">"Recht gleichm., mäßig schräge Min.</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>moderner Pappeinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium">"an einem Verwaltungszentrum in Frankreich entstanden</origPlace></p>
+                     <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
+                     <note></note>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance source="leges.uni-koeln.de">War einst im Besitz des Gelehrten Jacques-Auguste de Thou zu Paris (1553-1617)</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10034421r</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc63241k</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www.leges.uni-koeln.de/mss/handschrift/paris-bn-lat-4418/</idno></bibl>
+                     <bibl><idno>Eckhardt 1962</idno><biblScope unit="pp" n="XIX"/></bibl>
+                     <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
+                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="423"/></bibl>
+                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="1031 1032"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="98"/></bibl>
+                     <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

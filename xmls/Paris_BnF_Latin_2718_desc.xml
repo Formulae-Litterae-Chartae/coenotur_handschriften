@@ -1,0 +1,123 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 2718</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Diese Handschrift wird dem Leges-Skriptorium zugeordnet. Sie wird nicht auf der Seite der Leges der Uni Köln geführt.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 2718</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>1593</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Colbert">
+                     <idno>4593</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>4323 2.2.a</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4219</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Leges">
+                     <author/>
+                     <title>Variae</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="140">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="16.5"/>
+                              <width n="25.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="12.0 13.0"/>
+                              <width n="21.0 22.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="11 27"/>
+                        <layout><p>Incipits in Capitalis rustica oder Unziale</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Bischoff">von mehreren Händen</handNote>
+                     <handNote>vielleicht die Hand von <persName type="scribe">Hirminmaris</persName>, Notar unter Fredegisus und Theot, den Erzkanzlern von Ludwig dem Frommen.</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">"Der Schrifttyp der Min. ist einheitlich, aber nicht spezifisch turonisch"</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <locus n=""/>
+                        <p></p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p></p>
+                     <p n="Tironische Noten"><locus n=""/>zahlreiche Tironische Noten. siehe Martinellus.de</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote></decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Mordek" cert="medium">Schule von <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="high" >"Entstehung am Hofe Ludwigs des Frommen im Umkreis der Kanzlei"; "Die Hekrunft der Hs. aus Saint-Martin ist nicht beweisebar"</origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium">Nicht Tours</origPlace></p>
+                     <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
+                     <p><origDate source="Mordek Bischoff" cert="high" notBefore="0825" notAfter="0835">ca. 830</origDate></p>
+                     <note></note>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b105000058</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60514s</idno></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="20"/></bibl>
+                     <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
+                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="422 430"/></bibl>
+                     <bibl><idno>Keefe 2012</idno><biblScope unit="pp" n="311 312"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="79"/></bibl>
+                     <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope unit="pp" n="79"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

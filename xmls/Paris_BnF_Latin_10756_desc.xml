@@ -1,0 +1,110 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 10756</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Diese Handschrift wird dem Leges-Skriptorium zugeordnet. Sie wird auf leges.uni-koeln.de nicht gelistet. Nur die f. 46-61 sind aus Tours und hier beschrieben</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 10756</idno>
+                  <altIdentifier source="Supplément latin">
+                     <idno>1120</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4658</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Leges">
+                     <author/>
+                     <title>Formulae Turonenses</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="16">fol. 46-61
+                           <dimensions type="leaf" unit="cm">
+                              <height n="19.5"/>
+                              <width n="15.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="14.5"/>
+                              <width n="16.2"/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="22 28"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Bischoff">mehrere Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">frühe turonische Minuskel</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p n="tironische Noten" source="Martinells.de"><locus n="46rv"/>"im Text der Capitulatio"</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote></decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1.(2. Viertel9. Jhd.</origDate></p>
+                     <note></note>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b52512740n</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc724569</idno></bibl>
+                     <bibl><idno>Eckhardt 1962</idno><biblScope unit="pp" n="XIX"/></bibl>
+                     <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
+                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="423"/></bibl>
+                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="484"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="98"/></bibl>
+                     <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

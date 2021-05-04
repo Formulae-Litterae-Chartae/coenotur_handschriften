@@ -75,7 +75,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff McKitterick" cert="medium"><placeName>Tours</placeName>, oder Leges-Skriptorium; "vom Hofe abhängiges, in Tours-ähnlichem Stil arbeitendes Skriptorium".</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">"vom Hofe abhängiges, in Tours-ähnlichem Stil arbeitendes Skriptorium".</origPlace></p>
+                            <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
                             <note/>
                         </origin>
@@ -95,7 +96,7 @@
                             <bibl><title>Online Beschreibung</title>: <idno>http://www.leges.uni-koeln.de/blog/herkunft/leges-skriptorium</idno></bibl>
                             <bibl><idno>Eckhardt 1962</idno><biblScope unit="pp" n="XVII"/></bibl>
                             <bibl><idno>Bischoff 1979</idno><biblScope unit="pp" n="257"/></bibl>
-                            <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 60"/></bibl>
+                            <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="472"/></bibl>
                             <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                         </listBibl>
