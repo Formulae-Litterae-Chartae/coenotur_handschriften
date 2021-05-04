@@ -84,6 +84,7 @@ class TestXmlLoad(CoenoturTests):
         self._ctx.push()
         self.templates = []
         self.flashed_messages = []
+        os.environ.update({'CI': 'True'})
         template_rendered.connect(self._add_template)
         message_flashed.connect(self._add_flash_message)
         db.create_all()
@@ -124,8 +125,16 @@ class TestXmlLoad(CoenoturTests):
                     c.post('/auth/login', data=dict(username='project.member', password="some_password"),
                            follow_redirects=True)
                     r = c.get('/handschrift/{}'.format(xml_file), follow_redirects=True)
-                    pdfkit.from_string(r.get_data(as_text=True), './pdfs/{}'.format(xml_file.replace('.xml', '.pdf')),
-                                       css='./app/static/css/styles.css', options={'quiet': ''})
+                    html = etree.HTML(r.get_data(as_text=True))
+                    span = etree.fromstring('<footer style="font-size:small;">https://coenotur.fruehmittelalterprojekte.uni-hamburg.de/handschrift/{}</footer>'.format(xml_file))
+                    watermark = etree.fromstring('<div style="position:fixed;bottom:20%;left:5px;opacity:0.2;z-index:99;color:red;transform:rotate(-45deg);font-size:15em;">Coenotur Project</div>')
+                    inner_div = html.xpath('//div[table]')[0]
+                    inner_div.append(span)
+                    inner_div.append(watermark)
+                    pdf_options = {'quiet': ''}
+                    pdfkit.from_string(etree.tostring(html, encoding=str, pretty_print=True),
+                                       './pdfs/{}'.format(xml_file.replace('.xml', '.pdf')),
+                                       css='./app/static/css/styles.css', options=pdf_options)
                     sys.stdout.write('.')
                     sys.stdout.flush()
 
