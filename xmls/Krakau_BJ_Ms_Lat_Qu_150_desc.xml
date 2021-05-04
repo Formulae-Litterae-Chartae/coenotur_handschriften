@@ -17,6 +17,12 @@
                         <repository>BJ</repository>
                         <collection/>
                         <idno>Ms. Lat. Qu. 150</idno>
+                        <altIdentifier source="Eckhardt">
+                            <idno>E 13</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Mordek">
+                            <idno>Wa</idno>
+                        </altIdentifier>
                         <altIdentifier source="Bischoff">
                             <idno>382</idno>
                         </altIdentifier>
@@ -69,7 +75,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff McKitterick" cert="medium"><placeName>Tours</placeName>, oder Leges-Skriptorium?</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, (oder Leges-Skriptorium?)</origPlace></p>
+                            <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
                             <note>BISCHOFF und MCKITTERICK listen diese Handschrift in als aus dem Leges-Skriptorium kommen auf.</note>
                         </origin>
@@ -86,8 +93,10 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>http://www.leges.uni-koeln.de/mss/handschrift/berlin-sb-lat-qu-150/</idno></bibl>
+                            <bibl><idno>Eckhardt 1962</idno><biblScope unit="pp" n="XVII"/></bibl>
                             <bibl><idno>Bischoff 1979</idno><biblScope unit="pp" n="257"/></bibl>
-                            <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 60"/></bibl>
+                            <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
+                            <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="898 903"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="80"/></bibl>
                             <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                             <bibl><idno>Martinellus.de</idno><biblScope/></bibl>

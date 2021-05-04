@@ -1,0 +1,156 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 204</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Diese Handschrift wird dem Leges-Skriptorium zugeordnet. Die inhaltliche Beschreibung folgt der Beschreibung auf leges.uni-koeln.de</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 204</idno>
+                  <altIdentifier source="Eckhardt">
+                     <idno>K 27</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Mordek">
+                     <idno>P28</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5064</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Leges">
+                     <author/>
+                     <title>Leges</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem n="1.1">
+                     <locus from="1r" to="20v"/>
+                     <title>Lex Salica</title>
+                     <note>Karolina emendata, Titelverzeichnis und Text)</note>
+                  </msItem>
+                  <msItem n="1.2">
+                     <locus from="20v" to="24v"/>
+                     <title>verschiedene Kapitularien</title>
+                  </msItem>
+                  <msItem n="1.3">
+                     <locus from="25r" to="40v"/>
+                     <title>Lex Alamannorun</title>
+                     <note>Klasse B, Titelverzeichnis und Text</note>
+                  </msItem>
+                  <msItem n="1.4">
+                     <locus from="40v" to="58v"/>
+                     <title>Fragemente der Lex Baiuvariorum</title>
+                     <note>Klasse E, Prolog, Titelverzeichnis und Text</note>
+                  </msItem>
+                  <msItem n="1.5">
+                     <locus from="59r" to="77r"/>
+                     <title>Fragmente der Lex Burgundionum</title>
+                     <note>Klasse B, Text</note>
+                  </msItem>
+                  <msItem n="1.6">
+                     <locus n="77r"/>
+                     <title>Lex Romana Burgundionum</title>
+                     <note>titel 17, angehängt als Titel 89 der Lex Burgundionum</note>
+                  </msItem>
+                  <msItem n="1.7">
+                     <locus from="77r" to="77v"/>
+                     <title>Formulae imperiales e curia Ludovici Pii</title>
+                     <note>Nr. 15</note>
+                  </msItem>
+                  <msItem n="1.8">
+                     <locus from="78r" to="94v"/>
+                     <title>Fragment der Epitome Aegidii</title>
+                     <note>Praefatio, Titelverzeichnis und Text</note>
+                  </msItem>
+                  <msItem n="1.9">
+                     <locus from="95r" to="95v"/>
+                     <title>"Kleiner Pergamentrest mit je 11 verstümmelten Zeilen</title>
+                     <note>lückenhafter Text von LRV CTh XIII 1 bis XIV 1, dann XVI 1</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="95">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="23.5 23.7">23,5 23,7 cm</height>
+                              <width n="19.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="19.2 19.8">19,2 - 19,8 cm</height>
+                              <width n="14.0 14.5">14,0 - 14,5 cm</width>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="27"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">Sehr regelm. turonische Minuskel</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote></decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Mordek Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./(2.) Viertel 9. Jhd. (post 818/819?)</origDate></p>
+                     <note></note>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance source="Eckhardt">Wurde 1875 von der BnF gekauft</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc70305k</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc724569</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www.leges.uni-koeln.de/mss/handschrift/paris-bn-nouv-acq-lat-204/</idno></bibl>
+                     <bibl><idno>Eckhardt 1962</idno><biblScope unit="pp" n="XIX"/></bibl>
+                     <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
+                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="62 624"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="234"/></bibl>
+                     <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

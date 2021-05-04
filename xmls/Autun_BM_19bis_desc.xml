@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Dieses Sakramentar wurde für <persName type="Abt">Raganaldus</persName>, dem Abt von Mamroutier, geschrieben</note></notesStmt>
+         <notesStmt><note>Dieses Sakramentar wurde für <persName type="Abt">Raganaldus</persName>, den Abt von Mamroutier, geschrieben</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -82,7 +82,7 @@
                      <note>Dadurch, dass gesichert ist, dass die Handschrift für <persName>Ragalnaldus</persName>, den Abt von Marmoutier abgefasst wurde, ist die Datierung gesichert. Entstanden ist die Handschrift sicher in <placeName>Tours</placeName>, wobei nicht klar ist in welcher Gemeinschaft. Die Herstellung für Raganaldus bedeutet nicht, dass die Handschrift gezwungenermaßen in <orgName>Marmoutier</orgName> entstanden sein muss.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Kathedrale von Autun</orgName></provenance>
-                  <provenance source="Köhler">Die Handschrift war sicher ab dem 11. Jhd, vielleicht bereits ab dem 10. Jahrhundert, in Autun. Dies lässt sich an der für den heiligen Nazarius eingeschobenen Blatt (f. 64) erkennen.</provenance>
+                  <provenance source="Köhler">Die Handschrift war sicher ab dem 11. Jhd, vielleicht bereits ab dem 10. Jahrhundert, in Autun. Dies lässt sich an dem für den heiligen Nazarius eingeschobenen Blatt (f. 64) erkennen.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>

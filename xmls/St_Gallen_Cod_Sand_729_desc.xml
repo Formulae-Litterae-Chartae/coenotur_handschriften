@@ -92,6 +92,7 @@
                         <origin>
                            <p><origPlace source="Bischoff" cert="medium">(West-)Frankreich (Leges-Skriptorium?)</origPlace></p>
                            <p><origPlace source="Mordek" cert="medium">Frankreich (wohl Nähe des Hofes)</origPlace></p>
+                           <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
                            <p><origDate source="Mordek" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                             <note>BISCHOFF hält eine Entstehung im Leges-Skriptorium für möglich. MCKITTERICK listet die Handschrift in ihrer Liste von Handschriften aus dem Leges-Skriptorium auf.</note>
@@ -110,8 +111,10 @@
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://www.e-codices.unifr.ch/en/list/one/csg/0729</idno></bibl>
                             <bibl><idno>Scherrer 1875</idno><biblScope unit="pp" n="235 236"/></bibl>
+                            <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
                             <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="668 670"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="332"/></bibl>
+                            <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

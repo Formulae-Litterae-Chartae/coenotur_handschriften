@@ -1,0 +1,110 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 4408</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Diese Handschrift wird dem Leges-Skriptorium zugeordnet.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 4408</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>4308</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Leges">
+                     <author/>
+                     <title>Varia</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="217">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="28.0"/>
+                              <width n="19.7"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="20.3"/>
+                              <width n="14.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="27"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Bischoff">mehrere Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">Minuskel</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p></p>
+                     <p n="tironische Noten"><locus n="204r"/>Wenige</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote></decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="high">"wahrscheinlich Westfrankreich</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">"wohl Nähe von Tours" (HA, zitiert nach leges.uni-koeln.de</origPlace></p>
+                     <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
+                     <note></note>
+                  </origin>
+                  <provenance type="Provenance"><name/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b52500053r</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc63231c</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www.leges.uni-koeln.de/mss/handschrift/paris-bn-lat-4408/</idno></bibl>
+                     <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
+                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="423"/></bibl>
+                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="561"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="96"/></bibl>
+                     <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
