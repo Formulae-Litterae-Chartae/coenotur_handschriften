@@ -33,7 +33,6 @@
                      <author/>
                      <title>Leges</title>
                      <textLang mainLang="la"/>
-                  </msItem>
                   <msItem n="1.1">
                      <locus from="1r" to="20v"/>
                      <title>Lex Salica</title>
@@ -77,6 +76,7 @@
                      <locus from="95r" to="95v"/>
                      <title>"Kleiner Pergamentrest mit je 11 verstümmelten Zeilen</title>
                      <note>lückenhafter Text von LRV CTh XIII 1 bis XIV 1, dann XVI 1</note>
+                  </msItem>
                   </msItem>
                </msContents>
                <physDesc>
