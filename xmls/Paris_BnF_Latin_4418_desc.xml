@@ -55,7 +55,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines="39 40"/>
+                        <layout writtenLines="39 40">39-40</layout>
                         <layout><p></p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -63,7 +63,7 @@
                      <handNote source="Bischoff">mehr als eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">"Recht gleichm., mäßig schräge Min.</scriptNote>
+                     <scriptNote source="Bischoff">"Recht gleichm., mäßig schräge Min."</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -77,10 +77,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium">"an einem Verwaltungszentrum in Frankreich entstanden</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">"an einem Verwaltungszentrum in Frankreich entstanden"</origPlace></p>
                      <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
-                     <note></note>
+                     <note>MCKITTERICK listet diese Handschrift als aus dem Leges-Skriptorium kommen auf.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance source="leges.uni-koeln.de">War einst im Besitz des Gelehrten Jacques-Auguste de Thou zu Paris (1553-1617)</provenance>

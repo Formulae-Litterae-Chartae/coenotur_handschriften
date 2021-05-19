@@ -16,6 +16,15 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>NAL 1586</idno>
+                  <altIdentifier source="Libri">
+                     <idno>6</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>4</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5091a</idno>
+                  </altIdentifier>
                   <msName>Marmoutier Prophets</msName>
                </msIdentifier>
                <msContents>
@@ -69,7 +78,7 @@
                      <p>Einzelne Korrekturen in Minuskel des frühen 9. Jahrhunderts. Die fol. 89-98
                         wurden im 10. Jahrhundert ausgebessert und mit einer Minuskel neu
                         beschrieben.</p>
-                     <p>Tironische Noten</p>
+                     <p n="tironische Noten">Tironische Noten</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -113,9 +122,9 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69910r</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Delisle 1888</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Delisle 1888</idno><biblScope unit="pp" n="5 7"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="85 86"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="239"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -64,7 +64,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout/>
-                                <layout/>
+                                <layout writtenLines="19 21">19-21</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -86,7 +86,9 @@
                     <history>
                         <origin>
                             <p><origPlace cert="medium" source="Bischoff McKitterick">Leges-Skriptorium</origPlace></p>
-                            <p><origPlace cert="medium" source="Bischoff">"vom Hofe abhängiges, in Tours-ähnlichem Stil arbeitendes Skriptorium</origPlace></p>
+                            <p><origPlace cert="medium" source="Bischoff">"vom Hofe abhängiges, in Tours-ähnlichem Stil arbeitendes Skriptorium"</origPlace></p>
+                            <p><origPlace cert="medium" source="Rio">Francia</origPlace></p>
+                            <p><origPlace cert="high" source="Mostert">Definitely not Fleury</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                         </origin>
                         <provenance type="Provenance"></provenance>
@@ -106,6 +108,7 @@
                             <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
                             <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
                             <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="423"/></bibl>
+                            <bibl><idno>Rio 2009</idno><biblScope unit="pp" n="267 268"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="436"/></bibl>
                             <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                             <bibl><idno>Martinellus.de</idno><biblScope /></bibl>

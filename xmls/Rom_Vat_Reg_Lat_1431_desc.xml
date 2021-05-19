@@ -84,6 +84,7 @@
                         <origin>
                             <p><origPlace cert="medium" source="Bischoff McKitterick">Leges-Skriptorium</origPlace></p>
                              <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                            <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommen auf.</note>
                         </origin>
                         <provenance type="Provenance"></provenance>
                         <provenance>War im Besitz von Alexandre Petau</provenance>
