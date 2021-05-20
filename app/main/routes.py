@@ -303,6 +303,7 @@ def handschrift(manuscript: str):
                     metadata['bibliography'][title] = [pages.strip()]
                 else:
                     metadata['bibliography'][title] = []
+            
     metadata['binding'] = []
     for bind in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:bindingDesc',
                           namespaces=current_app.namespaces):
