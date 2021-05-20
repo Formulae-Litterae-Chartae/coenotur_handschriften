@@ -65,8 +65,10 @@ def create_app(config_class=Config):
         :param d: dictionary of MS names
         :return: sorted dictionary of MS names
         """
-        man_num = re.search(r'(.*?)(\d*)(.*)_desc', l[0])
-        return (man_num.group(1).lower(), int(man_num.group(2)) if man_num.group(2) else 0, man_num.group(3))
+        man_num = re.search(r'(.*?)(\d+)(.*)_desc', l[0])
+        if man_num:
+            return (man_num.group(1).lower(), int(man_num.group(2)) if man_num.group(2) else 0, man_num.group(3))
+        return (l[0].lower(), 0, '')
 
     app.manuscript_list = list()
     app.manuscript_dict = dict()
