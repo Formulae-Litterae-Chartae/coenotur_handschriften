@@ -351,7 +351,10 @@ def handschrift(manuscript: str):
                                                                  ' (' + source.upper().replace('_', ' ') + ')'
                                                                  if source else '',
                                                                  end_symbol))
-    return render_template('handschrift.html', title=current_app.manuscript_dict[manuscript], m_d=metadata)
+    return render_template('handschrift.html',
+                           title=current_app.manuscript_dict[manuscript],
+                           m_d=metadata,
+                           bibl_ids=current_app.bibl_ids)
 
 
 @bp.route('/bibliographie')
