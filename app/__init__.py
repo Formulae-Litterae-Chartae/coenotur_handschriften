@@ -79,6 +79,17 @@ def create_app(config_class=Config):
             app.manuscript_dict[os.path.basename(x)] = t
     app.manuscript_list = sorted(app.manuscript_list, key=sort_manuscript_list)
 
+    app.bibl_ids = dict()
+    with app.open_resource('templates/bibliography.html', mode='r') as f:
+        s = f.read()
+    s = re.sub(r'\{%.*?%\}', '', s)
+    h = etree.fromstring(s)
+    for p in h.xpath('//p[@class="biblEntry"]'):
+        app.bibl_ids[p.get('id')] = ''.join([etree.tostring(x, encoding=str) for x in p.iterchildren()])
+
+    #for i in re.finditer(r'<p class="biblEntry" id="(.*?)">', s):
+    #    app.bibl_ids.append(i.group(1))
+
     if not app.debug and not app.testing:
         if app.config['MAIL_SERVER']:
             auth = None

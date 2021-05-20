@@ -188,7 +188,13 @@
                 {% if m_d['bibliography'] %}
                 <tr>
                     <th scope="row">Bibliographie</th>
-                    <td>{% for b in m_d['bibliography'] %}{{ b }}{% if m_d['bibliography'][b] %}, {{ m_d['bibliography'][b]|join(', ')|safe }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}.</td>
+                    <td>{% for b in m_d['bibliography'] %}
+                        {% if b|replace(' ', '_') in bibl_ids %}<a id="bibl-{{ loop.index }}-search-tooltip"
+                                                          data-toggle="tooltip"
+                                                 href="{{ url_for('main.bibliography') }}#{{ b|replace(' ', '_') }}"
+                              data-container="#bibl-{{ loop.index }}-search-tooltip"
+                              data-html="true"
+                              title="{{ bibl_ids[b|replace(' ', '_')] }}">{{ b }}</a>{% else %}{{ b }}{% endif %}{% if m_d['bibliography'][b] %}, {{ m_d['bibliography'][b]|join(', ')|safe }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}.</td>
                 </tr>
                 {% endif %}
                 {% if m_d['online_description'] %}
