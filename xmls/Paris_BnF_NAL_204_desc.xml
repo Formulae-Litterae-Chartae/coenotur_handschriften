@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Handschrift wird dem Leges-Skriptorium zugeordnet. Die inhaltliche Beschreibung folgt der Beschreibung auf leges.uni-koeln.de</note></notesStmt>
+         <notesStmt><note>Diese Handschrift wird dem Leges-Skriptorium zugeordnet. Die inhaltliche Beschreibung folgt der Beschreibung auf leges.uni-koeln.de.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -74,7 +74,7 @@
                   </msItem>
                   <msItem n="1.9">
                      <locus from="95r" to="95v"/>
-                     <title>"Kleiner Pergamentrest mit je 11 verstümmelten Zeilen</title>
+                     <title>"Kleiner Pergamentrest mit je 11 verstümmelten Zeilen"</title>
                      <note>lückenhafter Text von LRV CTh XIII 1 bis XIV 1, dann XVI 1</note>
                   </msItem>
                   </msItem>
@@ -84,12 +84,12 @@
                      <supportDesc material="perg">
                         <extent n="95">
                            <dimensions type="leaf" unit="cm">
-                              <height n="23.5 23.7">23,5 23,7 cm</height>
+                              <height n="23.5 23.7">23,5-23,7 cm</height>
                               <width n="19.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="19.2 19.8">19,2 - 19,8 cm</height>
-                              <width n="14.0 14.5">14,0 - 14,5 cm</width>
+                              <height n="19.2 19.8">19,2-19,8 cm</height>
+                              <width n="14.0 14.5">14,0-14,5 cm</width>
                            </dimensions>
                         </extent>
                         <condition></condition>
@@ -118,10 +118,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mordek Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Mordek Bischoff Rio" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./(2.) Viertel 9. Jhd. (post 818/819?)</origDate></p>
-                     <note></note>
+                     <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommen auf.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance source="Eckhardt">Wurde 1875 von der BnF gekauft</provenance>
@@ -140,6 +140,7 @@
                      <bibl><idno>Eckhardt 1962</idno><biblScope unit="pp" n="XIX"/></bibl>
                      <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
                      <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="62 624"/></bibl>
+                     <bibl><idno>Rio 2009</idno><biblScope unit="pp" n="262 263"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="234"/></bibl>
                      <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                   </listBibl>

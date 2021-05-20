@@ -47,8 +47,8 @@
                               <width n="25.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="12.0 13.0"/>
-                              <width n="21.0 22.5"/>
+                              <height n="12.0 13.0">12,0-13,0</height>
+                              <width n="21.0 22.5">21,0-22,5</width>
                            </dimensions>
                         </extent>
                         <condition></condition>
@@ -65,6 +65,7 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">"Der Schrifttyp der Min. ist einheitlich, aber nicht spezifisch turonisch"</scriptNote>
+                     <scriptNote source="Rio">Karolingische Minuskel und Tironische Noten</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -82,10 +83,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mordek" cert="medium">Schule von <placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="high" >"Entstehung am Hofe Ludwigs des Frommen im Umkreis der Kanzlei"; "Die Hekrunft der Hs. aus Saint-Martin ist nicht beweisebar"</origPlace></p>
-                     <p><origPlace source="Köhler" cert="medium">Nicht Tours</origPlace></p>
+                     <p><origPlace source="Rio" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Mordek" cert="high">Schule von <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium" >"Entstehung am Hofe Ludwigs des Frommen im Umkreis der Kanzlei"; "Die Hekrunft der Hs. aus Saint-Martin ist nicht beweisebar"</origPlace></p>
                      <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
+                     <p><origPlace source="Köhler" cert="low">Nicht Tours</origPlace></p>
                      <p><origDate source="Mordek Bischoff" cert="high" notBefore="0825" notAfter="0835">ca. 830</origDate></p>
                      <note></note>
                   </origin>
@@ -105,6 +107,7 @@
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="20"/></bibl>
                      <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
                      <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="422 430"/></bibl>
+                     <bibl><idno>Rio 2009</idno><biblScope unit="pp" n="252 254"/></bibl>
                      <bibl><idno>Keefe 2012</idno><biblScope unit="pp" n="311 312"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="79"/></bibl>
                      <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>

@@ -97,11 +97,11 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno>https://catalogue.leidenuniv.nl/permalink/f/a8bnm1/UBL_ALMA51265040010002711</idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://primarysources.brillonline.com/browse/vossiani-latini/vlf-073-nonius-marcellus</bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://primarysources.brillonline.com/browse/vossiani-latini/vlf-073-nonius-marcellus</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="105"/></bibl>
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="368"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="53"/></bibl>

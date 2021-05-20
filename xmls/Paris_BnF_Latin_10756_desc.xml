@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Handschrift wird dem Leges-Skriptorium zugeordnet. Sie wird auf leges.uni-koeln.de nicht gelistet. Nur die f. 46-61 sind aus Tours und hier beschrieben</note></notesStmt>
+         <notesStmt><note>Diese Handschrift wird dem Leges-Skriptorium zugeordnet. Sie wird auf leges.uni-koeln.de nicht gelistet. Nur die f. 46-61 könnten aus Tours stammen und werden hier beschrieben.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -64,7 +64,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="tironische Noten" source="Martinells.de"><locus n="46rv"/>"im Text der Capitulatio"</p>
+                     <p n="tironische Noten" source="Martinellus.de"><locus n="46rv"/>"im Text der Capitulatio"</p>
                   </additions>
                   <bindingDesc>
                      <decoNote></decoNote>
@@ -72,10 +72,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Walther" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1.(2. Viertel9. Jhd.</origDate></p>
-                     <note></note>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1.(2. Viertel) 9. Jhd.</origDate></p>
+                     <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommen auf. Nach persönlicher Mitteilung von Christoph WALTHER, spricht alles an dieser Handschrift für eine Entstehung in Tours.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
@@ -93,6 +94,7 @@
                      <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
                      <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="423"/></bibl>
                      <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="484"/></bibl>
+                     <bibl><idno>Rio 2009</idno><biblScope unit="pp" n="259 260"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="98"/></bibl>
                      <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Martinellus.de</idno><biblScope/></bibl>

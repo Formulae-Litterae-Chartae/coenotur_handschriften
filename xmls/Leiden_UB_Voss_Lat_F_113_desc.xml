@@ -114,7 +114,7 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://primarysources.brillonline.com/browse/vossiani-latini/vlf-113-geographica-historica-hagiographica-augustiniana/summarized-description-in-english;vossianivlf11302vlf113description</bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://primarysources.brillonline.com/browse/vossiani-latini/vlf-113-geographica-historica-hagiographica-augustiniana/summarized-description-in-english;vossianivlf11302vlf113description</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="154"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="55 56"/></bibl>
                         </listBibl>

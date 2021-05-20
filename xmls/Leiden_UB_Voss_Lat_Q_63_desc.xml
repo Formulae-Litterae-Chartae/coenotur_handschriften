@@ -83,13 +83,13 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno>https://login.ezproxy.leidenuniv.nl:2443/login?url=http://dx.doi.org/10.1163/9789004264243_Q_063</idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://primarysources.brillonline.com/browse/vossiani-latini/vlq-063-gregorius-turonensis</bibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://elmss.nuigalway.ie/catalogue/315</bibl>
-                            <bibl><idno>MArtinellus.de</idno><biblScope/></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://primarysources.brillonline.com/browse/vossiani-latini/vlq-063-gregorius-turonensis</idno></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://elmss.nuigalway.ie/catalogue/315</idno></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

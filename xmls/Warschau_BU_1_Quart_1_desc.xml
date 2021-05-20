@@ -75,6 +75,7 @@
                     </physDesc>
                     <history>
                         <origin>
+                            <p><origPlace source="Mordek Rio" cert="high"><origPlace>Tours</origPlace></origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium">"vom Hofe abhängiges, in Tours-ähnlichem Stil arbeitendes Skriptorium".</origPlace></p>
                             <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
@@ -97,6 +98,8 @@
                             <bibl><idno>Eckhardt 1962</idno><biblScope unit="pp" n="XVII"/></bibl>
                             <bibl><idno>Bischoff 1979</idno><biblScope unit="pp" n="257"/></bibl>
                             <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
+                            <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="898 903"/></bibl>
+                            <bibl><idno>Rio 2009</idno><biblScope unit="pp" n="270 271"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="472"/></bibl>
                             <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                         </listBibl>

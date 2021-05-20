@@ -78,10 +78,10 @@
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, (oder Leges-Skriptorium?)</origPlace></p>
                             <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
-                            <note>BISCHOFF und MCKITTERICK listen diese Handschrift in als aus dem Leges-Skriptorium kommen auf.</note>
+                            <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommen auf.</note>
                         </origin>
                         <provenance type="Provenance"></provenance>
-                        <provenance>.</provenance>
+                        <provenance></provenance>
                         <acquisition><name type="Repository">BJ</name></acquisition>
                     </history>
                     <additional>

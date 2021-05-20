@@ -93,7 +93,7 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://primarysources.brillonline.com/browse/vossiani-latini/vlq-098-augustinus</bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://primarysources.brillonline.com/browse/vossiani-latini/vlq-098-augustinus</idno></bibl>
                              <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="61"/></bibl>
                              <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
                         </listBibl>

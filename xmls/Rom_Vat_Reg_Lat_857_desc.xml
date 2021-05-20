@@ -45,6 +45,17 @@
                             <msItem n="1.4">
                                 <locus from="77v" to="78r"/>
                                 <title>CTh 9,1,4 Int.</title>
+                                <note>vgl. Formulae extravagantes, ed. Zeumer 1886 p. 536</note>
+                            </msItem>
+                            <msItem n="1.5">
+                                <locus from="77v" to="78r"/>
+                                <title>Paul. Sent. 5, 39</title>
+                                <note>mit Int.;</note>
+                            </msItem>
+                            <msItem n="1.6">
+                                <locus from="77v" to="78r"/>
+                                <title>Formulae Turonenses 29</title>
+                                <note>umgearbeitet, nicht bei Zeumer verzeichnet</note>
                             </msItem>
                         </msItem>
                     </msContents>

@@ -71,10 +71,10 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="high">"wahrscheinlich Westfrankreich</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium">"wohl Nähe von Tours" (HA, zitiert nach leges.uni-koeln.de</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">"wohl Nähe von Tours" (HA, zitiert nach leges.uni-koeln.de)</origPlace></p>
                      <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                     <note></note>
+                     <note>MCKITTERICK listet diese Handschrift als aus dem Leges-Skriptorium kommen auf.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance></provenance>

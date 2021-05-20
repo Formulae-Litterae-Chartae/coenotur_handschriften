@@ -1,0 +1,129 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Leiden, UB, Voss. Lat. Q. 20</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note>Nur der zweite Teil, fol. 9-144 entstammt aus Tours und ist momentan hier beschrieben.</note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Netherlands</country>
+                        <settlement>Leiden</settlement>
+                        <repository>UB</repository>
+                        <collection/>
+                        <idno>Voss. Lat. Q. 20</idno>
+                        <altIdentifier source="Rand">
+                            <idno>76</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>2215</idno>
+                        </altIdentifier>
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Geschichtsschreibung">
+                            <author>Curtius et al.</author>
+                            <title>Varia</title>
+                            <textLang mainLang="la"/>
+                            <msItem n="1.2">
+                                <locus from="9r" to="101v"/>
+                                <author>Quintus Curtius Rufus</author>
+                                <title></title>
+                            </msItem>
+                            <msItem n="1.3">
+                                <locus from="102r" to="116r"/>
+                                <author>Polemius</author>
+                            </msItem>
+                            <msItem n="1.4">
+                                <locus from="116r" to="129v"/>
+                                <author>Anonymus (Pseudo-Alexander der Große)</author>
+                            </msItem>
+                            <msItem n="1.5">
+                                <locus from="129v" to="141r"/>
+                                <author>Paulus Orosius</author>
+                            </msItem>
+                            <msItem n="1.6">
+                                <locus from="141r" to="144v"/>
+                                <author>Isidor von Sevilla</author>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="144">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="26.5"/>
+                                        <width n="22.5"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="20.5"></height>
+                                        <width n="16.0"></width>
+                                    </dimensions>
+                                </extent>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                                <layout writtenLines="26"/>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                        <handNote source="Onlinekatalog">drei Hände</handNote>                            
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Onlinekatalog">turonische Minuskel</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                        </decoDesc>
+                        <additions>
+                            </additions>
+                        <bindingDesc>
+                            <decoNote>Pappeinband in Pergament aus dem 17. Jhd.</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875">2. und 3. Viertel 9. Jhd.</origDate></p>
+                            <p><origDate source="Onlinekatalog" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jahrhundert</origDate></p>
+                            <note>Nur die Folio 9-144. Ob Anfang oder Mitte des 9. Jhds. ist nicht geklärt. Die Entstehung in Tours dagegen ist nicht umstritten.</note>
+                        </origin>
+                        <provenance type="Provenance"></provenance>
+                        <provenance></provenance>
+                        <acquisition><name type="Repository">UB Leiden</name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno/>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://primarysources.brillonline.com/browse/vossiani-latini/vlq-020-fredegarius-scholasticus-dares-phrygius-curtius-rufus-iulius-valerius-alexander-magnus-et-dindimus-ex-orosio-isidorus-hispalensis</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="134 135"/></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="57"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"/>
+        </body>
+    </text>
+</TEI>
+
+
+
