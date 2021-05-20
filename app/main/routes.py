@@ -290,7 +290,10 @@ def handschrift(manuscript: str):
             title = bibl.xpath('tei:idno/text()', namespaces=current_app.namespaces)[0].upper() if bibl.xpath('tei:idno/text()', namespaces=current_app.namespaces) else ''
             pages = ''
             if bibl.xpath('tei:biblScope/@n', namespaces=current_app.namespaces):
-                pages = 'S. ' + bibl.xpath('tei:biblScope/@n', namespaces=current_app.namespaces)[0].replace(' ', '-')
+                if bibl.xpath('tei:biblScope/@unit="pp"', namespaces=current_app.namespaces):
+                    pages = 'S. ' + bibl.xpath('tei:biblScope/@n', namespaces=current_app.namespaces)[0].replace(' ', '-')
+                else:
+                    pages = bibl.xpath('tei:biblScope/@n', namespaces=current_app.namespaces)[0].replace(' ', '-')
             elif bibl.xpath('tei:biblScope/@from', namespaces=current_app.namespaces):
                 pages = 'S. ' + bibl.xpath('tei:biblScope/@from', namespaces=current_app.namespaces)[0] + '-' + bibl.xpath('tei:biblScope/@to', namespaces=current_app.namespaces)[0]
             elif bibl.xpath('tei:biblScope//text()', namespaces=current_app.namespaces):

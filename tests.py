@@ -259,3 +259,8 @@ class TestRoutes(CoenoturTests):
             metadata = self.get_context_variable('m_d')
             self.assertEqual(metadata['general_notes'],
                              ['Dieses Missale wurde in St-Martin verwendet. Es findet sich weder im Katalog von Montfaucon, noch in dem von Chalmel, vermutlich, weil es so wertvoll war, dass es im Tresor und nicht in der Bibliothek gelagert wurde (DORANGE).'])
+
+            # Test biblScope with @n but without @unit="pp"
+            r = c.get('/handschrift/Paris_BnF_Latin_4418_desc.xml', follow_redirects=True)
+            metadata = self.get_context_variable('m_d')
+            self.assertEqual(metadata['bibliography']['UBL 2014'], ['passim'])
