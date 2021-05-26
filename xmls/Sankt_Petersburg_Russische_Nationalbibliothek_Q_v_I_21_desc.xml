@@ -1,0 +1,110 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Sankt Petersburg, Russische Nationalbibliothek, Q. v. I. 21</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Russia</country>
+                  <settlement>Sankt Petersburg</settlement>
+                  <repository>Russische Nationalbibliothek</repository>
+                  <collection/>
+                  <idno>Q. v. I. 21</idno>
+                  <altIdentifier source="Rand">
+                     <idno>102</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>36</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>2319</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel Evangelien">
+                     <author/>
+                     <title>Evangelien</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="196">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="30.1"/>
+                              <width n="22.7"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="21.0"/>
+                              <width n="15.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="21"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">Minuskel und reichliche Verwendung von Halbunziale</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>vorhanden
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Köhler" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Fischer Bischoff" cert="medium"><orgName>Marmoutier</orgName><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0845">ca. 834-843</origDate></p>
+                     <note>Leider begründen weder FISCHER noch BISCHOFF die Entstehung in Marmoutier nicht, so dass diese Theorie als unwahrscheinlich gelten muss.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">RNB</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="149"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="391 392"/></bibl>
+                     <bibl><idno>Fischer  1971</idno><biblScope unit="pp" n="63"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="83"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
