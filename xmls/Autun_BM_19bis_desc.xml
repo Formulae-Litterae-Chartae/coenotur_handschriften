@@ -93,11 +93,11 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D01010038</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="150"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="236 237"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="393 396"/></bibl>
-                     <bibl><idno>Bischoff 1994</idno><biblScope unit="pp" n="37"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="37"/></bibl>
                      <bibl><idno>Voyer 2015</idno><biblScope unit="pp" n=""/></bibl>
                   </listBibl>
                </additional>

@@ -1,0 +1,103 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Den Haag, Museum Meermanno-Westreenianum, 10 A 1</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note>Beschrieben sind nur die Folio 1-41 und 44-119</note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Niederlande</country>
+                        <settlement>Den Haag</settlement>
+                        <repository>Museum Meermanno-Westreenianum</repository>
+                        <collection></collection>
+                        <idno>10 A 1</idno>
+                        <altIdentifier source="CLA">
+                            <idno>1571</idno>
+                        </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>1463a</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Theologie Exegese">
+                            <author>Philippus Presbyter</author>
+                            <title>Exposition in Iob</title>
+                            <textLang mainLang="la"></textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent n="199">
+                                    <dimensions type="leaf" unit="cm">
+                                        <height n="33.0"/>
+                                        <width n="23.0"/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height n="26.0"/>
+                                        <width n="15.5"/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                                <layout writtenLines="33">33 Linien im Schnitt</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote/>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote source="Onlinekatalog">Merowingische Buchschrift</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p n="Exlibris"><locus n="126r"/><seg type="lat">Liber sancti Martini Turonensis.</seg></p>
+                        <p n="tironischen noten" source="Hellmann">Notizen und Lagenkontrollvermerke</p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote>Pergamenteinband vor 1764</decoNote>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                             <p><origPlace source="CLA Hellmann Onlinekatalog" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                             <p><origDate source="CLA Hellmann" cert="medium" notBefore="0725" notAfter="0775">Mitte 8. Jhd.</origDate></p>
+                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0810">Anfang 9. Jhd.</origDate></p>
+                        <note>Da die Handschrift zahlreichen frühen Handschriften aus St-Martin (NAL 1575; Épinal 149 (68); Köln Dombiliothek 98; Wolfenbüttel Weiss. 86; Leiden, Voss. Lat. Qu. 63) ähnelt, ist eine Entstehung dort sehr wahrscheinlich.</note>
+                        </origin>
+                        <provenance type="Provenance"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></provenance>
+                       <provenance source="CLA">Die Handschrift war bis in die Zeit von Montfaucon (gest. 1741) noch in St-Martin.</provenance>
+                       <provenance source="CLA">Die Handschrift verschwand dort anscheinend während der Französischen Revolution</provenance>
+                        <acquisition><name type="Repository"></name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://mmm-web.adlibhosting.com/AIS6/Details/fullCatalogue/50000322</idno></bibl>
+                            <bibl><idno>Bischoff 1971</idno><biblScope unit="pp" n="13"></biblScope></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="300"></biblScope></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope></biblScope></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body><div type="edition"></div></body></text>
+</TEI>

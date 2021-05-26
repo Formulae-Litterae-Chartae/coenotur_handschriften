@@ -1,0 +1,100 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Florenz, Museo Nazionale, Bargello-Fächer</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Dieser Elfenbeinfächer enthält eine Inschrift, die vielleicht aus Tours stammen könnte. Sie wird hier aufgelistet, damit der Katalog von RAND vollständiig übernommen wird. Es wurden keine weiteren Informationen über dieses Stück gefunden.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <settlement>Florenz</settlement>
+                  <repository>Museo Nazionale</repository>
+                  <collection/>
+                  <idno></idno>
+                  <altIdentifier source="Rand">
+                     <idno>110</idno>
+                  </altIdentifier>
+                  <msName>Bargello-Fächer</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Inschrift">
+                     <author/>
+                     <title>Eine Inschrift auf einem Elfenbein-Fächer</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc >
+                     <supportDesc>
+                        <extent n="">
+                           <dimensions type="leaf" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout />
+                        <layout/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Rand">"The inscription on the fan, in square capitals, rustic capitals and uncials, might well be Tours, of the mid-century."</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0825" notAfter="0875">"mid-century"</origDate></p>
+                     <note>Wenig kann gesagt werden. RAND selbst zweifelt an Tours: "The connection of one of the Virgilian scenes with one in the <seg type="lat">Codex Romanus</seg> of Virgil suggests the possibility that the fan may have been made at St. Denis, where, at the least later in the Middle Ages, the Codex was kept. Perhaps I should assign the fan to Period VIII, or not Tours at all. I consider it at this point because the lettering seems characteristic of the present period."</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository"></name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="152"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Basel, UB, AN I 3</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note/></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Basel</settlement>
+                  <repository>UB</repository>
+                  <collection/>
+                  <idno>AN I 3</idno>
+                  <altIdentifier source="Rand">
+                     <idno>95</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>15</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>256</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Bibel</title>
+                     <textLang mainLang="la"/>
+                     <note>nur der zweite Teil</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="174">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="55.2"/>
+                              <width n="37.2"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="38.4"/>
+                              <width n="26.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="51"/>
+                        <layout><p source="Berger">macnhe Anfänge in Halbunziale, jedoch vielleicht eine Imitation von Tours (?)</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Bischoff">mehrere Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">Minuskel</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote n="canon">Kanontafeln im Stil von Tours</decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p n="Exlibris"><locus n="174v"/><seg type="lat">Iste liber est Conradi Cleinherre sumissarit ecclesie argentinensis adtempus vite sue; post mortem predicti Conradi est fratrum Cartusiensium sicut donatus est per dominum Johannem Mader summissarium ecclesie supradicte.</seg></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Köhler">Holzdeckel mit Lederbindung</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff Ganz" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
+                     <note><p source="Berger">Die völlig abweichende Ordnung der Bücher sollte bei einer Lokalisierung nach Tours skeptisch machen.</p>
+                        <p>Auch RAND hat noch Zweifel an einer Entstehung in Tours, die KÖHLER bereits nichts mehr hat.</p>
+                     <p>Dadurch, dass die Handschrift in der Liste von GANZ auftaucht, scheint eine Zuordnung nach Tours (und damit St-Martin) nicht mehr angezweifelt zu werden.</p></note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance source="Berger">Gelangte nach dem Tod des Conrad Cleinherre, Kantor der Kathedrale, an die Kartause von Straßburg.</provenance>
+                  <provenance source="Berger">Ging dann, kurz nach der Gründung 1401, mit zahlreichen anderen Handschriften von Straßburg an die Kartause in Basel über.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://basel.swisscovery.org/permalink/41SLSP_UBS/mmbbsj/alma9972420019305504</idno></bibl>
+                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="224"/></bibl>
+                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="376"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="146 147"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="120 126"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="373 374"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
+                     <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="62"/></bibl>
+                     <bibl><idno>McKitterick 1994</idno><biblScope unit="pp" n="71"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="57"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

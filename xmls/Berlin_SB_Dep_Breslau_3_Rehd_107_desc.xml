@@ -1,0 +1,95 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fre">
+        <fileDesc>
+            <titleStmt>
+                <title>Berlin, SB, Dep. Breslau 3 (Rehd. 107)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:lang="deu">Coenotur Projekt</publisher>
+            </publicationStmt>
+            <notesStmt><note>Die Handschrift ist 1945 zerstört worden.</note></notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Berlin</settlement>
+                        <repository>SB</repository>
+                        <collection></collection>
+                        <idno>Dep. Breslau 3</idno>
+                        <altIdentifier source="Rehd.">
+                            <idno>107</idno>
+                        </altIdentifier>
+                        <altIdentifier source="CLA">
+                            <idno>1072</idno>
+                        </altIdentifier>
+                        <msName></msName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="Theologie">
+                            <author>Orosius</author>
+                            <title>Historia adversus paganos</title>
+                            <textLang mainLang="la"></textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <dimensions type="leaf" unit="cm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote/>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote/>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions> <p source="Martinellus.de" n="tironischen Note"></p>
+                        </additions>
+                        <bindingDesc>
+                            <decoNote/>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origPlace source="CLA Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                             <p><origDate source="CLA" cert="medium" notBefore="0750" notAfter="0800">2. Hälfte 8. Jhd.</origDate></p>
+                        </origin>
+                        <provenance source="CLA">Die Handschrift gehört dem Humanisten Thomas Rehdinger (gest. 1576), und gelangte mit dessen Bibliothek an die Stadt Breslau.</provenance>
+                        <acquisition><name type="Repository"></name></acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <bibl>
+                                <title type="gmd">Digitalisat</title>
+                                <idno></idno>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031018706%22&amp;dmode=doc#|4</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="147"></biblScope></bibl>
+                            <bibl><idno>Martinellus.de</idno></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body><div type="edition"></div></body></text>
+</TEI>
