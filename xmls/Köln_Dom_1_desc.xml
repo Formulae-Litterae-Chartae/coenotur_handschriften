@@ -16,7 +16,7 @@
                   <repository>Dombibliothek</repository>
                   <collection/>
                   <idno>1</idno>
-                  <altIdentifier source="Anderson">
+                  <altIdentifier source="Anderson/Black">
                      <idno>34,984</idno>
                   </altIdentifier>
                   <altIdentifier source="Rand">
@@ -63,7 +63,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Anderson">eine Hand</handNote>
+                     <handNote source="Anderson/Black">eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>karolingische Minuskel, (Halb-)Unziale</scriptNote>
@@ -77,16 +77,16 @@
                         Konkordanz zu den Paulusbriefen</decoNote>
                   </decoDesc>
                   <additions>
-                     <p source="Anderson">einzelne Ergänzungen aus dem 13.-15. Jhd.</p>
-                     <p source="Anderson"><locus n="338v"/>Zeichnung einer männlichen Büste</p>
+                     <p source="Anderson/Black">einzelne Ergänzungen aus dem 13.-15. Jhd.</p>
+                     <p source="Anderson/Black"><locus n="338v"/>Zeichnung einer männlichen Büste</p>
                      <p n="Exlibris"><locus n="1r"/><seg type="lat">LIBER S(AN)C(T)I PETRI A PIO
                            PATRE HERIMANNO DATUS</seg> (890-923)</p>
-                     <p n="Exlibris" source="Anderson"><locus n="1r"/><seg type="lat">Rutgheri</seg>
+                     <p n="Exlibris" source="Anderson/Black"><locus n="1r"/><seg type="lat">Rutgheri</seg>
                         (9./10. Jhd.)</p>
-                     <p n="Exlibris" source="Anderson"><locus n="1r"/><seg type="lat">In tabula
+                     <p n="Exlibris" source="Anderson/Black"><locus n="1r"/><seg type="lat">In tabula
                            altaris beate marie accepte sunt, pro xviiii m. argenti, xiii m. auri et
                            dimidium</seg> (12./13. Jhd.)</p>
-                     <p n="Exlibris" source="Anderson"><locus n="1r"/><seg type="lat">Hic liber est
+                     <p n="Exlibris" source="Anderson/Black"><locus n="1r"/><seg type="lat">Hic liber est
                            sancti petri in colonia concessus conventui de prato sancte marie per
                            manum domini alberti subdecani, quem idem conventus reddet sine
                            contradictione, cum repitittus fuerit a capitulo sancti petri, sicut
@@ -109,7 +109,7 @@
                      <note>Die Entstehung in Tours sowie die Datierung in die 2. Hälfte des 9. Jhd.
                         können als sicher angesehen weren. Als terminus ante quem scheint 890
                         gesichert, da in diesem Jahr die Amtszeit des Erzbischofes Hermann I.
-                        begann. Sowohl Bischoff als Anderson schlagen eine Datierung zwischen 857
+                        begann. Sowohl Bischoff als auch Anderson/Black schlagen eine Datierung zwischen 857
                         und 862 vor, ohne diese jedoch genauer zu begründen.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Dombibliothek Köln</orgName></provenance>
@@ -133,7 +133,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="164 165"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="6"/></bibl>
                      <bibl><idno>von Euw 1989</idno><biblScope unit="pp" n="46 47"/></bibl>
-                     <bibl><idno>Anderson 1997</idno></bibl>
+                     <bibl><idno>Anderson/Black 1997</idno></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="386"/></bibl>
                   </listBibl>
                </additional>
