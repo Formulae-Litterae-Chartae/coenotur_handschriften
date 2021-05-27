@@ -3,12 +3,12 @@
     <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
-                <title>Laon, BM, 220</title>
+                <title>Laon, BM, 63</title>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note>Es handelt sich um ein prächtiger Exemplar aus St-Martin</note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -16,71 +16,68 @@
                         <settlement>Laon</settlement>
                         <repository>BM</repository>
                         <collection/>
-                        <idno>220</idno>
+                        <idno>63</idno>
                         <altIdentifier source="Rand">
-                            <idno>75</idno>
+                            <idno>112</idno>
                         </altIdentifier>
                         <altIdentifier source="Köhler">
-                            <idno>23</idno>
+                            <idno>42</idno>
                         </altIdentifier>
                         <altIdentifier source="Bischoff">
-                            <idno>2093</idno>
+                            <idno>2057</idno>
                         </altIdentifier>
                         <msName/>
                     </msIdentifier>
                     <msContents>
-                        <msItem>
-                            <author>Amalarius</author>
-                            <title>De ecclesiasticis officiis</title>
+                        <msItem class="Bibel Evangeliar">
+                            <author/>
+                            <title>Evangeliar</title>
                             <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent n="176">
+                                <extent n="236">
                                     <dimensions type="leaf" unit="cm">
-                                        <height n="24.0"/>
-                                        <width n="18.4"/>
+                                        <height n="29.0"/>
+                                        <width n="23.8"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="20.3"/>
-                                        <width n="13.6"/>
+                                        <height n="21.0"/>
+                                        <width n="14.0"/>
                                     </dimensions>
                                 </extent>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
-                                <layout writtenLines="25 26">26 (25)</layout>
+                                <layout writtenLines="21 22">(21) 22</layout>
                                 <layout><p></p></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Köhler">wechselnde Hände von verschiedener Sorgfalt</handNote>
-                            <handNote source="Rand">mindestens 5 Hände</handNote>
+                            <handNote/>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Rand">turonische Minuskel</scriptNote>
+                            <scriptNote source="Rand">"Perfected". "Semiuncial occasionally Embellished"</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
-                            </decoNote>
+                            <decoNote source="Köhler">vorhanden</decoNote>
                         </decoDesc>
                         <additions>
                         </additions>
                         <bindingDesc>
-                            <decoNote/>
+                            <decoNote source="Köhler">Holzdeckel</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Rand Köhler Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Rand" cert="high" notBefore="0823" notAfter="0835">kurz nach der Entstehung des Werkes</origDate></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                            <note>Die Argmuente von RAND für eine Entstehung der Handschrift kurz nach der Abfassung des Werkes erscheinen überzeugend.</note>
+                            <p><origPlace source="Rand Köhler Bischoff Denoël" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Fischer Bischoff" cert="medium" notBefore="0843" notAfter="0851">unter Vivian (843-851)</origDate></p>
+                            <note>Die Entstehung in Tours kann als gesichert angesehen werden. Die Datierung unter Vivian erscheint durch den Vergelich mit anderen Bibeln und Evangeliaren wahrscheinlich.</note>
                         </origin>
-                        <provenance type="Provenance"><orgName>St-Vincent</orgName>, <placeName>Laon</placeName></provenance>
+                        <provenance type="Provenance"><orgName>Notre-Dame</orgName>, <placeName>Laon</placeName></provenance>
                         <provenance></provenance>
                         <acquisition><name type="Repository">BM</name></acquisition>
                     </history>
@@ -88,14 +85,16 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno>http://manuscrit.ville-laon.fr/_app/index.php?type_recherche=cote&amp;choix_secondaire=Ms%2063&amp;tri=</idno>
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D01020697</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="134"/></bibl>
-                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="379 380"/></bibl>
-                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="29 30"/></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D01020119</idno></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc112249k/cN65595</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="153"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="405 406"/></bibl>
+                            <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="64"/></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="22"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
