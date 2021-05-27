@@ -3,50 +3,54 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Florenz, Museo Nazionale, Bargello-Fächer</title>
+            <title>Grenoble, AD, Fragm. s. n.</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Dieser Elfenbeinfächer enthält eine Inschrift, die vielleicht aus Tours stammen könnte. Sie wird hier aufgelistet, damit der Katalog von RAND vollständiig übernommen wird. Es wurden keine weiteren Informationen über dieses Stück gefunden. (Er wird als Fragment gelistet, damit er aus der Suche gefiltert werden kann).</note></notesStmt>
+         <notesStmt><note>Es handelt sich um mehrere Fragmente, die nicht nur in den AD sondern auch in der BM unter der den Signaturen "Ms. 4146 (1)" und "R 7887 (2090)" verteilt zu finden sind.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>Italy</country>
-                  <settlement>Florenz</settlement>
-                  <repository>Museo Nazionale</repository>
+                  <country>France</country>
+                  <settlement>Grenoble</settlement>
+                  <repository>AD</repository>
                   <collection/>
-                  <idno></idno>
+                  <idno>Fragm. s. n.</idno>
                   <altIdentifier source="Rand">
-                     <idno>110</idno>
+                     <idno>111</idno>
                   </altIdentifier>
-                  <msName>Bargello-Fächer</msName>
+                  <altIdentifier source="Bischoff">
+                     <idno>1468</idno>
+                  </altIdentifier>
+                  <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Inschrift">
+                  <msItem class="Bibel Evangelien">
                      <author/>
-                     <title>Eine Inschrift auf einem Elfenbein-Fächer</title>
+                     <title>Evangelien</title>
                      <textLang mainLang="la"/>
+                     <note>Die Fragmente erhalten Teile der Evangelien von Matthäus und Luca</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="frag">
-                     <supportDesc>
-                        <extent n="">
+                     <supportDesc material="perg">
+                        <extent n="23">insgesamt 23 Blätter (2 Dopp. in den AD, in der BM 1 Bl. und 9 Dopp.)
                            <dimensions type="leaf" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="32.0"/>
+                              <width n="25.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="21.0"/>
+                              <width n="13.3"/>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout/>
+                        <layout columns="1"/>
+                        <layout writtenLines="22"/>
                         <layout><p></p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -54,7 +58,7 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">"The inscription on the fan, in square capitals, rustic capitals and uncials, might well be Tours, of the mid-century."</scriptNote>
+                     <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -68,13 +72,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0825" notAfter="0875">"mid-century"</origDate></p>
-                     <note>Wenig kann gesagt werden. RAND selbst zweifelt an Tours: "The connection of one of the Virgilian scenes with one in the <seg type="lat">Codex Romanus</seg> of Virgil suggests the possibility that the fan may have been made at St. Denis, where, at the least later in the Middle Ages, the Codex was kept. Perhaps I should assign the fan to Period VIII, or not Tours at all. I consider it at this point because the lettering seems characteristic of the present period."</note>
+                     <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0750">ca. 3. Viertel 9. Jhd.</origDate></p>
+                     <note/>
                   </origin>
-                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance type="Provenance"><orgName>Kathedrale</orgName> von <placeName>Grenoble</placeName></provenance>
                   <provenance></provenance>
-                  <acquisition><name type="Repository"></name></acquisition>
+                  <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
@@ -85,7 +89,8 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="152"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="153"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="306"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

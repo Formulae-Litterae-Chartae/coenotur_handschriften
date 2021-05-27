@@ -3,7 +3,7 @@
     <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
-                <title>Laon, BM, 220</title>
+                <title>Laon, BM, 216</title>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -16,58 +16,56 @@
                         <settlement>Laon</settlement>
                         <repository>BM</repository>
                         <collection/>
-                        <idno>220</idno>
-                        <altIdentifier source="Rand">
-                            <idno>75</idno>
-                        </altIdentifier>
-                        <altIdentifier source="Köhler">
-                            <idno>23</idno>
-                        </altIdentifier>
+                        <idno>216</idno>
                         <altIdentifier source="Bischoff">
-                            <idno>2093</idno>
+                            <idno>2092</idno>
                         </altIdentifier>
                         <msName/>
                     </msIdentifier>
                     <msContents>
-                        <msItem>
-                            <author>Amalarius</author>
-                            <title>De ecclesiasticis officiis</title>
+                        <msItem class="Theologie">
+                            <author>Ambrosius</author>
+                            <title>De officiis</title>
                             <textLang mainLang="la"/>
+                        </msItem>
+                        <msItem class="Theologie">
+                            <author>Beda Venerabilis</author>
+                            <title>De locis sanctis</title>
+                            <textLang mainLang="la"></textLang>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent n="176">
+                                <extent n="73">
                                     <dimensions type="leaf" unit="cm">
-                                        <height n="24.0"/>
-                                        <width n="18.4"/>
+                                        <height n="24.5"/>
+                                        <width n="22.2"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="20.3"/>
-                                        <width n="13.6"/>
+                                        <height n="16.2"/>
+                                        <width n="14.4"/>
                                     </dimensions>
                                 </extent>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
-                                <layout writtenLines="25 26">26 (25)</layout>
+                                <layout writtenLines="29"/>
                                 <layout><p></p></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Köhler">wechselnde Hände von verschiedener Sorgfalt</handNote>
-                            <handNote source="Rand">mindestens 5 Hände</handNote>
+                            <handNote source="Bischoff">mehr als eine Hand</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Rand">turonische Minuskel</scriptNote>
+                            <scriptNote source="Bischoff">turonische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
-                            </decoNote>
+                            <decoNote/>
                         </decoDesc>
                         <additions>
+                            <p n="Tironsiche Noten" source="Hellmann">Es gibt wohl tironische Noten, die aber im Katalog von Hellmann nicht weiter beschrieben sind.</p>
                         </additions>
                         <bindingDesc>
                             <decoNote/>
@@ -75,13 +73,12 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Rand Köhler Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Rand" cert="high" notBefore="0823" notAfter="0835">kurz nach der Entstehung des Werkes</origDate></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                            <note>Die Argmuente von RAND für eine Entstehung der Handschrift kurz nach der Abfassung des Werkes erscheinen überzeugend.</note>
+                            <p><origPlace source="Bischoff Hellmann" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff Hellmann" cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
+                            <note>Eine Entstehung in Tours erscheint aufgrund der Schrift wahrscheinlich. BISCHOFF vermutet, dass Ergänzungen im "Lupus-Stil" in Ferrrières entstanden sein könnten.</note>
                         </origin>
-                        <provenance type="Provenance"><orgName>St-Vincent</orgName>, <placeName>Laon</placeName></provenance>
-                        <provenance></provenance>
+                        <provenance type="Provenance"><orgName>Notre-Dame</orgName>, <placeName>Laon</placeName></provenance>
+                        <provenance>Die Handschrift gehörte bereits im 12. Jahrhundert der Kathedrale von Laon</provenance>
                         <acquisition><name type="Repository">BM</name></acquisition>
                     </history>
                     <additional>
@@ -92,10 +89,9 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D01020697</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="134"/></bibl>
-                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="379 380"/></bibl>
-                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="29 30"/></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D01020685</idno></bibl>
+                            <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="29"/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
