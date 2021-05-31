@@ -9,28 +9,24 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note>Es handelt sich um die wichtigste überlieferte Cicero-Handschrift. Sie ist stark beschädigt. Neben dem Großteil, der in London liegt, liegt ein einzelnes Blatt in Genf.</note></notesStmt>
+            <notesStmt><note>Es handelt sich um die wichtigste überlieferte Cicero-Handschrift. Sie ist stark beschädigt. Neben dem Großteil, der in London liegt, liegt ein einzelnes Blatt in Genf unter der Signatur, BPU, Ms. lat. 169.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier>
-                        <msName></msName>
-                        <altIdentifier source="Holkham Hall">
-                            <idno>387</idno>
-                        </altIdentifier>
-                    <altIdentifier source="Rand">
-                        <idno>25</idno>
-                    </altIdentifier>
-                    <altIdentifier source="Bischoff">
-                        <idno>2409</idno>
-                    </altIdentifier>
-                    </msIdentifier>
-                    <msFrag>
                         <msIdentifier>
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
                         <repository>BL</repository>
                         <collection/>
                         <idno>Add. 47678</idno>
+                            <altIdentifier source="Holkham Hall">
+                                <idno>387</idno>
+                            </altIdentifier>
+                            <altIdentifier source="Rand">
+                                <idno>25</idno>
+                            </altIdentifier>
+                            <altIdentifier source="Bischoff">
+                                <idno>2409</idno>
+                            </altIdentifier>
                         </msIdentifier> 
                         <msContents>
                         <msItem class="Klassiker">
@@ -43,7 +39,7 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent n="39">
+                                <extent n="39">39+1
                                     <dimensions type="leaf" unit="cm">
                                         <height n="31.8"/>
                                         <width n="23.2"/>
@@ -102,16 +98,6 @@
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="104"/></bibl>
                         </listBibl>
                     </additional>
-                    </msFrag>
-                    <msFrag>
-                        <msIdentifier>
-                            <country>Switzerland</country>
-                            <settlement>Genf</settlement>
-                            <repository>PUB</repository>
-                            <collection/>
-                            <idno>lat. 169</idno>
-                        </msIdentifier>
-                    </msFrag>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

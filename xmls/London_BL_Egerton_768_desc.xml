@@ -1,0 +1,109 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>London, BL, Egerton 768</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Diese Handschrift stammt mir sehr hoher Wahrscheinlichkeit nicht aus Tours. Sie wird in der Datenbank aufgelistet, da RAND sie nach Tours verordnet. Die Beschreibung und insbesondere die Bibliographie ist nicht vollständig.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Great Britain</country>
+                  <settlement>London</settlement>
+                  <repository>BL</repository>
+                  <collection/>
+                  <idno>Egerton 768</idno>
+                  <altIdentifier source="Rand">
+                     <idno>141</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>2434</idno>
+                  </altIdentifier>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Liturgie Bibel">
+                     <author/>
+                     <title>Evangeliar</title>
+                     <textLang mainLang="la"/>
+                     <note>Nut Lukas und Johannes</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="113">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="27.8"/>
+                              <width n="18.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="20.5"/>
+                              <width n="9.7"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="24"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Rand">ein Schreiber</handNote>
+                     <handNote source="Bischoff">mehr als eine Hand</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Rand">"Perfected Tours, rather than Franco-Saxon"</scriptNote>
+                     <scriptNote source="Köhler">"Ich kann in der Schrift nichts Turonisches finden"</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions></additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>, "Franco-Saxon Style"</origPlace></p>
+                     <p><origPlace source="Köhler" cert="high">nicht Tours</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">Vielleicht Corvey</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0899">4. Viertel 9. Jhd.</origDate></p>
+                     <note>Die Handschrift ist nicht in Tours entstanden.</note>
+                  </origin>
+                  <provenance type="Provenance"></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BL</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>http://www.bl.uk/manuscripts/Viewer.aspx?ref=egerton_ms_768_fs001r</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Egerton_MS_768</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="167"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="326"/></bibl>
+                     <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="110"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
