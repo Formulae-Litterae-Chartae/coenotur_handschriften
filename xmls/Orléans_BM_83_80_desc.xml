@@ -1,0 +1,110 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Orléans, BM, 83 (80)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Orléans</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>83 (80)</idno>
+                  <altIdentifier source="Mostert">
+                     <idno>515</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3683</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Excerpte">
+                     <author>Florus</author>
+                     <title>Collectio ex operibus S. Augustini in epistulas Pauli</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="530">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="37.2"/>
+                              <width n="31.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="26.5"/>
+                              <width n="22"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="38"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Bischoff">mehrere Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">"Freiere Verwednung des turonischen Schriftstils"</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p></p>
+                     <p n="tironische Noten" source="Hellmann"><locus n="42"/><locus n="64"/>Tironsiche Noten des 9. Jhds.</p>
+                     <p n="Exlibris" source="Mostert"><locus n="1"/>Exlibris aus Fleury. Laut MOSTERT vom Schreiber des Haupttextes.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName> (Zweigschule?)</origPlace></p>
+                     <p><origPlace source="Hellmann" cert="medium">Schriftheimat <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Mostert" cert="medium"><placeName>Fleury</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0860">Mitte 9. Jhd.</origDate></p>
+                     <note>Entstehung umstritten. MOSTERT deklariert die Handschrift als sicher aus Fleury stammend, da das Exlrbis aus Fleury von derselben Hand wied ie Hauptschrift sei. BISCHOFF dagegen spricht sich für Tours aus. Der Verweis auf eine "Zweigschule" bei BISCHOFF deutet darauf hin, dass die Schrift nicht vollends turonisch ist. Ein Indiz für Tours könnten die Tironischen Noten sein.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName>Fleury</placeName></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D18010735</idno></bibl>
+                     <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="127"/></bibl>
+                     <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="335 336"/></bibl>
+                     <bibl><idno>Martinellus.de</idno></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

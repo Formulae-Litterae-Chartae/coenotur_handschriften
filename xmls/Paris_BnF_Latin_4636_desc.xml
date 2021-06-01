@@ -16,6 +16,9 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 4636</idno>
+                  <altIdentifier source="Mordek">
+                     <idno>P17</idno>
+                  </altIdentifier>
                   <altIdentifier source="Bischoff">
                      <idno>4323</idno>
                   </altIdentifier>
@@ -67,6 +70,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
+                     <p><origPlace source="Mordek" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866"
                            >2. Drittel 9. Jhd.</origDate></p>
                   </origin>
@@ -84,6 +88,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc63486z</idno></bibl>
+                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="522 524"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="100"/></bibl>
                   </listBibl>
                </additional>

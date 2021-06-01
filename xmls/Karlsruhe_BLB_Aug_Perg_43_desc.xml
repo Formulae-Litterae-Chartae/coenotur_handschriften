@@ -1,0 +1,101 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Karlsruhe, BLB, Aug. perg. 43</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Karlsruhe</settlement>
+                  <repository>BLB</repository>
+                  <collection/>
+                  <idno>Aug. perg. 43</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>1598</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie Exegese">
+                     <author>Beda Venerabilis</author>
+                     <title>Expositio in Actus apostolorum; Epistulas catholicas; Apocalypsin</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="179">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="37.5"/>
+                              <width n="25.1"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="27.0"/>
+                              <width n="18.8"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="34"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">Tours-Min.</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff Hellmann" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
+                     <note>Der Onlinekatalog gibt als Entstehungsort "Reichenau?" und als Entstehungsdatum "14. Jhd." an. Vermutlich bezieht sich diese Angabe auf das deutlich spätere Vorblatt.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BLB</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://digital.blb-karlsruhe.de/blbhs/content/pageview/2304415</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/3380004</idno></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="335"/></bibl>
+                     <bibl><idno>Martinellus.de</idno></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

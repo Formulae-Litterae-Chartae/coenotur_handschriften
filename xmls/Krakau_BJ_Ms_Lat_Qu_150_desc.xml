@@ -88,10 +88,11 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno>https://jbc.bj.uj.edu.pl/dlibra/publication/206172/edition/194937/content</idno>
                             </bibl>
                         </surrogates>
                         <listBibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://jbc.bj.uj.edu.pl/dlibra/publication/206172/edition/194937#description</idno></bibl>
                             <bibl><title>Online Beschreibung</title>: <idno>http://www.leges.uni-koeln.de/mss/handschrift/berlin-sb-lat-qu-150/</idno></bibl>
                             <bibl><idno>Eckhardt 1962</idno><biblScope unit="pp" n="XVII"/></bibl>
                             <bibl><idno>Bischoff 1979</idno><biblScope unit="pp" n="257"/></bibl>
