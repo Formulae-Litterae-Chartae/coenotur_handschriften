@@ -1,0 +1,115 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Krakau, BJ, Ms. Lat. Qu. 404</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Krakau</settlement>
+                  <repository>BJ</repository>
+                  <collection/>
+                  <idno>Ms. Lat. Qu. 404</idno>
+                  <altIdentifier source="Rand">
+                     <idno>39</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>384</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Philiosophie">
+                     <author>Cicero</author>
+                     <title>De Amicitia</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem class="Philosophie">
+                     <author>Publius Syrus</author>
+                     <title>Sententiae</title>
+                  </msItem>
+                  <msItem class="Philosophie">
+                     <author>Eugenius Toletanus</author>
+                     <title>Carmen II, 1-2</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="43">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="21.0"/>
+                              <width n="14.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="16.5"/>
+                              <width n="10.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="21"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="bischoff">Turonischen Minuskel</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p n="tironische Noten" source="Hellmann">hic</p>
+                     <p n="Exlibris"><locus n="42r"/><seg type="lat">eccl. Constn</seg>, nicht zuzuordnen.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff Hellmann" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0820">Anfang 9. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BJ</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://jbc.bj.uj.edu.pl/dlibra/publication/208553/edition/197290/content</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://jbc.bj.uj.edu.pl/dlibra/publication/208553/edition/197290#description</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="114"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="80 81"/></bibl>
+                     <bibl><idno>Martinellus.de</idno></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
