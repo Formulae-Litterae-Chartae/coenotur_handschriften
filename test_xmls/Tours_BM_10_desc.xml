@@ -129,7 +129,12 @@
                             </p>
                         </musicNotation>
                         <decoDesc>
-                            <decoNote/>
+                             <decoNote source="First great source!" type="miniature">
+                                 <p><locus n="24r 215r">Federzeichnungen</locus></p>
+                             </decoNote>
+                             <decoNote>
+                                <p source="Second great source"><locus from="1r" to="2r"/>Cool drawings.</p>
+                             </decoNote>
                         </decoDesc>
                         <additions>
                             <p source="Collon">Die Kapitelübersicht weicht von der üblichen Weise
