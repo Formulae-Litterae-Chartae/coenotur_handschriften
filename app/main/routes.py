@@ -385,7 +385,7 @@ def handschrift(manuscript: str):
                                                                      ' (' + source.upper().replace('_', ' ') + ')'
                                                                      if source else '',
                                                                      end_symbol))
-    print(metadata['illuminations'])
+                
     return render_template('handschrift.html',
                            title=current_app.manuscript_dict[manuscript],
                            m_d=metadata,

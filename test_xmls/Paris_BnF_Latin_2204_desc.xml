@@ -111,8 +111,7 @@
                         <locus n="24r 215r">Federzeichnungen</locus>
                      </decoNote>
                      <decoNote>
-                        <locus from="1r" to="2r"/>
-                        <p source="Second great source">Cool drawings.</p>
+                        <p source="Second great source"><locus from="1r" to="2r"/>Cool drawings.</p>
                      </decoNote>
                   </decoDesc>
                   <additions>
