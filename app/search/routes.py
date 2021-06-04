@@ -6,7 +6,7 @@ from app.search import bp
 from json import dumps
 
 
-HIGHLIGHT_MAPPING = {'identifier': _('Signatur'),
+HIGHLIGHT_MAPPING = {'identifier.id': _('Signatur'),
                      'ms_item': _('Inhalt'),
                      'provenance': _('Geschichte der Handschrift'),
                      'person.name': _('Name'),
