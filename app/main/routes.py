@@ -5,6 +5,7 @@ from flask_login import login_required
 import re
 from app.main import bp
 from app.search.forms import SearchForm
+from collections import defaultdict
 
 language_mapping = {'la': 'Latein'}
 
@@ -330,30 +331,61 @@ def handschrift(manuscript: str):
                                                              ' ({})'.format(source.upper().replace('_', ' ')) if
                                                              source else '',
                                                              end_symbol))
-    metadata['illuminations'] = []
+    metadata['illuminations'] = defaultdict(list)
+    deco_types = {"miniature": "Ganzseite Miniaturen",
+                  "sminiature": "KleineMiniaturen",
+                  "figureinitial": "Figureninitialen",
+                  "initial": "Initialen",
+                  "canon": "Kanontafeln",
+                  "border": "Randilluminationen",
+                  "maniculae": "Maniculae",
+                  "frame": "Umrandung"}
     for deco in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote',
                           namespaces=current_app.namespaces):
-        locus = []
-        deco_text = ''.join(deco.xpath('.//text()')).rstrip()
+        deco_type = deco_types.get(deco.get('type'), 'Allgemeine Miniaturen')
         source = deco.get('source')
-        if not source:
-            for p_tag in deco.xpath('./tei:p/@source', namespaces=current_app.namespaces):
-                if p_tag:
-                    source = p_tag
-        for l in deco.xpath('tei:locus', namespaces=current_app.namespaces):
-            if l.get('n'):
-                locus.append(l.get('n'))
-            elif l.get('from'):
-                locus.append('{}{}'.format(l.get('from'), '-' + l.get('to') if l.get('to') else ''))
-        if locus or deco_text:
-            end_symbol = ''
-            if deco_text.strip().endswith('.'):
-                end_symbol = '.'
-            metadata['illuminations'].append('- {}{}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
-                                                                 deco_text.strip('. \n'),
-                                                                 ' (' + source.upper().replace('_', ' ') + ')'
-                                                                 if source else '',
-                                                                 end_symbol))
+        if deco.xpath('./tei:p', namespaces=current_app.namespaces):
+            for deco_p in deco.xpath('./tei:p', namespaces=current_app.namespaces):
+                locus = []
+                deco_text = ''.join(deco_p.xpath('.//text()')).rstrip()
+                if not source:
+                    source = deco_p.get('source', '')
+                for l in deco_p.xpath('tei:locus', namespaces=current_app.namespaces):
+                    if l.get('n'):
+                        locus.append(l.get('n'))
+                    elif l.get('from'):
+                        locus.append('{}{}'.format(l.get('from'), '-' + l.get('to') if l.get('to') else ''))
+                if locus or deco_text:
+                    end_symbol = ''
+                    if deco_text.strip().endswith('.'):
+                        end_symbol = '.'
+                    metadata['illuminations'][deco_type].append('- {}{}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
+                                                                         deco_text.strip('. \n'),
+                                                                         ' (' + source.upper().replace('_', ' ') + ')'
+                                                                         if source else '',
+                                                                         end_symbol))
+        else:
+            locus = []
+            deco_text = ''.join(deco.xpath('.//text()')).rstrip()
+            if not source:
+                for p_tag in deco.xpath('./tei:p/@source', namespaces=current_app.namespaces):
+                    if p_tag:
+                        source = p_tag
+            for l in deco.xpath('tei:locus', namespaces=current_app.namespaces):
+                if l.get('n'):
+                    locus.append(l.get('n'))
+                elif l.get('from'):
+                    locus.append('{}{}'.format(l.get('from'), '-' + l.get('to') if l.get('to') else ''))
+            if locus or deco_text:
+                end_symbol = ''
+                if deco_text.strip().endswith('.'):
+                    end_symbol = '.'
+                metadata['illuminations'][deco_type].append('- {}{}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
+                                                                     deco_text.strip('. \n'),
+                                                                     ' (' + source.upper().replace('_', ' ') + ')'
+                                                                     if source else '',
+                                                                     end_symbol))
+    print(metadata['illuminations'])
     return render_template('handschrift.html',
                            title=current_app.manuscript_dict[manuscript],
                            m_d=metadata,
