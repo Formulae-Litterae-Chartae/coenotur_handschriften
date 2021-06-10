@@ -70,7 +70,13 @@
                             <scriptNote/>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
+                            <decoNote type="initial">
+                                <p><locus n="77r"/>Initiale. </p>
+                                <p><locus n="232r"/>Initiale. </p>
+                            </decoNote>
+                            <decoNote type="border" subtype="add">
+                                <p><locus n="235v"/>Kritzelei/Initiale</p>
+                                <p><locus n="236v, 242v 243v, 244v, 246v, 253v, 270v, 272v, 293v"/>Kritzelei</p>
                             </decoNote>
                         </decoDesc>
                         <additions>

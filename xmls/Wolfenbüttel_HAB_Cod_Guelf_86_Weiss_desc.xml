@@ -65,7 +65,13 @@
                             <scriptNote>Vorkarolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote type="initial">
+                                <p><locus n="25r, 30v, 38v"/>Verschönerte Initiale in der Farbe des Textes. </p>
+                            </decoNote>
+                            <decoNote type="border" subtype="add">
+                                <p><locus n="124r"/>Kritzelei am oberen Rand in Rot/(Initiale?). </p>
+                                <p><locus n="141r"/>Schema. </p>
+                            </decoNote>
                         </decoDesc>
                         <additions><p n="tironische Noten" source="Butzmann Hellmann">Lagenzählung in tironischen Noten</p>
                         </additions>

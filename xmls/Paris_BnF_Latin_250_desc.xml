@@ -113,7 +113,30 @@
                      <scriptNote source="Rand">turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="miniature">
+                        <p><locus n="70v"/>Seite in Purpur mit Text in Gold</p>
+                     </decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="1r"/>Verschönerte Initiale in Farbe und Gold mit Flechtdekor.</p>
+                        <p><locus n="17v"/>Verschönerte Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="27r"/>Verschönerte Initiale in Farbe und Gold mit Flechtdekor.</p>
+                        <p><locus n="39r"/>Initiale in Gold mit rot umrandet.</p>
+                        <p><locus n="40r"/>Verschönerte Initiale in Farbe und Gold mit Flechtdekor.</p>
+                        <p><locus n="49r"/>Initiale in Gold mit rot umrandet.</p>
+                        <p><locus n="50r"/>Verschönerte Initiale in Farbe und Gold mit Flechtdekor.</p>
+                        <p><locus n="61v"/>Initiale in Gold mit rot umrandet.</p>
+                        <p><locus n="62r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="63r"/>Initiale in Gold mit rot umrandet.</p>
+                        <p><locus n="63v"/>Initiale in Gold mit rot umrandet.</p>
+                        <p><locus n="50r"/>Verschönerte Initiale in Farbe und Gold mit Flechtdekor.</p>
+                        <p><locus n="71v"/>Verschönerte Initiale in Farbe und Gold mit Flechtdekor.</p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="2v 3v"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
+                     </decoNote>
+                     <decoNote type="border" subtype="add">
+                        <p><locus n="5r"/>Schlüssel</p>
+                     </decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="1r">Bibliothekssignatur aus St-Denis aus dem 13. Jhd.

@@ -120,8 +120,79 @@
                      <scriptNote source="Rand">perfekte turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="2v"/>Verschönerte Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="6r"/>Verschönerte Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="22r"/>Initiale in Rot mit Pflanzmotiv.</p>
+                        <p><locus n="33v"/>Initiale.</p>
+                        <p><locus n="43r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="46v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="67v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="68r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="76r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="83v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="84r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="86r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="125r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="125v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="140v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="141r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="160r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="160v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="176r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="177r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="188v"/>Zwei Initialen in Farbe mit Flechtdekor.</p>
+                        <p><locus n="197r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="204r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="204v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="221r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="227v"/>Initiale.</p>
+                        <p><locus n="231v"/>Initiale.</p>
+                        <p><locus n="236v"/>Initiale.</p>
+                        <p><locus n="237v"/>Initiale in Farbe mit Planzmotiv.</p>
+                        <p><locus n="251r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="251v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="259v"/>Initiale in Farbe mit Planzmotiv.</p>
+                        <p><locus n="270v"/>Initiale.</p>
+                        <p><locus n="271r"/>Initiale in Farbe mit Planzmotiv.</p>
+                        <p><locus n="277v"/>Zwei Initialen.</p>
+                        <p><locus n="282v"/>Initiale in Farbe mit Planzmotiv.</p>
+                        <p><locus n="283r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="286r"/>Zwei Initialen.</p>
+                        <p><locus n="291r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="301r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="308r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="313r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="321r"/>Initiale.</p>
+                        <p><locus n="326v"/>Initiale.</p>
+                        <p><locus n="327v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="336r"/>Initiale.</p>
+                        <p><locus n="337r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="343r"/>Initiale.</p>
+                        <p><locus n="343v"/>Initiale in Farbe mit Planzmotiv.</p>
+                        <p><locus n="353v"/>Initiale in Farbe mit Planzmotiv.</p>
+                        <p><locus n="354r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="358v"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="359r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="360v"/>Initiale in Farbe mit Planzmotiv.</p>
+                        <p><locus n="361r"/>Initiale.</p>
+                        <p><locus n="362r"/>Initiale in Farbe mit Flechtdekor.</p>
+                        <p><locus n="371r"/>Initiale.</p>
+                        <p><locus n="374r"/>Initiale.</p>
+                        <p><locus n="377r"/>Initiale.</p>
+                        <p><locus n="379v"/>Initiale.</p>
+                        <p><locus n="383v"/>Initiale.</p>
+                        <p><locus n="388r"/>Initiale in Farbe mit Flechtdekor.</p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="309v 311r"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
+                        <p><locus n="359v 360r"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
+                     </decoNote>
+                     <decoNote type="frame">
+                        <p><locus n="2r"/>Bunte Rahmen mit Flechtdekor und Palmotiv.</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions/>
                   <bindingDesc>
                      <decoNote>Ledereinband des 17. Jhd.</decoNote>

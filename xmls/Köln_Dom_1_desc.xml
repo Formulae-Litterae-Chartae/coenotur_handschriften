@@ -69,13 +69,108 @@
                      <scriptNote>karolingische Minuskel, (Halb-)Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote><locus n="2r 303v"/>vollseitige Schmuckinitiale in Gold, Silber,
-                        Purpur, Grün, Gelb, Rot, Weiß, Schwarz</decoNote>
-                     <decoNote><locus from="300v" to="302r"/>architektonische Ausschmückung der
-                        Kanontafeln</decoNote>
-                     <decoNote><locus from="350v" to="351r"/>architektonische Ausschmückung der
-                        Konkordanz zu den Paulusbriefen</decoNote>
-                  </decoDesc>
+                     <decoNote type="initial">
+                        <p><locus n="2r"/>Verschönerte Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="5r"/>Verschönerte Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="6v"/>Verschönerte Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="21v"/>Verschönerte Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="33v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="42v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="55r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="66r"/>Verschönerte Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="66v"/>Verschönerte Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="74r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="81r"/>Verschönerte Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="82r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="83r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="93v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="101r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="128v"/>Initiale in Rot mit Palmotiv. </p>
+                        <p><locus n="139r"/>Initiale in Rot mit Flechtekor. </p>
+                        <p><locus n="139v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="146r"/>Initiale in Rot mit Flechtekor. </p>
+                        <p><locus n="146v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="150r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="150v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="158r"/>Zwei verschönerte Initialen in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="158v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="174r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="175r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="181v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="184v"/>Initiale mit einem Fries verziert. Füllen mit einem Musterf. </p>
+                        <p><locus n="186r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="190v"/>Initiale in Rot mit Flechtekor. </p>
+                        <p><locus n="191v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="206r"/>Zwei verschönerte Initialen in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="221v"/>Zwei verschönerte Initialen in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="240r"/>Zwei verschönerte Initialen in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="255r"/>Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="255v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="262r"/>Zwei verschönerte Initialen in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="264r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="265r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="266v"/>Zwei Initialen in Farbe mit Flechtdekor. </p>
+                        <p><locus n="267r"/>Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="268v"/>Initiale in Rot. </p>
+                        <p><locus n="269r"/>Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="270r"/>Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="270v"/>Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="271r"/>Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="273r"/>Initiale in Farbe. </p>
+                        <p><locus n="274r"/>Initiale in Rot. </p>
+                        <p><locus n="274r"/>Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="277r"/>Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="277r"/>Initiale in Rot. </p>
+                        <p><locus n="282r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="292r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="298v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="299r"/>Verschönerte Initiale in Silber und Rot mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="299v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="300r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="303r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="304r"/>Sehr große verschönerte Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="312r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="313r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="318v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="327r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="327v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="334v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="345r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="346r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="347v"/>Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="348r"/>Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="349r"/>Initiale in Farbe. </p>
+                        <p><locus n="349v"/>Zwei Initialen in Farbe. </p>
+                        <p><locus n="350r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="351v"/>Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="352r"/>Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="353r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="357r"/>Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="361r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="363v"/>Initiale in Rot. </p>
+                        <p><locus n="364r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="365v"/>Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="369r"/>Initiale in Rot. </p>
+                        <p><locus n="369v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="370v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="371v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="372v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="374r"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="374v"/>Verschönerte Initiale in Farbe mit Flechtdekor und Palmotiv. </p>
+                        <p><locus n="378r"/>Zwei verschönerte Initialen in Farbe mit Flechtdekor und Palmotiv. </p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="350v 351r"/>Ganzseitige Bunte Kanontafeln mit dekorierten architektonischen Rahmen. </p>
+                     </decoNote>
+                     <decoNote type="border">
+                        <p><locus n="87v"/>Flügelzeichnung am inneren Rand. </p>
+                        <p><locus n="338v"/>Zeichnung eines Gesichtes am Rand. </p>
+                     </decoNote>
+                     <decoNote type="frame">
+                        <p><locus n="1v"/>Vergoldeter, festonierter Rahmen, violetter Hintergrund und goldene Schrift. Die Ecken sind mit Palmen verziert. </p> 
+                        <p><locus n="303v"/>Bunte Rahmen mit Flechtdekor und Palmotiv. </p>
+                     </decoNote>
+                  </decoDesc>                  
                   <additions>
                      <p source="Anderson/Black">einzelne Ergänzungen aus dem 13.-15. Jhd.</p>
                      <p source="Anderson/Black"><locus n="338v"/>Zeichnung einer männlichen Büste</p>

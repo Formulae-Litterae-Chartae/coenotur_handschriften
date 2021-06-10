@@ -75,12 +75,20 @@
                             <scriptNote>karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
+                            <decoNote type="figureinitial">
+                                <p><locus n="5r"/>Verschönerte Initiale in der Farbe des Textes. </p>
+                                <p><locus n="52v"/>Verschönerte Initiale in der Farbe des Textes. </p>
+                                <p><locus n="81r"/>Verschönerte Initiale in der Farbe des Textes. </p>
+                                <p><locus n="85r"/>Verschönerte Initiale mit Farbe. </p>
+                            </decoNote>
+                            <decoNote type="initial">
+                                <p><locus n="7v"/>Initiale. </p>
+                            </decoNote>
+                            <decoNote type="canon">
+                                <p><locus n="80r 80v"/>Ohne dekoration. </p>
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
-                            <p></p>
                         </additions>
                         <bindingDesc>
                             <decoNote>Moderner Einband</decoNote>

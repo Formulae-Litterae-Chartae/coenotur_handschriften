@@ -84,8 +84,31 @@
                      <scriptNote>turonische Minuskel; Halbunziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>Miniaturen vorhanden</decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="10r"/> Initiale in Gold mit Rot umrandet.</p>
+                        <p><locus n="20r"/> Initiale in Gold mit Rot umrandet.</p>
+                        <p><locus n="34v"/> Initiale in Gold mit Rot umrandet.</p>
+                        <p><locus n="46r"/> Initiale in Rot.</p>
+                        <p><locus n="46v"/> Initiale in Gold und Rot.</p>
+                        <p><locus n="55r"/> Initiale in Gold mit Rot umrandet.</p>
+                        <p><locus n="63v"/> Initiale in Rot und Schwarz. </p>
+                        <p><locus n="64v"/> Initiale in Rot.</p>
+                        <p><locus n="66r"/> Initiale in Gold mit Rot umrandet.</p>
+                        <p><locus n="77v"/> Verschönerte Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="89r"/> Initiale in Gold mit Rot umrandet.</p>
+                        <p><locus n="105r"/> Initiale in Gold mit Rot umrandet.</p>
+                        <p><locus n="110v"/> Initiale in Rot und Schwarz. </p>
+                        <p><locus n="111v"/> Initiale in Gold mit Rot umrandet.</p>
+                        <p><locus n="121v"/> Initiale in Rot und Schwarz. </p>
+                        <p><locus n="122r"/> Verschönerte Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="129r"/> Initiale in Gold mit Rot umrandet.</p>
+                        <p><locus n="130r"/> Verschönerte Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="145v"/> Initiale in Grau mit Rot umrandet.</p>
+                        <p><locus n="171v"/> Verschönerte Initiale in Farbe und Gold mit Flechtdekor. </p>
+                        <p><locus n="175v"/> Initiale in Gold mit Rot umrandet.</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p><locus n="33r 33v"/>vereinzelte Korrekturen</p>
                   </additions>
