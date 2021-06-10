@@ -57,7 +57,23 @@
                             <scriptNote/>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
+                            <decoNote type="initial">
+                                <p><locus n="12r"/> Verschönerte Initiale. </p>				
+                                <p><locus n="46r"/> Verschönerte Initiale. </p>
+                                <p><locus n="68v"/> Verschönerte Initiale. </p>
+                                <p><locus n="103r"/> Initiale. </p>	
+                                <p><locus n="104r"/> Verschönerte Initiale. </p>
+                            </decoNote>
+                            <decoNote type="canon">
+                                <p><locus n="3r 9v"/>Ohne dekoration</p>
+                            </decoNote>
+                            <decoNote type="border">
+                                <p><locus n="45v"/>Kleiner pflanzlicher Fries, der den Titel einrahmt. </p>
+                                <p><locus n="103r"/>Kleiner pflanzlicher Fries, der den Titel einrahmt. </p>
+                                <p><locus n="104r"/>Kleiner pflanzlicher Fries, der den Titel einrahmt. </p>
+                            </decoNote>
+                            <decoNote type="frame">
+                                <p><locus n="2r"/>Rahmen mit Flechtdekor. </p>
                             </decoNote>
                         </decoDesc>
                         <additions>

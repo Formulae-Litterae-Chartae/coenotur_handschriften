@@ -63,7 +63,13 @@
                      <scriptNote source="Bischoff">turonische Minuskel von mehr als einer Hand</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="3r"/>Verschönerte Initiale in der Farbe des Textes</p>
+                        <p><locus n="96r"/>Verschönerte Initiale in der Farbe des Textes und Rot umrandet</p>
+                     </decoNote>
+                     <decoNote type="border">
+                        <p><locus n="64r"/>Kritzelei</p>
+                     </decoNote>
                   </decoDesc>
                   <additions>
                      <p>wenige Anmerkungen, von unterschiedlicher Art und Datierung</p>

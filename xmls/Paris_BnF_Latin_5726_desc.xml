@@ -57,7 +57,14 @@
                         selten und imperfekt</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote></decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="1v"/>Verschönerte Initiale</p>
+                     </decoNote>
+                     <decoNote type="border" subtype="add">
+                        <p><locus n="65v"/>Hinweis in einem Diamanten</p>
+                        <p><locus n="69v"/>Hinweis in einem Diamanten</p>
+                        <p><locus n="81v"/>Hinweis in einem Diamanten</p>
+                     </decoNote>
                   </decoDesc>
                   <additions>
                      <p source="Cinato">Korrekturen von der Hand von Lupus von Ferrières oder durch

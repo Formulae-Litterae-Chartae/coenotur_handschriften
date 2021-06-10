@@ -62,10 +62,11 @@
                      <scriptNote>Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p/>
+                     <decoNote type="initial">
+                        <p><locus n="126r"/>Initiale</p>
                      </decoNote>
                   </decoDesc>
+                  
                   <additions/>
                   <bindingDesc>
                      <decoNote>roter Maroquin-Einband des 19. Jhd.</decoNote>

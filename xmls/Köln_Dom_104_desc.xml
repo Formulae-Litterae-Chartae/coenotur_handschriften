@@ -66,8 +66,11 @@
                      <scriptNote>karolingische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
-                  </decoDesc>
+                     <decoNote type="initial">
+                        <p><locus n="2r"/>Verschönerte Initiale in Farbe mit Flechtdekor. </p>
+                        <p><locus n="7"/>Verschönerte Initiale mit Flechtdekor. </p>
+                     </decoNote>
+                  </decoDesc>                  
                   <additions>
                      <p>Tironische Noten</p>
                   </additions>

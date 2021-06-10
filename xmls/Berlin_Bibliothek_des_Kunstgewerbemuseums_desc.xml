@@ -3,50 +3,50 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Karlsruhe, BLB, Aug. perg. 43</title>
+            <title>Berlin, Bibliothek des Kunstgewerbemuseums</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note>RAND  verzeichnet diese 2 Blätter aufgrund von Fotos von TRAUBE. Es konnte bis jetzt nichts weiteres gefunden wurden.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <country>Germany</country>
-                  <settlement>Karlsruhe</settlement>
-                  <repository>BLB</repository>
+                  <settlement>Berlin</settlement>
+                  <repository>Biblliothek des Kunstgewerbemuseums</repository>
                   <collection/>
-                  <idno>Aug. perg. 43</idno>
-                  <altIdentifier source="Bischoff">
-                     <idno>1598</idno>
+                  <idno></idno>
+                  <altIdentifier source="Rand">
+                     <idno>125</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Theologie Exegese">
-                     <author>Beda Venerabilis</author>
-                     <title>Expositio in Actus apostolorum; Epistulas catholicas; Apocalypsin</title>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Bibel</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="frag">
                      <supportDesc material="perg">
-                        <extent n="179">
+                        <extent n="2">
                            <dimensions type="leaf" unit="cm">
-                              <height n="37.5"/>
-                              <width n="25.1"/>
+                              <height n=""/>
+                              <width n=""/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="27.0"/>
-                              <width n="18.8"/>
+                              <height n=""/>
+                              <width n=""/>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="2"/>
-                        <layout writtenLines="34"/>
+                        <layout/>
+                        <layout/>
                         <layout><p></p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -54,7 +54,7 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">Tours-Min.</scriptNote>
+                     <scriptNote ></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -68,25 +68,24 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff Hellmann" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
-                     <note>Der Onlinekatalog gibt als Entstehungsort "Reichenau?" und als Entstehungsdatum "14. Jhd." an. Vermutlich bezieht sich diese Angabe auf das deutlich spätere Vorblatt.</note>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0840" notAfter="0860">Mid-century</origDate></p>
+                     <note/>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
-                  <acquisition><name type="Repository">BLB</name></acquisition>
+                  <acquisition><name type="Repository"></name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno>https://digital.blb-karlsruhe.de/blbhs/content/pageview/3381155</idno>
+                        <idno></idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/3380004</idno></bibl>
-                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="335"/></bibl>
-                     <bibl><idno>Martinellus.de</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="161"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

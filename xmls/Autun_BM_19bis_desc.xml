@@ -23,6 +23,9 @@
                   <altIdentifier source="Köhler">
                      <idno>37</idno>
                   </altIdentifier>
+                  <altIdentifier source="Leroquais">
+                     <idno>5</idno>
+                  </altIdentifier>
                   <altIdentifier source="Bischoff">
                      <idno>156</idno>
                   </altIdentifier>
@@ -97,8 +100,10 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="150"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="236 237"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="393 396"/></bibl>
+                     <bibl><idno>Leroquais I 1924</idno><biblScope unit="pp" n="14 16"/></bibl>
+                     <bibl><idno>Décréaux 1970</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="37"/></bibl>
-                     <bibl><idno>Voyer 2015</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Voyer 2015</idno><biblScope n="passim"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -60,9 +60,13 @@
                             <scriptNote/>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
+                            <decoNote type="initial">
+                                <p><locus n="1r"/>Initiale</p>
+                                <p><locus n="49r"/>Initiale</p>
+                                <p><locus n="54r"/>Initiale</p>
                             </decoNote>
                         </decoDesc>
+                        
                         <additions>
                             <p></p>
                             <p></p>

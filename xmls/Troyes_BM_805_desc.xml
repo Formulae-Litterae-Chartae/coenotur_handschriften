@@ -57,7 +57,14 @@
                             <scriptNote/>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
+                            <decoNote type="figureinitial">
+                                <p><locus n="4v"/>Verschönerte Initiale.</p>
+                            </decoNote>
+                            <decoNote type="initial">
+                                <p><locus n="53v"/>Initiale.</p>
+                            </decoNote>
+                            <decoNote type="border" subtype="add">
+                                <p><locus n="27r"/>Kritzelei.</p>
                             </decoNote>
                         </decoDesc>
                         <additions>

@@ -68,13 +68,35 @@
                      <scriptNote source="Rand">perfektionierte turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote source="Köhler">
-                        <p><locus n="17v"/>Darstellung des Matthäus</p>
-                        <p><locus n="18r"/>Christus in Majestas umgeben von den vier Tieren der
-                           Evangelisten</p>
-                        <p><locus n="52r"/>Darstellung des Marcus</p>
-                        <p><locus n="75r"/>Darstellung des Lukas</p>
-                        <p><locus n="111v"/>Darstellung des Johannes</p>
+                     <decoNote type="miniature">
+                        <p><locus n="17v"/>Vollseitige Miniatur: Heiliger Matthäus Schrift</p>
+                        <p><locus n="18r"/>Vollseitige Miniatur: Christus in Majestät</p>
+                        <p><locus n="52r"/>Vollseitige Miniatur: Heiliger Markus schrift</p>
+                        <p><locus n="75r"/>Vollseitige Miniatur: Heiliger Lukas</p>
+                        <p><locus n="111v"/>Vollseitige Miniatur: Heiliger Johannes</p>
+                     </decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="5r"/>Initiale in Gold mit rot umrandet und mit Palmotiv.</p>
+                        <p><locus n="7r"/>Initiale in Gold mit rot umrandet und mit Palmotiv.</p>
+                        <p><locus n="9r"/>Initiale in Gold mit rot umrandet und mit Palmotiv.</p>
+                        <p><locus n="10r"/>Initiale in Gold mit rot umrandet und mit Palmotiv.</p>
+                        <p><locus n="10v"/>Initiale in Gold mit rot umrandet und mit Palmotiv.</p>
+                        <p><locus n="19r"/>Ganzseitige Initiale in Gold und Farbe mit Flechtdekor.</p>
+                        <p><locus n="49r"/>Initiale in Gold mit rot umrandet und mit Palmotiv.</p>
+                        <p><locus n="53r"/>Ganzseitige Initiale in Gold und Farbe mit Flechtdekor.</p>
+                        <p><locus n="76r"/>Ganzseitige Initiale in Gold und Farbe mit Flechtdekor.</p>
+                        <p><locus n="113r"/>Ganzseitige Initiale in Gold und Farbe mit Flechtdekor.</p>
+                     </decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="13v 17r"/>Ganzseitige Kanontafeln mit goldenen dekorierten architektonischen Rahmen.</p>
+                     </decoNote>
+                     <decoNote type="frame">
+                        <p><locus n="4v"/>Rahmen in Farbe und Gold; mit Flechtdekor und Palmen an den vier Ecken.</p>
+                        <p><locus n="17v 18v"/>Rahmen in Farbe und Gold; mit Flechtdekor und Palmen an den vier Ecken.</p>
+                        <p><locus n="52r 52v"/>Rahmen in Farbe und Gold; mit Flechtdekor und Palmen an den vier Ecken.</p>
+                        <p><locus n="75r 75v"/>Rahmen in Farbe und Gold; mit Flechtdekor und Palmen an den vier Ecken.</p>
+                        <p><locus n="111v"/>Rahmen in Farbe und Gold; mit Flechtdekor und Palmen an den vier Ecken.</p>
+                        <p><locus n="112v"/>Rahmen in Farbe und Gold; mit Flechtdekor und Palmen an den vier Ecken.</p>
                      </decoNote>
                   </decoDesc>
                   <additions>

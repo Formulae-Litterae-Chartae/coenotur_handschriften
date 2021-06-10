@@ -63,9 +63,20 @@
                             <scriptNote></scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
-                                <locus/>
-                                <p>ja</p>
+                            <decoNote type="initial">
+                                <p><locus n="5r"/>Verschönerte Initiale in Farbe und Gold mit Flechtdekor. </p>
+                                <p><locus n="48r"/>Verschönerte Initiale in Farbe und Gold mit Flechtdekor. </p>
+                                <p><locus n="79r"/>Verschönerte Initiale. Im Inneren des Buchstabens ist ein geflügeltes tetramorphes Tier in Gold abgebildet, umgeben von Pflanzenmotiven. </p>
+                                <p><locus n="131r"/>Verschönerte Initiale in Farbe und Gold mit Flechtdekor. </p>
+                            </decoNote>
+                            <decoNote type="border">
+                                <p><locus n="4r 4v"/>Pflanzenfriese in einer Titelseite. </p>
+                            </decoNote>
+                            <decoNote type="frame">
+                                <p><locus n="5r"/>Rahmen mit Flechtdekor in Farbe. Oben auf der Seite ist ein geflügeltes tetramorphes Tier in Gold abgebildet. </p>
+                                <p><locus n="48r"/>Rahmen in Farbe. Oben auf der Seite ist ein geflügeltes tetramorphes Tier in Gold abgebildet. </p>
+                                <p><locus n="79r"/>Rahmen in Farbe. </p>
+                                <p><locus n="131r"/>Rahmen in Farbe und Gold. Oben auf der Seite ist ein geflügeltes tetramorphes Tier in Gold abgebildet. </p>
                             </decoNote>
                         </decoDesc>
                         <additions>

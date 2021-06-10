@@ -59,8 +59,24 @@
                      <scriptNote>turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote type="border" subtype="add">
+                        <p><locus n="12r"/>Diagramm</p>
+                        <p><locus n="15r"/>Diagramm in der Farbe des Textes und Rot</p>
+                        <p><locus n="18r"/>Diagramm</p>
+                        <p><locus n="18v"/>Diagramm</p>
+                        <p><locus n="26r"/>Diagramm in der Farbe des Textes und Rot</p>
+                        <p><locus n="60r"/>Diagramm in der Farbe des Textes und Rot</p>
+                        <p><locus n="61v"/>Diagramm</p>
+                        <p><locus n="68r"/>Diagramm</p>
+                        <p><locus n="71v"/>Kritzelei</p>
+                        <p><locus n="73r"/>Diagramm</p>
+                        <p><locus n="76r"/>Diagramm in der Farbe des Textes und Rot </p>
+                        <p><locus n="81r"/>Diagramm </p>
+                        <p><locus n="85v"/>Diagramm</p>
+                        <p><locus n="89v"/>Diagramm in der Farbe des Textes, Rot und Grün</p>
+                     </decoNote>
                   </decoDesc>
+                  
                   <additions>
                      <p><locus from="108r" to="109v"/>ganzseitiger Nachtrag von Lupus von
                         Ferrières</p>

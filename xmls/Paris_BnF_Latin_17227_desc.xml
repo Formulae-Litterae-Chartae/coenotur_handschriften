@@ -67,13 +67,23 @@
                         weniger kursiven Elementen, Kapitalis und Unziale.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p><locus n="1r 3r 4r 4v"/>leicht verzierte Kanontafeln</p>
+                     <decoNote type="initial">
+                        <p><locus n="7r"/>Verschönerte Initiale</p>
+                        <p><locus n="66r"/>Initiale</p>
+                        <p><locus n="68r"/>Verschönerte Initiale</p>
+                        <p><locus n="174v"/>Verschönerte Initiale</p>
                      </decoNote>
-                     <decoNote>
-                        <p><locus n="7r 68r 174v"/>mehrere verzierte Initialen</p>
+                     <decoNote type="canon">
+                        <p><locus n="1r 3r"/>Ganzseitige Kanontafeln</p>
+                        <p><locus n="4r 4v"/>Ganzseitige Kanontafeln</p>
+                     </decoNote>
+                     <decoNote type="border" subtype="add">
+                        <p><locus n="6v"/>Kreuz</p>
+                        <p><locus n="68r"/>Illustration am Rand</p>
+                        <p><locus n="110r"/>Illustration am Rand</p>
                      </decoNote>
                   </decoDesc>
+                  
                   <additions/>
                   <bindingDesc>
                      <decoNote>neuerer Ledereinband</decoNote>
@@ -81,9 +91,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><placeName>Tours</placeName>,
+                     <p><origPlace source="Rand Winandy" cert="high"><placeName>Tours</placeName>,
                               <orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
+                     <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0833"
                            >1. Drittel 9. Jhd.</origDate></p>
                      <note>Dadurch, dass die Handschrift sicher durch Adalbaldus abgefasst wurde,
                         ist eine Entstehung im 1. Drittel des 9. Jhd. in St-Martin in Tours
