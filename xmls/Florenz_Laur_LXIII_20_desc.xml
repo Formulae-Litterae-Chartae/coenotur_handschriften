@@ -1,0 +1,115 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Florenz, Laur., LXIII 20</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Diese Handschrift ist vermutlich nicht in Tours entstanden. Sie wird hier aufgeührt, da RAND uhre Entstehung in Tours vermutet.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <settlement>Florenz</settlement>
+                  <repository>Laur.</repository>
+                  <collection/>
+                  <idno>LXIII 20</idno>
+                  <altIdentifier source="Libri">
+                     <idno>83</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Ashburnham">
+                     <idno>30</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>182</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>1233</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Klassiker Geschichtsschreibung">
+                     <author>Livius</author>
+                     <title>Ab urbe condita</title>
+                     <textLang mainLang="la"/>
+                     <note>Die dritte Dekade</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="120">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.2"/>
+                              <width n="26.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="22.8"/>
+                              <width n="21.4"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="37"/>
+                        <layout><p source="Rand">Rote und Schwarze Titel und Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Bischoff">hauptsächlich eine Hand</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">Typische Corbie-Min. der Hadoard-Zeit</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium">Nordfranzösisch</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><orgName>Corbie</orgName></origPlace></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0900" notAfter="0999">10. Jahrhundert</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0899">ca. 3. Viertel 9. Jhd.</origDate></p>
+                     <note>Die Entstehung scheint umstritten, Tours erscheint sehr unwahrscheinlich. BISCHOFF argumentiert aufgrund der Hadoard-Stils für Corbie.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository"></name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="191"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="327"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="261"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

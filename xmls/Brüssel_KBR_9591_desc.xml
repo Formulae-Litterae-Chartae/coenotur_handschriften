@@ -1,0 +1,100 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Brüssel, KBR, 9591</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Die Signatur scheint nicht mehr zu stimmen. RAND gibt so wenig Infos an, dass die aktuelle Signatur der Handschrift aktuell nicht ausfindig gemacht werden konnte.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Belgium</country>
+                  <settlement>Brüssel</settlement>
+                  <repository>KBR</repository>
+                  <collection/>
+                  <idno>9591</idno>
+                  <altIdentifier source="Rand">
+                     <idno>176</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Klassiker">
+                     <author>Cicero</author>
+                     <title>De Senectute</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="">
+                           <dimensions type="leaf" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                        <layout/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote></scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0875" notAfter="0899">Ende des 9. Jahrhunderts</origDate></p>
+                     <note>RAND selbst zweifelt an einer Entstehung in Tours und vermutet eher ein Skriptorium unter dem Einfluss von Tours.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="187 188"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

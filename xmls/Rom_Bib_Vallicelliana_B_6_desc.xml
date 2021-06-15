@@ -1,0 +1,114 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Rom, Bib. Vallicelliana, B. 6</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Die Handschrift ist mit großer Sicherheit nicht in Tours entstanden. Sie wird hier aufgeführt, da sie im Katalog von RAND ist.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <settlement>Rom</settlement>
+                  <repository>Bib. Vallicelliana</repository>
+                  <collection/>
+                  <idno>B. 6</idno>
+                  <altIdentifier source="Rand">
+                     <idno>147</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Mostert">
+                     <idno>1286</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5351</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Bibel</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="346">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="35.5"/>
+                              <width n="33.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="25.8"/>
+                              <width n="6.2">6,2 cm pro Spalte</width>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="3"/>
+                        <layout writtenLines="49 50">50 (49)</layout>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Rand">mehrere Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote></scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>vorhanden
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="Berger">roter Maroquineinband</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="low">Possibly done at <placeName>Fleury</placeName>?</origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium">weder Tours noch Fleury, sondern <placeName>Reims</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">(Nördliches) Frankreich (zum Teil Reims?)</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0860">2. Viertel/Mitte 9. Jhd.</origDate></p>
+                     <note>Die Entstehung der Handschrift ist nicht gesichert. Sie scheint aus dem Umfeld von Reims zu stammen.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://manus.iccu.sbn.it//opac_SchedaScheda.php?ID=16379&amp;lang=en</idno></bibl>
+                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="413"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="172 173"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="326"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="61"/></bibl>
+                     <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="248"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="279"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

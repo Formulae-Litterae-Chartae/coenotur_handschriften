@@ -3,25 +3,31 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Dublin, Chester Beatty, 8</title>
+            <title>New York, Pierpont Morgan Library, Ms. 860</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Die Beschreibungen stammen noch aus der Zeit als die Bibliothek in London war. Die Signatur stimmt dementsprechend mit großer Wahrscheinlichkeit nicht mehr!</note></notesStmt>
+         <notesStmt><note></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>Great Britain</country>
-                  <settlement>Dublin</settlement>
-                  <repository>Library of Chester Beatty</repository>
+                  <country>USA</country>
+                  <settlement>New York</settlement>
+                  <repository>Pierpont Morgan Library</repository>
                   <collection/>
-                  <idno>8 ?</idno>
+                  <idno>Ms. 860</idno>
+                  <altIdentifier source="Chester Beatty">
+                     <idno>8</idno>
+                  </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>115</idno>
                   </altIdentifier>
-                  <altIdentifier source="Bischoff">
+                  <altIdentifier source="Köhler">
                      <idno>47</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3620</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
@@ -64,8 +70,6 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
-                     <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -73,13 +77,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Köhler" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand Köhler Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0840" notAfter="0870">Mitte des Jahrhunderts</origDate></p>
                      <p><origDate source="Köhler" cert="medium" notBefore="0850" notAfter="0899">zweite Jahrhunderthälfte</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">ca. 3. Viertel 9. Jhd.</origDate></p>
                      <note>Entstehung in Tours erscheint sehr wahrscheinlich. Aktuell konnte keine weitere Beschreibung gefunden werden, so dass es bei den vagen Angaben vom Beginn des 20. Jahrhunderts bleiben muss.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance>Die Handschrift war zunäcsht in der Sammlung von Chester Beatty in London und gelangte später nach New York.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -93,6 +98,8 @@
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="154 155"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="409 410"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="64"/></bibl>
+                     <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="318 319"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -1,0 +1,114 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>New HAven, Yale University; Beinecke Librray, Ms. 413</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>New Haven</settlement>
+                  <repository>Yale University, Beinecke Library</repository>
+                  <collection/>
+                  <idno>Ms. 413</idno>
+                  <altIdentifier source="Chester Beatty">
+                     <idno>11</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>153</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Mordek">
+                     <idno>Nh</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>3585</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Rechtstexte">
+                     <author>Ansegisus</author>
+                     <title>Capitula</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="105">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="29.0"/>
+                              <width n="22.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="18.5"/>
+                              <width n="14.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="24"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Rand">2 Haupthände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Rand">"Decadent Perfected and Revived Cursive"</scriptNote>
+                     <scriptNote source="Bischoff">"Min. zweier Stile: Tours und Reimser Variante"</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>vorhanden
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">In einem Hofskriptorium für Karl den Kahlen geschrieben.</origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0875" notAfter="0899">Ende 9. Jahrhundert</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0873" notAfter="0899">873 oder später</origDate></p>
+                     <note>Wenig ist über die Handschrift bekannt.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository"></name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="175 176"/></bibl>
+                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="386 391"/></bibl>
+                     <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="311"/></bibl>
+                 </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

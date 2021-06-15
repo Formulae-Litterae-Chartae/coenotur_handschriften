@@ -15,7 +15,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <settlement>Florence</settlement>
+                        <settlement>Florenz</settlement>
                         <repository>Laur.</repository>
                         <collection/>
                         <idno>XLV 15</idno>
@@ -102,7 +102,7 @@
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                             <bibl><idno>Bandini 1775</idno><biblScope unit="column" n="350"/></bibl>
-                            <bibl><idno>Rand 1930</idno><biblScope unit="pp" n="90 91"/></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="90 91"/></bibl>
                             <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="324"/></bibl>
                             <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="14"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="260"/></bibl>

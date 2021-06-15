@@ -1,0 +1,102 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, Bib. de l'Arsenal, 609</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Laut LEROQUAIS entstanden in Marmoutier, deshalb hier aufgeführt. Deutlich später als die eigentliche Frage des Projektes, so dass keine weiteren Infos gesucht wurden.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>Bib. de l'Arsenal</repository>
+                  <collection/>
+                  <idno>267</idno>
+                  <msName>Missel de Mantes</msName>
+                  <altIdentifier source="Leroquais">
+                     <idno>267</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Liturgie">
+                     <author/>
+                     <title>Missale</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="139">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="21.4"/>
+                              <width n="15.6"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote></scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>vorhanden
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p n="Exlibris"><locus n="2"/><seg type="lat">Ex biblioth. domûs S. Caroli, Paris. 1730.</seg></p>
+                     <p source="Onlinekatalog">Es sind noch weitere Exlibris aus Mente vorhanden.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Weißes PErgament um Holz</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Leroquais" cert="medium"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Leroquais" cert="medium" notBefore="1200" notAfter="1250">Mitte 13. Jhd.</origDate></p>
+                     <note source="Leroquais">Hergestellt für (in) Marmoutier</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance>Die zahlreichen Ergänzungen belegen, dass die Handschrift später in Mantes verwendet worden ist.</provenance>
+                  <acquisition><name type="Repository">Bib. de l'Arsenal</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b52508486m</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc79814n</idno></bibl>
+                     <bibl><idno>Leroquais II 1924</idno><biblScope unit="pp" n="86 87"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
