@@ -20,6 +20,9 @@
                         <altIdentifier source="Rand">
                             <idno>76</idno>
                         </altIdentifier>
+                        <altIdentifier source="Rand">
+                            <idno>151</idno>
+                        </altIdentifier>
                         <altIdentifier source="Bischoff">
                             <idno>2215</idno>
                         </altIdentifier>
@@ -111,6 +114,7 @@
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://primarysources.brillonline.com/browse/vossiani-latini/vlq-020-fredegarius-scholasticus-dares-phrygius-curtius-rufus-iulius-valerius-alexander-magnus-et-dindimus-ex-orosio-isidorus-hispalensis</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="134 135"/></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="175"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="57"/></bibl>
                         </listBibl>
                     </additional>
