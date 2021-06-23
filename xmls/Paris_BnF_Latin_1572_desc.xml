@@ -17,6 +17,9 @@
                   <collection/>
                   <idno>Latin 1572</idno>
                   <msName/>
+                  <altIdentifier source="Rand">
+                     <idno>6</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <msItem class="Rechtstext Konzilsakten">
@@ -63,10 +66,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low">nicht Tours</origPlace></p>
+                     <p><origPlace source="Rand Hoffmann Keefe" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium">nicht Tours</origPlace></p>
                      <p><origDate source="BnF" notBefore="0780" notAfter="0800">Ende 8.
                            Jhd.</origDate></p>
+                     <note>MCKITTERIKC schlägt vor, dass die Handschrift in Tours, auf Bestellung für ein anderes Zentrum hergestellt worden ist.</note>
                   </origin>
                   <provenance type="Provenance"><placeName>Tours</placeName></provenance>
                   <provenance source="Köhler">Nach einer Schreiberiniziale scheint es sich um einen
@@ -82,9 +86,13 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="87 88"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="89"/></bibl>
+                     <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="13"/></bibl>
+                     <bibl><idno>McKitterick 1994</idno><biblScope unit="pp" n="104 105"/></bibl>
+                     <bibl><idno>Hoffmann 2001</idno><biblScope unit="pp" n="20 22"/></bibl>
+                     <bibl><idno>Davis-Weyer 2005</idno><biblScope unit="pp" n="368"/></bibl>
+                     <bibl><idno>Keefe 2012</idno><biblScope unit="pp" n="304"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

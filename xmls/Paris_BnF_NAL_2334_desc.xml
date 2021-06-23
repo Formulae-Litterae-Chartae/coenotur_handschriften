@@ -17,6 +17,15 @@
                   <collection/>
                   <idno>NAL 2334</idno>
                   <msName>Ashburnham Pentateuch</msName>
+                  <altIdentifier source="St-Gatien">
+                     <idno>4</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>13</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>2</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <msItem class="Bibel">

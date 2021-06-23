@@ -16,12 +16,24 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>NAL 1587</idno>
-                  <msName/>
+                  <msName>Evangeliar von St-Gatien</msName>
+                  <altIdentifier source="St-Gatien">
+                     <idno>8</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>14</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>10</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5092</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <msItem class="Bibel Evangelien">
                      <author/>
-                     <title>Evangelium von St. Gatien</title>
+                     <title>Evangeliar</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -106,9 +118,10 @@
                            Jhd.</origDate></p>
                      <p><origDate source="Zimmermann" cert="low" notBefore="0780" notAfter="0820">um
                            800</origDate></p>
-                     <note source="Rand">Datierung und Herkunft umstritten; die Nähe zu Tours, BM,
+                     <note><p source="Rand">Datierung und Herkunft umstritten; die Nähe zu Tours, BM,
                         22 aufgrund der irischen Charakteristiken deutet auf eine Entstehung in
-                        Tours hin</note>
+                        Tours hin</p>
+                     <p>KÖHLER zweifelt in der REzension zu RAND eine Entstehung in Tours an und sieht denn Ursprung der Handschrift in der Bretagne.</p></note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance>Entstanden ist die Handschrift wohl entweder in der Bretagne oder in
@@ -130,6 +143,9 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                         <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34647j</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="92 93"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="92 93"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="239"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

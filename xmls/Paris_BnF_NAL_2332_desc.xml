@@ -17,6 +17,18 @@
                   <collection/>
                   <idno>NAL 2332</idno>
                   <msName/>
+                  <altIdentifier source="St-Martin">
+                     <idno>88</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Delisle">
+                     <idno>39</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>5</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5127</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <msItem class="Theologie Exegese">
@@ -26,7 +38,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="fragment">
+                  <objectDesc form="frag">
                      <supportDesc material="perg">
                         <extent n="1">
                            <dimensions type="leaf" unit="cm">
@@ -106,9 +118,10 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc705460</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Gorman 2006</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Delisle 1883</idno><biblScope unit="pp" n="58 59"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="86 87"/></bibl>
+                     <bibl><idno>Gorman 2006</idno><biblScope unit="pp" n="205"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="247"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>
