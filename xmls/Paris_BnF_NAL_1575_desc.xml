@@ -16,6 +16,15 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>NAL 1575</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>50bis</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>8</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>8</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <msItem class="Theologie">
