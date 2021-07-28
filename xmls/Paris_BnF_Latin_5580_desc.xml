@@ -85,8 +85,8 @@
                   <origin>
                      <p><origPlace cert="medium" source="Rand Bischoff"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace cert="medium" source="Rand Bischoff"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
-                           >2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
+                     <note>Die Entsthung der Handschrift ist nicht gesichert. RAND und BISCHOFF schlagen vorsichtig Marmoutier vor, aber ohne jegliche Begründung.</note>
                   </origin>
                   <provenance type="Provenance"/>
                   <provenance><persName>Puteanus</persName>;

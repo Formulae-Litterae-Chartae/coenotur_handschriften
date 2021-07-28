@@ -37,55 +37,47 @@
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="160">
+                        <extent n="169">168 + 13bis
                            <dimensions type="leaf" unit="cm">
                               <height n="36.0"/>
                               <width n="27.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="26.5"/>
+                              <width n="18.5"/>
                            </dimensions>
                         </extent>
-                        <condition source="Dorange">Das Ende fehlt, die Handschrift endet im 30.
-                           Kapitel des fünften Buches. Es fehlen die letzten 5 Kapitel, die auch in
-                           der Kapitelübersicht aufgelistet werden. Der Rest ist gut
-                           erhalten.</condition>
+                        <condition source="Dorange">Das Ende fehlt, die Handschrift endet im 30. Kapitel des fünften Buches. Es fehlen die letzten 5 Kapitel, die auch in der Kapitelübersicht aufgelistet werden. Der Rest ist gut erhalten.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
-                        <layout><p>rote und schwarze Titel, schwarze Buchstaben mit blauer
-                              Füllung</p></layout>
+                        <layout writtenLines="34"/>
+                        <layout><p>Rote Titel, Incipit in schwarzen Buchstaben mit blauer (und gelber) Füllung</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Winandy">einheitliches Schriftbild, vermutlich von einer Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote>Karol. Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p/>
+                     <p>einzelne, wenige Korrekturen.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Einband in weißem Leder</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
-                        ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">näher an
-                              <placeName>Orléans</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0800" notAfter="0850">ca.
-                           1./2. Viertel 9. Jhd.</origDate></p>
-                     <p><origDate source="Dorange" cert="low" notBefore="1080" notAfter="1100">Ende
-                           11. Jhd.</origDate></p>
-                     <note>die blaue Füllung scheint nicht auf Tours zu deuten </note>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">näher an <placeName>Orléans</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Dorange" cert="medium" notBefore="1075" notAfter="1099">Ende 11. Jhd.</origDate></p>
+                     <note>Die blaue Füllung scheint nicht auf Tours zu deuten. Auch das Schriftbild erscheint mir nicht typisch turonisch, so dass ich eher gegen eine Entstehung in Tours tendiere. Wieso DORANGE und COLLON die Handschrift in das 11. Jhd. datieren bleibt fragwürdig, eine Entstehung im 9. Jhd. erscheint wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>
@@ -99,7 +91,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A13007</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="178"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="237 238"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="195"/></bibl>

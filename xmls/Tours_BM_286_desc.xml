@@ -19,25 +19,42 @@
                   <altIdentifier source="St-Martin">
                      <idno>29</idno>
                   </altIdentifier>
-                  <altIdentifier source="Dorange">
-                     <idno>286</idno>
-                  </altIdentifier>
-                  <altIdentifier source="Collon">
-                     <idno>286</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>6134</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Kirchenväter">
                      <author>Augustinus</author>
-                     <title>De Musica</title>
+                     <title>Dialogus Augustini cum Licentio de Musica</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="20v"/>
+                        <title>Liber I</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="20v" to="33r"/>
+                        <title>Liber II</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="33r" to="49v"/>
+                        <title>Liber III</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="49v" to="83r"/>
+                        <title>Liber IIII</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="83v" to="115r"/>
+                        <title>Liber V</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="116">
+                        <extent n="115">115 (f.21 fehlt)
                            <dimensions type="leaf" unit="cm">
                               <height n="27.3"/>
                               <width n="20.2"/>
@@ -52,7 +69,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="23"/>
-                        <layout><p/></layout>
+                        <layout><p>Bücheranfänge in roter Kapitalis, gefolgt von einer roten Initiale.</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -68,6 +85,8 @@
                   <additions>
                      <p source="Dorange">zahlreiche Glossierungen und Tironische Noten einer
                         zeitgenössischen Hand; zahlreiche Notizen des 11. Jhd.</p>
+                     <p>Zahlreiche Korrekturen, auf Rasur, interlinear und am Rand.</p>
+                     <p>Besonders starke GLossierung in Buch 5.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -75,17 +94,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><placeName>Tours</placeName>,
+                     <p><origPlace cert="high" source="Rand"><placeName>Tours</placeName>,
                               <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0800" notAfter="0840"/>Anfang 9. Jhd.</p>
                      <p><origDate source="Bischoff Nörr" cert="medium" notBefore="0790" notAfter="0810"/>Um 800</p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"/>2. Viertel 9. Jhd.</p>
-                     <note>Die Nähe zum vatikanischen Livius lässt eine Entstehung in St-Martin zu
-                        Beginn des 9. Jahrhunderts sehr wahrscheinlich erscheinen</note>
+                     <note>Die Nähe zum vatikanischen Livius lässt eine Entstehung in St-Martin zu Beginn des 9. Jahrhunderts sehr wahrscheinlich erscheinen</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
-                  <provenance>In St-Martin geschrieben und vermutlich durchgehend dort
-                     geblieben.</provenance>
+                  <provenance>In St-Martin geschrieben und vermutlich durchgehend dort geblieben.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -96,11 +113,12 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12698</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="161"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="212"/></bibl>
+                     <bibl><idno>Rand 1927</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="99 100"/></bibl>
-                     <bibl><idno>Bischoff Nörr 1963</idno><biblScope unit="pp" n="13"/></bibl>
+                     <bibl><idno>Bischoff/Nörr 1963</idno><biblScope unit="pp" n="13"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
                   </listBibl>
                </additional>

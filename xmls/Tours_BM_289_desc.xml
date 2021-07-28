@@ -30,8 +30,9 @@
                <msContents>
                   <msItem class="Kirchenväter">
                      <author>Augustinus</author>
-                     <title>Contra Faustum</title>
+                     <title>Tractatus in evangelium Iohannis</title>
                      <textLang mainLang="la"/>
+                     <note>Der Anfang der Handschrift fehlt, sie Beginn zum Ende von Sermo X. Auch das Ende fehlt, die Handschrift endet im Sermo 36 (=Sermo 38 in der Edeition der Benediktiner)</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -44,10 +45,10 @@
                            </dimensions>
                            <dimensions type="written" unit="cm">
                               <height n="22.5"/>
-                              <width n="9.4"/>
+                              <width n="20.0">20,0 cm (9,0 pro Spalte)</width>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Anfang und Ende des Textes fehlt. Bindung beschädigt.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -59,27 +60,27 @@
                      <handNote>verschiedene Hände</handNote>
                   </handDesc>
                   <scriptDesc>
+                     <scriptNote source="Winandy">Karol. Minuskel mit turonischen est und esse Kürzungen.</scriptNote>
                      <scriptNote source="Rand">Halbunziale selten und ornamental</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p/>
+                     <p>Wenige Korrekturen</p>
+                     <p>Zahlreiche Zitationsszeichen am Rand</p>
+                     <p>Lagenkontrollvermerke</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Weißer Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low"
-                           ><orgName>Marmoutier</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >1./2. Viertel 9. Jhd.</origDate></p>
-                     <note/>
+                     <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium"><orgName>Marmoutier</orgName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
+                     <note>Die Zuordnung von KÖHLER nach Marmoutier erfolgt nur auf Basis der Provenienz. Das Schriftbild spricht für eine Entstehung in St-Martin.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
@@ -93,7 +94,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12707</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="162"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="213"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="130"/></bibl>

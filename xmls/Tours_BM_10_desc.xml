@@ -25,12 +25,6 @@
                         <repository>BM</repository>
                         <collection/>
                         <idno>10</idno>
-                        <altIdentifier source="Collon">
-                            <idno>10</idno>
-                        </altIdentifier>
-                        <altIdentifier source="Dorange">
-                            <idno>10</idno>
-                        </altIdentifier>
                         <altIdentifier source="Rand">
                             <idno>17</idno>
                         </altIdentifier>

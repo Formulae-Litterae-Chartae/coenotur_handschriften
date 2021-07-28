@@ -51,7 +51,8 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
-                        <layout writtenLines="39 41">39 (36, 37, 40, 41)</layout>
+                        <layout writtenLines="36 41">39 (36, 37, 40, 41)</layout>
+                        <layout source="Winandy">Titel in schwarzer Capitalis rustica</layout>
                         <layout source="Rand">rote Titel und rote Initialen</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -63,10 +64,9 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="border">
-                        <p><locus n="110r"/>Diagramm einer Weltkarte. </p>
+                        <p><locus n="110r"/>Diagramm einer Weltkarte.</p>
                      </decoNote>
                   </decoDesc>
-                  
                   <additions>
                      <p n="Exlibris" source="Dorange">letztes Schutzfolium, 15. Jhd.: <seg
                            type="lat">Pro ecclesia Turonensi extractus et commodatus honorabili
@@ -75,22 +75,16 @@
                            type="lat">Restituit Ecclesie</seg></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote source="Collon">Maroquineinband mit dem Wappen der Stadt
-                        Tours</decoNote>
+                     <decoNote source="Collon">Maroquineinband mit dem Wappen der Stadt Tours</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff" cert="high"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Rand" cert="low"
-                           ><orgName>St-Maurice</orgName>?</origPlace></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0804" notAfter="0820">„later
-                           member of Regular Style (804-820)“</origDate></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >(1./)2. Viertel 9. Jhd.</origDate></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
-                           notAfter="1000">10. Jhd.</origDate></p>
+                     <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><orgName>St-Maurice</orgName>?</origPlace></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0804" notAfter="0820">„later member of Regular Style (804-820)“</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">(1./)2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Dorange Collon" cert="low" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
                      <note>Die Datierung um 820-830 erscheint, genau wie die Entstehung in Tours,
                         unstrittig. Eine Produktion in St-Maurice ist unwahrscheinlich, da keine
                         weiteren Handschriften aus einem dortigen Skriptorium zu dieser Zeit bekannt
@@ -109,6 +103,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
+                        <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A18069</idno>
                            <idno>http://medium-avance.irht.cnrs.fr/ark:/63955/md60cv43qw34</idno>
                         <idno>http://bibale.irht.cnrs.fr/47053</idno>
                         <idno>http://fama.irht.cnrs.fr/manuscrit/69003</idno>

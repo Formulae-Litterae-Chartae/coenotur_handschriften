@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note>Diese Handschrift ist besonders, handelt es sich doch um die einzige Überlieferung dieser Psalmenparaphrase aus Marmoutier. Der Autor selbst scheint die Abschrift korrigiert zu haben und hat ein Kolophon beigefügt, dass die Entstehung erklärt und im Katalog Collon auszugsweise zitiert wird. Es handelt sich um ein prächtiges Exemplar auf einheitlich hochwertigem Pergament mit wunderschönen, einheitlichen Initialen auf fast jeder zweiten Seite.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -28,6 +29,7 @@
                   <msItem class="Liturgie">
                      <author/>
                      <title>Paraphrase der Psalmen durch einen Mönch von Marmoutier</title>
+                     <note>Der erste Teil (bis f. 108) ist in Versen fomruliert, der zweite Teil als Prosa.</note>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -44,44 +46,144 @@
                               <width n="8.0"/>
                            </dimensions>
                         </extent>
-                        <condition>es fehlen die ersten 4 Hefte</condition>
+                        <condition>Es fehlen die ersten 4 Lagen. Diese fehlten bereits im 17. Jahrhundert, als die Handschrift durch Dom Anselme Le Michel beschrieben worden ist.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines="30 35">30, 32, 35</layout>
-                        <layout><p/></layout>
+                        <layout writtenLines="30 50">30, 32, 35, (50)</layout>
+                        <layout>
+                           <p>Im Teil, der in Versen verfasst wurded sind die Anfangsbuchstabe einer jeden Zeile in Unziale.</p>
+                           <p>Initiale der Glossierung oft in Rot.</p>
+                           <p>Prächtige Initialen zu Beginn eines jeden Psalms.</p>
+                        </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote>Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>schöne, klare Minuskel</scriptNote>
+                     <scriptNote>Schöne, klare Minuskel. Das Schriftbild der zweiten Hand ist deutlich jünger.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote>Teile der schönen Initialen wurden zum Teil in der BVMM digitalisiert, deren Link sich unter der Onlinebschreibung findet. Die Initialen des zweiten Teils (ab f. 109) sind weit weniger prachtvoll</decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="1r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="2v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="3r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="5r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="7r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="13v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="16r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="17v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="19v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="24r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="24v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="25v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="28r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="29r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="30v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="31v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="33r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="34r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="36r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="37v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="39v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="41v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="43v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="45r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="48r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="50r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="51v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="53v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="54v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="56v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="57r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="59v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="62r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="63v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="64r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="65v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="67v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="69r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="70v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="71v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="72r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="72v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="75r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="76r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="77r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="78r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="80r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="81v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="82r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="83r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="84v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="85r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="88v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="89r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="89v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="94r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="97r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="97v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="99r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="100v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="102v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="104v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="105v"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="109r"/>Initiale in Grün, Blau und Rot</p>
+                        <p><locus n="137r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="139v"/>Einfache Initiale in Rot</p>
+                        <p><locus n="141r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="143r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="144v"/>Einfache Initiale in Rot</p>
+                        <p><locus n="148v"/>Einfache Initiale in Rot</p>
+                        <p><locus n="159r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="162v"/>Einfache Initiale in Rot</p>
+                        <p><locus n="165r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="171r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="178r"/>Feine Initiale in Rot und Gold</p>
+                        <p><locus n="179v"/>Feine Initiale in Rot und Gold</p>
+                        <p><locus n="180v"/>Feine Initiale in Rot und Gold</p>
+                        <p><locus n="182r"/>Feine Initiale in Rot und Gold</p>
+                        <p><locus n="183r"/>Feine Initiale in Rot und Gold</p>
+                        <p><locus n="186r"/>Feine Initiale in Rot und Gold</p>
+                        <p><locus n="188r"/>Große Initiale in Rot und Gold</p>
+                        <p><locus n="193r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="196r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="200r"/>Einfache Initiale in Rot und Blau</p>
+                        <p><locus n="205v"/>Einfache Initiale in Blau und Rot</p>
+                        <p><locus n="209r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="209v"/>Einfache Initiale in Rot</p>
+                        <p><locus n="210v"/>Einfache Initiale in Rot</p>
+                        <p><locus n="211v"/>Einfache Initiale in Rot</p>
+                        <p><locus n="212v"/>Einfache Initiale in Rot</p>
+                        <p><locus n="215r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="217r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="231r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="236v"/>Einfache Initiale in Rot</p>
+                        <p><locus n="240r"/>Einfache Initiale in Rot</p>
+                        <p><locus n="240v"/>Einfache Initiale in Rot</p>
+                        <p><locus n="242r"/>Einfache Initiale in Rot und Schwarzs</p>
+                     </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>zahlreiche Korrekturen</p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">ex maior monrio</seg></p>
+                     <p>Zahlreiche Korrekturen, vermutlich direkt durch die Hand des Kompilators.</p>
+                     <p>Lagennummerierung</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Dunkler gestanzter Ledereinband auf Pappe des 17. Jahrhunderts.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><orgName>Marmoutier</orgName></origPlace></p>
-                     <p><origDate source="Dorange" cert="medium" notBefore="1070" notAfter="1100"
-                           >11. Jhd., um 1090</origDate></p>
-                     <note/>
+                     <p><origPlace cert="high"><orgName>Marmoutier</orgName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="high" notBefore="1084" notAfter="1096">1084-1096</origDate></p>
+                     <note>Der Autor, ein Mönch von Marmoutier, hat die Parpaphrase auf Empfehlung von <persName>Renaud de Bellay</persName>, Schatzmeister von St-Martin, und später Erzbischof von Reims (1083-1096) und <persName>Bernard</persName>, Abt von Marmoutier (1084-1100) abgefasst. Auf f. 108v begründet der Autor, warum er das Werk, dass er in Versen begonnen hat, in Prosa endet, und nennt in diesem Zusammenhang die beiden Auftraggeber. Dadurch ist die Datierung der Handschrift gesichert.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
-                  <provenance source="Dorange">Hergestellt wurde die Handschrift als Kopie des
-                     Autorenexemplars für die Bibliothek von <orgName>Marmoutier</orgName>, und
-                     vermutlich vom Autor selbst korrigiert.</provenance>
-                  <provenance>Die fehlenden Hefte fehlten bereits im 17. Jahrhundert, als
-                        <persName>Dom Anselme Le Michel</persName> die Handschrift beschreiben
-                     hat.</provenance>
+                  <provenance source="Dorange">Hergestellt wurde die Handschrift als Kopie des Autorenexemplars für die Bibliothek von <orgName>Marmoutier</orgName>, und vermutlich vom Autor selbst korrigiert.</provenance>
+                  <provenance>Die fehlenden Lagen fehlten bereits im 17. Jahrhundert, als <persName>Dom Anselme Le Michel</persName> die Handschrift beschreiben hat.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -92,7 +194,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A10897</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" from="35" to="37"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="54" to="56"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="197"/></bibl>

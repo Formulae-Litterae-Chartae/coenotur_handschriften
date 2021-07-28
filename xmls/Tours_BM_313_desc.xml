@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note>Es handelt sich um zahlreiche Handschriften, die später zusammengefügt worden sind. Nur der mittlere Teil, des 9. Jhds., stammt vielleicht aus Tours (RAND; dagegen BISCHOFF: Reims). Die Teile I, II und IV stammen aus dem 12. und 13. Jahrhundert und mit großer Sicherheit nicht aus Tours. (RAND unterteilt die Handschrift in 3 Teile, wobei sein Teil I aus zwei unterschiedlichen Handschriften besteht, so dass Rands Teil II, der vielleicht aus Tours stammt, hier als Teil III bezeichnet wird.)</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -30,80 +31,155 @@
                <msContents>
                   <msItem class="Diverses Briefe">
                      <author/>
-                     <title>Diverses</title>
-                     <textLang mainLang="la"/>
-                     <msItem n="1">
-                        <locus from="1" to="93"/>
-                        <title>I</title>
+                     <title>Variae; Epistulae</title>
+                     <textLang mainLang="la"/> 
+                     <msItem n="1.1">
+                        <locus from="1r" to="54r"/>
+                        <author>Gregor der Große</author>
+                        <title>Super Canticorum Cantica</title>
                      </msItem>
-                     <msItem n="2">
-                        <locus from="94" to="147"/>
-                        <title>II</title>
-                        <msItem n="2.1">
-                           <author>Hilarius</author>
-                           <title>Ad Constantinum</title>
-                        </msItem>
+                     <msItem n="1.2">
+                        <locus from="55r" to="92r"/>
+                        <title>Buch der Weisheit</title>
                      </msItem>
-                     <msItem n="2.2">
+                     <msItem n="1.3">
+                        <locus from="94r" to="106v"/>
+                        <author>Hilarius</author>
+                        <title>Epistula ad Constantium Imperatorem</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="106v" to="114v"/>
                         <author>Hieronymus</author>
+                        <title>Epistula ad Paulinum</title>
                      </msItem>
-                     <msItem n="2.3">
-                        <author>Theodulfus</author>
-                        <title>De Processione Sancti Spiritus</title>
+                     <msItem n="1.5">
+                        <locus from="115r" to="147r"/>
+                        <author>Theodulf von Orléans</author>
+                        <title>De processione spiritus sancti</title>
                      </msItem>
-                  </msItem>
-                  <msItem n="3">
-                     <locus from="148" to="213"/>
-                     <title>III</title>
+                     <msItem n="1.6">
+                        <locus from="148r" to="196r"/>
+                        <author>Radbertus Paschasius</author>
+                        <title>De Corpore et Sanguine Domini Nostri</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="196r" to="201v"/>
+                        <author></author>
+                        <title>Ausschnitte zahlreicher Kirchenväter mit Bezug auf das Dogma von Radbertus</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="201v" to="202r"/>
+                        <author>Beda Venerabilis</author>
+                        <title>In sermone suo</title>
+                     </msItem>
+                     <msItem n="1.9">
+                        <locus from="202r" to="213r"/>
+                        <author>Radbertus Paschasius</author>
+                        <title>Epistula ad Fredugardo</title>
+                     </msItem>
+                     <msItem n="1.10">
+                        <locus from="213r" to="217r"/>
+                        <author>Eusebius</author>
+                        <title>Sermo</title>
+                     </msItem>
+                     <msItem n="1.11">
+                        <locus from="217r" to="218v"/>
+                        <author>Ambrosius</author>
+                        <title>De trinitate</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="213">
+                        <extent n="218">213; I: 1-54; II: 55-92; III: 94-147; IV: 147-218
                            <dimensions type="leaf" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="20.5"/>
+                              <width n="15.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="13.5 17.5">13,5 - 17,5 cm</height>
+                              <width n="9.5 12.0">9,5 - 12,0 cm</width>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Generell gut erhalten. Der Beginn von Teil I fehlt. Im letzten Teil bricht der Text ab.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines=""/>
-                        <layout><p>rote Titel</p></layout>
+                        <layout columns="1"/>
+                        <layout writtenLines="14 28">I: 28 II: 14; III: 22; IV: 25</layout>
+                        <layout><p>III: Rote Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote>III: späte karol. Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="2r"/>I-Initiale in Rot mit Grün</p>
+                        <p><locus n="14r"/>E-Initiale in Grün mit Rot</p>
+                        <p><locus n="24r"/>U-Initiale in Rot mit Grün</p>
+                        <p><locus n="36v"/>P-Initiale in Rot mit Grün</p>
+                        <p><locus n="40r"/>O-Initiale in Grün und Rot</p>
+                        <p><locus n="55r"/>O-Initiale in Grün mit Rot</p>
+                        <p><locus n="148v"/>D-Initiale in Rot und Schwarz</p>
+                        <p><locus n="153v"/>S-Initiale in Schwarz</p>
+                        <p><locus n="155r"/>S-Initiale in Schwarz</p>
+                        <p><locus n="156v"/>Q-Initiale in Blau mit Rot und Grün</p>
+                        <p><locus n="158v"/>I-Initiale in Blau mit Rot und Grün</p>
+                        <p><locus n="159v"/>H-Initiale in Blau mit Rot und Grün</p>
+                        <p><locus n="160v"/>T-Initiale in Blau</p>
+                        <p><locus n="161v"/>N-Initiale in Blau</p>
+                        <p><locus n="166v"/>I-Initiale in Blau mit Rot</p>
+                        <p><locus n="169r"/>I-Initiale in Blau</p>
+                        <p><locus n="172r"/>P-Initiale in Blau</p>
+                        <p><locus n="174r"/>V-Initiale in Blau</p>
+                        <p><locus n="177r"/>Q-Initiale in Blau</p>
+                        <p><locus n="177v"/>N-Initiale in Blau</p>
+                        <p><locus n="180r"/>N-Initiale in Blau</p>
+                        <p><locus n="182r"/>Q-Initiale in Blau mit Rot</p>
+                        <p><locus n="182v"/>S-Initiale in Blau</p>
+                        <p><locus n="183r"/>A-Initiale in Blau</p>
+                        <p><locus n="184r"/>P-Initiale in Blau</p>
+                        <p><locus n="186r"/>S-Initiale in Blau mit Schwarz</p>
+                        <p><locus n="188r"/>E-Initiale in Blau mit Schwarz</p>
+                        <p><locus n="193r"/>P-Initiale in Blau</p>
+                        <p><locus n="196r"/>E-Initiale in Blau</p>
+                        <p><locus n="197r"/>A-Initiale in Blau</p>
+                        <p><locus n="197v"/>I-Initiale in Blau</p>
+                        <p><locus n="198v"/>I-Initiale in Blau und Grün</p>
+                        <p><locus n="199r"/>E-Initiale in Blau und Grün</p>
+                        <p><locus n="200r"/>R-Initiale in Blau</p>
+                        <p><locus n="200r"/>N-Initiale in Blau und Grün</p>
+                        <p><locus n="200v"/>T-Initiale in Blau und Grün</p>
+                        <p><locus n="200v"/>N-Initiale in Blau und Grün</p>
+                        <p><locus n="201v"/>Q-Initiale in Schwarz</p>
+                        <p><locus n="202r"/>D-Initiale in Schwarz</p>
+                        <p><locus n="207r"/>C-Initiale in Blau</p>
+                        <p><locus n="210v"/>E-Initiale in Blau und Grün</p>
+                        <p><locus n="213r"/>M-Initiale in Blau</p>
+                        <p><locus n="217r"/>P-Initiale in Blau</p>
+                     </decoNote>
                   </decoDesc>
                   <additions>
-                     <p/>
+                     <p>Einzelne Anm. im letzten Teil</p>
+                     <p>Zahlreiche Skizzen und Federproben auf den freigebliebenen Blättern.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Neuer Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
-                        ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low"
-                           ><placeName>Reims</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0850" notAfter="0875">II:
-                           3. Viertel 9. Jhd.</origDate></p>
-                     <note>Teile I und III sind spätere Teile aus dem 12. Jhd, die sicher nicht aus
-                        Tours sind; über den Rest der Handschrift ist wenig bekannt</note>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Reims</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"> Teil III: 3. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0900" notAfter="0999"> Teil III: 10. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="1100" notAfter="1199"> Teile I, II und IV: 12. Jhd.</origDate></p>
+                     <p><origDate source="Collon" cert="medium" notBefore="1200" notAfter="1299"> Teile I, II und IV: 13. Jhd.</origDate></p>
+                     <note>Teile I, II und IV sind spätere Teile aus dem 12./13. Jhd, die sicher nicht aus Tours sind; Datierung und Lokalisierung von Teil III bleibt umstritten.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
@@ -117,7 +193,9 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12948</idno></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="175 177"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="234 237"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="193"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
                   </listBibl>

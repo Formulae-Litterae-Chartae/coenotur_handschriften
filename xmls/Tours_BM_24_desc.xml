@@ -22,10 +22,25 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="">
+                  <msItem class="Variae">
                      <author/>
-                     <title/>
+                     <title>Variae</title>
                      <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem n="1.1">
+                     <title>Paulusbriefe</title>
+                  </msItem>
+                  <msItem n="1.2">
+                     <title>Teile des Alten Testamentes</title>
+                  </msItem>
+                  <msItem n="1.3">
+                     <title>Glossen</title>
+                  </msItem>
+                  <msItem n="1.4">
+                     <title>Proverbien</title>
+                  </msItem>
+                  <msItem n="1.5">
+                     <title>Sentenzen</title>
                   </msItem>
                </msContents>
                <physDesc>

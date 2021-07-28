@@ -55,7 +55,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2">2 (und mehr)</layout>
-                        <layout writtenLines="26"/>
+                        <layout writtenLines="26 27"/>
                         <layout>
                            <p>Rote Titel</p>
                            <p>Wechselnde rote und scwarze Zahlen der chronologischen Reihen</p>
@@ -63,7 +63,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p></p>
+                     <p source="Bischoff">mehr als eine Hand</p>
                   </handDesc>
                   <scriptDesc>
                      <p>Turonische Minuskel</p>
@@ -77,7 +77,7 @@
                   <additions>
                      <p source="Rand">Korrekturen, durch die Hand von <persName>Lupus von Ferrières</persName>?</p>
                      <p source="Rand">Anmerkungen aus <placeName>Tours</placeName> aus dem 10. oder 11. Jhd.</p>
-                     <p source="Rose"><locus n="150r"/>In einer Hand aus dem 11. Jhd.: <seg type="lat">Turon. Primus. Gatianus. a0pontifice romano. missus est eps;</seg> links daneben von einer jüngeren Hand des 15. Jhds.: <seg type="lat">II.C. LX. A nativitate xpi</seg>.</p>
+                     <p source="Rose"><locus n="150r"/>In einer Hand aus dem 11. Jhd.: <seg type="lat">Turon. Primus. Gatianus. a pontifice romano. missus est eps;</seg> links daneben von einer jüngeren Hand des 15. Jhds.: <seg type="lat">II.C. LX. A nativitate xpi</seg>.</p>
                      <p source="Rose"><locus n="156v"/><seg type="lat">Beatus martinus apud sabariam pannoniae civitatem. nascitur.</seg></p>
                      <p source="Rose"><locus n="158v"/><seg type="lat">Turonis. lidorius. ordinatur eps.</seg></p>
                      <p source="Rose"><locus n="164v"/><seg type="lat">Turonis. Scs. Martinus. ordinatur eps.</seg></p>
@@ -91,10 +91,10 @@
                      <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Mostert" cert="low"><orgName>Fleury</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
-                     <note>Entstanden ist die Handschrift vermutlich in St-Martin als Kopie einer Handschrift aus Fleury.</note>
+                     <note>Entstanden ist die Handschrift vermutlich in St-Martin als Kopie einer Handschrift aus Fleury. Spätestens im 11. Jahrhundert war sie, wie das Exlibris belegt, in St-Martin.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></provenance>
-                  <provenance>Die Handschrift gelangte über das <orgName>College de Clermont</orgName> in Paris und Merrmann schließlich an Thomas Phililips.</provenance>
+                  <provenance>Die Handschrift gelangte über das <orgName>College de Clermont</orgName> in Paris und Merrmann an Thomas Phililips.</provenance>
                   <provenance>Von dort gelangte sie schließlich, mit den anderen Handschriften aus der Sammlung, nach Berlin.</provenance>
                   <acquisition><name type="Repository">SB</name></acquisition>
                </history>

@@ -9,10 +9,8 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt>
-            <note source="Collon">es besteht ein Zusammenhang mit Cambrai, BM, 693, sowie Paris,
-               BnF, Latin 11529 und Latin 11530</note>
-            <note source="Dorange">Fol. 76v–83v weisen Fehler in der alphabetischen Sortierung
-               auf</note>
+            <note source="Collon">Es besteht ein Zusammenhang mit Cambrai, BM, 693, sowie Paris, BnF, Latin 11529 und Latin 11530</note>
+            <note source="Dorange">Fol. 76v–83v weisen Fehler in der alphabetischen Sortierung auf</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +32,7 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="">
+                  <msItem class="Liber Glossarum">
                      <author/>
                      <title>Liber Glossarum</title>
                      <textLang mainLang="la"/>
@@ -60,7 +58,7 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="46 50">46, 47, 50</layout>
-                        <layout/>
+                        <layout>Einzelne Hefte enthalte Titel und Initialen in Rot.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -70,7 +68,7 @@
                      <scriptNote source="Rand">Kursive mit alten Elementen</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote/> 
                   </decoDesc>
                   <additions>
                      <p source="Martinellus.de"><locus n="236v"/>Tironische Note</p>
@@ -81,13 +79,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
-                           >1. Viertel 9. Jhd.</origDate></p>
-                     <note>da einige der Hände deutlich ältere kursive Elemente aufweisen, vermutet
-                        RAND, dass es sich vielleicht um die Abschrift einer Handschrift des 8.
-                        Jahrhunderts handelt</note>
+                     <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                     <note><p>Da einige der Hände deutlich ältere kursive Elemente aufweisen, vermutet RAND, dass es sich vielleicht um die Abschrift einer Handschrift des 8. Jahrhunderts handelt</p>
+                     <p>Die einzelnen Hefte weichen in ihrer Gestaltung zum Teil sehr stark voneinander ab. Die Handschrift scheint dementsprechend durch unterschiedliche Schreiber, (mit unterschiedlichen Vorlagen ?,) etnstanden zu sein.</p></note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
@@ -101,7 +96,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A18104</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="385"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="621 622"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="187"/></bibl>
