@@ -29,6 +29,14 @@
                      <author>Augustinus</author>
                      <title>Contra Faustum</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="76v"/>
+                        <title> Liber primus</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="76v" to="117r"/>
+                        <title>Liber secundus</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -44,41 +52,40 @@
                               <width n="8.8"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Buchrücken beschädigt, ansonsten gut erhalten.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
-                        <layout><p/></layout>
+                        <layout writtenLines="30 43">35 (30, 37, 43)</layout>
+                        <layout><p>Incipits und Explicits in Rot</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Winandy">Zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Winandy">Spätere karol. Minuskel mit zahlreichen Kürzungen</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p/>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Maioris monasterii congregationis S. Mauri</seg></p>
+                     <p>zahlreiche Anmerkungen am Rand (zumeist Nota-Kürzel)</p>
+                     <p><locus n="Vorblatt"/>Widmungsbrief von Alexis Monteil an den Pfarrer von St-Étienne de Paris vom 20. März 1835</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Einband von Alexis Monteil: Leder auf Holzeinband. Buchrücken beschädigt. (Erkennbar ist noch das schützende Zeitungspapier vom März 1830)</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange" cert="low" notBefore="0980" notAfter="1000">Ende
-                           10. Jhd.</origDate></p>
-                     <note/>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange" cert="medium" notBefore="0975" notAfter="0999">Ende 10. Jhd.</origDate></p>
+                     <note>Die Entstehung der Handschrift ist nicht gesichert, Ende 10. Jhd. erscheint aber wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
-                  <provenance source="Dorange">Die Handschrift gehörte nach
-                        <orgName>Marmoutier</orgName> und wurde 1850 durch
-                        <persName>Luzarche</persName> für die BM gekauft.</provenance>
+                  <provenance source="Dorange">Die Handschrift gehörte <orgName>Marmoutier</orgName> und ging dann in den privaten Besitz von <persName>Alexis Monteil</persName> über und wurde 1850 durch <persName>Luzarche</persName> für die BM gekauft.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -89,7 +96,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12701</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="161"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="212"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="199"/></bibl>

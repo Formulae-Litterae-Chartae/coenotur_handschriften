@@ -9,8 +9,8 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt>
-            <note source="Dorange">Die vier ersten und letzten Blätter enthalten Fragmente eines
-               Lektionars des 9. Jhd.</note>
+            <note><p source="Dorange">Die vier ersten und letzten Blätter enthalten Fragmente eines Lektionars des 9. Jhd.</p>
+            <p>Das Layout der einzelnene Heft, die oft mit den Werken abschließen, deutet darauf hin, dass die Handschrift aus verschiedenen Handschriften zusammengesetzt worden ist.</p></note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -33,6 +33,54 @@
                      <author>Ambrosius, Augustinus, Hieronymus</author>
                      <title/>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="5r" to="38v"/>
+                        <author>Ambrosius</author>
+                        <title>De Penitentia</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="38v" to="46r"/>
+                        <author>Augustinus</author>
+                        <title>De disciplina christianorum</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="47r" to="48v"/>
+                        <author>Augustinus</author>
+                        <title>Sermo de Penitentia</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="49r" to="57v"/>
+                        <author>Augustinus</author>
+                        <title>De utilitate poenitentiae</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="58r" to="69r"/>
+                        <author>Augustinus</author>
+                        <title>Liber de poenitentiae</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="69r" to="82v"/>
+                        <author>Augustinus</author>
+                        <title>Liber de agone Christiano</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="82v" to="88v"/>
+                        <author>Hieronymus</author>
+                        <title>De centisimi IIIIo psalmo</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="88v" to="89v"/>
+                        <title>De diversis paenitentiae fructibus</title>
+                     </msItem>
+                     <msItem n="1.9">
+                        <locus from="90r" to="102v"/>
+                        <author>Basilius</author>
+                        <title>Admonitio ad monachorum</title>
+                     </msItem>
+                     <msItem n="1.10">
+                        <locus from="102" to="153v"/>
+                        <title>Regula Besili</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -44,40 +92,45 @@
                               <width n="19.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="18.5 20.3">18,5 x 20,3 cm</height>
+                              <width n="12.5 14.0">12,5 x 14,0 cm</width>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Bindung stark beschädigt</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines="="/>
-                        <layout><p>rote Initialen</p></layout>
+                        <layout columns="1"/>
+                        <layout writtenLines="24 35">24 (27, 26, 35)</layout>
+                        <layout><p>Zum Teil rote Titel und rote Initialen</p>
+                        <p>Einzelne rot ausgemalte Buchstaben in manchen Heften</p>
+                           <p>Manche Titen in Grün</p>
+                        </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">klare, runde Schrift</scriptNote>
+                     <scriptNote source="Rand">Klare, runde Schrift</scriptNote>
                   </scriptDesc>
-                  <decoDesc>
-                     <decoNote> </decoNote>
+                  <decoDesc>  
+                     <decoNote type="figureinitial">
+                     <p><locus n="90r"/>A-Initiale in schwarzer Tinte mit Rankenmuster, vor Rot ausgemaltem Hintergrund</p>
+                  </decoNote>
                   </decoDesc>
-                  <additions> </additions>
+                  <additions>
+                  <p n="Exlibris"><locus n="5r"/><seg type="lat">ex libris maioris monasterii</seg></p></additions>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange" cert="low" notBefore="0900" notAfter="1000">10.
-                           Jhd.</origDate></p>
-                     <p><origDate source="Collon" cert="low" notBefore="0875" notAfter="0900">Ende
-                           9. Jhd.</origDate></p>
-                     <note/>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange" cert="medium" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>
+                     <p><origDate source="Collon" cert="medium" notBefore="1075" notAfter="1099">Ende 11. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1099">11. Jhd.</origDate></p>
+                     <note>Datierung und Lokalisierung unklar. Die Tatsache, dass es sich vermutlich um verschiedene, später zusammgefügte Teile handelt, erklärt die abweichenden Datierungen.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
@@ -91,7 +144,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12502</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="152 153"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="189 190"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="198"/></bibl>

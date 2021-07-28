@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note>Die Handschrift ist im zweiten Weltkrieg zerstört worden.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -28,7 +29,7 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="">
+                  <msItem class="Hagiographie">
                      <author/>
                      <title>Werke zum Leben von Dionysius Areopagita</title>
                      <textLang mainLang="la"/>
@@ -52,8 +53,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="15"/>
-                        <layout>Titel mit Worten in wechselnden Farben (rot, schwarz, gelb,
-                           blau)</layout>
+                        <layout>Titel mit Worten in wechselnden Farben (rot, schwarz, gelb, blau)</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -72,15 +72,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
-                           notAfter="1000">10. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0875" notAfter="1100">11.
-                           Jhd., oder vielleicht auch Ende 9. Jhd.</origDate></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0875" notAfter="1100">11. Jhd., oder vielleicht auch Ende 9. Jhd.</origDate></p>
                      <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
-                  <provenance>die Handschrift wurde im Zweiten Weltkrieg zerstört</provenance>
+                  <provenance>Die Handschrift wurde im Zweiten Weltkrieg zerstört.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -91,8 +89,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>http://medium-avance.irht.cnrs.fr/Manuscrits/Voir?idFicheManuscrit=100031823</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37B10930</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="443 444"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="731 732"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="194"/></bibl>

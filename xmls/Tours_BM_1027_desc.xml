@@ -47,37 +47,38 @@
                               <width n="12.9"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Recht gut erhalten, einzelnen Blätter, insb. am Anfang, leicht angegriffen. Die Handschrift ist 1997 restauriert worden.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
-                        <layout writtenLines=""/>
-                        <layout><p/></layout>
+                        <layout writtenLines="28 29"/>
+                        <layout><p>Einzelne Titelüberschriften und Initialen in Rot</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote>Einheitliches, nachlässig geschriebenes Schriftbild, eines Schreibers.</handNote>
+                     <handNote><locus n="143"/><seg type="lat">Explicit volumen libri quattuor vitae beati Gregorii romani pontificis per manus Iohanni scribae indigno presbitero rogatus a Benedicto religioso presbitero, qui die noctuque servit in ecclesia beati Petri apostolorum principis. Rogamus vos omness qui in hunc volumen legitis, ut oretis pro nobis peccatores si semper mereamini Deum habere protectorem amen.</seg></handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote>Nachlässige Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
-                  <additions/>
+                  <additions>
+                     <p>Einzelne wenige Korrekturen und Ergänzungen</p>
+                     <p>Zahlreiche + Zeichen am Rand</p>
+                  </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Alter Ledereinband (?) auf Holz</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">vielleicht nicht
-                              <placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">„Rom (Schreiber: Johannes
-                           presbiter)“</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900"
-                           >ca. Ende 9. Jhd.</origDate></p>
-                     <note/>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>, vielleicht auch nicht</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">„Rom (Schreiber: Johannes presbiter)“</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900">ca. Ende 9. Jhd.</origDate></p>
+                     <note>Die Handschrift stammt nicht aus Tours. RAND scheint die Subskriptions des Schreibers Johannes nicht gekannt zu haben.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
@@ -91,7 +92,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37B11210</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="453"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="748"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="194"/></bibl>

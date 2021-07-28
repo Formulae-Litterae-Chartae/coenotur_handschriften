@@ -9,7 +9,7 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt>
-            <note>Missale verwendet in Marmoutier</note>
+            <note>Missale aus St-Martin verwendet in Marmoutier. Unklar ist, ob die Durchstreichungen der <seg type="lat">benedictiones episcopales</seg> alleine für einen Kopisten gelten sollten (wie DORANGE) vermutet, oder ob diese Streichungen im Zuge des Konfliktes zwischen Stift und Erzbischof geschehen sind.</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -22,6 +22,9 @@
                   <altIdentifier source="Marmoutier">
                      <idno>74</idno>
                   </altIdentifier>
+                  <altIdentifier source="Leroquais">
+                     <idno>62</idno>
+                  </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>207</idno>
                   </altIdentifier>
@@ -32,6 +35,19 @@
                      <author/>
                      <title>Sacramentarium Turonense</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="2r" to="7v"/>
+                        <title>Kalender aus St-Martin</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="8r" to="289v"/>
+                        <title>Missale</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="292r" to="299v"/>
+                        <title>Weitere Gottesdienste</title>
+                        <note>Diese Lage stammt aus dem 15. Jhd. und ist später hinzugefügt worden.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -43,42 +59,45 @@
                               <width n="17.6"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="18.5 20.0">18,5 - 20,0</height>
+                              <width n="11.0 12.8">11,0 - 12,8</width>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Sehr gut erhalten.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines="="/>
-                        <layout><p/></layout>
+                        <layout columns="1"/>
+                        <layout writtenLines="17 19">17 (18, 19)</layout>
+                        <layout><p>Rote Titel, anfangs vollständig überdeckt mit einem dicken Streifen in Blau oder Grün. Die meisten Initialen in Rot.</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Winandy">Mindestens 2 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Winandy">Große, gut lesbare jüngere Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="130r"/>Schöne Initiale in Violett, Grün, Blau und Gold</p>
+                        <p><locus n="151v"/>Schöne Initiale in Violett, Grün, Blau und Gold</p>
+                        <p><locus n="157r"/>Schöne Initiale in Violett, Grün, Blau und Gold</p>
+                     </decoNote>
                   </decoDesc>
                   <additions>
-                     <p/>
+                     <p>Zahlreiche <seg type="lat">benedictiones episcopales</seg> sind durchgestrichen. DORANGE vermutet, dass diese Teile von einem Kopisten nciht kopiert werden sollten.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Pergamenteinband auf Pappe</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="" cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="" cert="low" notBefore="1000" notAfter="1025">Anfang 11.
-                           Jhd. (Teile vom 15. Jhd.)</origDate></p>
-                     <note/>
+                     <p><origPlace source="Rand Leroquais" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1000" notAfter="1025">Anfang 11. Jhd. (Teile vom 15. Jhd.)</origDate></p>
+                     <note>Alles spricht für eine Entstehung in St-Martin. Später ist das Missale, wie das Exlibris erkennen lässt, in Marmoutier verwendet worden.</note>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
@@ -90,9 +109,10 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A11824</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="108 109"/></bibl>
-                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="141" to="143"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="141 143"/></bibl>
+                     <bibl><idno>Leroquais I 1924</idno><biblScope unit="pp" n="145 147"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="197"/></bibl>
                   </listBibl>
                </additional>

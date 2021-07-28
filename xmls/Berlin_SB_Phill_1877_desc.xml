@@ -1,4 +1,3 @@
-<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="fre">
       <fileDesc>
@@ -23,6 +22,9 @@
                   <altIdentifier source="Rand">
                      <idno>108</idno>
                   </altIdentifier>
+                  <altIdentifier source="Köhler">
+                     <idno>56</idno>
+                  </altIdentifier>
                   <altIdentifier source="Bischoff">
                      <idno>441</idno>
                   </altIdentifier>
@@ -33,6 +35,95 @@
                      <author/>
                      <title>Martinellus</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="2r" to="3r"/>
+                        <author/>
+                        <title>Liber Sct. Martini de Trinitate</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="3v" to="5r"/>
+                        <title>Praefatio Severi ad Desiderium</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="5v" to="6v"/>
+                        <title>Capitula</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="7r" to="8v"/>
+                        <title>Prologus de Vita</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="9v" to="35v"/>
+                        <title>Vita sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="36r" to="39r"/>
+                        <title>Epistula ad Eusebium</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="39v" to="43v"/>
+                        <title>Epistula ad Aurelium</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="44r" to="45r"/>
+                        <title>Episutla ad Bassulam</title>
+                     </msItem>
+                     <msItem n="1.9">
+                        <locus from="45v" to="49v"/>
+                        <title>De transitu Martini</title>
+                     </msItem>
+                     <msItem n="1.10">
+                        <locus from="50r" to="52r"/>
+                        <title>Ep. de transitu</title>
+                     </msItem>
+                     <msItem n="1.11">
+                        <locus from="52r" to="53r"/>
+                        <title>Item de transitu</title>
+                     </msItem>
+                     <msItem n="1.12">
+                        <locus from="53v" to="54v"/>
+                        <title>Sermo Ambrosii de transitu</title>
+                     </msItem>
+                     <msItem n="1.13">
+                        <locus from="55r" to="56v"/>
+                        <title>De translatio corpus eius</title>
+                     </msItem>
+                     <msItem n="1.14">
+                        <locus from="57r" to="58v"/>
+                        <title>Capitula Dialogi Severi</title>
+                     </msItem>
+                     <msItem n="1.15">
+                        <locus from="59v" to="87v"/>
+                        <title>Liber II Dialogi Severi</title>
+                     </msItem>
+                     <msItem n="1.16">
+                        <locus from="88r" to="88v"/>
+                        <title>Capitula Dialogi Severi</title>
+                     </msItem>
+                     <msItem n="1.17">
+                        <locus from="90r" to="107r"/>
+                        <title>Liber II Dialogi Severi</title>
+                     </msItem>
+                     <msItem n="1.18">
+                        <locus from="107v" to="108r"/>
+                        <title>Capitula liber III</title>
+                     </msItem>
+                     <msItem n="1.19">
+                        <locus from="108v" to="127v"/>
+                        <title>Liber III Dialogi Severi</title>
+                     </msItem>
+                     <msItem n="1.20">
+                        <locus from="128r" to="133r"/>
+                        <title>Versi</title>
+                     </msItem>
+                     <msItem n="1.21">
+                        <locus from="133v" to="136v"/>
+                        <title>Vita sancti Briccii</title>
+                     </msItem>
+                     <msItem n="1.22">
+                        <locus from="137r" to="137v"/>
+                        <title>2 spätere Eintragungen</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -60,21 +151,21 @@
                      <handNote>Eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>Karolingischen Minuskel</p>
+                     <p>Erste Seite eines jeden Kapitels in tur. Halbunziale, ansonsten in tur. Minuskel.</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                         <p source="Rose"><locus n="9v"/><locus n="45v"/>Sehr schön gemalte Titelblätter: Goldinschrift in einer vereckingen Tafel, mit Blattwek und Flechtwerken.</p>
                         <p source="Rose"><locus n="59v"/><locus n="133v"/>Zwei einfachere Titelblätter mit einem Säulenbogen.</p>
-                        <p>Eine ausfürhlich Beschreibung der Miniaturen und der geschmückten Initialen findet sich bei Kirchen.</p>
+                        <p>Eine ausführlich Beschreibung der Miniaturen und der geschmückten Initialen findet sich bei KIRCHNER.</p>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p></p>
+                     <p>nachträglich Einteilung in Lectiones am Rand</p>
                      <p n="Exlibris" source="Rose"><locus n="1r"/>Eintrag über die Schenkung von Dietrich an St-Vinzenz: <seg type="lat">Scae matris aecclesiae tripudians auriga. nec nun summę religionis in omni mundanę adversitatis turbine triumphans gubernaculum. Domnus praesul Deodericus dum divino adprime cultui deditus quęque ad honestatem. augmentum. seu defensionem sibi pastorali iure commissae sedis indefesso nisu enuclearet. atque procul posita offensione cuncta votis eius responderent. inter multa insignias quae consilio. auctoritate. sententia ad gloriam et laudem summę et individuae trinitatis praesenti in coenobia cum decreto imperatorum et principum. nec non totius populti senatu applaudente gloriose gessit. etiam hunc librum geste Sci martini continentem quo apud futuram posteritatem sempiternae memoriae immortalitatem pro mortalo conditione nancisceretur, archivis aegregii martyris et laevitae Vincentii in spem patrocinii sibi electi. sub anathematis vinculo votiva manu addidit;</seg></p>
                      <p n="Exlibris" source="Rose"><locus n="138r"/><seg type="lat">Liber sancti Vincentii</seg></p>
-                     <p n="Exlibris" source="Rose"><locus n="138r"/><seg type="lat">Liber sancti Vicecii Mettensis Si quis adstulerit anatema sit / lkber sentkizicts</seg></p>
-                     <p n="Exlibris" source="Rose"><locus n="138r"/><seg type="lat">Scribe sagaz mahtfrid. karis quod plus cono gazys / Ymniza xpo pluteo qui pingis in isto / De cuius kalamo. scribitur f. h. deo</seg></p>
+                     <p n="Exlibris" source="Rose"><locus n="138v"/><seg type="lat">Liber sancti Vicecii Mettensis Si quis abtulerit anatema sit / lkber sentkizicts</seg></p>
+                     <p n="Exlibris" source="Rose"><locus n="138v"/><seg type="lat">Scribe sagaz mahtfrid. karis quod plus cono gazys / Ymniza xpo pluteo qui pingis in isto / De cuius kalamo. scribitur f. h. deo</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Neuband</decoNote>
@@ -82,8 +173,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="high" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
+                     <p><origPlace source="Winandy" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Köhler Bischoff" cert="high" notBefore="0850" notAfter="0875">nach 853 / 3. Viertel 9. Jhd.</origDate></p>
+                     <note>Alles spricht dafür, dass dieser prächtige Martinellus in St-Martin entstanden ist.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Vinzenz</orgName>, <placeName>Metz</placeName></provenance>
                   <provenance source="Rand">Die Handschrift gehörte im 11. Jhd. dem Bischof <persName>Dietrich von Metz</persName>, wobei nicht geklärt ist, ob Dietrich I. (964-984) oder Dietrich II. (1006-1046).</provenance>
@@ -105,6 +197,7 @@
                      <bibl><idno>Rose 1893</idno><biblScope unit="pp" n="237 241"/></bibl>
                      <bibl><idno>Kirchner 1926</idno><biblScope unit="pp" n="13 15"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="151 152"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="420"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="93"/></bibl>
                   </listBibl>
                </additional>

@@ -70,10 +70,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="low"
+                     <p><origPlace source="Mercier" cert="medium"
                            ><orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="1200"
-                           notAfter="1300">13. Jhd.</origDate></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1200"
+                           notAfter="1299">13. Jhd.</origDate></p>
                      <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>

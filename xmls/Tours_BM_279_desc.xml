@@ -23,13 +23,16 @@
                      <idno>170</idno>
                   </altIdentifier>
                   <altIdentifier source="Bischoff">
-                     <idno>6128 u. 6129</idno>
+                     <idno>6128</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6129</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Kirchenväter">
-                     <author>Augustinus, Hieronymus</author>
+                     <author>Hieronymus, Origines, Augustinus, Maximus von Turin</author>
                      <title/>
                      <textLang mainLang="la"/>
                   </msItem>
@@ -37,7 +40,7 @@
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="I: 58; II: 133">
+                        <extent n="191">I: 58; II: 133
                            <dimensions type="leaf" unit="cm">
                               <height n="28.0"/>
                               <width n="21.8"/>
@@ -47,55 +50,51 @@
                               <width n="21.3 14.5"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Der Beginn der ersten Handschrift fehlt.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="32 34">I: 32; II: 34</layout>
-                        <layout><p>rote Titel</p></layout>
+                        <layout><p>Teil I: keine rote Titel; Teil II: Titel in Rot</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>Teil I: 2 Hände; Teil II: mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Rand">wiederbelebte Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p source="Martinellus.de">Lagenkontrollvermerke</p>
+                     <p source="Martinellus.de">Lagenkontrollvermerke in Teil II</p>
                      <p source="Dorange">Benutzungsspuren durch die Benediktiner für ihre Edition
                         der Schriften von Augustinus und Hieronymus</p>
+                     <p>Einzelne Ergänzungen am Rand einer späteren mittelalterlichen Hand</p>
+                     <p>Nota-Zeichen am Rand</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>neuer Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Köhler" cert="low"
-                           ><orgName>Marmoutier</orgName>?</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">); Teil I: westliches, mehr
-                           nördliches Frankreich (nicht Tours); Teil II: westliches, etwas südliches
-                           (?) Frankreich (nicht Tours) </origPlace></p>
-                     <p><origPlace source="Martinellus.de" cert="low">Schriftheimat
-                           Tours</origPlace></p>
-                     <p><origDate source="Dorange" cert="low" notBefore="0875" notAfter="0925">Ende
-                           9./Anfang 10. Jhd.</origDate></p>
-                     <p><origDate source="Köhler" cert="low" notBefore="0800" notAfter="0850">1.
-                           Hälfte 9. Jhd.</origDate></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0850" notAfter="0875"
-                           >circa 3. Viertel 9. Jhd.</origDate></p>
-                     <note source="Köhler">Es handelt sich um zwei unterschiedliche, später
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium"><orgName>Marmoutier</orgName>?</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">Teil I: westliches, mehr nördliches Frankreich (nicht Tours); Teil II: westliches, etwas südliches(?) Frankreich (nicht Tours)</origPlace></p>
+                     <p><origPlace source="Martinellus.de" cert="medium">Schriftheimat Tours</origPlace></p>
+                     <p><origDate source="Dorange" cert="medium" notBefore="0875" notAfter="0925">Ende 9./Anfang 10. Jhd.</origDate></p>
+                     <p><origDate source="Köhler" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">circa 3. Viertel 9. Jhd.</origDate></p>
+                     <note>Es handelt sich um zwei unterschiedliche, später
                         zusammengefügte Handschriften. Könnte in Marmoutier vor der Zerstörung 853
-                        entstanden sein.</note>
+                        entstanden sein (KÖHLER). Tatsächlich weicht das Schriftbild und vor allem das Layout vom ersten Teil von den typischeren martinischen Handschriften ab.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
-                  <provenance source="Dorange">ist von den Benediktinern für die Edition der
+                  <provenance source="Dorange">Die Handschrift ist von den Benediktinern für die Edition der
                      Schriften von Augustinus und Hieronymus sehr bedeutend zu Rate gezogen
-                     worden</provenance>
+                     worden.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -106,9 +105,8 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" from="155" to="159"
-                        /></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12544</idno></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" from="155" to="159"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="201" to="206"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="184 185"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="329"/></bibl>

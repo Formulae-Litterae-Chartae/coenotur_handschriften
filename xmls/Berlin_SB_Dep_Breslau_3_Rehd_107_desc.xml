@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note>Die Handschrift scheint, im Gegensatz zu den sehr konfusen Angaben in den CLA nicht 1945 zerstört worden zu sein.</note></notesStmt>
+            <notesStmt><note>Im Gegensatz zu den konfusen Angaben in den CLA online ist die Handschrift nicht zerstört worden.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -35,35 +35,40 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent>
+                                <extent n="87">
                                     <dimensions type="leaf" unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height n="28.8"/>
+                                        <width n="23.5"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height n="22.6 24.7">22,6 - 24,7 cm</height>
+                                        <width n="18.0"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition>gut erhalten, nur die Bindung lösst sich leicht.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout/>
+                                <layout columns="1"/>
+                                <layout writtenLines="28 31"/>
+                                <layout>Titel in Unziale</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote/>
+                            <handNote>mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote/>
+                            <scriptNote>Haupttext in Minuskel und teilweise Halbunziale; Titel in Unziale</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote></decoNote>
                         </decoDesc>
-                        <additions> <p source="Martinellus.de" n="tironischen Note"></p>
+                        <additions>
+                            <p>einzelne, wenige Korrekturen am Rand.</p>
+                            <p>einzelne längere Ergänzungen</p>
+                            <p n="Lagenkontrollvermerke">regelmäßige Lagenkontrollvermerke</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote/>
+                            <decoNote>weißes Pergament auf Holz. aus dem 16. Jhd. mit eingepresstem Wappen von Thomas Rehdinger "Avec le Temps" </decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -71,7 +76,7 @@
                             <p><origPlace source="CLA Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                              <p><origDate source="CLA" cert="medium" notBefore="0750" notAfter="0800">2. Hälfte 8. Jhd.</origDate></p>
                         </origin>
-                        <provenance source="CLA">Die Handschrift gehört dem Humanisten Thomas Rehdinger (gest. 1576), und gelangte mit dessen Bibliothek an die Stadt Breslau.</provenance>
+                        <provenance source="CLA">Die Handschrift gehörte dem Humanisten Thomas Rehdinger (gest. 1576), und gelangte mit dessen Bibliothek an die Stadt Breslau.</provenance>
                         <acquisition><name type="Repository"></name></acquisition>
                     </history>
                     <additional>
@@ -83,7 +88,7 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031018706%22&amp;dmode=doc#|4</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="147"></biblScope></bibl>
+                            <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="14"></biblScope></bibl>
                             <bibl><idno>Martinellus.de</idno></bibl>
                         </listBibl>
                     </additional>

@@ -31,7 +31,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6789</idno>
                         </altIdentifier>
-                        <altIdentifier source="Bischof">
+                        <altIdentifier source="Bischoff">
                             <idno>6786</idno>
                         </altIdentifier>
                         <altIdentifier source="Bischoff">
@@ -50,7 +50,7 @@
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <objectDesc form="codex">
+                        <objectDesc form="frag">
                             <supportDesc material="perg">
                                 <extent n="8">
                                     <dimensions type="leaf" unit="cm">

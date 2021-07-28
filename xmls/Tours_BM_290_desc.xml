@@ -34,48 +34,107 @@
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="254">
+                        <extent n="255">254 + 44bis
                            <dimensions type="leaf" unit="cm">
                               <height n="26.5"/>
                               <width n="20.5"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="21.3"/>
+                              <width n="14.0 15.5">14,0 - 15,5 cm</width>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Sehr gut erhalten</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines=""/>
-                        <layout><p/></layout>
+                        <layout columns="1"/>
+                        <layout writtenLines="22 26">25 (22-26)</layout>
+                        <layout><p>Incipits und Explicits in Rot, zum Teil mit schönen Initialen. Zum Teil rot-ausgemalte Anfangsbuchstaben.</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Winandy">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Winandy">Jüngere Minuskel in zum Teil stark abweichendem Stil und Alter. Zahlreiche Kürzungen.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote>Zahlreiche der Initialen finden sich digitalisiert in der Seite der BMVV die über den Link zum Onlinkatalog zu finden ist.</decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="1r"/>Einfache I-Initiale in Braun</p>
+                        <p><locus n="26r"/>E und L-Initialen in Braun</p>
+                        <p><locus n="32r"/>Q-Initiale in Braun</p>
+                        <p><locus n="41v"/>Einfache Q-Initiale in Braun</p>
+                        <p><locus n="47r"/>I-Initiale in Braun und Rot</p>
+                        <p><locus n="67r"/>P-Initiale in Rot</p>
+                        <p><locus n="72r"/>Einfache P-Initiale in Rot</p>
+                        <p><locus n="78v"/>Einfache P-Initiale in Braun</p>
+                        <p><locus n="88v"/>C-Initiale in Rot mit Blattwerk in Grün und Braun</p>
+                        <p><locus n="91r"/>C-Initiale in Braun mit Blattwerk und roter Füllung</p>
+                        <p><locus n="93r"/>N-Initiale in Braun mit Vogelzeichnung</p>
+                        <p><locus n="98v"/>Einfache A-Initiale in Braun mit Zeichnung eines Tieres (in A-Form?) in Braun daneben</p>
+                        <p><locus n="100r"/>N-Initiale in Braun</p>
+                        <p><locus n="104r"/>S-Initiale in Vogelform in Braun mit Rot</p>
+                        <p><locus n="106r"/>Initiale eines Mönches mit Tonsur unter zwischen 2 Säulen in Braun und rot-ausgemalt</p>
+                        <p><locus n="108v"/>A-Initiale eines Mannes auf Schaukel in Vogelornamentik in Braun und rot-ausgemalt</p>
+                        <p><locus n="110v"/>D-Initiale eines Heiligen umgeben von Blattwerk in Braun</p>
+                        <p><locus n="113v"/>C-Initiale mit Blattwerk in Braun, ausgemalt in Gold (?) und Schwarz/Dunkelblau (?). Diese Ausmalung könnte später hinzugefügt worden sein.</p>
+                        <p><locus n="114r"/>E-Initiale mit Blattwerk in Braun, ausgemalt in Rot und Schwarz/Dunkelblau (?). Diese Ausmalung könnte später hinzugefügt worden sein.</p>
+                        <p><locus n="115v"/>D-Initiale in Braun</p>
+                        <p><locus n="117v"/>N-Initiale in Braun</p>
+                        <p><locus n="120r"/>V-Initiale mit Gesicht und Blattwerk in Braun, mit nachträglicher (?) Ausmalung in Grün</p>
+                        <p><locus n="123v"/>A-Initiale mit Gesicht und Blattwerk in Braun, mit nachträglicher (?) Ausmalung in Grün</p>
+                        <p><locus n="124v"/>Prächtige Q-Initiale mit Personendarstellung und Blattwerk in Braun, mit Ausmalung in Grün und Rot</p>
+                        <p><locus n="126v"/>M-Initiale mit Gesicht und Blattwerk in Braun, mit Ausmalung in Grün</p>
+                        <p><locus n="129r"/>Initiale mit Gesicht und Blattwerk in Braun, mit Ausmalung in Grün und Rot</p>
+                        <p><locus n="131r"/>Prächtige P-Initiale mit Tiergesichtern und Blattwerk in Braun, mit Ausmalung in Grün und Rot</p>
+                        <p><locus n="134v"/>I-Initiale mit Tiergesicht und Blattwerk in Braun und Rot</p>
+                        <p><locus n="136r"/>Einfach I-Initiale in Rot</p>
+                        <p><locus n="138r"/>A-Initiale mit zwei Gesichtern in Rot</p>
+                        <p><locus n="139v"/>D-Initiale in Braun mit Rot</p>
+                        <p><locus n="141v"/>Einfach I-Initiale in Rot</p>
+                        <p><locus n="143r"/>Einfach V-Initiale in Rot</p>
+                        <p><locus n="145r"/>M-Initiale in Rot</p>
+                        <p><locus n="146v"/>A-Initiale mit Tiergesicht in Rot</p>
+                        <p><locus n="148v"/>Große P-Initiale mit Gesichtern in Braun mit Rot</p>
+                        <p><locus n="150r"/>Initiale in Braun mit Rot</p>
+                        <p><locus n="151v"/>Einfach M-Initiale in Rot</p>
+                        <p><locus n="153v"/>I-Initiale in Rot und Braun</p>
+                        <p><locus n="155v"/>E-Initiale in Form einer Ziege in Grün auf rotem Grund</p>
+                        <p><locus n="160r"/>M-Initiale mit Gesicht in Rot</p>
+                        <p><locus n="162v"/>D-Initiale in Rot mit Grün</p>
+                        <p><locus n="164v"/>D-Initiale in Braun mit Rot</p>
+                        <p><locus n="166v"/>Einfache I-Initiale in Braun</p>
+                        <p><locus n="170r"/>Einfache C-Initiale in Braun</p>
+                        <p><locus n="172v"/>P-Initiale in Braun mit Rot</p>
+                        <p><locus n="175v"/>I-Initiale mit Gesicht in Braun mit Rot</p>
+                        <p><locus n="179r"/>S-Initiale in Braun auf rotem Grund</p>
+                        <p><locus n="182r"/>E-Initiale mit Tiergesichtern in Braun und Rot</p>
+                        <p><locus n="185r"/>Q-Initiale mit Personendarstellung in Braun und Rot</p>
+                        <p><locus n="189r"/>Einfache H-Initiale in Rot</p>
+                        <p><locus n="191v"/>D-Initiale in Braun mit Rot</p>
+                        <p><locus n="222v"/>Einfache T-Initiale in Braun</p>
+                        <p><locus n="231v"/>I-Initiale in Braun</p>
+                     </decoNote>
+                     <decoNote type="border">
+                        <p><locus n="98v"/>Zeichnung eines Tieres am Rand</p>
+                        <p><locus n="116v"/>Zeichnung eines Muschelwesens (?) am Rand</p>
+                     </decoNote>
                   </decoDesc>
                   <additions>
-                     <p/>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Majoris monasterii Congrg. S. Mauri</seg></p>
+                     <p>Einzelne zeitgenössische Korrekturen</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Weißer Kalbslederinband um Pappe</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange" cert="low" notBefore="0900" notAfter="1000">10.
-                           Jhd.</origDate></p>
-                     <p><origDate source="Collon" cert="low" notBefore="1000" notAfter="1100">11.
-                           Jhd.</origDate></p>
-                     <note/>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange" cert="medium" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>
+                     <p><origDate source="Collon" cert="medium" notBefore="1000" notAfter="1099">11. Jhd.</origDate></p>
+                     <note>Die Entstehung der Handschrift ist nicht gesichert. Die sehr unterschiedlichen, zum Teil recht prächtigen Initialen sind nicht gleichzeitig mit der Handschrift entstanden, wie manche nicht ausgefüllten Aussparrung erkennen lassen.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
@@ -89,7 +148,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12711</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="162"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="213"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="199"/></bibl>

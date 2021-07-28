@@ -16,7 +16,7 @@
                   <repository>BM</repository>
                   <collection/>
                   <idno>267</idno>
-                  <altIdentifier source="St-Gatian">
+                  <altIdentifier source="St-Gatien">
                      <idno>121-122</idno>
                   </altIdentifier>
                   <altIdentifier source="Rand">
@@ -72,7 +72,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0900" notAfter="0999"/>10. Jhd.</p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>
                      <note/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>

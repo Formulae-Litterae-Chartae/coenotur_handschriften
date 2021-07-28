@@ -59,27 +59,24 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Rand">3 ähnliche Hände</handNote>
-                            <handNote source="Köhler">zwei sehr verwandte Hände</handNote>
-                            <handNote source="Bischoff">mehrere Hände</handNote>
+                            <handNote source="Rand">zahlreiche Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Bischoff">FRühe turonische Minuskel</scriptNote>
+                            <scriptNote source="Bischoff">Turonische Minuskel und Halbunziale</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
-                                <p source="Rand">Initialen mit eingekreisten Vögeln</p>
-                            </decoNote>
+                            <decoNote/>                            
                         </decoDesc>
                         <additions></additions>
                         <bindingDesc>
-                            <decoNote source="Köhler">Ledereinband des 18. Jahrhundert</decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="medium" source="Bischoff"><placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                            <p><origPlace cert="medium" source="Rand Köhler Bischoff"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace cert="low" source="Rand">Perhaps done at <orgName>Marmoutier</orgName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="high" notBefore="0815" notAfter="0820">815-820</origDate></p>
                             <note></note>
                         </origin>
                         <provenance type="Provenance"></provenance>

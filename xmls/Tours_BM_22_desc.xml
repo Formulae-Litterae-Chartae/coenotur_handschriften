@@ -19,14 +19,8 @@
                   <altIdentifier source="St-Martin">
                      <idno>247</idno>
                   </altIdentifier>
-                  <altIdentifier source="Collon">
-                     <idno>22</idno>
-                  </altIdentifier>
                   <altIdentifier source="Mostert">
                      <idno>1299</idno>
-                  </altIdentifier>
-                  <altIdentifier source="Dorange">
-                     <idno>22</idno>
                   </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>23</idno>
@@ -106,19 +100,19 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low">Frankreich</origPlace></p>
-                     <p><origPlace source="Köhler" cert="low"
+                     <p><origPlace source="Bischoff" cert="medium">Frankreich</origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium"
                         ><orgName>Fleury</orgName>?</origPlace></p>
                      <p><origPlace source="Mostert" cert="low">nicht Fleury</origPlace></p>
-                     <p><origPlace source="Rand" cert="low"
+                     <p><origPlace source="Rand" cert="medium"
                         ><orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0814" notAfter="1137">nach
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0814" notAfter="1137">nach
                            814?</origDate></p>
-                     <p><origDate source="Collon Dorange" cert="low" notBefore="0700"
+                     <p><origDate source="Collon Dorange" cert="medium" notBefore="0700"
                            notAfter="0800">8. Jhd.</origDate></p>
-                     <p><origDate source="Berger" cert="low" notBefore="0700" notAfter="0796">vor
+                     <p><origDate source="Berger" cert="medium" notBefore="0700" notAfter="0796">vor
                            Alkuin</origDate></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0780" notAfter="0820">um
+                     <p><origDate source="Rand" cert="medium" notBefore="0780" notAfter="0820">um
                            800</origDate></p>
                      <note>Weder der Ort noch der Zeitpunkt der Entstehung der Handschrift kann
                         genauer festgelegt werden. Mostert, als der größte Kenner Fleurys, lehnt

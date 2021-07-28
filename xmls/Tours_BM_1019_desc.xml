@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note>Es handelt sich um zwei Handschriften, von denen der zweite Teil deutlich später ist. Der erste Teil ist ein Martinellus, im zweiten Teil werden diesem weitere Lektionen und hinzugefügt.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -29,19 +30,139 @@
                      <author/>
                      <title>Martinellus</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="2r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Epistula ad Desiderium</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="2r" to="25r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Liber Primus de Vita Martini</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="25r" to="28r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Epistula ad Eusebium</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="28r" to="31r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Epistula ad Aurelium</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="31r" to="32r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Epistula ad Bassulam</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="32v" to="35v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Epistula ad Transitus</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="35v" to="36v"/>
+                        <author/>
+                        <title>Capitula in Dialogi Severini</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="36v" to="60v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Liber primus Dialogi</title>
+                     </msItem>
+                     <msItem n="1.9">
+                        <locus from="60v" to="61r"/>
+                        <author/>
+                        <title>Capitula in Dialogi Severini Libri secundi</title>
+                     </msItem>
+                     <msItem n="1.10">
+                        <locus from="61r" to="75v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Liber secundus Dialogi</title>
+                     </msItem>
+                     <msItem n="1.11">
+                        <locus from="75v" to="76r"/>
+                        <author/>
+                        <title>Capitula in Dialogi Severini Libri Tercii</title>
+                     </msItem>
+                     <msItem n="1.12">
+                        <locus from="76v" to="92r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Liber tercius Dialogi</title>
+                     </msItem>
+                     <msItem n="1.13">
+                        <locus from="92v" to="94r"/>
+                        <author>Gregor Turonenses</author>
+                        <title>De transitu sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.14">
+                        <locus from="94r" to="94v"/>
+                        <author/>
+                        <title>Item alius unde supra</title>
+                     </msItem>
+                     <msItem n="1.15">
+                        <locus from="95r" to="95v"/>
+                        <author/>
+                        <title>Alius item unde supra</title>
+                     </msItem>
+                     <msItem n="1.16">
+                        <locus from="95v" to="97r"/>
+                        <author/>
+                        <title>Quando corpus eius translatum est</title>
+                     </msItem>
+                     <msItem n="1.17">
+                        <locus from="97v" to="100r"/>
+                        <author/>
+                        <title>Vita Bricci</title>
+                     </msItem>
+                     <msItem n="1.18">
+                        <locus from="100v" to="104v"/>
+                        <author/>
+                        <title>In festivitate sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.19">
+                        <locus from="105r" to="107v"/>
+                        <author/>
+                        <title>In festo Sancti Briccii Lectiones</title>
+                     </msItem>
+                     <msItem n="1.20">
+                        <locus from="107v" to="113v"/>
+                        <author/>
+                        <title>In festo Sancti Gregorii Turonensis Lectiones</title>
+                     </msItem>
+                     <msItem n="1.21">
+                        <locus from="114r" to="121r"/>
+                        <author/>
+                        <title>In festo beati Martini Lectiones</title>
+                     </msItem>
+                     <msItem n="1.22">
+                        <locus from="122r" to="124r"/>
+                        <author/>
+                        <title>Epistulae Fulconis et Odonis</title>
+                     </msItem>
+                     <msItem n="1.23">
+                        <locus from="124r" to="132v"/>
+                        <author/>
+                        <title>Naratione de reversionem beati martini a burgundiam</title>
+                     </msItem>
+                     <msItem n="1.24">
+                        <locus from="132v" to=""/>
+                        <author/>
+                        <title>Miracula Martini post reversionem</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="104">
+                        <extent n="160">Teil I: 104; Teil II: 56
                            <dimensions type="leaf" unit="cm">
                               <height n="27.0"/>
-                              <width n="12.5"/>
+                              <width n="19.5"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="20.0"/>
-                              <width n="6.2"/>
+                              <height n="21.0"/>
+                              <width n="14.5">14,5 (6,2 pro Spalte)</width>
                            </dimensions>
                         </extent>
                         <condition/>
@@ -50,6 +171,7 @@
                         <layout columns="2"/>
                         <layout writtenLines="25"/>
                         <layout>rote Titel</layout>
+                        <layout>erste und letzte Zeile grün hintermalt; Manche Anfangsbuchstaben grün ausgemalt.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -59,21 +181,41 @@
                      <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="figureinitial">
+                        <p><locus n="1r"/>S-Initiale in Gold</p>
+                        <p><locus n="2r"/>P-Initiale in Rot und Gold</p>
+                        <p><locus n="5r"/>Ganzseitige I-Initiale in Gold und Rot, Textbeginn in großer Kapitalis in Gold und Rot.</p>
+                        <p><locus n="25v"/>h-Initiale in Grün und Rot</p>
+                        <p><locus n="28r"/>P-Initiale in Grün, Rot und Violett</p>
+                        <p><locus n="31v"/>S-Initiale in Rot, Gold und Schwarz</p>
+                        <p><locus n="32v"/>Prachtvolle M-Initiale in Gold, Rot und Schwarz mit kleinen Medallions</p>
+                        <p><locus n="37r"/>C-Initiale in Gold, Rot und Schwarz</p>
+                        <p><locus n="61r"/>Q-Initiale in Gold, Rot und Schwarz</p>
+                        <p><locus n="76v"/>L-Initiale in Gold, Rot und Schwarz mit kleinen Medallions</p>
+                        <p><locus n="92v"/>A-Initiale in Gold</p>
+                        <p><locus n="94r"/>B-Initiale in Rot und Grün</p>
+                        <p><locus n="95r"/>E-Initiale in Grün und Rot</p>
+                        <p><locus n="96r"/>O-Initiale in Gold, Rot und Schwarz</p>
+                        <p><locus n="97v"/>I-Initiale in Rot und Schwarz</p>
+                        <p><locus n="105r"/>O-Initiale in Blau und Rot</p>
+                        <p><locus n="107v"/>S-Initiale in Rot und Blau</p>
+                        <p><locus n="122r"/>V-Initiale in Rot und Blau</p>
+                     </decoNote>
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>neuer Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange" cert="low" notBefore="0800" notAfter="1300">9.,
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0900" notAfter="1000">Teil I. 10. Jhd.</origDate></p>
+                     <p><origDate source="Dorange" cert="low" notBefore="0800" notAfter="1300">Teil I: 9. Jhd; Teil II: 
                            12. und 13. Jhd.</origDate></p>
-                     <p><origDate source="Collon" cert="low" notBefore="0800" notAfter="1500">9.,
+                     <p><origDate source="Collon" cert="low" notBefore="0800" notAfter="1500">Teil I: 9.Jhd; Teil II:
                            12., 13. und 15. Jhd.</origDate></p>
-                     <note/>
+                     <note>Weder Entstehungsort, noch die Entstehungszeit der Handschrift ist gesichert. Da der zweite Teil Ergänzungen für die Liturgie rund um Martin und Briccius enthält, erscheint eine Entstehung dieses Teils in Tours wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
@@ -87,7 +229,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37B10982</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="447 448"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="736" to="739"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="201"/></bibl>

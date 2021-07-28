@@ -27,7 +27,7 @@
                <msContents>
                   <msItem class="Theologie Exegese Kirchenväter">
                      <author>Augustinus</author>
-                     <title>Expositio in Epistolas Pauli</title>
+                     <title>Expositio in epistola ad Galathes</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -44,7 +44,8 @@
                               <width n="7.5"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition><p>Pergament und Schrift durch Feuchtigkeit zum Teil stark beschädigit und schwer lesbar.</p>
+                        <p>Der Anfang der Handschrift fehlt, sie beginnt im sechsten Absatz.</p></condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="19"/>
@@ -53,28 +54,28 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Winandy">Vermutlich eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Winandy">Spätere Minuskel mit zahlreichen Kürzungen, darunter die typisch turonischen <seg type="lat">ee</seg>, <seg type="lat">qnm</seg> und <seg type="lat">mscdia</seg>-Kürzung. </scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p/>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Maioris monasterii Cong. S. Mauri</seg></p>
+                     <p>Einige wenige zeitgenössische (?) Anmerkungen am Rand</p>
+                     <p>Lagenkontrollvermerke</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Heller Kalbsledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
-                        ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate cert="low" notBefore="0900" notAfter="1000">10.
-                        Jhd.</origDate></p>
-                     <note/>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Collon Dorange" cert="medium" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>
+                     <note>Wenig über die Entstehung dieser Handschrift ist gesichert. Die <seg type="lat">ee</seg> mit Punkten davor und danach und <seg type="lat">qnm</seg>-Kürzung spricht für eine Entstehung in Tours. Auch die Kürzung von <seg type="lat">misericodia</seg> (als nom. sac.) ist für Tours belegt (WALLENWEIN). Es ist nicht zu sagen, aus welcher Gemeinschaft diese Handschrift kommt.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
@@ -88,10 +89,11 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12704</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="162"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="213"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="193"/></bibl>
+                     <bibl><idno>Wallenwein 2017</idno><biblScope unit="pp" n="25"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

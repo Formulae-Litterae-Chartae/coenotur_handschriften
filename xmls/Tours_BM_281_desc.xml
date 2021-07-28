@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note><p>Die letzten Blätter, die von Libri gestohlen wurden und sich heute Paris, BnF, NAL 445 bilden, sind als Kopien zugefügt.</p></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -35,12 +36,88 @@
                      <author>Augustinus, Hieronymus</author>
                      <title>Briefe</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="115v"/>
+                        <title>Briefwechsel zwischen Augustinus und Hieronymus</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="93r" to="115v"/>
+                        <author>Hieronymus</author>
+                        <title>De ressurectione carnis</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="116r" to="128v"/>
+                        <author>Gregor der Große</author>
+                        <title>Homelia ad populum</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="129" to="147r"/>
+                        <author>Augustinus</author>
+                        <title>Epistula ad Paulinum Nolonesem</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="148r" to="173v"/>
+                        <author>Augustinus</author>
+                        <title>Epistula ad Bonifatium Comitem</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="174r" to="182v"/>
+                        <author>Augustinus</author>
+                        <title>De divinatione daemonum</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="183r" to="187v"/>
+                        <author>Augustinus</author>
+                        <title>Epistula ad clerum hipponiensem</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="188r" to="192v"/>
+                        <author>Augustinus</author>
+                     <title>Ad laetum</title>
+                     </msItem>
+                        <msItem n="1.9">
+                           <locus from="193r" to="197v"/>
+                           <author>Augustinus</author>
+                           <title>Homelia de igni purgatori</title>
+                        </msItem>
+                        <msItem n="1.10">
+                           <locus from="197v" to="212r"/>
+                           <author>Basileus</author>
+                           <title>Epistula consolatoria</title>
+                        </msItem>
+                        <msItem n="1.11">
+                           <locus from="212v" to="216v"/>
+                           <author>Hieronymus</author>
+                           <title>Epistula ad Marcellam</title>
+                        </msItem>
+                     <msItem n="1.12">
+                        <locus from="1r" to="2r"/>
+                        <title>Maximi Grammatica</title>
+                     </msItem>
+                     <msItem n="1.13">
+                        <locus from="2v" to="5r"/>
+                        <author>Augustinus</author>
+                        <title>Ad Maximum Grammaticum</title>
                   </msItem>
+                     <msItem n="1.14">
+                        <locus from="6r" to="9v"/>
+                        <title>Praecipis ut respondeam</title>
+                     </msItem>
+                     <msItem n="1.15">
+                        <locus from="10r" to="12v"/>
+                        <author>Hieronymus</author>
+                        <title>De vita Paulae</title>
+                     </msItem>
+                     <msItem n="1.16">
+                        <locus from="12v" to="14v"/>
+                           <title>Origenis in suis omelii</title>
+                     </msItem>
+                     </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="230">
+                        <extent n="216 + 14">
                            <dimensions type="leaf" unit="cm">
                               <height n="25.0 24.5"/>
                               <width n="20.5 19.6"/>
@@ -55,7 +132,9 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="23"/>
-                        <layout><p>rote Titel und Initialen</p></layout>
+                        <layout><p>Rote Titel in Capitalis Rustica</p>
+                           <p>Rote Initialen</p>
+                        <p>Zum Teil sind die ersten beiden Zeilen eines neuen Briefes in Halbunziale geschrieben</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -79,11 +158,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0834">2.
-                           Viertel 9. Jhd. („vor 834“) </origDate></p>
-                     <note>dadurch, dass die Handschrift von Adalbaldus ist, sind Ort und Zeit der
-                        Entstehung gesichert</note>
+                     <p><origPlace cert="high" source="Rand"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0834">2. Viertel 9. Jhd. („vor 834“) </origDate></p>
+                     <note>Dadurch, dass die Handschrift von Adalbaldus ist, sind Ort und Zeit der Entstehung gesichert</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Entstanden in St-Martin ist die Handschrift dort verblieben. Die
@@ -96,16 +173,16 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno/>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b100327987/f1.item</idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12643</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="158"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="207 208"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="145"/></bibl>
-                     <bibl><idno>Martinellus.de</idno><biblScope unit="pp" n=""/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope unit="pp" n=""/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

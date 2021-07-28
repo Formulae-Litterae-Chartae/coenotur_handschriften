@@ -25,7 +25,7 @@
                   <altIdentifier source="Marmoutier">
                      <idno>112</idno>
                   </altIdentifier>
-                  <altIdentifier source="BnF, Supplément latin">
+                  <altIdentifier source="Suppl. latin">
                      <idno>544/1</idno>
                   </altIdentifier>
                   <altIdentifier source="Rand">
@@ -44,7 +44,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="frag">
                      <supportDesc material="perg">
                         <extent n="13">
                            <dimensions type="leaf" unit="cm">
@@ -86,9 +86,10 @@
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="medium"><orgName>Marmoutier</orgName> (?)</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">ca. 2. Viertel 9. Jhd.</origDate></p>
+                  <note>Die Entstehung der Handschrift ist nicht gesichert. Die Forschung geht aktuell von einer Entsthung in Marmoutier aus, aber ohne handfeste Belege.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
-                  <provenance>Die Handschrift wurde am 12. Mai 1832 für die bibliothèque royale
+                  <provenance>Die Handschrift wurde am 12. Mai 1832 für die Bibliothèque Royale
                      durch <persName>M. Miller</persName> gekauft.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>

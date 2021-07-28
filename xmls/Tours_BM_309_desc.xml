@@ -47,22 +47,22 @@
                               <width n="6.6"/>
                            </dimensions>
                         </extent>
-                        <condition source="Dorange">die oberen Ränder der ersten 16 Folien sind
+                        <condition source="Dorange">Die oberen Ränder der ersten 16 Folien sind
                            durch Feuchtigkeit beschädigt, was aber die Lesbarkeit des Textes nicht
-                           beeinflusst </condition>
+                           beeinflusst.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="23 24">23 (24)</layout>
-                        <layout><p>rote und schwarze Titel</p></layout>
+                        <layout><p>Incipits in Rot und Schwarz, Titel in roter Unziale</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Winandy">verschiedene Hände, die zum Teil stark voneinander
-                        abweichen</handNote>
+                     <handNote source="Rand">Nicht mehr als zwei Hände, vielleicht nur eine.</handNote>
+                     <handNote source="Winandy">Mindestens zwei, vermutlich drei Hände, die zum Teil stark voneinander abweichen.</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Winandy">zu Beginn, karol. Minuskel mit Unzialen Zügen, danahc saubere karol. Minuskel.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -71,20 +71,16 @@
                      <p/>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Älterer Einband, Bindung oben leicht beschädigt.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
-                        ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low"><placeName>Paris</placeName>, wohl
-                              <orgName>St-Germain-des-Près</orgName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low">Tours sehr zweifelhaft</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
-                           >3. Viertel 9. Jhd.</origDate></p>
-                     <note>das gesamte Schriftbild weicht doch sehr stark von den anderen
-                        turonischen Handschriften ab</note>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Paris</placeName>, wohl <orgName>St-Germain-des-Près</orgName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="high">Tours sehr zweifelhaft</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
+                     <note>Das gesamte Schriftbild weicht stark von dem anderer turonischer Handschriften ab. Eine Entsthung in Tours erscheint unwahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
@@ -98,7 +94,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12902</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="173 174"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="230 231"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="164"/></bibl>

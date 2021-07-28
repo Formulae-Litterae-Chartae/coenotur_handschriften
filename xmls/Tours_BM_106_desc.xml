@@ -32,6 +32,46 @@
                      <author>Hrabanus Maurus</author>
                      <title>Expositio in Matheum</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="1v"/>
+                        <title>Praefatio</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="1v" to="2v"/>
+                        <title>Capitula</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="2v" to="20v"/>
+                        <title>Liber I</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="20v" to="44r"/>
+                        <title>Liber II</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="44r" to="63v"/>
+                        <title>Liber III</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="63v" to="81r"/>
+                        <title>Liber IV</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="81r" to="102r"/>
+                        <title>Liber V</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="102r" to="118v"/>
+                        <title>Liber VI</title>
+                     </msItem>
+                     <msItem n="1.9">
+                        <locus from="118v" to="136r"/>
+                        <title>Liber VII</title>
+                     </msItem>
+                     <msItem n="1.10">
+                        <locus from="136r" to="159v"/>
+                        <title>Liber VIII</title>
+                     </msItem>
                   </msItem>
                   <msItem class="Exegese">
                      <author>Augustinus</author>
@@ -56,39 +96,34 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="43"/>
-                        <layout><p>einige rote Titel und einige rote Initialen</p></layout>
+                        <layout><p>Einige rote Titel und einige rote Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>zahlreiche Hände</handNote>
+                     <handNote source="Rand">zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Winandy">sehr kleine, feine karol. Minuskel, mit typisch turonischen <seg type="lat">ee</seg> und <seg type="lat">qnm</seg> Kürzungen</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p source="Hellmann.de">Lagenkontrollvermerk und eine Subskription in
-                        Tironischen Noten</p>
-                     <p><locus n="1"/>eine sehr zeitnahe Notiz über die Zerstörung von St-Martin
-                        903</p>
-                     <p n="Exlibris"><locus n="1"/><seg type="lat">hic liber est sancti martini
-                           turonensis</seg> (12. Jhd.)</p>
+                     <p source="Hellmann.de">Lagenkontrollvermerk und eine Subskription in Tironischen Noten</p>
+                     <p><locus n="1"/>eine sehr zeitnahe Notiz über die Zerstörung von St-Martin 903</p>
+                     <p n="Exlibris"><locus n="1"/><seg type="lat">hic liber est sancti martini turonensis</seg> (12. Jhd.)</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Neuer Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><placeName>Tours</placeName>, vermutlich
-                              <orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0842" notAfter="0880"
-                           >Mitte 9. Jhd., nach 842</origDate></p>
-                     <note>Terminus post quem 842 ist durch das Abfassungsdatum des enthaltenen
-                        Werkes gesichert. St-Martin erscheint sehr wahrscheinlich, aufgrund der
-                        engen Verbindung zwischen Hrabanus Maurus und St-Martin. </note>
+                     <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Winandy" cert="medium"><placeName>Tours</placeName>, vermutlich <orgName>St-Martin</orgName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0842" notAfter="0880">Mitte 9. Jhd., nach 842</origDate></p>
+                     <note>Das Schriftbild dieser Handschrift weicht sehr stark von dem anderer turonischer Handschriften ab. Als Terminus post quem 842 ist durch das Abfassungsdatum des enthaltenen Werkes gesichert. St-Martin erscheint sehr wahrscheinlich, aufgrund der
+                        engen Verbindung zwischen Hrabanus Maurus und St-Martin.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Entstehung in <orgName>St-Martin</orgName> wahrscheinlich. Wenn nicht,
@@ -106,7 +141,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A11024</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="44 45"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="68 69"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="160"/></bibl>

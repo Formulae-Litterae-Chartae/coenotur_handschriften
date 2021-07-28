@@ -9,8 +9,7 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt>
-            <note source="Rand">Die Handschrift besteht aus 4 Teilen, wobei die Teile II und IV wohl
-               aus dem 11. Jahrhundert stammen. I: 1-82; II: 83-84; III: 85-132; IV: 133-134.</note>
+            <note>Die Handschrift besteht aus 2 Teilen, wobei Teil II am Anfang und Ende durch jeweils 2 Blätter aus dem 11. Jahrhundert ergänzt worden ist. I: 1-82; II: 83-134.</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -33,6 +32,33 @@
                      <author>Augustinus</author>
                      <title>Werke</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="24r"/>
+                        <author>Augustinus</author>
+                        <title>Sermon decem cordis</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="24r" to="35v"/>
+                        <author>Augustinus</author>
+                        <title>Libellus de disciplina Christanorum</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="36r" to="82r"/>
+                        <author>Augustinus</author>
+                        <title>De adulterinis coniugiis</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="83r" to="107v"/>
+                        <author>Augustinus</author>
+                        <title>Ad Paulinum</title>
+                        <note>Die ersten 2 Folio wurden später hinzugefügt, vermultich waren sie verloren gegangen.</note>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="107v" to="134r"/>
+                        <author>Augustinus</author>
+                        <title>De ocro Questionibus ad Dulcitium</title>
+                        <note>Die Blätter 133-134 scheinen später ergänzt worden zu sein. Das Ende der achten Frage fehlt.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -53,37 +79,36 @@
                      <layoutDesc>
                         <layout columns="2 1">I: 2; III: 1</layout>
                         <layout writtenLines="19 22">I: 19; III: 22</layout>
-                        <layout><p>rote und schwarz-rote Titel</p></layout>
+                        <layout><p>Hauptsächlich schwarze Titel (nicht rot), Gelb ausgemalt</p>
+                        <p>Incipit in Rot und Schwarz, Gelb ausgemalt.</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Berilandus Levita</handNote>
+                     <handNote><locus n="45"/><seg type="lat">Ego Berilandus Levita indignus favente deo librum transscripsi istum. Pax vobiscum.</seg></handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote>I: klare karol. Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p><locus n="45"/><seg type="lat">Ego Berilandus Levita indignus favente deo
-                           librum transscripsi istum. Pax vobiscum.</seg></p>
+                     <p>Zahlreiche Anmerkungen am Rand, häufig in tironischen Noten.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Neuer Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">vielleicht nicht aus
-                              <placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">Nordostfrankreich (nicht zu fern von
-                           Corbie?)</origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0860">2.
-                           Viertel/Mitte 9. Jhd.</origDate></p>
-                     <note/>
+                     <p><origPlace source="Rand" cert="medium"> <placeName>Tours</placeName>, vielleicht auch nicht</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">I: Nordostfrankreich (nicht zu fern von <orgName>Corbie</orgName>?)</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">II: (Umkreis von) <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0860">I: 2. Viertel/Mitte 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">II: 1./(2.) Viertel/Mitte 9. Jhd.</origDate></p>
+                     <note>Das Schriftbild des ersten Teils könnte aus Tours stammen. Die zwei Spalten und die gelben Ausmalungen dagegen erscheinen eher untypisch für Tours. Die zahlreichen tironischen noten in den Anmerkungen könnten zumindest daraf hindeuten, dass die Handschrift früh nach Tours gelangte. Teil II erscheint recht turonisch.</note>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance">unbekannt</provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
@@ -95,7 +120,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12689</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="160 161"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="211 212"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="189"/></bibl>

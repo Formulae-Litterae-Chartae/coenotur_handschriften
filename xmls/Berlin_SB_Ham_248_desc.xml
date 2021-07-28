@@ -80,13 +80,13 @@
                               <width n="11.7"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition>sehr guter Erhaltungszustand</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="22"/>
                         <layout>
-                           <p>Überschriften in Goldunziale</p>
+                           <p>Überschriften in goldener Unziale und Capitalis</p>
                            <p>Seitentitel und Explizit in brauner Capitalis rustica</p>
                         </layout>
                      </layoutDesc>
@@ -95,7 +95,9 @@
                      <handNote source="Fingernagel">Bis auf f. 13 von einer Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Fingernagel">Karolingische Minuskel im Stil von Tours</p>
+                     <p source="Fingernagel">Karolingische Minuskel im Stil von Tours.</p>
+                     <p source="Bischoff">Alle Vorstücke in turonischer Halbunziale</p>
+                     <p source="Winandy">turonische ee-Kürzung deutet auf eine Enstehung in St-Martin hin.</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -104,9 +106,11 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
+                     <p>Einzelne Ergänzungen am Rand, insbesondere zu den Anfängen der Weihnachtsgeschichte</p>
+                     <p>zahlreiche Ergänzungen innerhalb des Capitulare Evangeliorum</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote source="Fingernagel">Blauer Samteinband aus England(?) aus dem 18./19. Jhd.</decoNote>
+                     <decoNote source="Fingernagel">Blauer Samteinband aus England(?) aus dem 18./19. Jhd. Elfenbeineinsatz mit Kreuzigungsszene.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -118,7 +122,7 @@
                      <note></note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Vinzent</orgName>, <placeName>Metz</placeName></provenance>
-                  <provenance source="Fingernagel">Drei Handschriften aus Metz: (Metz, BM, 77 (zerstört); Paris, BnF, Latin 9393; Paris, BnF, Latin 9393) , die im 10. Jahrhundert nach dem Vorbild von Ham. 248 entstanden sind, belegen, dass die Handschrift sich spätestens seit dem 10. Jahrhundert in Metz befand..</provenance>
+                  <provenance source="Fingernagel">Drei Handschriften aus Metz: (Metz, BM, 77 (zerstört); Paris, BnF, Latin 9393; Paris, BnF, Latin 9393), die im 10. Jahrhundert nach dem Vorbild von Ham. 248 entstanden sind, belegen, dass die Handschrift sich spätestens seit dem 10. Jahrhundert in Metz befand.</provenance>
                   <provenance>Anfang des 19. Jhds. war die Handschrift im Besitz des Londoner Buchhändlers James Edwards.</provenance>
                   <provenance>Von Edwards ging sie wohl in den Besitz von Alexander Hamilton Douglas über.</provenance>
                   <provenance>Wie der Rest der Sammlung Hamiltons gelangte die Handschrift schließlich 1882/83 an die Königliche Bibliothek Berlin.</provenance>

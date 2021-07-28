@@ -80,7 +80,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="medium" source="Bischoff"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace cert="high" source="Rand Köhler Bischoff"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                             <note></note>
                         </origin>

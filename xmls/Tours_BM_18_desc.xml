@@ -73,7 +73,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1099"/>11. Jhd.</p>
+                     <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1099">11. Jhd.</origDate></p>
                      <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
