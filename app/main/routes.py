@@ -359,7 +359,7 @@ def handschrift(manuscript: str):
                     end_symbol = ''
                     if deco_text.strip().endswith('.'):
                         end_symbol = '.'
-                    metadata['illuminations'][deco_type].append('- {}{}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
+                    metadata['illuminations'][deco_type].append('{}{}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
                                                                          deco_text.strip('. \n'),
                                                                          ' (' + source.upper().replace('_', ' ') + ')'
                                                                          if source else '',
@@ -380,7 +380,7 @@ def handschrift(manuscript: str):
                 end_symbol = ''
                 if deco_text.strip().endswith('.'):
                     end_symbol = '.'
-                metadata['illuminations'][deco_type].append('- {}{}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
+                metadata['illuminations'][deco_type].append('{}{}{}{}'.format('fol. ' + ', '.join(locus) + ' - ' if locus else '',
                                                                      deco_text.strip('. \n'),
                                                                      ' (' + source.upper().replace('_', ' ') + ')'
                                                                      if source else '',

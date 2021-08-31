@@ -221,8 +221,8 @@ class TestRoutes(CoenoturTests):
             self.assertEqual(metadata['hand_desc'], ['mehrere Hände'])
             self.assertEqual(metadata['exlibris'], ['fol. 7 Exlibris von Antoine Faure'])
             self.assertEqual(metadata['online_description'], ['<a href="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60091v" target="_blank">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60091v</a>'])
-            self.assertEqual(metadata['illuminations']['Allgemeine Miniaturen'], ['- fol. 24r 215r - Federzeichnungen (FIRST GREAT SOURCE!)',
-                                                         '- fol. 1r-2r - Cool drawings (SECOND GREAT SOURCE).'])
+            self.assertEqual(metadata['illuminations']['Allgemeine Miniaturen'], ['fol. 24r 215r - Federzeichnungen (FIRST GREAT SOURCE!)',
+                                                         'fol. 1r-2r - Cool drawings (SECOND GREAT SOURCE).'])
 
             # Test Neumen & Marginal notes
             c.get('/handschrift/Tours_BM_10_desc.xml', follow_redirects=True)
@@ -237,9 +237,9 @@ class TestRoutes(CoenoturTests):
             self.assertEqual(metadata['general_notes'],
                              ['Die Zuschreibung nach Tours erfolgt vor allem aufgrund des Exlibris vom 12. Jhd.; Überlegungen, die Entstehung der Handschrift in Leury zu verorten, verweisen auf die Neumierungen auf fol. 163r, die floriazensischen Ursprungs sind. Diese Neumen könnten durch eine Ausleihe nach Fleury oder durch einen St-Martin besuchenden floriazensischen Mönch angefertigt worden sein, ohne dass die Entstehung der gesamten Handschrift deshalb in Fleury gesucht werden muss (MOSTERT).'])
             self.assertEqual(metadata['illuminations']['Ganzseite Miniaturen'],
-                             ['- fol. 24r 215r - Federzeichnungen (FIRST GREAT SOURCE!)'])
+                             ['fol. 24r 215r - Federzeichnungen (FIRST GREAT SOURCE!)'])
             self.assertEqual(metadata['illuminations']['Allgemeine Miniaturen'],
-                             ['- fol. 1r-2r - Cool drawings (SECOND GREAT SOURCE).'])
+                             ['fol. 1r-2r - Cool drawings (SECOND GREAT SOURCE).'])
 
 
             # Test tironischen Noten & Provenence (notes)
