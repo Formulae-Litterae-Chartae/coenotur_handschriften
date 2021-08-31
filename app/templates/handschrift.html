@@ -138,20 +138,19 @@
                 {% if m_d['illuminations'] %}
                 <tr>
                     <th scope="row">Illuminationen</th>
-                    <td>{% if m_d['illuminations']|length == 1 %}{% for i in m_d['illuminations'].values() %}{{ i|join('<br>')|safe }}{% endfor %}{% else %}
+                    <td>
                     {% for deco_type, deco_desc in m_d['illuminations'].items() %}
                     {% if deco_type == "Allgemeine Miniaturen" %}
-                        {{ deco_desc|join('<br>')|safe }}
+                        {% if deco_desc|length > 1%}- {% endif %}{{ deco_desc|join('<br>- ')|safe }}
                     {% else %}
                     <div class="card">
                         <a data-toggle="collapse" aria-expanded="false" href="#{{ deco_type|replace(' ', '-') }}-collapse" role="button" aria-controls="{{ deco_type|replace(' ', '-') }}-collapse">{{ deco_type }}</a>
                         <div id="{{ deco_type|replace(' ', '-') }}-collapse" class="collapse" aria-labelledby="{{ deco_type }}-header">
-                                {{ m_d['illuminations'][deco_type]|join('<br>')|safe }}
+                                {% if deco_desc|length > 1%}- {% endif %}{{ deco_desc|join('<br>- ')|safe }}
                         </div>
                     </div>
                     {% endif %}
-                    {% endfor %}
-                    {% endif %}</td>
+                    {% endfor %}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['marginal'] %}
