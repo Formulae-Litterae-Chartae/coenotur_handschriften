@@ -10,7 +10,7 @@
          </publicationStmt>
          <notesStmt>
             <note>
-               <p source="Dorange">Dieses Missale wurde in St-Martin verwendet. Es findet sich weder
+               <p source="Dorange">Dieses prächtige Missale ist in St-Martin verwendet worden. Es findet sich weder
                im Katalog von Montfaucon, noch in dem von Chalmel, vermutlich, weil es so wertvoll
                war, dass es im Tresor und nicht in der Bibliothek gelagert wurde.</p>
             </note>
@@ -23,6 +23,9 @@
                   <repository>BM</repository>
                   <collection/>
                   <idno>193</idno>
+                  <altIdentifier source="Leroquais">
+                     <idno>158</idno>
+                  </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>228</idno>
                   </altIdentifier>
@@ -33,12 +36,24 @@
                      <author/>
                      <title>Sakramentar/Missale</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="2r" to="7v"/>
+                        <title>Kalender</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="8r" to="142v"/>
+                        <title>Missale</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="143r" to="185v"/>
+                        <title>Antiphonale missarum</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="62">
+                        <extent n="197">
                            <dimensions type="leaf" unit="cm">
                               <height n="28.0"/>
                               <width n="21.8"/>
@@ -48,37 +63,59 @@
                               <width n="7.1"/>
                            </dimensions>
                         </extent>
-                        <condition source="Dorange">gut, außer dass bei der Neubindung die Ränder zu
-                           stark beschnitten worden sind</condition>
+                        <condition source="Dorange">Gut, außer dass bei der Neubindung die Ränder zu stark beschnitten worden sind</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="22"/>
-                        <layout/>
+                        <layout>Intialen der einzelnen Lektionen in Blau und Rot mit Rankenmuster.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Winandy">Zahlreiche Hände, des 12. und 13. Jahrhunderts</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Winandy">Monumentale gothische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>Miniaturen vorhanden</decoNote>
+                     <decoNote><p>Es werden nur die prächtigen Figureninitialen aufgelistet.</p></decoNote>
+                     <decoNote type="miniature">
+                        <p><locus n="69v"/>Christus in Maiestas umgeben von der Symbolen der Evangelisten</p>
+                        <p><locus n="70r"/>Kreuzzigung Christi</p>
+                     </decoNote>
+                     <decoNote type="figureinitial">
+                        <p><locus n="17r"/>Geburt Christi</p>
+                        <p><locus n="21v"/>Anbetung durch die drei Weisen</p>
+                        <p><locus n="48v"/>Engel und die heiligen Frauen</p>
+                        <p><locus n="54r"/>Christi Himmelfahrt</p>
+                        <p><locus n="56v"/>Pfingsten</p>
+                        <p><locus n="59r"/>Trinität</p>
+                        <p><locus n="70v"/>Prächtige, ganzseitige P-Initiale</p>
+                        <p><locus n="71r"/>Porträt Christi, mit <seg type="lat">ecclesia </seg>und <seg type="lat">synagoga</seg>. Das Gesicht Christis ist ausgekratzt.</p>
+                        <p><locus n="71v"/>Riesiege, prächtige T-Initiale</p>
+                        <p><locus n="78v"/>Die Rückkehr des heiligen Martin</p>
+                        <p><locus n="84v"/>Petrus und Paulus</p>
+                        <p><locus n="89r"/>Bischofsweihe des heiligen Martin</p>
+                        <p><locus n="98r"/>Maria Himmelfahrt</p>
+                        <p><locus n="109r"/>Weihe des Florentius durch Martin</p>
+                        <p><locus n="110v"/>Der heilige Michael</p>
+                        <p><locus n="115r"/>Die Heiligen im Himmel</p>
+                        <p><locus n="116v"/>Tod des heiligen Martin</p>
+                     </decoNote>
                   </decoDesc>
                   <additions>
-                     <p/>
+                     <p>Einzelne Lektionen sind durchgestrichen und durch andere einer späteren Hand ersetz.</p>
+                     <p n="Neumen"><locus n="142v"/>Gloria</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Ledereinband mit Goldstanzungen</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate cert="medium" notBefore="1100" notAfter="1300">12. und 13.
-                           Jhd.</origDate></p>
-                     <note/>
+                     <p><origDate cert="medium" notBefore="1100" notAfter="1299">12. und 13. Jhd.</origDate></p>
+                     <note>Die Entstehung in St-Martin erscheint sehr wahrscheinlich</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>
@@ -92,9 +129,10 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A11756</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="101"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="135" to="139"/></bibl>
+                     <bibl><idno>Leroquais I 1924</idno><biblScope unit="pp" n="313 317"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="201 202"/></bibl>
                   </listBibl>
                </additional>

@@ -3,12 +3,12 @@
     <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
-                <title>Bern, Burgerbibliothek, 165</title>
+                <title>Bern, Burgerbibliothek, 3</title>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note>Die Handschrift bilden mit Bern, Burgerbibliothek 4 eine Einheit.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -16,54 +16,57 @@
                         <settlement>Bern</settlement>
                         <repository>Burgerbibliothek</repository>
                         <collection/>
-                        <idno>165</idno>
+                        <idno>3</idno>
                         <altIdentifier source="Rand">
-                            <idno>64</idno>
+                            <idno>73</idno>
                         </altIdentifier>
                         <altIdentifier source="Köhler">
-                            <idno>26</idno>
+                            <idno>17</idno>
                         </altIdentifier>
                         <altIdentifier source="Bischoff">
-                            <idno>541</idno>
+                            <idno>489</idno>
                         </altIdentifier>
                         <msName/>
                     </msIdentifier>
                     <msContents>
-                        <msItem class="Klassiker">
-                            <author>Vergilius</author>
-                            <title>Bucolica, Georgica, Aeneis / scholia Turonensia</title>
+                        <msItem class="Bibel">
+                            <author/>
+                            <title>Bibel</title>
                             <textLang mainLang="la"/>
+                            <note>Der Text bricht zu Beginn der Apokalypse ab.</note>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent n="219">
+                                <extent n="209">
                                     <dimensions type="leaf" unit="cm">
-                                        <height n="32.5"/>
-                                        <width n="24.5"/>
+                                        <height n="46.5"/>
+                                        <width n="35.3"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="22.0"/>
-                                        <width n="11.7"/>
+                                        <height n="37.5"/>
+                                        <width n="28.5"/>
                                     </dimensions>
                                 </extent>
-                                <condition>Schlußblatt fehlt</condition>
+                                <condition></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1"/>
-                                <layout writtenLines="30"/>
-                                <layout><p>Rote Titel und einige ornamentale Initialen</p></layout>
+                                <layout columns="2"/>
+                                <layout writtenLines="51 52">51 (52)</layout>
+                                <layout><p>Rote Titel</p></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Rand">Vermutlich 2 oder mehr Hände</handNote>
+                            <handNote source="Rand">Eine Haupthand</handNote>
+                            <handNote source="Bischoff">Mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Bischoff">Turonische Minuskel.</scriptNote>
+                            <scriptNote source="Rand">"Regular"</scriptNote>
+                            <scriptNote source="Bischoff">Turonische Minuskel und Halbunziale</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
+                            <decoNote>Initialen und Kanontafeln
                             </decoNote>
                         </decoDesc>
                         <additions>
@@ -74,9 +77,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Rand Köhler Bischoff" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
-                            <note>Die Handschrift wurde St-Martin durch Berno gestiftet. RAND merkt an, dass, wenn es sich bei Berno um einen Schüler Alkuins handelt, dann scheint dieser vor der Verbrüderung mit St-Gallen (ca. 820) verstorben zu sein, da er dort nicht auftaucht, so dass die Entstehung der Handschrift auf vor ca. 820 zu datieren wäre.</note>
+                            <p><origPlace source="Rand Köhler Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0820" notAfter="0830">ca. 820-830</origDate></p>
+                            <note>Die Enstehung der Handschrift in Tours um 820/830 wird nicht angezweifelt..</note>
                         </origin>
                         <provenance type="Provenance"><placeName/></provenance>
                         <provenance></provenance>
@@ -86,14 +89,14 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno>https://www.e-codices.unifr.ch/en/bbb/0165/2r</idno>
+                                <idno>https://www.e-codices.unifr.ch/en/bbb/0003</idno>
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno>https://www.e-codices.unifr.ch/en/list/one/bbb/0165</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="127 128"/></bibl>
-                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="380 381"/></bibl>
-                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="114"/></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://www.e-codices.unifr.ch/en/description/bbb/0003/</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="133"/></bibl>
+                            <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="375 376"/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="103"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
