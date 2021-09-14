@@ -3,74 +3,78 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>New Haven, Yale University; Beinecke Librray, Ms. 413</title>
+            <title>Tours, BM, 1521</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note>Die Handschrift ist zerstört. Sie gehörte zu Paris, BnF, Latin 9733 und Den Haag, Museum Meermanno Westreenianum 10 D 4 und enthielt 6 Blätter aus Tours mit Teilen der Libri Miraculorum von Gregor von Tours.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>USA</country>
-                  <settlement>New Haven</settlement>
-                  <repository>Yale University, Beinecke Library</repository>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
                   <collection/>
-                  <idno>Ms. 413</idno>
-                  <altIdentifier source="Chester Beatty">
-                     <idno>11</idno>
+                  <idno>1521</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>154</idno>
                   </altIdentifier>
                   <altIdentifier source="Rand">
-                     <idno>153</idno>
-                  </altIdentifier>
-                  <altIdentifier source="Mordek">
-                     <idno>Nh</idno>
+                     <idno>158</idno>
                   </altIdentifier>
                   <altIdentifier source="Bischoff">
-                     <idno>3585</idno>
+                     <idno>1447</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Rechtstexte">
-                     <author>Ansegisus</author>
-                     <title>Capitula</title>
+                  <msItem class="Heiligenviten">
+                     <author></author>
+                     <title>Variae</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="30r" to="35v"/>
+                        <author>Gregor von Tours</author>
+                        <title>Libri VIII miraculorum</title>
+                        <note>Teile</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="105">
+                        <extent n="249">
                            <dimensions type="leaf" unit="cm">
-                              <height n="29.0"/>
-                              <width n="22.5"/>
+                              <height n="28.0"/>
+                              <width n="22.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="18.5"/>
-                              <width n="14.5"/>
+                              <height/>
+                              <width/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>zerstört</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
-                        <layout writtenLines="24"/>
-                        <layout><p></p></layout>
+                        <layout writtenLines="27"/>
+                        <layout><p source="Rand">Rote und schwarze Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">2 Haupthände</handNote>
+                     <handNote source="Bischoff">mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">"Decadent Perfected and Revived Cursive"</scriptNote>
-                     <scriptNote source="Bischoff">"Min. zweier Stile: Tours und Reimser Variante"</scriptNote>
+                     <scriptNote source="Rand">"Revived cursive, wild"</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>vorhanden
+                     <decoNote>
                      </decoNote>
                   </decoDesc>
                   <additions>
+                     <p></p>
+                     <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -78,15 +82,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium">In einem Hofskriptorium für Karl den Kahlen geschrieben.</origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0875" notAfter="0899">Ende 9. Jahrhundert</origDate></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0873" notAfter="0899">873 oder später</origDate></p>
-                     <note>Wenig ist über die Handschrift bekannt.</note>
+                     <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0899"></origDate></p>
+                     <note>Wenig ist über diese Handschrift bekannt. Sie ist im zweiten Weltkrieg zerstört worden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
-                  <acquisition><name type="Repository"></name></acquisition>
+                  <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
@@ -97,10 +99,10 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="175 176"/></bibl>
-                     <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="386 391"/></bibl>
-                     <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="311"/></bibl>
-                 </listBibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="178 179"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="302"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="158"/></bibl>
+                  </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

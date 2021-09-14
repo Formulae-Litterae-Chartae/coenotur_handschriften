@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note>Es handelt sich um mehrere später zusammengebundene Handschriften.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -25,14 +26,26 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Theologie Exegese" n="1 121">
+                  <msItem class="Theologie Exegese">
                      <author>Hilarius</author>
-                     <title>Expositio in Psalmos</title>
-                     <textLang mainLang="la"/>
-                  </msItem>
-                  <msItem class="Theologie Exegese" n="122 161">
                      <author>Ambrosius</author>
-                     <title>De spiritu sancto</title>
+                     <textLang mainLang="la"/>
+                        <msItem n="1.1">
+                           <locus from="1r" to="121r"/>
+                           <author>Hilarius</author>
+                           <title>Commentarius in Psalmos</title>
+                        </msItem>
+                     <msItem n="1.2">
+                        <locus from="122r" to="150v"/>
+                        <author>Ambrosius</author>
+                        <title>De spiritu sancto</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="150v" to="161v"/>
+                        <author>Ambrosius</author>
+                        <title>Liber de incarntionis sacramento</title>
+                        <note>In der HAndschrift bezeichnet als <seg type="lat">Liber VIII</seg>.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -48,25 +61,27 @@
                               <width n="8.5 8.0">I: 8,5; II: 8,0</width>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Einzelne Blätter stark beschädigt.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="29"/>
-                        <layout><p>rote Initialen</p></layout>
+                        <layout><p>Rote Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>mindestens 4 Hände</handNote>
+                     <handNote source="Rand">4 Hände Teil I; 2 Hände Teil II</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Rand">Decadent Perfected</scriptNote>
+                     <scriptNote source="Winandy">Jüngere Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p/>
+                     <p n="Exlibris"><locus n="2r"/><seg type="lat">ex libris maioris monasterii prope Turoneses</seg></p>
+                     <p>Einzelne, wenige Anmerkungen am Rand</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -74,12 +89,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff Rand" cert="low">Tours (?)</origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0900" notAfter="1100"
-                           >10./11. Jhd.</origDate></p>
-                     <note>sehr wenig bekannt; die zwei Teile scheinen zu unterschiedlichen
-                        Zeitpunkten entstanden und erst später zusammengebunden worden zu
-                        sein</note>
+                     <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">Teil I: Tours (?); Teil II: ohne Ortsangabe</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0900" notAfter="1099" >10./11. Jhd.</origDate></p>
+                     <note>Laut RAND enthält Teil I die <seg type="lat">misericordia</seg> Kürzung als nom. sac. die typisch für Tours ist (WALLENWEIN).</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
@@ -98,6 +111,7 @@
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="191 192"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="183"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
+                     <bibl><idno>Wallenwenin 2017</idno><biblScope unit="pp" n="25"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

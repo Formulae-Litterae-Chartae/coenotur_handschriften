@@ -17,6 +17,9 @@
                         <repository>Museum Meermanno-Westreenianum</repository>
                         <collection></collection>
                         <idno>10 D 6</idno>
+                        <altIdentifier source="Q.">
+                            <idno>5</idno>
+                        </altIdentifier>
                         <altIdentifier source="Rand">
                             <idno>98</idno>
                         </altIdentifier>

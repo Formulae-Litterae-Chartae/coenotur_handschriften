@@ -78,7 +78,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0830">Anfang 9. Jhd.</origDate></p>
                             <note></note>
                         </origin>
@@ -94,7 +94,8 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_47678_fs001r</idno></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_47678</idno></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="104"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="104"/></bibl>
                         </listBibl>
                     </additional>

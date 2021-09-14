@@ -36,6 +36,39 @@
                      <author>Hieronymus</author>
                      <title>Chronicon</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="3r"/>
+                        <title>Praefatio Hieronymi</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="3r" to="7v"/>
+                        <title>Eusebii Interpretata Praefatio</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="8v" to="50r"/>
+                        <title>Chronik bis zum Fall von Troja</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="50v" to="75r"/>
+                        <title>Chronik vom Fall Trojas bis zur ersten Olypmiade</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="75r" to="104r"/>
+                        <title>Von der ersten Olympiade bis zur Eroberung Persiens durch Alexander</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="104r" to="126r"/>
+                        <title>Bis zur Geburt Christi</title>
+                        <note>dia ber nicht besonders markiert ist</note>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="126r" to="166v"/>
+                        <title>Ab der Geburt Christi</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus n="167v"/>
+                        <title>Zwei ergänzende Texte</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
