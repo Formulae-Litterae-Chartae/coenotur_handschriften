@@ -16,11 +16,14 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>NAL 1577</idno>
+                  <altIdentifier source="Marmoutier">
+                     <idno>66</idno>
+                  </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>184</idno>
                   </altIdentifier>
-                  <altIdentifier source="Marmoutier">
-                     <idno>66</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>5091</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
@@ -44,38 +47,39 @@
                               <width n="18.8"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Der Anfang der Handschrift fehlt. Die Pergamentseiten sind unten stark vom Schimmel angegriffen.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="29 31">29, 30, 31</layout>
-                        <layout source="Rand"><p>Initialen mit traditionellem Design</p></layout>
+                        <layout><p>Kleine, unauffällige Incipits und Explizits in Capitalis (vielleicht nachträglich)</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>verschiedene Hände</handNote>
+                     <handNote source="Rand">Verschiedene Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">groß und klar</scriptNote>
+                     <scriptNote source="Rand">Groß und klar</scriptNote>
+                     <scriptNote source="Winandy">Spätere turonische Minuskel. Einzelne Hände weichen vom typischen Schriftbild ab.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial" subtype="add"><locus n="57v"/>Nachträglich I-Initiale an den Rand gezeichnet.</decoNote>
                   </decoDesc>
-                  <additions/>
+                  <additions>
+                     <p><seg type="lat">Nota</seg> und weitere Zeichen am Rand.</p>
+                     <p>Nachträgliche Einteilung in Bücher am Rand.</p>
+                  </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Bunter Samteinband auf Holz.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium">westliches Frankreich (nicht
-                           Tours)</origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0900" notAfter="1000">10.
-                           Jhd.</origDate></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0870"
-                           >9. Jhd. ca. Mitte</origDate></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">westliches Frankreich (nicht Tours)</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0870">9. Jhd. ca. Mitte</origDate></p>
+                     <p><origDate source="Rand BNF" cert="low" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>                     
+                     <note>Die Datierung in das 10. Jahrhundert erscheit mir sehr unwahrscheinlch. Die Handschrift sieht in großen Teilen nach einer typisch turonsichen Handschrift aus der Mitte des 9. Jahrhunderts aus. Auch die umpunktete <seg type="lat">e</seg>-Kürzung für <seg type="lat">est</seg> deutet auf eine Entstehung in Tours hin..</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
@@ -89,8 +93,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69901s</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69901s</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="191 192"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="239"/></bibl>
                   </listBibl>

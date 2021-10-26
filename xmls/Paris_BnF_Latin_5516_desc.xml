@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note source="Kramer/Gantner">Bei dieser Handschrift handelt es sich um die einzige Handschrift des 9. Jahrhunderts, die beim <seg type="lat">Liber Pontificalis</seg> bis zur Mitte des 9. Jahrhunderts führt.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -16,6 +17,12 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 5516</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>1925</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>7060/1</idno>
+                  </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>83</idno>
                   </altIdentifier>
@@ -25,14 +32,18 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Misc">
-                     <locus from="1" to="115"/>
+                  <msItem class="Misc Konzilsakten">
                      <title>Liber Pontificalis</title>
-                     <textLang mainLang="la"/>
-                  </msItem>
-                  <msItem class="Konzilsakten">
-                     <locus from="116" to="170"/>
                      <title>Kanones vom Konzil von Paris 829</title>
+                     <textLang mainLang="la"/>
+                        <msItem n="1.1">
+                        <locus from="1" to="115"/>
+                        <title>Liber Pontificalis</title>
+                        </msItem>
+                        <msItem n="1.2">
+                        <locus from="116" to="170"/>
+                        <title>Kanones vom Konzil von Paris 829</title>
+                        </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -48,49 +59,43 @@
                               <width n="14.0"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Die Handschrift ist recht gut erhalten. Leichte Schäden am Rand, die aber nicht bis in den Text reichen.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="32">32 (26-37)</layout>
-                        <layout><p>rote und schwarze Titel</p></layout>
+                        <layout><p>Rote und schwarze Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>verschiedene Hände</handNote>
+                     <handNote>Verschiedene Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote>Karolingische Minuskel, Titel zum Teil in Capitalis Rustica. Im zweiten Teil erste Zeielen manchmal in Unziale.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="1r"/><seg type="lat">iste liber est de armario beati
-                           martini turonensis</seg></p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">iste liber est de armario beati martini turonensis</seg></p>
+                     <p>Zahlreiche Anmerkungen am Rand.</p>
+                     <p>Nachträgliche (?) Nummerierungen bis zum Pontifikat 49. Danach teilweise zeitgenössisch (?) von einer anderen Hand.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Roter Ledereinband mit goldenem Wappen</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">Teil 1:
-                           <placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">Teil 1:
-                           <placeName>Rom</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">Teil 2:
-                              <placeName>Tours</placeName>/<placeName>Reims</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
-                           >2. Viertel 9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0829" notAfter="0840">nach
-                           829 für den 2. Teil, wahrscheinlich nicht viel</origDate></p>
-                     <note>Entstehungszeit scheint festzustehen, Ort dagegen sehr
-                        zweifelhaft.</note>/> </origin>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">Teil 1: Zum Teil turonische Schrift (in <placeName>Rom</placeName>?), zum Teil italienischen Schrift (in Rom).</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">Teil 2: zum Teil <placeName>Tours</placeName>, zum Teil <placeName>Reims</placeName>(?)</origPlace></p>
+                     <p><origDate source="Rand" cert="high" notBefore="0829" notAfter="0850">Nach 829 durch den 2. Teil belegt, wahrscheinlich nicht viel später.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
+                     <note><p>Die beiden Teile sind, laut RAND, vermutlich gemeinsam entstanden. Sie ähneln sich sehr und Teil II beginnt auf dem zweiten Blatt einer Lage. Die Entstehungszeit scheint festzustehen, Ort dagegen sehr zweifelhaft. Das Schriftbild weicht sehr stark vom typischenSchriftbild aus Tours ab, so dass eine Entstehung in Tours unwahrscheinlich erscheint, wobei einzelne Hände z. B. f. 38r-45v und f. 116r-129v turonisch sein könnten.</p>
+                     <p>Der <seg type="lat">Liber Pontificalis</seg> geht bis einschließlich des Pontifikats Leos IV. (847-855). Die Entstehung der Handschrift muss also auf nach 855 datiert werden. Die Dauer der Pontifikate von Benedikt III. (855-858) und Nikolaus I. (858-867) sind nachgetragen, so dass die Hadnschrift vermutlich zwischen 855 und 858 entstanden ist. Die zahlreichen Schreiberwechsel, insbesondere bei Lagenwechsel (aber nicht ausschließlich), deuten auf eine zügige Abschrift unter mehreren Schreiber hin.</p></note></origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
-                  <provenance>Von <orgName>St-Martin</orgName> ging die Handschrift in die Sammlung
-                     von <persName>Colbert</persName> über und von dort in die königliche
-                     Bibliothek.</provenance>
+                  <provenance>Von <orgName>St-Martin</orgName> ging die Handschrift in die Sammlung von <persName>Colbert</persName> über und von dort in die königliche Bibliothek.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -101,10 +106,10 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64475n</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64475n</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="139 140"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="109"/></bibl>
+                     <bibl><idno>Kramer/Gantner 2016</idno><biblScope unit="pp" n="16"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

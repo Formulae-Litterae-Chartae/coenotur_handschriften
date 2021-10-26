@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note>Es handelt sich um einen schlicht gehaltenen Martinellus.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -16,6 +17,12 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 5581</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>4286</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>4430/3 a</idno>
+                  </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>13</idno>
                   </altIdentifier>
@@ -29,6 +36,43 @@
                      <author/>
                      <title>Martinellus</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="3r" to="32r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Vita sancti Martini</title>
+                        <note>Beginnt in Kap. II</note>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="32r" to="36r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Eusebium</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="36r" to="40r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Aurelium</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="40v" to="45v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad. Bassulam</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="45r" to="79r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber primus</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="79r" to="99v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber secundus</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="100r" to="114v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber tertius</title>
+                        <note>Der Text bricht in Cap. XVIII ab.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -37,54 +81,55 @@
                         <extent n="112">
                            <dimensions type="leaf" unit="cm">
                               <height n="23.8 23.5">23,8 (23,5)</height>
-                              <width n="15.7 16.2">15,7 (16,2)></width>
+                              <width n="15.7 16.2">15,7 (16,2)</width>
                            </dimensions>
                            <dimensions type="written" unit="cm">
                               <height n="17.5"/>
                               <width n="11.5 12">11,5 (12)</width>
                            </dimensions>
                         </extent>
-                        <condition>das Ende fehlt; die Handschrift bricht in den Dialogen des
+                        <condition>Anfang und Ende der Handschrift fehlen; sie bricht in den Dialogen des
                            Sulpicius Severus ab</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="21"/>
-                        <layout><p>rote und schwarze Titel mit ein wenig Silber</p></layout>
+                        <layout><p>Titel in roter Capitalis</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">eine Hand</handNote>
-                     <handNote source="Bischoff">mehr als eine Hand</handNote>
-                     <handNote>Boso</handNote>
-                     <handNote>viele verschiedenen Hände, sowie eine zeitgenössische Korrekturhand;
-                        eine weist Ähnlichkeit mit Tours, BM, 10 auf</handNote>
+                     <handNote source="Rand">Eine Hand, ähnlich wie Tours, BM, 10</handNote>
+                     <handNote source="Bischoff">Mehr als eine Hand</handNote>
+                     <handNote><persName type="scribe">Boso</persName></handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">verbesserte Kursive; gemischte Majuskel</scriptNote>
+                     <scriptNote source="Rand">Verbesserte Kursive; gemischte Majuskel</scriptNote>
+                     <scriptNote source="Bischoff">Große turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p><locus n="68r"/><seg type="lat">BOSO ME FECIT</seg>, eingeritzt</p>
+                     <p><locus n="68r"/><seg type="lat">BOSO ME FECIT</seg>, eingeritzt.</p>
+                     <p>Zeitgenössische Korrekturen.</p>
                      <p>Glossen und Korrekturen aus dem 12. Jhd. übersetzen Toponyme in ihre Zeit.
                         Die Glossierungen hören fol. 45r mit dem Ende der Briefe des Sulpicius
-                        Severus auf</p>
+                        Severus auf.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Roter Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
-                           >1. Viertel 9. Jhd.</origDate></p>
-                     <p/>
+                     <p><origPlace source="Rand Hellmann Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Winandy" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0790" notAfter="0796">Voralkuinisch</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                     <note>Alles spricht für eine Entstehung in St-Martin in Tours. Wenn die Einordnung von RAND stimmt, handelt es sich um den ersten überlieferten, karolingischen Martinellus. Sicher ist er einer der ersten. Da das Ende fehlt, kann leider nicht entschieden werden, ob er weitere Schriften enthalten hat oder mit den Schriften von Sulpicius Severus endete.</note>
                   </origin>
                   <provenance type="Provenance"/>
-                  <provenance/>
+                  <provenance>Die Handschrift war im Besitz von Colbert und gelangte dann an die Bibliothèque royale.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -95,9 +140,10 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64547p</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64547p</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="94 95"/></bibl>
+                     <bibl><idno>Rand 1939</idno><biblScope unit="pp" n="424"/></bibl>
+                     <bibl><idno>Hellmann 2002</idno><biblScope unit="pp" n="245"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="111"/></bibl>
                   </listBibl>
                </additional>

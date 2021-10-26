@@ -16,11 +16,11 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 1820</idno>
-                  <altIdentifier source="Regius">
-                     <idno>3990</idno>
-                  </altIdentifier>
                   <altIdentifier source="Dupuy">
                      <idno>195</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>3990</idno>
                   </altIdentifier>
                   <altIdentifier source="CLA">
                      <idno>536</idno>
@@ -33,7 +33,7 @@
                <msContents>
                   <msItem class="Theologie Exegese">
                      <author>Hieronymus</author>
-                     <title>Commentarius in Jeremiam</title>
+                     <title>Commentarius in Hieremiam</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -46,21 +46,24 @@
                               <width n="18.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="20.6 21.2">20,6 - 21,2</height>
+                              <width n="13.8 14.2">13,8 - 14,2</width>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Die Handschrift ist gut erhalten.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout/>
+                        <layout writtenLines="25 27">26 (25, 27)</layout>
+                        <layout columns="1"/>
+                        <layout>Einzelne Titel in Rot.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">mehrere Hände</handNote>
+                     <handNote source="Rand">Zahlreiche Hände, dieselben wie Paris, BnF, Latin 1572.</handNote>
+                     <handNote source="Bischoff">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">vorkarolingische turonische Minuskel</scriptNote>
+                     <scriptNote source="Bischoff">Vorkarolingische turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -72,37 +75,27 @@
                         <p><locus n="53v"/>Dreieckiger Rahmen. An jeder Ecke eine Palmenverzierung.</p>
                      </decoNote>
                   </decoDesc>
-                  
                   <additions>
-                     <p n="Exlibris" source="CLA"><locus n="2r"/><seg type="lat">LIBER SCI MAXINI
-                           MICIACENS</seg>(sic) (9. Jhd.)</p>
-                     <p n="Exlibris" source="CLA"><locus n="1r"/><seg type="lat">Liber Sancti
-                           maximini relectus a petro abbate</seg> (9. Jhd.)</p>
+                     <p n="Exlibris" source="CLA"><locus n="2r"/><seg type="lat">LIBER SCI MAXINI MICIACENS</seg>(sic) (9. Jhd.)</p>
+                     <p n="Exlibris" source="CLA"><locus n="1r"/><seg type="lat">Liber Sancti maximini relectus a petro abbate</seg> (9. Jhd.)</p>
+                     <p n="Exlibris"><locus n="8v"/><locus from="33v" to="34r"/><locus from="49v" to="50r"/><locus from="57v" to="58r"/><locus from="64v" to="65r"/><locus from="72v" to="73r"/><locus from="86v" to="87r"/><locus from="98v" to="99r"/><locus from="100v" to="101r"/><locus from="113v" to="114r"/><locus from="122v" to="123r"/><locus from="137v" to="138r"/><locus from="158r" to="159v"/><locus from="174v" to="175r"/><locus from="189v" to="190r"/><locus from="204v" to="205r"/>Es finden sich weitere Exlibris, die zum Teil den Text umranden.</p>
+                     <p>Zahlreiche Anmerkungen am Rand, darunter häufig <seg type="lat">SS</seg> für <seg type="lat">scribe</seg>.</p>
+                     <p source="Delisle">Korrekturen durch die Hand von Peter von Micy.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Weißer Ledereinband auf dünner Pappe</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low"
-                           ><orgName>St-Mesmin de Micy</orgName></origPlace></p>
-                     <p><origPlace source="Mercier" cert="low"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="CLA" cert="medium" notBefore="0750" notAfter="0800"
-                           >751-800</origDate></p>
-                     <p><origDate source="Mercier BnF" cert="medium" notBefore="0700"
-                           notAfter="0800">8. Jhd.</origDate></p>
-                     <note source="Delisle">Die Entstehung der Handschrift ist nicht gesichert. Es
-                        scheint jedoch so, dass der Abt Peter von Micy Korrekturen an der
-                        Handschrift vorgenommen hat, wie aus der zitierten Anmerkung hervorgeht.
-                        Auch scheint er die bereits frühzeitig verlorenen fol. 9-13 ersetzt zu
-                        haben.</note>
+                     <p><origPlace source="Bischoff" cert="medium"><orgName>St-Mesmin de Micy</orgName></origPlace></p>
+                     <p><origPlace source="Rand Mercier" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="CLA" cert="medium" notBefore="0750" notAfter="0800">751-800</origDate></p>
+                     <p><origDate source="Mercier BnF" cert="medium" notBefore="0700" notAfter="0800">8. Jhd.</origDate></p>
+                     <note>Die Entstehung der Handschrift ist nicht gesichert. RAND argumentiert dafür, dass die Handschrift mit Sicherheit von denselben Schreibern abgefasst worden ist, wie Paris, BnF, Latin 1572 was für eine Entstehung in Tours spricht, selbst wenn er sich nicht endgültig auf einen Entstehungsort festelgen will ("Ces deux manuscrits ont été certainement écrits par les mèmes scribes qu'ils fussent soit de Micy, soit de Tours"). Es scheint jedoch so, dass der Abt Peter von Micy Korrekturen an der Handschrift vorgenommen hat, wie aus der zitierten Anmerkung hervorgeht. Auch scheint er die bereits frühzeitig verlorenen fol. 9-13 ersetzt zu haben.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Mesmin de Micy</orgName></provenance>
-                  <provenance>Durch das Exlibris von <persName>Peter von Micy</persName>, der von
-                     840-859 Abt in Micy war, steht fest, dass die Handschrift bereits im 9. Jhd.
-                     nach <orgName>St-Mesmin de Micy</orgName> gelangte. </provenance>
+                  <provenance>Durch das Exlibris von <persName>Peter von Micy</persName>, der von 840-859 Abt in Micy war, steht fest, dass die Handschrift bereits im 9. Jhd. nach <orgName>St-Mesmin de Micy</orgName> gelangte. </provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -115,8 +108,9 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc597866</idno></bibl>
-                     <bibl><idno>Delisle 1863</idno><biblScope unit="pp" from="408" to="409"
-                        /></bibl>
+                     <bibl><idno>Delisle 1863</idno><biblScope unit="pp" from="408" to="409"/></bibl>
+                     <bibl><idno>Rand 1939</idno><biblScope unit="pp" n="422"/></bibl>
+                     <bibl><idno>Vulliez 2008</idno><biblScope unit="pp" n="378"/></bibl>
                      <bibl><idno>Mercier 2012 II</idno><biblScope unit="pp" n="118"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="45"/></bibl>
                   </listBibl>

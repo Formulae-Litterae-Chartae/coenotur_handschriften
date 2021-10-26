@@ -30,7 +30,6 @@
                         <msItem class="Bibel">
                             <title>Bibel</title>
                             <textLang mainLang="la"></textLang>
-                        </msItem>
                         <msItem n="1.1">
                             <locus from="1r" to="1v"/>
                             <title>Praefatio Hieronimi</title>
@@ -350,6 +349,7 @@
                         <msItem n="1.80">
                             <locus n="zahlreiche Kolophone"/>
                             <title></title>
+                        </msItem>
                         </msItem>
                     </msContents>
                     <physDesc>

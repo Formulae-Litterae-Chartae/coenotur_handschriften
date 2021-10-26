@@ -16,7 +16,7 @@
                   <settlement>Paris</settlement>
                   <repository>BnF</repository>
                   <collection/>
-                  <idno>Latin</idno>
+                  <idno>Latin 7794</idno>
                   <altIdentifier source="Mostert">
                      <idno>1127</idno>
                   </altIdentifier>
@@ -37,36 +37,37 @@
                      <supportDesc material="perg">
                         <extent n="80">
                            <dimensions type="leaf" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="37.9"/>
+                              <width n="26.9"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="28.0"/>
+                              <width n="20.8"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition>Die Ordnung der Blätter ist durcheinander geraten. Richtig wäre: "1-64, 71, 65-70, 80, 72-79" (MOSTERT). Die ersten Blätter sind stark angegriffen.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout/>
-                        <layout/>
-                        <layout><p></p></layout>
+                        <layout columns="2"/>
+                        <layout writtenLines="36"/>
+                        <layout><p>Titel zum Teil in roter Capitalis</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote></handNote>
+                     <handNote source="Winandy">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote source="Winandy">Minuskel mit kursiven Elementen.</scriptNote>
+                     <scriptNote source="Winandy">Wenige Kürzungen, aber doppelt umpunktete <seg type="lat">est</seg> und <seg type="lat">esse</seg>-Kürzung.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
+                     <p>Einzelne wenige Korrekturen und Ergänzungen.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote>Dunkelbrauner Ledereinband mit Wappen.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -74,7 +75,7 @@
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Mostert" cert="medium"><placeName>Fleury</placeName>, od. <orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                     <note>Die Entstehung ist umstritten, MOSTERT sieht zusätzlich Tours auch die Möglichkeit einer Entstehung in Fleury. Insbesondere die Nähe zu Paris, BnF, Latin 7929, das seiner Meinung aus Fleury stammt, spricht für eine Entstehung in Fleury.</note>
+                     <note>Die Entstehung ist umstritten, MOSTERT sieht zusätzlich Tours auch die Möglichkeit einer Entstehung in Fleury. Insbesondere die Nähe zu Paris, BnF, Latin 7929, die seiner Meinung aus Fleury stammt, spricht für eine Entstehung in Fleury. Die <seg type="lat">est</seg> und <seg type="lat">esse</seg> Kürzungen deuten auf eine Entstehung in Tours hin.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance></provenance>

@@ -52,8 +52,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="22 21">22 (21)</layout>
-                        <layout><p>rote und schwarze Titel; Initialen in einfachen
-                           Farben</p></layout>
+                        <layout><p>rote und schwarze Titel; Initialen in einfachen Farben</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -71,11 +70,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Im Teil der Vita wurden später Worttrennungen eingefügt für eine bessere
-                        Lesbarkeit; das Verschwinden der Trennungszeichen in der späteren
-                        Handschrift könnte an weniger Benutzung dieser Teile liegen, oder an einem
-                        Schreiberwechsel; der zweite Schreiber trennt die Worte klarer
-                        voneinander</p>
+                     <p>Im Teil der Vita wurden später Worttrennungen eingefügt für eine bessere Lesbarkeit; das Verschwinden der Trennungszeichen in der späteren Handschrift könnte an weniger Benutzung dieser Teile liegen, oder an einem Schreiberwechsel; der zweite Schreiber trennt die Worte klarer voneinander</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -86,7 +81,7 @@
                      <p><origPlace cert="medium" source="Rand Bischoff"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace cert="medium" source="Rand Bischoff"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
-                     <note>Die Entsthung der Handschrift ist nicht gesichert. RAND und BISCHOFF schlagen vorsichtig Marmoutier vor, aber ohne jegliche Begründung.</note>
+                     <note>Die Entstehung der Handschrift ist nicht gesichert. RAND und BISCHOFF schlagen vorsichtig Marmoutier vor, aber ohne jegliche Begründung.</note>
                   </origin>
                   <provenance type="Provenance"/>
                   <provenance><persName>Puteanus</persName>;
@@ -101,8 +96,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64546f</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64546f</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="140"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="111"/></bibl>
                   </listBibl>

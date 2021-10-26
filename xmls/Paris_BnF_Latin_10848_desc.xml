@@ -16,6 +16,9 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 10848</idno>
+                  <altIdentifier source="Suppl. latin">
+                     <idno>1012</idno>
+                  </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>56</idno>
                   </altIdentifier>
@@ -32,6 +35,84 @@
                      <author/>
                      <title>Martinellus</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="2v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Desiderum</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="2v" to="27r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Vita sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="27v" to="30v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Eusebium</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="30v" to="33v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Aurelium</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="34r" to="38r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Basulam</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="39r" to="62v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber primus</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="63r" to="78r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber secundus</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="79r" to="94r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber tertius</title>
+                     </msItem>
+                     <msItem n="1.9">
+                        <locus from="94r" to="98v"/>
+                        <title>Versi</title>
+                     </msItem>
+                     <msItem n="1.10">
+                        <locus from="99r" to="102v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi lib. III, cap. 15sq</title>
+                     </msItem>
+                     <msItem n="1.11">
+                        <locus from="101r" to="102r"/>
+                        <title>Liber Martini de Trinitate</title>
+                     </msItem>
+                     <msItem n="1.12">
+                        <locus from="102v" to="104r"/>
+                        <title>De transitu sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.13">
+                        <locus from="104r" to="105r"/>
+                        <title>Item in transitu sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.14">
+                        <locus from="105r" to="106r"/>
+                        <title>Ambrosius in ipsius transitu</title>
+                     </msItem>
+                     <msItem n="1.15">
+                        <locus from="106r" to="107v"/>
+                        <title>De translatio Martini (Quando corpus eius translatum est)</title>
+                     </msItem>
+                     <msItem n="1.16">
+                        <locus from="107v" to="110r"/>
+                        <author>Gregor von Tours</author>
+                        <title>Vita sancti Bricci</title>
+                     </msItem>
+                     <msItem n="1.17">
+                        <locus from="110v" to="117v"/>
+                        <title>De episcopis turonicis</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -52,15 +133,15 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="21"/>
-                        <layout><p>rote und schwarze Titel; einzelne schwarz, rote und rot-weiße
-                              Initialen</p></layout>
+                        <layout><p>rote und schwarze Titel; einzelne schwarz, rote und rot-weiße Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>eine Hand</handNote>
+                     <handNote source="Bischoff">mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>turonische Minuskel</scriptNote>
+                     <scriptNote>Halbunziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -75,19 +156,12 @@
                         <p><locus n="107v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor</p>
                      </decoNote>
                   </decoDesc>
-                  
                   <additions>
-                     <p>Lagenkontrollvermerke. (Nachträgliche?) Interpunktion zur besseren
-                        Lesbarkeit. Einige wenige Glossierungen.</p>
+                     <p>Lagenkontrollvermerke. (Nachträgliche?) Interpunktion zur besseren Lesbarkeit. Einige wenige Glossierungen.</p>
                      <p><locus n="34r"/>Transkription des Titels in Schrift des 12. Jhd.?.</p>
-                     <p><locus n="102v"/>Beim Sermo de transitu Gregors von Tours werden die
-                        römischen Zahlen interlinear in Worte übertragen. In dem Sermo erfolgt auch
-                        eine (nachträgliche) Einteilung in Lektionen, die anders als sonst in der
-                        Handschrift nicht in Rotschrift direkt mitgeschrieben worden ist.</p>
-                     <p><locus n="106r"/>eine Annotation zum Sermo de corpus eius translatem durch
-                        Gregor den Großen: <seg type="lat">In translatione sancti martini</seg>.</p>
-                     <p><locus n="117v"/>eine fehlerhafte/lückenhafte Liste der Bischöfe von Tours,
-                        im Anschluss an die Datierung zum Ende von Gregors Historien.</p>
+                     <p><locus n="102v"/>Beim <seg type="lat">Sermo de transitu</seg> Gregors von Tours werden die römischen Zahlen interlinear in Worte übertragen. In dem Sermo erfolgt auch eine (nachträgliche) Einteilung in Lektionen, die anders als sonst in der Handschrift nicht in Rotschrift direkt mitgeschrieben worden ist.</p>
+                     <p><locus n="106r"/>Eine Annotation zum <seg type="lat">Sermo de corpus eius translatem</seg> durch Gregor den Großen: <seg type="lat">In translatione sancti martini</seg>.</p>
+                     <p><locus n="117v"/>Eine fehlerhafte/lückenhafte Liste der Bischöfe von Tours, im Anschluss an die Datierung zum Ende von Gregors Historien.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Ledereinband</decoNote>
@@ -95,21 +169,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="BnF" cert="medium"><placeName>Tours</placeName>,
-                              <orgName>St-Martin</orgName> oder
-                           <orgName>Marmoutier</orgName></origPlace></p>
-                     <p><origPlace source="Rand Köhler" cert="medium"><placeName>Tours</placeName>,
-                              <orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0816" notAfter="0835"
-                           >816-835</origDate></p>
-                     <note>Datierung durch die Liste der Erzbischöfe auf fol. 117r, in der der
-                        letzte Eintrag Landramnus (816-835) ist, ziemlich gut eingrenzbar. Vieles
-                        spricht für eine Entstehung in St-Martin. Die Nähe zur
-                        Moutier-Grandval-Bibel bzw. zur Bamberg-Bibel lässt eigentlich keine
-                        Zweifel.</note>
+                     <p><origPlace source="BnF" cert="medium"><placeName>Tours</placeName>, <orgName>St-Martin</orgName> oder <orgName>Marmoutier</orgName></origPlace></p>
+                     <p><origPlace source="Rand Köhler" cert="high"><placeName>Tours</placeName>, <orgName>St-Martin</orgName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0816" notAfter="0835">816-835</origDate></p>
+                     <note>Datierung durch die Liste der Erzbischöfe auf fol. 117r, in der der letzte Eintrag Landramnus (816-835) ist, ziemlich gut eingrenzbar. Vieles spricht für eine Entstehung in St-Martin. Die Nähe zur Moutier-Grandval-Bibel bzw. zur Bamberg-Bibel lässt eigentlich keine Zweifel.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
-                  <provenance/>
+                  <provenance source="Denoël">Die Handschrift gelangte in den Besitz von <persName>Pierre Pithou</persName> (1539-1596), ging dann an <persName>Lepeltier de Rosmabo</persName> und schließlich über den Besitz von <persName>Marie-Carolinge de Bourbon-Sicile</persName>, duchesse de Berry (1798-1870) an die Bibliothèque royale.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -120,10 +186,11 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                        <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34714c</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34714c</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="122 123"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="388"/></bibl>
+                     <bibl><idno>Denoël 2007</idno><biblScope  n="Nr. 34"/></bibl>
+                     <bibl><idno>Keefe 2012</idno><biblScope unit="pp" n="321"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="168"/></bibl>
                   </listBibl>
                </additional>
