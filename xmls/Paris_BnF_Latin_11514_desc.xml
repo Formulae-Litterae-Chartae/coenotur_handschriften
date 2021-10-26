@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note>Es handelt sich um eine prächtige Ausgabe des alten Testamentes, deren Anfang fehlt. Die Handschrift weißt prächtige Initialen auf, kann jedoch mit den Prachtbibeln nicht mithalten.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -16,6 +17,15 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 11514</idno>
+                  <altIdentifier source="S. Mauri Fossaten">
+                     <idno>n° 10</idno>
+                  </altIdentifier>
+                  <altIdentifier source="olim">
+                     <idno>1034</idno>
+                  </altIdentifier>
+                  <altIdentifier source="N">
+                     <idno>18</idno>
+                  </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>57</idno>
                   </altIdentifier>
@@ -47,19 +57,20 @@
                               <width n="12.0"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Die einzelnen Blätter sind stark gealtert, geknickt und gerissen. Die Handschrift bricht im Buch Hiob ab.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="50 51">50 (51)</layout>
-                        <layout><p>schwarze, rote und rot-schwarze Initialen</p></layout>
+                        <layout><p>Schwarze, rote und rot-schwarze Initialen</p></layout>
+                        <layout><p>Prächtige Explizits vor farbigem Hintergrund.</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>um die 16 Hände</handNote>
+                     <handNote source="Rand">Um die 16 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>turonische Minuskel</scriptNote>
+                     <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -79,9 +90,10 @@
                         <p><locus n="83r"/>Zeichnung am Rande.</p>
                      </decoNote>
                   </decoDesc>
-                  
                   <additions>
-                     <p>einzelne Blätter durch eine Hand des 11. Jahrhunderts hinzugefügt</p>
+                     <p>Folio 208-213 durch eine Hand des 11. Jahrhunderts hinzugefügt.</p>
+                     <p>Interlineare Transkriptionen der griechischen Buchstaben.</p>
+                     <p><locus n="25v"/>Ein Vers mit Neumen.</p>
                      <p n="Exlibris"><locus n=""/>St-Maur-des-Fossés vom 17. Jhd.</p>
                   </additions>
                   <bindingDesc>
@@ -90,18 +102,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"
-                           ><orgName>Marmoutier</orgName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="medium">kein Grund für
-                        Marmoutier</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0815" notAfter="0820"
-                           >circa 815-820</origDate></p>
-                     <note>Datierung scheint unstrittig, Herkunft innerhalb Tours dagegen
-                        ungeklärt.</note>
+                     <p><origPlace source="Rand Köhler Fischer Bischoff" cert="high" ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="low" ><orgName>Marmoutier</orgName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="high">kein Grund für Marmoutier</origPlace></p>
+                     <p><origPlace source="BnF" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Fischer Bischoff" cert="high" notBefore="0815" notAfter="0820">circa 815-820</origDate></p>
+                     <p><origDate source="BnF" cert="high" notBefore="0807" notAfter="0834">unter Fridugisius (807-834)</origDate></p>
+                     <note>Die Handschrift ist mit sehr großer Wahrscheinlichkeit unter Fridugisius in St-Martin entstanden.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Maur-des-Fossés</orgName></provenance>
-                  <provenance>Nach Randnote auf fol. 24v wohl schon seit dem 13. Jhd. in
-                     St-Maur-des-Fossés.</provenance>
+                  <provenance>Nach Randnote auf fol. 24v wohl schon seit dem 13. Jhd. in St-Maur-des-Fossés. Später gelangte sie nach St-Germain-des-Prés. RAND vermutet eine Herstellung in Marmoutier, da diese Handschrift, ähnlich wie Harley 2805 und Latin 68, ältere Züge aufweisen und anscheinend von derselben Handschrift kopiert worden sind. Es spricht jedoch alles dafür, dass diese Kopien in St-Martin angefertigt wurden.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -114,9 +124,11 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73059g</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="51"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="123"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="371" to="372"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="62"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="173 175"/></bibl>
                   </listBibl>
                </additional>

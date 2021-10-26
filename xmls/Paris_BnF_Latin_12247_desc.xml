@@ -31,9 +31,33 @@
                <msContents>
                   <msItem class="Theologie Exegese Kirchenväter">
                      <author>Gregorius I.</author>
-                     <title>Moralia in Iob</title>
+                     <title>Moralia in Iob, lib. 17-22</title>
                      <note>libri XVII-XXII</note>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="22r"/>
+                        <title>Liber XVII</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="22r" to="60v"/>
+                        <title>Liber XVIII</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="60v" to="86v"/>
+                        <title>Liber XVIIII</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="86v" to="120r"/>
+                        <title>Liber XX</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="120r" to="136v"/>
+                        <title>Liber XXI</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="137r" to="162v"/>
+                        <title>Liber XXII</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -45,49 +69,49 @@
                               <width n="26.5"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="27.5"/>
+                              <width n="17.7"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition>Die Handschrift ist stark gealtert, aber ohne Schäden am Text.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout/>
-                        <layout/>
-                        <layout><p></p></layout>
+                        <layout columns="2"/>
+                        <layout writtenLines="30"/>
+                        <layout><p>Titel in roter und schwarzer Capitalis</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p></p>
+                     <handNote source="Winandy">Vermutlich mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p></p>
+                     <scriptNote source="Winandy">Klare turonische Minuskel, mit sehr wenigen Kürzungen.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p></p>
-                     </decoNote>
+                     <decoNote></decoNote>
                   </decoDesc>
                   <additions>
-                     <p></p>
+                     <p>Korrekturen einer späteren Hand.</p>
+                     <p source="Ganz Pezé"><seg type="lat">hic</seg> und <seg type="lat">Not</seg> Anmerkungen, vermutlich aus Corbie. Die <seg type="lat">Not</seg>-Zeichen gehören wohl zu einer Gruppe um <persName>Ratramnus von Corbie</persName>.</p>
+                     <p source="Pezé">Zahlreiche + Zeichen, von "a cleric interested in pastoral care".</p>
                      <p n="Exlibris"><locus n="1r"/><seg type="lat">ex libris Corbeiensis abbatiae</seg></p>
                      <p n="Exlibris"><locus n="1r"/><seg type="lat">Sti Germani a Pratis</seg></p>
                      <p n="Exlibris"><locus n="163r"/><seg type="lat">liber sancti petri corbeie</seg></p>
                      <p n="Exlibris"><locus n="163v"/><seg type="lat">Ut corbeia bono caruit Fulcone Patrono Cepit destitui Nobilitate Sui Sicut fulco mori mitis natura negaret fultatur tuis auxiliis humeris nunquam corbeie labaret</seg></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Alter weißer Pergamenteinband über Holz</decoNote>
+                     <decoNote>Alter weißer Pergamenteinband über Holz.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Ganz Bischoff" cert="high"><name>Tours</name></origPlace></p>
+                     <p><origPlace source="Ganz Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0850">1./(2.) Viertel 9. Jhd.</origDate></p>
                      <note></note>
                   </origin>
-                  <provenance type="Provenance"><name type="community"/>Saint-Germain des Pres</provenance>
-                  <provenance source="Ganz">Gelangte noch im 9. Jhd nach Corbie</provenance>
+                  <provenance type="Provenance"><name type="community"/>St-Germain des Près</provenance>
+                  <provenance source="Ganz">Gelangte noch im 9. Jhd nach Corbie und ist dort wohl von <persName>Ratramnus von Corbie</persName> verwendet worden.</provenance>
+                  <provenance>Von dort gelangte sie mit der gesamten Bibliothek nach St-Germain des Près.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -99,9 +123,12 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73564b</idno></bibl>
+                     <bibl><idno>Delisle 1874</idno><biblScope unit="pp" n="434"/></bibl>
+                     <bibl><idno>Vezin 1970</idno><biblScope unit="pp" n="95 96"/></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="65"/></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="157"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="193"/></bibl>
+                     <bibl><idno>Pezé 2017</idno><biblScope unit="pp" n="142 143"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note>Es handelt sich um ein sehr kleines Prachtevangeliar.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -20,7 +21,7 @@
                      <idno>6535</idno>
                   </altIdentifier>
                   <altIdentifier source="Regius">
-                     <idno>4305</idno>
+                     <idno>4305/3 2</idno>
                   </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>142</idno>
@@ -50,40 +51,38 @@
                               <width n="8.3"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Die Handschrift ist sehr gut erhalten.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="40"/>
-                        <layout><p source="Rand">Einfluss einer anderen Schule, vielleicht Reims,
-                              sichtbar</p></layout>
+                        <layout><p source="Rand">Einfluss einer anderen Schule, vielleicht Reims, sichtbar</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>eine Hand</handNote>
+                     <handNote source="Rand">Eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">perfektionierte tironische Minuskel; „Tiny
-                        Tours“</scriptNote>
+                     <scriptNote source="Rand">Perfektionierte turonische Minuskel; „Tiny Tours“</scriptNote>
+                     <scriptNote source="Winandy">Kleine, feine turonische Minuskel. Doppelt umpunktete <seg type="lat">est</seg>-Kürzung.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Rotes Leder auf Holz mit dem Wappen Colberts.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand BnF" cert="low"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low">nicht Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
-                           >3. Viertel 9. Jhd.</origDate></p>
+                     <p><origPlace source="Rand BnF" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low">nicht Tours</origPlace>, <placeName>Corbie</placeName> oder <placeName>St-Denis</placeName>.</p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
+                     <note>Sehr vieles spricht für eine Entstehung in Tours.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
-                  <provenance/>
+                  <provenance>Die Handschrift war im Besitz von Colbert, bevor sie an die Bibliothèque royale ging.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -94,9 +93,9 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc611058</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc611058</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="168"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="326"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="27"/></bibl>
                   </listBibl>
                </additional>

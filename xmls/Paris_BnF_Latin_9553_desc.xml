@@ -54,45 +54,41 @@
                               <width n="13.0"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Die Blätter sind zum Teil stark angegriffen, der Text aber überall lesbar.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="32 31">32 (31)</layout>
-                        <layout><p/></layout>
+                        <layout><p>Titel in Capitalis mit Buchstaben abwechselnd in rot, grün, blau und schwarz.</p>
+                        <p>Zwischentitel in rot.</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Winandy">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Winandy">späte Minuskel, zum Teil frühgotisch. Beidseitig umpunktete <seg type="lat">est</seg>-Kürzung.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p/>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p>Einzelne Korrekturen und einige wenige längere Glossen bei Jesaja. Die
-                        Briefe ab fol. 50 sind sehr stark glossiert. </p>
+                        Briefe ab fol. 50 sind sehr stark glossiert.</p>
                      <p n="Exlibris"><locus n="2"/><seg type="lat">Iste liber est de ecclesia
                            beatissimi Martini</seg>. 14. Jhd.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Kalbeinband mit den Initialen von Louis-Philippe</decoNote>
+                     <decoNote>Kalbeinband mit den Initialen von Louis-Philippe.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="1075" notAfter="1100"
-                           >spätes 11. Jhd.</origDate></p>
-                     <p><origDate source="Collon BnF" cert="medium" notBefore="0900" notAfter="1000"
-                           >10. Jhd.</origDate></p>
-                     <p><origDate source="Delisle Wordsworth" cert="medium" notBefore="1000"
-                           notAfter="1100">11. Jhd.</origDate></p>
-                     <p/>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Collon BnF" cert="medium" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
+                     <p><origDate source="Delisle Wordsworth" cert="medium" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="1075" notAfter="1100">spätes 11. Jhd.</origDate></p>
+                     <note>Das Schriftbild erscheint anfangs nicht älter als das 10. Jahrhundert. Eine Entsthung in Tours erscheint möglich, aber ohne klare Belege.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Die Handschrift hat die Bibliothek von Tours ungefähr im Jahr 1830
@@ -110,9 +106,10 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc77553f</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="200"/></bibl>
-                     <bibl><idno>Delisle 1883</idno><biblScope unit="pp" from="17" to="18"/></bibl>
+                     <bibl><idno>Delisle 1868</idno><biblScope unit="pp" n="407"/></bibl>
+                     <bibl><idno>Delisle 1883</idno><biblScope unit="pp" n="17 18"/></bibl>
                      <bibl><idno>Wordsworth 1883</idno><biblScope unit="pp" n="59"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="200"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

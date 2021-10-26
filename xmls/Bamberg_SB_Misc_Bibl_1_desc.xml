@@ -1,5 +1,5 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="deu">
+    <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
                 <title>Bamberg, SB, Misc. Bibl. 1</title>
@@ -23,7 +23,7 @@
                             <idno>34</idno>
                         </altIdentifier>
                         <altIdentifier source="Bischoff">
-                            <idno></idno>
+                            <idno>190</idno>
                         </altIdentifier>
                         <msName>Bamberger Alkuinbibel</msName>
                     </msIdentifier>
@@ -70,8 +70,6 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
-                            <p n="Exlibris"><locus n=""/></p>
                         </additions>
                         <bindingDesc>
                             <decoNote></decoNote>

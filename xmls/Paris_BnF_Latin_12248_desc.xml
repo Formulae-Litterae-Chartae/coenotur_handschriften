@@ -32,9 +32,41 @@
                     <msContents>
                         <msItem class="Theologie Exegese Kirchenväter">
                             <author>Gregorius I.</author>
-                            <title>Moralia in Iob</title>
+                            <title>Moralia in Iob, lib. 28-35</title>
                             <note>libri XXVIII-XXXV</note>
                             <textLang mainLang="la"/>
+                            <msItem n="1.1">
+                                <locus from="1r" to="24r"/>
+                                <title>Liber XXVIII</title>
+                            </msItem>
+                            <msItem n="1.2">
+                                <locus from="24r" to="56r"/>
+                                <title>Liber XXVIIII</title>
+                            </msItem>
+                            <msItem n="1.3">
+                                <locus from="56r" to="91r"/>
+                                <title>Liber XXX</title>
+                            </msItem>
+                            <msItem n="1.4">
+                                <locus from="91r" to="138v"/>
+                                <title>Liber XXXI</title>
+                            </msItem>
+                            <msItem n="1.5">
+                                <locus from="139r" to="164v"/>
+                                <title>Liber XXXII</title>
+                            </msItem>
+                            <msItem n="1.6">
+                                <locus from="165r" to="195r"/>
+                                <title>Liber XXXIII</title>
+                            </msItem>
+                            <msItem n="1.7">
+                                <locus from="195r" to="214v"/>
+                                <title>Liber XXXIIII</title>
+                            </msItem>
+                            <msItem n="1.8">
+                                <locus from="214r" to="232v"/>
+                                <title>Liber XXXV</title>
+                            </msItem>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -46,50 +78,51 @@
                                         <width n="26.0"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n=""/>
-                                        <width n=""/>
+                                        <height n="20.5 21.5">20,5-21,5 cm</height>
+                                        <width n="17.8"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition>Die Handschrift ist gut erhalten. Fol. 1r kaum noch zu lesen.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout/>
-                                <layout/>
-                                <layout><p></p></layout>
+                                <layout columns="1"/>
+                                <layout writtenLines="24"/>
+                                <layout><p>Rote Incipits in Capitalis und Explizits in schwarzer oder roter Capitalis. Erste Zeile Capitalis.</p></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p></p>
+                            <handNote source="WGanz">"Passages apparently written by less skilled scribes."</handNote>
+                            <handNote source="Winandy">Mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p></p>
+                            <scriptNote source="Winandy">Klare Minuskel, die nicht sehr turonisch aussieht.</scriptNote>
+                            <scriptNote source="Winandy">Sehr weniger Kürzungen, keine turonische <seg type="lat">est</seg>-Kürzung.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
-                                <locus n=""/>
-                                <p></p>
-                            </decoNote>
+                            <decoNote type="initial"><locus n="214v"/>Eine einzelne große rote Q-Initiale zu Beginn des letzten Buches.</decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
-                            <p n="Exlibris"><locus n="1r"/><seg type="lat">ex libris Corbeiensis abbatiae</seg></p>
+                            <p>Einzelne, wenige zeitnahe Korrekturen.</p>
+                            <p>Anmerkungen und Zitationszeichen am Rand. Laut GANZ stammen diese Anmerkungen von <persName>Ratramnus von Corbie</persName>.</p>
+                            <p><locus n="233r"/>Neumierter Text</p>
+                            <p n="Exlibris"><locus n="1r"/><seg type="lat">ex libris Corbeiensis abbatiae</seg>. 17. Jhd. (BISCHOFF).</p>
                             <p n="Exlibris"><locus n="1r"/><seg type="lat">Sti Germani a Pratis</seg></p>
                             <p n="Exlibris"><locus n="223v"/><seg type="lat">Qui modo nazonis fueramus quinque libelli</seg></p>
                         </additions>
                         <bindingDesc>
-                            <decoNote>Alter weißer Pergamenteinband über Holz</decoNote>
+                            <decoNote>Alter weißer Pergamenteinband über Holz.</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Ganz" cert="medium"><name>Tours</name></origPlace></p>
+                            <p><origPlace source="Ganz" cert="low"><name>Tours</name></origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium"><name>Corbie</name></origPlace></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875">2. Viertel/Mitte 9. Jhd.</origDate></p>
-                            <p><origDate source="BNF" cert="low" notBefore="0900" notAfter="1000">Xe siècle</origDate></p>
-                            <note>Sehr wenig ist über die Entstehung gesichert. GANZ geht davon aus, dass es sich um ein Produkt auf Tours handelt, das noch im 9. Jahrhundert nach Corbie gewechselt ist. Dem gegenüber steht eine vermutete Entstehung in Corbie durch Bischoff und die unrealistisch erscheinende Datierung der BNF ins 10. Jahrhundert.</note>
+                            <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0875">2. Viertel/Mitte 9. Jhd.</origDate></p>
+                            <p><origDate source="BNF" cert="high" notBefore="0800" notAfter="0899">IXe siècle</origDate></p>
+                            <note>Wenig ist über die Entstehung gesichert. GANZ geht davon aus, dass es sich um ein Produkt auf Tours handelt, das noch im 9. Jahrhundert nach Corbie gewechselt ist - die Anmerkungen an Passagen, die <persName>Ratrmanus von Corbie</persName>, verwendete, belegen dies. Wie GANZ zurecht bemerkt, sind die anderen <seg type="lat">Moralia</seg> Handschriften aus Tours zweispaltig. Dem gegenüber steht eine vermutete Entstehung in Corbie durch BISCHOFF. Die Zweifel an einer Entstehung in Tours sind dementsprechend groß..</note>
                         </origin>
-                        <provenance type="Provenance"><name type="community"/>Saint-Germain des Pres</provenance>
-                        <provenance source="Ganz">Gelangte noch im 9. Jhd nach Corbie.</provenance>
+                        <provenance type="Provenance"><name type="community"/>St-Germain-des-Prés</provenance>
+                        <provenance source="Ganz">Gelangte noch im 9. Jhd nach Corbie und von da, wie der Rest der Bibliothek über St-Germnain-des-Prés an die Bibliothèque royale.</provenance>
                         <acquisition><name type="Repository">BnF</name></acquisition>
                     </history>
                     <additional>
@@ -100,7 +133,8 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73564b</idno></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73565k</idno></bibl>
+                            <bibl><idno>Delisle 1874</idno><biblScope unit="pp" n="434"/></bibl>
                             <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="65"/></bibl>
                             <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="157"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="193"/></bibl>

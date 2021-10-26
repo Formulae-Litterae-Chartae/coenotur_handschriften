@@ -135,16 +135,16 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="22"/>
-                        <layout><p>rote, unziale Überschriften; Kapitelübersicht in kleiner
+                        <layout><p>Rote, unziale Überschriften; Kapitelübersicht in kleiner
                               Minuskel; schwarze, rote und schwarz-rote Initialen im
                            Tours-Stil</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">eine Hand, ähnlich Fredegaudus</handNote>
+                     <handNote source="Rand">Eine Hand, ähnlich Fredegaudus</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">turonische Minuskel</scriptNote>
+                     <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <musicNotation><p>Neumen</p></musicNotation>
                   <decoDesc>
@@ -158,13 +158,12 @@
                      </decoNote>
                      <decoNote type="border" subtype="add">
                         <p><locus n="1r"/>Geometrische Objekte</p>
-                        <p><locus n="193v"/>Buchstaben mit Flechtdekor am Rand. </p>
+                        <p><locus n="193v"/>Buchstaben mit Flechtdekor am Rand.</p>
                      </decoNote>
                   </decoDesc>
                   
                   <additions>
-                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Liber S. Petri Corbeiensis – Sti
-                           Germani a Pratis</seg></p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Liber S. Petri Corbeiensis – Sti Germani a Pratis</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Pergamenteinband des 17.-18. Jhd.</decoNote>

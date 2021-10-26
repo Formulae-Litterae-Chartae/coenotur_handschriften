@@ -97,6 +97,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73155p</idno></bibl>
+                     <bibl><idno>Delisle 1874</idno><biblScope unit="pp" n="434"/></bibl>
                      <bibl><idno>Vezin 1970</idno><biblScope unit="pp" n="95 96"/></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="65"/></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="157"/></bibl>

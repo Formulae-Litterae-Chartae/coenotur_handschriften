@@ -149,9 +149,9 @@
                <history>
                   <origin>
                      <p><origPlace cert="high">Tours, St-Martin</origPlace></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0810" notAfter="0830">um
+                     <p><origDate source="Rand" cert="medium" notBefore="0810" notAfter="0830">um
                            820</origDate></p>
-                     <p><origDate source="Mercier" cert="low" notBefore="0843" notAfter="0851">unter
+                     <p><origDate source="Mercier" cert="medium" notBefore="0843" notAfter="0851">unter
                            Vivian (843-851)</origDate></p>
                      <p><origDate source="Bischoff BnF" cert="medium" notBefore="0830"
                            notAfter="0840">830-840 unter Fridugisius</origDate></p>

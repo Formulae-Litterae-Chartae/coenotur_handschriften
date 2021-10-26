@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note>Bei dieser Handschrift handelt es sich um später zusammengebundene Teil von drei verschiedenen Handschriften.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -33,15 +34,19 @@
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title>Bibel</title>
+                     <title>Bibelfragmente</title>
                      <textLang mainLang="la"/>
                      <msItem n="1.1">
-                        <locus from="1" to="24"/>
-                        <title>Liber Sapientiae, Ecclesiasticus</title>
+                        <locus from="1r" to="24v"/>
+                        <title>Fragment des Liber Sapientiae und des Liber Ecclesiasticus</title>
                      </msItem>
                      <msItem n="1.2">
-                        <locus from="25" to="60"/>
-                        <title>Teile der Matthäus- und Marcus-Evangelien</title>
+                        <locus from="25r" to="60v"/>
+                        <title>Fragmente der Matthäus- und Marcus-Evangelien</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="61r" to="84v"/>
+                        <title>Fragemente des Matthäusevangeliums</title>
                      </msItem>
                   </msItem>
                </msContents>
@@ -55,49 +60,55 @@
                            </dimensions>
                            <dimensions type="written" unit="cm">
                               <height n="21.5"/>
-                              <width n="7.5 5.5">21.5 x 7.5 (5.5)</width>
+                              <width n="7.5 5.5">7.5 (5.5) cm</width>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Die Handschriftenfragmente selbst sind oftmals stark angegriffen; die Schäden reichen bis in den Text. Die gesamte Handschrift ist 1895 restauriert worden.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="25 24">25 (24)</layout>
-                        <layout><p>rote und schwarze Titel; einfache rote und schwarze
-                           Initialen</p></layout>
+                        <layout><p>Rote und schwarze Titel; einfache rote und schwarze Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote>Zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>karolingische Minuskel</scriptNote>
+                     <scriptNote>Teil 1 und 2: Karolingische Minuskel</scriptNote>
+                     <scriptNote>Teil 3: Gotische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p/>
+                     <decoNote type="initial">
+                        <p><locus n="17r"/>O-Initiale in Grün mit schwarzer Umrandung.</p>
+                        <p><locus n="61r"/>Bunte M-Initiale in Rot, Grün und Gelb.</p>
+                        <p><locus n="61v"/>Bunte L-Initiale in Rot, Grün und Gelb.</p>
                      </decoNote>
                   </decoDesc>
-                  <additions/>
+                  <additions>
+                     <p>Zeitgenössische Korrekturen.</p>
+                     <p>Angaben der erwähnten Personen am Rand.</p>
+                  </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Neuer Einband von 1895. Der Buchrücken ist noch derjenige von 1832 mit dem Wappen von Louis-Philippe.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Rand Ganz" cert="low"
-                           ><orgName>Marmoutier</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >1. Hälfte 9. Jhd.</origDate></p>
-                     <note>Eine Entstehung in Marmoutier zu diesem Zeitpunkt erscheint
-                        unwahrscheinlich und in der Literatur unbegründet. Der 3. Teil (fol. 61-84)
-                        ist deutlich später und könnte aus Marmoutier stammen.</note>
+                     <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Fischer" cert="low">nicht <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand Köhler Ganz" cert="low"><orgName>Marmoutier</orgName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. und 2. Teil: 1. Hälfte 9. Jhd.</origDate></p>
+                     <p><origDate source="Berger" cert="medium" notBefore="1175" notAfter="1199">3. Teil: Ende 12. Jhd.</origDate></p>
+                     <note>Eine Entstehung in Marmoutier zu diesem Zeitpunkt erscheint unwahrscheinlich und in der Literatur unbegründet. 
+                        RAND und BISCHOFF argumentieren jeweils nur für die ersten beiden Teile. 
+                        FISCHER spricht sich gegen Tours aus, da die Handschrift in Inhalt, Format und Zeilzenzahl zu sehr von den turonischen Vorlagen abweicht. 
+                        Diese Interpretation wird heute nicht mehr geglaubt. 
+                        Dagegen betont GANZ, dass der Einheitlichkeit der turonischen Bibelproduktion zu viel Bedeutung beigemessen wurde - sie darf nicht als Ausschlusskriterium gelten. 
+                        Der 3. Teil (fol. 61-84) ist deutlich später und könnte aus Marmoutier stammen.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
-                  <provenance>Hergestellt vermutlich in St-Martin war die Handschrift in Marmoutier.
-                     Von dort gelangte sie 1832 in die BnF.</provenance>
+                  <provenance>Hergestellt vermutlich in St-Martin, war die Handschrift in Marmoutier. Von dort gelangte sie 1832 an die BnF.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -110,7 +121,11 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc77426c</idno></bibl>
+                     <bibl><idno>Delisle 1874</idno><biblScope unit="pp" n="382"/></bibl>
+                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="407"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="121"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="329"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="150"/></bibl>
                   </listBibl>

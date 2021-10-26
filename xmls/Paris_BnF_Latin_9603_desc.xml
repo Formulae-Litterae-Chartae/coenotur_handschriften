@@ -46,11 +46,11 @@
                               <width n="19.8"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="19.7 22.8">19,7 - 22,8 cm</height>
+                              <width n="15.5"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Die Bindung löst sich und die Blätter sind leicht angegriffen. Der Text ist überall lesbar.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -59,38 +59,34 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>drei Hände</handNote>
+                     <handNote source="Rand">Drei Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote source="Rand">"Revived Cursive"</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p/>
-                     </decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p>Tironische Noten?</p>
-                     <p n="Exlibris"><locus n="2v"/><seg type="lat">Iste liber est de armario beati
-                           Martini Tur</seg>.</p>
+                     <p n="Exlibris"><locus n="2v"/><seg type="lat">Iste liber est de armario beati Martini Tur</seg>, 14. Jhd..</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote>Brauner Ledereinband.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
-                        ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low">nicht Tours</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low"><placeName>Auxerre</placeName> (?)
-                           (fol. 1 mittleres Frankreich)</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875"
-                           >3. Viertel 9. Jhd. (2. Viertel für fol. 1)</origDate></p>
-                     <p/>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="high">nicht Tours</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Auxerre</placeName> (?) (fol. 1 mittleres Frankreich)</origPlace></p>
+                     <p><origDate source="Rand" cert="high" notBefore="0850" notAfter="0899" >nach 850</origDate></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0850" notAfter="0875" >3. Viertel 9. Jhd. (2. Viertel für fol. 1)</origDate></p>
+                     <note>Der <seg type="lat">terminus post quem</seg> wird durch die Schaffung des Werkes 850 durch <persName>Haimo von Auxerre</persName> festegelegt. Vom Aussehen her spricht recht wenig für Tours. </note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
-                  <provenance>Gekauft am 27. April 1831 durch M. Caron.</provenance>
+                  <provenance>Entstanden vermutlich nicht in Tours gelangte die Handschrift vor dem 14. Jhd. nach St-Martin, wie das Exlibris belegt.</provenance>
+                     <provenance>Gekauft am 27. April 1831 durch M. Caron.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -101,8 +97,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc776013</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc776013</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="177"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="11"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="157"/></bibl>

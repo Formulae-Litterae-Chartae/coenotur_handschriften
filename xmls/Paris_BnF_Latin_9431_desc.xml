@@ -8,6 +8,9 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt>
+            <note>An dieser Handschrift wurden Tintenanalysen vorgenommen.</note>
+         </notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -22,11 +25,11 @@
                   <altIdentifier source="Suppl. latin">
                      <idno>562</idno>
                   </altIdentifier>
-                  <altIdentifier source="Rand">
-                     <idno>227</idno>
-                  </altIdentifier>
                   <altIdentifier source="Leroquais">
                      <idno>100</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>227</idno>
                   </altIdentifier>
                   <msName>Sacramentaire de Marmoutier</msName>
                </msIdentifier>
@@ -50,12 +53,12 @@
                               <width n="6.3"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Die Handschrift an sich ist in gutem Erhaltungszustand. Es fehlen jedoch zahlreiche Folio am Anfang.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="22"/>
-                        <layout><p/></layout>
+                        <layout><p>Rote Titel mit roten oder blauen Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -66,13 +69,10 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <p/>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p/>
-                     <p n="Exlibris"><locus n="1"/><seg type="lat">Majoris monasterii congreg. S.
-                           Mauri</seg>, 18. Jhd.</p>
+                     <p n="Exlibris"><locus n="1"/><seg type="lat">Majoris monasterii congreg. S. Mauri</seg>, 18. Jhd.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -80,16 +80,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Rand" cert="low" notBefore="1100" notAfter="1200">12.
-                           Jhd.</origDate></p>
-                     <p><origDate source="Collon BnF" cert="low" notBefore="1000" notAfter="1100"
-                           >11. Jhd.</origDate></p>
-                     <p><origDate source="Manno" cert="low" notBefore="1080" notAfter="1200">Ende
-                           11. Jhd. + 13. Jhd.</origDate></p>
+                     <p><origPlace cert="medium" source="Rand"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="1100" notAfter="1200">12. Jhd.</origDate></p>
+                     <p><origDate source="Collon BnF" cert="medium" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
+                     <p><origDate source="Manno" cert="medium" notBefore="1080" notAfter="1200">Ende 11. Jhd. + 13. Jhd.</origDate></p>
                      <p><origDate source="Leroquais" cert="medium" notBefore="1100" notAfter="1150">1. Hälfte 12. Jhd.</origDate></p>
+                     <note>Die Entstehung ist nicht gesichert, eine Entstehung in <orgName>Marmoutier</orgName> erscheint jedoch sehr wahrscheinlich.</note>
                   </origin>
-                  <provenance type="Provenance"><name/></provenance>
+                  <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
@@ -101,10 +99,9 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc774560</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="201"/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc774560</idno></bibl>
                      <bibl><idno>Leroquais I 1924</idno><biblScope unit="pp" n="217 219"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="201"/></bibl>                     
                   </listBibl>
                </additional>
             </msDesc>

@@ -64,9 +64,9 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Majoris monasterii Congregationes S. Mauri</seg>, 18. Jhd.</p>
                      <p n="Exlibris"><locus n="102v"/><seg type="lat">iste liber est de ecclesia beatissimi martini turonensis</seg>, 15. Jhd.</p>
-                  </additions>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Majoris monasterii Congregationes S. Mauri</seg>, 18. Jhd.</p>
+                 </additions>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>

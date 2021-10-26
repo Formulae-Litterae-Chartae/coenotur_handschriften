@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note>Ein sehr prächtiger Martinellus, der jedoch nicht mit demjenigen aus berlin konkurrieren kann.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -16,6 +17,12 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 5582</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>3967</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>4180/3</idno>
+                  </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>120</idno>
                   </altIdentifier>
@@ -32,6 +39,76 @@
                      <author/>
                      <title>Martinellus</title>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1r" to="2r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Desiderum (Prologus de Vita sancti Martini)</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="2v" to="34r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Vita sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="34v" to="38v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Eusebium</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="39r" to="43r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Aurelium</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="43v" to="45r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Ep. ad Bassluam</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="45v" to="50r"/>
+                        <title>De Transitu sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="50v" to="52v"/>
+                        <title>Epistula de transitu Martini</title>
+                     </msItem>
+                     <msItem n="1.8">
+                        <locus from="52v" to="53v"/>
+                        <title>Item de transitu sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.9">
+                        <locus from="53v" to="54v"/>
+                        <title>Ambrosius ep. de transitu sancti Martini</title>
+                     </msItem>
+                     <msItem n="1.10">
+                        <locus from="55r" to="56v"/>
+                        <title>Ep. quando corpus eius tranlatum est</title>
+                     </msItem>
+                     <msItem n="1.11">
+                        <locus from="57r" to="90v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber primus</title>
+                     </msItem>
+                     <msItem n="1.12">
+                        <locus from="91r" to="112v"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber secundus</title>
+                     </msItem>
+                     <msItem n="1.13">
+                        <locus from="113r" to="135r"/>
+                        <author>Sulpicius Severus</author>
+                        <title>Dialogi liber tertius</title>
+                     </msItem>
+                     <msItem n="1.14">
+                        <locus from="135v" to="139r"/>
+                        <author>Gregor von Tours</author>
+                        <title>Vita sancti Briccii</title>
+                     </msItem>
+                     <msItem n="1.15">
+                        <locus from="139r" to="139r"/>
+                        <title>Liber sancti Martini de Trinitate</title>
+                        <note>Das Ende fehlt.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -47,37 +124,61 @@
                               <width n="12.5"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Das Ende der Handschrift fehlt, sie bricht zu Beginn des <seg type="lat">Liber sancti Martini de Trinitate</seg> ab.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="16"/>
-                        <layout><p>rote, schwarze und blau-schwarze Titel</p></layout>
+                        <layout><p>Rote, schwarze und blau-schwarze Titel</p></layout>
+                        <layout><p>Einzelne Titel in Gold</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>mindestens zwei Hände</handNote>
+                     <handNote source="Rand">Nicht mehr als zwei Hände, vielleicht sogar eine</handNote>
+                     <handNote source="Bischoff">Mindestens zwei Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>turonische Minuskel; Halbunziale; Unziale Rustica</scriptNote>
+                     <scriptNote>Turonische Minuskel; Halbunziale; Unziale Rustica</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="initial">
+                        <p><locus n="1r"/>Zwei kleine Initialen in Gold.</p>
+                        <p><locus n="4v"/>P-Initiale in Gold und Rot.</p>
+                        <p><locus n="6r"/>Prächtige I-Initiale in Gold, Blau, Rot, Gelb und Grün.</p>
+                        <p><locus n="35r"/>Prächtige H-Initiale in Gold, Blau und Rot.</p>
+                        <p><locus n="39r"/>Schöne P-Initiale in Gold, Blau, Rot und Gelb.</p>
+                        <p><locus n="44r"/>Schöne S-Initiale in Gold und Rot.</p>
+                        <p><locus n="46r"/>Prächtige M-Initiale in Gold, Blau und Rot.</p>
+                        <p><locus n="50v"/>Schöne A-Initiale in Gold, Blau und Rot.</p>
+                        <p><locus n="52v"/>Schöne B-Initiale in Gold und Rot.</p>
+                        <p><locus n="53v"/>Schöne E-Initiale in Gold und Rot.</p>
+                        <p><locus n="55r"/>Schöne O-Initiale in Gold und Rot.</p>
+                        <p><locus n="59v"/>Prächtige C-Initiale in Gold, Blau und Rot.</p>
+                        <p><locus n="93r"/>Prächtige Q-Initiale in Gold, Blau und Rot.</p>
+                        <p><locus n="114v"/>Schöne L-Initiale in Gold, Blau und Rot.</p>
+                        <p><locus n="136r"/>Prächtige I-Initiale in Gold, Blau und Rot.</p>
+                        <p><locus n="139v"/>C-Initiale in Gold, Blau und Rot.</p>
+                     </decoNote>
+                     <decoNote type="frame">
+                        <p><locus n="59r"/>Arkade mit Blattfries und Vögeln.</p>
+                     </decoNote>
                   </decoDesc>
-                  <additions/>
+                  <additions>
+                     <p>Anmerkungen am Rand, die den Text in <seg type="lat">lectiones</seg> unterteilen.</p>
+                     <p>Zahlreiche spätmittelalterliche Anmerkungen, die den Inhalt schneller erschließen.</p>
+                  </additions>
                   <bindingDesc>
-                     <decoNote>Ledereinband</decoNote>
+                     <decoNote>Ledereinband auf dünner Pappe.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate cert="medium" notBefore="0825" notAfter="0875">Mitte 9.
-                           Jhd.</origDate></p>
-                     <p/>
+                     <p><origPlace cert="high" source="Rand Köhler Bischoff"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate cert="medium" notBefore="0825" notAfter="0875" source="Bischoff">Mitte 9. Jhd.</origDate></p>
+                     <note>Stil und Inhalt der Handschrift deuten auf eine Entstehung in St-Martin in der ersten Hälfte des 9. Jahrhunderts hin.</note>
                   </origin>
                   <provenance type="Provenance"/>
-                  <provenance><persName>Colbertinus</persName></provenance>
+                  <provenance>Die Handschrift war im Besitz von <persName>Colbert</persName>, bevor sie an die Bibliothèque royale gelangte.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -88,9 +189,10 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64548x</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64548x</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="158 159"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="420 421"/></bibl>
+                     <bibl><idno>Bourgain/Heinzelmann 1997</idno><biblScope unit="pp" n="303"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="111"/></bibl>
                   </listBibl>
                </additional>

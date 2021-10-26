@@ -76,9 +76,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="low"
                         ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low"
-                           ><placeName>Reims</placeName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low"
+                     <p><origPlace source="Köhler Bischoff" cert="medium"
                            ><placeName>Reims</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0870"
                            >ca. Mitte 9. Jhd.</origDate></p>
