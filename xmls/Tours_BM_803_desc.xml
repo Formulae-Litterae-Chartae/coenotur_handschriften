@@ -1,0 +1,138 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 803</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Es handelt sich um zwei verschiedene Handschriften, die im Laufe des Mittelalters zusammengebunden wurden. Ein Tiel der zweiten Handschrift wurde von Libri gestohlen und befinden sich heute in Paris, BnF, NAL 1645.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>803</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>21</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>88</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Paris, BnF,">
+                     <idno>NAL 1645</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>191</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6141/6142</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Philiosophie Komputistik">
+                     <author>Boethius</author>
+                     <author>Dicuil</author>
+                     <title></title>
+                     <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1" to="26"/>
+                        <author>Boethius</author>
+                        <title>De institutione Arithmetica</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="27" to="56"/>
+                        <author>Boethius</author>
+                        <title>De consolatione Philosophiae</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="57" to="103"/>
+                        <author>Dicuil</author>
+                        <title>Komputus</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="103">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="28.5"/>
+                              <width n="22.3"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="22.1 22.5">I: 22,5 II:21,5</height>
+                              <width n="7.8 13.5">I: 7,8 (pro Spalte) II: 13,5</width>
+                           </dimensions>
+                        </extent>
+                        <condition>Das Ende der zweiten Handschrift fehlt.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1 2">I:1 II:2</layout>
+                        <layout writtenLines="25 33">I: 33 II:25</layout>
+                        <layout><p source="Rand">Rote Titel und Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Collon">mehrere Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Rand">"Revived Cursive</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p n="Exlibris"><locus n=""/></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">I: Nordöstliches Frankreich und etwa <placeName>Soissons</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">II: Frankreich (nicht südlich)</origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0875" notAfter="0999">Ende 9. Jhd. oder 10. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0899">I: 1. Viertel 9. Jhd. und 3. Viertel 9. Jhd. II: ca. 2. Viertel 9. Jhd.</origDate></p>
+                     <note>Über die Entstehung dieser Handschrift kann wenig gesichertes gesagt werden. </note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance>Die Handschrift wurde später zusammengefügt. Der Teil, derheute in Paris liegt, ist von Libri gestohlen worden und gelangte später an die BnF.</provenance>
+                  <acquisition><name type="Repository">BnF</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f2.item</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A17968</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69968q</idno></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="307 308"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="604 605"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="193 194"/></bibl>
+                     <bibl><idno>Van de Vyver 1935</idno><biblScope unit="pp" n="31 32"/></bibl>
+                     <bibl><idno>Stevens 1979</idno><biblScope unit="pp" n="175"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

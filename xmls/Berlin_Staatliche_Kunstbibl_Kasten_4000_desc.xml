@@ -3,22 +3,25 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Berlin, Bibliothek des Kunstgewerbemuseums</title>
+            <title>Berlin, Staatliche Kunstbibl., Kasten 4000</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>RAND  verzeichnet diese 2 Blätter aufgrund von Fotos von TRAUBE. Es konnte bis jetzt nichts weiteres gefunden wurden.</note></notesStmt>
+         <notesStmt><note>RAND verzeichnet diese 2 Blätter aufgrund von Fotos von TRAUBE. Es handelt sich laut BISCHOFF um Fragmente derselben Handschrift wie Trier, SB, Inc. 921..</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <country>Germany</country>
                   <settlement>Berlin</settlement>
-                  <repository>Biblliothek des Kunstgewerbemuseums</repository>
+                  <repository>Staatliche Kunstbibl.</repository>
                   <collection/>
-                  <idno></idno>
+                  <idno>Kasten 4000, Bl. 01594/01595</idno>
                   <altIdentifier source="Rand">
                      <idno>125</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6214</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
@@ -34,27 +37,27 @@
                      <supportDesc material="perg">
                         <extent n="2">
                            <dimensions type="leaf" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="48.0"/>
+                              <width n="34.5"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="36.2"/>
+                              <width n="27.8"/>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout/>
-                        <layout/>
+                        <layout columns="2"/>
+                        <layout writtenLines="52"/>
                         <layout><p></p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Bischoff">zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote ></scriptNote>
+                     <scriptNote source="Bischoff">turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -70,7 +73,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0840" notAfter="0860">Mid-century</origDate></p>
-                     <note/>
+                     <note>Es scheint sich um 2 Blätter derselben Handschrift wie Trier, SB, Inc. 921 zu handeln.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -86,6 +89,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="161"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="380"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

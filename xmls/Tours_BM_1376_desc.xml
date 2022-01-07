@@ -3,7 +3,7 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Tours, BM, </title>
+            <title>Tours, BM, 1376</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -16,7 +16,7 @@
                   <settlement>Tours</settlement>
                   <repository>BM</repository>
                   <collection/>
-                  <idno></idno>
+                  <idno>1376</idno>
                   <altIdentifier source="Marmoutier">
                      <idno>156</idno>
                   </altIdentifier>

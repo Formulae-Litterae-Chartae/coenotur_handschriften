@@ -45,7 +45,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns=""/>
-                        <layout writtenLines="="/>
+                        <layout writtenLines=""/>
                         <layout><p>farbige Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -63,16 +63,14 @@
                      <p/>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Wilderledereinband (<seg type="lat">veau fauve</seg>)</decoNote>
+                     <decoNote>Wildledereinband (<seg type="lat">veau fauve</seg>)</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Wordsworth" cert="low"><orgName>
-                           >Tours</orgName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1180"
-                           notAfter="1200">Ende 12. Jhd.</origDate></p>
-                     <note/>
+                     <p><origPlace source="Wordsworth" cert="low"><orgName>Tours</orgName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1180" notAfter="1200">Ende 12. Jhd.</origDate></p>
+                     <note>Wenig ist über diese Handschrift auszusagen.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
