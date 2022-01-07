@@ -78,12 +78,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low">franko-sächsisch</origPlace></p>
-                     <p><origPlace source="Rand" cert="low">eher martinisch als
+                     <p><origPlace source="Bischoff" cert="medium">franko-sächsisch</origPlace></p>
+                     <p><origPlace source="Rand" cert="medium">eher martinisch als
                            touronisch</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >3. Viertel 9. Jhd.</origDate></p>
-                     <note/>
+                     <note>Eine Entsthung in Tours erscheitn unwahrscheinlich. Vermutlich gelangte die Handschrift nach 853 nach Saint-Martin</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance source="Köhler">Die Handschrift entstand wohl in der frankosächsischen

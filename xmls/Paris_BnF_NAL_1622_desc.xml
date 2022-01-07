@@ -1,0 +1,112 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, NAL 1622</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Die Handschrift bildete mit Tours, BM, 887 die Handschrift Marmoutier 122. Beide Handschriften entstanden unabhängig voneinander und sind wohl noch im Mittelalter zusammengefügt worden. Der Teil, der heute in Paris liegt, wurde von Libri gestohlen und später durch die BnF zurückgekauft.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>NAL 1622</idno>
+                  <altIdentifier source="Marmoutier">
+                     <idno>122</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>25</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>180</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5104</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Gedichte Poesie">
+                     <author>Priscian</author>
+                     <title>Ad Pueros de Arte</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="15">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="29.2"/>
+                              <width n="20.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="21.5"/>
+                              <width n="15.1"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="36 39">36, 39</layout>
+                        <layout><p>Rote Titel und Initialen</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Rand">"Revived Cursive"</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p></p>
+                     <p n="Exlibris"><locus n=""/></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff" cert="medium">wohl <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0849">(1./)2. Viertel 9. Jhd.</origDate></p>
+                     <note>Dieser Teil der Handschrift ist vermutlich in Tours entstanden.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance>Die Handschrift wurde später in Marmoutier mit Tours, BM, 887 vereint.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10037362h/f4.item</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc699489</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="189 190"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="242"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

@@ -3,21 +3,22 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Wien, NB, Ser. nov. 3641</title>
+            <title>Paris, BnF, Latin 11834</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Es handelt sich um Fragmente derselben Bibel wie Trier, SB, Inc. 921.</note></notesStmt>
+         <notesStmt><note>Eine Urkunde aus dieser Sammlung stammt aus Tours. Die Handschrift wird hier aufgeführt, da sie bei RANd aufgelistet wird.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>Austria</country>
-                  <settlement>Wien</settlement>
-                  <repository>NB</repository>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
                   <collection/>
+                  <idno>Latin 11834</idno>
                   <altIdentifier source="Rand">
-                     <idno>127</idno>
+                     <idno>183</idno>
                   </altIdentifier>
                   <altIdentifier source="Bischoff">
                      <idno></idno>
@@ -25,44 +26,45 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Bibel">
+                  <msItem class="Urkunden">
                      <author/>
-                     <title>Bibel</title>
+                     <title>Eine Urkunde von St-Ursus von Tours</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="frag">
+                  <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="2">
+                        <extent n="">
                            <dimensions type="leaf" unit="cm">
-                              <height n="48.0"/>
-                              <width n="34.5"/>
+                              <height n=""/>
+                              <width n=""/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="36.2"/>
-                              <width n="27.8"/>
+                              <height n=""/>
+                              <width n=""/>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="2"/>
-                        <layout writtenLines="52"/>
+                        <layout/>
+                        <layout/>
                         <layout><p></p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">zahlreiche Hände</handNote>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">turonische Minuskel</scriptNote>
+                     <scriptNote></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                      </decoNote>
                   </decoDesc>
                   <additions>
+                     <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -71,13 +73,12 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium"><orgName>Marmoutier</orgName> ?, <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0840" notAfter="0860">Mid-century</origDate></p>
-                     <note>Die 2 Blätter wurden laut RAND durch KÖHLER entdeckt und dem Skriptorium aus Tours zugeordnet.</note>
+                     <p><origDate source="Rand" cert="medium" notBefore="0900" notAfter="0949">1. Hälfte 10. Jhd.</origDate></p>
+                     <note>Durch die Unterzeichnung von Theotolo, dem Erzbischof von Tours, lässt sich die Datierung auf die 1. Hälfte des 10. Jahrhunderts festlegen.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
-                  <acquisition><name type="Repository"></name></acquisition>
+                  <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
@@ -87,12 +88,8 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>http://data.onb.ac.at/rec/AC13949900</idno></bibl>
-
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="161"/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="380"/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="491"/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="494"/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73263k/cd0e504</idno></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

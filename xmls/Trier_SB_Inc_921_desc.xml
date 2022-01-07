@@ -3,38 +3,42 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Wien, NB, Ser. nov. 3641</title>
+            <title>Trier, SB, Inc. 921 + Fragm. aus Trier, Mappe 1 uvm.</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Es handelt sich um Fragmente derselben Bibel wie Trier, SB, Inc. 921.</note></notesStmt>
+         <notesStmt><note>Es handelt sich um eine Ansammlung von Fragmenten einer turonischen Bibel. Siehe BISCHOFF für mehr Informationen.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>Austria</country>
-                  <settlement>Wien</settlement>
-                  <repository>NB</repository>
+                  <country>Germany</country>
+                  <settlement>Trier</settlement>
+                  <repository>SB</repository>
                   <collection/>
+                  <idno>Inc. 921</idno>
+                  <altIdentifier source="Trier">
+                     <idno>Mappe 1</idno>
+                  </altIdentifier>
                   <altIdentifier source="Rand">
-                     <idno>127</idno>
+                     <idno>126</idno>
                   </altIdentifier>
                   <altIdentifier source="Bischoff">
-                     <idno></idno>
+                     <idno>6214</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Bibel">
+                  <msItem class="Theologie Bibel">
                      <author/>
-                     <title>Bibel</title>
+                     <title>Bibelfragmente</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="frag">
                      <supportDesc material="perg">
-                        <extent n="2">
+                        <extent n="40">wenigsten 40 Bl.
                            <dimensions type="leaf" unit="cm">
                               <height n="48.0"/>
                               <width n="34.5"/>
@@ -44,7 +48,7 @@
                               <width n="27.8"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>Es handelt sich um einzelne Fragmente. Siehe Bischoff für mehr Informationen.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -63,6 +67,8 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
+                    <p></p>
+                     <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -70,14 +76,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium"><orgName>Marmoutier</orgName> ?, <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0840" notAfter="0860">Mid-century</origDate></p>
-                     <note>Die 2 Blätter wurden laut RAND durch KÖHLER entdeckt und dem Skriptorium aus Tours zugeordnet.</note>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName> (<orgName>Marmoutier</orgName>?)</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0855">ca. 840</origDate></p>
+                     <note>Es handelt sich mit großer Wahrschienlichkeit um Fragmente einer typischen, turonischen Bibel.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
-                  <acquisition><name type="Repository"></name></acquisition>
+                  <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
@@ -87,12 +92,9 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>http://data.onb.ac.at/rec/AC13949900</idno></bibl>
-
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="161"/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="380"/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="491"/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="494"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="380 381"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

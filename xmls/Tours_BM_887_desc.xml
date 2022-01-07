@@ -1,0 +1,117 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 887</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Die Handschrift bildete mit Paris, BNF, NAL 1622 die Handschrift Marmoutier 122. Beide Handschriften entstanden unabhängig voneinander und sind wohl noch im Mittelalter zusammengefügt worden. Der Teil, der heute in Paris liegt, wurde von Libri gestohlen und später durch die BnF zurückgekauft.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>887</idno>
+                  <altIdentifier source="Marmoutier">
+                     <idno>122</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Libri">
+                     <idno>25</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>180</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>6164</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Gedichte Poesie">
+                     <author>Prudentius</author>
+                     <title>Poemata</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="75">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="29.0"/>
+                              <width n="21.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="21.5 22.1">12,5-22,1</height>
+                              <width n="15.1"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Der Prudentius ist am Ende unvollständig.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">1, die ersten 8 Folio 2</layout>
+                        <layout writtenLines="27 28"/>
+                        <layout><p>Rote Titel und rote Initialen.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Onlinekatalog">2 Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Rand">"Revived Cursive"</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p></p>
+                     <p n="Exlibris"><locus n="31v 32r"/><seg type="lat">HUNC LIBRUM HERIBALDUS A ....... ENSIS ECLESIAE EPS DEDIT SCO STEPHANE PRO VITA AETERNA</seg></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand" cert="high">Dieser Teil nicht aus <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Orléans</placeName> und eine abweichende Hand</origPlace></p>
+                     <p><origDate source="Rand" cert="high" notBefore="0829" notAfter="0857">vor 857.</origDate></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0849">(1./)2. Viertel 9. Jhd. (?)</origDate></p>
+                     <note>Durch die Widmung, lässt sich die Entstehung auf vor 857 datieren. Damit ist die Handschrift vermutlich nicht in Tours entstanden.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName>Marmoutier</placeName></provenance>
+                  <provenance>Die Hadnschrift wurde später in Marmoutier mit Paris, BnF, NAL 1622 vereint.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A18325</idno></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="394 395"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="639 640"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="189 190"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="329"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="369"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

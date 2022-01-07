@@ -86,7 +86,7 @@
                      <p source="Dorange">zahlreiche Glossierungen und Tironische Noten einer
                         zeitgenössischen Hand; zahlreiche Notizen des 11. Jhd.</p>
                      <p>Zahlreiche Korrekturen, auf Rasur, interlinear und am Rand.</p>
-                     <p>Besonders starke GLossierung in Buch 5.</p>
+                     <p>Besonders starke Glossierung in Buch 5.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -94,12 +94,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high" source="Rand"><placeName>Tours</placeName>,
-                              <orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0800" notAfter="0840"/>Anfang 9. Jhd.</p>
-                     <p><origDate source="Bischoff Nörr" cert="medium" notBefore="0790" notAfter="0810"/>Um 800</p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"/>2. Viertel 9. Jhd.</p>
-                     <note>Die Nähe zum vatikanischen Livius lässt eine Entstehung in St-Martin zu Beginn des 9. Jahrhunderts sehr wahrscheinlich erscheinen</note>
+                     <p><origPlace cert="high" source="Rand"><placeName>Tours</placeName>, <orgName>St-Martin</orgName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0800" notAfter="0840">Anfang 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff Nörr" cert="medium" notBefore="0790" notAfter="0810">Um 800</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
+                     <note>Die Nähe zum vatikanischen Livius lässt eine Entstehung in St-Martin zu Beginn des 9. Jahrhunderts sehr wahrscheinlich erscheinen.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>In St-Martin geschrieben und vermutlich durchgehend dort geblieben.</provenance>
