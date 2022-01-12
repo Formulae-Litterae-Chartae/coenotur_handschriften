@@ -93,9 +93,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low"><placeName>Tours</placeName>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>
                            (?)</origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0800" notAfter="0833">1.
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833">1.
                            Drittel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="low" notBefore="0750" notAfter="0796"
                            >„pre-alcuinian“</origDate></p>

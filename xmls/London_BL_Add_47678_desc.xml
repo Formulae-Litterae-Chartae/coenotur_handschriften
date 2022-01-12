@@ -9,7 +9,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note>Es handelt sich um die wichtigste überlieferte Cicero-Handschrift. Sie ist stark beschädigt. Neben dem Großteil, der in London liegt, liegt ein einzelnes Blatt in Genf unter der Signatur, BPU, Ms. lat. 169.</note></notesStmt>
+            <notesStmt><note>Es handelt sich um die wichtigste überlieferte Handschrift von Ciceros <seg type="lat">De praeture Siciliensi</seg>. Sie ist stark beschädigt. Neben dem Großteil, der in London liegt, liegt ein einzelnes Blatt in Genf unter der Signatur, BPU, Ms. lat. 169.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
                         <msIdentifier>
@@ -18,6 +18,9 @@
                         <repository>BL</repository>
                         <collection/>
                         <idno>Add. 47678</idno>
+                            <altIdentifier source="Cluny">
+                                <idno>498</idno>
+                            </altIdentifier>
                             <altIdentifier source="Holkham Hall">
                                 <idno>387</idno>
                             </altIdentifier>
@@ -65,8 +68,6 @@
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
-                                <p></p>
                             </decoNote>
                         </decoDesc>
                         <additions>
@@ -95,6 +96,7 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_47678</idno></bibl>
+                            <bibl><idno>Mirmont 1923</idno><biblScope unit="pp" n="V VI"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="104"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="104"/></bibl>
                         </listBibl>

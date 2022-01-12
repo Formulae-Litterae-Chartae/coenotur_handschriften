@@ -1,34 +1,33 @@
-<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.githsub.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Paris, BnF, Latin 5730</title>
+            <title>Wolfenbüttel, Niedersächsisches Staatsarchiv, 1 2</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Handschrift ist nicht in Tours entstanden, gelangte aber bereits im 8. Jahrhundert nach Saint-Martin.</note></notesStmt>
+         <notesStmt><note>Dieses Fragment wird bei GANZ aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>France</country>
-                  <settlement>Paris</settlement>
-                  <repository>BnF</repository>
+                  <country>Germany</country>
+                  <settlement>Wolfenbüttel</settlement>
+                  <repository>Niedersächsisches Staatsarchiv</repository>
                   <collection/>
-                  <idno>Latin 5730</idno>
+                  <idno>1 2</idno>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Historiographie">
-                     <author>Titus Livius</author>
-                     <title>Römische Geschichte</title>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Teile von Josua, der Psalmen und der Propheten</title>
                      <textLang mainLang="la"/>
-                     <note>Die dritte Decade</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="frag">
                      <supportDesc material="perg">
                         <extent n="">
                            <dimensions type="leaf" unit="cm">
@@ -43,23 +42,22 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="2"/>
-                        <layout writtenLines="26"/>
-                        <layout><p></p></layout>
+                        <layout />
+                        <layout />
+                        <layout></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Onlinekatalog">Unziale</scriptNote>
+                     <scriptNote></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -67,27 +65,24 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="medium">wohl <placeName>Rom</placeName></origPlace></p>
-                     <p><origDate source="Lafitte" cert="medium" notBefore="0400" notAfter="0499">5. Jhd.</origDate></p>
-                     <note>Die Handschrift ist nicht in Tours, sondern vermutlich in Rom entstanden.</note>
+                     <p><origPlace source="Ganz" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Ganz" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
+                     <note>Bis auf die Einordnung durch GANZ, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance source="Lafitte">Die Handschrift gelangte zunäcsht nach <orgName>Corbie</orgName>.</provenance>
-                  <provenance source="Mercier">Sie befand sich bereits ab dem 8. Jahrhundert in <orgName>St-Martin</orgName> in Tours.</provenance>
-                  <provenance source="Lafitte">Sie diente als Vorlage für Reg. Lat. 762..</provenance>
+                  <provenance></provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8470112j</idno>
+                        <idno></idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64709p</idno></bibl>
-                     <bibl><idno>Lafitte 2007</idno><biblScope unit="pp" n="123"/></bibl>
-                     <bibl><idno>Mercier II</idno><biblScope unit="pp" n="118"/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="62"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>
