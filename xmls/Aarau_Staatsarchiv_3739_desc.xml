@@ -3,39 +3,36 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Paris, Bib. de l'Arsenal, 609</title>
+            <title>Aarau, Staatsarchiv, 3739</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Laut LEROQUAIS entstanden in Marmoutier, deshalb hier aufgeführt. Deutlich später als die eigentliche Frage des Projektes, so dass keine weiteren Infos gesucht wurden.</note></notesStmt>
+         <notesStmt><note>Dieses Fragment wird bei GANZ aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>France</country>
-                  <settlement>Paris</settlement>
-                  <repository>Bib. de l'Arsenal</repository>
+                  <country>Switzerland</country>
+                  <settlement>Aarau</settlement>
+                  <repository>Staatsarchiv</repository>
                   <collection/>
-                  <idno>267</idno>
-                  <msName>Missel de Mantes</msName>
-                  <altIdentifier source="Leroquais">
-                     <idno>267</idno>
-                  </altIdentifier>
+                  <idno>3739</idno>
+                  <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Liturgie">
+                  <msItem class="Bibel">
                      <author/>
-                     <title>Missale</title>
+                     <title>Paralipomenon</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="frag">
                      <supportDesc material="perg">
-                        <extent n="139">
+                        <extent n="">
                            <dimensions type="leaf" unit="cm">
-                              <height n="21.4"/>
-                              <width n="15.6"/>
+                              <height n=""/>
+                              <width n=""/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
                               <height n=""/>
@@ -45,9 +42,9 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="1"/>
-                        <layout/>
-                        <layout><p></p></layout>
+                        <layout />
+                        <layout />
+                        <layout></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -57,37 +54,35 @@
                      <scriptNote></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>vorhanden
+                     <decoNote>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="2"/><seg type="lat">Ex biblioth. domûs S. Caroli, Paris. 1730.</seg></p>
-                     <p source="Onlinekatalog">Es sind noch weitere Exlibris aus Mente vorhanden.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Weißes Pergament um Holz</decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Leroquais" cert="medium"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Leroquais" cert="medium" notBefore="1200" notAfter="1250">Mitte 13. Jhd.</origDate></p>
-                     <note source="Leroquais">Hergestellt für (in) Marmoutier</note>
+                     <p><origPlace source="Ganz" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Ganz" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
+                     <note>Bis auf die Einordnung durch GANZ, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance>Die zahlreichen Ergänzungen belegen, dass die Handschrift später in Mantes verwendet worden ist.</provenance>
-                  <acquisition><name type="Repository">Bib. de l'Arsenal</name></acquisition>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b52508486m</idno>
+                        <idno></idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc79814n</idno></bibl>
-                     <bibl><idno>Leroquais II 1924</idno><biblScope unit="pp" n="86 87"/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="62"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -76,7 +76,7 @@
                     <history>
                         <origin>
                             <p><origPlace><placeName>Tours</placeName>, wohl <orgName>St-Martin</orgName></origPlace></p>
-                            <p><origPlace source="Kautz" cert="unknown">Frankreich (?)</origPlace></p>
+                            <p><origPlace source="Kautz" cert="medium">Frankreich (?)</origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
                             <note>Die Ähnlichkeit mit dem vatikanischen Livius lässt eine Entstehung zu Beginn des 9. Jhds. in <orgName>St-Martin</orgName> naheliegend erscheinen.</note>

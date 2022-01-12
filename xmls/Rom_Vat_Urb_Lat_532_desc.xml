@@ -89,7 +89,7 @@
                             <p><origPlace source="Bischoff" cert="medium">Wohl <placeName>Paris</placeName></origPlace></p>
                             <p><origPlace source="Köhler" cert="high">Nicht <placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875">ca. Mitte 9. Jhd.</origDate></p>
-                            <p><origDate source="Rand" cert="low" notBefore="0750" notAfter="0796"/>Pre-Alcuinian</p>
+                            <p><origDate source="Rand" cert="low" notBefore="0750" notAfter="0796">Pre-Alcuinian</origDate></p>
                             <note>Nach KÖHLER sind weder die Zierschrift noch die Minuskel turonisch. Auch die frühe Datierung bei Rand erscheint unwahrscheinlich.</note>
                             <note>Das Layout erscheint für Tours sehr untypisch. Eine Entstehung anderswo erscheint dementsprechend sehr wahrscheinlich, so dass davon auszugehen ist, dass es sich bei dieser Handschrift nicht um ein turonisches Produkt handelt.</note>
                         </origin>

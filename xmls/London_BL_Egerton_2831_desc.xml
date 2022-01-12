@@ -73,7 +73,7 @@
                      <p>Korrekturen durch eine (BISCHOFF), bzw. mehrere (RAND) insulare Hände, sowie eine voralkuinische touronische Hand (RAND).</p>
                      <p source="Köhler">Zwei kleine Schreiberinizialen</p>
                      <p source="Martinellus.de"><locus n="19v"/><locus n="56v"/><locus n="91v"/>Tironische Noten</p>
-                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Hic habet librum Sci. Martini Turensem de caenubio bi [? ibi] quo quiescit [? se]d de illo armario et qui me furauerit uel hoc folium inciscerit [anathema] sit.</seg></p>
+                     <p n="Exlibris"><locus n="1r"/><seg type="lat">Hic habet librum Sci. Martini Turensem de caenubio bi [? ibi] quo quiescit [? se]d de illo armario et qui me furauerit uel hoc folium inciscerit [anathema] sit</seg>, 8. Jhd. in merowingischer Minuskel.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Grüner Samteinband mit Muster (nach 1600)</decoNote>
@@ -81,9 +81,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium">eher nicht Tours</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0730" notAfter="0780">Mitte 8. Jhd.</origDate></p>
-                     <note>BISCHOFF geht davon aus, dass die Handschrift zu einer Handschriftengruppe gehört, die „unter demselben Dach von einer sich allmählich wandelnden Schule geschaffen wurden“. Dagegen stellt KÖHLER 1931 fest, dass die Entstehung in St-Martin sich nur auf den alten Besitzeintrag stützen kann.</note>
+                     <note>BISCHOFF geht davon aus, dass die Handschrift zu einer Handschriftengruppe gehört, die „unter demselben Dach von einer sich allmählich wandelnden Schule geschaffen wurden“. Dagegen stellt KÖHLER 1931 fest, dass die Entstehung in St-Martin sich nur auf den alten Besitzeintrag stützen kann. Für RAND handelt es sich um eines der Monumente der Präsenz der Iren in Tours, wobei diese gesamte Gruppe an Handschriften nicht als gesichert angesehen werden sollte.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance source="Köhler">Die Handschrift befand sich nach einer alten Besitzeintragung bereits ab dem 8. Jhd. im Besitz von St-Martin.</provenance>

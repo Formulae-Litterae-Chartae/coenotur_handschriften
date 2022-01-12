@@ -119,7 +119,7 @@
                      <p><origPlace source="Fingernagel" cert="medium"><placeName>Tours</placeName>, für die Schrift, Ausstattung wohl in Lothringen (<placeName>Metz</placeName>?).</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand Fingernagel" cert="medium" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
-                     <note></note>
+                     <note>Eine Entstehung der Handschrift in Tours kann aufgrund der häufigen turonischen <seg type="lat">est</seg> und <seg type="lat">esse</seg>-Kürzungen als gesichert angesehen werden. Ob die Ausstattung auch aus Tours stammt, muss zweifelhaft bleiben.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Vinzent</orgName>, <placeName>Metz</placeName></provenance>
                   <provenance source="Fingernagel">Drei Handschriften aus Metz: (Metz, BM, 77 (zerstört); Paris, BnF, Latin 9393; Paris, BnF, Latin 9393), die im 10. Jahrhundert nach dem Vorbild von Ham. 248 entstanden sind, belegen, dass die Handschrift sich spätestens seit dem 10. Jahrhundert in Metz befand.</provenance>

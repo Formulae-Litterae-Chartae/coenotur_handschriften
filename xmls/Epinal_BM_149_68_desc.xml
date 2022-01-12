@@ -1,0 +1,118 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Epinal, BM, 149 (68)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Folio 18 ist deutlich kleiner und scheint nicht zur ursprünglichen Handschrift gehört zu haben.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Epinal</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>149 (68)</idno>
+                  <altIdentifier source="CLA">
+                     <idno>762</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>1169a</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Briefe Kirchenväter">
+                     <author>Hieronymus</author>
+                     <title>Epistolae</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="209">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="27.0"/>
+                              <width n="23.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="26 31"/>
+                        <layout><p source="Michelant">Titel in Unziale; Rote Incipits und Explizits in Capitalis mit eingemischter Unziale</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="CLA">Mehrere Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Michelant">Merowingischen Minuskel</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>Einzelne nachträgliche Symbole am unteren Rand.
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Frühe Korrekturen in grüner Tinte.</p>
+                     <p>Zum Teil recht starke Glossierung.</p>
+                     <p n="Tironische Noten">Lagensignatur und Korrektor in tironischen Noten</p>
+                     <p n="Exlibris"><locus n="5v"/><seg type="lat">Ist liber est monasterii morbacen ordinis scti benedicti</seg>, 15. Jhd.</p>
+                     <p n="Exlibris"><locus n="2r"/><seg type="lat">Mediani monasterii 1717</seg>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote>Schafsledereinband von 1968.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="ale" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="CCFR" cert="low" notBefore="0700" notAfter="0799">8. Jhd.</origDate></p>
+                     <p><origDate source="CLA" cert="medium" notBefore="0744" notAfter="0745">744/745</origDate></p>
+                     <p><origDate source="Wallenwein" cert="medium" notBefore="0675" notAfter="0675">675</origDate></p>
+                     <note>Am Ort der Entstehung bestand nie Zweifel. Die CLA (und deren Angaben wurde lange gefolgt) setzte die im Auftragsvermerk (<seg type="lat">[A]ricus hunc librum scribere abba rogavit anno III regni Childerici regis</seg>) erwähnte Datierung zum driteen Regierungsjahr Childerichs III. auf. WALLENWEIN hat seitdem heruasgefunden, dass es sich um Childerich II. handelt und die Datierung somit in das Jah 675 fällt. Damit kann auhc der erähnte Abt <seg type="lat">Aricus</seg> zufriedenstellend mit Agyricus, Abt von Tours aufgelöst werden. Dagegen listet LICHT die Handschrift als Beispiel karolingischer Schriftkunst auf.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName>Murbach</placeName></provenance>
+                  <provenance>Die Handschrift gelangt irgendwann (vielleicht unter Alkuin (BISCHOFF?)) nach Murbach und ging nach 1696 (da wurde sie dort von Th. Ruinart gesehen), an das Kloster Moyenmoutier.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://galeries.limedia.fr/ark:/18128/d252cj4tq538twt2/p12</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D03020185</idno></bibl>
+                     <bibl><idno>Michelant 1861</idno><biblScope unit="pp" n="427"/></bibl>
+                     <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="13"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="248"/></bibl>
+                     <bibl><idno>Meyer 2009</idno><biblScope unit="pp" n="47 48"/></bibl>
+                     <bibl><idno>Wallenwein 2015</idno><biblScope unit="pp" n="33 34"/></bibl>
+                     <bibl><idno>Wallenwein 2017</idno><biblScope unit="pp" n="126 127"/></bibl>
+                     <bibl><idno>Licht 2018</idno><biblScope unit="pp" n="344"/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope unit="pp" n="118"/></bibl>
+                     <bibl><idno>Mercier II</idno><biblScope unit="pp" n="118"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

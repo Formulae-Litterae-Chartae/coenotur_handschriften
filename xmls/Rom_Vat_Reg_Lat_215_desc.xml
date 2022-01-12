@@ -77,7 +77,7 @@
                         <origin>
                             <p><origPlace source="Traube 1901" cert="low"><placeName>Tours</placeName></origPlace></p>
                             <p><origPlace source="Traube 1892" cert="low"><placeName>Laon</placeName></origPlace></p>
-                            <p><origPlace source="Contreni" cert="unknown">unklar, <orgName>Fleury</orgName> oder <placeName>Tours</placeName> eher als <placeName>Laon</placeName></origPlace></p>
+                            <p><origPlace source="Contreni" cert="medium">unklar, <orgName>Fleury</orgName> oder <placeName>Tours</placeName> eher als <placeName>Laon</placeName></origPlace></p>
                             <p><origDate source="Contreni" cert="high" notBefore="0877" notAfter="0900">9. Jhd. nach 877</origDate></p>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
