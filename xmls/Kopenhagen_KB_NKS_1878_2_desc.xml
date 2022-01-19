@@ -3,36 +3,36 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>London, BL, Sloane 1044</title>
+            <title>Kopenhagen, KB, Ny kgl. Saml. 1878 2</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Dieses Fragment wird bei GANZ aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
+         <notesStmt><note>Zu diesem Fragment gehört Leiden, UB, Bibl. Publ. Lat 21, sowie Rom, Vat., Reg. Lat. 689.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>England</country>
-                  <settlement>London</settlement>
-                  <repository>BL</repository>
+                  <country>Denamrk</country>
+                  <settlement>Kopenhagen</settlement>
+                  <repository>KB</repository>
                   <collection/>
-                  <idno>Sloane 1044</idno>
+                  <idno>NKS 1878 2</idno>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Bibel">
-                     <author/>
-                     <title>Fragment des Deuteronomiums</title>
+                  <msItem class="Historiographie">
+                     <author>Gregor von Tours</author>
+                     <title>Historia Francorum</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="frag">
                      <supportDesc material="perg">
-                        <extent n="">
+                        <extent n="1">
                            <dimensions type="leaf" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="29.4 29.6">29,4 - 29,6</height>
+                              <width n="19.7 20.7">19,7 - 20,7</width>
                            </dimensions>
                            <dimensions type="written" unit="cm">
                               <height n=""/>
@@ -42,8 +42,8 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout />
+                        <layout/>
+                        <layout/>
                         <layout></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -65,9 +65,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Ganz" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Ganz" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
-                     <note>Bis auf die Einordnung durch GANZ, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
+                     <p><origPlace source="Onlinekatalog" cert="medium">France (<placeName>Tours</placeName>?)</origPlace></p>
+                     <p><origDate source="Onlinekatalog" cert="medium" notBefore="0600" notAfter="0699">7. Jhd.</origDate></p>
+                     <note>Alles deutet auf eine Entstehung in der ersten Hälfte des 7. Jahrhunderts in Tours hin. Es handelt sich um die älteste erhaltene Quelle für diese Passage von Grogar von Tours.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -81,8 +81,8 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="62"/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www5.kb.dk/permalink/2006/manus/98/eng/</idno></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope /></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -1,0 +1,131 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 18104</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Nur der erste Teil (Fol. 1-93) stammt aus Tours.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 18104</idno>
+                  <altIdentifier source="B">
+                     <idno>22</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Notre-Dame">
+                     <idno>50</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5034</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5035</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>5036</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Misc.">
+                     <locus from="1" to="93"/>
+                     <author>Isidorus</author>
+                     <title>Liber de miraculis S. Andreae</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem>
+                     <locus from="94" to="125"/>
+                     <author>Iulianus Pomerius</author>
+                     <title>De vita contemplativa</title>
+                     <author>Augustinus</author>
+                     <title>De trinitate</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="126" to="135"/>
+                     <author>Venantius Fortunatus</author>
+                     <title>Carmina, Expositio orationis dominicae</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="136" to="227"/>
+                     <title>Ergänzungen aus dem 12. Jhd.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="227">
+                           <dimensions type="leaf" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="27"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>Turopnische Minuskel mit doppelt umpunkteter <seg type="lat">e</seg>- und <seg type="lat">ee</seg>-Kürzung</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p></p>
+                     <p n="Exlibris"><locus n="226v"/><seg type="lat">Tertia die post destum sancti Clementis obiit Maholt, mater Oliveri Mandeguerre</seg>, Ende 13. Jhd.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="BnF">Einband von Louis-Philippe von 1842, erneuert 1977.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff BnF" cert="medium">Teil 1: <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0849">2. Viertel 9. Jhd.</origDate></p>
+                     <note>Der erste Teil scheint aus Tours zu stammen, wie die typisch turonischen <seg type="lat">e</seg>- und <seg type="lat">ee</seg>-Kürzungen erkennen lassen.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance>Die Handschrift gehört Notre-Dame de Paris.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b10033742t</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69029k</idno></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="228"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

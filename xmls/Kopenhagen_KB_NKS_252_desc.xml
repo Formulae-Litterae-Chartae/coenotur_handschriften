@@ -3,55 +3,58 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>London, BL, Sloane 1044</title>
+            <title>Kopenhagen, KB, Ny kgl. Saml., 252</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Dieses Fragment wird bei GANZ aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
+         <notesStmt><note>Zu diesem Fragment gehört Kopenhagen, Ms. Rostgaard 160 2 nr. 1, sowie Sankt Petersburg, Hist. Inst. Ms. 2/625 und Wolfenbüttel, HAB, Aug. 2, 10.9.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>England</country>
-                  <settlement>London</settlement>
-                  <repository>BL</repository>
+                  <country>Denmark</country>
+                  <settlement>Kopenhagen</settlement>
+                  <repository>KB</repository>
                   <collection/>
-                  <idno>Sloane 1044</idno>
+                  <idno>NKS 252</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>1990</idno>
+                  </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Bibel">
-                     <author/>
-                     <title>Fragment des Deuteronomiums</title>
+                  <msItem class="Historiographie">
+                     <author>Gregor von Tours</author>
+                     <title>Historia Francorum</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="frag">
                      <supportDesc material="perg">
-                        <extent n="">
+                        <extent n="31">insg. 31. Blätter
                            <dimensions type="leaf" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="33.0"/>
+                              <width n="23.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="25.0"/>
+                              <width n="17.5"/>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout />
-                        <layout></layout>
+                        <layout columns="1"/>
+                        <layout writtenLines="30"/>
+                        <layout><p></p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Bischoff">mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote source="Bischoff">Minuskel, deren Formen zum Teil stark an Fleury erinnern.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -65,9 +68,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Ganz" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Ganz" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
-                     <note>Bis auf die Einordnung durch GANZ, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
+                     <p><origPlace source="Bischoff" cert="medium">Ostfrankreich (?), Westdeutschland (?) - ein Schrieber aus <placeName>Fleury (?)</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">ca. 2. Viertel 9. Jhd.</origDate></p>
+                     <note>In einem Schreiben (erwähnt bei BOURGAIN/HEINZELMANN) bringt BISCHOFF als Entstehungsort von Rostgaard 160 2 nr. 1 Tours ins Spiel. Auch Wolfenbüttel, HAB, Aug 2, 10.9 ist von BUTZMANN mit Tours in Verbindung gebracht worden. Trotzdem ist, beim aktuellen Kenntnisstand, davon auszugehen, dass die Handschrift nicht aus Tours stammt.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -81,8 +84,9 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="62"/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://soeg.kb.dk/permalink/45KBDK_KGL/1pioq0f/alma99122422234505763</idno></bibl>
+                     <bibl><idno>Bourgain/Heinzelmann 1997</idno><biblScope unit="pp" n="288"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="412 413"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>
