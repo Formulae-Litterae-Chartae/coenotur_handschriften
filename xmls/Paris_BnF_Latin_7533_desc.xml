@@ -1,0 +1,129 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 7533</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Nur der erste Teil dieser Handschrift stammt aus Tours. Alle Angaben zu Format und der Entstehung beziehen sich nur auf diesen Teil. Der Inhalt wird vollständig aufgeführt.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 7533</idno>
+                  <altIdentifier source="de Thou">
+                     <idno>745</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Colbert">
+                     <idno>1745</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>5047(7)</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4464</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Grammatik">
+                     <locus from="1" to="29"/>
+                     <author>Alkuin</author>
+                     <title>De orthographia</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem>
+                     <locus from="30" to="37"/>
+                     <author>Beda Venerabilis</author>
+                     <title>De arte metrica</title>
+                     <title>De schematibus et tropis</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="78" to="86bis"/>
+                     <title>Declinationes</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="87" to="102"/>
+                     <author>Isidorus</author>
+                     <title>De natura rerum</title>
+                     <title>Sententiae</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="29">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="30.5"/>
+                              <width n="23.3"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="22.0"/>
+                              <width n="15.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                        <layout writtenLines="23"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Bischoff">mehrere Schreiber</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">"Turonisch mit leichten Schwankungen"</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p></p>
+                     <p n="Exlibris"><locus n=""/></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote source="BnF">Einbande des 18. Jhds.</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="BnF" cert="medium" notBefore="0900" notAfter="0950">1. Hälfte 10. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b105477368</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc667640</idno></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="127"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

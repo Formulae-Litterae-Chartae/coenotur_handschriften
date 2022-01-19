@@ -3,47 +3,50 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>London, BL, Sloane 1044</title>
+            <title>Paris, BnF, NAL 2442</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Dieses Fragment wird bei GANZ aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
+         <notesStmt><note>Ein Blatt aus diesem Dossier stammt aus Tours. Sie wird bei BISCHOFF aufgeführt</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>England</country>
-                  <settlement>London</settlement>
-                  <repository>BL</repository>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
                   <collection/>
-                  <idno>Sloane 1044</idno>
+                  <idno>NAL 2442</idno>
                   <msName/>
+                  <altIdentifier source="Bischoff">
+                     <idno>5137</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem class="Bibel">
+                  <msItem class="Liturgie">
                      <author/>
-                     <title>Fragment des Deuteronomiums</title>
+                     <title>Homiliae</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="frag">
                      <supportDesc material="perg">
-                        <extent n="">
+                        <extent n="1">
                            <dimensions type="leaf" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="30.5"/>
+                              <width n="19.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="24.0"/>
+                              <width n="15.5"/>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout />
+                        <layout writtenLines="31"/>
+                        <layout columns="2"/>
                         <layout></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -51,7 +54,7 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote source="Bischoff">turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -65,9 +68,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Ganz" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Ganz" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
-                     <note>Bis auf die Einordnung durch GANZ, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
+                     <p><origPlace source="Bischff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                     <note>Bis auf die Einordnung durch BISCHOFF kann nichts weiteres ausgesagt werden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -77,12 +80,12 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b52513505t</idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="62"/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc70648n/cd0e61</idno></bibl>
+                    <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="249"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

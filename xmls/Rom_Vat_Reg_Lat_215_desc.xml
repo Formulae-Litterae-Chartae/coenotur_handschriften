@@ -58,7 +58,7 @@
                             <p source="Rand">Kleine Kapitalis</p>
                         </scriptDesc>
                         <musicNotation>
-                            <p source="Rand">Neumen, vielleict aus <placeName>Tours</placeName> oder aus <orgName>Fleury</orgName></p>
+                            <p source="Rand">Neumen, vielleicht aus <placeName>Tours</placeName> oder aus <orgName>Fleury</orgName></p>
                         </musicNotation>
                         <decoDesc>
                             <decoNote></decoNote>
@@ -75,10 +75,11 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Traube 1901" cert="low"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Traube 1901" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origPlace source="Traube 1892" cert="low"><placeName>Laon</placeName></origPlace></p>
                             <p><origPlace source="Contreni" cert="medium">unklar, <orgName>Fleury</orgName> oder <placeName>Tours</placeName> eher als <placeName>Laon</placeName></origPlace></p>
                             <p><origDate source="Contreni" cert="high" notBefore="0877" notAfter="0900">9. Jhd. nach 877</origDate></p>
+                            <note>Die Entstehung ist umstritten. RAND nimmt die Handschrift zwar in seine Liste auf, will sich aber nicht festlegen: So schreibt er "A book of Tours according to Traube's later view". Auch MOSTERT legt sich nicht fest.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                         <provenance>Vermutlich nicht in <orgName>St-Martin</orgName> entstanden, war die Handschrift sicher Bestandteil der dortigen Bibliothek, wie das Exlibris belegt.</provenance>
@@ -94,9 +95,10 @@
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.215</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="181 182"></biblScope></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="425"></biblScope></bibl>
                             <bibl><idno>Contreni 1976</idno><biblScope unit="pp" n=""></biblScope></bibl>
-                        </listBibl>
+                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="259"></biblScope></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="425"></biblScope></bibl>
+                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

@@ -3,12 +3,12 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Paris, Bib. de l'Arsenal, 609</title>
+            <title>Paris, Bib. de l'Arsenal, 903</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Laut LEROQUAIS entstanden in Marmoutier, deshalb hier aufgeführt. Deutlich später als die eigentliche Frage des Projektes, so dass keine weiteren Infos gesucht wurden.</note></notesStmt>
+         <notesStmt><note>Die heutige Handschrift setzt sich aus 3 Handschriften zusammen. Nur die Blätter 137-352 stammend vielleicht aus Tours. Nur diese Blätter werden im Folgenden beschrieben.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -16,78 +16,77 @@
                   <settlement>Paris</settlement>
                   <repository>Bib. de l'Arsenal</repository>
                   <collection/>
-                  <idno>609</idno>
-                  <msName>Missel de Mantes</msName>
-                  <altIdentifier source="Leroquais">
-                     <idno>267</idno>
+                  <idno>903</idno>
+                  <msName></msName>
+                  <altIdentifier source="Bischoff">
+                     <idno>3927</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem class="Liturgie">
-                     <author/>
-                     <title>Missale</title>
+                  <msItem class="Briefe">
+                     <author>Cyrillus</author>
+                     <title>Epistulae</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="139">
+                        <extent n="215">
                            <dimensions type="leaf" unit="cm">
-                              <height n="21.4"/>
-                              <width n="15.6"/>
+                              <height n="26.0"/>
+                              <width n="17.7"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="20.0"/>
+                              <width n="13.6"/>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
-                        <layout/>
-                        <layout><p></p></layout>
+                        <layout writtenLines="25"/>
+                        <layout><p>Auszeichnung in roter und schwarzer Unzielen. Auch Halbunziele.</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Bischoff">"Mehrere dem turonischen Stil ähnliche Hände"</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>vorhanden
+                     <decoNote>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="2"/><seg type="lat">Ex biblioth. domûs S. Caroli, Paris. 1730.</seg></p>
-                     <p source="Onlinekatalog">Es sind noch weitere Exlibris aus Mente vorhanden.</p>
+                     <p n="Exlibris"><locus n="215"/><seg type="lat">Hic est liber Sancti Juliani Turonensis cenobii</seg></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>Weißes Pergament um Holz</decoNote>
+                     <decoNote></decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Leroquais" cert="medium"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Leroquais" cert="medium" notBefore="1200" notAfter="1250">Mitte 13. Jhd.</origDate></p>
-                     <note source="Leroquais">Hergestellt für (in) Marmoutier</note>
+                     <p><origPlace source="Bischoff" cert="medium">Umkreis von <placeName>Tours</placeName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
+                     <note>Wenig kann über die Entstehung dieser Handschrift ausgesagt werden. Der Stil deutet auf eine Nähe zu Tours hin.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance>Die zahlreichen Ergänzungen belegen, dass die Handschrift später in Mantes verwendet worden ist.</provenance>
+                  <provenance>Die Handschrift war im Besitz von <orgName>Saint-Julien</orgName> in Tours.</provenance>
                   <acquisition><name type="Repository">Bib. de l'Arsenal</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b52508486m</idno>
+                        <idno></idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc79814n</idno></bibl>
-                     <bibl><idno>Leroquais II 1924</idno><biblScope unit="pp" n="86 87"/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc80138p/cd0e318</idno></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="11"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>
