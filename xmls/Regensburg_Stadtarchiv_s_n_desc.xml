@@ -1,0 +1,101 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Regensburg, Stadtarchiv, s.n.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Dieses Fragment wird bei BISCHOFF aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Regensburg</settlement>
+                  <repository>Stadtarchiv</repository>
+                  <collection/>
+                  <idno>s.n.</idno>
+                  <msName/>
+                  <altIdentifier source="Bischoff">
+                     <idno>5237</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Bibel">
+                     <author/>
+                     <title>Teile einer turonsichen Bibel</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="frag">
+                     <supportDesc material="perg">
+                        <extent n="">
+                           <dimensions type="leaf" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout />
+                        <layout />
+                        <layout></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote></scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff Fischer" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Fischer" cert="medium" notBefore="0834" notAfter="0843">834-843</origDate></p>
+                     <note>Bis auf die Einordnung durch FISCHER und BISCHOFF, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="63"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="265"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

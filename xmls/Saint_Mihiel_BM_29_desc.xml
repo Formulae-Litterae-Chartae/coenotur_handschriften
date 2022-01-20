@@ -1,0 +1,105 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Saint-Mihiel, BM, 29</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Saint-Mihiel</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>29</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>5395</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie">
+                     <author>Alkuin</author>
+                     <title>De trinitate</title>
+                     <textLang mainLang="la"/>
+                     <note>Mit weiteren Texten von Augustinus</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="">
+                           <dimensions type="leaf" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="23"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p></p>
+                     <p n="Exlibris"><locus n=""/></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium">wohl <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Michelant" cert="medium" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0790" notAfter="0820">Ende 8./Anfang 9. Jhd.</origDate></p>
+                     <note>Die Datierung scheint umstritten.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>http://archives.meuse.fr/ark:/52669/a011418741123LQ38DE/c6e93121c3</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://archives.meuse.fr/ark:/52669/a011418741123LQ38DE</idno></bibl>
+                     <bibl><idno>Michelant 1849</idno><biblScope unit="pp" n="522 523"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="284"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
