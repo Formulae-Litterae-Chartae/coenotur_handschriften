@@ -3,7 +3,7 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Schaffhausen, SB, Min. 58</title>
+            <title>Schaffhausen, SB, Min. 34</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -16,63 +16,17 @@
                   <settlement>Schaffhausen</settlement>
                   <repository>SB</repository>
                   <collection/>
-                  <idno>Min. 58</idno>
+                  <idno>Min. 34</idno>
                   <altIdentifier source="Bischoff">
-                     <idno>5961</idno>
+                     <idno>5958</idno>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Martinellus Heiligenviten">
-                     <author/>
-                     <title>Martinellus</title>
+                  <msItem class="Theologie Patristik">
+                     <author>Augustinus</author>
+                     <title>Enchiridion</title>
                      <textLang mainLang="la"/>
-                     <msItem n="1.1">
-                        <locus from="1" to="25"/>
-                        <author>Sulpicius Severus</author>
-                        <title>Vita sancti Martini</title>
-                     </msItem>
-                     <msItem n="1.2">
-                        <locus from="26" to="37"/>
-                        <author>sulpicius Severus</author>
-                        <title>Die drei Briefe</title>
-                     </msItem>
-                     <msItem n="1.3">
-                        <locus from="37" to="98"/>
-                        <author>Sulpicius Severus</author>
-                        <title>Dialogi</title>
-                     </msItem>
-                     <msItem n="1.4">
-                        <locus from="98" to="102"/>
-                        <title>Inscriptiones</title>
-                     </msItem>
-                     <msItem n="1.5">
-                        <locus from="102" to="103"/>
-                        <title>Liber sancti Martini de trinitate</title>
-                     </msItem>
-                     <msItem n="1.6">
-                        <locus from="103" to="106"/>
-                        <author>Gregor von Tours</author>
-                        <title>Vita sancti Bricii</title>
-                     </msItem>
-                     <msItem n="1.7">
-                        <locus from="106" to="107"/>
-                        <author>Gregor von Tours</author>
-                        <title>De obitu s. Martini</title>
-                     </msItem>
-                     <msItem n="1.8">
-                        <locus from="108" to="109"/>
-                        <title>De transitu s. Martini</title>
-                     </msItem>
-                     <msItem n="1.9">
-                        <locus from="109" to="111"/>
-                        <title>Quando corpus translatum est</title>
-                     </msItem>
-                     <msItem n="1.10">
-                        <locus from="111" to="115"/>
-                        <author>Alkuin</author>
-                        <title>Vita sancti Martini</title>
-                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -116,12 +70,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bourgain/Heinzelmann Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bourgain/Heinzelmann Bischoff" cert="high" notBefore="0800" notAfter="0849">1. Hälfte 9. Jhd.</origDate></p>
-                     <note>Die Entstehung der Handschrift in Tours in der 1. Hälfte des 9. Jahrhunderts kann als gesichert angesehen werden.</note>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0849">1./2. Viertel 9. Jhd.</origDate></p>
+                     <note>Bis auf die Einordnung durch BISCHOFF kann nichts über diese Hadnschrift ausgesagt werden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance>Die Handschrift gelangte, vielleicht durch Papst Urban II. zum Kloster Allerheiligen.</provenance>
+                  <provenance></provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -133,10 +87,6 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Boos 1877</idno><biblScope unit="pp" n="7"/></bibl>
-                     <bibl><idno>Gamper/Knoch-Mund/Stähli 1994</idno><biblScope unit="pp" n="153 154"/></bibl>
-                     <bibl><idno>Bourgain/Heinzelmann 1997</idno><biblScope unit="pp" n="303"/></bibl>
-                     <bibl><idno>Hellmann 2002</idno><biblScope unit="pp" n="245"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="345"/></bibl>
                   </listBibl>
                </additional>
