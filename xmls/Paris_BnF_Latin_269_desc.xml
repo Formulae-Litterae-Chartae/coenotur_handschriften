@@ -1,0 +1,108 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 269</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 269</idno>
+                  <altIdentifier source="Rigault">
+                     <idno>735</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Dupuy">
+                     <idno>792</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>3704</idno>
+                  </altIdentifier>
+                  <msName>Évangiles dits de Charles IX</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Evangeliar Bibel">
+                     <author/>
+                     <title>Evangeliar</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="276">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="33.0"/>
+                              <width n="24.0"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="21.0"/>
+                              <width n="12.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="21"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Cinato">Eine Hand</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Cinato">Karolingische Minuskel im Stile von Tours</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>vorhanden
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p></p>
+                     <p n="Exlibris"><locus n="275"/><seg type="lat">A Moss le doen de Limoges soient balliées (ou balhées)</seg>, 15. Jhd.</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Denoël" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="BnF" cert="high" notBefore="0850" notAfter="0899">2. Hälfte oder Ende 9. Jhd.</origDate></p>
+                     <note>Nach der ausführlichen Untersuchung von Denoël, steht fest, dass die Hadnschrift aus Tours stammt, auch wenn sie bei RAND nicht aufgeführt wird.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance>Wie die Notiz auf Folio 275 belegt, war die Handschrift spätestens ab dem 15. Jhd. in Limoges.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8426033v</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc8456m</idno></bibl>
+                     <bibl><idno>Denoël 2009</idno><biblScope unit="pp" n="95 101"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

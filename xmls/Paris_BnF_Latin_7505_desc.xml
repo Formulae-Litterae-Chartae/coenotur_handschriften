@@ -1,0 +1,106 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 7505</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 7505</idno>
+                  <altIdentifier source="Colbert">
+                     <idno>880</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Regius">
+                     <idno>5047(6)</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Grammatik">
+                     <author>Priscianus Caesariensis</author>
+                     <title>Ars grammatica</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="245">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="31.5"/>
+                              <width n="23.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="22.5"/>
+                              <width n="16.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="29"/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote></scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Sehr umfangreiche Glossierung</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Vezin" cert="medium">Aus der Region von Paris oder Tours</origPlace></p>
+                     <p><origPlace source="BnF" cert="medium">vermutlich aus <placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="BnF" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                     <note>Die Entstehung ist nicht gesichert, die BnF spricht sich aber deutlich für Tours aus.</note>
+                  </origin>
+                  <provenance type="Provenance"><orgName>Saint-Pierre de Moissac</orgName></provenance>
+                  <provenance>Einzelne Ergänzungen belegen, dass die Handschrift sich bereits zum Ende des 9. Jhds. in Poitiers befand.</provenance>
+                  <provenance source="Vezin">Die Ergänzung auf f. 4 lässt erkennen, dass die Handschrift sich zum Ende des 11. oder zum Anfang des 12. Jhds. bereits in Moissac befand.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b8426283f</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc8457t</idno></bibl>
+                     <bibl><idno>Vezin 1990</idno><biblScope unit="pp" n="65"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

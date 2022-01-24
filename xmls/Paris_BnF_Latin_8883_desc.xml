@@ -81,7 +81,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName>, <orgName>St-Maurice</orgName></origPlace></p>
                      <p><origPlace source="BnF" cert="medium">„pourrait avoir été copié à l’abbaye de <orgName>Marmoutier</orgName>“</origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1099">11. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="medium" notBefore="1000" notAfter="1025">Anfang 11. Jhd.</origDate></p>
                      <note></note>
                   </origin>
