@@ -1,0 +1,101 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Vercellis, Biblioteca Capitolare, CIV (47)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note source="Bischoff">Diese Handschrift wurde nicht in tours hergestellt, aber einer der Schreiber scheint aus Tours zu stammen.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <settlement>Vercelli</settlement>
+                  <repository>BMíblioteca Capitolare</repository>
+                  <collection/>
+                  <idno>CIV (47)</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>6996</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Theologie Patristik">
+                     <author>Augustinus</author>
+                     <title>De trinitate</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="224">
+                           <dimensions type="leaf" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                        <layout/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote></scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium">Fol. 9-224: Italien (gegen Rom hin?); Fol. 1-8 Tours-Schreiber in Italien</origPlace></p>
+                     <p><origDate source="Mirabile.it" cert="medium" notBefore="0600" notAfter="0699">7. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0849">1./2. Viertel 9. Jhd</origDate></p>
+                     <note>Dass BISCHOFF sich um 2 Jahrhunderte vertut erscheint mir unwahrscheinlich.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance source="Bischoff">Die Handschrift gelangte im 10./11. Jhd. nach Vercelli.</provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www.mirabileweb.it/manuscript/vercelli-biblioteca-capitolare-eusebiana-civ-(47)-manoscript/130610</idno></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="462"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

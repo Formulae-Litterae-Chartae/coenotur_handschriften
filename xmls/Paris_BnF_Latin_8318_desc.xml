@@ -1,0 +1,122 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Paris, BnF, Latin 8138</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Bis auf die Zuschreibung bei Bibale (mit Verweis auf das Projekt Mandragore), spricht nichts für eine Entstehung in Tours. Die Handschrift wird der Vollständigkeithalber hier aufgeführt, aber nicht ausführlich beschrieben. Es handelt sich um eine Sammelhandschrift aus ursprünglich 4 separaten Handschriften.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <collection/>
+                  <idno>Latin 8318</idno>
+                  <altIdentifier source="Bischoff">
+                     <idno>4540</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>4541</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Misc.">
+                     <locus from="3" to="48"/>
+                     <author>Arator Subdiaconus</author>
+                     <title>Historia apostolica</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem class="Misc.">
+                     <locus from="49" to="64"/>
+                     <author>Aurelius Clemetis Prudentius</author>
+                     <title>Psychomachia</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem class="Misc.">
+                     <locus from="65" to="71"/>
+                     <author>Venantius Fortunatus</author>
+                     <title>Carmina</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem class="Misc.">
+                     <locus from="73" to="80"/>
+                     <author>Aldhelmus</author>
+                     <title>Carmina ecclesiastica</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="82">
+                           <dimensions type="leaf" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n=""/>
+                              <width n=""/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                        <layout/>
+                        <layout><p></p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote></scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bibale" cert="low">Tours</origPlace></p>
+                     <p><origPlace source="Bnf" cert="medium">Tours wird nicht aufgeführt</origPlace></p>
+                     <p><origDate source="BnF" cert="medium" notBefore="0800" notAfter="0899">9. Jhd.</origDate></p>
+                     <note>Über die Entstehung der einzelnen Fragment kann wenig ausgesagt werden. Wieso Bibale die Handschrift als zum Tiel aus Tours stammend deklariert, bleibt unerklärbar.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b84238395</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34035t</idno></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
