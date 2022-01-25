@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note>Beschrieben sind nur die Folio 1-41 und 44-119</note></notesStmt>
+            <notesStmt><note>Beschrieben sind nur die Folio 1-41 und 44-119. Ein Pergamentstück aus dem vormaligen Einband befindet sich heute in Paris, BnF, NAL 2654.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -22,6 +22,9 @@
                         </altIdentifier>
                         <altIdentifier source="Bischoff">
                             <idno>1463a</idno>
+                        </altIdentifier>
+                        <altIdentifier source="BnF">
+                            <idno>NAL 2654</idno>
                         </altIdentifier>
                         <msName></msName>
                     </msIdentifier>
