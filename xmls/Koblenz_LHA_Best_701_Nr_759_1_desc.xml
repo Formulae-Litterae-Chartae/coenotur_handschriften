@@ -1,0 +1,109 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Koblenz, LHA, Best. 701 Nr. 759, 1</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note>Zu diesem Fragment in Koblenz gehören weitere Fragmente in Haarlem und Edinburgh.</note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Koblenz</settlement>
+                  <repository>LHA</repository>
+                  <collection/>
+                  <idno>Best. 701 Nr. 759,1</idno>
+                  <msName/>
+                  <altIdentifier source="Haarlem, Bischoppelijk Museum">
+                     <idno>Inv. 141</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Edinburgh">
+                     <idno>Privatsammlung</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>1472</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Grammatik">
+                     <author>Priscianus</author>
+                     <title>Institutiones grammaticae</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="frag">
+                     <supportDesc material="perg">
+                        <extent n="6">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="29.0"/>
+                              <width n="20.6"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="27.0"/>
+                              <width n="18.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="37"/>
+                        <layout></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p n="Tironsiche Noten"><locus n="1v"/>Glossen in tironischen Noten</p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0865">2. Dritel 9. Jhd.</origDate></p>
+                     <note>Bis auf die Einordnung durch BISCHOFF, kann nichts weiteres über diese Fragmente ausgesagt werden.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName/></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Ganz 1990b</idno><biblScope unit="pp" n="49"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="308"/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>
