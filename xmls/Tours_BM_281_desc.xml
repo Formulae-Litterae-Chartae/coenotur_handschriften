@@ -3,7 +3,7 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Tours, BM, 281 + Paris, BnF, NAL 445</title>
+            <title>Tours, BM, 281</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -22,6 +22,9 @@
                   </altIdentifier>
                   <altIdentifier source="Libri">
                      <idno>75</idno>
+                  </altIdentifier>
+                  <altIdentifier source="BnF">
+                     <idno>NAL 445</idno>
                   </altIdentifier>
                   <altIdentifier source="Rand">
                      <idno>145</idno>
@@ -132,8 +135,8 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="23"/>
-                        <layout><p>Rote Titel in Capitalis Rustica</p>
-                           <p>Rote Initialen</p>
+                        <layout><p>Rote Titel in Capitalis Rustica;</p>
+                           <p>Rote Initialen;</p>
                         <p>Zum Teil sind die ersten beiden Zeilen eines neuen Briefes in Halbunziale geschrieben</p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -141,7 +144,7 @@
                      <handNote>Adalbaldus</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">exzellente Hand, jedoch eines der weniger eleganten
+                     <scriptNote source="Rand">Exzellente Hand, jedoch eines der weniger eleganten
                         Bücher von Adalbaldus, da seine „unterschiedlichen Stimmungen“ (various
                         moods) zu erkennen sind. „He is a free spirit.“</scriptNote>
                   </scriptDesc>
@@ -182,7 +185,7 @@
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="207 208"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="145"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
-                     <bibl><idno>Martinellus.de</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

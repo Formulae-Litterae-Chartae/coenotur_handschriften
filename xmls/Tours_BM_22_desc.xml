@@ -100,20 +100,16 @@
                </physDesc>
                <history>
                   <origin>
+                     <p><origPlace source="Rand" cert="medium"><orgName>St-Martin</orgName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="medium"><orgName>Fleury</orgName>?</origPlace></p>
+                     <p><origPlace source="Fischer" cert="medium">nicht Tours</origPlace></p>
+                     <p><origPlace source="Mostert" cert="medium">nicht Fleury</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">Frankreich</origPlace></p>
-                     <p><origPlace source="Köhler" cert="medium"
-                        ><orgName>Fleury</orgName>?</origPlace></p>
-                     <p><origPlace source="Mostert" cert="low">nicht Fleury</origPlace></p>
-                     <p><origPlace source="Rand" cert="medium"
-                        ><orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0814" notAfter="1137">nach
-                           814?</origDate></p>
-                     <p><origDate source="Collon Dorange" cert="medium" notBefore="0700"
-                           notAfter="0800">8. Jhd.</origDate></p>
-                     <p><origDate source="Berger" cert="medium" notBefore="0700" notAfter="0796">vor
-                           Alkuin</origDate></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0780" notAfter="0820">um
-                           800</origDate></p>
+                     <p><origDate source="Collon Dorange" cert="medium" notBefore="0700" notAfter="0800">8. Jhd.</origDate></p>
+                     <p><origDate source="Berger" cert="medium" notBefore="0700" notAfter="0796">vor Alkuin</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0780" notAfter="0820">um 800</origDate></p>
+                      <p><origDate source="Bischoff" cert="medium" notBefore="0814" notAfter="0850">nach 814?</origDate></p>
+                     <p><origDate source="Fischer" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd. ("nicht so früh, wie man bisher annahm").</origDate></p>
                      <note>Weder der Ort noch der Zeitpunkt der Entstehung der Handschrift kann
                         genauer festgelegt werden. Mostert, als der größte Kenner Fleurys, lehnt
                         eine Entstehung dort ab, selbst wenn Köhler und Berger aufgrund der Nähe zu
@@ -122,7 +118,7 @@
                         abgelehnt habe, wie Berger es tut, erscheint für ein solches Prachtexemplar
                         unbefriedigend. Letztendlich kann wohl nur die vorsichtige Festlegung
                         Bischoffs festgehalten werden, die von „Frankreich“ ausgeht. Was die
-                        Datierung anbelangt, erscheint jede Angabe, die über „um 800“ hinausgeht,
+                        Datierung anbelangt, erscheint jede Angabe, die über „zwischen 800 und 850“ hinausgeht,
                         äußerst fragwürdig.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
@@ -146,6 +142,7 @@
                      <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="420"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="102 103"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="324"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
                      <bibl><idno>Dorange</idno><biblScope unit="pp" n="8 9"/></bibl>
                      <bibl><idno>Collon</idno><biblScope unit="pp" n="16 17"/></bibl>

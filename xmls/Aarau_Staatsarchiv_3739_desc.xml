@@ -29,14 +29,14 @@
                <physDesc>
                   <objectDesc form="frag">
                      <supportDesc material="perg">
-                        <extent n="">
-                           <dimensions type="leaf" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                        <extent>
+                           <dimensions>
+                              <height/>
+                              <width/>
                            </dimensions>
-                           <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                           <dimensions>
+                              <height/>
+                              <width/>
                            </dimensions>
                         </extent>
                         <condition/>

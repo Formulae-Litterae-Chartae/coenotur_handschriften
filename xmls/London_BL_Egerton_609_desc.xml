@@ -74,10 +74,12 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>, "Franco-Saxon Style"; "Either a present from some other monastery or the work of an Irishman experimenting at Tours"</origPlace></p>
-                     <p><origPlace source="Köhler" cert="high">nicht Tours "In Text, Schrift und Ausstattung ohne Beziehung zu Tours</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium">Bretagne</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
-                     <note>Die Handschrift ist nicht in Tours entstanden.</note>
+                     <p><origPlace source="Köhler" cert="high">nicht Tours "In Text, Schrift und Ausstattung ohne Beziehung zu Tours"</origPlace></p>
+                     <p><origPlace source="Fischer Bischoff" cert="high">Bretagne</origPlace></p>
+                     <p><origDate source="Fischer" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                     <p><origDate source="bl.uk" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0866" notAfter="0899">3. Drittel 9. Jhd.</origDate></p>
+                     <note>Auch FISCHER nimmt die Handschrift in seine Liste derjenigen auf, die nicht aus Tours stammen. Insgesamt ist dementsprechend davon auszugehen, dass diese Handschrift nicht in Tours entstanden ist. Sie scheint aus der Bretagne zu stammen, wobei BISCHOFF in seiner Datierung überraschenderweise stark von den restlichen Angaben abweicht.</note>
                   </origin>
                   <provenance type="Provenance"><placeName>Tours</placeName>, <orgName>St-Martin</orgName>, 15. Jhd; <orgName>Marmoutier</orgName>, 18. Jhd.</provenance>
                   <provenance></provenance>
@@ -94,6 +96,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Egerton_MS_609</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="166 167"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="326"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="110"/></bibl>
                   </listBibl>
                </additional>
