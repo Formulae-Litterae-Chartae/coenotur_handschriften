@@ -122,7 +122,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Mostert" cert="low"><orgName>Fleury</orgName></origPlace></p>
+                     <p><origPlace source="Mostert" cert="medium"><orgName>Fleury</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
                      <note>Entstanden ist die Handschrift vermutlich in St-Martin als Kopie einer Handschrift aus Fleury. Spätestens im 11. Jahrhundert war sie, wie das Exlibris belegt, in St-Martin.</note>
                   </origin>

@@ -47,9 +47,7 @@
                               <width n="6.6"/>
                            </dimensions>
                         </extent>
-                        <condition source="Dorange">Die oberen Ränder der ersten 16 Folien sind
-                           durch Feuchtigkeit beschädigt, was aber die Lesbarkeit des Textes nicht
-                           beeinflusst.</condition>
+                        <condition source="Dorange">Die oberen Ränder der ersten 16 Folien sind durch Feuchtigkeit beschädigt, was aber die Lesbarkeit des Textes nicht beeinflusst.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -62,7 +60,7 @@
                      <handNote source="Winandy">Mindestens zwei, vermutlich drei Hände, die zum Teil stark voneinander abweichen.</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Winandy">zu Beginn, karol. Minuskel mit Unzialen Zügen, danahc saubere karol. Minuskel.</scriptNote>
+                     <scriptNote source="Winandy">Zu Beginn, karol. Minuskel mit Unzialen Zügen, danahc saubere karol. Minuskel.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -80,7 +78,7 @@
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Paris</placeName>, wohl <orgName>St-Germain-des-Près</orgName></origPlace></p>
                      <p><origPlace source="Köhler" cert="high">Tours sehr zweifelhaft</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
-                     <note>Das gesamte Schriftbild weicht stark von dem anderer turonischer Handschriften ab. Eine Entsthung in Tours erscheint unwahrscheinlich.</note>
+                     <note>Das gesamte Schriftbild weicht stark von dem anderer turonischer Handschriften ab. Eine Entstehung in Tours erscheint unwahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>

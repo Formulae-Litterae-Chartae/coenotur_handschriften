@@ -70,14 +70,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff Köhler" cert="high"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low"
-                           ><placeName>Trier</placeName></origPlace></p>
-                     <p><origDate source="Bischoff Keuffer" cert="high" notBefore="0800"
-                           notAfter="0825">9. Jhd., 1. Viertel</origDate></p>
-                     <note>Die Entstehungszeit scheint gesichert, über den Entstehungsort
-                        unterscheiden sich die Forschungsmeinungen.</note>
+                     <p><origPlace source="Bischoff Keuffer" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low" ><placeName>Trier</placeName></origPlace></p>
+                     <p><origDate source="Bischoff Keuffer" cert="high" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
+                     <note>Die Entstehungszeit scheint gesichert, über den Entstehungsort unterscheiden sich die Forschungsmeinungen. FISCHER folgt der Angabe BISCHOFFs, dass der Text aus Tours stammt, da die Bilder aber abweichen, nimmt er die Handschrift nicht in seine Liste turonsicher Produkte auf.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St. Matthias</orgName>,
                         <placeName>Trier</placeName></provenance>
@@ -95,6 +91,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Keuffer 1888</idno><biblScope unit="pp" n="34 35"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="327"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="373"/></bibl>
                   </listBibl>
                </additional>

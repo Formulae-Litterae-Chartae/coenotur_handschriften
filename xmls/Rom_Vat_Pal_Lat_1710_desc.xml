@@ -70,9 +70,10 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Umkreis von <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Hellmann" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Hellmann" cert="high">Kommentar: <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0875">ca. Mitte (/3. Viertel) 9. Jhd.</origDate></p>
-                     <note>Durch die ausführliche Untersuchung der tironischen Noten von HELLMANN, kann die Entstehung des Kommentares mit großer Sicherhiet nach Tours gelegt werden.</note>
+                     <note>Durch die ausführliche Untersuchung der tironischen Noten von HELLMANN, kann die Entstehung des Kommentares mit großer Sicherhiet nach Tours gelegt werden. Auch der Haupttext selbst ist mit sehr großer Wahrscheinlichkeit in Tours entstanden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

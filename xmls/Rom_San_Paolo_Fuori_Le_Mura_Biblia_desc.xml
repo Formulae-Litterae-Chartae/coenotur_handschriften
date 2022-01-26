@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Handschrift ist mit sehr großer Wahrscheinlchkeit nicht in tours entstanden. Sie wird hier aufgeführt, da RAND ihre Entstehung in Tours verordnete.</note></notesStmt>
+         <notesStmt><note>Diese Handschrift ist mit sehr großer Wahrscheinlchkeit nicht in Tours entstanden. Sie wird hier aufgeführt, da RAND ihre Entstehung in Tours verordnete.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -72,9 +72,10 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName> (?)</origPlace></p>
+                     <p><origPlace source="Fischer" cert="medium"><placeName>Reims</placeName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">"in der Umgebung von <placeName>Reims</placeName>"</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jahrhundert</origDate></p>
-                     <note>Eine Entstehung in Reims oder Umgebung erscheint sehr wahrscheinlich.</note>
+                     <note>Eine Entstehung in Reims oder Umgebung erscheint sehr wahrscheinlich. FISCHER geht davon aus, dass turonische Vorbilder benutzt worden sind. So ist der Text "auf der Entwicklungslinie vom turonischen zum späteren Text der Pariser Universität liegt".</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -91,6 +92,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="171 172"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="326"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="280 281"/></bibl>
                   </listBibl>
                </additional>

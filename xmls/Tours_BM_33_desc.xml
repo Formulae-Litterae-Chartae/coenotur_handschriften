@@ -65,7 +65,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Mercier" cert="medium"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate cert="medium" notBefore="1275" notAfter="1299">Ende 13. Jhd.</origDate></p>
+                     <p><origDate source="Collon" cert="medium" notBefore="1275" notAfter="1299">Ende 13. Jhd.</origDate></p>
                      <note>Bis auf die Einordnung bei DORANGE und COLLON kann wenig über die Entstehung dieser Handschrift ausgesagt werden.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>

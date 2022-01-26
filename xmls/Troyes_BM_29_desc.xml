@@ -20,6 +20,9 @@
                         <altIdentifier source="Rand">
                             <idno>93</idno>
                         </altIdentifier>
+                        <altIdentifier source="Bischoff">
+                            <idno>6240</idno>
+                        </altIdentifier>
                         <msName/>
                     </msIdentifier>
                     <msContents>
@@ -70,9 +73,11 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Rand" cert="medium" notBefore="0800" notAfter="0899">9. Jhd.</origDate></p>
-                            <note/>
+                            <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Fischer" cert="low">nicht Tours</origPlace></p>
+                            <p><origDate source="Rand" cert="high" notBefore="0800" notAfter="0899">9. Jhd.</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">(1./) 2. Vietel 9. Jhd.</origDate></p>
+                            <note>FISCHER spricht sich wegen der äußeren Anlage, die im Format nicht den turonsichen Bibeln entspricht gegen eine Entsthung in Tours aus. Er muss aber eingestehen, dass die Schreiber "gut turonisch geschult" waren. Dementspricht spricht nichts gegen eine Entstehung in Tours, da GANZ zu Recht darauf hingewiesen hat, dass das äußere Format kein Ausschlusskriterium sein kann, da die turonsichen Bibeln in ihrer Einheitlichkeit oftmals überschätzt werden.</note>
                         </origin>
                         <provenance type="Provenance"><placeName>Montiéramey</placeName></provenance>
                         <provenance></provenance>
@@ -88,7 +93,9 @@
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno/>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2419</bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="146"/></bibl>
+                            <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                             <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="60"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="382"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

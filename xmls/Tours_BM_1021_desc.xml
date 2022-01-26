@@ -3,34 +3,32 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Zürich, ZB, Z XIV 14</title>
+            <title>Tours, BM, 1021</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Dieses Fragment wird bei BISCHOFF aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
+         <notesStmt><note></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>Switzerland</country>
-                  <settlement>Zürich</settlement>
-                  <repository>ZB</repository>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
                   <collection/>
-                  <idno>Z XIV 14</idno>
+                  <idno>1021</idno>
                   <msName/>
-                  <altIdentifier source="Bischoff">
-                     <idno>7644</idno>
-                  </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem class="Historiographie">
-                     <author>Dictys</author>
-                     <title></title>
+                  <msItem class="Hagiographie Martinellus">
+                     <author/>
+                     <title>Martinellus</title>
                      <textLang mainLang="la"/>
+                     <note>spät und scheinbar nicht vollständig</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="frag">
+                  <objectDesc form="codex">
                      <supportDesc material="perg">
                         <extent n="">
                            <dimensions type="leaf" unit="cm">
@@ -45,9 +43,9 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout />
-                        <layout></layout>
+                        <layout columns="2"/>
+                        <layout/>
+                        <layout><p></p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -61,20 +59,21 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
+                     <p n="Exlibris"><locus n="2v"/><seg type="lat">Hic liber est ex legato magistri Johannis Tenegot, quondam canonici ecclesie beatissimi Martini Turonensis, qui cathenatus in choro maneat hujus Turonensis ecclesie, quo legentes amplius excitentur ad devotionem predicti dancti. Et traditus est per manus eximii sacre theologie professoris magistri Jordani Morini, executoris predicti deffuncti Anno Domini MCCCvicesimo nono, die secunda januarii</seg>, 1429.</p>
+                     <p source="Dorange">zahlreiche Anmerkungen aus dem 15. Jhd.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote source="Dorange">Alter Holzeinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Fischer" cert="medium"> nicht Tours</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0820">Anfang 9. Jhd.</origDate></p>
-                     <note>FISCHER spricht sich gegen eine Entstehung in Tours aus, "weil Format, die Reihenfolge der biblischen Bücher und auch gewissen Anzeichen un der Schrift dagegen sprechen". Da die einehtilichkeit der turonsichen Bibeln laut GANZ nicht überschätzt werden darf, sprechen diese Indizien nicht zwingend gegen eine Entstehung in Tours. BISCHOFF geht auch davon aus, dass diese Bibel in Tours entstanden ist.</note>
+                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange" cert="medium" notBefore="1200" notAfter="1299">13. Jhd.</origDate></p>
+                     <note>Diese Hadnschrift ist spät, vermutlich im 13. Jhd. entstanden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance>Das Exlibris lässt erkennen, dass die Handschrift mit Sicherheit 1429 in Tours gewesen ist.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -86,8 +85,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="543"/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="449 450"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

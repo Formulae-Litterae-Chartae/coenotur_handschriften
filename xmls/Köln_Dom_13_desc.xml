@@ -105,12 +105,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="CEEC" cert="medium">Westfrankenreich</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium">„im Umfeld turonischen
-                           Einflusses“</origPlace></p>
-                     <p><origDate source="CEEC Bischoff" cert="high" notBefore="0800"
-                           notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
-                     <note>Die Datierung in die erste Hälfte des 9. Jhd. scheint gesichert. Eine
+                     <p><origPlace source="CEEC Fischer" cert="medium">Westfrankenreich</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">„im Umfeld turonischen Einflusses“</origPlace></p>
+                     <p><origDate source="Fischer" cert="high" notBefore="0820" notAfter="0850">nach 820</origDate></p>
+                     <p><origDate source="CEEC Bischoff" cert="high" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                     <note>Die Datierung in die erste Hälfte des 9. Jhd. (vermutlich nach 820) scheint gesichert. Eine
                         sichere Zuschreibung an Tours ist nicht möglich, jedoch spricht viel für
                         eine Entstehung im turonischen Einflussbereich.</note>
                   </origin>
@@ -131,6 +130,7 @@
                            <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/katl/%22kn28-0013%22</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="115"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>von Euw 1989</idno><biblScope unit="pp" from="42" to="44"/></bibl>
                      <bibl><idno>Anderson/Black 1997</idno><biblScope unit="pp" n=""/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="386"/></bibl>

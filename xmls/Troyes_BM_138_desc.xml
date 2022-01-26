@@ -65,7 +65,7 @@
                                 <p><locus n="104r"/> Verschönerte Initiale. </p>
                             </decoNote>
                             <decoNote type="canon">
-                                <p><locus n="3r 9v"/>Ohne dekoration</p>
+                                <p><locus n="3r 9v"/>Ohne Dekoration</p>
                             </decoNote>
                             <decoNote type="border">
                                 <p><locus n="45v"/>Kleiner pflanzlicher Fries, der den Titel einrahmt. </p>
@@ -86,10 +86,11 @@
                     </physDesc>
                     <history>
                         <origin>
+                            <p><origPlace source="Fischer" cert="medium"> nicht Tours "jedoch unverkennbar turonische Schulung"</origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName> / turonischer Schreiber</origPlace></p>
                             <p><origPlace source="Gameson" cert="medium">Westfrankenreich</origPlace></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0899">3. Viertel 9. Jhd.</origDate></p>
-                            <note/>
+                            <p><origDate source="Fischer Bischoff" cert="high" notBefore="0875" notAfter="0899">3. Viertel 9. Jhd.</origDate></p>
+                            <note>FISCHER nimmt sie in seine Liste von nicht turonischen Handschriften auf, da die "Kapitelsreihen [...] sonst in turonischen Handschriften nicht vor[kommen]". Darüberhinaus sieht er Verwandtschaft mit Trier, Evangelisches seminar 40 und PAris, Bibliotheèque Mazarine 1, die nicht aus Tours stammen.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Saint-Étienne</orgName>, <placeName>Troyes</placeName></provenance>
                         <provenance></provenance>
@@ -103,8 +104,9 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2447&amp;srchDb=1,2,5,6,3,7,8,10</bibl>
-                            <bibl><idno>Gemeson 2002</idno><biblScope unit="pp" n="65 66"/></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2447&amp;srchDb=1,2,5,6,3,7,8,10</idno></bibl>
+                            <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
+                            <bibl><idno>Gameson 2002</idno><biblScope unit="pp" n="65 66"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="383"/></bibl>
                         </listBibl>
                     </additional>
