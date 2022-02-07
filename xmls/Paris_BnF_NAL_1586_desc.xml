@@ -86,20 +86,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"
-                           ><orgName>Marmoutier</orgName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Winandy" cert="medium"
-                           ><orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Delisle Chatelain Bischoff" cert="medium" notBefore="0800"
-                           notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0730" notAfter="0770">Mitte
-                           8. Jhd.</origDate></p>
-                     <p><origDate source="Nouveau Traité" cert="low" notBefore="0600"
-                           notAfter="0700">7. Jhd.</origDate></p>
-                     <note>Eine Entstehung zu Beginn des 9. Jahrhunderts erscheint wahrscheinlich.
-                        Damit könnte es sich beim Schreiber Gislardus um einen der beiden im
+                     <p><origPlace source="Rand" cert="medium"><orgName>Marmoutier</orgName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Winandy" cert="medium"><orgName>St-Martin</orgName></origPlace></p>
+                     <p><origDate source="Nouveau Traité" cert="low" notBefore="0600" notAfter="0700">7. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0730" notAfter="0770">Mitte 8. Jhd.</origDate></p>
+                     <p><origDate source="Fischer" cert="medium" notBefore="0770" notAfter="0790">Um 780</origDate></p>
+                     <p><origDate source="Delisle Chatelain Bischoff" cert="medium" notBefore="0800" notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
+                     <note>Die Entstehung dieser Hadnschrift ist nicht gesichert. RAND und FISCHER glauben an eine Entstehung vor Alkuin, mit Ergänzungen aus dem 9. Jhd. Dagegen spricht sich BISCHOFF für eine Entsthung zu Beginn des 9. Jhd., also nach der Ankunft Alkuins, aus. 
+                        Bei dem Schreiber Gislardus könnte es sich um einen der beiden im
                         Verbrüderungsbuch genannten handeln.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName>, <persName
@@ -124,6 +119,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69910r</idno></bibl>
                      <bibl><idno>Delisle 1888</idno><biblScope unit="pp" n="5 7"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="85 86"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="61"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="239"/></bibl>
                   </listBibl>
                </additional>

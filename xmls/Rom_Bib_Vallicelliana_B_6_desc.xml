@@ -33,6 +33,7 @@
                      <author/>
                      <title>Bibel</title>
                      <textLang mainLang="la"/>
+                     <note>Ergänzt um Gedichte Alkuins</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -77,9 +78,10 @@
                      <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Rand" cert="low">Possibly done at <placeName>Fleury</placeName>?</origPlace></p>
                      <p><origPlace source="Köhler" cert="medium">weder Tours noch Fleury, sondern <placeName>Reims</placeName></origPlace></p>
+                     <p><origPlace source="Fischer" cert="medium"><placeName>Reims</placeName>?</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">(Nördliches) Frankreich (zum Teil Reims?)</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0860">2. Viertel/Mitte 9. Jhd.</origDate></p>
-                     <note>Die Entstehung der Handschrift ist nicht gesichert. Sie scheint aus dem Umfeld von Reims zu stammen.</note>
+                     <p><origDate source="Fischer Bischoff" cert="medium" notBefore="0825" notAfter="0860">2. Viertel/Mitte 9. Jhd.</origDate></p>
+                     <note>Die Entstehung der Handschrift ist nicht gesichert. Sie scheint aus dem Umfeld von Reims zu stammen. Der Text der Hadnschrift ist da, "wo er wie gewöhnlich turonische und nicht wie an wenigen Stellen anderseitig beeinflußt ist", einer der besten der Alkuin-Bibeln (FISCHER).</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
