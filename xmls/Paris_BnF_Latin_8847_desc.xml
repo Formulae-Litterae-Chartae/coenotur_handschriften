@@ -50,7 +50,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>mehrere Hände</handNote>
+                     <handNote source="BnF">mindestens 6 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">„Noch nicht gestraffte turonische
@@ -76,9 +76,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0795" notAfter="0805"
-                           >gegen 800</origDate></p>
+                     <p><origPlace source="Fischer Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Fischer Bischoff" cert="high" notBefore="0795" notAfter="0805">gegen 800, unter Alkuin</origDate></p>
                      <note>Um 800 und noch unter Alkuin in St-Martin entstanden, und vielleicht
                         sogar vor der Ankunft Alkuins begonnen, handelt es sich um das älteste
                         überlieferte Zeugnis eines Pandektes aus St-Martin.</note>
@@ -105,6 +104,10 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc873714</idno></bibl>
+                     <bibl><idno>Nordenfalk 1932</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Webber Jones 1935</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="61"/></bibl>
+                     <bibl><idno>Ferrari 1999</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="146 147"/></bibl>
                   </listBibl>
                </additional>

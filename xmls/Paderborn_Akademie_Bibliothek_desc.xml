@@ -3,33 +3,33 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Trier, Bistumsarchiv, 95 1/2</title>
+            <title>Paderborn, Akademie-Bibliothek</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Dieses Fragment wird bei FISCHER und GANZ aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
+         <notesStmt><note>Dieses Fragment wird bei FISCHER aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <country>Germany</country>
-                  <settlement>Trier</settlement>
-                  <repository>Bistumsarchiv</repository>
+                  <settlement>Paderborn</settlement>
+                  <repository>Akademie-Bibliothek</repository>
                   <collection/>
-                  <idno>95 1/2</idno>
+                  <idno></idno>
                   <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title>Teile der Psalmen</title>
+                     <title>Exodus-Fraqment einer turonsichen Bibel</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="frag">
                      <supportDesc material="perg">
-                        <extent n="">
+                        <extent n="1">
                            <dimensions type="leaf" unit="cm">
                               <height n=""/>
                               <width n=""/>
@@ -65,9 +65,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Fischer Ganz" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Fischer Ganz" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
-                     <note>Bis auf die Einordnung durch FISCHER und GANZ, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
+                     <p><origPlace source="Fischer" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Fischer" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
+                     <note>Bis auf die Einordnung durch FISCHER, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -83,7 +83,6 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="61"/></bibl>
-                     <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="62"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>
