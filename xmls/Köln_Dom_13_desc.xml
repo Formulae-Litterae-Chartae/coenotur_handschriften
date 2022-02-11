@@ -34,7 +34,7 @@
                   <msName>Hiltfred-Evangeliar</msName>
                </msIdentifier>
                <msContents>
-                  <msItem class="Evangelien">
+                  <msItem class="Evangeliar">
                      <author/>
                      <title>Evangelien</title>
                      <textLang mainLang="la"/>
@@ -70,6 +70,7 @@
                         Schreiber </handNote>
                   </handDesc>
                   <scriptDesc>
+                     <scriptNote source="Rand">"On the whole, th script should be classed as embellished Merovingian"</scriptNote>
                      <scriptNote>karolingische Minuskel; (Halb-)Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
@@ -105,6 +106,7 @@
                </physDesc>
                <history>
                   <origin>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="CEEC Fischer" cert="medium">Westfrankenreich</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">„im Umfeld turonischen Einflusses“</origPlace></p>
                      <p><origDate source="Fischer" cert="high" notBefore="0820" notAfter="0850">nach 820</origDate></p>
@@ -130,6 +132,7 @@
                            <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/katl/%22kn28-0013%22</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="115"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="92 94"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>von Euw 1989</idno><biblScope unit="pp" from="42" to="44"/></bibl>
                      <bibl><idno>Anderson/Black 1997</idno><biblScope unit="pp" n=""/></bibl>

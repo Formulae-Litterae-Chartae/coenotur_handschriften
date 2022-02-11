@@ -31,7 +31,7 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Evangelien">
+                  <msItem class="Evangeliar">
                      <author/>
                      <title>Evangeliar</title>
                      <textLang mainLang="la"/>
@@ -111,13 +111,13 @@
                       <p><origDate source="Bischoff" cert="medium" notBefore="0814" notAfter="0850">nach 814?</origDate></p>
                      <p><origDate source="Fischer" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd. ("nicht so früh, wie man bisher annahm").</origDate></p>
                      <note>Weder der Ort noch der Zeitpunkt der Entstehung der Handschrift kann
-                        genauer festgelegt werden. Mostert, als der größte Kenner Fleurys, lehnt
-                        eine Entstehung dort ab, selbst wenn Köhler und Berger aufgrund der Nähe zu
+                        genauer festgelegt werden. MOSTERT, als der größte Kenner Fleurys, lehnt
+                        eine Entstehung dort ab, selbst wenn KÖHLER und BERGER aufgrund der Nähe zu
                         Bern 348 eine Entstehung in Fleury für wahrscheinlich halten. Gegen
                         St-Martin unter Alkuin aufgrund der Goldlettern zu argumentieren, die Alkuin
-                        abgelehnt habe, wie Berger es tut, erscheint für ein solches Prachtexemplar
+                        abgelehnt habe, wie BERGER es tut, erscheint für ein solches Prachtexemplar
                         unbefriedigend. Letztendlich kann wohl nur die vorsichtige Festlegung
-                        Bischoffs festgehalten werden, die von „Frankreich“ ausgeht. Was die
+                        BISCHOFFs festgehalten werden, die von „Frankreich“ ausgeht. Was die
                         Datierung anbelangt, erscheint jede Angabe, die über „zwischen 800 und 850“ hinausgeht,
                         äußerst fragwürdig.</note>
                   </origin>
@@ -137,16 +137,16 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="8 9"/></bibl>
                      <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="22"/></bibl>
                      <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="272 273"/></bibl>
                      <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="420"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="16 17"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="102 103"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="324"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
+                     <bibl><idno>Mostert 1984</idno><biblScope unit="pp" n="250"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
-                     <bibl><idno>Dorange</idno><biblScope unit="pp" n="8 9"/></bibl>
-                     <bibl><idno>Collon</idno><biblScope unit="pp" n="16 17"/></bibl>
-                     <bibl><idno>Mostert</idno><biblScope unit="pp" n="250"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

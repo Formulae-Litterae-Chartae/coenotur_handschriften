@@ -54,8 +54,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>vier Schreiber nennen sich selbst: Hadoldus, Wicbertus, Grimbaldus,
-                        Cosmas</handNote>
+                     <handNote>vier Schreiber nennen sich selbst: Hadoldus, Wicbertus, Grimbaldus, Cosmas</handNote>
                      <handNote><locus n="118r"/><seg type="lat">Hoc scedulum licet sit vili scriptu
                            formatus. Saltim devoti conpingunt hunc divisione quaterna. Cuius inicium
                            proponit devotus Hadololdus scribendi. Sequens propositum mox eius
@@ -80,13 +79,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium">wohl
-                           <placeName>Köln</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >1./2. Viertel 9. Jhd.</origDate></p>
-                     <note>Wenn der Schreiber Cosmas mit dem Schreiber desselben Namens von Köln,
-                        Dombibliothek, Codex 52 identisch ist, ist eine Entstehung in Köln sehr
-                        wahrscheinlich.</note>
+                     <p><origPlace source="Bischoff" cert="medium">wohl <placeName>Köln</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
+                     <note>Wenn der Schreiber Cosmas mit dem Schreiber desselben Namens von Köln, Dombibliothek, Codex 52 identisch ist, ist eine Entstehung in Köln sehr wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"/>
                   <provenance/>

@@ -16,6 +16,9 @@
                   <repository>Stadtbibliothek</repository>
                   <collection/>
                   <idno>Hs. 1086/2180 2° </idno>
+                  <altIdentifier source="Rand">
+                     <idno>92A</idno>
+                  </altIdentifier>
                   <altIdentifier source="Bischoff">
                      <idno>6186</idno>
                   </altIdentifier>
@@ -37,26 +40,26 @@
                               <width n="28.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n=""/>
-                              <width n=""/>
+                              <height n="30.0"/>
+                              <width n="11.0">11,5 cm pro Spalte</width>
                            </dimensions>
                         </extent>
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
-                        <layout><p>einfache Initialen, rote Auszeichnungsschrift</p></layout>
+                        <layout writtenLines="46"/>
+                        <layout><p>Einfache Initialen, rote Auszeichnungsschrift</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Rand">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>karolingische Minuskel</scriptNote>
+                     <scriptNote source="Rand">"Regular"</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>mehrfarbige Initialen </decoNote>
+                     <decoNote>Mehrfarbige Initialen</decoNote>
                   </decoDesc>
                   <additions>
                      <p source="Kentenich"><locus n="174v"/>Eintrag des Kanonikus von St. Simeon in
@@ -72,21 +75,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="high"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff Kentenich" cert="high" notBefore="0800"
-                           notAfter="0900">9. Jhd.</origDate></p>
+                     <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="high" notBefore="0800" notAfter="0836">unter Fridigusius oder kurz davor</origDate></p>
+                     <p><origDate source="Bischoff Kentenich" cert="high" notBefore="0800" notAfter="0850">(1./)2. Viertel 9. Jhd</origDate></p>
                      <note/>
                   </origin>
-                  <provenance type="Provenance"><orgName>St. Matthias</orgName>,
-                        <placeName>Trier</placeName></provenance>
-                  <provenance source="Kentenich">Laut dem Nachtrag auf dem letzten Blatt befand sich
-                     die Handschrift im Kloster <orgName>St. Matthias</orgName> in
-                        <placeName>Trier</placeName>, als sie von einem Kanonikus von <orgName>St.
-                        Simeon</orgName> in <placeName>Trier</placeName> ausgeliehen wurde. Die
-                     Handschrift sollte nach St. Matthias zurückkehren, wurde aber von
-                        <persName>Martène</persName> und <persName>Durand</persName> in St. Simeon
-                     gefunden.</provenance>
+                  <provenance type="Provenance"><orgName>St. Matthias</orgName>, <placeName>Trier</placeName></provenance>
+                  <provenance source="Kentenich">Laut dem Nachtrag auf dem letzten Blatt befand sich die Handschrift im Kloster <orgName>St. Matthias</orgName> in <placeName>Trier</placeName>, als sie von einem Kanonikus von <orgName>St. Simeon</orgName> in <placeName>Trier</placeName> ausgeliehen wurde. Die Handschrift sollte nach St. Matthias zurückkehren, wurde aber von <persName>Martène</persName> und <persName>Durand</persName> in St. Simeon gefunden.</provenance>
                   <acquisition><name type="Repository">Stadtbibliothek Trier</name></acquisition>
                </history>
                <additional>
@@ -99,6 +94,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Kentenich 1931</idno><biblScope unit="pp" n="14 15"/></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="106 107"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="377"/></bibl>
                   </listBibl>
                </additional>

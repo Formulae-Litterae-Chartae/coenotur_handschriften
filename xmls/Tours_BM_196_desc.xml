@@ -59,8 +59,8 @@
                               <width n="17.6"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="18.5 20.0">18,5 - 20,0</height>
-                              <width n="11.0 12.8">11,0 - 12,8</width>
+                              <height n="18.5 20.0">18,5 cm - 20,0 cm</height>
+                              <width n="11.0 12.8">11,0 cm - 12,8 cm</width>
                            </dimensions>
                         </extent>
                         <condition>Sehr gut erhalten.</condition>
@@ -85,7 +85,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>Zahlreiche <seg type="lat">benedictiones episcopales</seg> sind durchgestrichen. DORANGE vermutet, dass diese Teile von einem Kopisten nciht kopiert werden sollten.</p>
+                     <p>Zahlreiche <seg type="lat">benedictiones episcopales</seg> sind durchgestrichen. DORANGE vermutet, dass diese Teile von einem Kopisten nicht kopiert werden sollten.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Pergamenteinband auf Pappe</decoNote>

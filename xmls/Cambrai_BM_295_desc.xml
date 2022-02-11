@@ -1,6 +1,6 @@
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="deu">
+    <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
                 <title>Cambrai, BM, 295 (277)</title>
@@ -35,10 +35,10 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent n="172">
+                                <extent n="173">
                                     <dimensions type="leaf" unit="cm">
-                                        <height n="50.5"/>
-                                        <width n="32.0"/>
+                                        <height n="49.0"/>
+                                        <width n="32.5"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
                                         <height n="39.5"/>
@@ -54,10 +54,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Bischoff">mehr als eine Hand</handNote>
+                            <handNote source="Bischoff">Mehr als eine Hand</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Bischoff">Ähnliche vollendete Schrift wie in Cambrai, BM, 164 (159)</scriptNote>
+                            <scriptNote>Karolingische Minuskel</scriptNote>
+                            <scriptNote source="Bischoff">Ähnlich vollendete Schrift wie in Cambrai, BM, 164 (159)</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
@@ -68,14 +69,14 @@
                             <p></p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote>Holzeinband</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <p><origPlace source="Köhler Bischoff" cert="high"><placeName>Cambrai</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0817">spätestens 817</origDate></p>
-                            <note>Dieentstehung der Handschrift ist durch die Schenkung an Hildoard (790-817), den Bischoff von Cambrai, datiert. Die Entstehung in Cambrai scheint gesichert.</note>
+                            <note>Die Entstehung der Handschrift ist durch die Schenkung an Hildoard (790-817), den Bischoff von Cambrai, datiert. Die Entstehung in Cambrai scheint gesichert.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Kathedrale von Cambrai</orgName></provenance>
                         <provenance>Die Handschrift wurde von Bischof Hildoard an seine Kathedrale geschenkt.</provenance>
@@ -89,7 +90,7 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D23011035</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="48"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="114 115"/></bibl>
                             <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>

@@ -76,11 +76,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="ale" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Alle" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="CCFR" cert="low" notBefore="0700" notAfter="0799">8. Jhd.</origDate></p>
                      <p><origDate source="CLA" cert="medium" notBefore="0744" notAfter="0745">744/745</origDate></p>
                      <p><origDate source="Wallenwein" cert="medium" notBefore="0675" notAfter="0675">675</origDate></p>
-                     <note>Am Ort der Entstehung bestand nie Zweifel. Die CLA (und deren Angaben wurde lange gefolgt) setzte die im Auftragsvermerk (<seg type="lat">[A]ricus hunc librum scribere abba rogavit anno III regni Childerici regis</seg>) erwähnte Datierung zum driteen Regierungsjahr Childerichs III. auf. WALLENWEIN hat seitdem heruasgefunden, dass es sich um Childerich II. handelt und die Datierung somit in das Jah 675 fällt. Damit kann auhc der erähnte Abt <seg type="lat">Aricus</seg> zufriedenstellend mit Agyricus, Abt von Tours aufgelöst werden. Dagegen listet LICHT die Handschrift als Beispiel karolingischer Schriftkunst auf.</note>
+                     <note>Am Ort der Entstehung bestand nie Zweifel. Die CLA (und deren Angaben wurde lange gefolgt) löste die im Auftragsvermerk (<seg type="lat">[A]ricus hunc librum scribere abba rogavit anno III regni Childerici regis</seg>) erwähnte Datierung zum dritten Regierungsjahr Childerichs III. auf. WALLENWEIN hat seitdem herausgefunden, dass es sich um Childerich II. handelt und die Datierung somit in das Jah 675 fällt. Damit kann auch der erwähnte Abt <seg type="lat">Aricus</seg> zufriedenstellend mit Agyricus, Abt von Tours aufgelöst werden. Dagegen listet LICHT die Handschrift als Beispiel karolingischer Schriftkunst auf.</note>
                   </origin>
                   <provenance type="Provenance"><placeName>Murbach</placeName></provenance>
                   <provenance>Die Handschrift gelangt irgendwann (vielleicht unter Alkuin (BISCHOFF?)) nach Murbach und ging nach 1696 (da wurde sie dort von Th. Ruinart gesehen), an das Kloster Moyenmoutier.</provenance>

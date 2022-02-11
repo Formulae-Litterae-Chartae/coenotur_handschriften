@@ -8,7 +8,8 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Es handelt sich um mehrere später zusammengebundene Handschriften.</note></notesStmt>
+         <notesStmt><note>Es handelt sich um mehrere später zusammengebundene Handschriften.</note>
+         <note n="ink"></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -44,7 +45,7 @@
                         <locus from="150v" to="161v"/>
                         <author>Ambrosius</author>
                         <title>Liber de incarntionis sacramento</title>
-                        <note>In der HAndschrift bezeichnet als <seg type="lat">Liber VIII</seg>.</note>
+                        <note>In der Handschrift bezeichnet als <seg type="lat">Liber VIII</seg>.</note>
                      </msItem>
                   </msItem>
                </msContents>
@@ -57,8 +58,10 @@
                               <width n="25.5"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="24.5 23.0">I: 24,5; II: 23,0</height>
-                              <width n="8.5 8.0">I: 8,5; II: 8,0</width>
+                              <height n="24.5">I: 24,5 cm</height>
+                              <width n="8.5 8.0">I: 8,5 cm</width>
+                              <height n="23.0">II: 23,0 cm</height>
+                              <width n="8.0">II: 8,0 cm</width>
                            </dimensions>
                         </extent>
                         <condition>Einzelne Blätter stark beschädigt.</condition>
@@ -70,10 +73,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">4 Hände Teil I; 2 Hände Teil II</handNote>
+                     <handNote source="Rand">I: 4 Hände; II: 2 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">Decadent Perfected</scriptNote>
+                     <scriptNote source="Rand">"Decadent Perfected"</scriptNote>
                      <scriptNote source="Winandy">Jüngere Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
@@ -90,7 +93,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium">Teil I: Tours (?); Teil II: ohne Ortsangabe</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">I: Tours (?); II: ohne Ortsangabe</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0900" notAfter="1099" >10./11. Jhd.</origDate></p>
                      <note>Laut RAND enthält Teil I die <seg type="lat">misericordia</seg> Kürzung als nom. sac. die typisch für Tours ist (WALLENWEIN).</note>
                   </origin>

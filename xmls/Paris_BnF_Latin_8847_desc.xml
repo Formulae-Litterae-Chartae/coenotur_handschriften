@@ -16,6 +16,9 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 8847</idno>
+                  <altIdentifier source="Rand">
+                     <idno>52A</idno>
+                  </altIdentifier>
                   <altIdentifier source="Bischoff">
                      <idno>4566</idno>
                   </altIdentifier>
@@ -37,8 +40,8 @@
                               <width n="33.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
-                              <height n="36 37">36-37</height>
-                              <width n="24 26">24-26</width>
+                              <height n="36.0 37.0">36,0-37,0 cm</height>
+                              <width n="24.0 26.0">24,0-26,0 cm</width>
                            </dimensions>
                         </extent>
                         <condition/>
@@ -53,8 +56,7 @@
                      <handNote source="BnF">mindestens 6 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">„Noch nicht gestraffte turonische
-                        Min.“</scriptNote>
+                     <scriptNote source="Bischoff">„Noch nicht gestraffte turonische Min.“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -76,7 +78,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Fischer Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand Fischer Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Fischer Bischoff" cert="high" notBefore="0795" notAfter="0805">gegen 800, unter Alkuin</origDate></p>
                      <note>Um 800 und noch unter Alkuin in St-Martin entstanden, und vielleicht
                         sogar vor der Ankunft Alkuins begonnen, handelt es sich um das älteste
@@ -105,6 +107,7 @@
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc873714</idno></bibl>
                      <bibl><idno>Nordenfalk 1932</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="96"/></bibl>
                      <bibl><idno>Webber Jones 1935</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="61"/></bibl>
                      <bibl><idno>Ferrari 1999</idno><biblScope n="passim"/></bibl>

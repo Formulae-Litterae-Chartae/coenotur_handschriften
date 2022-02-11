@@ -102,19 +102,19 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p></p>
+                     <handNote source="Rand">Eine Haupthand, bis auf die letzten 3 Folio (fol. 81r-83v</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Hermann">Kapitale, Unziale und Minuskel</p>
-                     <p source="Hermann">sehr große Übereinstimmung zur Alkuinbibel aus Bamberg.</p>
+                     <scriptNote source="Hermann">Kapitale, Unziale und Minuskel</scriptNote>
+                     <scriptNote source="Hermann">sehr große Übereinstimmung zur Alkuinbibel aus Bamberg.</scriptNote>
+                     <scriptNote source="Rand">"Perfected"</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n=""/>
-                        <p></p>
                      </decoNote>
                   </decoDesc>
                   <additions>
+                     <p source="Rand">Korrekturen durch die Schreiber selbst und zusätzliche gründliche Korretur einer weiteren Hand.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote source="Hermann">Weißer Lederband über Pappdeckel mit Blindpressung und Handvergoldung (Wien 1720)</decoNote>
@@ -123,7 +123,8 @@
                <history>
                   <origin>
                      <p><origPlace cert="high" source="Hermann"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Hermann" cert="high" notBefore="0800" notAfter="0850">wahrscheinlich unter <persName type="abt">Adalbald</persName>, um 840.</origDate></p>
+                     <p><origDate source="Hermann" cert="medium" notBefore="0800" notAfter="0850">wahrscheinlich unter <persName type="abt">Adalbald</persName>, um 840.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0804" notAfter="0837">Unter <persName type="abt">Fridugisus</persName></origDate></p>
                      <note>Es kann als gesichert angesehen werden, dass die Handschrift in <orgName>St-Martin</orgName> unter Abt <persName type="abt">Adalhard</persName> angefertigt worden ist.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
@@ -146,6 +147,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="105"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="391"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="114 115"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="479"/></bibl>
                   </listBibl>
                </additional>

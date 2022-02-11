@@ -123,7 +123,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Hellmann Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Winandy" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Winandy"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0790" notAfter="0796">Voralkuinisch</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                      <note>Alles spricht für eine Entstehung in St-Martin in Tours. Wenn die Einordnung von RAND stimmt, handelt es sich um den ersten überlieferten, karolingischen Martinellus. Sicher ist er einer der ersten. Da das Ende fehlt, kann leider nicht entschieden werden, ob er weitere Schriften enthalten hat oder mit den Schriften von Sulpicius Severus endete.</note>

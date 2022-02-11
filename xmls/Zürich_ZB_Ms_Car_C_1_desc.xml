@@ -38,7 +38,7 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent n="414">Abweichende Angaben 414-422
+                                <extent n="421">
                                     <dimensions type="leaf" unit="cm">
                                         <height n="49.0"/>
                                         <width n="36.2"/>
@@ -53,11 +53,12 @@
                             <layoutDesc>
                                 <layout columns="2"/>
                                 <layout writtenLines="49 50">50 (49)</layout>
-                                <layout><p>Rote Titel und einfach Initialen</p></layout>
+                                <layout><p>Rote Titel und einfach Initialen</p>
+                                <p source="Rand">Kapitalis quadrata, Kapitalis rustica, Unziale, Halbunziale</p></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Rand">mindestens ein halbes Dutzend.</handNote>
+                            <handNote source="Rand">Mindestens ein Dutzend.</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote source="Rand">Reguläre turonische Minuskel</scriptNote>
@@ -78,10 +79,11 @@
                     <history>
                         <origin>
                             <p><origPlace source="Rand Bischoff" cert="high"><orgName>St-Martin</orgName><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Rand" cert="medium" notBefore="0804" notAfter="0814">Nach dem Tode Alkuins, vor dem Tode Karls des Großen</origDate></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
                             <note>Auch wenn RAND und BISCHOFF es nicht explizit angeben, spricht alles an dieser Bibel für eine Entstehung in St-Martin.</note>
                         </origin>
-                        <provenance type="Provenance"><placeName/></provenance>
+                        <provenance type="Provenance"><orgName>Grossmünster</orgName><placeName>Zürich</placeName></provenance>
                         <provenance></provenance>
                         <acquisition><name type="Repository">ZB</name></acquisition>
                     </history>
@@ -96,6 +98,7 @@
                             <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="126 127"/></bibl>
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="374 375"/></bibl>
+                            <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="96 100"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="518"/></bibl>
                         </listBibl>
                     </additional>

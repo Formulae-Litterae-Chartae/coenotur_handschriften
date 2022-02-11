@@ -57,7 +57,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">drei Hände, teilweise Nutzung von Halbunziale und
+                     <handNote source="Rand">Drei Hände, teilweise Nutzung von Halbunziale und
                         früher Minuskel; einzelne Spalten einer späteren Hand. Rainardus (fol. 63r
                         oben), und „ego Gislardus“ fol. 123r. Hierbei scheint es sich nicht um einen
                         der beiden Gislardus aus dem Sankt Galler Verbrüderungsbuch (Nummern 64 und
@@ -88,12 +88,12 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><orgName>Marmoutier</orgName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Winandy" cert="medium"><orgName>St-Martin</orgName></origPlace></p>
+                     <p><origPlace source="Winandy"><orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Nouveau Traité" cert="low" notBefore="0600" notAfter="0700">7. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0730" notAfter="0770">Mitte 8. Jhd.</origDate></p>
                      <p><origDate source="Fischer" cert="medium" notBefore="0770" notAfter="0790">Um 780</origDate></p>
                      <p><origDate source="Delisle Chatelain Bischoff" cert="medium" notBefore="0800" notAfter="0850">ca. 1./2. Viertel 9. Jhd.</origDate></p>
-                     <note>Die Entstehung dieser Hadnschrift ist nicht gesichert. RAND und FISCHER glauben an eine Entstehung vor Alkuin, mit Ergänzungen aus dem 9. Jhd. Dagegen spricht sich BISCHOFF für eine Entsthung zu Beginn des 9. Jhd., also nach der Ankunft Alkuins, aus. 
+                     <note>Die Entstehung dieser Handschrift ist nicht gesichert. RAND und FISCHER glauben an eine Entstehung vor Alkuin, mit Ergänzungen aus dem 9. Jhd. Dagegen spricht sich BISCHOFF für eine Entstehung zu Beginn des 9. Jhd., also nach der Ankunft Alkuins, aus. 
                         Bei dem Schreiber Gislardus könnte es sich um einen der beiden im
                         Verbrüderungsbuch genannten handeln.</note>
                   </origin>

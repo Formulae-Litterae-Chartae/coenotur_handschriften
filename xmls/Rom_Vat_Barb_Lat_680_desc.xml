@@ -16,6 +16,9 @@
                         <repository>Vatlib</repository>
                         <collection></collection>
                         <idno>Barb. Lat. 680</idno>
+                        <altIdentifier source="Rand">
+                            <idno>88A</idno>
+                        </altIdentifier>
                         <altIdentifier source="Bischoff">
                             <idno>6427</idno>
                         </altIdentifier>
@@ -45,17 +48,17 @@
                             <layoutDesc>
                                 <layout columns="2"></layout>
                                 <layout writtenLines="29 30">30 (29)</layout>
-                                <layout source="Rand">Überschriften in Rot</layout>
+                                <layout source="Rand">Überschriften in Rot; Kapitalis quadrata, Unziale und Halbunziale.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p source="Rand">verschiedenen Hände</p>
+                            <p source="Rand">Zwei Hände</p>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand">Turonische Minuskel</p>
+                            <p source="Rand">Perfekte turonische Minuskel</p>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>keine Miniaturen, außer eine Federzeichnung als Federproben f. 37v eines Königs</decoNote>
+                            <decoNote/>
                         </decoDesc>
                         <additions>
                             <p n="Korrekturen">wenige Korrekturen</p>
@@ -67,8 +70,10 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Rand" cert="medium" notBefore="0804" notAfter="0834">unter Fridugisius</origDate></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0866" notAfter="0900">3. Drittel 9. Jhd.</origDate></p>
+                            <note>Es gibt keinen Anlass dazu, die Entstehung in Tours anzuzweifeln. Die Datierung von RAND ist mit Vorsicht zu sehen, da er die Handschrift persönlich nicht gesehen hat.</note>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster"></name></provenance>
                         <acquisition><name type="Repository"></name></acquisition>
@@ -82,6 +87,7 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Barb.lat.680</idno></bibl>
+                            <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="105 106"></biblScope></bibl>
                             <bibl><idno>Stürner 1969</idno><biblScope unit="pp" n="103 104"></biblScope></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="404"></biblScope></bibl>
                         </listBibl>

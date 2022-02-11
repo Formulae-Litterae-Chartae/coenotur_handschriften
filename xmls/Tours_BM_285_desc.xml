@@ -51,12 +51,12 @@
                         <locus from="83r" to="107v"/>
                         <author>Augustinus</author>
                         <title>Ad Paulinum</title>
-                        <note>Die ersten 2 Folio wurden später hinzugefügt, vermultich waren sie verloren gegangen.</note>
+                        <note>Die ersten 2 Folio wurden später hinzugefügt, vermutlich waren sie verloren gegangen.</note>
                      </msItem>
                      <msItem n="1.5">
                         <locus from="107v" to="134r"/>
                         <author>Augustinus</author>
-                        <title>De ocro Questionibus ad Dulcitium</title>
+                        <title>De octo Questionibus ad Dulcitium</title>
                         <note>Die Blätter 133-134 scheinen später ergänzt worden zu sein. Das Ende der achten Frage fehlt.</note>
                      </msItem>
                   </msItem>
@@ -77,8 +77,8 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="2 1">I: 2; III: 1</layout>
-                        <layout writtenLines="19 22">I: 19; III: 22</layout>
+                        <layout columns="2 1">I: 2; II: 1</layout>
+                        <layout writtenLines="19 22">I: 19; II: 22</layout>
                         <layout><p>Hauptsächlich schwarze Titel (nicht rot), Gelb ausgemalt</p>
                         <p>Incipit in Rot und Schwarz, Gelb ausgemalt.</p></layout>
                      </layoutDesc>
@@ -106,7 +106,7 @@
                      <p><origPlace source="Bischoff" cert="medium">II: (Umkreis von) <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0860">I: 2. Viertel/Mitte 9. Jhd.</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">II: 1./(2.) Viertel/Mitte 9. Jhd.</origDate></p>
-                     <note>Das Schriftbild des ersten Teils könnte aus Tours stammen. Die zwei Spalten und die gelben Ausmalungen dagegen erscheinen eher untypisch für Tours. Die zahlreichen tironischen noten in den Anmerkungen könnten zumindest daraf hindeuten, dass die Handschrift früh nach Tours gelangte. Teil II erscheint recht turonisch.</note>
+                     <note>Das Schriftbild des ersten Teils könnte aus Tours stammen. Die zwei Spalten und die gelben Ausmalungen dagegen erscheinen eher untypisch für Tours. Die zahlreichen tironischen Noten in den Anmerkungen könnten zumindest darauf hindeuten, dass die Handschrift früh nach Tours gelangte. Teil II erscheint recht turonisch.</note>
                   </origin>
                   <provenance type="Provenance">unbekannt</provenance>
                   <provenance/>
