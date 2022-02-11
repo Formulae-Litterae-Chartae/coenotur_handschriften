@@ -7,7 +7,8 @@
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
-         </publicationStmt>
+         </publicationStmt> 
+         <notesStmt><note>Bei dieser Handschrift scheint es sich um zwei ehemals unabhängige Handschriften zu handeln. Mit Boethius (fol. 49) ändert sich die mise-en-page von 2 zu einer Zeile.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -26,9 +27,45 @@
                </msIdentifier>
                <msContents>
                   <msItem class="Diverses">
-                     <author/>
+                     <author>Augustinus</author>
+                     <author>Gregor der Große</author>
+                     <author>Anselmus</author>
+                     <author>Boethius</author>
                      <title/>
                      <textLang mainLang="la"/>
+                     <msItem n="1.1">
+                        <locus from="1" to="16"/>
+                        <author>Augustinus</author>
+                        <title>Contra Pelagianos et Scelestianos</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="17" to="32"/>
+                        <author>Gregorius I.</author>
+                        <title>Homelia in Ezechiel</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="33" to="48"/>
+                        <author>Anselmus</author>
+                        <title>Cur Deus homo</title>
+                     </msItem>
+                     <msItem n="1.4">
+                        <locus from="49" to="66"/>
+                        <author>Boethius</author>
+                        <title>De Sancta Trinitate</title>
+                     </msItem>
+                     <msItem n="1.5">
+                        <locus from="67" to="70"/>
+                        <title>Kommentar zu Beothius</title>
+                     </msItem>
+                     <msItem n="1.6">
+                        <locus from="71" to="71"/>
+                        <title>Zwei Texte</title>
+                     </msItem>
+                     <msItem n="1.7">
+                        <locus from="72" to="75"/>
+                        <author>Hilderbert von Tours</author>
+                        <title>Gedcith über die Zerstörung Roms</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -47,8 +84,8 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines=""/>
+                        <layout columns="1 2"/>
+                        <layout writtenLines="46"/>
                         <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -65,15 +102,15 @@
                      <p/>
                   </additions>
                   <bindingDesc>
-                     <decoNote/>
+                     <decoNote source="Collon">Alter Holzeinband mit Leder</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="medium" notBefore="1100"
                            notAfter="1200">12. Jhd.</origDate></p>
-                     <note source="Dorange">wohl zeitgenössisch mit Hildebert von Lavardin, der von
+                     <note source="Dorange">Wohl zeitgenössisch mit Hildebert von Lavardin, der von
                         1125 bis zu seinem Tod 1133 Erzbischof von Tours gewesen ist</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>

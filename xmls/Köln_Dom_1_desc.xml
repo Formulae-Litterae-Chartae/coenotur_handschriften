@@ -63,9 +63,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Anderson/Black">eine Hand</handNote>
+                     <handNote source="Rand Anderson/Black">Eine Hand</handNote>
+                     <handNote source="Rand">Eine weitere Hand für die Halbunziale</handNote>
                   </handDesc>
                   <scriptDesc>
+                     <scriptNote source="Rand">"Perfected"</scriptNote>
                      <scriptNote>karolingische Minuskel, (Halb-)Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
@@ -202,7 +204,7 @@
                      <p><origDate source="von_Euw, Bischoff" cert="high" notBefore="0850"
                            notAfter="0890">2. Hälfte 9. Jhd.</origDate></p>
                      <note>Die Entstehung in Tours sowie die Datierung in die 2. Hälfte des 9. Jhd.
-                        können als sicher angesehen weren. Als terminus ante quem scheint 890
+                        können als sicher angesehen weren. Als <seg type="lat">terminus ante quem</seg> scheint 890
                         gesichert, da in diesem Jahr die Amtszeit des Erzbischofes Hermann I.
                         begann. Sowohl Bischoff als auch Anderson/Black schlagen eine Datierung zwischen 857
                         und 862 vor, ohne diese jedoch genauer zu begründen.</note>
@@ -227,6 +229,7 @@
                            <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/katl/%22kn28-0001%22</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="164 165"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="6"/></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="118 120"/></bibl>
                      <bibl><idno>von Euw 1989</idno><biblScope unit="pp" n="46 47"/></bibl>
                      <bibl><idno>Anderson/Black 1997</idno></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="386"/></bibl>

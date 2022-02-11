@@ -92,7 +92,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Fingernagel">Bis auf f. 13 von einer Hand</handNote>
+                     <handNote source="Rand Fingernagel">Bis auf f. 13 von einer Hand</handNote>
                   </handDesc>
                   <scriptDesc>
                      <p source="Fingernagel">Karolingische Minuskel im Stil von Tours.</p>
@@ -117,8 +117,8 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, und eine anderes französisches Zentrum für die künstlerische Ausstattung</origPlace></p>
                      <p><origPlace source="Fingernagel" cert="medium"><placeName>Tours</placeName>, für die Schrift, Ausstattung wohl in Lothringen (<placeName>Metz</placeName>?).</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand Fingernagel" cert="medium" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
                      <note>Eine Entstehung der Handschrift in Tours kann aufgrund der häufigen turonischen <seg type="lat">est</seg> und <seg type="lat">esse</seg>-Kürzungen als gesichert angesehen werden. Ob die Ausstattung auch aus Tours stammt, muss zweifelhaft bleiben.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Vinzent</orgName>, <placeName>Metz</placeName></provenance>
@@ -138,6 +138,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/dokumente/html/obj90698738,T</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="160"/></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="115 117"/></bibl>
                      <bibl><idno>Fingernagel 1989</idno><biblScope unit="pp" from="63" to="66"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="74"/></bibl>
                   </listBibl>

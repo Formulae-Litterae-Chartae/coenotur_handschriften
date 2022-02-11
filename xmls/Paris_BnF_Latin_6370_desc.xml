@@ -16,6 +16,9 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 6370</idno>
+                  <altIdentifier source="Rand">
+                     <idno>70A</idno>
+                  </altIdentifier>
                   <altIdentifier source="Schipke">
                      <idno>4</idno>
                   </altIdentifier>
@@ -53,10 +56,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>mehrere Hände</handNote>
+                     <handNote source="Rand">Vier Haupthände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>turonische Minuskel</scriptNote>
+                     <scriptNote source="Rand">Regular</scriptNote>
+                     <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="border" subtype="add">
@@ -89,11 +93,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
-                           >2. Viertel 9. Jhd.</origDate></p>
-                     <note>Es besteht ein Zusammenhang mit den Handschriften von Lupus von
-                        Ferrières.</note>
+                     <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0815" notAfter="0825">um 820</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
+                     <note>Alles spricht für eine Entstehung in Tours</note>
+                     <note source="Rand">Die Handschrift ist sehr ausführlich durch Lupus von Ferrières korrigiert worden. Hierzu hat er auch die fehlenden fol. 108/109 eingefügt.</note>
                   </origin>
                   <provenance type="Provenance"/>
                   <provenance/>
@@ -108,6 +112,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34030m</idno></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="100 101"/></bibl>
                      <bibl><idno>Schipke 1994</idno><biblScope unit="pp" n="139"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="117"/></bibl>
                   </listBibl>

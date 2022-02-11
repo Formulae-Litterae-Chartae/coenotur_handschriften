@@ -1,0 +1,110 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Cambrai, BM, 164 (159)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt><note></note></notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Cambrai</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>164 (159)</idno>
+                  <altIdentifier source="Rand">
+                     <idno>40A</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Bischoff">
+                     <idno>774</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Liturgie">
+                     <author/>
+                     <title>Sacramentarium Gregorianum</title>
+                     <textLang mainLang="la"/>
+                     <note>und weitere Gebete</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="245">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="29.5"/>
+                              <width n="10.7"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="24.0"/>
+                              <width n="8.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                        <layout writtenLines="25"/>
+                        <layout><p source="Rand">Kapitalis quadrata, Kapitalis rustica, Unziale und Minuskel. Titel in rot und schwarz.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote source="Rand">zahlreiche Hände</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote source="Rand">Klare, runde Minuskel</scriptNote>
+                     <scriptNote source="Bischoff">"Min. gleichm."</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                    <p source="Rand">Ergänzungen einer späteren Hand</p>
+                     <p n="Exlibris"><locus n="202r"/><seg type="lat">Hildoardus praesul anno xxii sui onus episcopatum hunc libellum sacramentorum fieri promulgavit</seg></p>
+                  </additions>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace source="Rand Bischoff" cert="high"><placeName>Cambrai</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0811" notAfter="0812">811/812 (22. Jahr der Herrschaft von Hildoard von Cambrai (790-816))</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0866" notAfter="0899">Erweiterung (fol. 206-240): 3. Drittel 9. Jhd.</origDate></p>
+                     <note>Die Datierung von RAND basiert auf paläographischer Untersuchung. Die Subscription auf fol. 203r datiert den Kodex in das 22. Jahr der Herrschaft von Hildoard von Cambrai (790-816), was den Jahren 811-812 entsprechen würde. RAND vermutet jedoch, dass diese Subskription mitkopiert worden ist.</note>
+                  </origin>
+                  <provenance type="Provenance"><placeName>Kathedrale von Cambrai</placeName></provenance>
+                  <provenance></provenance>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno></idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D23010409</idno></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="91 92"/></bibl>
+                     <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="169 170"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

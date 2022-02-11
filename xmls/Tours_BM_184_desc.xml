@@ -61,6 +61,10 @@
                         <locus from="152" to="322"/>
                         <title>Sakramentar I</title>
                      </msItem>
+                     <msItem n="1.4">
+                        <locus from="323" to="344"/>
+                        <title>Weitere, nicht näher zuzuordnende Texte</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -104,8 +108,10 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Onlinkatalog" cert="medium" notBefore="0900" notAfter="0999"></origDate></p>
-                     <note>Wenig über die Entstehung und die Geschichte dieser Handschrift ist bekannt. Sie setzt sich aus 3 verschiedenen Sakramentaren zusammen, wobei nicht klar ist, wenn diese Zusammensetzung stattgefunden hat.</note>
+                     <p><origPlace source="Bischoff" cert="medium">I: ?; II: <placeName>Tours</placeName>; III: ?</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0899">I: ca. 4. Viertel 9. Jhd.; II: Ende 9. Jhd.; III: 1. Hälfte (Anfang?) 9. Jhd.</origDate></p>
+                     <p><origDate source="Onlinkatalog" cert="low" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>
+                     <note>Wenig über die Entstehung und die Geschichte dieser Handschrift ist bekannt. Sie setzt sich aus 3 verschiedenen Sakramentaren zusammen, wobei nicht klar ist, wenn diese Zusammensetzung stattgefunden hat. Alle drei Teile scheinen jedoch aus Tours zu stammen.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -119,8 +125,9 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A11756</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A11679</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="91 92"/></bibl>
+                     <bibl><idno>Delisle 1886</idno><biblScope unit="pp" n="130 140"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="126 127"/></bibl>
                      <bibl><idno>Leroquais 1924 I</idno><biblScope unit="pp" n="43 53"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="164"/></bibl>

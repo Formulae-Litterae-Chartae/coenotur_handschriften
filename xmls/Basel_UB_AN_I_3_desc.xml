@@ -54,13 +54,15 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="51"/>
-                        <layout><p source="Berger">macnhe Anfänge in Halbunziale, jedoch vielleicht eine Imitation von Tours (?)</p></layout>
+                        <layout><p source="Berger">Manche Anfänge in Halbunziale, jedoch vielleicht eine Imitation von Tours (?)</p>
+                        <p>Kapitalis quadrata, Unziale, eine Zeile Halbunziale und Minuskel.</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">mehrere Hände</handNote>
+                     <handNote source="Bischoff">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
+                     <scriptNote source="Rand">"An attempt [...] in some other scriptorium than Tours to copy an Alcuin bible in the Regular Style"</scriptNote>
                      <scriptNote source="Bischoff">Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
@@ -75,11 +77,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff Ganz" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" >Zweifel an Tours</origPlace></p>
+                     <p><origPlace source="Bischoff Ganz" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
                      <note><p source="Berger">Die völlig abweichende Ordnung der Bücher sollte bei einer Lokalisierung nach Tours skeptisch machen.</p>
                         <p>Auch RAND hat noch Zweifel an einer Entstehung in Tours, die KÖHLER bereits nichts mehr hat.</p>
-                     <p>Dadurch, dass die Handschrift in der Liste von GANZ auftaucht, scheint eine Zuordnung nach Tours (und damit St-Martin) nicht mehr angezweifelt zu werden.</p></note>
+                        <p>Auch 1934, nach dem Beitrag von KÖHLER zweifelt RAND an einer Entstehung in tours und hält diese Bibel für das Produkt eines Skrpitoriums, das versucht, eine turonische Alkuinbibel zu kopieren.</p>
+                     <p>Dadurch, dass die Handschrift in der Liste von GANZ auftaucht, scheint eine Zuordnung nach Tours (und damit St-Martin) nicht mehr angezweifelt zu werden. GANZ argumentiert auch dafür, dass die abweichende Orndung kein Kriterium gegen Tours darstellt. Vielmehr sei die Einheitlichkeit der turonischen bibeln überschätzt, auch abweichende Produkte können aus diesem Skriptorium stammen.</p></note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance source="Berger">Gelangte nach dem Tod des Conrad Cleinherre, Kantor der Kathedrale, an die Kartause von Straßburg.</provenance>
@@ -101,6 +105,7 @@
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="120 126"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="373 374"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="107 110"/></bibl>
                      <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="62"/></bibl>
                      <bibl><idno>McKitterick 1994</idno><biblScope unit="pp" n="71"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="57"/></bibl>

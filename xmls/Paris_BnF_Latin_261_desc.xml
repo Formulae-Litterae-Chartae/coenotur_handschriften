@@ -62,7 +62,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>vier Hände</handNote>
+                     <handNote source="Rand">vier Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">perfektionierte turonische Minuskel</scriptNote>
@@ -115,11 +115,9 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>
-                     <p><origPlace source="Bischoff" cert="medium">„unter Mitarbeit eines in Tours
-                           geschulten Künstlers in einem westfranzösischen Zentrum
-                           entstanden“</origPlace></p>
+                  <origin>  
                      <p><origPlace source="Rand Köhler" cert="medium">Tours</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">„unter Mitarbeit eines in Tours geschulten Künstlers in einem westfranzösischen Zentrum entstanden“</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >ca. 3. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Köhler" cert="medium" notBefore="0853">nach

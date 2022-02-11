@@ -31,11 +31,11 @@
                      <title>De Amicitia</title>
                      <textLang mainLang="la"/>
                   </msItem>
-                  <msItem class="Philosophie">
+                  <msItem>
                      <author>Publius Syrus</author>
                      <title>Sententiae</title>
                   </msItem>
-                  <msItem class="Philosophie">
+                  <msItem>
                      <author>Eugenius Toletanus</author>
                      <title>Carmen II, 1-2</title>
                   </msItem>
@@ -53,7 +53,7 @@
                               <width n="10.5"/>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition source="Rand">Es fehlen jeweils zwei Blätter zwischen fol. 24 und 25 und zwischen fol. 28 und 29, sowie am Ende der Handschrift.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -62,18 +62,19 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote source="Rand">Eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="bischoff">Turonischen Minuskel</scriptNote>
+                     <scriptNote source="Rand">"Embellished Cursive"</scriptNote>
+                     <scriptNote source="Bischoff">Turonischen Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p n="tironische Noten" source="Hellmann">hic</p>
-                     <p n="Exlibris"><locus n="42r"/><seg type="lat">eccl. Constn</seg>, nicht zuzuordnen.</p>
+                    <p n="tironische Noten" source="Hellmann"><seg type="lat">hic</seg></p>
+                     <p n="Exlibris" source="Rand"><locus n="42r"/><seg type="lat">Iste liber est ecclie Constan</seg>, vermutlich 15. Jhd.</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -81,9 +82,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff Hellmann" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand Bischoff Hellmann" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0820">Anfang 9. Jhd.</origDate></p>
-                     <note/>
+                     <note>Diese Handschrift ist sehr wahrscheinlich in Tours entstanden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -99,6 +100,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://jbc.bj.uj.edu.pl/dlibra/publication/208553/edition/197290#description</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="114"/></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="90 91"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="80 81"/></bibl>
                      <bibl><idno>Martinellus.de</idno></bibl>
                   </listBibl>

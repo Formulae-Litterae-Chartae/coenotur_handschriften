@@ -9,7 +9,7 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt>
-            <note>An dieser Handschrift wurden Tintenanalysen vorgenommen.</note>
+            <note></note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -81,10 +81,10 @@
                <history>
                   <origin>
                      <p><origPlace cert="medium" source="Rand"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="1100" notAfter="1200">12. Jhd.</origDate></p>
                      <p><origDate source="Collon BnF" cert="medium" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
                      <p><origDate source="Manno" cert="medium" notBefore="1080" notAfter="1200">Ende 11. Jhd. + 13. Jhd.</origDate></p>
                      <p><origDate source="Leroquais" cert="medium" notBefore="1100" notAfter="1150">1. Hälfte 12. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="1100" notAfter="1200">12. Jhd.</origDate></p>
                      <note>Die Entstehung ist nicht gesichert, eine Entstehung in <orgName>Marmoutier</orgName> erscheint jedoch sehr wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>

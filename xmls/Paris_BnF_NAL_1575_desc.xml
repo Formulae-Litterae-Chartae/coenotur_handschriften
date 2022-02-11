@@ -90,14 +90,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName>,
-                              <orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Mercier" cert="medium" notBefore="0725" notAfter="0750"
-                           >725-750</origDate></p>
-                     <p><origDate source="Hellmann" cert="medium" notBefore="0700" notAfter="0725"
-                           >Anfang 8. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0600" notAfter="0625">Anfang
-                           7. Jhd.</origDate></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName>, <orgName>St-Martin</orgName></origPlace></p>
+                     <p><origDate source="Mercier" cert="medium" notBefore="0725" notAfter="0750">725-750</origDate></p>
+                     <p><origDate source="Hellmann" cert="medium" notBefore="0700" notAfter="0725">Anfang 8. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0600" notAfter="0625">Anfang 7. Jhd.</origDate></p>
                      <note source="Mercier">Wohl entstanden am Anfang des 8. Jahrhunderts,
                         vermutlich unter Abt <persName>Wictbert</persName>. Die Datierung von Rand
                         erscheint unglaubwürdig.</note>

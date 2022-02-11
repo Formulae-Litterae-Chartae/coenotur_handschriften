@@ -19,6 +19,9 @@
                   <altIdentifier source="Cluny">
                      <idno>56</idno>
                   </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>86A</idno>
+                  </altIdentifier>
                   <altIdentifier source="Bischoff">
                      <idno>5081</idno>
                   </altIdentifier>
@@ -27,7 +30,7 @@
                <msContents>
                   <msItem class="Klassiker Exegese">
                      <author>Augustinus</author>
-                     <title>De trinitate</title>
+                     <title>De Sancta Trinitate</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -49,13 +52,14 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="33"/>
+                        <layout><p>Titel in roter und rot-schwarzer Unziale</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">mehrere Hände</handNote>
+                     <handNote source="Rand">Drei Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>turonische Minuskel</scriptNote>
+                     <scriptNote>Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -67,9 +71,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
-                           >1. Drittel 9. Jhd.</origDate></p>
+                     <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0815" notAfter="0825">um 820</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833">1. Drittel 9. Jhd.</origDate></p>
+                     <note>Entstanden ist diese Handschrift mit großer Wahrscheinlichkeit in Tours.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Cluny</orgName> (?)</provenance>
                   <provenance/>
@@ -83,8 +88,8 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>:
-                           <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc697635</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc697635</idno></bibl>
+                     <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="104 105"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="237"/></bibl>
                   </listBibl>
                </additional>

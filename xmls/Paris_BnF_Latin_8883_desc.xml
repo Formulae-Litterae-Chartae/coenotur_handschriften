@@ -74,20 +74,20 @@
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
-                     <decoNote>Dunkelblauer Kalbsledereinband des 19. Jahrhunderts. Darauf Aufdruck des Titel "MÉLANGES DES STES ÈCRS. ET DES MARTYROLOGES AVEC MUSIQUE MANUSCT DU XIE SE APPT. À MR MONTEIL</decoNote>
+                     <decoNote>Dunkelblauer Kalbsledereinband des 19. Jahrhunderts. Darauf Aufdruck des Titel "MÉLANGES DES STES ÈCRS. ET DES MARTYROLOGES AVEC MUSIQUE MANUSCT DU XIE SE APPT. À MR MONTEIL"</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName>, <orgName>St-Maurice</orgName></origPlace></p>
                      <p><origPlace source="BnF" cert="medium">„pourrait avoir été copié à l’abbaye de <orgName>Marmoutier</orgName>“</origPlace></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1099">11. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="medium" notBefore="1000" notAfter="1025">Anfang 11. Jhd.</origDate></p>
-                     <note></note>
+                     <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1099">11. Jhd.</origDate></p>
+                     <note>Über die Entstehung dieser Handschrift kann nur spekuliert werden.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance source="Rand">Wenn nicht in <orgName>St-Maurice</orgName> hergestellt, dann zumindest für St-Maurice.</provenance>
-                  <provenance source="BnF">Die Handschrift findet sich im Katalog von Saint-Gatien von 1706. Sie scheint die Kathedralbibliothek kurz danach verlassen zu haben, da sie sich nicht im Ktalog von Montfaucon findet.</provenance>
+                  <provenance source="BnF">Die Handschrift findet sich im Katalog von Saint-Gatien von 1706. Sie scheint die Kathedralbibliothek kurz danach verlassen zu haben, da sie sich nicht im Katalog von Montfaucon findet.</provenance>
                   <provenance source="BnF">Danach war sie im Besitz von <persName>Armans-Alexis Monteil</persName>.</provenance>
                   <provenance source="BnF">Wurde diesem am 3. Mai 1837 für die Bibliothèque royale abgekauft.</provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>

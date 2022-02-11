@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Handschrift ist besonders wertvoll für die Forschung und bereits zwei mal ediert und häufig erforscht worden. Diese Beschreibung beinhaltet nur erste paläograpisch-kodikologische Beobachtungen. Auf der Innenseite des Buchrückens befindet sich eine Pergamenteseite mit einer Liste der Vasallen von Marmoutier durch die Hand von <persName>Stephanus de Fontanus</persName>, von 1113. Statt wie üblich eine Folionummerierung enthält die HAndschrifte eine Seitennummerierung.</note></notesStmt>
+         <notesStmt><note>Diese Handschrift ist besonders wertvoll für die Forschung und bereits zwei mal ediert und häufig erforscht worden. Diese Beschreibung beinhaltet nur erste paläograpisch-kodikologische Beobachtungen. Auf der Innenseite des Buchrückens befindet sich eine Pergamenteseite mit einer Liste der Vasallen von Marmoutier durch die Hand von <persName>Stephanus de Fontanus</persName>, von 1113. Statt wie üblich eine Folionummerierung enthält die Handschrift eine Seitennummerierung.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -90,6 +90,9 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37B13805</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="540"/></bibl>
+                     <bibl><idno>Grandmaison 1864</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Barthélemy 1993</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Fouracre 2005</idno><biblScope n="passim"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

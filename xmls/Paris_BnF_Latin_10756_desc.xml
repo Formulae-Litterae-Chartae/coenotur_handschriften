@@ -72,8 +72,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Walther" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff Walther Hellmann" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1.(2. Viertel) 9. Jhd.</origDate></p>
                      <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommen auf. Nach persönlicher Mitteilung von Christoph WALTHER, spricht alles an dieser Handschrift für eine Entstehung in Tours.</note>
@@ -97,6 +96,8 @@
                      <bibl><idno>Rio 2009</idno><biblScope unit="pp" n="259 260"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="98"/></bibl>
                      <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Faulkner 2016</idno><biblScope n="228"/></bibl>
+                     <bibl><idno>Hellmann 2017</idno><biblScope n="270 271"/></bibl>
                      <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
                   </listBibl>
                </additional>
