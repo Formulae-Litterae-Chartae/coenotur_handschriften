@@ -4,7 +4,7 @@
     <teiHeader xml:lang="fre">
         <fileDesc>
             <titleStmt>
-                <title>London, BL, Add 47678 + Genf, BPU, lat. 169</title>
+                <title>London, BL, Add 47678</title>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -52,7 +52,7 @@
                                         <width n="7.5">7,5 cm pro Spalte</width>
                                     </dimensions>
                                 </extent>
-                                <condition>stark beschädigt</condition>
+                                <condition>Stark beschädigt</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2"/>
@@ -81,7 +81,7 @@
                         <origin>
                             <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0830">Anfang 9. Jhd.</origDate></p>
-                            <note></note>
+                            <note>Eine Entstehung in Tours erscheint wahrscheinlich.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Cluny</orgName></provenance>
                         <provenance></provenance>
@@ -96,7 +96,7 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_47678</idno></bibl>
-                            <bibl><idno>Mirmont 1923</idno><biblScope unit="pp" n="V VI"/></bibl>
+                            <bibl><idno>Mirmont 1936</idno><biblScope unit="pp" n="V VI"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="104"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="104"/></bibl>
                         </listBibl>

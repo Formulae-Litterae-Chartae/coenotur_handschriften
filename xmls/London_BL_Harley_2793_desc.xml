@@ -59,8 +59,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote source="Rand">3 ähnliche Hände</handNote>
-                            <handNote source="Köhler">zwei sehr verwandte Hände</handNote>
-                            <handNote source="Bischoff">mehrere Hände</handNote>
+                            <handNote source="Köhler">Zwei sehr verwandte Hände</handNote>
+                            <handNote source="Bischoff">Mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote source="Bischoff">Frühe turonische Minuskel</scriptNote>
@@ -82,7 +82,7 @@
                         <origin>
                             <p><origPlace cert="high" source="Rand Köhler Bischoff"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                            <note></note>
+                            <note>Diese Handschrift ist sicher in Tours entstanden.</note>
                         </origin>
                         <provenance type="Provenance"></provenance>
                         <provenance></provenance>

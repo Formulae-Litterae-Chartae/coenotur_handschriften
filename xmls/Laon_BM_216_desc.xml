@@ -56,16 +56,16 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Bischoff">mehr als eine Hand</handNote>
+                            <handNote source="Bischoff">Mehr als eine Hand</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Bischoff">turonische Minuskel</scriptNote>
+                            <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote/>
                         </decoDesc>
                         <additions>
-                            <p n="Tironsiche Noten" source="Hellmann">Es gibt wohl tironische Noten, die aber im Katalog von Hellmann nicht weiter beschrieben sind.</p>
+                            <p n="Tironsiche Noten" source="Hellmann">Es gibt tironische Noten, die aber im Katalog von Hellmann nicht weiter beschrieben sind.</p>
                         </additions>
                         <bindingDesc>
                             <decoNote/>

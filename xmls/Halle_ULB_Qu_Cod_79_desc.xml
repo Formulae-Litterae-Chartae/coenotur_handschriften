@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Die Handschrift wurde nicht gesichtet. Die innere Beschreibung folgt dem Katalog von Fliege aus dem Jahr 1982.</note></notesStmt>
+         <notesStmt><note>Die innere Beschreibung folgt dem Katalog von Fliege aus dem Jahr 1982.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -116,7 +116,7 @@
                      <p><locus n="183v"/><seg type="lat">Ego indignus presbyter Adalbaldus hunc libellum ex iussione domino meo Fredegiso manu propria scripsi.</seg></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote source="Fiege">"Gotischer Zweiteinband</decoNote>
+                     <decoNote source="Fiege">"Gotischer Zweiteinband"</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>

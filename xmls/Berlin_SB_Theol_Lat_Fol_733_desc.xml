@@ -9,7 +9,8 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note><p>Dieses prächtige Evangeliar ist von Kaiser Lothar (gest. 855 in der Abtei Prüm) der Abtei geschenkt worden.</p></note></notesStmt>
+            <notesStmt><note n="ink"></note>
+                <note>Dieses prächtige Evangeliar ist von Kaiser Lothar (gest. 855 in der Abtei Prüm) der Abtei geschenkt worden.</note></notesStmt>
              <sourceDesc>
                 <msDesc>
                     <msIdentifier>

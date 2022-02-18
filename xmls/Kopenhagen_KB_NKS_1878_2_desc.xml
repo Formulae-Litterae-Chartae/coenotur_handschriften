@@ -27,7 +27,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="frag">
+                  <objectDesc form="fragment">
                      <supportDesc material="perg">
                         <extent n="1">
                            <dimensions type="leaf" unit="cm">
@@ -67,7 +67,7 @@
                   <origin>
                      <p><origPlace source="Onlinekatalog" cert="medium">France (<placeName>Tours</placeName>?)</origPlace></p>
                      <p><origDate source="Onlinekatalog" cert="medium" notBefore="0600" notAfter="0699">7. Jhd.</origDate></p>
-                     <note>Alles deutet auf eine Entstehung in der ersten Hälfte des 7. Jahrhunderts in Tours hin. Es handelt sich um die älteste erhaltene Quelle für diese Passage von Grogar von Tours.</note>
+                     <note>Alles deutet auf eine Entstehung in der ersten Hälfte des 7. Jahrhunderts in Tours hin. Es handelt sich um die älteste erhaltene Quelle für diese Passage von Gregor von Tours.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

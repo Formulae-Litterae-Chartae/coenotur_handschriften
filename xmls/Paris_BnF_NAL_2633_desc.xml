@@ -22,14 +22,14 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Bibel Fragmente">
+                  <msItem class="Bibel">
                      <author/>
                      <title>verschiedene Fragmente; Pentateuch (Leviticus)</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="fragment">
+                  <objectDesc form="fragmente">
                      <supportDesc material="perg">
                         <extent n="1">
                            <dimensions type="leaf" unit="cm">

@@ -23,7 +23,7 @@
                         <msName></msName>
                     </msIdentifier>
                     <msContents>
-                        <msItem>
+                        <msItem class="Bibel">
                             <author></author>
                             <title>Apocalipsis cum imaginibus depictis</title>
                             <textLang mainLang="la"/>
@@ -50,7 +50,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Rand">drei Hände</handNote>
+                            <handNote source="Rand">Drei Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote></scriptNote>
@@ -71,7 +71,7 @@
                         <origin>
                             <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>?</origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium">Frankreich (nicht Nordostfrankreich</origPlace></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0900" notAfter="0950">1. Hälfte 9. Jhd.</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
                             <note>Der Entstehungsort der Handschrift ist nicht geklärt. Klar ist, so auch KÖHLER, dass die Handschrift nicht in Tours entstanden ist.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Kathedrale von Cambrai</orgName></provenance>

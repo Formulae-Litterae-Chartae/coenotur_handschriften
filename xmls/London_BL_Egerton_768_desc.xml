@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Handschrift stammt mir sehr hoher Wahrscheinlichkeit nicht aus Tours. Sie wird in der Datenbank aufgelistet, da RAND sie nach Tours verordnet. Die Beschreibung und insbesondere die Bibliographie ist nicht vollständig.</note></notesStmt>
+         <notesStmt><note>Diese Handschrift stammt mir sehr hoher Wahrscheinlichkeit nicht aus Tours. Sie wird in der Datenbank aufgelistet, da RAND sie nach Tours verordnet.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -55,8 +55,8 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">ein Schreiber</handNote>
-                     <handNote source="Bischoff">mehr als eine Hand</handNote>
+                     <handNote source="Rand">Ein Schreiber</handNote>
+                     <handNote source="Bischoff">Mehr als eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">"Perfected Tours, rather than Franco-Saxon"</scriptNote>

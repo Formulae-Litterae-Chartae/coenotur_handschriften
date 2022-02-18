@@ -27,7 +27,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="frag">
+                  <objectDesc form="fragment">
                      <supportDesc material="perg">
                         <extent n="">
                            <dimensions type="leaf" unit="cm">
@@ -67,7 +67,7 @@
                   <origin>
                      <p><origPlace source="Ganz" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Ganz" cert="medium" notBefore="0800" notAfter="0850">Hochzeit der Bibelproduktion (1. Hälfte 9. Jhd.)</origDate></p>
-                     <note>Bis auf die Tatsache, dass das Fragment bei GANZ erwähnt wird, kann momentan ncihts über die Entstehung ausgesagt werden.</note>
+                     <note>Bis auf die Tatsache, dass das Fragment bei GANZ erwähnt wird, kann nichts weiteres über die Entstehung ausgesagt werden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

@@ -30,7 +30,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="frag">
+                  <objectDesc form="fragment">
                      <supportDesc material="perg">
                         <extent n="31">insg. 31. Blätter
                            <dimensions type="leaf" unit="cm">
@@ -51,7 +51,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">mehrere Hände</handNote>
+                     <handNote source="Bischoff">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">Minuskel, deren Formen zum Teil stark an Fleury erinnern.</scriptNote>
@@ -68,7 +68,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium">Ostfrankreich (?), Westdeutschland (?) - ein Schrieber aus <placeName>Fleury (?)</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">Ostfrankreich (?), Westdeutschland (?) - ein Schreiber aus <placeName>Fleury (?)</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">ca. 2. Viertel 9. Jhd.</origDate></p>
                      <note>In einem Schreiben (erwähnt bei BOURGAIN/HEINZELMANN) bringt BISCHOFF als Entstehungsort von Rostgaard 160 2 nr. 1 Tours ins Spiel. Auch Wolfenbüttel, HAB, Aug 2, 10.9 ist von BUTZMANN mit Tours in Verbindung gebracht worden. Trotzdem ist, beim aktuellen Kenntnisstand, davon auszugehen, dass die Handschrift nicht aus Tours stammt.</note>
                   </origin>

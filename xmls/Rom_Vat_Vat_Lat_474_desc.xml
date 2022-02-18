@@ -72,7 +72,7 @@
                      <p><origPlace source="Schipke" cert="medium"><placeName>Tours</placeName>?</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">Nähe <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0860">2. Hälfte/Mitte(?) 9. Jhd.</origDate></p>
-                     <note>Diese Hadnschrift schient aus dem Umfeld von Tours zu kommen. Eine Entsthung in Tours selbst ist jedoch nicht gesichert.</note>
+                     <note>Diese Handschrift scheint aus dem Umfeld von Tours zu kommen. Eine Entstehung in Tours selbst ist jedoch nicht gesichert.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -87,11 +87,8 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.474</idno></bibl>
-                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Schipke 1994</idno><biblScope unit="pp" n="141"/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="445"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

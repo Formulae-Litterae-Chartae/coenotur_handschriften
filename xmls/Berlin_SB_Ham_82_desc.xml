@@ -8,8 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note>
-            </note></notesStmt>
+            <notesStmt><note n="ink"></note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -396,9 +395,10 @@
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, <orgName>Marmoutier</orgName></origPlace></p>
                             <p><origPlace source="Fingernagel" cert="high"><placeName>Tours</placeName>, <orgName>St-Martin</orgName> oder <orgName>Marmoutier</orgName></origPlace></p>
                             <p><origDate source="Fingernagel" cert="high" notBefore="0820" notAfter="0840">um 830, wohl unter <persName type="Abt">Fredegisus</persName></origDate></p>
+                        <note>Die Datierung von FINGERNAGEL kann als gesichert angesehen werden. Alles spricht für eine Entstehung in St-Martin.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Bénigne in Dijon</orgName></provenance>
-                        <provenance source="Fingernagel">Verse auf <locus n="435r">435r</locus> aus dem 10. und 11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd. unter <persName type="Abt">Wilhelm von Volpiano</persName> in St-Bénigne war. Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift des Bibliothekskatalog zwischen 1592 und 1682 bestätigt</provenance>
+                        <provenance source="Fingernagel">Verse auf <locus n="435r">435r</locus> aus dem 10. und 11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd. unter <persName type="Abt">Wilhelm von Volpiano</persName> in St-Bénigne war. Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift des Bibliothekskatalog zwischen 1592 und 1682 bestätigt.</provenance>
                         <acquisition><name type="Repository"></name></acquisition>
                     </history>
                     <additional>

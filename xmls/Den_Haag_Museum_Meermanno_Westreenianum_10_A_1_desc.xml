@@ -81,7 +81,7 @@
                         </origin>
                         <provenance type="Provenance"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></provenance>
                        <provenance source="CLA">Die Handschrift war bis in die Zeit von Montfaucon (gest. 1741) noch in St-Martin.</provenance>
-                       <provenance source="CLA">Die Handschrift verschwand dort anscheinend während der Französischen Revolution</provenance>
+                       <provenance source="CLA">Von dort ging sie während der Französischen Revolution verloren.</provenance>
                         <acquisition><name type="Repository"></name></acquisition>
                     </history>
                     <additional>
@@ -93,7 +93,7 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://mmm-web.adlibhosting.com/AIS6/Details/fullCatalogue/50000322</idno></bibl>
-                            <bibl><idno>Bischoff 1971</idno><biblScope unit="pp" n="13"></biblScope></bibl>
+                            <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="13"></biblScope></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="300"></biblScope></bibl>
                             <bibl><idno>Martinellus.de</idno><biblScope></biblScope></bibl>
                         </listBibl>

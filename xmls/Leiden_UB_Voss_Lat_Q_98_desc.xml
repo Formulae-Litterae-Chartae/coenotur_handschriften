@@ -58,8 +58,8 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Bischoff">mehr als eine Hand</handNote>                            
-                            <handNote source="Onlinekatalog">eine Hand</handNote>                            
+                            <handNote source="Bischoff">Mehr als eine Hand</handNote>                            
+                            <handNote source="Onlinekatalog">Eine Hand</handNote>                            
                         </handDesc>
                         <scriptDesc>
                             <scriptNote></scriptNote>
@@ -69,7 +69,7 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p source="Hellmann" n="tironische Note">testkritische Anmerkungen in tironischen Noten</p>
+                            <p source="Hellmann" n="tironische Note">Textkritische Anmerkungen in tironischen Noten</p>
                         </additions>
                         <bindingDesc>
                             <decoNote>Pappeinband in mehrfarbigem Papier des 18. Jhd.</decoNote>

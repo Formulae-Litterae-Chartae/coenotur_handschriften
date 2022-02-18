@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Dieser Elfenbeinfächer enthält eine Inschrift, die vielleicht aus Tours stammen könnte. Sie wird hier aufgelistet, damit der Katalog von RAND vollständiig übernommen wird. Es wurden keine weiteren Informationen über dieses Stück gefunden. (Er wird als Fragment gelistet, damit er aus der Suche gefiltert werden kann).</note></notesStmt>
+         <notesStmt><note>Dieser Elfenbeinfächer enthält eine Inschrift, die vielleicht aus Tours stammen könnte. Sie wird hier aufgelistet, damit der Katalog von RAND vollständig übernommen wird. Es wurden keine weiteren Informationen über dieses Stück gefunden.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -30,7 +30,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="frag">
+                  <objectDesc form="Inschrift">
                      <supportDesc>
                         <extent n="">
                            <dimensions type="leaf" unit="cm">

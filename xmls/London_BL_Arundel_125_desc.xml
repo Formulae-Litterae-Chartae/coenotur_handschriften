@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Die Handschrift stammt sicher nicht aus Tours. Sie wird in der Datenbank aufgeführt, da RAND sie in Tours verorndet hat.</note></notesStmt>
+         <notesStmt><note>Die Handschrift stammt sicher nicht aus Tours. Sie wird in der Datenbank aufgeführt, da RAND sie in Tours verordndet hat.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -55,7 +55,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote source="Rand">Eine Haupthand</handNote>
-                     <handNote source="Bischoff">mehrere Hände</handNote>
+                     <handNote source="Bischoff">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">Minuskel</scriptNote>
@@ -77,7 +77,7 @@
                      <p><origPlace source="Bischoff" cert="medium">Nordostfrankreich (wohl <orgName>St-Bertin</orgName>)</origPlace></p>
                      <p><origDate source="Rand" cert="low" notBefore="0880" notAfter="0899">End of the century</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                     <note>Eine Entstehung in Tours, wie durch RAND vermutet, wird heute abgelehnt. Eine Etnstehung in St-Bertin erscheint deutlich wahrscheinlicher.</note>
+                     <note>Eine Entstehung in Tours, wie durch RAND vermutet, wird heute abgelehnt. Dagegen erscheint eine Entstehung in St-Bertin deutlich wahrscheinlicher.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

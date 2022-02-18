@@ -71,7 +71,7 @@
                   </decoDesc>
                   <additions>
                      <p>Korrekturen durch eine (BISCHOFF), bzw. mehrere (RAND) insulare Hände, sowie eine voralkuinische touronische Hand (RAND).</p>
-                     <p source="Köhler">Zwei kleine Schreiberinizialen</p>
+                     <p source="Köhler">Zwei kleine Schreiberinizialen.</p>
                      <p source="Martinellus.de"><locus n="19v"/><locus n="56v"/><locus n="91v"/>Tironische Noten</p>
                      <p n="Exlibris"><locus n="1r"/><seg type="lat">Hic habet librum Sci. Martini Turensem de caenubio bi [? ibi] quo quiescit [? se]d de illo armario et qui me furauerit uel hoc folium inciscerit [anathema] sit</seg>, 8. Jhd. in merowingischer Minuskel.</p>
                   </additions>
@@ -108,9 +108,9 @@
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="89"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="428"/></bibl>
                      <bibl><idno>Bischoff 1939</idno><biblScope unit="pp" n="30 32"/></bibl>
-                     <bibl><idno>Bischoff 1962</idno><biblScope unit="pp" n="12"/></bibl>
+                     <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="12"/></bibl>
                      <bibl><idno>Gasnault 1971</idno><biblScope unit="pp" n="50 51"/></bibl>
-                     <bibl><idno>Martinellus.de</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

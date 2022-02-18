@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Ein Blatt aus dieser Fregmentmappe kommt laut BISCHOFF aus der Gegend von Tours..</note></notesStmt>
+         <notesStmt><note>Ein Blatt aus dieser Fragmentmappe kommt laut BISCHOFF aus der Gegend von Tours.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -30,7 +30,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="frag">
+                  <objectDesc form="fragment">
                      <supportDesc material="perg">
                         <extent n="1">
                            <dimensions type="leaf" unit="cm">

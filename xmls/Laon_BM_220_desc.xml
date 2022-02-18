@@ -29,7 +29,7 @@
                         <msName/>
                     </msIdentifier>
                     <msContents>
-                        <msItem>
+                        <msItem class="Liturgie">
                             <author>Amalarius</author>
                             <title>De ecclesiasticis officiis</title>
                             <textLang mainLang="la"/>
@@ -57,11 +57,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Köhler">wechselnde Hände von verschiedener Sorgfalt</handNote>
-                            <handNote source="Rand">mindestens 5 Hände</handNote>
+                            <handNote source="Köhler">Wechselnde Hände von verschiedener Sorgfalt</handNote>
+                            <handNote source="Rand">Mindestens 5 Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Rand">turonische Minuskel</scriptNote>
+                            <scriptNote source="Rand">Turonische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
