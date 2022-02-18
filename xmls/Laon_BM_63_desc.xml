@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note>Es handelt sich um ein prächtiger Exemplar aus St-Martin</note></notesStmt>
+            <notesStmt><note>Es handelt sich um ein prächtiges Exemplar aus St-Martin.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -63,7 +63,7 @@
                             <scriptNote source="Rand">"Perfected". "Semiuncial occasionally Embellished"</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote source="Köhler">vorhanden</decoNote>
+                            <decoNote source="Köhler">Vorhanden</decoNote>
                         </decoDesc>
                         <additions>
                         </additions>
@@ -75,7 +75,7 @@
                         <origin>
                             <p><origPlace source="Rand Köhler Bischoff Denoël" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Fischer Bischoff" cert="medium" notBefore="0843" notAfter="0851">unter Vivian (843-851)</origDate></p>
-                            <note>Die Entstehung in Tours kann als gesichert angesehen werden. Die Datierung unter Vivian erscheint durch den Vergelich mit anderen Bibeln und Evangeliaren wahrscheinlich.</note>
+                            <note>Die Entstehung in Tours kann als gesichert angesehen werden. Die Datierung unter Vivian erscheint durch den Vergleich mit anderen Bibeln und Evangeliaren wahrscheinlich.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Notre-Dame</orgName>, <placeName>Laon</placeName></provenance>
                         <provenance></provenance>

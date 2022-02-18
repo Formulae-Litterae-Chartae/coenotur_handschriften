@@ -74,7 +74,7 @@
                             <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium">nachlassender Tours-Stil</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0899">9. Jhd.</origDate></p>
-                            <note/>
+                            <note>Diese Handschrift ist vermutlich in Tours entstanden.</note>
                         </origin>
                         <provenance type="Provenance"><orgName/></provenance>
                         <provenance></provenance>

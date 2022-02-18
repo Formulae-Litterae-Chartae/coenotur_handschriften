@@ -8,11 +8,11 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt>
+         <notesStmt><note n="ink"></note>
             <note>
-               <p source="Dorange">Dieses prächtige Missale ist in St-Martin verwendet worden. Es findet sich weder
+               Dieses prächtige Missale ist in St-Martin verwendet worden. Es findet sich weder
                im Katalog von Montfaucon, noch in dem von Chalmel, vermutlich, weil es so wertvoll
-               war, dass es im Tresor und nicht in der Bibliothek gelagert wurde.</p>
+               war, dass es im Tresor und nicht in der Bibliothek gelagert wurde (DORANGE).
             </note>
          </notesStmt>
          <sourceDesc>

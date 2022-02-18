@@ -44,17 +44,17 @@
                               <width n="13.5"/>
                            </dimensions>
                         </extent>
-                        <condition source="Bischoff">der vom Schreiber Cosmas verfasste Teil
+                        <condition source="Bischoff">Der vom Schreiber Cosmas verfasste Teil
                            fehlt</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="25"/>
-                        <layout><p>rote Auszeichnungsschrift, einfache Initialen</p></layout>
+                        <layout><p>Rote Auszeichnungsschrift, einfache Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>vier Schreiber nennen sich selbst: Hadoldus, Wicbertus, Grimbaldus, Cosmas</handNote>
+                     <handNote>Vier Schreiber nennen sich selbst: Hadoldus, Wicbertus, Grimbaldus, Cosmas</handNote>
                      <handNote><locus n="118r"/><seg type="lat">Hoc scedulum licet sit vili scriptu
                            formatus. Saltim devoti conpingunt hunc divisione quaterna. Cuius inicium
                            proponit devotus Hadololdus scribendi. Sequens propositum mox eius
@@ -62,7 +62,7 @@
                            Quem complens scribendo Cosmas concludit in finem.</seg></handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>karolingische Minuskel</scriptNote>
+                     <scriptNote>Karolingische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">

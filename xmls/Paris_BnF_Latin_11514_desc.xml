@@ -8,7 +8,8 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Es handelt sich um eine prächtige Ausgabe des alten Testamentes, deren Anfang fehlt. Die Handschrift weißt prächtige Initialen auf, kann jedoch mit den Prachtbibeln nicht mithalten.</note></notesStmt>
+         <notesStmt><note n="ink"></note>
+            <note>Es handelt sich um eine prächtige Ausgabe des alten Testamentes, deren Anfang fehlt. Die Handschrift weißt prächtige Initialen auf, kann jedoch mit den Prachtbibeln nicht mithalten.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>

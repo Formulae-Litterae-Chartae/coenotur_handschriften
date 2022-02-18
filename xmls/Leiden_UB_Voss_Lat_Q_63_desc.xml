@@ -55,7 +55,7 @@
 <handNote></handNote>                            
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote>zahlreiche Schreiber mit verschiedenen Schriften</scriptNote>
+                            <scriptNote>Zahlreiche Schreiber mit verschiedenen Schriften</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
@@ -73,7 +73,7 @@
                             <p><origPlace source="Hellmann" cert="medium">Schriftheimat: <placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="CLA" cert="medium" notBefore="0700" notAfter="0750">1. Hälfte 8. Jhd.</origDate></p>
                             <p><origDate source="Hellmann" cert="medium" notBefore="0700" notAfter="0799">8. Jhd.</origDate></p>
-                            <note/>
+                            <note>Eine Entstehung in Tours erscheint wahrscheinlich, selbst wenn es für das 8. Jahrhundert an Vergleichsbeispielen fehlt.</note>
                         </origin>
                         <provenance type="Provenance"></provenance>
                         <provenance></provenance>

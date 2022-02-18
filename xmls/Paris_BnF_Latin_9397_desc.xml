@@ -8,7 +8,8 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Bei dieser Handschrift handelt es sich um später zusammengebundene Teil von drei verschiedenen Handschriften (I: 1-24; II: 25-60; III: 61-84). Die Angaben unter Entstehung beziehen sich auf die ersten beiden Teile aus dem 9. Jhd.</note></notesStmt>
+         <notesStmt><note n="ink"></note>
+            <note>Bei dieser Handschrift handelt es sich um später zusammengebundene Teil von drei verschiedenen Handschriften (I: 1-24; II: 25-60; III: 61-84). Die Angaben unter Entstehung beziehen sich auf die ersten beiden Teile aus dem 9. Jhd.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>

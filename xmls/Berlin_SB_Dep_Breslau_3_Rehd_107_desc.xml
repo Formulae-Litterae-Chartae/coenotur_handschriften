@@ -8,7 +8,8 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note>Im Gegensatz zu den konfusen Angaben in den CLA online ist die Handschrift nicht zerstört worden.</note></notesStmt>
+            <notesStmt><note n="ink"></note>
+                <note>Im Gegensatz zu den konfusen Angaben in den CLA online, ist die Handschrift nicht zerstört worden.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -54,7 +55,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>mehrere Hände</handNote>
+                            <handNote>Mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote>Haupttext in Minuskel und teilweise Halbunziale; Titel in Unziale</scriptNote>
@@ -68,7 +69,7 @@
                             <p n="Lagenkontrollvermerke">Regelmäßige Lagenkontrollvermerke</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote>weißes Pergament auf Holz aus dem 16. Jhd. mit eingepresstem Wappen von Thomas Rehdinger "Avec le Temps" </decoNote>
+                            <decoNote>Weißes Pergament auf Holz aus dem 16. Jhd. mit eingepresstem Wappen von Thomas Rehdinger "Avec le Temps" </decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>

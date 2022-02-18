@@ -34,7 +34,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="frag">
+                  <objectDesc form="fragment">
                      <supportDesc material="perg">
                         <extent n="23">insgesamt 23 Blätter (2 Dopp. in den AD, in der BM 1 Bl. und 9 Dopp.)
                            <dimensions type="leaf" unit="cm">
@@ -74,7 +74,7 @@
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0750">ca. 3. Viertel 9. Jhd.</origDate></p>
-                     <note/>
+                     <note>Über diese Fragmente kann nichts Weiteres ausgesagt werden.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Kathedrale</orgName> von <placeName>Grenoble</placeName></provenance>
                   <provenance></provenance>

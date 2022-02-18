@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt>
+         <notesStmt><note n="ink"></note> 
             <note>Missale aus St-Martin verwendet in Marmoutier. Unklar ist, ob die Durchstreichungen der <seg type="lat">benedictiones episcopales</seg> alleine für einen Kopisten gelten sollten (wie DORANGE) vermutet, oder ob diese Streichungen im Zuge des Konfliktes zwischen Stift und Erzbischof geschehen sind.</note>
          </notesStmt>
          <sourceDesc>

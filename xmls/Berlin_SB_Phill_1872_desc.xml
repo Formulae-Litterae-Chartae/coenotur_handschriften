@@ -8,7 +8,8 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Bei dieser Handschrift handelt es sich um die Kopie einer Handschrift aus Fleury.</note></notesStmt>
+         <notesStmt><note n="ink"></note>
+            <note>Bei dieser Handschrift handelt es sich um die Kopie einer Handschrift aus Fleury.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -96,7 +97,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <p source="Bischoff">mehr als eine Hand</p>
+                     <p source="Bischoff">Mehr als eine Hand</p>
                   </handDesc>
                   <scriptDesc>
                      <p>Turonische Minuskel</p>
@@ -104,7 +105,7 @@
                   <decoDesc>
                      <decoNote>
                         <locus n=""/>
-                        <p>einfache Blumenornamentik</p>
+                        <p>Einfache Blumenornamentik</p>
                      </decoNote>
                   </decoDesc>
                   <additions>

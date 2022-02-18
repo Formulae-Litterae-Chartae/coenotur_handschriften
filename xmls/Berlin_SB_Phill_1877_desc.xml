@@ -7,7 +7,8 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note><p>Bei dieser Handschrift handelt es sich um einen prächtigen, vielleicht den schönsten (RAND) Martinellus aus St-Martin</p></note></notesStmt>
+         <notesStmt><note n="ink"></note>
+            <note>Bei dieser Handschrift handelt es sich um einen prächtigen, vielleicht den schönsten (RAND), Martinellus aus St-Martin</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -148,10 +149,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Eine Hand</handNote>
+                     <handNote source="Rand">Eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>Erste Seite eines jeden Kapitels in tur. Halbunziale, ansonsten in tur. Minuskel.</p>
+                     <scriptNote>Erste Seite eines jeden Kapitels in turonischer Halbunziale, ansonsten in turonischer Minuskel.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="miniature">
@@ -180,7 +181,7 @@
                      </decoNote>
                   </decoDesc>                  
                   <additions>
-                     <p>nachträglich Einteilung in Lectiones am Rand</p>
+                     <p>Nachträglich Einteilung in Lectiones am Rand</p>
                      <p n="Exlibris" source="Rose"><locus n="1r"/>Eintrag über die Schenkung von Dietrich an St-Vinzenz: <seg type="lat">Scae matris aecclesiae tripudians auriga. nec nun summę religionis in omni mundanę adversitatis turbine triumphans gubernaculum. Domnus praesul Deodericus dum divino adprime cultui deditus quęque ad honestatem. augmentum. seu defensionem sibi pastorali iure commissae sedis indefesso nisu enuclearet. atque procul posita offensione cuncta votis eius responderent. inter multa insignias quae consilio. auctoritate. sententia ad gloriam et laudem summę et individuae trinitatis praesenti in coenobia cum decreto imperatorum et principum. nec non totius populti senatu applaudente gloriose gessit. etiam hunc librum geste Sci martini continentem quo apud futuram posteritatem sempiternae memoriae immortalitatem pro mortalo conditione nancisceretur, archivis aegregii martyris et laevitae Vincentii in spem patrocinii sibi electi. sub anathematis vinculo votiva manu addidit;</seg></p>
                      <p n="Exlibris" source="Rose"><locus n="138r"/><seg type="lat">Liber sancti Vincentii</seg></p>
                      <p n="Exlibris" source="Rose"><locus n="138v"/><seg type="lat">Liber sancti Vicecii Mettensis Si quis abtulerit anatema sit / lkber sentkizicts</seg></p>

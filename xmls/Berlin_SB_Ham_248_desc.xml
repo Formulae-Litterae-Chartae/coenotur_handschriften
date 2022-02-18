@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note n="ink"></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -80,7 +80,7 @@
                               <width n="11.7"/>
                            </dimensions>
                         </extent>
-                        <condition>sehr guter Erhaltungszustand</condition>
+                        <condition>Sehr guter Erhaltungszustand</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -95,9 +95,9 @@
                      <handNote source="Rand Fingernagel">Bis auf f. 13 von einer Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Fingernagel">Karolingische Minuskel im Stil von Tours.</p>
+                     <p source="Fingernagel">Karolingische Minuskel im Stil von Tours</p>
                      <p source="Bischoff">Alle Vorstücke in turonischer Halbunziale</p>
-                     <p source="Winandy">turonische ee-Kürzung deutet auf eine Enstehung in St-Martin hin.</p>
+                     <p source="Winandy">Turonische ee-Kürzung deutet auf eine Enstehung in St-Martin hin.</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -107,7 +107,7 @@
                   </decoDesc>
                   <additions>
                      <p>Einzelne Ergänzungen am Rand, insbesondere zu den Anfängen der Weihnachtsgeschichte</p>
-                     <p>zahlreiche Ergänzungen innerhalb des Capitulare Evangeliorum</p>
+                     <p>Zahlreiche Ergänzungen innerhalb des Capitulare Evangeliorum</p>
                   </additions>
                   <bindingDesc>
                      <decoNote source="Fingernagel">Blauer Samteinband aus England(?) aus dem 18./19. Jhd. Elfenbeineinsatz mit Kreuzigungsszene.</decoNote>
@@ -139,7 +139,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/dokumente/html/obj90698738,T</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="160"/></bibl>
                      <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="115 117"/></bibl>
-                     <bibl><idno>Fingernagel 1989</idno><biblScope unit="pp" from="63" to="66"/></bibl>
+                     <bibl><idno>Fingernagel 1999</idno><biblScope unit="pp" from="63" to="66"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="74"/></bibl>
                   </listBibl>
                </additional>

@@ -68,8 +68,10 @@
                                         <width n="22.9"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="19.0 20.5">Teil I: 19,0 cm x 13,0 cm; Teil II: 20,5 cm x 15,5 cm</height>
-                                        <width n="13.0 15.5"/>
+                                        <height n="19.0"/>
+                                        <width n="13.0"/>
+                                        <height n="20.5"/>
+                                        <width n="15.5"/>
                                     </dimensions>
                                 </extent>
                                 <condition/>
@@ -77,11 +79,11 @@
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="36 38">I: 38; II: 36</layout>
-                                <layout><p>einfache rote Titel und Initialen</p></layout>
+                                <layout><p>Einfache rote Titel und Initialen</p></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>verschiedene Hände</handNote>
+                            <handNote>Verschiedene Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote>Karolingische Minuskel</scriptNote>
@@ -100,7 +102,7 @@
                         <origin>
                             <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0899">ca. 3. Viertel 9. Jhd.</origDate></p>
-                            <note/>
+                            <note>Die Entstehung in Tours zu dieser Zeit kann als gesichert angesehen werden.</note>
                         </origin>
                         <provenance type="Provenance"><placeName/></provenance>
                         <provenance></provenance>

@@ -64,7 +64,6 @@
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
                                 <p>Kanontafeln</p>
                                 <p>2 ganzseitige Bilder in Rahmen</p>
                             </decoNote>
@@ -80,7 +79,7 @@
                             <p><origPlace cert="high" source="Rand"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                             <p><origPlace cert="medium" source="Bischoff"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
                             <p><origDate cert="medium" source="Bischoff" notBefore="0834" notAfter="0843">834-843</origDate></p>
-                            <note></note>
+                            <note>Die Entstehung in Tours scheint gesichert. Die Qualität der Handschrift spricht wohl gegen eine Entstehung in Marmoutier zu dieser Zeit.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance></provenance>
@@ -97,9 +96,9 @@
                             <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
                             <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="206 207"/></bibl>
                             <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="376 377"/></bibl>
+                            <bibl><idno>Leitschuh/Fischer 1895</idno><biblScope unit="pp" n="1 2"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="117"/></bibl>
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="389 391"/></bibl>
-                            <bibl><idno>Leitschuh/Fischer 1966</idno><biblScope unit="pp" n="1 2"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="44"/></bibl>
                         </listBibl>
                     </additional>

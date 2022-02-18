@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Ein Blatt aus diesem Dossier stammt aus Tours. Sie wird bei BISCHOFF aufgeführt</note></notesStmt>
+         <notesStmt><note>Mehrere Blätter aus diesem Dossier stammt aus Tours. Sie werden bei BISCHOFF aufgeführt</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -30,7 +30,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="frag">
+                  <objectDesc form="Codex">
                      <supportDesc material="perg">
                         <extent n="5">
                            <dimensions type="leaf" unit="cm">

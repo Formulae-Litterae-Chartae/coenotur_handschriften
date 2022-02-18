@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note n="ink"></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -147,7 +148,10 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc604035</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="162 163"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="416" to="418"/></bibl>
+                     <bibl><idno>Guineau/Vezin 1990</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Clark/van der Weerd 2004</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="23"/></bibl>
+                     <bibl><idno>Denoël 2018</idno><biblScope n="passim"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -9,7 +9,7 @@
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
             <notesStmt><note><p source="Bischoff">Die Vorlage für diese Handschrift scheint der Codex Vat. Lat. 1512, der vermutlich aus Luxeuil stammt, gewesen zu sein.</p>
-            <p>Da es sich zum Teil um eine angelsächsische HAnd handelt, ist die Zuweisung nach Tours durch Rand mit großer Vorsicht zu sehen, da eine die gesamte "The Irish at Tours" keineswegs als gesicherte turonische Produkte angesehen werden kann.</p>
+            <p>Da es sich zum Teil um eine angelsächsische Hand handelt, ist die Zuweisung nach Tours durch RAND mit großer Vorsicht zu sehen, da alle unter "The Irish at Tours" aufgeführten Handschriften keineswegs als gesicherte turonische Produkte angesehen werden können.</p>
             </note></notesStmt>
             <sourceDesc>
                 <msDesc>
@@ -80,13 +80,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff" cert="medium">Westfränkisches Skriptorium (auf <placeName>Tours</placeName> kann auch die angelsächsische Schrift weisen</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">Westfränkisches Skriptorium (auf <placeName>Tours</placeName> kann auch die angelsächsische Schrift weisen)</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0700" notAfter="0899">8.-9. Jhd.</origDate></p>
                        <note>
-                           <p>Geschrieben wurde der Erste Teil dieser Handschrift vermutlich durch eine irishe Hand. Es könnte sich um jemanden handeln, der mit Alkuin nach Tours gelangte</p>
-                           <p source="Rand">Durch die paläographische Nähe des ersten Teils zu London, BL, Egerton 2831 und die textuelle Nähe zu den Handschriften Vat., Reg. Lat., 1484 und Vat., Vat. Lat., 1512 erscheint eine Enstehung in Saint Martin wahrscheinlich.</p>
-                           <p source="Köhler">Zweifelt in seiner Rezension an Tours, da für ihn nur Vat., Reg. Lat. 1484 wirklich turonisch ist.</p>
-                           <p source="Bischoff">Die Handschrift könnte als frühes Prouktion aus der Zeit <persName type="abt">Alkuin</persName>s stammen.</p></note>
+                           <p>Geschrieben wurde der Erste Teil dieser Handschrift vermutlich durch eine irische Hand. Es könnte sich um jemanden handeln, der mit Alkuin nach Tours gelangte</p>
+                           <p>Durch die paläographische Nähe des ersten Teils zu London, BL, Egerton 2831 und die textuelle Nähe zu den Handschriften Vat., Reg. Lat., 1484 und Vat., Vat. Lat., 1512 erscheint eine Enstehung in Saint Martin wahrscheinlich (RAND).</p>
+                           <p>KÖHLER zweifelt in seiner Rezension an Tours, da für ihn nur Vat., Reg. Lat. 1484 wirklich turonisch ist.</p>
+                           <p>Für BISCHOFF könnte die Handschrift als frühes Produkt aus der Zeit <persName type="abt">Alkuin</persName>s stammen.</p></note>
                         </origin>
                         <provenance type="Provenance"></provenance>
                         <provenance></provenance>

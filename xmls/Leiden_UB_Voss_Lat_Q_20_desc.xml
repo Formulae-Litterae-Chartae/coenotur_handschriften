@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note>Nur der zweite Teil, fol. 9-144 entstammt aus Tours und ist momentan hier beschrieben.</note></notesStmt>
+            <notesStmt><note>Nur der zweite Teil, fol. 9-144 entstammt aus Tours und ist hier beschrieben.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -78,10 +78,10 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                        <handNote source="Onlinekatalog">drei Hände</handNote>                            
+                        <handNote source="Onlinekatalog">Drei Hände</handNote>                            
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Onlinekatalog">turonische Minuskel</scriptNote>
+                            <scriptNote source="Onlinekatalog">Turonische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
@@ -98,7 +98,7 @@
                             <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875">2. und 3. Viertel 9. Jhd.</origDate></p>
                             <p><origDate source="Onlinekatalog" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jahrhundert</origDate></p>
-                            <note>Nur die Folio 9-144. Ob Anfang oder Mitte des 9. Jhds. ist nicht geklärt. Die Entstehung in Tours dagegen ist nicht umstritten.</note>
+                            <note>Die Datierung und Lokalisierung bezieht sich ausschließlich auf die Folio 9-144. Ob Anfang oder Mitte des 9. Jhds. ist nicht geklärt. Die Entstehung in Tours dagegen ist nicht umstritten.</note>
                         </origin>
                         <provenance type="Provenance"></provenance>
                         <provenance></provenance>

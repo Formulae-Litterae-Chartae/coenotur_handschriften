@@ -59,7 +59,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">mindestens 5 Unziale und 18 Minuskelhände</handNote>
+                     <handNote source="Rand">Mindestens 5 Unziale und 18 Minuskelhände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">Perfekte Karolingische Minuskel</scriptNote>
@@ -180,7 +180,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="high"><placeName>Tours</placeName>, <orgName>St-Martin</orgName></origPlace></p>
+                     <p><origPlace source="McKitterick" cert="high"><placeName>Tours</placeName>, <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0820" notAfter="0830">820-830</origDate></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0840">ca. 835</origDate></p>
                      <p><origDate source="bl.uk" cert="high" notBefore="0830" notAfter="0840">ca. 830 - c. 840</origDate></p>

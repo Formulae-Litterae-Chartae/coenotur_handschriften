@@ -54,7 +54,7 @@
                             <handNote source="Bischoff">Mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Bischoff">karolinigsche Minuskel; zum Teil Soissons-ähnlich; Zusätze in flüchtiger irischer Minuskel von Johannes Scottus</scriptNote>
+                            <scriptNote source="Bischoff">Karolinigsche Minuskel; zum Teil Soissons-ähnlich; Zusätze in flüchtiger irischer Minuskel von Johannes Scottus</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote/>
@@ -67,7 +67,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff" cert="medium">"Kreis des Iohannes Scottus</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">"Kreis des Iohannes Scottus"</origPlace></p>
                             <p><origPlace source="Denoël" cert="medium"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
                             <note>Die Entstehung ist umstritten. Da weder BISCHOFF noch DENOEL in ihren knappen Beschreibungen Argumente angeben, müssen beide Theorien nebeneinander stehen bleiben. </note>

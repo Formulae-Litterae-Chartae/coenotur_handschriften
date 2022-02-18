@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Handschrift ist vermutlich nicht in Tours entstanden. Sie wird hier aufgeührt, da RAND uhre Entstehung in Tours vermutet.</note></notesStmt>
+         <notesStmt><note>Diese Handschrift ist vermutlich nicht in Tours entstanden. Sie wird hier aufgeührt, da RAND eine Entstehung in Tours vermutet.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -61,7 +61,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">hauptsächlich eine Hand</handNote>
+                     <handNote source="Bischoff">Hauptsächlich eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">Typische Corbie-Min. der Hadoard-Zeit</scriptNote>

@@ -88,14 +88,14 @@
                             <p n="Exlibris"><locus n="263r"/>10./11. Jhd:<seg type="lat">Heac sunt nomina librorum qui sunt armario Sancti</seg>.</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote>Roter "Harley-Eiband", nach 1600</decoNote>
+                            <decoNote>Roter "Harley-Einband", nach 1600</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <p><origPlace cert="medium" source="Bischoff"><placeName>Tours</placeName>?</origPlace></p>
                             <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                            <note></note>
+                            <note>Diese Handschrift ist ziemlich sicher in Tours entstanden.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St Cyr</orgName>, <placeName>Nevers</placeName></provenance>
                         <provenance>Wie das Exlibris belegt, gehörte die Handschrift bereits vor 860 der Kathedrale von <orgName>St Cyr</orgName> in <placeName>Nevers</placeName>.</provenance>

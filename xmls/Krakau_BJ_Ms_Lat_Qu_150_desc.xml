@@ -38,7 +38,7 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <extent n="187">gez. 1-103, 106-190 Lücken
+                                <extent n="187">187; gez. 1-103, 106-190 Lücken
                                     <dimensions type="leaf" unit="cm">
                                         <height n="25.0"/>
                                         <width n="18.5"/>
@@ -57,7 +57,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Bischoff">zahlreiche Hände</handNote>
+                            <handNote source="Bischoff">Zahlreiche Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote source="Bischoff">Minuskel unter turonischem Einfluß</scriptNote>
@@ -78,7 +78,7 @@
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, (oder Leges-Skriptorium?)</origPlace></p>
                             <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
-                            <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommen auf.</note>
+                            <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommend auf.</note>
                         </origin>
                         <provenance type="Provenance"></provenance>
                         <provenance></provenance>

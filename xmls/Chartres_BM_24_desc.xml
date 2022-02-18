@@ -54,7 +54,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>eine Hand, <persName type="scribe">Audradus</persName>, Schreibername auf fol. 2r</handNote>
+                            <handNote>Eine Hand, <persName type="scribe">Audradus</persName>, Schreibername auf fol. 2r</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote>Turonische Minuskel</scriptNote>
@@ -75,7 +75,7 @@
                         <origin>
                             <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0843" notAfter="0851">Mitte 9. Jhd.</origDate></p>
-                            <note/>
+                            <note>Die Entstehung dieser Handschrift in Tours scheint gesichert.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Pére</orgName></provenance>
                         <provenance></provenance>

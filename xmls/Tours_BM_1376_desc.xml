@@ -8,7 +8,8 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Handschrift ist besonders wertvoll für die Forschung und bereits zwei mal ediert und häufig erforscht worden. Diese Beschreibung beinhaltet nur erste paläograpisch-kodikologische Beobachtungen. Auf der Innenseite des Buchrückens befindet sich eine Pergamenteseite mit einer Liste der Vasallen von Marmoutier durch die Hand von <persName>Stephanus de Fontanus</persName>, von 1113. Statt wie üblich eine Folionummerierung enthält die Handschrift eine Seitennummerierung.</note></notesStmt>
+         <notesStmt><note n="ink"></note>
+            <note>Diese Handschrift ist besonders wertvoll für die Forschung und bereits zwei mal ediert und häufig erforscht worden. Diese Beschreibung beinhaltet nur erste paläograpisch-kodikologische Beobachtungen. Auf der Innenseite des Buchrückens befindet sich eine Pergamenteseite mit einer Liste der Vasallen von Marmoutier durch die Hand von <persName>Stephanus de Fontanus</persName>, von 1113. Statt wie üblich eine Folionummerierung enthält die Handschrift eine Seitennummerierung.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>

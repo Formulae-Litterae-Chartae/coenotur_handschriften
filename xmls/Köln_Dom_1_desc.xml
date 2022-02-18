@@ -28,7 +28,7 @@
                   <altIdentifier source="Darmstadt">
                      <idno>2003</idno>
                   </altIdentifier>
-                  <altIdentifier source="von_Euw">
+                  <altIdentifier source="von Euw">
                      <idno>4</idno>
                   </altIdentifier>
                   <msName/>
@@ -53,12 +53,12 @@
                               <width n="27.4"/>
                            </dimensions>
                         </extent>
-                        <condition>gut erhalten, bricht aber nach Apokalypse 22,11 ab</condition>
+                        <condition>Gut erhalten, bricht aber nach Apokalypse 22,11 ab</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="51 54">51 (54)</layout>
-                        <layout><p source="CEEC">rote und schwarze Auszeichnungsschrift in Capitalis
+                        <layout><p source="CEEC">Rote und schwarze Auszeichnungsschrift in Capitalis
                               oder Unziale, Titel zum Teil in Gold auf Purpur</p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -68,7 +68,7 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">"Perfected"</scriptNote>
-                     <scriptNote>karolingische Minuskel, (Halb-)Unziale</scriptNote>
+                     <scriptNote>Karolingische Minuskel, (Halb-)Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -206,7 +206,7 @@
                      <note>Die Entstehung in Tours sowie die Datierung in die 2. Hälfte des 9. Jhd.
                         können als sicher angesehen weren. Als <seg type="lat">terminus ante quem</seg> scheint 890
                         gesichert, da in diesem Jahr die Amtszeit des Erzbischofes Hermann I.
-                        begann. Sowohl Bischoff als auch Anderson/Black schlagen eine Datierung zwischen 857
+                           begann. Sowohl BISCHOFF als auch ANDERSON/BLACK schlagen eine Datierung zwischen 857
                         und 862 vor, ohne diese jedoch genauer zu begründen.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Dombibliothek Köln</orgName></provenance>

@@ -8,6 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
+         <notesStmt><note n="ink"></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -93,7 +94,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="162"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="213"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="193"/></bibl>
-                     <bibl><idno>Wallenwein 2017</idno><biblScope unit="pp" n="25"/></bibl>
+                     <bibl><idno>Wallenwein 2017a</idno><biblScope unit="pp" n="25"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>
