@@ -46,14 +46,14 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="28"/>
-                        <layout><p>rote Auszeichnungsschrift sowie einfache Initialen</p></layout>
+                        <layout><p>Rote Auszeichnungsschrift sowie einfache Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>zwei Hände</handNote>
+                     <handNote source="Glauche">Zwei Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>karolingische Minuskel, Unziale</scriptNote>
+                     <scriptNote source="Glauche">Karolingische Minuskel, Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote> </decoNote>
@@ -76,8 +76,7 @@
                      <p><origDate source="Glauche Bischoff" cert="high" notBefore="0850"
                            notAfter="0900">2. Hälfte 9. Jhd.</origDate></p>
                      <note>Die Entstehung in der zweiten Hälfte des neunten Jahrhunderts scheint
-                        gesichert, über den genauen Entstehungsort fehlen Indizien. Laut GLAUCHE
-                        kann aufgrund der Schrift zumindest Frankreich angenommen werden.</note>
+                        gesichert, der Entstehungsort dagegen bleibt ungewiss.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Dombibliothek
                      Freising</orgName></provenance>
@@ -97,8 +96,7 @@
                            <idno>https://opacplus.bsb-muenchen.de/title/BV037451072</idno></bibl>
                      <bibl><idno>Bischoff 1960</idno><biblScope unit="pp" n="148 149"/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="241"/></bibl>
-                     <bibl><idno>Glauche 2011</idno><biblScope unit="pp" from="184" to="186"
-                        /></bibl>
+                     <bibl><idno>Glauche 2011</idno><biblScope unit="pp" from="184" to="186"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

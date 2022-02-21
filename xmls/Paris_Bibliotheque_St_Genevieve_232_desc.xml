@@ -30,12 +30,12 @@
                             <locus from="1" to="154"/>
                             <author>Gregorius Magnus</author>
                             <title>Libri Dialogorum</title>
+                            <textLang mainLang="la"/>
                         </msItem>
                         <msItem class="Liturgie">
                             <locus from="155" to="162"/>
                             <author/> 
                             <title>Homeliar</title>
-                            <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -60,7 +60,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Bischoff">mehrere Hände</handNote>
+                            <handNote source="Bischoff">Mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>

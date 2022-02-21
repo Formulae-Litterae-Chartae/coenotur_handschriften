@@ -27,7 +27,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="fragment">
+                  <objectDesc form="fragmente">
                      <supportDesc material="perg">
                         <extent n="">
                            <dimensions type="leaf" unit="cm">
@@ -67,7 +67,7 @@
                   <origin>
                      <p><origPlace source="Mercier" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Mercier" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
-                     <note>Bis auf die Einordnung durch Mercier, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
+                     <note>Bis auf die Einordnung durch Mercier, kann nichts weiteres über diese Fragmente ausgesagt werden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance source="Mercier">Die Handschrift ist im Mittelalter in Trier aufbewahrt worden.</provenance>

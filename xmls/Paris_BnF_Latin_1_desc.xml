@@ -86,15 +86,15 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="51"/>
-                        <layout>schwarz-rote Titel, einige mit blauer Tinte</layout>
+                        <layout>Schwarz-rote Titel, einige mit blauer Tinte</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">mindestens 6 Hände, alle sehr klar und flüssig, aber
+                     <handNote source="Rand">Mindestens 6 Hände, alle sehr klar und flüssig, aber
                         nicht ganz die Schönheit der Grandval-Bibel</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">„perfected“</scriptNote>
+                     <scriptNote source="Rand">„Perfected“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="miniature">
@@ -261,6 +261,7 @@
                      <p><origPlace cert="high">St-Martin</origPlace></p>
                      <p><origDate source="Rand Bischoff" cert="high" notBefore="0843"
                            notAfter="0851">843-851 unter Vivian, vielleicht vor 845</origDate></p>
+                     <note>Diese Handschrift ist mit sicherheit unter Vivian in St-Martin hergestellt worden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName>Metz</placeName></provenance>
                   <provenance>Die Handschrift wurde unter <persName>Vivian</persName> begonnen und

@@ -201,12 +201,10 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc74664n</idno></bibl>
-                     <bibl><idno>Coyecque 1893</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Coyecque 1893</idno><biblScope unit="pp" n="XVIII"/></bibl>
+                     <bibl><idno>Coyecque 1893</idno><biblScope unit="pp" n="XLIII"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="95 96"/></bibl>
-                     <bibl><idno>Vezin 1970</idno></bibl>
-                     <bibl><idno>Dolbeau 1979</idno></bibl>
-                     <bibl><idno>Pierre-Marie 1988</idno></bibl>
-                     <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="157"/></bibl>
                      <bibl><idno>Bourgain/Heinzelmann 1997</idno><biblScope unit="pp"/></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="120"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="212"/></bibl>

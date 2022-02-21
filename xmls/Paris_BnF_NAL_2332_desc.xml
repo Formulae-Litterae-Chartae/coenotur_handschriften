@@ -50,7 +50,7 @@
                               <width n="14"/>
                            </dimensions>
                         </extent>
-                        <condition>Fragmente</condition>
+                        <condition></condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -120,7 +120,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc705460</idno></bibl>
                      <bibl><idno>Delisle 1883</idno><biblScope unit="pp" n="58 59"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="86 87"/></bibl>
-                     <bibl><idno>Gorman 2006</idno><biblScope unit="pp" n="205"/></bibl>
+                     <bibl><idno>Gormann 2006</idno><biblScope unit="pp" n="205"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="247"/></bibl>
                   </listBibl>
                </additional>

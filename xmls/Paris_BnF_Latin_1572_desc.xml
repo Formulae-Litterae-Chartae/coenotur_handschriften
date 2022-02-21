@@ -50,11 +50,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>23 Hände</handNote>
+                     <handNote source="Rand">23 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>„Mixed Majuskel“; Unziale und Semi-Unziale nur für die
-                        Auszeichnung</scriptNote>
+                     <scriptNote source="Rand">„Mixed Majuskel“; Unziale und Halbunziale nur für die Auszeichnung</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -66,26 +65,24 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Hoffmann Keefe" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="medium">nicht Tours</origPlace></p>
-                     <p><origDate source="BnF" notBefore="0780" notAfter="0800">Ende 8.
-                           Jhd.</origDate></p>
-                     <note>MCKITTERIKC schlägt vor, dass die Handschrift in Tours, auf Bestellung für ein anderes Zentrum hergestellt worden ist.</note>
+                     <p><origPlace source="Rand Hoffmann Keefe" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler" cert="low">nicht Tours</origPlace></p>
+                     <p><origDate source="BnF" notBefore="0780" notAfter="0800">Ende 8. Jhd.</origDate></p>
+                     <note>KÖHLER vermutet, dass es sich aufgrund der abweichenden Schreiberinitiale, um einen Import handelt. MCKITTERICK schlägt dagegen vor, dass die Handschrift in Tours, auf Bestellung für ein anderes Zentrum hergestellt worden ist.</note>
                   </origin>
                   <provenance type="Provenance"><placeName>Tours</placeName></provenance>
-                  <provenance source="Köhler">Nach einer Schreiberiniziale scheint es sich um einen
-                     Import zu handen.</provenance>
+                  <provenance></provenance>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno/>
+                        <idno>https://gallica.bnf.fr/ark:/12148/btv1b9078172j</idno>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc59521d</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="87 88"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="89"/></bibl>
                      <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="13"/></bibl>

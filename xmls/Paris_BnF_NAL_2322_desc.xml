@@ -63,15 +63,15 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="37 42">37, 39, 40, 41, 42</layout>
-                        <layout><p>rote und rot-schwarze Titel; einfache rot-schwarze
+                        <layout><p>Rote und rot-schwarze Titel; einfache rot-schwarze
                            Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>sieben Hände von sehr verschiedener Kompetenz</handNote>
+                     <handNote source="Rand">Sieben Hände von sehr verschiedener Kompetenz</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>keine Halbunziale; Tironische Noten</scriptNote>
+                     <scriptNote>Keine Halbunziale; Tironische Noten</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>

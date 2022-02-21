@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Handschrift ähnelet sehr der Handschrift Paris, BnF, Latin 1711, insbesondere was die Anmerkungen angeht..</note></notesStmt>
+         <notesStmt><note>Diese Handschrift ähnelt sehr der Handschrift Paris, BnF, Latin 1711, insbesondere was die Anmerkungen angeht..</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -59,7 +59,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="24 27">24 (25, 26, 27)</layout>
-                        <layout><p>rote und schwarze Titel; rote und schwarze Initialen im Stil von
+                        <layout><p>Rote und schwarze Titel; rote und schwarze Initialen im Stil von
                               Tours</p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -80,7 +80,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>einzelne zeitgenössische Korrekturen; Korrekturen und Marginalnotizen einer
+                     <p>Einzelne zeitgenössische Korrekturen; Korrekturen und Marginalnotizen einer
                         späteren Hand</p>
                      <p n="Exlibris"><locus n="136"/><seg type="lat">monasterii S. Zenonis maioris
                            Veronae</seg> von Libri gefälscht</p>

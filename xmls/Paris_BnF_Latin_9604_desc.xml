@@ -52,11 +52,11 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="30"/>
-                        <layout><p>rote und schwarze Titel; rote und schwarze Initialen</p></layout>
+                        <layout><p>Rote und schwarze Titel; rote und schwarze Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>zwei Hände; Hand A ähnelt Latin 9603</handNote>
+                     <handNote source="Rand">Zwei Hände; Hand A ähnelt Latin 9603</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>Kursive</scriptNote>
@@ -78,7 +78,7 @@
                            ><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0860"
                            >circa Mitte 9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0830" notAfter="0850">vor 850
+                     <p><origDate source="Rand" cert="medium" notBefore="0830" notAfter="0850">vor 850
                            (?)</origDate></p>
                      <p/>
                   </origin>

@@ -12,8 +12,7 @@
             <note>Die sehr wenigen Korrekturen treten fast immer auf einem und demselben Folio vorne
                und hinten auf.</note>
             <note>Die Evangelien sind, wie für eine Gruppe turonischer Bibeln üblich, in derselben
-               kleinen Schrift wie die Capitula verfasst. Das deutet darauf hin, dass die Bibel
-               tatsächlich zum Vorlesen gedacht war.</note>
+               kleinen Schrift wie die Capitula verfasst.</note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -67,21 +66,21 @@
                               <width n="11.2"/>
                            </dimensions>
                         </extent>
-                        <condition>zum Teil stark beschädigt; Anfang und Ende fehlen. Zwischen fol.
+                        <condition>Zum Teil stark beschädigt; Anfang und Ende fehlen. Zwischen fol.
                            96 und fol. 97 fehlen Folien beim Anfang von Makkabäern 2 zu Matthäus,
                            genau wie in den Briefen des Paulus</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="49"/>
-                        <layout>rote und schwarze Titel; einfache Initialen</layout>
+                        <layout>Rote und schwarze Titel; einfache Initialen</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>eine Hand</handNote>
+                     <handNote>Eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>turonische Minuskel; Halbunziale</scriptNote>
+                     <scriptNote>Turonische Minuskel; Halbunziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -110,10 +109,10 @@
                   </decoDesc>
                   
                   <additions>
-                     <p><locus n="33r 33v"/>vereinzelte Korrekturen</p>
+                     <p><locus n="33r 33v"/>Vereinzelte Korrekturen</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>alter Einband aus Pergament</decoNote>
+                     <decoNote>Alter Einband aus Pergament</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>

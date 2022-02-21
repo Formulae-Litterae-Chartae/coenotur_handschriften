@@ -47,20 +47,20 @@
                               <width n="9.0"/>
                            </dimensions>
                         </extent>
-                        <condition>gut</condition>
+                        <condition>Gut</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="22"/>
-                        <layout><p>rot-schwarze Überschriften; rote Anfangsbuchstaben</p></layout>
+                        <layout><p>Rot-schwarze Überschriften; rote Anfangsbuchstaben</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">vermutlich <persName>Adalbaldus</persName></handNote>
-                     <handNote source="Bischoff">die Vermutung Adalbaldus kaum zutreffend</handNote>
+                     <handNote source="Rand">Vermutlich <persName>Adalbaldus</persName></handNote>
+                     <handNote source="Bischoff">Die Vermutung Adalbaldus kaum zutreffend</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">turonische Minuskel von mehr als einer Hand</scriptNote>
+                     <scriptNote source="Bischoff">Turonische Minuskel von mehr als einer Hand</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -109,7 +109,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69179s</idno></bibl>
-                     <bibl><idno>Rand 1930</idno><biblScope unit="pp" n="108"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="108"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="232"/></bibl>
                   </listBibl>
                </additional>

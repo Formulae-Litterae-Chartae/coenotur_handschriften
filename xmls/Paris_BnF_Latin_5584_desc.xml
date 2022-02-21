@@ -50,10 +50,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">mehr als eine Hand</handNote>
+                     <handNote source="Bischoff">Mehr als eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">„verh. stumpe Frühstufe von Tours“</scriptNote>
+                     <scriptNote source="Bischoff">„Verh. stumpe Frühstufe von Tours“</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -62,7 +62,7 @@
                   </decoDesc>
                   
                   <additions>
-                     <p source="Bischoff">spätere Korrekturen in ab-Typ</p>
+                     <p source="Bischoff">Spätere Korrekturen in ab-Typ</p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -74,7 +74,7 @@
                      <p><origPlace source="Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0700" notAfter="0900"
                            >8./9. Jhd.</origDate></p>
-                     <note>Auch wenn RAND die Hadnschrift als "examined and rejected" beschrebt, spricht alles für eine Entstehung in Tours. So konnten mehrere typisch turonische <seg type="lat">est</seg>-Kürzungen gefunden werden.</note>
+                     <note>Auch wenn RAND die Handschrift als "examined and rejected" beschrebt, spricht alles für eine Entstehung in Tours. So konnten mehrere typisch turonische <seg type="lat">est</seg>-Kürzungen gefunden werden.</note>
                   </origin>
                   <provenance type="Provenance"><persName>Colbertinus</persName></provenance>
                   <provenance/>

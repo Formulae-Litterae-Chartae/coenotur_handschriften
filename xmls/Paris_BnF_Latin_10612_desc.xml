@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Die Inhalsangaben des Onlinekatalogs der BnF und bei BISCHOFF weichen voneinander ab. Die Beschreibung folgt den Angaben von BISCHOFF.</note></notesStmt>
+         <notesStmt><note>Die Inhaltsangaben des Onlinekatalogs der BnF und bei BISCHOFF weichen voneinander ab. Die Beschreibung folgt den Angaben von BISCHOFF.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -60,7 +60,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">mehrere Hände</handNote>
+                     <handNote source="Bischoff">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">"Tours-Typ. zum Teil Halbunz."</scriptNote>

@@ -102,15 +102,15 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="50"/>
-                        <layout>rote und schwarze Titel; purpurne Bänder, Initialen und
+                        <layout>Rote und schwarze Titel; purpurne Bänder, Initialen und
                            Kanontafeln</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">zwei sehr ähnliche Hände</handNote>
+                     <handNote source="Rand">Zwei sehr ähnliche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">turonische Minuskel</scriptNote>
+                     <scriptNote source="Rand">Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="miniature">
@@ -157,8 +157,8 @@
                            notAfter="0840">830-840 unter Fridugisius</origDate></p>
                      <note>Entstehung in St-Martin kann wegen der Nähe zur Moutier Grandval-Bibel
                         (London, BM Ms Add. 10546) als gesichert angesehen werden. Einzig die
-                        Datierung ist nicht ganz gesichert. Die Handschrift scheint nach der
-                        Moutier-Grandval-Bibel entstanden zu sein.</note>
+                        Datierung ist nicht ganz gesichert. Die Handschrift wohlnach der
+                        Moutier-Grandval-Bibel entstanden.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Denis</orgName></provenance>
                   <provenance source="Vezin">Gelangt noch im 9. Jahrhundert nach

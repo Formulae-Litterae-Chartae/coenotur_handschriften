@@ -58,11 +58,11 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="29"/>
-                        <layout><p>rote und schwarze Titel; einfache Initialen</p></layout>
+                        <layout><p>Rote und schwarze Titel; einfache Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand Bischoff">drei Haupthände</handNote>
+                     <handNote source="Rand Bischoff">Drei Haupthände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">„Kräftige kalligr. Min.“</scriptNote>
@@ -105,7 +105,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69927n</idno></bibl>
-                     <bibl><idno>Delisle 1888</idno><biblScope unit="pp" n="45 46"/></bibl>
+                     <bibl><idno>Delisle 1883</idno><biblScope unit="pp" n="45 46"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="180 181"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="241"/></bibl>
                   </listBibl>

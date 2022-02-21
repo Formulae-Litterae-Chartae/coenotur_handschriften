@@ -46,15 +46,15 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="51"/>
-                        <layout><p>rote Auszeichnungsschrift, einfache Initialen;
+                        <layout><p>Rote Auszeichnungsschrift, einfache Initialen;
                               Kanontafeln, Concordia; typisch turonischer Stil</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>mehrere Hände</handNote>
+                     <handNote source="Bierbrauer">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>karolingische Minuskel; Auszeichnung in Capitalis oder
+                     <scriptNote source="Bierbrauer">Karolingische Minuskel; Auszeichnung in Capitalis oder
                         Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>

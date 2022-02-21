@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>BISCHOFF hat vermutet, dass Teile der Handschrift aus Tours stammen, was nach der Untersuchung von DENOEL als widerlegt anzusehen ist.</note></notesStmt>
+         <notesStmt><note></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -60,7 +60,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="BnF">mehrere Hände</handNote>
+                     <handNote source="BnF">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="BnF">Karolingische Minuskel</scriptNote>
@@ -82,10 +82,10 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="low">Frankreich (zum Teil <placeName>Tours</placeName>)</origPlace></p>
-                     <p><origPlace source="Denoël" cert="high"><orgName>Saint-Maur-des-Fossés</orgName>)</origPlace></p>
+                     <p><origPlace source="Denoël" cert="high"><orgName>Saint-Maur-des-Fossés</orgName></origPlace></p>
                      <p><origDate source="BnF" cert="high" notBefore="0825" notAfter="0847">vor 847</origDate></p>
                      <p><origDate source="Bischoff" cert="low" notBefore="0850" notAfter="0899">3.(/4.) Vietel 9. Jhd.</origDate></p>
-                     <note/>
+                     <note>BISCHOFF hat vermutet, dass Teile der Handschrift aus Tours stammen, was nach der Untersuchung von DENOEL als widerlegt anzusehen ist.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance>Die Handschrift blieb in Saint-Maur-des-Fossés bis ins 17. Jhd. wie das Exlibris belegt.</provenance>

@@ -54,10 +54,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">mehrere Hände</handNote>
+                     <handNote source="Bischoff">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">frühe turonische Minuskel</scriptNote>
+                     <scriptNote source="Bischoff">Frühe turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -74,7 +74,7 @@
                   <origin>
                      <p><origPlace source="Bischoff Walther Hellmann" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1.(2. Viertel) 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./(2.) Viertel 9. Jhd.</origDate></p>
                      <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommen auf. Nach persönlicher Mitteilung von Christoph WALTHER, spricht alles an dieser Handschrift für eine Entstehung in Tours.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>

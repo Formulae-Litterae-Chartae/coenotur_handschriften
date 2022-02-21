@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Es handelt sich um ein Pergamentstück aus dem vormaligen Einband von Den Haag, Museum Meermanum, 10 A 1..</note></notesStmt>
+         <notesStmt><note>Es handelt sich um ein Pergamentstück aus dem vormaligen Einband von Den Haag, Museum Meermanum, 10 A 1.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -65,9 +65,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833">1. Drittel 9. Jhd.</origDate></p>
-                     <note>Die Literatur zu diesem Fragment ist nicht ausgewertet worden.</note>
+                     <p><origPlace source="BnF" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="BnF" cert="medium" notBefore="0800" notAfter="0833">1. Drittel 9. Jhd.</origDate></p>
+                     <note/>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -82,6 +82,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc708313</idno></bibl>
+       
                   </listBibl>
                </additional>
             </msDesc>

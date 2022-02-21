@@ -54,7 +54,7 @@
                               <width n="13.1"/>
                            </dimensions>
                         </extent>
-                        <condition>sehr schlechter Zustand</condition>
+                        <condition>Sehr schlechter Zustand</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -63,7 +63,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>nicht Adalbaldus</handNote>
+                     <handNote></handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">Corbie-Minuskel der Hadoard-Zeit</scriptNote>
@@ -72,7 +72,7 @@
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p source="Delisle">zahlreiche Glossen im ersten Teil der Handschrift</p>
+                     <p source="Delisle">Zahlreiche Glossen im ersten Teil der Handschrift</p>
                      <p source="Ganz">Namensindex, der sich an Augustinus anlehnt, manche vom 9.
                         Jhd.</p>
                   </additions>
@@ -104,7 +104,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc71178j</idno></bibl>
-                     <bibl><idno>Delisle 1888</idno><biblScope unit="pp" n="58 59"/></bibl>
+                     <bibl><idno>Delisle 1883</idno><biblScope unit="pp" n="58 59"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="179"/></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="78"/></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="96"/></bibl>

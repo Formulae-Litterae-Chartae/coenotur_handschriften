@@ -76,9 +76,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="medium" source="Rand Köhler Bischoff"><placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">Anfang 9. Jhd.</origDate></p>
-                            <note></note>
+                            <p><origPlace cert="high" source="Rand Köhler Bischoff"><placeName>Tours</placeName></origPlace></p>
+                            <p><origDate source="Fischer Bischoff" cert="high" notBefore="0800" notAfter="0825">Anfang 9. Jhd.</origDate></p>
+                            <note>Die Handschrift ist mit großer Sicherheit zu Beginn des 9. Jahrhunderts in St-Martin, Tours, entstanden.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance></provenance>
@@ -95,8 +95,8 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://manus.iccu.sbn.it/opac_SchedaScheda.php?ID=50333</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="107"/></bibl>
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="369 370"/></bibl>
-                            <bibl><idno>Fischer 1957</idno><biblScope unit="pp" n=""/></bibl>
-                            <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n=""/></bibl>
+                            <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="62"/></bibl>
+                            <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="61"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="215"/></bibl>
                         </listBibl>
                     </additional>

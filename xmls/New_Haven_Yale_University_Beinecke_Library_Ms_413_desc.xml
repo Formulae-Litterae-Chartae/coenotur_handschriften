@@ -67,7 +67,7 @@
                      <scriptNote source="Bischoff">"Min. zweier Stile: Tours und Reimser Variante"</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>vorhanden
+                     <decoNote>Vorhanden
                      </decoNote>
                   </decoDesc>
                   <additions>
@@ -82,7 +82,7 @@
                      <p><origPlace source="Bischoff" cert="medium">In einem Hofskriptorium für Karl den Kahlen geschrieben.</origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0875" notAfter="0899">Ende 9. Jahrhundert</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0873" notAfter="0899">873 oder später</origDate></p>
-                     <note>Wenig ist über die Handschrift bekannt.</note>
+                     <note>Wenig ist über die Handschrift bekannt. Eine Entstehung in Tours erscheint unwahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
