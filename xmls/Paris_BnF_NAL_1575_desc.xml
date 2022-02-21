@@ -51,7 +51,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="31">32 (29, 30, 31, 33 ,34, 34, 38, 41)</layout>
-                        <layout><p>rote und schwarze Titel, simple Initialen</p></layout>
+                        <layout><p>Rote und schwarze Titel, simple Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -80,7 +80,7 @@
                   </decoDesc>
                   
                   <additions>
-                     <p>ausführliche Korrekturen in grüner Tinte; weitere Korrekturen in
+                     <p>Ausführliche Korrekturen in grüner Tinte; weitere Korrekturen in
                         abweichenden Händen</p>
                      <p>Tironische Noten, Notizen und Lagenkontrollvermerke</p>
                   </additions>
@@ -116,8 +116,8 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69899d</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Mercier 2010</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="84 85"/></bibl>
+                     <bibl><idno>Mercier II 2010</idno><biblScope unit="pp" n=""/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

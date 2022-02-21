@@ -63,7 +63,7 @@
                      <scriptNote source="Cinato">Karolingische Minuskel im Stile von Tours</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>vorhanden
+                     <decoNote>Vorhanden
                      </decoNote>
                   </decoDesc>
                   <additions>
@@ -78,7 +78,7 @@
                   <origin>
                      <p><origPlace source="Denoël" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="BnF" cert="high" notBefore="0850" notAfter="0899">2. Hälfte oder Ende 9. Jhd.</origDate></p>
-                     <note>Nach der ausführlichen Untersuchung von Denoël, steht fest, dass die Hadnschrift aus Tours stammt, auch wenn sie bei RAND nicht aufgeführt wird.</note>
+                     <note>Nach der ausführlichen Untersuchung von DENOEL, steht fest, dass die Handschrift aus Tours stammt, auch wenn sie bei RAND nicht aufgeführt wird.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance>Wie die Notiz auf Folio 275 belegt, war die Handschrift spätestens ab dem 15. Jhd. in Limoges.</provenance>

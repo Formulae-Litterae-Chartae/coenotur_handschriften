@@ -61,17 +61,17 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="22"/>
-                        <layout><p>rot-schwarze Titel; verschiedenfarbige Initialen</p></layout>
+                        <layout><p>Rot-schwarze Titel; verschiedenfarbige Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>mehrere Hände</handNote>
+                     <handNote>Mehrere Hände</handNote>
                      <handNote><locus n="10"/>Monogramm des Schreibers oder des Adressaten: <seg
                            type="lat">Langobardos sacerdos vivat in xpo</seg></handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">„Decadent Perfected and Revived Cursive“</scriptNote>
-                     <scriptNote>turonische Minuskel</scriptNote>
+                     <scriptNote>Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -98,8 +98,7 @@
                            >4. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Delisle BnF" cert="medium" notBefore="0900"
                            notAfter="1000">Teil des 10. Jhd.</origDate></p>
-                     <note>Über Entstehung und Datierung scheint sich die Forschung einig, wobei
-                        nicht klar ist, in welchem touroner Skriptorium.</note>
+                     <note>Über Entstehung und Datierung ist sich die Forschung einig.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance>Bis zur Revolution war die Handschrift in der Bibliothek von
@@ -118,7 +117,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69913g</idno></bibl>
-                     <bibl><idno>Delisle 1888</idno><biblScope unit="pp" from="12" to="14"/></bibl>
+                     <bibl><idno>Delisle 1883</idno><biblScope unit="pp" from="12" to="14"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="179 180"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="421" to="423"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="240"/></bibl>

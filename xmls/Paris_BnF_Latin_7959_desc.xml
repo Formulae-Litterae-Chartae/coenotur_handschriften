@@ -49,11 +49,11 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="35 34">35 (34)</layout>
-                        <layout><p>rote Titel</p></layout>
+                        <layout><p>Rote Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>zahlreiche Hände</handNote>
+                     <handNote>Zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote/>
@@ -72,7 +72,7 @@
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="medium"
                            ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0875"
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875"
                            >Mitte (?) 9. Jhd.</origDate></p>
                      <p/>
                   </origin>

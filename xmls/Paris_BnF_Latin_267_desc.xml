@@ -56,21 +56,21 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="24"/>
-                        <layout><p>rote und schwarze Titel</p></layout>
+                        <layout><p>Rote und schwarze Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">eine Hand, ähnlich wie BL, Add. 11849 oder Beatty 11;
+                     <handNote source="Rand">Eine Hand, ähnlich wie BL, Add. 11849;
                         auch eine Nähe zu Latin 13388</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">perfektionierte turonische Minuskel</scriptNote>
+                     <scriptNote source="Rand">Perfektionierte turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote></decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n="144v"/>notarielle Kopie einer Schenkung an Montmajour
+                     <p n="Exlibris"><locus n="144v"/>Notarielle Kopie einer Schenkung an Montmajour
                         aus dem 15. Jhd.</p>
                   </additions>
                   <bindingDesc>
@@ -83,6 +83,7 @@
                               <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0860">nach
                            860</origDate></p>
+                     <note>Entstehung der Handschrift in Tours kann als gesichert angesehen werden.</note>
                   </origin>
                   <provenance type="Provenance" cert="low"
                      ><orgName>Montmajour</orgName></provenance>

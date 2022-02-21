@@ -37,7 +37,7 @@
                         <extent n="157">
                            <dimensions type="leaf" unit="cm">
                               <height n="25.2"/>
-                              <width n="1.6"/>
+                              <width n="16.0"/>
                            </dimensions>
                            <dimensions type="written" unit="cm">
                               <height n="20.8"/>
@@ -47,16 +47,16 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
+                        <layout columns="1"/>
                         <layout writtenLines="30"/>
                         <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">wohl eine Hand</handNote>
+                     <handNote source="Bischoff">Wohl eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">mäßig schräge einheitliche Minuskel</scriptNote>
+                     <scriptNote source="Bischoff">Mäßig schräge einheitliche Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>

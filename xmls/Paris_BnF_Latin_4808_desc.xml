@@ -59,7 +59,7 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>turonische Minuskel</scriptNote>
+                     <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -78,7 +78,7 @@
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1./2. Viertel 9. Jhd.</origDate></p>
                      <note>Die Handschrift wurde zu einem späteren Zeitpunkt zusammengefügt. Nur
-                        fol. 66-79 können auf Tours zurückgeführt werden.</note>
+                        fol. 66-79 stammen aus Tours.</note>
                   </origin>
                   <provenance type="Provenance">fol. 1-52: <placeName>Metz</placeName></provenance>
                   <provenance/>

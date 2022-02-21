@@ -53,21 +53,21 @@
                               <width n="11.7"/>
                            </dimensions>
                         </extent>
-                        <condition>es fehlt der Anfang der Evangelien von Mättheus sowie
+                        <condition>Es fehlt der Anfang der Evangelien von Mättheus sowie
                            Lukas</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="24"/>
-                        <layout><p>rote und schwarze Titel, purpurne Bänder</p></layout>
+                        <layout><p>Rote und schwarze Titel, purpurne Bänder</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">eine Hand</handNote>
-                     <handNote source="BnF">mindestens zwei Hände</handNote>
+                     <handNote source="Rand">Eine Hand</handNote>
+                     <handNote source="BnF">Mindestens zwei Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>turonische Minuskel</scriptNote>
+                     <scriptNote>Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -83,6 +83,7 @@
                      <p><origDate cert="high" notBefore="0820" notAfter="0843">zwischen 820-843,
                            unter <persName>Fridugisus</persName> oder
                               <persName>Adalhardus</persName></origDate></p>
+                     <note>Die Entstehung in St-Martin ist gesichert.</note>
                   </origin>
                   <provenance type="Provenance"><name type="Kloster">Meaux</name> (Abbaye de
                      Chage)</provenance>

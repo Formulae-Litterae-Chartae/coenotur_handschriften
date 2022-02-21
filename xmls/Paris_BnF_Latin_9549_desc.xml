@@ -53,14 +53,14 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="23 28">23, 27, 28</layout>
-                        <layout><p>wenige Initialen</p></layout>
+                        <layout><p>Wenige Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>ein bis drei Hände</handNote>
+                     <handNote source="Rand">Ein bis drei Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>nicht typisch turonisch; sehr abweichendes Schriftbild je nach
+                     <scriptNote source="Rand">Nicht typisch turonisch; sehr abweichendes Schriftbild je nach
                         Qualität des Pergamentes; später als 9. Jhd.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
@@ -70,7 +70,7 @@
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
-                     <decoNote>grüner Samteinband mit den Insignien von Louis-Philippe</decoNote>
+                     <decoNote>Grüner Samteinband mit den Insignien von Louis-Philippe</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>

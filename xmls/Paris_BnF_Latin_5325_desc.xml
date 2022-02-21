@@ -44,20 +44,20 @@
                               <width n="11.0"/>
                            </dimensions>
                         </extent>
-                        <condition>sehr schlecht; eine Sichtung ist derzeit aufgrund der Zerstörung
+                        <condition>Sehr schlecht; eine Sichtung ist derzeit aufgrund der Zerstörung
                            an der Bindung nicht möglich</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="20"/>
-                        <layout><p>rote und schwarze Titel; rote und schwarze Initialen</p></layout>
+                        <layout><p>Rote und schwarze Titel; rote und schwarze Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>eine Hand</handNote>
+                     <handNote>Eine Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">karolingische Minuskel; turonische
+                     <scriptNote source="Bischoff">Karolingische Minuskel; turonische
                         Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
@@ -74,6 +74,7 @@
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0820">unter <persName>Alkuin</persName> oder nicht viel später</origDate></p>
                      <p/>
+                     <note>Eine Entstehung in Tours erscheint wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"/>
                   <provenance/>

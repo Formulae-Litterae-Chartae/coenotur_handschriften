@@ -53,14 +53,14 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="22 21">22 (21)</layout>
-                        <layout><p>rote und schwarze Titel; Initialen in einfachen Farben</p></layout>
+                        <layout><p>Rote und schwarze Titel; Initialen in einfachen Farben</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">vier Hände; Hand B ähnelt Hand J in Angers 1</handNote>
+                     <handNote source="Rand">Vier Hände; Hand B ähnelt Hand J in Angers 1</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>turonische Minuskel mit Halbunziale</scriptNote>
+                     <scriptNote>Turonische Minuskel mit Halbunziale</scriptNote>
                   </scriptDesc>
                   <musicNotation>
                      <p><locus n="136v"/>Neumen des 11. Jhd. von zwei verschiedenen Händen</p>
@@ -82,7 +82,7 @@
                      <p><origPlace cert="medium" source="Rand Bischoff"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace cert="medium" source="Rand Bischoff"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
-                     <note>Die Entstehung der Handschrift ist nicht gesichert. RAND und BISCHOFF schlagen vorsichtig Marmoutier vor, aber ohne jegliche Begründung.</note>
+                     <note>Die Entstehung der Handschrift ist nicht gesichert, eine Entstehung in Tours erscheint jedoch sehr wahrscheinlich. RAND und BISCHOFF schlagen vorsichtig Marmoutier vor, aber ohne jegliche Begründung.</note>
                   </origin>
                   <provenance type="Provenance"/>
                   <provenance><persName>Puteanus</persName>;

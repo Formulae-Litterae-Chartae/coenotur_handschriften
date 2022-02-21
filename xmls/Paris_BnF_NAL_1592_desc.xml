@@ -58,13 +58,13 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="22"/>
-                        <layout><p>erste Zeile eines jeden Buchs rot; Titel am Anfang und am Ende
+                        <layout><p>Erste Zeile eines jeden Buchs rot; Titel am Anfang und am Ende
                               der Bücher in Kapitalis; viele Seiten haben oben eine laufende
                               Titelangabe</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">eine Haupthand</handNote>
+                     <handNote source="Rand">Eine Haupthand</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>Unziale</scriptNote>
@@ -78,9 +78,9 @@
                   </decoDesc>
                   
                   <additions>
-                     <p source="Gasnault">ein verlorenes Ex-libris aus der zweiten Hälfte des 8.
+                     <p source="Gasnault">Ein verlorenes Ex-libris aus der zweiten Hälfte des 8.
                         Jhd.</p>
-                     <p source="Palma">in der ersten Hälfte der Handschrift Glossen, wohl des
+                     <p source="Palma">In der ersten Hälfte der Handschrift Glossen, wohl des
                         neapolitanischen Geistlichen Donatus</p>
                   </additions>
                   <bindingDesc>
@@ -95,7 +95,7 @@
                         >Italien</origPlace></p>
                      <p><origDate cert="medium" notBefore="0500" notAfter="0600">6.
                         Jhd.</origDate></p>
-                     <note>Gasnault übernimmt die Entstehung in Italien und benennt zahlreiche
+                     <note>GASNAULT übernimmt die Entstehung in Italien und benennt zahlreiche
                         Verbindungen zwischen Tours und Rom aus dem 6. und 7. Jahrhundert, die eine
                         Wanderung der Handschrift glaubhaft werden lassen. Eine Datierung vor die
                         570er Jahre nach Italien erscheint durch die Glossen des Donatus aus Neapel
@@ -132,9 +132,9 @@
                      <bibl><idno>Delisle 1883</idno><biblScope unit="pp" from="46" to="49"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="81 82"/></bibl>
                      <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Gasnault 1971</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Palma 1998</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Palma 2000</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Gasnault 1971</idno><biblScope unit="pp" n="passim"/></bibl>
+                     <bibl><idno>Palma 1998</idno><biblScope unit="pp" n="passim"/></bibl>
+                     <bibl><idno>Palma 2000</idno><biblScope unit="pp" n="passim"/></bibl>
                      <bibl><idno>Mercier 2010</idno><biblScope unit="pp" n=""/></bibl>
                   </listBibl>
                </additional>

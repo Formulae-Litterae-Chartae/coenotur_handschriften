@@ -32,7 +32,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="">
+                  <objectDesc form="fragment">
                      <supportDesc material="perg">
                         <extent n="1">
                            <dimensions type="leaf" unit="cm">
@@ -47,8 +47,8 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines=""/>
+                        <layout />
+                        <layout />
                         <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>

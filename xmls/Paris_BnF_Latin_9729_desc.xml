@@ -52,11 +52,11 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="31"/>
-                        <layout><p>rote Titel</p></layout>
+                        <layout><p>Rote Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">ungefähr ein Dutzend Hände</handNote>
+                     <handNote source="Rand">Ungefähr ein Dutzend Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">„Revived Cursive“</scriptNote>
@@ -79,10 +79,10 @@
                   <origin>
                      <p><origPlace source="Rand" cert="low"
                         ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Köhler" cert="low">nicht Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0900" notAfter="1000">10.
+                     <p><origPlace source="Köhler" cert="medium">nicht Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0900" notAfter="1000">10.
                            Jhd.</origDate></p>
-                     <p><origDate source="BnF" cert="low" notBefore="0800" notAfter="0900">9.
+                     <p><origDate source="BnF" cert="medium" notBefore="0800" notAfter="0900">9.
                            Jhd.</origDate></p>
                      <note>Aus St-Martin, aber vermutlich nicht in Tours hergestellt.</note>
                   </origin>

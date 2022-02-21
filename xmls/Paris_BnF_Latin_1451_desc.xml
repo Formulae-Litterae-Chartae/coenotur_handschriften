@@ -49,14 +49,14 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="35"/>
-                        <layout><p>rote und schwarze Titel; Initialen</p></layout>
+                        <layout><p>Rote und schwarze Titel; Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>mehrere Hände</handNote>
+                     <handNote>Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>verbesserte Kursive</scriptNote>
+                     <scriptNote>Verbesserte Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -75,7 +75,7 @@
                      <p><origPlace source="McKitterick" cert="medium">Region um Tours</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >1. Viertel 9. Jhd.</origDate></p>
-                     <note>Von Köhler ursprünglich nach Tours gelegt, hat er sich, genau wie Rand
+                     <note>Von KÖHLER ursprünglich nach Tours gelegt, hat er sich, genau wie RAND,
                         schließlich gegen eine Entstehung in Tours ausgesprochen. </note>
                   </origin>
                   <provenance type="Provenance"><orgName/>St-Maur-des-Fossés</provenance>

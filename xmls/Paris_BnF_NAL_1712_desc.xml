@@ -49,17 +49,17 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="30 34">30, 31, 32, 34</layout>
-                        <layout><p>rote und schwarze Titel; einfache rote, schwarze und rot-schwarze
+                        <layout><p>Rote und schwarze Titel; einfache rote, schwarze und rot-schwarze
                               Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>drei Hände</handNote>
+                     <handNote>Drei Hände</handNote>
                      <handNote><locus n="106v"/><seg type="lat">Ernolinus me fecit</seg> (ca. 10.
                         Jhd.)</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>turonische Minuskel</scriptNote>
+                     <scriptNote>Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -73,7 +73,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="unknown"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace cert="medium" source="Rand"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
                         >2. Viertel 9. Jhd.</origDate></p>
                      <note>Die zweite Lage, fol. 9-16, wurde später, vermutlich im 11. Jhd.

@@ -59,14 +59,14 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="30"/>
-                        <layout>rote, schwarze und goldene Titel</layout>
+                        <layout>Rote, schwarze und goldene Titel</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">vier Hände</handNote>
+                     <handNote source="Rand">Vier Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">perfektionierte turonische Minuskel</scriptNote>
+                     <scriptNote source="Rand">Perfektionierte turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="miniature">
@@ -101,8 +101,8 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p>sehr wenige Korrekturen, die womöglich auch zeitgenössisch sind</p>
-                     <p>einzelne Lagenkontrollvermerke</p>
+                     <p>Sehr wenige Korrekturen, die womöglich auch zeitgenössisch sind</p>
+                     <p>Einzelne Lagenkontrollvermerke</p>
                      <p n="Exlibris"><locus n="19r 53r"/><seg type="lat">Hunc codicem ornavit
                            Gervasius auro, gemmis et emblematibus, tunc Cinomannensis postea
                            Remensis episcopus</seg>. 11 Jhd.</p>
@@ -112,7 +112,7 @@
                            solz, le vendredi 1er juing 1582. N. Le Fevre.</seg></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>roter Ledereinband mit den Initialen von Louis-Philippe</decoNote>
+                     <decoNote>Roter Ledereinband mit den Initialen von Louis-Philippe</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -125,7 +125,7 @@
                         853</origDate></p>
                      <note>Entstehung steht sicher im Zusammenhang mit Tours, darauf lassen die
                         Schrift und die Miniaturen schließen. Ob in Tours selbst, und wenn da, dann
-                        wohl in St-Martin, ist nicht gesichert. Köhler setzt eine Entstehung in
+                        wohl in St-Martin, ist nicht gesichert. KÖHLER setzt eine Entstehung in
                         St-Martin an, entstanden wohl auf Basis von Tours, BM, 23, das dem Stift
                         nach der Zerstörung von 853 gegeben worden sei.</note>
                   </origin>

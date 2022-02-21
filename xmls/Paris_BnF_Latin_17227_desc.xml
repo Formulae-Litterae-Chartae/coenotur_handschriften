@@ -53,7 +53,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="21"/>
-                        <layout><p>rote und schwarze Titel, einfache Initialen, im
+                        <layout><p>Rote und schwarze Titel, einfache Initialen, im
                            Tours-Stil</p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -89,7 +89,7 @@
                      <p source="Köhler Bischoff">Einzelne Blätter (111/112 u. 174-177) modern ersetzt.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>neuerer Ledereinband</decoNote>
+                     <decoNote>Neuerer Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -115,10 +115,10 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc684305</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="107 108"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="369"/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="223"/></bibl>
-                     <bibl><idno>Fischer 1957</idno><biblScope unit="pp" n=""/></bibl>
-                     <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="62"/></bibl>
+                     <bibl><idno>Ganz 1994</idno><biblScope/></bibl>
                      <bibl><idno>Hellmann 2000</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="223"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

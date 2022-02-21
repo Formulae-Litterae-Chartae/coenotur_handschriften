@@ -60,8 +60,8 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">von mehreren Händen</handNote>
-                     <handNote>vielleicht die Hand von <persName type="scribe">Hirminmaris</persName>, Notar unter Fredegisus und Theot, den Erzkanzlern von Ludwig dem Frommen.</handNote>
+                     <handNote source="Bischoff">Von mehreren Händen</handNote>
+                     <handNote>Vielleicht die Hand von <persName type="scribe">Hirminmaris</persName>, Notar unter Fredegisus und Theot, den Erzkanzlern von Ludwig dem Frommen.</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">"Der Schrifttyp der Min. ist einheitlich, aber nicht spezifisch turonisch"</scriptNote>
@@ -69,13 +69,11 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
-                        <locus n=""/>
-                        <p></p>
                      </decoNote>
                   </decoDesc>
                   <additions>
                      <p></p>
-                     <p n="Tironische Noten"><locus n=""/>zahlreiche Tironische Noten, siehe Martinellus.de</p>
+                     <p n="Tironische Noten"><locus n=""/>Zahlreiche Tironische Noten, siehe Martinellus.de</p>
                   </additions>
                   <bindingDesc>
                      <decoNote></decoNote>

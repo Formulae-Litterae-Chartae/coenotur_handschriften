@@ -47,13 +47,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">hauptsächlich eine Hand; der Anfang von Lupus, der Haupttext
+                     <handNote source="Rand">Hauptsächlich eine Hand; der Anfang von Lupus, der Haupttext
                         wohl von <persName>Fredegaudus</persName> geschrieben</handNote>
-                     <handNote source="Cinato">auf einzelnen Folia erscheint eine zweite unterstützende
+                     <handNote source="Cinato">Auf einzelnen Folia erscheint eine zweite unterstützende
                         Hand (bspw. fol. 21r)</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">karolingische Minuskel mit wenig Abkürzungen; Halbunziale
+                     <scriptNote source="Rand">Karolingische Minuskel mit wenig Abkürzungen; Halbunziale
                         selten und imperfekt</scriptNote>
                   </scriptDesc>
                   <decoDesc>
@@ -82,7 +82,7 @@
                      <p><origPlace cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0850">2.
                            Viertel 9. Jhd.</origDate></p>
-                     <note>Durch die klare Beteiligung von Lupus und der Nähe zum vatikanischen
+                     <note>Durch die klare Beteiligung von Lupus und die Nähe zum vatikanischen
                         Livius erscheint die Entstehung in St-Martin in Tours in der ersten
                         Hälfte des 9. Jahrhunderts als äußerst wahrscheinlich.</note>
                   </origin>
@@ -100,9 +100,9 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc19924d</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="95"/></bibl>
                      <bibl><idno>Schipke 1994</idno><biblScope unit="pp" n="140"/></bibl>
-                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="115"/></bibl>
                      <bibl><idno>Cinato</idno></bibl>
                   </listBibl>
                </additional>

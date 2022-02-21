@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Es handelt sich um eine Handschrfit, die aus 3 Teilen besteht, die nicht als einheitliches Werk konzipiert wurden. Nur Teil 1, die Blätter 1-64, könnten aus Tours stammen.</note></notesStmt>
+         <notesStmt><note>Es handelt sich um eine Handschrift, die aus 3 Teilen besteht, die nicht als einheitliches Werk konzipiert wurden. Nur Teil 1, die Blätter 1-64, könnten aus Tours stammen.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -74,7 +74,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>mehrere Hände und mehrere Entstehungsorte</handNote>
+                     <handNote>Mehrere Hände und mehrere Entstehungsorte</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">Teil 1: turonische Minuskel mit gelegentlicher Einmischung von Halbunziale</scriptNote>

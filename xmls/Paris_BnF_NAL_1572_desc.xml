@@ -54,7 +54,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
+                        <layout />
                         <layout><p>Titel in grün und gelb; Initialen in grün und gelb. Farben und
                               Design sind nicht typisch für Tours.</p></layout>
                      </layoutDesc>
@@ -83,7 +83,7 @@
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >1. Viertel 9. Jhd.</origDate></p>
                      <note>Entstehungsort unklar, Tours kann aber wohl ausgeschlossen werden. Findet
-                        sich in der Liste, da es ursprünglich von Delisle als zweifelhaft nach Tours
+                        sich in der Liste, da es bei RAND aufgeführt wird, da sie ursprünglich von DELISLE als zweifelhaft nach Tours
                         verortet wurde.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>

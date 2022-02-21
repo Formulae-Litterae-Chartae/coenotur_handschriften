@@ -52,7 +52,7 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="31"/>
-                        <layout><p>rote und schwarze Titel; Initialen im Tours-Stil</p></layout>
+                        <layout><p>Rote und schwarze Titel; Initialen im Tours-Stil</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -60,7 +60,7 @@
                         einem Monogramm).</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">verbesserte karolingische Kursive</scriptNote>
+                     <scriptNote source="Rand">Verbesserte karolingische Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -81,12 +81,14 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
-                     <p><origPlace source="BnF" cert="low">Loiretal</origPlace></p>
-                     <p><origPlace source="Ganz" cert="low">„skilled imitation of
+                     <p><origPlace source="BnF" cert="medium">Loiretal</origPlace></p>
+                     <p><origPlace source="Ganz" cert="medium">„skilled imitation of
                         Tours“</origPlace></p>
                      <p><origDate cert="medium" notBefore="0803" notAfter="0814">ca.
                            803-814</origDate></p>
                      <p/>
+                     <note>Der Entstehungsort ist ungewiss; wahrscheinlicht erscheint das
+                        Loiretal in der Nähe von Tours.</note>
                   </origin>
                   <provenance type="Provenance"><persName>Colbert</persName></provenance>
                   <provenance>Der Entstehungsort ist ungewiss; wahrscheinlicht erscheint das

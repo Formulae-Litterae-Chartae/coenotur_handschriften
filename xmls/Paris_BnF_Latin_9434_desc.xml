@@ -76,9 +76,9 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"
                            ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="BnF" cert="low" notBefore="1000" notAfter="1100">11.
+                     <p><origDate source="BnF" cert="medium" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
-                     <p><origDate source="Senseby" cert="low" notBefore="0980" notAfter="1000">Ende
+                     <p><origDate source="Senseby" cert="medium" notBefore="0980" notAfter="1000">Ende
                            10. Jhd.</origDate></p>
                      <p/>
                   </origin>

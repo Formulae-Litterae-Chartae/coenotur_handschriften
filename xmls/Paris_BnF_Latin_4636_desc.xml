@@ -54,10 +54,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>mehrere Hände</handNote>
+                     <handNote>Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">einige Hände regulär turonisch</scriptNote>
+                     <scriptNote source="Bischoff">Einige Hände regulär turonisch</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -73,6 +73,7 @@
                      <p><origPlace source="Mordek" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866"
                            >2. Drittel 9. Jhd.</origDate></p>
+                     <note>Eine Entstehung in Tours erscheint wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"/>
                   <provenance/>

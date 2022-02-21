@@ -65,11 +65,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>zwei Hände; Hand A ähnelt Troyes 1742, Hand B ähnelt Tours, BM, 10,
+                     <handNote>Zwei Hände; Hand A ähnelt Troyes 1742, Hand B ähnelt Tours, BM, 10,
                         zum Teil auch BnF, NAL 1575</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>verbesserte Kursive</scriptNote>
+                     <scriptNote>Verbesserte Kursive</scriptNote>
                   </scriptDesc>
                   <musicNotation>
                      <p><locus n="73r">Neumen aus Tours</locus></p>
@@ -78,10 +78,10 @@
                      <decoNote/>
                   </decoDesc>
                   <additions>
-                     <p>ganz wenige Anmerkungen</p>
+                     <p>Wenige Anmerkungen</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote source="Köhler">neuerer Ledereinband</decoNote>
+                     <decoNote source="Köhler">Neuerer Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -94,12 +94,13 @@
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >1. Viertel 9. Jhd.</origDate></p>
                      <p/>
+                     <note>Die Handschrift entstand laut
+                        BISCHOFF nicht in <placeName>Tours</placeName>,
+                        sondern in der Gegend von Tours, war aber bereits ab dem 9. Jhd. in Tours
+                        vorhanden.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Fleury</orgName></provenance>
-                  <provenance><p source="Bischoff">Die Handschrift entstand laut
-                           <persName>Bischoff</persName> nicht in <placeName>Tours</placeName>,
-                        sondern in der Gegend von Tours, war aber bereits ab dem 9. Jhd. in Tours
-                        vorhanden.</p>
+                  <provenance>
                      <p>Gefunden wurde die Handschrift 1638 durch <persName>Dom Ménard</persName> in
                            <orgName>Fleury</orgName> und gelangte dann zu den Karmelitern von
                            <orgName>Clermont-Ferrand</orgName>, um schließlich über die Sammlung

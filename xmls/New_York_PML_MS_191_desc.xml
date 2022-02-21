@@ -65,12 +65,11 @@
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
-                                <p>schöne farbige Kanontafeln</p>
+                                <p>Schöne farbige Kanontafeln</p>
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p>LAgenkontrollvermerke in tironischen Noten</p>
+                            <p>Lagenkontrollvermerke in tironischen Noten</p>
                             <p n="Exlibris"><locus n="1"/><seg type="lat">San Lorenzo el Real del Escorial</seg></p>
                         </additions>
                         <bindingDesc>
@@ -81,7 +80,7 @@
                         <origin>
                             <p><origPlace cert="high" source="Rand Bischoff"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0834">ca. 830-834</origDate></p>
-                            <note></note>
+                            <note>Die Hadnschrift stammt sicher aus Tours.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance>Von Libri gestohlen und an Lord Ashburnham verkauft.</provenance>

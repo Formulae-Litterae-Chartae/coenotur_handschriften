@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Eine Urkunde aus dieser Sammlung stammt aus Tours. Die Handschrift wird hier aufgeführt, da sie bei RANd aufgelistet wird.</note></notesStmt>
+         <notesStmt><note>Eine Urkunde aus dieser Sammlung stammt aus Tours. Die Handschrift wird hier aufgeführt, da sie bei RAND aufgelistet wird.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -89,7 +89,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73263k/cd0e504</idno></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="191"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

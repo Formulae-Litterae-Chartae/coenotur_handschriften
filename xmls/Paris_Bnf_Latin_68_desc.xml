@@ -60,19 +60,19 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="50"/>
-                        <layout><p>rote und schwarze Titel</p>
-                           <p>einfache Initialen, die nur mit rot eingefärbt sind</p></layout>
+                        <layout><p>Rote und schwarze Titel; Einfache Initialen, die nur mit rot eingefärbt sind</p>
+                          </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">ein Dutzend Hände</handNote>
+                     <handNote source="Rand">Ein Dutzend Hände</handNote>
                      <handNote source="Rand">Hand B hat 8 von 22 Lagen und ist nahe an der Hand von
                         Amalricus von Monza G. 1. Wenn Amalricus der Schreiber ist, dann ist Paris
                         BnF Latin 68 älter als die Bibel aus Monza, da sie noch zahlreiche kursive
                         Elemente enthält</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p>karolingische Minuskel</p>
+                     <p>Karolingische Minuskel</p>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -80,7 +80,7 @@
                         rote Punkte</decoNote>
                   </decoDesc>
                   <additions>
-                     <p>einzelne Glossen bzw. hauptsächlich Korrekturen</p>
+                     <p>Einzelne Glossen bzw. hauptsächlich Korrekturen</p>
                      <p><locus n="108r"/>eine Randnotiz, die mit einem NT-Zeichen beginnt</p>
                   </additions>
                   <bindingDesc>
@@ -94,9 +94,9 @@
                      <p><origPlace cert="medium" source="Cinato">St-Martin?</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
                            >1. Hälfte 9. Jhd.</origDate></p>
-                     <note>Wenig erscheint geklärt. Die Handschrift ähnelt den großen touroner
+                     <note>Wenig erscheint geklärt. Die Handschrift ähnelt den großen turoner
                         Prachtbibeln, ist aber gleichzeitig deutlich simpler gehalten. Deshalb wurde
-                        sie von Rand als vielleicht in Marmoutier entstanden deklariert, wobei er
+                        sie von RAND als vielleicht in Marmoutier entstanden deklariert, wobei er
                         gleichzeitig eine der Haupthände mit der vom Amalricus aus St-Martin
                         vergleicht.</note>
                   </origin>
