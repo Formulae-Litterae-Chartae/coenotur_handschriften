@@ -102,8 +102,8 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Rand">eine Hand</handNote>
-                            <handNote source="Bannister">zwei Hände</handNote>
+                            <handNote source="Rand">Eine Hand</handNote>
+                            <handNote source="Bannister">Zwei Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p></p>
@@ -140,7 +140,6 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.495</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="126"></biblScope></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="431"></biblScope></bibl>
-                            <bibl><idno>Bischoff 2002</idno><biblScope unit="pp" n=""></biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

@@ -170,8 +170,8 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="25"/>
-                        <layout>rote Titel</layout>
-                        <layout>erste und letzte Zeile grün hintermalt; Manche Anfangsbuchstaben grün ausgemalt.</layout>
+                        <layout>Rote Titel</layout>
+                        <layout>Erste und letzte Zeile grün hintermalt; Manche Anfangsbuchstaben grün ausgemalt.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -204,16 +204,16 @@
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
-                     <decoNote>neuer Ledereinband</decoNote>
+                     <decoNote>Neuer Ledereinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0900" notAfter="1000">Teil I. 10. Jhd.</origDate></p>
-                     <p><origDate source="Dorange" cert="low" notBefore="0800" notAfter="1300">Teil I: 9. Jhd; Teil II: 
+                     <p><origDate source="Dorange" cert="medium" notBefore="0800" notAfter="1300">Teil I: 9. Jhd; Teil II: 
                            12. und 13. Jhd.</origDate></p>
-                     <p><origDate source="Collon" cert="low" notBefore="0800" notAfter="1500">Teil I: 9.Jhd; Teil II:
+                     <p><origDate source="Collon" cert="medium" notBefore="0800" notAfter="1500">Teil I: 9.Jhd; Teil II:
                            12., 13. und 15. Jhd.</origDate></p>
                      <note>Weder Entstehungsort, noch die Entstehungszeit der Handschrift ist gesichert. Da der zweite Teil Ergänzungen für die Liturgie rund um Martin und Briccius enthält, erscheint eine Entstehung dieses Teils in Tours wahrscheinlich.</note>
                   </origin>

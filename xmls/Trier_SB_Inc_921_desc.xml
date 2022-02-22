@@ -38,7 +38,7 @@
                <physDesc>
                   <objectDesc form="fragmente">
                      <supportDesc material="perg">
-                        <extent n="40">wenigsten 40 Bl.
+                        <extent n="40">Wenigsten 40 Bl.
                            <dimensions type="leaf" unit="cm">
                               <height n="48.0"/>
                               <width n="34.5"/>
@@ -57,18 +57,16 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Bischoff">zahlreiche Hände</handNote>
+                     <handNote source="Bischoff">Zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Bischoff">turonische Minuskel</scriptNote>
+                     <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
-                     <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>

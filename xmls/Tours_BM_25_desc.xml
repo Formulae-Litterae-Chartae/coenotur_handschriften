@@ -42,12 +42,10 @@
                               <width n=""/>
                            </dimensions>
                         </extent>
-                        <condition>große Teile fehlen</condition>
+                        <condition>Große Teile fehlen</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines=""/>
-                        <layout><p>farbige Initialen</p></layout>
+                        <layout>Farbige Initialen</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

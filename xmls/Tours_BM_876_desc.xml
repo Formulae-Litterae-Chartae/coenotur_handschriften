@@ -62,14 +62,14 @@
                               <width n="5.5"/>
                            </dimensions>
                         </extent>
-                        <condition><p>zerstört</p>
-                           <p source="Collon">es fehlten 2 Blätter des vierten Heftes und das siebte
+                        <condition><p>Zerstört</p>
+                           <p source="Collon">Es fehlten 2 Blätter des vierten Heftes und das siebte
                               Heft befand sich an falscher Stelle</p></condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="15"/>
-                        <layout source="Rand">rote Titel und einfache rote und rot-schwarze
+                        <layout source="Rand">Rote Titel und einfache rote und rot-schwarze
                            Initialen mit altem Design </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -77,7 +77,7 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">erneuerte Kursive</scriptNote>
+                     <scriptNote source="Rand">Erneuerte Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote> </decoNote>
@@ -92,14 +92,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
+                     <p><origPlace source="Rand" cert="medium"
                         ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0900"
                            notAfter="1000">10. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
-                  <provenance>Wenig bekannt, noch von <persName>Rand</persName> benutzt, wurde die
+                  <provenance>Wenig bekannt, noch von <persName>RAND</persName> benutzt, wurde die
                      Handschrift 1939-1945 im Krieg zerstört.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>

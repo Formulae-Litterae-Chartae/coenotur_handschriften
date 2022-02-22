@@ -61,7 +61,7 @@
                             <handNote/>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="leges.uni-köln">karolingische Minuskel</scriptNote>
+                            <scriptNote source="leges.uni-köln">Karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
@@ -79,7 +79,6 @@
                             <p><origPlace source="Bischoff" cert="medium">"vom Hofe abhängiges, in Tours-ähnlichem Stil arbeitendes Skriptorium".</origPlace></p>
                             <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
-                            <note/>
                         </origin>
                         <provenance type="Provenance"><orgName>Collège Clermont</orgName>, <placeName>Paris</placeName></provenance>
                         <provenance source="Eckhardt">1849 im Besitz von Professor Friedrich L. Keller.</provenance>

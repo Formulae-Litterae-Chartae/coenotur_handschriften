@@ -47,8 +47,6 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines=""/>
                         <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -68,10 +66,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="1100"
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1100"
                            notAfter="1200">12. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>

@@ -78,8 +78,7 @@
                      <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="high" notBefore="0800" notAfter="0836">unter Fridigusius oder kurz davor</origDate></p>
                      <p><origDate source="Bischoff Kentenich" cert="high" notBefore="0800" notAfter="0850">(1./)2. Viertel 9. Jhd</origDate></p>
-                     <note/>
-                  </origin>
+                 </origin>
                   <provenance type="Provenance"><orgName>St. Matthias</orgName>, <placeName>Trier</placeName></provenance>
                   <provenance source="Kentenich">Laut dem Nachtrag auf dem letzten Blatt befand sich die Handschrift im Kloster <orgName>St. Matthias</orgName> in <placeName>Trier</placeName>, als sie von einem Kanonikus von <orgName>St. Simeon</orgName> in <placeName>Trier</placeName> ausgeliehen wurde. Die Handschrift sollte nach St. Matthias zurückkehren, wurde aber von <persName>Martène</persName> und <persName>Durand</persName> in St. Simeon gefunden.</provenance>
                   <acquisition><name type="Repository">Stadtbibliothek Trier</name></acquisition>

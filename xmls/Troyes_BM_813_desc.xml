@@ -91,7 +91,6 @@
                         <origin>
                             <p><origPlace source="Bischoff" cert="medium">A: Etwa Lotharingien, eine Hand turonisch; C: Etwa <placeName>Soissons</placeName> / <placeName>Reims</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0875">Mitte / 3. Viertel 9. Jhd.</origDate></p>
-                            <note/>
                         </origin>
                         <provenance type="Provenance"><orgName>Collège de l'oratoire</orgName> de <placeName>Troyes</placeName></provenance>
                         <provenance></provenance>
@@ -105,7 +104,7 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2654</bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2654</idno></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="385"/></bibl>
                         </listBibl>
                     </additional>

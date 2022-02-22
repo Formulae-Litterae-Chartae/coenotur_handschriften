@@ -107,8 +107,6 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
-                     <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -121,7 +119,7 @@
                      <note>Die Entstehung der Handschrift in Tours in der 1. Hälfte des 9. Jahrhunderts kann als gesichert angesehen werden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance>Die Handschrift gelangte, vielleicht durch Papst Urban II. zum Kloster Allerheiligen.</provenance>
+                  <provenance>Die Handschrift gelangte, vielleicht durch Papst Urban II., zum Kloster Allerheiligen.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>

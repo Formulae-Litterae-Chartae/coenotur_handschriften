@@ -69,7 +69,7 @@
                <history>
                   <origin>
                      <p><origPlace cert="medium"><placeName>Tours</placeName>?</origPlace></p>
-                     <p><origDate source="Medium" cert="medium" notBefore="1200" notAfter="1299"></origDate></p>
+                     <p><origDate source="Medium" cert="medium" notBefore="1200" notAfter="1299">13. Jhd.</origDate></p>
                      <note>Dieses Breviar aus dem 13. Jahrhundert ist in Marmoutier benutzt worden. Ob es auch dort entstanden ist, bleibt ungewiss.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>

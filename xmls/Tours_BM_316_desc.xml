@@ -44,11 +44,10 @@
                               <width n=""/>
                            </dimensions>
                         </extent>
-                        <condition>gut</condition>
+                        <condition>Gut</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
                         <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -65,15 +64,14 @@
                      <p/>
                   </additions>
                   <bindingDesc>
-                     <decoNote>alter Holzeinband umgeben mit weißem Pergament</decoNote>
+                     <decoNote>Alter Holzeinband umgeben mit weißem Pergament</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="1000"
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1000"
                            notAfter="1100">11. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>
