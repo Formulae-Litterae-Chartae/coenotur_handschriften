@@ -50,7 +50,7 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="27 42">I: 27; II: 42 (37, 41)</layout>
-                        <layout><p>rote und schwarze Titel</p></layout>
+                        <layout><p>Rote und schwarze Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -73,7 +73,6 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

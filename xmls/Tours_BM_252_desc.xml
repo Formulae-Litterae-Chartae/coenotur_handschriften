@@ -48,12 +48,12 @@
                               <width n="17.4"/>
                            </dimensions>
                         </extent>
-                        <condition>perfekter Erhaltungsstand</condition>
+                        <condition>Perfekter Erhaltungsstand</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="41"/>
-                        <layout><p>rot-braune Initialen</p></layout>
+                        <layout><p>Rot-braune Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -72,15 +72,14 @@
                      <p/>
                   </additions>
                   <bindingDesc>
-                     <decoNote>stabiler Kalbseinband des 17. Jhd.</decoNote>
+                     <decoNote>Stabiler Kalbseinband des 17. Jhd.</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Collon" cert="low" notBefore="1000" notAfter="1100">11.
+                     <p><origDate source="Collon" cert="medium" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>

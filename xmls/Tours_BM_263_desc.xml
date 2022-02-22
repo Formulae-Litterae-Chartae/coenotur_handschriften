@@ -49,11 +49,11 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="30 31">30, 31</layout>
-                        <layout><p>einfache rote Initialen</p></layout>
+                        <layout><p>Einfache rote Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>verschiedene Hände</handNote>
+                     <handNote>Verschiedene Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote/>
@@ -68,10 +68,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange" cert="low" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>

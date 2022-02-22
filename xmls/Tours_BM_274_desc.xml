@@ -47,17 +47,17 @@
                               <width n="8.8"/>
                            </dimensions>
                         </extent>
-                        <condition>perfekte Konservierung, die letzten drei Blätter sind leicht
+                        <condition>Perfekte Konservierung, die letzten drei Blätter sind leicht
                            verschmutzt</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="30 32">32 (30, 31)</layout>
-                        <layout><p>rote Titel und Initialen</p></layout>
+                        <layout><p>Rote Titel und Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>zahlreiche Hände</handNote>
+                     <handNote>Zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote/>
@@ -67,16 +67,16 @@
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
-                     <decoNote>alter Holzeinband</decoNote>
+                     <decoNote>Alter Holzeinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low"><placeName>Tours</placeName> (?) und
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName> (?) und
                               etwa <placeName>Auxerre</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0850">2.
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2.
                            Viertel 9. Jhd.</origDate></p>
-                     <note/>
+              
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>

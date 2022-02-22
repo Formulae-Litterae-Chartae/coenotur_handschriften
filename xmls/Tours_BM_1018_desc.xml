@@ -49,11 +49,11 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="15"/>
-                        <layout>rote Titel und schöne rot-gelbe Initialen</layout>
+                        <layout>Rote Titel und schöne rot-gelbe Initialen</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>verschiedene Hände</handNote>
+                     <handNote>Verschiedene Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote/>
@@ -69,14 +69,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="1000"
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1000"
                            notAfter="1100">11. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="low" notBefore="1100" notAfter="1200"
+                     <p><origDate source="Rand" cert="medium" notBefore="1100" notAfter="1200"
                            >vielleicht auch 12. Jhd.</origDate></p>
-                     <note source="Rand">keine Ablehnung der Datierung von DORANGE und COLLON;
+                     <note source="Rand">Keine Ablehnung der Datierung von DORANGE und COLLON;
                         Hauptkriterium für eine spätere Datierung stellen die Initialen dar, die
-                        aber wohlmöglich später hinzugefügt wurden </note>
+                        aber wohlmöglich später hinzugefügt wurden.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>

@@ -44,12 +44,12 @@
                                         <height min="19.5" max="20.0">20,0 und 19,5</height>
                                         <width min="8.0" max="10.9">13,0 und 12,5</width>
                                     </dimensions> </extent>
-                                <condition>gut erhalten</condition>
+                                <condition>Gut erhalten</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="31 38">37/38 und 38/31</layout>
-                                <layout source="Rand">einzelne Überschriften in roter, oder zumeist brauner Kapitalis</layout>
+                                <layout source="Rand">Einzelne Überschriften in roter, oder zumeist brauner Kapitalis</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -75,7 +75,7 @@
                     <history>
                         <origin>
                             <p><origPlace source="Bischoff" cert="medium">vielleicht <placeName>Tours</placeName>?</origPlace></p>
-                            <p><origDate cert="medium" notBefore="0877" notAfter="0900">9. Jhd. nach 877</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0877" notAfter="0900">9. Jhd. nach 877</origDate></p>
                         </origin>
                         <provenance type="Provenance"><name type="Kloster"></name></provenance>
                         <acquisition><name type="Repository"></name></acquisition>

@@ -82,14 +82,13 @@
                         <additions>
                         </additions>
                         <bindingDesc>
-                            <decoNote>unüberzogener holzdeckel</decoNote>
+                            <decoNote>Unüberzogener Holzdeckel</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0860">ca. Mitte 9. Jhd.</origDate></p>
-                            <note></note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance>Die Handschrift wurde um 900 der Abtei Erstein geschenkt, vll . durch deren Gründerin Irmingard. Um 1500 war die Handschrift in Straßburg, bevor sie vor 1611/12 an Herzog August von Braunschweig-Lüneburg ging.</provenance>

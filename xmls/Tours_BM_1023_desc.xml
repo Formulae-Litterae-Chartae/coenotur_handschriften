@@ -68,11 +68,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="low"
+                     <p><origPlace source="Mercier" cert="medium"
                            ><orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Mercier" cert="low" notBefore="1400" notAfter="1420"
+                     <p><origDate source="Mercier" cert="medium" notBefore="1400" notAfter="1420"
                            >Anfang 15. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>

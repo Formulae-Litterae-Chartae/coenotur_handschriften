@@ -9,13 +9,7 @@
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
             <notesStmt>
-                <note source="Mostert">Die Zuschreibung nach Tours erfolgt vor allem aufgrund des
-                    Exlibris vom 12. Jhd.; Überlegungen, die Entstehung der Handschrift in Fleury zu
-                    verorten, verweisen auf die Neumierungen auf fol. 163r, die floriazensischen
-                    Ursprungs sind. Diese Neumen könnten durch eine Ausleihe nach Fleury oder durch
-                    einen St-Martin besuchenden floriazensischen Mönch angefertigt worden sein, ohne
-                    dass die Entstehung der gesamten Handschrift deshalb in Fleury gesucht werden
-                    muss.</note>
+              <note></note>
             </notesStmt>
             <sourceDesc>
                 <msDesc>
@@ -96,13 +90,13 @@
                                         <width n="8.0"/>
                                     </dimensions>
                                 </extent>
-                                <condition source="Dorange">mehrere frühe
+                                <condition source="Dorange">Mehrere frühe
                                     Reparaturarbeiten</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2"/>
                                 <layout writtenLines="30"/>
-                                <layout source="Rand">rote und rot-schwarze Titel, einfache rote und
+                                <layout source="Rand">Rote und rot-schwarze Titel, einfache rote und
                                     schwarze Initialen in einem primitiven Toursstil</layout>
                             </layoutDesc>
                         </objectDesc>
@@ -113,7 +107,7 @@
                                 B aus Paris, BnF, Latin 4333B. Eine korrigierende Hand </handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Rand" xml:id="Kursive">verbesserte
+                            <scriptNote source="Rand" xml:id="Kursive">Verbesserte
                                 Kursive</scriptNote>
                             <scriptNote source="Rand">imperfekte Halbunziale, Nähe zum Vatikanischen
                                 Livius</scriptNote>
@@ -126,11 +120,12 @@
                             <decoNote/>
                         </decoDesc>
                         <additions>
-                            <p source="Collon">die Kapitelübersicht weicht von der üblichen Weise
+                            <p source="Collon">Die Kapitelübersicht weicht von der üblichen Weise
                                 ab, die übliche Einteilung ist aber von einer späteren Hand
                                 hinzugefügt worden</p>
                             <p n="Exlibris"><locus/><seg type="lat">liber sancti martini
                                     turonensis</seg> 12. Jhd.</p>
+                            <p source="Collon">Die erste Lage ist wenig später hinzugefügt worden.</p>
                         </additions>
                         <bindingDesc>
                             <decoNote/>
@@ -142,8 +137,14 @@
                             <p source="Mostert"><origPlace cert="low">Fleury</origPlace></p>
                             <p source="Bischoff"><origDate cert="medium" notBefore="0800"
                                     notAfter="0825">Anfang 9. Jhd.</origDate></p>
-                            <note source="Collon">Die erste Lage ist wenig später hinzugefügt
-                                worden.</note>
+                            <note source="Mostert">Die Zuschreibung nach Tours erfolgt vor allem aufgrund des
+                                Exlibris vom 12. Jhd.; Überlegungen, die Entstehung der Handschrift in Fleury zu
+                                verorten, verweisen auf die Neumierungen auf fol. 163r, die floriazensischen
+                                Ursprungs sind. Diese Neumen könnten durch eine Ausleihe nach Fleury oder durch
+                                einen St-Martin besuchenden floriazensischen Mönch angefertigt worden sein, ohne
+                                dass die Entstehung der gesamten Handschrift deshalb in Fleury gesucht werden
+                                muss.</note>
+                            
                         </origin>
                         <provenance type="Provenance"><orgName>St-Martin de
                             Tours</orgName></provenance>

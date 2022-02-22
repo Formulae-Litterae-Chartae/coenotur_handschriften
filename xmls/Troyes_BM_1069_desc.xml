@@ -77,7 +77,6 @@
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, aber nicht Hauptskriptorium</origPlace></p>
                             <p><origPlace source="Rand" cert="medium">nicht Tours</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
-                            <note/>
                         </origin>
                         <provenance type="Provenance"></provenance>
                         <provenance></provenance>
@@ -91,7 +90,7 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2043&amp;srchDb=1,2,5,6,3,7,8,10</bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2043&amp;srchDb=1,2,5,6,3,7,8,10</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="385"/></bibl>
                         </listBibl>

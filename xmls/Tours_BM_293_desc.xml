@@ -47,9 +47,7 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines=""/>
-                        <layout><p>schöne rote Initialen</p></layout>
+                        <layout><p>Schöne rote Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -70,10 +68,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="1000"
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1000"
                            notAfter="1100">11. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>

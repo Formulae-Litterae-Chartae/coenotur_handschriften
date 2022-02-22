@@ -44,12 +44,10 @@
                               <width n=""/>
                            </dimensions>
                         </extent>
-                        <condition source="Dorange">das letzte Heft fehlt</condition>
+                        <condition source="Dorange">Das letzte Heft fehlt</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines=""/>
-                        <layout>rote und schwarze Initialen</layout>
+                        <layout>Rote und schwarze Initialen</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -68,12 +66,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange" cert="low" notBefore="1000" notAfter="1100">11.
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange" cert="medium" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
-                     <p><origDate source="Collon" cert="low" notBefore="1180" notAfter="1220">Ende
+                     <p><origDate source="Collon" cert="medium" notBefore="1180" notAfter="1220">Ende
                            11. Jhd. bzw. Anfang 12. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>

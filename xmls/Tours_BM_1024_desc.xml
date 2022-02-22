@@ -38,12 +38,11 @@
                               <width n=""/>
                            </dimensions>
                         </extent>
-                        <condition>gut</condition>
+                        <condition>Gut</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
-                        <layout>rote Titel und Initialen</layout>
+                        <layout>Rote Titel und Initialen</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -62,11 +61,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="low"
+                     <p><origPlace source="Mercier" cert="medium"
                            ><orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="1300"
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1300"
                            notAfter="1400">14. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

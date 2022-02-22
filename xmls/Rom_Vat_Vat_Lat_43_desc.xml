@@ -77,6 +77,7 @@
                     <history>
                         <origin>
                             <p><origPlace source="Traube Rand" cert="low">"Offenbar aus <placeName>Tours</placeName>"</origPlace></p>
+                            <p><origPlace source="Bischoff" cert="medium">Westfrankreich</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
                             <note>Eine Entstehung in <placeName>Tours</placeName> erscheint unwahrscheinlich.</note>
                         </origin>

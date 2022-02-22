@@ -47,19 +47,19 @@
                               <width n="8.5"/>
                            </dimensions>
                         </extent>
-                        <condition>perfekte Konservierung</condition>
+                        <condition>Perfekte Konservierung</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="26 27">27 (26)</layout>
-                        <layout><p>rote Titel und Initialen</p></layout>
+                        <layout><p>Rote Titel und Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">mindestens 4 Hände</handNote>
+                     <handNote source="Rand">Mindestens 4 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote>kursive karolingische Minuskel, keine Halbunziale</scriptNote>
+                     <scriptNote>Kursive karolingische Minuskel, keine Halbunziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -71,13 +71,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
+                     <p><origPlace source="Rand" cert="medium"
                            ><placeName>Tours</placeName>?</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">offenbar
+                     <p><origPlace source="Bischoff" cert="medium">offenbar
                               <placeName>Auxerre</placeName> (nicht Tours)</origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0850">2.
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2.
                            Viertel 9. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>
@@ -95,7 +94,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="153"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n=""/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="109"/></bibl>
-                     <bibl><idno>Weber 1955</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>Weber 1955</idno><biblScope unit="pp"/></bibl>
                      <bibl><idno>Gryson/Deproost 1989</idno><biblScope unit="pp" n="204 205"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
                   </listBibl>

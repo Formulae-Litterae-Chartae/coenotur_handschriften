@@ -47,22 +47,22 @@
                               <width n="14.9"/>
                            </dimensions>
                         </extent>
-                        <condition source="Dorange">unvollständig am Anfang und am Ende</condition>
+                        <condition source="Dorange">Unvollständig am Anfang und am Ende</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="27"/>
-                        <layout><p>rote Titel und einfache Initialen, zum Teil rot</p></layout>
+                        <layout><p>Rote Titel und einfache Initialen, zum Teil rot</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">mindestens 8 Schreiber; bei manchen finden sich noch
+                     <handNote source="Rand">Mindestens 8 Schreiber; bei manchen finden sich noch
                         die Namen, die zur Produktion am Anfang der Hefte angebracht wurden: <locus
                            n="29r">Isimbertus</locus>, <locus n="53r">Amadeus</locus>, <locus
                            n="83r">Odericus</locus></handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">erneuerte Kursive</scriptNote>
+                     <scriptNote source="Rand">Erneuerte Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -74,12 +74,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
+                     <p><origPlace source="Rand" cert="medium"
                         ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">Umkreis von Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0875" notAfter="0900">4.
+                     <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900">4.
                            Viertel 9. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
