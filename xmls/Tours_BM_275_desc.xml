@@ -48,12 +48,11 @@
                               <width n=""/>
                            </dimensions>
                         </extent>
-                        <condition>guter Erhaltungszustand</condition>
+                        <condition>Guter Erhaltungszustand</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
-                        <layout><p>rote Titel und Initialen</p></layout>
+                        <layout><p>Rote Titel und Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -67,12 +66,12 @@
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
-                     <decoNote>alter Holzeinband</decoNote>
+                     <decoNote>Alter Holzeinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange" cert="low" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
                      <note/>

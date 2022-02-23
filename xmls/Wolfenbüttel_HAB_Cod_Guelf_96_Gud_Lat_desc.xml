@@ -53,7 +53,6 @@
                             <layoutDesc>
                                 <layout columns="2"/>
                                 <layout writtenLines="30"/>
-                                <layout><p></p></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -76,7 +75,6 @@
                             <p><origPlace cert="medium" source="Rand Bischoff"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Milchsack" cert="medium" notBefore="0800" notAfter="0999">9./10. Jhd.</origDate></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel</origDate></p>
-                            <note></note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance source="Milchsack">Die Handschrift wurde von Josias Mercier für eine Ausgabe bei St-Victor in Paris benutzt. Sie gelangte wohl durch Napoleon zurück nach Paris, wurde aber nach dem Friedensschluss nach Wolfbüttel zurückgegeben.</provenance>

@@ -50,7 +50,7 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="41 42">41, 42</layout>
-                        <layout><p>rote Titel</p></layout>
+                        <layout><p>Rote Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -74,7 +74,6 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1099">11. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>

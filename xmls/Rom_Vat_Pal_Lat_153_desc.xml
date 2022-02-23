@@ -67,8 +67,8 @@
                             <p></p>
                         </decoDesc>
                         <additions>
-                            <p n="Korrekturen">zahlreiche Korrekturen von mindestens 2 Händen am Rand</p>
-                            <p n="Ergänzung">sehr viele Glossen, Nota-Zeichen und Maniculae</p>
+                            <p n="Korrekturen">Zahlreiche Korrekturen von mindestens 2 Händen am Rand</p>
+                            <p n="Ergänzung">Sehr viele Glossen, Nota-Zeichen und Maniculae</p>
                         </additions>
                         <bindingDesc>
                             <decoNote type="Roman">Römischer Einband zwischen 1878 und 1889</decoNote>
@@ -76,7 +76,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace><placeName>Tours</placeName>, wohl <orgName>St-Martin</orgName></origPlace></p>
+                            <p><origPlace source="Winandy"><placeName>Tours</placeName>, wohl <orgName>St-Martin</orgName></origPlace></p>
                             <p><origPlace source="Kautz" cert="medium">Frankreich (?)</origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>

@@ -77,7 +77,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">zum Teil <placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"></origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                      <note>Wenig kann über die Entstehung dieser Handschrift gesagt werden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
@@ -93,6 +93,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Omont 1886</idno><biblScope unit="pp" n="12"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="281"/></bibl>
                   </listBibl>
                </additional>

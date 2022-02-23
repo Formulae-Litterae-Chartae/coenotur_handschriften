@@ -44,12 +44,11 @@
                               <width n=""/>
                            </dimensions>
                         </extent>
-                        <condition>sehr gut</condition>
+                        <condition>Sehr gut</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
-                        <layout><p>blaue und rote Initialen und Titel</p></layout>
+                        <layout><p>Blaue und rote Initialen und Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -65,18 +64,17 @@
                      <p/>
                   </additions>
                   <bindingDesc>
-                     <decoNote source="Collon">alter Holzeinband umgeben mit weißem Pergament in
+                     <decoNote source="Collon">Alter Holzeinband umgeben mit weißem Pergament in
                         sehr schlechtem Zustand</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="1000"
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1000"
                            notAfter="1100">11. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="low" notBefore="1100" notAfter="1200"
+                     <p><origDate source="Rand" cert="medium" notBefore="1100" notAfter="1200"
                            >vielleicht erst 12. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>

@@ -49,7 +49,7 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="28"/>
-                        <layout><p>rote Titel und goldene Initialen</p></layout>
+                        <layout><p>Rote Titel und goldene Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -68,8 +68,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low">Tours</origPlace></p>
-                     <p><origDate source="Dorange" cert="low" notBefore="1000" notAfter="1100">11.
+                     <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
+                     <p><origDate source="Dorange" cert="medium" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
                      <note/>
                   </origin>

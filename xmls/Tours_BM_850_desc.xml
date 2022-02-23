@@ -62,7 +62,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">ungefähr 20 Hände</handNote>
+                     <handNote source="Rand">Ungefähr 20 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">Kursive mit alten Elementen</scriptNote>
@@ -74,15 +74,15 @@
                      <p source="Martinellus.de"><locus n="236v"/>Tironische Note</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>alter Holzeinband</decoNote>
+                     <decoNote>Alter Holzeinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                     <note><p>Da einige der Hände deutlich ältere kursive Elemente aufweisen, vermutet RAND, dass es sich vielleicht um die Abschrift einer Handschrift des 8. Jahrhunderts handelt</p>
-                     <p>Die einzelnen Hefte weichen in ihrer Gestaltung zum Teil sehr stark voneinander ab. Die Handschrift scheint dementsprechend durch unterschiedliche Schreiber, (mit unterschiedlichen Vorlagen ?,) etnstanden zu sein.</p></note>
+                     <note><p>Da einige der Hände deutlich ältere kursive Elemente aufweisen, vermutet RAND, dass es sich vielleicht um die Abschrift einer Handschrift des 8. Jahrhunderts handelt.</p>
+                     <p>Die einzelnen Hefte weichen in ihrer Gestaltung zum Teil sehr stark voneinander ab. Die Handschrift scheint dementsprechend durch unterschiedliche Schreiber (mit unterschiedlichen Vorlagen ?) entstanden zu sein.</p></note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>

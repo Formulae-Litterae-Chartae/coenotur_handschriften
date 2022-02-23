@@ -3,12 +3,12 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Tours, BM, 334 + Paris, BnF, NAL 1612/1613/1614</title>
+            <title>Tours, BM, 334</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Teile der Handschrift sind durch Libri gestohlen und später von der BnF gekauft worden.</note></notesStmt>
+         <notesStmt><note>Teile der Handschrift sind durch Libri gestohlen und später von der BnF gekauft worden. Sie finden sich unter den Signaturen  Paris, BnF, NAL 1612/1613/1614.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -96,7 +96,7 @@
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Hellmann" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0849">2. Viertel 9. Jhd.</origDate></p>
-                     <note>Die Entstehung bleibt aufgrund der Zweifel von KÖHLER umstritten, wobie Vieles für Tours spricht.</note>
+                     <note>Die Entstehung bleibt aufgrund der Zweifel von KÖHLER umstritten, wobei vieles für Tours spricht.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

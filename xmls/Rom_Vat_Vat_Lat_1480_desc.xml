@@ -42,24 +42,22 @@
                                         <width n="17.2"/>
                                     </dimensions>
                                 </extent>
-                                <condition>gut</condition>
+                                <condition>Gut</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="37"/>
-                                <layout><p>Rote Überschriften in Unziale? Eher capitalis rustica?</p></layout>
+                                <layout><p></p></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>mehrere Hände</handNote>
+                            <handNote>Mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote>Karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
-                                <p></p>
                             </decoNote>
                         </decoDesc>
                         <additions>
@@ -68,7 +66,7 @@
                             <p n="LKV">Lagenkontrollvermerke</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote>rot-braunes Leder</decoNote>
+                            <decoNote>Rot-braunes Leder</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -90,8 +88,8 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.1480</idno></bibl>
+                           <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="447"/></bibl>
                             <bibl><idno>Martinellus.de</idno></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="447"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

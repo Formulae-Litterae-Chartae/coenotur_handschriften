@@ -48,7 +48,7 @@
                               <width n="11.0"/>
                            </dimensions>
                         </extent>
-                        <condition>zerstört</condition>
+                        <condition>Zerstört</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -75,7 +75,6 @@
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="medium" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0875" notAfter="1100">11. Jhd., oder vielleicht auch Ende 9. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Die Handschrift wurde im Zweiten Weltkrieg zerstört.</provenance>

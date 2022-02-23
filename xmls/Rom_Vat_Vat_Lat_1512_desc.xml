@@ -55,7 +55,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Rand">sicher 2, vielleicht 3 Hände</handNote>
+                            <handNote source="Rand">Sicher 2, vielleicht 3 Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote source="Rand">Continentale Schrift</scriptNote>
@@ -89,7 +89,7 @@
                             <p source="Bischoff"><origDate cert="high" notBefore="0790" notAfter="0810">kurz vor 800 oder um 800</origDate></p>
                             <note>WILLIAMS weißt ausführlich nach, dass die Entstehung der Handschrift mit großer Wahrscheinlichkeit nach Luxeuil zu verorten ist. So erscheint Tours aufgrund des chaotischen Wechsels von Fell- zu Fleisch-Seite unwahrscheinlich. Auch das Schriftbild erscheint nicht als typisch turonisch.</note>
                         </origin>
-                        <provenance type="Provenance">Entstehung in <orgName>Luxeuil</orgName> durch Bischoff und Williams wahrscheinlich. Trotzdem überrascht es, dass die beiden einzigen anderen überlieferten Handschriften des Donatus beide sicher aus Tours stammen (Vat. lat. 1512 und Reg. Lat. 1484).</provenance>
+                        <provenance></provenance>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
                     </history>
                     <additional>
@@ -100,10 +100,10 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.1512</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="91" to="92"/></bibl>
-                            <bibl><idno>Berschin 1986</idno><biblScope unit="pp"/></bibl>
-                            <bibl><idno>Williams 2009</idno><biblScope unit="pp"/></bibl>
+                            <bibl><idno>Berschin 1986</idno><biblScope/></bibl>
+                            <bibl><idno>Williams 2009</idno><biblScope unit="pp" n="passim"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="447"/></bibl>
                         </listBibl>
                     </additional>

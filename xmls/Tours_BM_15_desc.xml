@@ -46,8 +46,8 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
-                        <layout><p>goldene Initialen</p></layout>
+                        <layout/>
+                        <layout><p>Goldene Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -75,7 +75,6 @@
                            ><orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="medium" notBefore="1200"
                            notAfter="1299">13. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>

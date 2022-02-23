@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Rand">zahlreiche Hände</handNote>
+                            <handNote source="Rand">Zahlreiche Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand">Kleine Kapitalis</p>
@@ -96,7 +96,7 @@
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.215</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="181 182"></biblScope></bibl>
-                            <bibl><idno>Contreni 1976</idno><biblScope unit="pp" n=""></biblScope></bibl>
+                            <bibl><idno>Contreni 1976</idno><biblScope unit="pp" n="802 806"></biblScope></bibl>
                             <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="259"></biblScope></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="425"></biblScope></bibl>
                          </listBibl>

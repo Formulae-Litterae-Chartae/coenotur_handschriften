@@ -62,7 +62,7 @@
                                         <width n="10.0"/>
                                     </dimensions>
                                 </extent>
-                                <condition>schlecht. Blätter teilweise so angegriffen, dass der Text nicht mehr zu lesen ist</condition>
+                                <condition>Schlecht. Blätter teilweise so angegriffen, dass der Text nicht mehr zu lesen ist</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -71,16 +71,13 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p></p>
+                            <handNote></handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p></p>
-                            <p></p>
+                            <scriptNote></scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
-                                <p></p>
                             </decoNote>
                         </decoDesc>
                         <additions>
@@ -88,17 +85,17 @@
                             <p n="Exlibris"><locus n="1r"/><seg type="lat">Ex libris Petri Danielis Aurelii 1560 nunc Nicoiai Heinsii</seg></p>
                         </additions>
                         <bindingDesc>
-                            <decoNote>rotes Leder um Holz</decoNote>
+                            <decoNote>Rotes Leder um Holz</decoNote>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Bischoff" cert="low"><placeName>Tours</placeName>?</origPlace></p>
-                            <p><origDate source="Bischoff" cert="low" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
+                            <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>?</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
                             <note>Wenn überhaupt, dann stammt nur Teil III (f.57-64) aus Tours, aber auch dieser Teil erscheint mir nicht sehr turonisch. Eine Entstehung eines Großteils der heutigen Handschrift in 4 verschiedenen mittelalterlichen Handschriften in Fleury erscheint sehr wahrscheinlich.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
-                        <provenance>Die Handschrift war or 1560 im Besitz on <persName>Pierre Daniel</persName>.</provenance>
+                        <provenance>Die Handschrift war vor 1560 im Besitz on <persName>Pierre Daniel</persName>.</provenance>
                         <provenance>Von dort gelangte sie dann in den Besitz von <persName>Heinsius</persName>.</provenance>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
                     </history>

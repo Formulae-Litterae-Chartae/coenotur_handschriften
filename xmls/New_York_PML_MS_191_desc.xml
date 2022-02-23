@@ -80,7 +80,7 @@
                         <origin>
                             <p><origPlace cert="high" source="Rand Bischoff"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0834">ca. 830-834</origDate></p>
-                            <note>Die Hadnschrift stammt sicher aus Tours.</note>
+                            <note>Die Handschrift stammt sicher aus Tours.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance>Von Libri gestohlen und an Lord Ashburnham verkauft.</provenance>

@@ -90,9 +90,9 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37B13805</idno></bibl>
-                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="540"/></bibl>
                      <bibl><idno>Grandmaison 1864</idno><biblScope n="passim"/></bibl>
-                     <bibl><idno>Barthélemy 1993</idno><biblScope n="passim"/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="540"/></bibl>
+                     <bibl><idno>Barthélemy 1995</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Fouracre 2005</idno><biblScope n="passim"/></bibl>
                   </listBibl>
                </additional>

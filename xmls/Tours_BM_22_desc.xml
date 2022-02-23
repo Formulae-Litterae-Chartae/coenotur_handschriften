@@ -51,12 +51,12 @@
                               <width n="6.3"/>
                            </dimensions>
                         </extent>
-                        <condition>perfekt erhalten</condition>
+                        <condition>Perfekt erhalten</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="25"/>
-                        <layout><p>kein Schmuck im Text; Initialen zu Beginn der
+                        <layout><p>Kein Schmuck im Text; Initialen zu Beginn der
                            Evangelien</p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -64,9 +64,9 @@
                      <handNote source="Rand">4 Hände, vielleicht 2 zusätzliche</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Berger">vollständig in goldener Unziale; irischer
+                     <scriptNote source="Berger">Vollständig in goldener Unziale; irischer
                         Stil</scriptNote>
-                     <scriptNote source="Rand">nicht von einem Iren</scriptNote>
+                     <scriptNote source="Rand">Nicht von einem Iren</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -146,7 +146,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="102 103"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="324"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
-                     <bibl><idno>Mostert 1984</idno><biblScope unit="pp" n="250"/></bibl>
+                     <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="250"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
                   </listBibl>
                </additional>

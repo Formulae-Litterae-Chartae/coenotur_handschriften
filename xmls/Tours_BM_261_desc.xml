@@ -9,7 +9,7 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt><note>Es handelt sich um mehrere später zusammengebundene Handschriften.</note>
-         <note n="ink"></note></notesStmt>
+            <note n="ink"></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -114,7 +114,7 @@
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="191 192"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="183"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
-                     <bibl><idno>Wallenwenin 2017</idno><biblScope unit="pp" n="25"/></bibl>
+                     <bibl><idno>Wallenwein 2017</idno><biblScope unit="pp" n="25"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>
