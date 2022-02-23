@@ -55,20 +55,17 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>verschiedene  Hände</handNote>
+                            <handNote source="Bischoff">Verschiedene Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p>schlanke karolingische Minuskel</p>
-                            <p></p>
+                            <scriptNote source="Bischoff">Schlanke karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <locus n=""/>
-                                <p></p>
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p n="Korrekturen">einige wenige Korrekturen</p>
+                            <p n="Korrekturen">Einige wenige Korrekturen</p>
                             <p n="Exlibris"><locus n=""/><seg type="lat">Alexander Pauli filius Petauies Parisenses anno 1647</seg></p>
                         </additions>
                         <bindingDesc>
@@ -79,7 +76,7 @@
                         <origin>
                             <p><origPlace source="Bischoff" cert="medium">Westfrankrenreich (z.T. <placeName>Tours</placeName>?)</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
-                            <note>Die Schrift wirkt nicht besonders turonisch.</note>
+                            <note>Das Schriftbild deutet auf eine Entstehung nicht in Tours hin.</note>
                         </origin>
                         <provenance type="Provenance"></provenance>
                         <provenance>Wie das Exlibris belegt, war die Handschrift 1647 im Besitz von <persName>Alexandre Pauli</persName>, dem Sohn von Petau.</provenance>

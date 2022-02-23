@@ -41,12 +41,12 @@
                               <width n="7.8"/>
                            </dimensions>
                         </extent>
-                        <condition>letztes Heft mit den letzten 7 Kapiteln fehlt</condition>
+                        <condition>Letztes Heft mit den letzten 7 Kapiteln fehlt</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="27 44">27 (33, 34, 44)</layout>
-                        <layout><p>rote Titel; schöne Initialen in rot und schwarz mit ausgeprägtem
+                        <layout><p>Rote Titel; schöne Initialen in rot und schwarz mit ausgeprägtem
                               Design</p></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -68,11 +68,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
+                     <p><origPlace source="Rand" cert="medium"
                         ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0900"
                            notAfter="1000">10. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="low" notBefore="1000" notAfter="1100">11. Jhd.
+                     <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1100">11. Jhd.
                            (?)</origDate></p>
                      <note/>
                   </origin>

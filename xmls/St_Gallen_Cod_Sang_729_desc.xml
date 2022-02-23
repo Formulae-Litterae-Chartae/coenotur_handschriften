@@ -68,12 +68,10 @@
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="20 25"/>
-                                <layout><p></p>
-                                </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote source="Mordek">mehrere Hände</handNote>
+                            <handNote source="Mordek">Mehrere Hände</handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote source="Mordek">Karolingische Minuskel</scriptNote>

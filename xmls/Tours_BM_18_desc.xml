@@ -49,7 +49,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="20"/>
-                        <layout><p>rote Initialen gefüllt mit grün, gelb oder blau</p></layout>
+                        <layout><p>Rote Initialen gefüllt mit grün, gelb oder blau</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -74,8 +74,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1099">11. Jhd.</origDate></p>
-                     <note/>
-                  </origin>
+                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>

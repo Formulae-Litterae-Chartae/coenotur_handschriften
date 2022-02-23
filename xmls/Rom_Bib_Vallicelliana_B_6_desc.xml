@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Die Handschrift ist mit großer Sicherheit nicht in Tours entstanden. Sie wird hier aufgeführt, da sie im Katalog von RAND ist.</note></notesStmt>
+         <notesStmt><note>Die Handschrift ist mit großer Sicherheit nicht in Tours entstanden. Sie wird hier aufgeführt, da sie im Katalog von RAND angeführt wird.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -58,19 +58,19 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">mehrere Hände</handNote>
+                     <handNote source="Rand">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>vorhanden
+                     <decoNote>Vorhanden
                      </decoNote>
                   </decoDesc>
                   <additions>
                   </additions>
                   <bindingDesc>
-                     <decoNote source="Berger">roter Maroquineinband</decoNote>
+                     <decoNote source="Berger">Roter Maroquineinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -81,7 +81,7 @@
                      <p><origPlace source="Fischer" cert="medium"><placeName>Reims</placeName>?</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">(Nördliches) Frankreich (zum Teil Reims?)</origPlace></p>
                      <p><origDate source="Fischer Bischoff" cert="medium" notBefore="0825" notAfter="0860">2. Viertel/Mitte 9. Jhd.</origDate></p>
-                     <note>Die Entstehung der Handschrift ist nicht gesichert. Sie scheint aus dem Umfeld von Reims zu stammen. Der Text der Hadnschrift ist da, "wo er wie gewöhnlich turonische und nicht wie an wenigen Stellen anderseitig beeinflußt ist", einer der besten der Alkuin-Bibeln (FISCHER).</note>
+                     <note>Die Entstehung der Handschrift ist nicht gesichert. Sie scheint aus dem Umfeld von Reims zu stammen. Der Text der Handschrift ist da, "wo er wie gewöhnlich turonische und nicht wie an wenigen Stellen anderseitig beeinflußt ist", einer der besten der Alkuin-Bibeln (FISCHER).</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

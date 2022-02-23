@@ -57,8 +57,6 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="19 20">19-20</layout>
-                        <layout><p></p>
-                       </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -102,13 +100,13 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>	https://www.e-codices.unifr.ch/en/list/one/csg/0268</idno></bibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>	http://www.europeanaregia.eu/node/9030</idno></bibl>
-                     <bibl><title>Online Beschreibung</title>: <idno>	http://beta.biblissima.fr/fr/ark:/43093/mdataf0a2cee13c3bd7ecc5f676039bc987864efb4176</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://www.e-codices.unifr.ch/en/list/one/csg/0268</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://www.europeanaregia.eu/node/9030</idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>http://beta.biblissima.fr/fr/ark:/43093/mdataf0a2cee13c3bd7ecc5f676039bc987864efb4176</idno></bibl>
                      <bibl><idno>Scherrer 1875</idno><biblScope unit="pp" n="101"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="364" to="365"/></bibl>
-                     <bibl><idno>Bischoff 1962</idno><biblScope unit="pp" n="13"/></bibl>
+                     <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="13"/></bibl>
                      <bibl><idno>Bergmann/Stricker 2005</idno><biblScope unit="pp" from="517" to="518"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="319"/></bibl>
                   </listBibl>

@@ -79,7 +79,7 @@
                         <origin>
                             <p><origPlace cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0820">um 800, vermutlich zu Beginn des Abbatiats von <persName type="Abt">Fridugisus</persName> (804-834)</origDate></p>
-                            <note>Durch die Nennung der Schreiber, deren Namen auch im Sankt Galler Verbrüderungsbuch zu finden sind, mit Sicherheit nach Saint Martin zu verorten und zu Beginn des 9. Jahrhunderts zu datieren. Da das Verbrüderungsbuch zur Zeit Fridugisus angelegt wurde, erscheint eine Datierung auf seine Regierungszeit wahrscheinlich. Dagegen spricht die Schriftentwicklung, die eine Stufe vor den großen Prachtbibeln darstellt. Da dieser unter Alkuin entstanden aber erst unter Fridugisus seine volle Wirksamkeit entfaltete, erscheint eine Datierung auf die Anfangsjahre Fridugisus oder sehr kurz davor wahrscheinlich.</note>
+                            <note>Durch die Nennung der Schreiber, deren Namen auch im Sankt Galler Verbrüderungsbuch zu finden sind, mit Sicherheit nach Saint Martin zu verorten und zu Beginn des 9. Jahrhunderts zu datieren. Da das Verbrüderungsbuch zur Zeit Fridugisus angelegt wurde, erscheint eine Datierung auf seine Regierungszeit wahrscheinlich. Dagegen spricht die Schriftentwicklung, die eine Stufe vor den großen Prachtbibeln darstellt. Da diese unter Alkuin entstanden aber erst unter Fridugisus seine volle Wirksamkeit entfaltete, erscheint eine Datierung auf die Anfangsjahre Fridugisus oder sehr kurz davor wahrscheinlich.</note>
                         </origin>
                         <provenance source="Rand" type="Provenance" cert="low">Umgebung von <orgName>Fleury</orgName></provenance>
                         <provenance>Die Handschrift war im Besitz von <persName>Alexandre Petau.</persName></provenance>
@@ -96,11 +96,11 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.762</idno></bibl>
-                            <bibl><idno>Shipley 1904</idno><biblScope unit="pp"/></bibl>
+                            <bibl><idno>Shipley 1903</idno><biblScope unit="pp" n="passim"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="96" to="97"/></bibl>
-                            <bibl><idno>Colophons de manuscrits Bd. 5 1979</idno><biblScope unit="pp" n="489"></biblScope></bibl>
+                            <bibl><idno>Colophons de manuscrits 5 1979</idno><biblScope unit="pp" n="489"></biblScope></bibl>
                             <bibl><idno>Vezin 1973</idno><biblScope unit="pp" n="213"/></bibl>
-                            <bibl><idno>Bischoff 1990</idno><biblScope unit="pp" n="58 60"/></bibl>
+                            <bibl><idno>Schipke 1994</idno><biblScope/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="435"/></bibl>
                         </listBibl>
                     </additional>

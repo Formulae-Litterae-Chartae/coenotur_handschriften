@@ -47,8 +47,6 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns=""/>
-                        <layout writtenLines="="/>
                         <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -70,9 +68,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="" cert="low"><orgName>St-Martin</orgName>
+                     <p><origPlace cert="medium"><orgName>St-Martin</orgName>
                         (?)</origPlace></p>
-                     <p><origDate source="" cert="low" notBefore="1400" notAfter="1500">15.
+                     <p><origDate cert="medium" notBefore="1400" notAfter="1500">15.
                            Jhd.</origDate></p>
                      <note/>
                   </origin>

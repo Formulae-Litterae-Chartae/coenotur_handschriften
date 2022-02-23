@@ -79,7 +79,6 @@
                         <origin>
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName> (?)</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0899">3. (oder 4.) Viertel 9. Jhd.</origDate></p>
-                            <note/>
                         </origin>
                         <provenance type="Provenance"><placeName></placeName></provenance>
                         <provenance></provenance>
@@ -93,7 +92,7 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2649&amp;srchDb=1,2,5,6,3,7,8,10</bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2649&amp;srchDb=1,2,5,6,3,7,8,10</idno></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="385"/></bibl>
                         </listBibl>
                     </additional>

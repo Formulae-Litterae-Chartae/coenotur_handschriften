@@ -88,8 +88,6 @@
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="18"/>
-                                <layout>
-                                </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -99,7 +97,7 @@
                             <scriptNote/>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>vorhanden</decoNote>
+                            <decoNote>Vorhanden</decoNote>
                         </decoDesc>
                         <additions><p n="tironische Noten" source="Hellmann">Lagenkontrollvermerke in tironischen Noten</p>
                         </additions>
@@ -111,8 +109,7 @@
                         <origin>
                             <p><origPlace cert="medium" source="Bischoff"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
-                            <note></note>
-                        </origin>
+                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance></provenance>
                         <acquisition><name type="Repository">HAB</name></acquisition>

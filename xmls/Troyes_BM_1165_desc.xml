@@ -97,7 +97,7 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2072</bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2072</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="385"/></bibl>
                             <bibl><idno>Martinellus.de</idno><biblScope/></bibl>

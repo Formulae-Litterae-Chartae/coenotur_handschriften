@@ -52,7 +52,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="39 40">39 (40)</layout>
-                        <layout><p>rote Titel</p></layout>
+                        <layout><p>Rote Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -66,20 +66,19 @@
                   </decoDesc>
                   <additions>
                      <p source="Collon">Glossen aus dem 13. oder 14. Jhd.</p>
-                     <p><locus n="1"/>ein Brief von 1051 der Kleriker von Nantes an den Papst, in
+                     <p><locus n="1"/>Ein Brief von 1051 der Kleriker von Nantes an den Papst, in
                         dem sich über die Verwaltung des Bischofs Airard von Nantes beschwert
                         wird</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote>alter Holzeinband</decoNote>
+                     <decoNote>Alter Holzeinband</decoNote>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >3. Viertel 9. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance/>

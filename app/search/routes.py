@@ -62,7 +62,9 @@ def r_results():
                        with_illuminations=request.args.get('with_illuminations'),
                        with_exlibris=request.args.get('with_exlibris'),
                        with_tironoten=request.args.get('with_tironoten'),
-                       with_neumierung=request.args.get('with_neumierung'))
+                       with_neumierung=request.args.get('with_neumierung'),
+                       with_ink_analysis=request.args.get('with_ink_analysis'),
+                       sort=request.args.get('sort', '_id'))
     posts, total, aggs = advanced_query_index(**search_args)
     return render_template('search/search.html', title=_('Suche'), posts=posts, current_page=page,
                            total_results=total, aggs=aggs, highlight_mapping=HIGHLIGHT_MAPPING)

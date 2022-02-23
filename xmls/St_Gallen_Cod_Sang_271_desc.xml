@@ -50,8 +50,6 @@
                      <layoutDesc>
                         <layout/>
                         <layout writtenLines="16 18">16-18</layout>
-                        <layout><p></p>
-                       </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -78,7 +76,7 @@
                      <p><origPlace source="Bullough" cert="medium"><orgName>St-Gallen</orgName></origPlace></p>
                      <p><origDate source="Scherrer" cert="medium" notBefore="0800" notAfter="0830">Anfang 9. Jhd.</origDate></p>
                      <p><origDate source="Bullough" cert="medium" notBefore="0820" notAfter="0830">In the 820s.</origDate></p>
-                     <note>Eine Entstehung in <orgName>St-Gallen</orgName> erscheint nach den Ausführungen von Bullough am wahrscheinlichsten. Demnach wäre die Handschrift wahrscheinlich als Abschrift in St-Gallen im Zusammenhang mit der Verbrüderung unter <persName type="abt">Fridugisus</persName> entstanden.</note>
+                     <note>Eine Entstehung in <orgName>St-Gallen</orgName> erscheint nach den Ausführungen von BULLOUGH am wahrscheinlichsten. Demnach wäre die Handschrift wahrscheinlich als Abschrift in St-Gallen im Zusammenhang mit der Verbrüderung unter <persName type="abt">Fridugisus</persName> entstanden.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gallen</orgName></provenance>
                   <provenance></provenance>
@@ -96,7 +94,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>http://www.europeanaregia.eu/node/9033</idno></bibl>
                      <bibl><title>Online Beschreibung</title>: <idno>http://beta.biblissima.fr/fr/ark:/43093/mdataeb607836f44c76eab10c8f75439413643c19ea6f</idno></bibl>
                      <bibl><idno>Scherrer 1875</idno><biblScope unit="pp" n="102"/></bibl>
-                     <bibl><idno>Bullough 2003</idno><biblScope unit="pp" n="61"/></bibl>
+                     <bibl><idno>Bullough 2002</idno><biblScope unit="pp" n="61"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

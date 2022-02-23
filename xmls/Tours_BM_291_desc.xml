@@ -70,12 +70,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Rand" cert="low" notBefore="1100" notAfter="1200">12.
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="1100" notAfter="1200">12.
                            Jhd.</origDate></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="1000"
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1000"
                            notAfter="1100">11. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>

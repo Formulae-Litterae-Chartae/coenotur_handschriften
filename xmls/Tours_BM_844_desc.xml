@@ -47,17 +47,17 @@
                               <width n="22.0"/>
                            </dimensions>
                         </extent>
-                        <condition>gut erhalten</condition>
+                        <condition>Gut erhalten</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="36 41">39 (36, 37, 40, 41)</layout>
                         <layout source="Winandy">Titel in schwarzer Capitalis rustica</layout>
-                        <layout source="Rand">rote Titel und rote Initialen</layout>
+                        <layout source="Rand">Rote Titel und rote Initialen</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">mindestens 6 Hände</handNote>
+                     <handNote source="Rand">Mindestens 6 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote/>
@@ -68,7 +68,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris" source="Dorange">letztes Schutzfolium, 15. Jhd.: <seg
+                     <p n="Exlibris" source="Dorange">Letzte Schutzblatt, 15. Jhd.: <seg
                            type="lat">Pro ecclesia Turonensi extractus et commodatus honorabili
                            domino cancellario Francie, de mandato dominorum ejusdem ecclesie, die
                            XVIIa mensis novembris, M°CCC°LXXXIX°. Ita est F. REGIS</seg> sowie <seg
@@ -81,8 +81,8 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Rand" cert="low"><orgName>St-Maurice</orgName>?</origPlace></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0804" notAfter="0820">„later member of Regular Style (804-820)“</origDate></p>
+                     <p><origPlace source="Rand" cert="medium"><orgName>St-Maurice</orgName>?</origPlace></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0804" notAfter="0820">„later member of Regular Style (804-820)“</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">(1./)2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Dorange Collon" cert="low" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
                      <note>Die Datierung um 820-830 erscheint, genau wie die Entstehung in Tours,

@@ -57,4 +57,5 @@ class AdvancedSearchForm(SearchForm):
     with_exlibris = BooleanField(_l('Nur Handschriften mit "exlibris" Notierung'))
     with_tironoten = BooleanField(_l('Nur Handschriften mit tironischen Noten'))
     with_neumierung = BooleanField(_l('Nur neumierte Handschriften'))
+    with_ink_analysis = BooleanField(_l('Nur Handschriften mit Tintenanalyse'))
     submit = SubmitField(_l('Suche Durchführen'), id="advancedSearchSubmit")

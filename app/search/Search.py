@@ -32,6 +32,15 @@ AGGREGATIONS = {'range': range_agg,
 HITS_TO_READER = 10000
 
 
+def build_sort_list(sort_str: str) -> Union[str, List[Union[Dict[str, Dict[str, str]], str]]]:
+    if sort_str == '_id':
+        return '_id'
+    if sort_str == 'date_asc':
+        return [{'mid_date': {'order': 'asc'}}, '_id']
+    if sort_str == 'date_desc':
+        return [{'mid_date': {'order': 'desc'}}, '_id']
+
+
 def suggest_word_search(**kwargs) -> Union[List[str], None]:
     """ To enable search-as-you-type for the text search
 
@@ -95,13 +104,16 @@ def advanced_query_index(simple_q: str = '',
                          with_illuminations: str = '',
                          with_exlibris: str = '',
                          with_tironoten: str = '',
-                         with_neumierung: str = '') -> Tuple[List[Dict[str, Union[str, list, dict]]],
+                         with_neumierung: str = '',
+                         with_ink_analysis: str = '',
+                         sort: str = '_id') -> Tuple[List[Dict[str, Union[str, list, dict]]],
                                                                             int,
                                                                             dict]:
     if not current_app.elasticsearch:
         return [], 0, {}
     # all parts of the query should be appended to the 'must' list. This assumes AND and not OR at the highest level
-    body_template = dict({"query": {"bool": {"must": []}}, "sort": '_id', 'size': 10000, 'aggs': AGGREGATIONS})
+    sort = build_sort_list(sort)
+    body_template = dict({"query": {"bool": {"must": []}}, "sort": sort, 'size': 10000, 'aggs': AGGREGATIONS})
     search_highlight = {'identifier': {}, 'ms_item': {}, 'provenance': {}, 'with_digitalisat': {}}
     if simple_q:
         search_highlight.update({'person.name': {}, 'orig_place.place': {}})
@@ -116,7 +128,8 @@ def advanced_query_index(simple_q: str = '',
     for bool_arg, arg_name in [(with_exlibris, 'exlibris'),
                                (with_illuminations, 'illuminated'),
                                (with_neumierung, 'musicNotation'),
-                               (with_tironoten, 'tironoten')]:
+                               (with_tironoten, 'tironoten'),
+                               (with_ink_analysis, 'ink_analysis')]:
         if bool_arg in ['True', True]:
             body_template['query']['bool']['must'].append({'term': {arg_name: True}})
     fields = {'flat_fields':
@@ -220,6 +233,5 @@ def advanced_query_index(simple_q: str = '',
             date_clauses.append({'range': {'max_date': {'gte': '{:04}'.format(int(orig_year_start))}}})
         body_template['query']['bool']['must'].append({'bool': {'must': date_clauses}})
 
-    print(body_template)
     search = current_app.elasticsearch.search(index='coenotur', doc_type="", body=body_template)
     return search['hits']['hits'], search['hits']['total'], search['aggregations']

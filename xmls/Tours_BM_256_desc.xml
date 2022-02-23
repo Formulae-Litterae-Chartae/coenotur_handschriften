@@ -57,7 +57,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>zahlreiche Hände</handNote>
+                     <handNote>Zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote/>
@@ -66,7 +66,7 @@
                      <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
-                     <p><locus n="5"/>zeitgenössisches Inhaltsverzeichnis</p>
+                     <p><locus n="5"/>Zeitgenössisches Inhaltsverzeichnis</p>
                      <p><seg type="lat">Codex operum S. Cypriani martyris, ann. Circiter 800, et
                            impensis D. Gatiani de Galliczon, canonici precentoris, anno 1703, in
                            hunc ordinem restitutus et convestitus.</seg></p>
@@ -79,15 +79,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
+                     <p><origPlace source="Rand" cert="medium"
                            ><placeName>Tours</placeName>?</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low"
+                     <p><origPlace source="Bischoff" cert="medium"
                               ><placeName>Nordostfrankreich</placeName>?</origPlace></p>
-                     <p><origDate source="Bischoff" cert="low" notBefore="0800" notAfter="0825"
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >Anfang 9. Jhd.</origDate></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0900"
                            notAfter="1000">10. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance source="Dorange">1703 nach <orgName>St-Martin</orgName> zurückgekehrt

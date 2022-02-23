@@ -47,17 +47,17 @@
                               <width n="11.0"/>
                            </dimensions>
                         </extent>
-                        <condition>zerstört (1939-1945)</condition>
+                        <condition>Zerstört (1939-1945)</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="30"/>
-                        <layout><p source="Rand">rote Titel, einfache rote und schwarze
+                        <layout><p source="Rand">Rote Titel, einfache rote und schwarze
                               Initialen</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Rand">hauptsächlich von einer Hand</handNote>
+                     <handNote source="Rand">Hauptsächlich von einer Hand</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">Kursive ohne Halbunziale</scriptNote>
@@ -79,11 +79,11 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"
                            ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="0800"
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0800"
                            notAfter="0900">9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0880" notAfter="0900">Ende 9.
+                     <p><origDate source="Rand" cert="medium" notBefore="0880" notAfter="0900">Ende 9.
                            Jhd.</origDate></p>
-                     <p><origDate source="Kéry" cert="low" notBefore="0875" notAfter="0900">4.
+                     <p><origDate source="Kéry" cert="medium" notBefore="0875" notAfter="0900">4.
                            Viertel 9. Jhd.</origDate></p>
                      <note>Nur wenig ist bekannt. Eine Datierung ins Ende des 9. Jahrhunderts und
                         eine Entstehung in Tours, vielleicht St-Martin, erscheint wahrscheinlich.
@@ -110,11 +110,9 @@
                         <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A15943</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="286"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="447" to="449"/></bibl>
-                     <bibl><idno>Wilmart 1922</idno><biblScope unit="pp" n="239"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="187"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="329"/></bibl>
-                     <bibl><idno>Speculum 1954</idno><biblScope unit="pp" n="337"/></bibl>
-                     <bibl><idno>Kéry 2013</idno><biblScope unit="pp" n="73 74"/></bibl>
+                     <bibl><idno>Kéry 1999</idno><biblScope unit="pp" n="73 74"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
                   </listBibl>
                </additional>

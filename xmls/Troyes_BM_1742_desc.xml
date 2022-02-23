@@ -73,7 +73,7 @@
                             <handNote>2 Haupthände (fol. 1-58; 58v-84)</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote>karolingische Minuskel</scriptNote>
+                            <scriptNote>Karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="figureinitial">
@@ -113,7 +113,7 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.1634&amp;srchDb=2</bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.1634&amp;srchDb=2</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="114 115"/></bibl>
                             <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="367"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="386"/></bibl>

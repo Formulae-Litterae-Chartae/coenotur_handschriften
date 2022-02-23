@@ -79,7 +79,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote source="Collon">mehrere Hände</handNote>
+                     <handNote source="Collon">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">"Revived Cursive</scriptNote>
@@ -89,7 +89,6 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -122,7 +121,7 @@
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="604 605"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="193 194"/></bibl>
                      <bibl><idno>Van de Vyver 1935</idno><biblScope unit="pp" n="31 32"/></bibl>
-                     <bibl><idno>Stevens 1979</idno><biblScope unit="pp" n="175"/></bibl>
+                     <bibl><idno>Stevens 1995</idno><biblScope unit="pp" n="175"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
                   </listBibl>
                </additional>

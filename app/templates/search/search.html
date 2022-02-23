@@ -15,15 +15,15 @@
     {% if posts|length == 0 %}
     <h4>{{ _("Keine Ergebnisse") }}</h4>
     {% endif %}
-    
+    {% set path_no_sort %}{% for r in request.args %}{% if r != 'sort' %}{{ r }}={{ request.args.get(r) }}&{% endif %}{% endfor %}{% endset %}
     <table id="partsSearchResultTable" class="table table-sm table-hover table-bordered" aria-label="{{ _('Suchergebnisse') }}">
         <thead>
             <tr>
                 <th id="results-text-column" scope="col">{{ _('Text') }}</th>
-                <th id="results-date-column" scope="col">{{ _('Entstehungszeit') }}</th>
+                <th id="results-date-column" scope="col">{{ _('Entstehungszeit') }} <a href="{{ url_for('search.r_results') + '?' + path_no_sort }}sort=date_asc">↑</a> <a href="{{ url_for('search.r_results') + '?' + path_no_sort }}sort=date_desc">↓</a></th>
                 <th id="results-place-column" scope="col">{{ _('Entstehungsort') }}</th>
                 <th id="results-contents-column" scope="col">{{ _('Inhalt') }}</th>
-                <th id="results-title-column" scope="col">{{ _('Manuskript') }}</th>
+                <th id="results-title-column" scope="col">{{ _('Manuskript') }} <a href="{{ url_for('search.r_results') + '?' + path_no_sort }}sort=_id">↑</a></th>
             </tr>
         </thead>
         <tbody>

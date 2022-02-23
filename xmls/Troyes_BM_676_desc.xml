@@ -70,10 +70,10 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p><origPlace source="Rand" cert="low">nicht <placeName>Tours</placeName></origPlace></p>
+                            <p><origPlace source="Rand" cert="medium">nicht <placeName>Tours</placeName></origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, aber wohl nicht Hauptskriptorium</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                            <note/>
+                            <note>Die Entstehung dieser Handschrift wirft viele Fragen auf.</note>
                         </origin>
                         <provenance type="Provenance"><placeName></placeName></provenance>
                         <provenance></provenance>
@@ -87,8 +87,8 @@
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno/>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2594&amp;srchDb=1,2,5,6,3,7,8,10</bibl>
-                            <bibl><idno>Libri 1842</idno><biblScope unit="pp" n="15 16"/></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2594&amp;srchDb=1,2,5,6,3,7,8,10</idno></bibl>
+                            <bibl><idno>Libri 1841</idno><biblScope unit="pp" n="15 16"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="384"/></bibl>
                         </listBibl>

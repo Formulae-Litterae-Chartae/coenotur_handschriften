@@ -25,7 +25,7 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Theologie Kiirchenväter">
+                  <msItem class="Theologie Kirchenväter">
                      <author>Augustinus</author>
                      <title>Libri de Trinitate numero quindecim; Liber de Gratia Novi Testamentum ad
                         Honoratum; Liber contra quinque hereses</title>
@@ -45,12 +45,11 @@
                               <width n=""/>
                            </dimensions>
                         </extent>
-                        <condition>gut</condition>
+                        <condition>Gut</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines=""/>
-                        <layout><p>feine rote Initialen und rote Titel</p></layout>
+                        <layout><p>Feine rote Initialen und rote Titel</p></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -71,8 +70,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="1000"
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1000"
                            notAfter="1100">11. Jhd.</origDate></p>
                      <note/>
                   </origin>

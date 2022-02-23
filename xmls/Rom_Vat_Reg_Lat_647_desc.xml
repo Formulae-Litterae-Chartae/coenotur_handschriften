@@ -96,7 +96,7 @@
                             <note>RAND macht darauf aumerksam, dass die Handschrift derjenigen aus <placeName>Tours</placeName> nicht unähnlich ist und wahrscheinlich kurz nach der Abfassung des Textes c. 863 im Umfeld von Tours geschrieben wurde.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
-                        <provenance>Die Handschrift gehört <persName>Alexandre Petau</persName></provenance>
+                        <provenance>Die Handschrift gehört <persName>Alexandre Petau</persName>.</provenance>
                         <provenance source="Poupardin">Von dort gelangte sie in den Besitz der Königin <persName>Christine von Schweden</persName>.</provenance>
                         <acquisition>Von dort gelangt sie an die <name type="Repository">Vatikanische Bibliothek</name></acquisition>
                     </history>
@@ -113,8 +113,8 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.647</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="165"/></bibl>
                             <bibl><idno>Poupardin 1905</idno><biblScope unit="pp" from="XLV" to="XLVI"/></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="165"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="434"/></bibl>
                         </listBibl>
                     </additional>
