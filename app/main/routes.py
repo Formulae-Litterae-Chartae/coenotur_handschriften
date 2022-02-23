@@ -116,7 +116,7 @@ def handschrift(manuscript: str):
                                                               d.get('source') else ''))
     for c in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:note',
                        namespaces=current_app.namespaces):
-        c_text = ''.join(c.xpath('.//text()'))
+        c_text = ''.join(insert_style_spans(c))
         end_symbol = ''
         if c_text.strip().endswith('.'):
             end_symbol = '.'
@@ -126,6 +126,8 @@ def handschrift(manuscript: str):
                                                                 end_symbol))
     metadata['layout_notes'] = []
     metadata['condition'] = []
+    metadata['page_size'] = []
+    metadata['dim_written'] = []
     for obj_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc',
                               namespaces=current_app.namespaces):
         metadata['obj_form'] = obj_desc.get('form')
@@ -137,24 +139,30 @@ def handschrift(manuscript: str):
                     dim_unit = dimension.get('unit')
                     height_element = dimension.xpath('tei:height', namespaces=current_app.namespaces)
                     width_element = dimension.xpath('tei:width', namespaces=current_app.namespaces)
-                    dim_height = ''
-                    dim_width = ''
+                    dim_height = []
+                    dim_width = []
                     if len(height_element) > 0:
-                        if height_element[0].text and height_element[0].text.strip():
-                            dim_height = height_element[0].text.strip()
-                        elif height_element[0].get('n'):
-                            dim_height = height_element[0].get('n').replace('.', ',') + ' ' + dim_unit
+                        for h_e in height_element:
+                            if h_e.text and h_e.text.strip():
+                                dim_height.append(h_e.text.strip())
+                            elif h_e.get('n'):
+                                dim_height.append(h_e.get('n').replace('.', ',') + ' ' + dim_unit)
                     if len(width_element) > 0:
-                        if width_element[0].text and width_element[0].text.strip():
-                            dim_width = width_element[0].text.strip()
-                        elif width_element[0].get('n'):
-                            dim_width = width_element[0].get('n').replace('.', ',') + ' ' + dim_unit
+                        for w_e in width_element:
+                            if w_e.text and w_e.text.strip():
+                                dim_width.append(w_e.text.strip())
+                            elif w_e.get('n'):
+                                dim_width.append(w_e.get('n').replace('.', ',') + ' ' + dim_unit)
                     if dimension.get('type') == 'leaf':
-                        metadata['page_size'] = '{} x {}'.format(dim_height, dim_width)
+                        for i, d_h in enumerate(dim_height):
+                            if len(dim_width) > i:
+                                metadata['page_size'].append('{} x {}'.format(d_h, dim_width[i]))
                     if dimension.get('type') == 'written':
-                        metadata['dim_written'] = '{} x {}'.format(dim_height, dim_width)
+                        for i, d_h in enumerate(dim_height):
+                            if len(dim_width) > i:
+                                metadata['dim_written'].append('{} x {}'.format(d_h, dim_width[i]))
             for condition in sup_desc.xpath('tei:condition', namespaces=current_app.namespaces):
-                condition_text = ''.join(condition.xpath('.//text()'))
+                condition_text = ''.join(insert_style_spans(condition))
                 if condition_text:
                     end_symbol = ''
                     if condition_text.strip().endswith('.'):
@@ -165,7 +173,7 @@ def handschrift(manuscript: str):
                                                                  end_symbol))
         for lay_desc in obj_desc.xpath('tei:layoutDesc', namespaces=current_app.namespaces):
             for layout in lay_desc.xpath('tei:layout', namespaces=current_app.namespaces):
-                layout_text = ''.join(layout.xpath('.//text()'))
+                layout_text = ''.join(insert_style_spans(layout))
                 if layout.get('columns'):
                     if layout_text:
                         metadata['num_columns'] = layout_text
@@ -189,7 +197,7 @@ def handschrift(manuscript: str):
     for scr_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:scriptDesc',
                               namespaces=current_app.namespaces):
         for note in scr_desc.xpath('./tei:p|./tei:scriptNote', namespaces=current_app.namespaces):
-            scr_desc_text = ''.join(note.xpath('.//text()'))
+            scr_desc_text = ''.join(insert_style_spans(note))
             if scr_desc_text:
                 end_symbol = ''
                 if scr_desc_text.strip().endswith('.'):
@@ -202,7 +210,7 @@ def handschrift(manuscript: str):
     for hand_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc',
                                namespaces=current_app.namespaces):
         for note in hand_desc.xpath('./tei:p|./tei:handNote', namespaces=current_app.namespaces):
-            hand_desc_text = ''.join(note.xpath('.//text()'))
+            hand_desc_text = ''.join(insert_style_spans(note))
             if hand_desc_text:
                 end_symbol = ''
                 if hand_desc_text.strip().endswith('.'):
@@ -246,7 +254,7 @@ def handschrift(manuscript: str):
                 end_symbol = ''
                 if marked_up_text.strip().endswith('.'):
                     end_symbol = '.'
-                metadata[m_d_target].append('{}{}{}{}'.format(add_locus, marked_up_text,
+                metadata[m_d_target].append('{}{}{}{}'.format(add_locus, marked_up_text.strip('. \n'),
                                                               ' (' + adds.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
                                                               adds.get('source') else '',
                                                               end_symbol))
@@ -322,7 +330,12 @@ def handschrift(manuscript: str):
             for p_tag in note.xpath('./tei:p/@source', namespaces=current_app.namespaces):
                 if p_tag:
                     source = p_tag
-        if note.xpath('.//text()'):
+        if note.get('n') == 'ink':
+            if note.xpath('./tei:idno/text()', namespaces=current_app.namespaces):
+                metadata['ink_notes'] = '<a href="{idno}" target="_blank">{idno}</a>'.format(idno=note.xpath('./tei:idno/text()', namespaces=current_app.namespaces)[0])
+            else:
+                metadata['ink_notes'] = 'Auf dieser Handschrift wurde Tintenanalyse vorgenommen.'
+        elif note.xpath('.//text()'):
             end_symbol = ''
             note_text = ' '.join(insert_style_spans(note))
             if note_text.strip().endswith('.'):
@@ -366,7 +379,7 @@ def handschrift(manuscript: str):
                                                                          end_symbol))
         else:
             locus = []
-            deco_text = ''.join(deco.xpath('.//text()')).rstrip()
+            deco_text = ''.join(insert_style_spans(deco)).rstrip()
             if not source:
                 for p_tag in deco.xpath('./tei:p/@source', namespaces=current_app.namespaces):
                     if p_tag:

@@ -211,8 +211,8 @@ class TestRoutes(CoenoturTests):
             self.assertEqual(metadata['obj_form'], 'codex')
             self.assertEqual(metadata['obj_material'], 'Pergament')
             self.assertEqual(metadata['num_pages'], '215')
-            self.assertEqual(metadata['page_size'], '325 mm x 243 mm')
-            self.assertEqual(metadata['dim_written'], '24,0 cm x 16,5 cm')
+            self.assertEqual(metadata['page_size'], ['325 mm x 243 mm'])
+            self.assertEqual(metadata['dim_written'], ['24,0 cm x 16,5 cm'])
             self.assertIn('der Anfang der Capitula von Gregor von Tours fehlt; die\n                           Handschrift bricht im ersten Buch von Sulpicius Severus ab (MUNSON).',
                           metadata['condition'])
             self.assertEqual('2', metadata['num_columns'])
@@ -231,7 +231,7 @@ class TestRoutes(CoenoturTests):
             self.assertEqual(metadata['marginal'], ['Die Kapitelübersicht weicht von der üblichen Weise\n'
                                                     '                                ab, die übliche Einteilung ist aber von '
                                                     'einer späteren Hand\n'
-                                                    '                                hinzugefügt worden. (COLLON).'])
+                                                    '                                hinzugefügt worden (COLLON).'])
             self.assertEqual(metadata['online_description'], ['Another_strange_idno'])
             self.assertEqual(metadata['digital_representations'], ['Some_strange_id'])
             self.assertEqual(metadata['general_notes'],

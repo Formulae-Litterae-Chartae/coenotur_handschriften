@@ -42,6 +42,12 @@
                     <td>{{ m_d['general_notes']|join(' ')|safe }}</td>
                 </tr>
                 {% endif %}
+                {% if m_d['ink_notes'] %}
+                <tr>
+                    <th scope="row">Tintenanalyse</th>
+                    <td>{{ m_d['ink_notes']|safe }}</td>
+                </tr>
+                {% endif %}
                 <tr>
                     <th class="text-center" scope="col" colspan="2"><h4>ÄUßERES</h4></td>
                 </tr>
@@ -84,13 +90,13 @@
                 {% if m_d['page_size'] %}
                 <tr>
                     <th scope="row">Format</th>
-                    <td>{{ m_d['page_size']|safe }}</td>
+                    <td>{{ m_d['page_size']|join('<br>')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['dim_written'] %}
                 <tr>
                     <th scope="row">Schriftraum</th>
-                    <td>{{ m_d['dim_written']|safe }}</td>
+                    <td>{{ m_d['dim_written']|join('<br>')|safe }}</td>
                 </tr>
                 {% endif %}
                 {% if m_d['num_columns'] %}

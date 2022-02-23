@@ -38,7 +38,8 @@ auto_analyzer = {"analyzer": {"autocompletion": {"type": "custom", "tokenizer": 
 new_indices = {}
 index_properties = {'identifier': {'type': 'nested', 'properties': {'id': {'type': 'text'}}}, 'date_string': {'type': 'keyword'}, 'signature': {'type': 'keyword'}}
 index_properties.update({'min_date': {'type': 'date', 'format': 'yyyy'},
-                         'max_date': {'type': 'date', 'format': 'yyyy'}})
+                         'max_date': {'type': 'date', 'format': 'yyyy'},
+                         'mid_date': {'type': 'date', 'format': 'yyyy'}})
 index_properties.update({'orig_place': {"type": "nested", "properties": {"cert": {"type": "keyword"}, "place": {"type": "text"}, "source": {"type": "text"}}}})
 index_properties.update({'ms_item': {"type": "text"}})
 index_properties.update({'person': {"type": "nested", "properties": {"name": {"type": "text"}, "role": {"type": "keyword"}, "identifier": {"type": "keyword"}}}})
@@ -52,6 +53,7 @@ index_properties.update({'musicNotation': {'type': 'boolean'}})
 index_properties.update({'exlibris': {'type': 'boolean'}})
 index_properties.update({'tironoten': {'type': 'boolean'}})
 index_properties.update({'named_scribe': {'type': 'boolean'}})
+index_properties.update({'ink_analysis': {'type': 'boolean'}})
 
 
 for file in files:
@@ -151,6 +153,10 @@ for file in files:
     tironoten = False
     if xml.xpath('//tei:p[@n="tironischen Note"]', namespaces=namespaces):
         tironoten = True
+        
+    ink_analysis = False
+    if xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note[@n="ink"]', namespaces=namespaces):
+        ink_analysis = True
     
     if not es.indices.exists(new_index):
         print("Creating index {}".format(new_index))
@@ -172,15 +178,20 @@ for file in files:
             'musicNotation': musicNotation,
             'exlibris': exlibris,
             'tironoten': tironoten,
-            'named_scribe': named_scribe
+            'named_scribe': named_scribe,
+            'ink_analysis': ink_analysis
             }
     
     if places:
         body['orig_place'] = places
     if dates['min_dates']: 
         body['min_date'] = min(dates['min_dates'])
+        body['mid_date'] = min(dates['min_dates'])
     if dates['max_dates']:
-        body['max_date'] = max(dates['max_dates']) 
+        body['max_date'] = max(dates['max_dates'])
+        body['mid_date'] = max(dates['max_dates'])
+        if 'min_date' in body and body['min_date']:
+            body['mid_date'] = '{:04}'.format((int(body['min_date']) + int(body['max_date']))//2)
     if with_digitalisat:
         body['with_digitalisat'] = with_digitalisat
     
