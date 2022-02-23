@@ -15,7 +15,7 @@
     {% if posts|length == 0 %}
     <h4>{{ _("Keine Ergebnisse") }}</h4>
     {% endif %}
-    {% set path_no_sort %}{% for r in request.args %}{% if r != 'sort' %}{{ r }}={{ request.args.get(r) }}&{% endif %}{% endfor %}{% endset %}
+    {% set path_no_sort %}{% for r in request.args %}{% if r != 'sort' %}{{ r }}={{ request.args.get(r)|replace('+', '%2B') }}&{% endif %}{% endfor %}{% endset %}
     <table id="partsSearchResultTable" class="table table-sm table-hover table-bordered" aria-label="{{ _('Suchergebnisse') }}">
         <thead>
             <tr>
