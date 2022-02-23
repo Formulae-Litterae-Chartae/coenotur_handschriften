@@ -8,7 +8,8 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt> 
-         <notesStmt><note>Bei dieser Handschrift scheint es sich um zwei ehemals unabhängige Handschriften zu handeln. Mit Boethius (fol. 49) ändert sich die mise-en-page von 2 zu einer Zeile.</note></notesStmt>
+         <notesStmt><note n="ink"></note>
+            <note>Bei dieser Handschrift scheint es sich um zwei ehemals unabhängige Handschriften zu handeln. Mit Boethius (fol. 49) ändert sich die mise-en-page von 2 zu einer Zeile.</note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
