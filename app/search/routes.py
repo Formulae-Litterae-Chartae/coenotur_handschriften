@@ -29,7 +29,7 @@ def r_simple_search() -> redirect:
                 flash(m[0] + _(' Die einfache Suche funktioniert nur mit einem Suchwort.'))
         return redirect(url_for('.r_results', source='simple', simple_q=g.search_form.data['simple_q']))
     data = g.search_form.data
-    return redirect(url_for('.r_results', source='simple', sort="urn", **data))
+    return redirect(url_for('.r_results', source='simple', sort="_id", **data))
 
 
 @bp.route("/results", methods=["GET"])
