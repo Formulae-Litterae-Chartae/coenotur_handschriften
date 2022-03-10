@@ -57,7 +57,7 @@
                      <handNote source="Rand">mindestens 3 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Rand">"Regular"</p>
+                     <scriptNote source="Rand">"Regular"</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>

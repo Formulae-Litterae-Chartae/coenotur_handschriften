@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note><p source="Bischoff">Die Vorlage für diese Handschrift scheint der Codex Vat. Lat. 1512, der vermutlich aus Luxeuil stammt, gewesen zu sein.</p>
+            <notesStmt><note><p>Die Vorlage für diese Handschrift scheint der Codex Vat. Lat. 1512, der vermutlich aus Luxeuil stammt, gewesen zu sein. (BISCHOFF</p>
             <p>Da es sich zum Teil um eine angelsächsische Hand handelt, ist die Zuweisung nach Tours durch RAND mit großer Vorsicht zu sehen, da alle unter "The Irish at Tours" aufgeführten Handschriften keineswegs als gesicherte turonische Produkte angesehen werden können.</p>
             </note></notesStmt>
             <sourceDesc>
@@ -64,8 +64,8 @@
                             <handNote></handNote>                            
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Bischoff"><locus n="1 56"/>Angelsächsische Minuskle und 1. Zeile in angelsächsischer Halbunziale</scriptNote>
-                            <scriptNote source="Bischoff"><locus n="57 160"/>breite turonische Minuskel</scriptNote>
+                            <scriptNote source="Bischoff"><locus n="1 56"/>Angelsächsische Minuskel und 1. Zeile in angelsächsischer Halbunziale</scriptNote>
+                            <scriptNote source="Bischoff"><locus n="57 160"/>Breite turonische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
@@ -80,11 +80,12 @@
                     </physDesc>
                     <history>
                         <origin>
+                            <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium">Westfränkisches Skriptorium (auf <placeName>Tours</placeName> kann auch die angelsächsische Schrift weisen)</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0700" notAfter="0899">8.-9. Jhd.</origDate></p>
                        <note>
-                           <p>Geschrieben wurde der Erste Teil dieser Handschrift vermutlich durch eine irische Hand. Es könnte sich um jemanden handeln, der mit Alkuin nach Tours gelangte</p>
-                           <p>Durch die paläographische Nähe des ersten Teils zu London, BL, Egerton 2831 und die textuelle Nähe zu den Handschriften Vat., Reg. Lat., 1484 und Vat., Vat. Lat., 1512 erscheint eine Enstehung in Saint Martin wahrscheinlich (RAND).</p>
+                           <p>Geschrieben wurde der erste Teil dieser Handschrift vermutlich durch eine irische Hand. Es könnte sich um einen Schreiber handeln, der mit Alkuin nach Tours gelangte.</p>
+                           <p>Aufgrund der paläographischen Nähe des ersten Teils zu London, BL, Egerton 2831 und die textuelle Nähe zu den Handschriften Vat., Reg. Lat., 1484 und Vat., Vat. Lat., 1512 spricht sich RAND für eine Enstehung in Saint Martin aus.</p>
                            <p>KÖHLER zweifelt in seiner Rezension an Tours, da für ihn nur Vat., Reg. Lat. 1484 wirklich turonisch ist.</p>
                            <p>Für BISCHOFF könnte die Handschrift als frühes Produkt aus der Zeit <persName type="abt">Alkuin</persName>s stammen.</p></note>
                         </origin>

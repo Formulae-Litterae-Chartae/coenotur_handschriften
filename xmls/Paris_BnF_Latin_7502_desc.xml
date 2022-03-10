@@ -87,17 +87,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Hellmann" cert="low">Schriftheimat Tours</origPlace></p>
-                     <p><origPlace source="Cinato" cert="medium"
-                           ><orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >1. Hälfte 9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0820">unter
-                           Alkuin oder wenig später</origDate></p>
+                     <p><origPlace source="Rand Bischoff Hellmann" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Cinato" cert="medium"><orgName>St-Martin</orgName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0820">unter Alkuin oder wenig später</origDate></p>
                      <note>Eine Entstehung in St-Martin unter Fridigisus erscheint sehr
-                        wahrscheinlich, zeitgenössisch mit Paris, BnF, Latin 250. Die Zuordnung der
+                        wahrscheinlich, zeitgenössisch mit Paris, BnF, Latin 250. Die ursrüngliche Zuordnung der
                         Handschrift durch BISCHOFF zu denjenigen, die fälschlicherweise als aus
                         Tours stammend angesehen werden, wird heute nicht mehr
                         aufrechterhalten.</note>

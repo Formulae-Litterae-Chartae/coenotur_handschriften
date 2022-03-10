@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note source="Bischoff">Diese Handschrift wurde nicht in Tours hergestellt, aber einer der Schreiber scheint aus Tours zu stammen.</note></notesStmt>
+         <notesStmt><note source="Bischoff"></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -71,7 +71,7 @@
                      <p><origPlace source="Bischoff" cert="medium">Fol. 9-224: Italien (gegen Rom hin?); Fol. 1-8 Tours-Schreiber in Italien</origPlace></p>
                      <p><origDate source="Mirabile.it" cert="medium" notBefore="0600" notAfter="0699">7. Jhd.</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0849">1./2. Viertel 9. Jhd</origDate></p>
-                     <note>Dass BISCHOFF sich um 2 Jahrhunderte vertut erscheint mir unwahrscheinlich.</note>
+                     <note>Diese Handschrift wurde nicht in Tours hergestellt, aber einer der Schreiber scheint aus Tours zu stammen.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance source="Bischoff">Die Handschrift gelangte im 10./11. Jhd. nach Vercelli.</provenance>

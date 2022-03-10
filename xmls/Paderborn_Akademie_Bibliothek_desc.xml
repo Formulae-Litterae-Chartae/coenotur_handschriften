@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Dieses Fragment wird bei FISCHER aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
+         <notesStmt><note></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -22,7 +22,7 @@
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title>Exodus-Fraqment einer turonsichen Bibel</title>
+                     <title>Exodus-Fragment einer turonsichen Bibel</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -67,7 +67,7 @@
                   <origin>
                      <p><origPlace source="Fischer" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Fischer" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
-                     <note>Bis auf die Einordnung durch FISCHER, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
+                     <note>Fragment: Einordnung durch FISCHER.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

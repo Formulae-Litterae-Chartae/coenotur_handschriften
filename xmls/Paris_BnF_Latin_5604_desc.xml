@@ -54,7 +54,7 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">Bis fol. 34v turonische Minuskel mit Neuerungen;
-                        danach späte Halbunziale und Minuskel, nicht Tours</scriptNote>
+                        danach späte Halbunziale; Min. nicht Tours</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote/>
@@ -66,7 +66,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >9. Jhd. ca. 3. Viertel</origDate></p>
                   </origin>

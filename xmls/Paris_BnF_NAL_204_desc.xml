@@ -121,7 +121,7 @@
                      <p><origPlace source="Mordek Bischoff Rio" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./(2.) Viertel 9. Jhd. (post 818/819?)</origDate></p>
-                     <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommen auf.</note>
+                     <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommend auf.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance source="Eckhardt">Wurde 1875 von der BnF gekauft</provenance>

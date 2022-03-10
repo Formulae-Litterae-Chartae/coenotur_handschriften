@@ -82,7 +82,7 @@
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">(1./)2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0875" notAfter="0899">Ende 9. Jhd.</origDate></p>
                      <p><origDate source="Dorange Collon" cert="low" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
-                     <note>Eine Datierung ins 11. Jahrhundert erscheint sehr unwahrscheinlich; das Schriftbild deutet auf die erste Hälfte des 9. Jhds. Schrfitbild und insb. die für Tours typische ee-Kürzung deuten deutlich auf eine Entstehung in Tours hin.</note>
+                     <note>Eine Datierung ins 11. Jahrhundert erscheint sehr unwahrscheinlich; das Schriftbild und die für Tours typische <seg type="lat">est</seg>-Kürzung, deutet auf eine Entstheung in Tours in der ersten Hälfte des 9. Jhds.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>

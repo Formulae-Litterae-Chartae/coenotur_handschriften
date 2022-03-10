@@ -79,7 +79,7 @@
                             <p><origPlace cert="high" source="Rand"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                             <p><origPlace cert="medium" source="Bischoff"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
                             <p><origDate cert="medium" source="Bischoff" notBefore="0834" notAfter="0843">834-843</origDate></p>
-                            <note>Die Entstehung in Tours scheint gesichert. Die Qualität der Handschrift spricht wohl gegen eine Entstehung in Marmoutier zu dieser Zeit.</note>
+                            <note>Die Entstehung in Tours scheint gesichert. Die Qualität der Handschrift spricht gegen eine Entstehung in Marmoutier zu dieser Zeit.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance></provenance>

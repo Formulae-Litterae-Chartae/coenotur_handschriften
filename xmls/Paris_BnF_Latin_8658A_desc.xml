@@ -77,7 +77,7 @@
                      <p><origPlace source="BnF" cert="medium">Zentralfrankreich (Loire-Gegend oder Tours?), oder Nord-Oster (Reims?)</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium"> Wohl Loire</origPlace></p>
                      <p><origDate source="BnF" cert="medium" notBefore="0850" notAfter="0899">2. Hälfte 9. Jhd.</origDate></p>
-                     <note>Die Entstehung bleibt umstritten.</note>
+                     <note>Entstehung umstritten.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance>Die Handschrift gelangte noch im Mittelalter nach <orgName>Corbie</orgName>.</provenance>

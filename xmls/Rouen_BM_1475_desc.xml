@@ -70,7 +70,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Gegend von <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                     <note>Bis auf die Einordnung durch BISCHOFF kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
+                     <note>Fragment: Einordnung durch BISCHOFF.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

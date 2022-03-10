@@ -70,7 +70,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0825" notAfter="0875">"mid-century"</origDate></p>
-                     <note>Wenig kann gesagt werden. RAND selbst zweifelt an Tours: "The connection of one of the Virgilian scenes with one in the <seg type="lat">Codex Romanus</seg> of Virgil suggests the possibility that the fan may have been made at St. Denis, where, at the least later in the Middle Ages, the Codex was kept. Perhaps I should assign the fan to Period VIII, or not Tours at all. I consider it at this point because the lettering seems characteristic of the present period."</note>
+                     <note>RAND selbst zweifelt an Tours: "The connection of one of the Virgilian scenes with one in the <seg type="lat">Codex Romanus</seg> of Virgil suggests the possibility that the fan may have been made at St. Denis, where, at the least later in the Middle Ages, the Codex was kept. Perhaps I should assign the fan to Period VIII, or not Tours at all. I consider it at this point because the lettering seems characteristic of the present period."</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

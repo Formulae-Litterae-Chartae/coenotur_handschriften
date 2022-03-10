@@ -78,7 +78,7 @@
                      <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>, vielleicht auch nicht</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">„Rom (Schreiber: Johannes presbiter)“</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900">ca. Ende 9. Jhd.</origDate></p>
-                     <note>Die Handschrift stammt nicht aus Tours. RAND scheint die Subskriptions des Schreibers Johannes nicht gekannt zu haben.</note>
+                     <note>Diese Handschrift stammt nicht aus Tours. RAND scheint die Subskription des Schreibers Johannes nicht gekannt zu haben.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>

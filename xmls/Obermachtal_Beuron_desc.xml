@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Fragmente werden bei GANZ aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
+         <notesStmt><note></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -67,7 +67,7 @@
                   <origin>
                      <p><origPlace source="Ganz" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Ganz" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
-                     <note>Bis auf die Einordnung durch GANZ, kann nichts weiteres über diese Fragmente ausgesagt werden.</note>
+                     <note>Fragmente: Einordnung durch GANZ.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

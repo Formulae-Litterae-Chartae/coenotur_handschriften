@@ -76,7 +76,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Collon Dorange" cert="medium" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>
-                     <note>Wenig über die Entstehung dieser Handschrift ist gesichert. Die <seg type="lat">ee</seg> mit Punkten davor und danach und <seg type="lat">qnm</seg>-Kürzung spricht für eine Entstehung in Tours. Auch die Kürzung von <seg type="lat">misericodia</seg> (als nom. sac.) ist für Tours belegt (WALLENWEIN). Es ist nicht zu sagen, aus welcher Gemeinschaft diese Handschrift kommt.</note>
+                     <note>Wenig über die Entstehung dieser Handschrift ist gesichert. Die doppelt umpunktete <seg type="lat">esse</seg>-Kürzungen und <seg type="lat">qnm</seg>-Kürzung spricht für eine Entstehung in Tours. Auch die Kürzung von <seg type="lat">misericodia</seg> (als nom. sac.) deutet nach Tours.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
@@ -94,7 +94,6 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="162"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="213"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="193"/></bibl>
-                     <bibl><idno>Wallenwein 2017a</idno><biblScope unit="pp" n="25"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -17,14 +17,14 @@
                   <repository>BnF</repository>
                   <collection/>
                   <idno>Latin 11738</idno>
-                  <altIdentifier source="St-MAur-des-Fossés">
+                  <altIdentifier source="St-Maur-des-Fossés">
                      <idno>26 (sic)</idno>
                   </altIdentifier>
-                  <altIdentifier source="Saint-Germain-des-Prés">
-                     <idno>olim 1065</idno>
+                  <altIdentifier source="olim">
+                     <idno>1065</idno>
                   </altIdentifier>
-                  <altIdentifier source="Saint-Germain-des-Prés">
-                     <idno>N. 458</idno>
+                  <altIdentifier source="N.">
+                     <idno>458</idno>
                   </altIdentifier>
                   <altIdentifier source="Bischoff">
                      <idno>4708</idno>

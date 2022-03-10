@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Handschrift wird von MCKITTERICK als turonische Bibel angesprochen, dabei handelt es sich um die Bibel Ludwirgs XI aus dem 15. Jhd. Sie wird hier nur der Vollständigkeithalber aufgeführt und nicht näher beschrieben..</note></notesStmt>
+         <notesStmt><note></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -68,7 +68,7 @@
                      <p><origPlace source="McKitterick" cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="McKitterick" cert="low" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
                      <p><origDate source="BnF" cert="high" notBefore="1400" notAfter="1499">15. Jhd.</origDate></p>
-                     <note>Die Handschrift ist kein Produkt der Zeit der großen turonischen Bibelproduktion, wie von MCKITTERICK behauptet..</note>
+                     <note>Diese Handschrift wird von MCKITTERICK als turonische Bibel angesprochen, dabei handelt es sich um die Bibel Ludwigs XI. aus dem 15. Jhd. Sie wird hier nur der Vollständigkeithalber aufgeführt und nicht näher beschrieben.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

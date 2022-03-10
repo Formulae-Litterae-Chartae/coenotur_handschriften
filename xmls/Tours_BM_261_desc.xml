@@ -95,7 +95,7 @@
                      <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">I: Tours (?); II: ohne Ortsangabe</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0900" notAfter="1099" >10./11. Jhd.</origDate></p>
-                     <note>Laut RAND enthält Teil I die <seg type="lat">misericordia</seg> Kürzung als nom. sac. die typisch für Tours ist (WALLENWEIN).</note>
+                     <note>Teil I einthält die turonische <seg type="lat">misericordia</seg> Kürzung als nom. sac.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
@@ -114,7 +114,6 @@
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="191 192"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="183"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
-                     <bibl><idno>Wallenwein 2017</idno><biblScope unit="pp" n="25"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

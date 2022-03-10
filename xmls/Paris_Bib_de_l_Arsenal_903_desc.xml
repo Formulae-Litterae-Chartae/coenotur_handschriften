@@ -71,7 +71,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Umkreis von <placeName>Tours</placeName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                     <note>Wenig kann über die Entstehung dieser Handschrift ausgesagt werden. Der Stil deutet auf eine Nähe zu Tours hin.</note>
+                     <note>Der Stil deutet auf eine Nähe zu Tours hin.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance>Die Handschrift war im Besitz von <orgName>Saint-Julien</orgName> in Tours.</provenance>

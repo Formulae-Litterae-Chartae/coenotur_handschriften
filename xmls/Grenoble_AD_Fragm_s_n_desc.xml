@@ -74,7 +74,7 @@
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0750">ca. 3. Viertel 9. Jhd.</origDate></p>
-                     <note>Über diese Fragmente kann nichts Weiteres ausgesagt werden.</note>
+                     <note>Fragment: Einordnung durch RAND und BISCHOFF.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Kathedrale</orgName> von <placeName>Grenoble</placeName></provenance>
                   <provenance></provenance>

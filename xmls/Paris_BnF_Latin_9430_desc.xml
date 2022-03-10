@@ -170,7 +170,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Onlinkatalog" cert="medium" notBefore="0900" notAfter="0999"></origDate></p>
-                     <note>Wenig über die Entstehung und die Geschichte dieser Handschrift ist bekannt. Sie setzt sich aus 3 verschiedenen Sakramentaren zusammen, wobei nicht klar ist, wenn diese Zusammensetzung stattgefunden hat.</note>
+                     <note>Wenig über die Entstehung und die Geschichte dieser Handschrift ist bekannt. Sie setzt sich aus 3 verschiedenen Sakramentaren zusammen, wobei nicht klar ist, wann diese Zusammensetzung stattgefunden hat.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

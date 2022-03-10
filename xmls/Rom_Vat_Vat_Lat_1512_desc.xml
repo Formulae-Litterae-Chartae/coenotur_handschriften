@@ -87,7 +87,7 @@
                             <p><origPlace cert="high" source="Bischoff Williams"><orgName>Luxeuil</orgName></origPlace></p>
                             <p><origPlace cert="low" source="Rand"><placeName>Tours</placeName></origPlace></p>
                             <p source="Bischoff"><origDate cert="high" notBefore="0790" notAfter="0810">kurz vor 800 oder um 800</origDate></p>
-                            <note>WILLIAMS weißt ausführlich nach, dass die Entstehung der Handschrift mit großer Wahrscheinlichkeit nach Luxeuil zu verorten ist. So erscheint Tours aufgrund des chaotischen Wechsels von Fell- zu Fleisch-Seite unwahrscheinlich. Auch das Schriftbild erscheint nicht als typisch turonisch.</note>
+                            <note>WILLIAMS weißt ausführlich nach, dass die Entstehung der Handschrift mit großer Wahrscheinlichkeit in Luxeuil zu verorten ist. So erscheint Tours aufgrund des chaotischen Wechsels von Fell- zu Fleisch-Seite unwahrscheinlich. Auch das Schriftbild erscheint nicht als typisch turonisch.</note>
                         </origin>
                         <provenance></provenance>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
@@ -103,7 +103,7 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.1512</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="91" to="92"/></bibl>
                             <bibl><idno>Berschin 1986</idno><biblScope/></bibl>
-                            <bibl><idno>Williams 2009</idno><biblScope unit="pp" n="passim"/></bibl>
+                            <bibl><idno>Williams 2009</idno><biblScope n="passim"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="447"/></bibl>
                         </listBibl>
                     </additional>
