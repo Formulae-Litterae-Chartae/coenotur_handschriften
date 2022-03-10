@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Zu diesem Fragment in Koblenz gehören weitere Fragmente in Haarlem und Edinburgh.</note></notesStmt>
+         <notesStmt><note></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -77,7 +77,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0865">2. Dritel 9. Jhd.</origDate></p>
-                     <note>Bis auf die Einordnung durch BISCHOFF, kann nichts weiteres über diese Fragmente ausgesagt werden.</note>
+                     <note>Fragment: Einordnung durch BISCHOFF. Zu diesem Fragment gehören weitere Fragmente in Haarlem und Edinburgh.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

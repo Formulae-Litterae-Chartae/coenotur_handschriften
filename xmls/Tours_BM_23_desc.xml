@@ -83,7 +83,7 @@
                            touronisch</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >3. Viertel 9. Jhd.</origDate></p>
-                     <note>Eine Entstehung in Tours erscheint unwahrscheinlich. Vermutlich gelangte die Handschrift nach 853 nach Saint-Martin</note>
+                     <note>Eine Entstehung in Tours erscheint unwahrscheinlich. Vermutlich gelangte die Handschrift nach 853 nach Saint-Martin.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance source="Köhler">Die Handschrift entstand wohl in der frankosächsischen
@@ -104,7 +104,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="9 10"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="17 18"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="173 174"/></bibl>
-                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="327"/></bibl>
+                     <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="327"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
                   </listBibl>
                </additional>

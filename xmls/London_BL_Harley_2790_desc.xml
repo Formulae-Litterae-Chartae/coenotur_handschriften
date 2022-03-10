@@ -95,7 +95,7 @@
                         <origin>
                             <p><origPlace cert="medium" source="Bischoff"><placeName>Tours</placeName>?</origPlace></p>
                             <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                            <note>Diese Handschrift ist ziemlich sicher in Tours entstanden.</note>
+                            <note>Diese Handschrift ist wahrscheinlich in Tours entstanden.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St Cyr</orgName>, <placeName>Nevers</placeName></provenance>
                         <provenance>Wie das Exlibris belegt, gehörte die Handschrift bereits vor 860 der Kathedrale von <orgName>St Cyr</orgName> in <placeName>Nevers</placeName>.</provenance>

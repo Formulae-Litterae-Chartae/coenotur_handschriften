@@ -133,9 +133,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p source="Rand Bischoff"><origPlace cert="medium">Tours</origPlace></p>
-                            <p source="Mostert"><origPlace cert="low">Fleury</origPlace></p>
-                            <p source="Bischoff"><origDate cert="medium" notBefore="0800"
+                            <p><origPlace source="Rand Bischoff" cert="medium">Tours</origPlace></p>
+                            <p><origPlace source="Mostert" cert="low">Fleury</origPlace></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800"
                                     notAfter="0825">Anfang 9. Jhd.</origDate></p>
                             <note source="Mostert">Die Zuschreibung nach Tours erfolgt vor allem aufgrund des
                                 Exlibris vom 12. Jhd.; Überlegungen, die Entstehung der Handschrift in Fleury zu

@@ -70,7 +70,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName> (?)</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0815">Anfang 9. Jhd.</origDate></p>
-                     <note>Bis auf die Einordnung durch Bischoff, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
+                     <note>Fragment: Einordnung durch Bischoff.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

@@ -106,11 +106,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Winandy"><origPlace>Tours</origPlace></origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
+                     <p><origPlace source="Winandy"><origPlace>Tours</origPlace></origPlace></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0833" >1. Drittel 9. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="low" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
-                     <note>Die Schrift entstammt dem frühen 9. Jahrhundert und ähnelt sehr denjenigenen aus Tours, so dass eine Entstehung in Tours (oder Umgebung) sehr wahrscheinlich erscheint. Die Häufigkeit und systematisch Nutzung der beidseitigen umpunkteten Kürzung für <seg type="lat">est</seg>, deutet stark auf eine Entstehung in Tours hin (cf. WALLENWEIN). Die Datierung im Onlinekatalog der BnF ins 10. Jahrhundert ist nicht nachvollziehbar.</note>
+                     <note>Die Schrift entstammt dem frühen 9. Jahrhundert und ähnelt sehr denjenigenen aus Tours, so dass eine Entstehung in Tours (oder Umgebung) sehr wahrscheinlich erscheint. Die Häufigkeit und systematisch Nutzung der beidseitigen umpunkteten Kürzung für <seg type="lat">est</seg>, deutet stark auf eine Entstehung in Tours hin. Die Datierung im Onlinekatalog der BnF ins 10. Jahrhundert ist nicht nachvollziehbar.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Denis</orgName></provenance>
                   <provenance>Die Handschrift war spätestens im 13. Jahrhundert in St-Denis, wie das Exlibris belegt. Von dort gelangte sie in die Sammlung von Colbert und ging dann an die Bibliothèque royale über.</provenance>
@@ -128,7 +128,6 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60645t</idno></bibl>
                      <bibl><idno>Delisle 1868</idno><biblScope unit="pp" n="202"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="85"/></bibl>
-                     <bibl><idno>Wallenwein 2017a</idno><biblScope unit="pp" n="25"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

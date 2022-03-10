@@ -87,10 +87,10 @@
                             <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Onlinkatalog" cert="medium" notBefore="0800" notAfter="0804">kurz nach 800, noch unter Alkuin</origDate></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
-                            <note>Spätestens seit dem 12. Jahrhundert ist die Handschrift durch das Exlibris in St-Martin gewesen.</note>
+                            <note></note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Martin</orgName>, <placeName/>Tours</provenance>
-                        <provenance></provenance>
+                        <provenance>Durhc das Exlibris steht fest, dass diese Handschrift spätestens seit dem 12. Jahrhundert in St-Martin gewesen ist.</provenance>
                         <acquisition><name type="Repository">UB Leiden</name></acquisition>
                     </history>
                     <additional>

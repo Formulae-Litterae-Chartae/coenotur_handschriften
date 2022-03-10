@@ -123,7 +123,7 @@
                      <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Winandy" cert="medium"><placeName>Tours</placeName>, vermutlich <orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0842" notAfter="0880">Mitte 9. Jhd., nach 842</origDate></p>
-                     <note>Das Schriftbild dieser Handschrift weicht sehr stark von dem anderer turonischer Handschriften ab. Als <seg type="lat">terminus post quem</seg> 842 ist durch das Abfassungsdatum des enthaltenen Werkes gesichert. St-Martin erscheint sehr wahrscheinlich, aufgrund der
+                     <note>Das Schriftbild dieser Handschrift weicht sehr stark von dem anderer turonischer Handschriften ab. Der <seg type="lat">terminus post quem</seg> 842 ist durch das Abfassungsdatum des enthaltenen Werkes gesichert. St-Martin erscheint sehr wahrscheinlich, aufgrund der
                         engen Verbindung zwischen Hrabanus Maurus und St-Martin.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>

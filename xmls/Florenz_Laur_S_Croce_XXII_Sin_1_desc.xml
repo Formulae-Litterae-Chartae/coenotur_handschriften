@@ -71,7 +71,7 @@
                         <origin>
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866">ca. 2. Drittel</origDate></p>
-                            <note>Sehr wenig ist mir über diese Handschrift bekannt.</note>
+                            <note></note>
                         </origin>
                         <provenance type="Provenance"></provenance>
                         <provenance source="Bischoff">Vermutlich war die Handschrift im 10/11. Jhd. in Chartres.</provenance> 

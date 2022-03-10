@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Dieses Fragment der biblischen Propheten wird bei GANZ aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
+         <notesStmt><note></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -67,7 +67,7 @@
                   <origin>
                      <p><origPlace source="Ganz" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Ganz" cert="medium" notBefore="0800" notAfter="0850">Hochzeit der Bibelproduktion (1. Hälfte 9. Jhd.)</origDate></p>
-                     <note>Bis auf die Tatsache, dass das Fragment bei GANZ erwähnt wird, kann nichts weiteres über die Entstehung ausgesagt werden.</note>
+                     <note>Fragmente: Einordnung durch GANZ.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

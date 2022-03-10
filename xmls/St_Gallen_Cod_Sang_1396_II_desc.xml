@@ -70,7 +70,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0794" notAfter="0804">"Aus Alkuins Erdentagen"</origDate></p>
-                     <note>Bis auf die Einordnung durch BISCHOFF, kann nichts weiteres über dieses Fragment ausgesagt werden.</note>
+                     <note>Fragment: Einordnung durch BISCHOFF.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

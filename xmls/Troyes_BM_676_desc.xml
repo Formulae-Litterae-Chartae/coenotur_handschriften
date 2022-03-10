@@ -73,7 +73,7 @@
                             <p><origPlace source="Rand" cert="medium">nicht <placeName>Tours</placeName></origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, aber wohl nicht Hauptskriptorium</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                            <note>Die Entstehung dieser Handschrift wirft viele Fragen auf.</note>
+                            <note></note>
                         </origin>
                         <provenance type="Provenance"><placeName></placeName></provenance>
                         <provenance></provenance>

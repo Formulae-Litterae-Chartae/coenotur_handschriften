@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Die Handschrift war selbst für RAND zu abweichend, um sie mit Sicherheit der bereits unsicheren Gruppe VIII (Anglo-Saxon-Style) zuzuordnen, so dass eine Entstehung in Tours sehr zweifelhaft erscheint.</note></notesStmt>
+         <notesStmt><note></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -57,7 +57,7 @@
                      <handNote source="Bischoff">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="MArtin">Halbunziale in den Vorreden im Stil von Tours</scriptNote>
+                     <scriptNote source="Martin">Halbunziale in den Vorreden im Stil von Tours</scriptNote>
                      <scriptNote source="Bischoff">Halbunziale, die der von Tours ähnelt, sowie Minuskel im Soissons-Stil</scriptNote>
                   </scriptDesc>
                   <decoDesc>
@@ -75,7 +75,7 @@
                      <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName> (Possible Anglo-Saxon-Style)</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">Hofschule Karls des Kahlen</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
-                     <note>Die Halbunziale und auch die Minuskel sehen recht turonisch aus. Auf Basis der aktuellen Forschungslage kann wenig Gesichertes gesagt werden.</note>
+                     <note>Die Handschrift war für RAND zu abweichend, um sie mit Sicherheit der bereits unsicheren Gruppe VIII (Anglo-Saxon-Style) zuzuordnen, so dass eine Entstehung in Tours sehr zweifelhaft erscheint.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance source="Onlinekatalog">Die Handschrift war bis zur Revolution im Besitz der Barnabiten von St-Eloi in der Île de la Cité.</provenance>

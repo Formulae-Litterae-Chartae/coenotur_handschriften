@@ -82,9 +82,7 @@
                      <p><origPlace source="Bischoff" cert="low">etwa Paris</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
                            >1. Viertel 9. Jhd.</origDate></p>
-                     <note>Entstehungsort unklar, Tours kann aber wohl ausgeschlossen werden. Findet
-                        sich in der Liste, da es bei RAND aufgeführt wird, da sie ursprünglich von DELISLE als zweifelhaft nach Tours
-                        verortet wurde.</note>
+                     <note>Entstehungsort unklar, Tours kann aber wohl ausgeschlossen werden.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Vermutlich geschrieben in <orgName>Micy</orgName> oder im Pariser

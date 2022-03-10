@@ -93,14 +93,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>
-                           (?)</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833">1.
-                           Drittel 9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0750" notAfter="0796"
-                           >„pre-alcuinian“</origDate></p>
-                     <note>Da es sich um ein einzelnes Blatt handelt, ist die Datierung und
-                        Lokalisierung äußerst fragwürdig.</note>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>(?)</origPlace></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0750" notAfter="0796">„pre-alcuinian“</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833">1. Drittel 9. Jhd.</origDate></p>
+                     <note>Fragment: Einordnung durch RAND und BISCHOFF.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance source="Delisle">Bleibt wohl bis mindestens 1807 in

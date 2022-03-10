@@ -75,7 +75,7 @@
                      <p><origPlace source="Vezin" cert="medium">Aus der Region von Paris oder Tours</origPlace></p>
                      <p><origPlace source="BnF" cert="medium">vermutlich aus <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="BnF" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
-                     <note>Die Entstehung ist nicht gesichert, die BnF spricht sich aber deutlich für Tours aus.</note>
+                     <note>Die Entstehung ist nicht gesichert, die BnF spricht sich deutlich für Tours aus.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Saint-Pierre de Moissac</orgName></provenance>
                   <provenance>Einzelne Ergänzungen belegen, dass die Handschrift sich bereits zum Ende des 9. Jhds. in Poitiers befand.</provenance>

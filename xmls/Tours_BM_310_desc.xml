@@ -80,10 +80,10 @@
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="medium" notBefore="1000"
                            notAfter="1200">Gregor: 11. Jhd.; Bernard: 12. Jhd.</origDate></p>
-                     <note>Vermutlich wurden die beiden Handschriften später zusammengebunden.</note>
+                     <note></note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
-                  <provenance/>
+                  <provenance>2 Handschriften, die vermutlich später zusammengebunden wurden.</provenance>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>

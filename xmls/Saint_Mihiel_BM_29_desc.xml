@@ -74,7 +74,7 @@
                      <p><origPlace source="Bischoff" cert="medium">wohl <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Michelant" cert="medium" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0790" notAfter="0820">Ende 8./Anfang 9. Jhd.</origDate></p>
-                     <note>Die Datierung scheint umstritten.</note>
+                     <note>Die Datierung ist umstritten.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

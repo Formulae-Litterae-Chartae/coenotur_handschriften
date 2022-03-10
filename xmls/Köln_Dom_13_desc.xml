@@ -64,8 +64,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Hiltfredus: <locus n="54r"/><seg type="lat">a capite usque hic
-                           scripsit et requisivit servus vester Hiltfredus</seg></handNote>
+                     <handNote>Hiltfredus</handNote>
                      <handNote source="Bischoff">jedes Evangelium jeweils von einem anderen
                         Schreiber </handNote>
                   </handDesc>
@@ -94,6 +93,8 @@
                   </decoDesc>
                   
                   <additions>
+                     <p><locus n="54r"/><seg type="lat">a capite usque hic
+                        scripsit et requisivit servus vester Hiltfredus</seg></p>
                      <p source="von_Euw"><locus from="194v" to="195v"/>„Fragment eines Capitulare
                         Evangeliorum, wohl von jüngerer Hand“</p>
                      <p source="Anderson/Black"><locus from="194v" to="195v"/>Grobe Federzeichnungen

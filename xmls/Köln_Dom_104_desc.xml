@@ -55,11 +55,6 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>Vier Schreiber nennen sich selbst: Hadoldus, Wicbertus, Grimbaldus, Cosmas</handNote>
-                     <handNote><locus n="118r"/><seg type="lat">Hoc scedulum licet sit vili scriptu
-                           formatus. Saltim devoti conpingunt hunc divisione quaterna. Cuius inicium
-                           proponit devotus Hadololdus scribendi. Sequens propositum mox eius
-                           Uuicbertus supplex. Tunc partem ternalem praesumens Grimbaldus indignus.
-                           Quem complens scribendo Cosmas concludit in finem.</seg></handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>Karolingische Minuskel</scriptNote>
@@ -71,6 +66,11 @@
                      </decoNote>
                   </decoDesc>                  
                   <additions>
+                     <p><locus n="118r"/><seg type="lat">Hoc scedulum licet sit vili scriptu
+                        formatus. Saltim devoti conpingunt hunc divisione quaterna. Cuius inicium
+                        proponit devotus Hadololdus scribendi. Sequens propositum mox eius
+                        Uuicbertus supplex. Tunc partem ternalem praesumens Grimbaldus indignus.
+                        Quem complens scribendo Cosmas concludit in finem.</seg></p>
                      <p>Tironische Noten</p>
                   </additions>
                   <bindingDesc>
@@ -81,7 +81,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">wohl <placeName>Köln</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                     <note>Wenn der Schreiber Cosmas mit dem Schreiber desselben Namens von Köln, Dombibliothek, Codex 52 identisch ist, ist eine Entstehung in Köln sehr wahrscheinlich.</note>
+                     <note>Wenn der Schreiber Cosmas mit dem Schreiber desselben Namens von Köln, Dombibliothek, 52 identisch ist, ist eine Entstehung in Köln sehr wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"/>
                   <provenance/>

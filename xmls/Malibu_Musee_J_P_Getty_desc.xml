@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note>Diese Fragmente werden bei Mercier aufgeführt. Es konnte nichts weiteres darüber gefunden werden.</note></notesStmt>
+         <notesStmt><note></note></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -67,7 +67,7 @@
                   <origin>
                      <p><origPlace source="Mercier" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Mercier" cert="medium" notBefore="0800" notAfter="0863">Zeit der großen turonsichen Bibelproduktion</origDate></p>
-                     <note>Bis auf die Einordnung durch Mercier, kann nichts weiteres über diese Fragmente ausgesagt werden.</note>
+                     <note>Fragment: Einordnung durch MERCIER.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance source="Mercier">Die Handschrift ist im Mittelalter in Trier aufbewahrt worden.</provenance>

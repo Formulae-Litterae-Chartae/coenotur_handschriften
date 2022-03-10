@@ -54,7 +54,7 @@
                      <handNote source="Rand">Mindestens 5 Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote source="Rand">Regulärer Tours Stil mit kursiven Zügen. Majuskel eirkt unsicher.</scriptNote>
+                     <scriptNote source="Rand">Regulärer Tours Stil mit kursiven Zügen. Majuskel wirkt unsicher.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -74,7 +74,7 @@
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0804">Frühes Beispiel für die Reform Alkuins</origDate></p>
                      <p><origDate source="Calames" cert="medium" notBefore="0900" notAfter="0925">Anfang 10. Jhd.</origDate></p>
-                     <note>Wenig ist gesichert. Die Handschrift taucht bei BISCHOFF nicht auf, vermutlich, weil dieser sie ins 10. Jahrhundert datiert. So auch MOLINIER, dem RAND aber entschieden widerspricht.</note>
+                     <note>Wenig ist gesichert. Die Handschrift taucht bei BISCHOFF nicht auf, vermutlich, weil dieser sie ins 10. Jahrhundert datiert. So auch MOLINIER, dem RAND jedoch entschieden widerspricht.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

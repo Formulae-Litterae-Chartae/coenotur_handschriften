@@ -80,7 +80,7 @@
                         <origin>
                             <p><origPlace cert="medium" source="Bischoff"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0860">ca. Mitte 9. Jhd.</origDate></p>
-                            <note>Wenig lässt sich über dieses Fragment aussagen.</note>
+                            <note>Fragment: Einordnung durch BISCHOFF</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Geneviève</orgName>, <placeName>Paris</placeName></provenance>
                         <provenance></provenance>

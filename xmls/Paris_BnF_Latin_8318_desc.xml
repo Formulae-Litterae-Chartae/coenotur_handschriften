@@ -3,7 +3,7 @@
    <teiHeader xml:lang="fre">
       <fileDesc>
          <titleStmt>
-            <title>Paris, BnF, Latin 8138</title>
+            <title>Paris, BnF, Latin 8318</title>
          </titleStmt>
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
@@ -91,9 +91,10 @@
                <history>
                   <origin>
                      <p><origPlace source="Bibale" cert="low">Tours</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">Westliches Frankreich (etwa Loiregebiet)</origPlace></p>
                      <p><origPlace source="Bnf" cert="medium">Tours wird nicht aufgeführt</origPlace></p>
                      <p><origDate source="BnF" cert="medium" notBefore="0800" notAfter="0899">9. Jhd.</origDate></p>
-                     <note>Über die Entstehung der einzelnen Fragment kann wenig ausgesagt werden. Wieso Bibale die Handschrift als zum Teil aus Tours stammend deklariert, bleibt unerklärbar.</note>
+                     <note>Über die Entstehung der einzelnen Fragmente kann wenig ausgesagt werden. Wieso Bibale die Handschrift als zum Teil aus Tours stammend deklariert, bleibt unerklärbar.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
@@ -108,6 +109,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34035t</idno></bibl>
+                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="141 142"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

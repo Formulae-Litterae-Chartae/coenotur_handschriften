@@ -58,7 +58,7 @@
                             <handNote source="Rand">2 Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote source="Bischoff">Schräge breite Tours-ähnliche Minuskel</scriptNote>
+                            <scriptNote source="Bischoff">Schräge, breite Tours-ähnliche Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
@@ -77,7 +77,7 @@
                             <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">ca. 1./2. Viertel. 9. Jhd.</origDate></p>
-                            <note source="Rand">Die Zusammenstellung der Exzerpte könnte unter Alkuin geschehen sein. Das würde für den Text auf eine Datierung um 800 hindeuten. Die Art der Linierung legt die Entstehung dieser Handschrift wohl auf nach 820.</note>
+                            <note source="Rand">Die Zusammenstellung der Exzerpte könnte unter Alkuin geschehen sein. Das würde für den Text auf eine Datierung um 800 hindeuten. Die Art der Linierung legt die Entstehung dieser Handschrift dagegen wohl auf nach 820.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Bertin</orgName></provenance>
                         <provenance></provenance>

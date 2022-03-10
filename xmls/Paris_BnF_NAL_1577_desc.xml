@@ -79,7 +79,7 @@
                      <p><origPlace source="Bischoff" cert="medium">westliches Frankreich (nicht Tours)</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0870">9. Jhd. ca. Mitte</origDate></p>
                      <p><origDate source="Rand BNF" cert="low" notBefore="0900" notAfter="0999">10. Jhd.</origDate></p>                     
-                     <note>Die Datierung in das 10. Jahrhundert erscheit mir sehr unwahrscheinlich. Die Handschrift sieht in großen Teilen nach einer typisch turonsichen Handschrift aus der Mitte des 9. Jahrhunderts aus. Auch die umpunktete <seg type="lat">e</seg>-Kürzung für <seg type="lat">est</seg> deutet auf eine Entstehung in Tours hin..</note>
+                     <note>Die Datierung in das 10. Jahrhundert erscheit sehr unwahrscheinlich. Die Handschrift sieht in großen Teilen nach einer typisch turonsichen Handschrift aus der Mitte des 9. Jahrhunderts aus. Auch die umpunktete <seg type="lat">e</seg>-Kürzung für <seg type="lat">est</seg> deutet auf eine Entstehung in Tours hin.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>

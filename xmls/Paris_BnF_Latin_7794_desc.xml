@@ -75,7 +75,7 @@
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Mostert" cert="medium"><placeName>Fleury</placeName>, od. <orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                     <note>Die Entstehung ist umstritten, MOSTERT sieht zusätzlich Tours auch die Möglichkeit einer Entstehung in Fleury. Insbesondere die Nähe zu Paris, BnF, Latin 7929, die seiner Meinung aus Fleury stammt, spricht für eine Entstehung in Fleury. Die <seg type="lat">est</seg> und <seg type="lat">esse</seg> Kürzungen deuten auf eine Entstehung in Tours hin.</note>
+                     <note>Die Entstehung ist umstritten, MOSTERT sieht zusätzlich zu Tours auch die Möglichkeit einer Entstehung in Fleury. Insbesondere die Nähe zu Paris, BnF, Latin 7929, die seiner Meinung aus Fleury stammt, spricht für eine Entstehung in Fleury. Die <seg type="lat">est</seg> und <seg type="lat">esse</seg> Kürzungen deuten dagegen auf eine Entstehung in Tours hin.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance></provenance>

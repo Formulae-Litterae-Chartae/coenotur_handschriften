@@ -77,16 +77,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low">wohl nicht Tours; Meaux</origPlace></p>
-                     <p><origPlace source="Bischoff" cert="low">im weiteren turonischen (und
+                     <p><origPlace source="Rand" cert="medium">wohl nicht Tours; Meaux</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">im weiteren turonischen (und
                            bretonischen?) Einflußbereich</origPlace></p>
-                     <p><origPlace source="BnF" cert="low">Westfrankreich</origPlace></p>
-                     <p><origPlace source="Porcher" cert="low">Chartres</origPlace></p>
+                     <p><origPlace source="BnF" cert="medium">Westfrankreich</origPlace></p>
+                     <p><origPlace source="Porcher" cert="medium">Chartres</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
                            >3. Viertel 9. Jhd.</origDate></p>
-                     <note source="Rand">Wenig scheint bekannt. Entstehung in Tours wohl sehr
-                        zweifelhaft. Eher von einem „Irishman aspiring to the manner of
-                        Tours”.</note>
+                     <note >Entstehung in Tours zweifelhaft. Eher von einem „Irishman aspiring to the manner of
+                        Tours” (RAND).</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Chartres</orgName>, Kapitel der
                      Kathedrale</provenance>
