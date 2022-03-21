@@ -13,8 +13,8 @@
             <msDesc>
                <msIdentifier>
                   <country>Switzerland</country>
-                  <settlement>St. Gallen</settlement>
-                  <repository>Stiftsbibliotek</repository>
+                  <settlement>St-Gallen</settlement>
+                  <repository>Stiftsbibliothek</repository>
                   <collection/>
                   <idno>1398 a I</idno>
                   <msName/>
@@ -71,7 +71,7 @@
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>
-                  <acquisition><name type="Repository">BM</name></acquisition>
+                  <acquisition><name type="Repository">SB</name></acquisition>
                </history>
                <additional>
                   <surrogates>
