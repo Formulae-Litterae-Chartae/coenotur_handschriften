@@ -16,3 +16,12 @@
 .surname {
     font-variant: small-caps;
 }
+
+.index-paragraph {
+    text-align: justify;
+}
+
+.major-caption {
+    font-size: x-large;
+    font-weight: bold;
+}

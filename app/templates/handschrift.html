@@ -250,6 +250,69 @@
                     </tr>
                     {% endif %}
                 {% endif %}
+                
+                {% if m_d['tintenanalyse']['ink'] or m_d['tintenanalyse']['pigments'] %}
+                <tr>
+                    <th class="text-center" scope="col" colspan="2"><h4>TINTENANALYSE</h4></td>
+                </tr>
+                {% if m_d['tintenanalyse']['ink'] %}
+                <tr>
+                    <th scope="row">Tintenanalyse</th>
+                    <td>
+                    {% for ink_type, ink_desc in m_d['tintenanalyse']['ink'].items() %}
+                    <div class="card">
+                        <a data-toggle="collapse" aria-expanded="false" href="#{{ ink_type|replace(' ', '-') }}-collapse" role="button" aria-controls="{{ ink_type|replace(' ', '-') }}-collapse" id="{{ ink_type|replace(' ', '-') }}-header">{{ ink_type }}</a>
+                        <div id="{{ ink_type|replace(' ', '-') }}-collapse" class="collapse" aria-labelledby="{{ ink_type|replace(' ', '-') }}-header">
+                            <ul>
+                            {% for cat_plus_folien in ink_desc %}
+                                {% for ink_cat, folien in cat_plus_folien.items() %}
+                                    <li>
+                                    {{ ink_cat }}
+                                        <ul>
+                                        {% for folia in folien %}
+                                        <li>{{ folia|safe }}</li>
+                                        {% endfor %}
+                                        </ul>
+                                    </li>
+                                {% endfor %}
+                            {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endfor %}</td>
+                </tr>
+                {% endif %}
+                {% if m_d['tintenanalyse']['pigments'] %}
+                <tr>
+                    <th scope="row">Pigmentanalyse</th>
+                    <td>
+                    {% for pig_color, pig_desc in m_d['tintenanalyse']['pigments'].items() %}
+                    <div class="card">
+                        <a data-toggle="collapse" aria-expanded="false" href="#{{ pig_color|replace(' ', '-') }}-collapse" role="button" aria-controls="{{ pig_color|replace(' ', '-') }}-collapse" id="{{ pig_color|replace(' ', '-') }}-header">{{ pig_color }}</a>
+                        <div id="{{ pig_color|replace(' ', '-') }}-collapse" class="collapse" aria-labelledby="{{ pig_color|replace(' ', '-') }}-header">
+                            {% for pig_type, pig_info in pig_desc.items() %}
+                                <ul class="mb-0">
+                                    <li>{{ pig_type }}
+                                        <ul>
+                                            {% for pig_deco, pig_folien in pig_info.items() %}
+                                            <li>{{ pig_deco }}
+                                                <ul>
+                                                    {% for folia in pig_folien %}
+                                                    <li>{{ folia }}</li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </li>
+                                </ul>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}</td>
+                </tr>
+                {% endif %}
+                {% endif %}
             </table>
         </div>
     </div>

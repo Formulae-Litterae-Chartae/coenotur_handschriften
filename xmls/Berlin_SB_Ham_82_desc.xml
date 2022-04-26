@@ -376,10 +376,20 @@
                             <handNote source="Rand">14 Schreiber</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand" xml:id="Kursive">Karolingische Minuskel</p>
+                            <scriptNote ana="ink" n="Hauptext"><locus n="f. 3r, f. 4r, f. 33r, f. 43r, f. 70r, f. 76r, f. 88r, f. 130r, f. 211v"/>Nicht-vitriolische Eisengallustinten</scriptNote>
+                            <scriptNote ana="ink" n="zusatz"><locus n="f. 43r, f. 409r"/>Nicht-vitriolische Eisengallustinten</scriptNote>
+                            <scriptNote ana="ink" n="marginalia"><locus n="f. 3r, f. 4r, f. 6r, f. 13r, f. 43r, f. 130r"/>Nicht-vitriolische Eisengallustinten</scriptNote>
+                            <scriptNote ana="ink" n="korrektur"><locus n="f. 130r"/>Nicht-vitriolische Eisengallustinten</scriptNote>
+                            <scriptNote ana="ink" n="überschrift"><locus n="f. 3r, f. 33r, f. 58v, f. 88r"/>Nicht-vitriolische Eisengallustinten</scriptNote>
+                            <scriptNote ana="ink" n="andere"><locus n="f. 347r (Konkordanz)"/>Vitriolische Eisengallustinten</scriptNote>
+                            <scriptNote source="Rand" xml:id="Kursive">Karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote ana="pigments" n="rot">
+                                <p><locus n="initiale f. 4r, f. 211v"/>Zinnober</p>
+                                <p><locus n="initiale f. 70r, f. 76r"/>Minium</p>
+                                <p><locus n="Rubrik f. 58v, f. 70r, f. 76r"/>Minium</p></decoNote>
+                            <decoNote ana="pigments" n="blau"><locus n="initiale f. 211v, f. 350r"/></decoNote>
                         </decoDesc>
                         <additions>
                             <p>Gedichte <persName>Aldebaldus</persName>für <persName>Wilhelm von Dijon</persName> (10. Jhd.)</p>

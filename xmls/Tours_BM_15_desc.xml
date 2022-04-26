@@ -54,13 +54,14 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote ana="ink" n="Hauptext"><locus n="f. 12r, f. 16r, f. 60r, f. 98r, f. 127v, f. 145r"/>Nicht-vitriolische Eisengallustinten</scriptNote>
+                     <scriptNote ana="ink" n="initiale"><locus n="f. 4r"/>Nicht-vitriolische Eisengallustinten</scriptNote>
+                     <scriptNote ana="ink" n="marginalia"><locus n="f. 4r, f. 127v"/>Nicht-vitriolische Eisengallustinten</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n="18"/>
-                        <locus n="19"/>
-                     </decoNote>
+                     <decoNote ana="pigments" n="schwarz"><locus n="Rahmen f. 60r, f. 98r"/>Mischtinte</decoNote>
+                     <decoNote ana="pigments" n="rot"><locus n="marginalia f. 16r; initiale f. 16r; Kolumnentitel f. 16r, f. 60r"/>Zinnober</decoNote>
+                     <decoNote ana="pigments" n="gold"><locus n="initiale, f. 60r, f. 98r"/>Gold + Fe</decoNote>
                   </decoDesc>
                   <additions>
                      <p/>

@@ -44,6 +44,12 @@ def index():
     return render_template('index.html')
 
 
+@bp.route('/tintenanalyse')
+@login_required
+def tintenanalyse():
+    return render_template('tintenanalyse.html')
+
+
 @bp.route('/handschriften')
 @login_required
 def handschriften():
@@ -194,18 +200,28 @@ def handschrift(manuscript: str):
                                                                         layout.get('source') else '',
                                                                         end_symbol))
     metadata['script_desc'] = []
+    metadata['tintenanalyse'] = {'ink': dict(), 'pigments': dict()}
     for scr_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:scriptDesc',
                               namespaces=current_app.namespaces):
         for note in scr_desc.xpath('./tei:p|./tei:scriptNote', namespaces=current_app.namespaces):
-            scr_desc_text = ''.join(insert_style_spans(note))
-            if scr_desc_text:
-                end_symbol = ''
-                if scr_desc_text.strip().endswith('.'):
-                    end_symbol = '.'
-                metadata['script_desc'].append('{}{}{}'.format(scr_desc_text.strip('. \n'),
-                                                               ' (' + note.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
-                                                               note.get('source') else '',
-                                                               end_symbol))
+            if note.get('ana') == 'ink':
+                ink_locus = []
+                for i_l in note.xpath('./tei:locus/@n', namespaces=current_app.namespaces):
+                    ink_locus = re.split(r',\s*', i_l)
+                if note.get('n') in metadata['tintenanalyse']['ink']:
+                    metadata['tintenanalyse']['ink'][note.get('n')].append({''.join(note.xpath('.//text()')): ink_locus})
+                else:
+                    metadata['tintenanalyse']['ink'][note.get('n')] = [{''.join(note.xpath('.//text()')): ink_locus}]
+            else:
+                scr_desc_text = ''.join(insert_style_spans(note))
+                if scr_desc_text:
+                    end_symbol = ''
+                    if scr_desc_text.strip().endswith('.'):
+                        end_symbol = '.'
+                    metadata['script_desc'].append('{}{}{}'.format(scr_desc_text.strip('. \n'),
+                                                                   ' (' + note.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
+                                                                   note.get('source') else '',
+                                                                   end_symbol))
     metadata['hand_desc'] = []
     for hand_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc',
                                namespaces=current_app.namespaces):
@@ -357,7 +373,19 @@ def handschrift(manuscript: str):
                           namespaces=current_app.namespaces):
         deco_type = deco_types.get(deco.get('type'), 'Allgemeine Miniaturen')
         source = deco.get('source')
-        if deco.xpath('./tei:p', namespaces=current_app.namespaces):
+        if deco.get('ana') == 'pigments':
+            pigment_info = {'type': '', 'loc': '', 'folien': []}
+            for pigment_locus in deco.xpath('./tei:locus/@n', namespaces=current_app.namespaces):
+                loc_and_folien = pigment_locus.split(':')
+                pigment_info = {'type': ''.join(deco.xpath('.//text()')), 'loc': loc_and_folien[0].strip(), 'folien': re.split(r',\s*', loc_and_folien[-1].strip())}
+            if deco.get('n') in metadata['tintenanalyse']['pigments']:
+                if pigment_info['type'] in metadata['tintenanalyse']['pigments'][deco.get('n')]:
+                    metadata['tintenanalyse']['pigments'][deco.get('n')][pigment_info['type']].update({pigment_info['loc']: pigment_info['folien']})
+                else:
+                    metadata['tintenanalyse']['pigments'][deco.get('n')][pigment_info['type']] = {pigment_info['loc']: pigment_info['folien']}
+            else:
+                metadata['tintenanalyse']['pigments'][deco.get('n')] = {pigment_info['type']: {pigment_info['loc']: pigment_info['folien']}}
+        elif deco.xpath('./tei:p', namespaces=current_app.namespaces):
             for deco_p in deco.xpath('./tei:p', namespaces=current_app.namespaces):
                 locus = []
                 deco_text = ''.join(deco_p.xpath('.//text()')).rstrip()
@@ -398,6 +426,7 @@ def handschrift(manuscript: str):
                                                                      ' (' + source.upper().replace('_', ' ') + ')'
                                                                      if source else '',
                                                                      end_symbol))
+    print(metadata['tintenanalyse'])
                 
     return render_template('handschrift.html',
                            title=current_app.manuscript_dict[manuscript],
