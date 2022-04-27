@@ -6,6 +6,7 @@ import re
 from app.main import bp
 from app.search.forms import SearchForm
 from collections import defaultdict
+from glob import glob
 
 language_mapping = {'la': 'Latein'}
 
@@ -211,12 +212,17 @@ def handschrift(manuscript: str):
             if note.get('ana') == 'ink':
                 ink_locus = []
                 for note_para in note.xpath('./tei:p', namespaces=current_app.namespaces):
+                    ink_type = ''.join(note_para.xpath('.//text()'))
+                    ink_type_url = url_for('static', filename='images/tinte/{}.jpg'.format(ink_type.lower().replace(' ', '')))
+                    print(ink_type_url)
+                    if os.path.isfile(current_app.root_path + ink_type_url):
+                        ink_type = '<a href="{}" target="_blank">{}</a>'.format(ink_type_url, ink_type)
                     for i_l in note_para.xpath('./tei:locus/@n', namespaces=current_app.namespaces):
                         ink_locus = i_l.strip()
                     if note.get('n') in metadata['tintenanalyse']['ink']:
-                        metadata['tintenanalyse']['ink'][note.get('n')].append({''.join(note_para.xpath('.//text()')): ink_locus})
+                        metadata['tintenanalyse']['ink'][note.get('n')].append({ink_type: ink_locus})
                     else:
-                        metadata['tintenanalyse']['ink'][note.get('n')] = [{''.join(note_para.xpath('.//text()')): ink_locus}]
+                        metadata['tintenanalyse']['ink'][note.get('n')] = [{ink_type: ink_locus}]
             else:
                 scr_desc_text = ''.join(insert_style_spans(note))
                 if scr_desc_text:
@@ -382,7 +388,11 @@ def handschrift(manuscript: str):
             pigment_info = {'type': '', 'loc': '', 'folien': ''}
             for pigment_para in deco.xpath('./tei:p', namespaces=current_app.namespaces):
                 pigment_locus = pigment_para.xpath('./tei:locus', namespaces=current_app.namespaces)[0]
-                pigment_info = {'type': ''.join(pigment_para.xpath('.//text()')), 'loc': pigment_locus.get('type', default='').strip(), 'folien': pigment_locus.get('n').strip()}
+                pigment_type = ''.join(pigment_para.xpath('.//text()'))
+                pigment_type_url = url_for('static', filename='images/tinte/{}.jpg'.format(pigment_type.lower().replace(' ', '')))
+                if os.path.isfile(current_app.root_path + pigment_type_url):
+                    pigment_type = '<a href="{}" target="_blank">{}</a>'.format(pigment_type_url, pigment_type)
+                pigment_info = {'type': pigment_type, 'loc': pigment_locus.get('type', default='').strip(), 'folien': pigment_locus.get('n').strip()}
                 if deco.get('n') in metadata['tintenanalyse']['pigments']:
                     if pigment_info['type'] in metadata['tintenanalyse']['pigments'][deco.get('n')]:
                         metadata['tintenanalyse']['pigments'][deco.get('n')][pigment_info['type']].update({pigment_info['loc']: pigment_info['folien']})

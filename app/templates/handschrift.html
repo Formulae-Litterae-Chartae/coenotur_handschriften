@@ -154,7 +154,7 @@
                             {% for cat_plus_folien in ink_desc %}
                                 {% for ink_cat, folien in cat_plus_folien.items() %}
                                     <li>
-                                    {{ ink_cat + ' (' + folien|safe + ')' }}
+                                    {{ ink_cat|safe + ' (' + folien|safe + ')' }}
                                     </li>
                                 {% endfor %}
                             {% endfor %}
@@ -174,7 +174,7 @@
                         <div id="{{ pig_color|replace(' ', '-') }}-collapse" class="collapse" aria-labelledby="{{ pig_color|replace(' ', '-') }}-header">
                             {% for pig_type, pig_info in pig_desc.items() %}
                                 <ul class="mb-0">
-                                    <li>{{ pig_type }}
+                                    <li>{{ pig_type|safe }}
                                         <ul>
                                             {% for pig_deco, pig_folien in pig_info.items() %}
                                             <li>{{ pig_deco + ' (' + pig_folien|safe + ')'}}

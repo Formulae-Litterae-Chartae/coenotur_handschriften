@@ -11,40 +11,86 @@
             <p class="index-paragraph">Eine Veröffentlichung mit weiteren Einzelheiten zu den verwendeten Techniken, der Methodik und einer Interpretation der Ergebnisse in französischer Sprache wird im Sammelband mit den detaillierten Ergebnissen des Projekts erhältlich sein.</p>
             <h2>Tinten</h2>
             <figure>
-                <img src="{{url_for('static', filename='images/tintenanalyse_BM_290_81r_haupttext.jpg')}}" class="img-fluid" alt="Tintenanalyse: Tours, BM, Ms 290, f.81r, Haupttext">
-                <figcaption class="text-center major-caption">Vitriolische Eisengallustinte</figcaption>
+                <span id="blackInkTooltip" data-toggle="tooltip" data-container="#blackInkTooltip" title="Getrennte Kurven zeigen"><button type="button" class="btn btn-link" data-toggle="modal" data-target="#blackInkModal"><img src="{{url_for('static', filename='images/tinte/vitriolisch+nichtvitriolischeisengallustinten.jpg')}}" class="img-fluid" alt="Tintenanalyse: Tours, BM, Ms 290, f.81r, Haupttext"></button></span>
+                <figcaption class="text-center major-caption">Vitriolische und nicht-vitriolische Eisengallustinte</figcaption>
             </figure>
+            <p class="index-paragraph">Zwei Arten von schwarzer Tinte waren im Korpus vorhanden, beide vom Typ Ferrogallus. Beide Spektren enthalten Eisen. Dennoch unterscheiden sie sich in den Bereichen von Kupfer (Cu), Mangan (Mn) und Zink (Zn) jeweils bei at 5,9 keV, 8 keV und 8,6 keV. Das grüne Spektrum enthält keines dieser Elemente, was die Verwendung von reinem Eisen (in Form von Nägeln oder Eisenspänen) zur Herstellung der Tinte recht wahrscheinlich macht, während das blaue Spektrum diese Elemente enthält, was ein spezifisches Profil für die Verwendung von Vitriol zur Herstellung der Tinte darstellt.</p>
+            <div class="modal" id="blackInkModal" tabindex="-1" aria-labelledby="blackInkModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="blackInkModalLabel">Analyse von schwarzen Tinten</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <img src="{{url_for('static', filename='images/tinte/vitriolischeeisengallustinten.jpg')}}" class="img-fluid" alt="Tintenanalyse: Tours, BM, Ms 290, f.81r, Haupttext">
+                                <figcaption class="text-center major-caption">Vitriolische Eisengallustinte</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="{{url_for('static', filename='images/tinte/nicht-vitriolischeeisengallustinten.jpg')}}" class="img-fluid" alt="Tintenanalyse: Berlin, SBB, Ms Phill 1877, f.90r, Haupttext">
+                                <figcaption class="text-center major-caption">Nicht-vitriolische Eisengallustinte</figcaption>
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2>Pigmente</h2>
+            <h3>Rote Pigmente</h3>
             <figure>
-                <img src="{{url_for('static', filename='images/tintenanalyse_Berlin_SBB_1877_90r_haupttext.jpg')}}" class="img-fluid" alt="Tintenanalyse: Berlin, SBB, Ms Phill 1877, f.90r, Haupttext">
-                <figcaption class="text-center major-caption">Nicht-vitriolische Eisengallustinte</figcaption>
+                <span id="redPigmentTooltip" data-toggle="tooltip" data-container="#redPigmentTooltip" title="Getrennte Kurven zeigen"><button type="button" class="btn btn-link" data-toggle="modal" data-target="#redPigmentModal"><img src="{{url_for('static', filename='images/tinte/rot_pigment.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 248, f.1r"></button></span>
+                <figcaption class="text-center major-caption">Rote Pigmente</figcaption>
             </figure>
-            <h2>Pigments</h2>
+            <p class="index-paragraph">Im Korpus wurden drei Rot-Typen nachgewiesen: ein Rot-Typ, der nur Blei (Pb) enthält, was charakteristisch für Mennige ist (schwarzes Spektrum). Ein zweiter, der nur Quecksilber (Hg) enthält, das für Zinnober charakteristisch ist (graues Spektrum). Und schließlich eine Mischung aus beiden (blau).</p>
+            <div class="modal" id="redPigmentModal" tabindex="-1" aria-labelledby="redPigmentModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="redPigmentModalLabel">Analyse von roten Pigmenten</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <img src="{{url_for('static', filename='images/tinte/minium.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Phill 1877, f.22r, Titel">
+                                <figcaption class="text-center major-caption">Minium</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="{{url_for('static', filename='images/tinte/zinnober.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Ms Phil 1872, f.88v, Incipit">
+                                <figcaption class="text-center major-caption">Zinnober</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="{{url_for('static', filename='images/tinte/minium+zinnober.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 82, f.4r, Initiale">
+                                <figcaption class="text-center major-caption">Mischung aus Minium und Zinnober</figcaption>
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Goldene Pigmente</h3>
             <figure>
-                <img src="{{url_for('static', filename='images/tintenanalyse_Berlin_SBB_1877_22r_titel_Mennige.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Phill 1877, f.22r, Titel">
-                <figcaption class="text-center major-caption">Mennige</figcaption>
-            </figure>
-            <figure>
-                <img src="{{url_for('static', filename='images/tintenanalyse_Ms_Phil_1872_f88v_incipit_Zinnober.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Ms Phil 1872, f.88v, Incipit">
-                <figcaption class="text-center major-caption">Zinnober</figcaption>
-            </figure>
-            <figure>
-                <img src="{{url_for('static', filename='images/tintenanalyse_Berlin_SBB_MsHam82_f4r_initiale_Mennige+Zinnober.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 82, f.4r, Initiale">
-                <figcaption class="text-center major-caption">Mischung aus Mennige und Zinnober</figcaption>
-            </figure>
-            <figure>
-                <img src="{{url_for('static', filename='images/tintenanalyse_Berlin_SBB_MsHam248_f1r_Gold.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 248, f.1r">
+                <img src="{{url_for('static', filename='images/tinte/gold.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 248, f.1r">
                 <figcaption class="text-center major-caption">Gold</figcaption>
             </figure>
             <figure>
-                <img src="{{url_for('static', filename='images/tintenanalyse_Berlin_SBB_1877_Pigment_Gold+Kupfer.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Phill 1877, Gold + Kupfer">
+                <img src="{{url_for('static', filename='images/tinte/gold+kupfer.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Phill 1877, Gold + Kupfer">
                 <figcaption class="text-center major-caption">Gold + Kupfer</figcaption>
             </figure>
             <figure>
-                <img src="{{url_for('static', filename='images/tintenanalyse_Tours_BM_Ms196_f32v_Messing.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Tours, BM, Ms 196, f.32v, Messing">
+                <img src="{{url_for('static', filename='images/tinte/messing.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Tours, BM, Ms 196, f.32v, Messing">
                 <figcaption class="text-center major-caption">Messing</figcaption>
             </figure>
             <figure>
-                <img src="{{url_for('static', filename='images/tintenanalyse_Tours_BM_Ms15_f98r_Bleiweiß.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Tours, BM, Ms 15, f. 98r, Bleiweiß">
+                <img src="{{url_for('static', filename='images/tinte/bleiweiß.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Tours, BM, Ms 15, f. 98r, Bleiweiß">
                 <figcaption class="text-center major-caption">Bleiweiß</figcaption>
             </figure>
             <p>Zina <span class="surname">Cohen</span></p>
