@@ -376,20 +376,20 @@
                             <handNote source="Rand">14 Schreiber</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote ana="ink" n="Hauptext"><locus n="f. 3r, f. 4r, f. 33r, f. 43r, f. 70r, f. 76r, f. 88r, f. 130r, f. 211v"/>Nicht-vitriolische Eisengallustinten</scriptNote>
-                            <scriptNote ana="ink" n="zusatz"><locus n="f. 43r, f. 409r"/>Nicht-vitriolische Eisengallustinten</scriptNote>
-                            <scriptNote ana="ink" n="marginalia"><locus n="f. 3r, f. 4r, f. 6r, f. 13r, f. 43r, f. 130r"/>Nicht-vitriolische Eisengallustinten</scriptNote>
-                            <scriptNote ana="ink" n="korrektur"><locus n="f. 130r"/>Nicht-vitriolische Eisengallustinten</scriptNote>
-                            <scriptNote ana="ink" n="überschrift"><locus n="f. 3r, f. 33r, f. 58v, f. 88r"/>Nicht-vitriolische Eisengallustinten</scriptNote>
-                            <scriptNote ana="ink" n="andere"><locus n="f. 347r (Konkordanz)"/>Vitriolische Eisengallustinten</scriptNote>
+                            <scriptNote ana="ink" n="Hauptext"><p><locus n="f. 3r, f. 4r, f. 33r, f. 43r, f. 70r, f. 76r, f. 88r, f. 130r, f. 211v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Zusatz"><p><locus n="f. 43r, f. 409r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Marginalia"><p><locus n="f. 3r, f. 4r, f. 6r, f. 13r, f. 43r, f. 130r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Korrektur"><p><locus n="f. 130r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Überschrift"><p><locus n="f. 3r, f. 33r, f. 58v, f. 88r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Andere"><p><locus n="f. 347r (Konkordanz)"/>Vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote source="Rand" xml:id="Kursive">Karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote ana="pigments" n="rot">
-                                <p><locus n="initiale f. 4r, f. 211v"/>Zinnober</p>
-                                <p><locus n="initiale f. 70r, f. 76r"/>Minium</p>
-                                <p><locus n="Rubrik f. 58v, f. 70r, f. 76r"/>Minium</p></decoNote>
-                            <decoNote ana="pigments" n="blau"><locus n="initiale f. 211v, f. 350r"/></decoNote>
+                            <decoNote ana="pigments" n="Rot">
+                                <p><locus type="Initiale" n="f. 4r, f. 211v"/>Zinnober</p>
+                                <p><locus type="Initiale" n="f. 70r, f. 76r"/>Minium</p>
+                                <p><locus type="Rubrik" n="f. 58v, f. 70r, f. 76r"/>Minium</p></decoNote>
+                            <decoNote ana="pigments" n="Blau"><p><locus type="Initiale" n="f. 211v, f. 350r"/></p></decoNote>
                         </decoDesc>
                         <additions>
                             <p>Gedichte <persName>Aldebaldus</persName>für <persName>Wilhelm von Dijon</persName> (10. Jhd.)</p>
