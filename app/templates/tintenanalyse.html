@@ -1,0 +1,53 @@
+{% extends "container.html" %}
+
+{% block body %}
+    <div class="row justify-content-center mt-3">
+        <div class="col-12">
+            <h1 class="index-paragraph">Analysen von Pigmenten und Tinten</h1>
+            <p class="index-paragraph">Diese Datenbank, die Beobachtungen sammelt, die über den gesamten Korpus der Tours zugeschriebenen Manuskripte gesammelt wurden, von denen wir bis heute wissen, wurde um eine Kategorie über die Analysen ergänzt, die an den Tinten und Pigmenten bestimmter Manuskripte durchgeführt wurden. Diese Ergebnisse wurden in den Einträgen "Tintenanalysen" und "Pigmentanalysen" zusammengefasst und stammen aus den Kompositionsanalysen, die an den Manuskripten unseres Korpus durchgeführt wurden.</p>
+            <p class="index-paragraph">Alle 52 Manuskripte wurden mithilfe eines zweistufigen Protokolls analysiert: zunächst eine systematische Beobachtung der Tinten mittels Infrarot-Reflektographie unter Verwendung eines DinoLite Taschenmikroskops und in einem zweiten Schritt eine Analyse mittels XRF (Röntgenfluoreszenz-Spektrometrie).</p>
+            <p class="index-paragraph">Diese Analysen ermöglichen zwar keine Rezeptur, aber eine Charakterisierung der verschiedenen anorganischen Komponenten, die in der analysierten Zone enthalten sind, und somit eine Zuordnung zu einem Tintentyp oder einem Typ des verwendeten Pigments.</p>
+            <p class="index-paragraph">Diese Charakterisierung zielte darauf ab, die Verwendung von Schreibmaterialien in frühkarolingischen Manuskripten aus Tours zu verstehen und wurde schrittweise bis zum Beginn des 13. Jahrhunderts ausgeweitet, wobei auch Manuskripte einbezogen wurden, die außerhalb von Tours geschrieben worden sein könnten, um Vergleichsmöglichkeiten zu erhalten. Diese Analysen ermöglichten es, verschiedene Tinten und Pigmente zu identifizieren, die im Korpus verwendet wurden.</p>
+            <p class="index-paragraph">Eine Veröffentlichung mit weiteren Einzelheiten zu den verwendeten Techniken, der Methodik und einer Interpretation der Ergebnisse in französischer Sprache wird im Sammelband mit den detaillierten Ergebnissen des Projekts erhältlich sein.</p>
+            <h2>Tinten</h2>
+            <figure>
+                <img src="{{url_for('static', filename='images/tintenanalyse_BM_290_81r_haupttext.jpg')}}" class="img-fluid" alt="Tintenanalyse: Tours, BM, Ms 290, f.81r, Haupttext">
+                <figcaption class="text-center major-caption">Vitriolische Eisengallustinte</figcaption>
+            </figure>
+            <figure>
+                <img src="{{url_for('static', filename='images/tintenanalyse_Berlin_SBB_1877_90r_haupttext.jpg')}}" class="img-fluid" alt="Tintenanalyse: Berlin, SBB, Ms Phill 1877, f.90r, Haupttext">
+                <figcaption class="text-center major-caption">Nicht-vitriolische Eisengallustinte</figcaption>
+            </figure>
+            <h2>Pigments</h2>
+            <figure>
+                <img src="{{url_for('static', filename='images/tintenanalyse_Berlin_SBB_1877_22r_titel_Mennige.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Phill 1877, f.22r, Titel">
+                <figcaption class="text-center major-caption">Mennige</figcaption>
+            </figure>
+            <figure>
+                <img src="{{url_for('static', filename='images/tintenanalyse_Ms_Phil_1872_f88v_incipit_Zinnober.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Ms Phil 1872, f.88v, Incipit">
+                <figcaption class="text-center major-caption">Zinnober</figcaption>
+            </figure>
+            <figure>
+                <img src="{{url_for('static', filename='images/tintenanalyse_Berlin_SBB_MsHam82_f4r_initiale_Mennige+Zinnober.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 82, f.4r, Initiale">
+                <figcaption class="text-center major-caption">Mischung aus Mennige und Zinnober</figcaption>
+            </figure>
+            <figure>
+                <img src="{{url_for('static', filename='images/tintenanalyse_Berlin_SBB_MsHam248_f1r_Gold.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 248, f.1r">
+                <figcaption class="text-center major-caption">Gold</figcaption>
+            </figure>
+            <figure>
+                <img src="{{url_for('static', filename='images/tintenanalyse_Berlin_SBB_1877_Pigment_Gold+Kupfer.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Phill 1877, Gold + Kupfer">
+                <figcaption class="text-center major-caption">Gold + Kupfer</figcaption>
+            </figure>
+            <figure>
+                <img src="{{url_for('static', filename='images/tintenanalyse_Tours_BM_Ms196_f32v_Messing.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Tours, BM, Ms 196, f.32v, Messing">
+                <figcaption class="text-center major-caption">Messing</figcaption>
+            </figure>
+            <figure>
+                <img src="{{url_for('static', filename='images/tintenanalyse_Tours_BM_Ms15_f98r_Bleiweiß.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Tours, BM, Ms 15, f. 98r, Bleiweiß">
+                <figcaption class="text-center major-caption">Bleiweiß</figcaption>
+            </figure>
+            <p>Zina <span class="surname">Cohen</span></p>
+        </div>
+    </div>
+{% endblock %}

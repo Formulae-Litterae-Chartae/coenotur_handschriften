@@ -1,5 +1,4 @@
-<?xml-model href="https://digitallati
-   n.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="fre">
       <fileDesc>
@@ -68,8 +67,20 @@
                      <scriptNote source="Berger">Vollständig in goldener Unziale; irischer
                         Stil</scriptNote>
                      <scriptNote source="Rand">Nicht von einem Iren</scriptNote>
+                     <scriptNote ana="ink" n="Marginalia"><p><locus n="f. 281v"/>vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
+                     <decoNote ana="pigments" n="gold">
+                        <p><locus type="Haupttext" n="f. 5r, f. 30r, f. 144r, f. 147r"/>Gold + Cu</p>
+                        <p><locus type="Kanontafeln" n="f. 8r"/>Gold + Cu</p>
+                        <p><locus type="Explicit" n="f. 142r"/>Gold + Cu</p>
+                        <p><locus type="Kolumnentitel" n="f. 142r"/>Gold + Cu</p>
+                     </decoNote>
+                     <decoNote ana="pigments" n="rot">
+                        <p><locus type="Kanontafeln" n="f. 8r"/>Zinnober</p>
+                        <p><locus type="Kolumnentitel" n="Kolumnentitel f. 142r"/>Zinnober</p>
+                        <p><locus type="Explicit" n="f. 281v "/>Zinnober</p>
+                     </decoNote>
                      <decoNote type="initial">
                         <p><locus n="17r"/>Verschönerte Initiale in Rot und Gold</p>
                         <p><locus n="95r"/>Verschönerte Initiale in Rot und Gold</p>

@@ -1,6 +1,6 @@
 from lxml import etree
 import os
-from flask import render_template, g, current_app
+from flask import render_template, g, current_app, url_for
 from flask_login import login_required
 import re
 from app.main import bp
@@ -44,6 +44,12 @@ def index():
     return render_template('index.html')
 
 
+@bp.route('/tintenanalyse')
+@login_required
+def tintenanalyse():
+    return render_template('tintenanalyse.html')
+
+
 @bp.route('/handschriften')
 @login_required
 def handschriften():
@@ -55,6 +61,10 @@ def handschriften():
 def handschrift(manuscript: str):
     metadata = dict()
     xml = etree.parse(os.path.join(current_app.config['XML_LOCATION'], manuscript))
+    try:
+        metadata['pdf'] = url_for('static', filename='pdfs/{}'.format(manuscript.replace('.xml', '.pdf')))
+    except:
+        metadata['pdf'] = None
     metadata['old_sigs'] = list()
     for alt_id in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier',
                             namespaces=current_app.namespaces):
@@ -194,18 +204,29 @@ def handschrift(manuscript: str):
                                                                         layout.get('source') else '',
                                                                         end_symbol))
     metadata['script_desc'] = []
+    metadata['tintenanalyse'] = {'ink': dict(), 'pigments': dict()}
     for scr_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:scriptDesc',
                               namespaces=current_app.namespaces):
         for note in scr_desc.xpath('./tei:p|./tei:scriptNote', namespaces=current_app.namespaces):
-            scr_desc_text = ''.join(insert_style_spans(note))
-            if scr_desc_text:
-                end_symbol = ''
-                if scr_desc_text.strip().endswith('.'):
-                    end_symbol = '.'
-                metadata['script_desc'].append('{}{}{}'.format(scr_desc_text.strip('. \n'),
-                                                               ' (' + note.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
-                                                               note.get('source') else '',
-                                                               end_symbol))
+            if note.get('ana') == 'ink':
+                ink_locus = []
+                for note_para in note.xpath('./tei:p', namespaces=current_app.namespaces):
+                    for i_l in note_para.xpath('./tei:locus/@n', namespaces=current_app.namespaces):
+                        ink_locus = i_l.strip()
+                    if note.get('n') in metadata['tintenanalyse']['ink']:
+                        metadata['tintenanalyse']['ink'][note.get('n')].append({''.join(note_para.xpath('.//text()')): ink_locus})
+                    else:
+                        metadata['tintenanalyse']['ink'][note.get('n')] = [{''.join(note_para.xpath('.//text()')): ink_locus}]
+            else:
+                scr_desc_text = ''.join(insert_style_spans(note))
+                if scr_desc_text:
+                    end_symbol = ''
+                    if scr_desc_text.strip().endswith('.'):
+                        end_symbol = '.'
+                    metadata['script_desc'].append('{}{}{}'.format(scr_desc_text.strip('. \n'),
+                                                                   ' (' + note.get('source').upper().replace(' ', '; ').replace('_', ' ') + ')' if
+                                                                   note.get('source') else '',
+                                                                   end_symbol))
     metadata['hand_desc'] = []
     for hand_desc in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc',
                                namespaces=current_app.namespaces):
@@ -357,7 +378,19 @@ def handschrift(manuscript: str):
                           namespaces=current_app.namespaces):
         deco_type = deco_types.get(deco.get('type'), 'Allgemeine Miniaturen')
         source = deco.get('source')
-        if deco.xpath('./tei:p', namespaces=current_app.namespaces):
+        if deco.get('ana') == 'pigments':
+            pigment_info = {'type': '', 'loc': '', 'folien': ''}
+            for pigment_para in deco.xpath('./tei:p', namespaces=current_app.namespaces):
+                pigment_locus = pigment_para.xpath('./tei:locus', namespaces=current_app.namespaces)[0]
+                pigment_info = {'type': ''.join(pigment_para.xpath('.//text()')), 'loc': pigment_locus.get('type', default='').strip(), 'folien': pigment_locus.get('n').strip()}
+                if deco.get('n') in metadata['tintenanalyse']['pigments']:
+                    if pigment_info['type'] in metadata['tintenanalyse']['pigments'][deco.get('n')]:
+                        metadata['tintenanalyse']['pigments'][deco.get('n')][pigment_info['type']].update({pigment_info['loc']: pigment_info['folien']})
+                    else:
+                        metadata['tintenanalyse']['pigments'][deco.get('n')][pigment_info['type']] = {pigment_info['loc']: pigment_info['folien']}
+                else:
+                    metadata['tintenanalyse']['pigments'][deco.get('n')] = {pigment_info['type']: {pigment_info['loc']: pigment_info['folien']}}
+        elif deco.xpath('./tei:p', namespaces=current_app.namespaces):
             for deco_p in deco.xpath('./tei:p', namespaces=current_app.namespaces):
                 locus = []
                 deco_text = ''.join(deco_p.xpath('.//text()')).rstrip()

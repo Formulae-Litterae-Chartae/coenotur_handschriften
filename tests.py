@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 import unittest
-from app import create_app, db
+from app import create_app, db, mail
 from app.models import User
 from config import Config
-from flask import template_rendered, message_flashed, current_app
+from flask import template_rendered, message_flashed, current_app, url_for
 from flask_login import current_user
+from flask_babel import _
 from glob import glob
 from lxml import etree
 import pdfkit
@@ -114,7 +115,7 @@ class TestXmlLoad(CoenoturTests):
         """ Produce new PDFs from the XML files that have changed from master"""
         if os.environ.get('CI'):
             all_xmls = glob(self.app.config['XML_LOCATION'] + '/*.xml')
-            all_pdfs = glob('./pdfs/*.pdf')
+            all_pdfs = glob('./app/static/pdfs/*.pdf')
             for pdf in all_pdfs:
                 os.remove(pdf)
             sys.stdout.write('Old PDFs removed\n')
@@ -129,11 +130,17 @@ class TestXmlLoad(CoenoturTests):
                     span = etree.fromstring('<footer style="font-size:small;">https://coenotur.fruehmittelalterprojekte.uni-hamburg.de/handschrift/{}</footer>'.format(xml_file))
                     watermark = etree.fromstring('<div style="position:fixed;bottom:20%;left:5px;opacity:0.2;z-index:99;color:red;transform:rotate(-45deg);font-size:15em;">Coenotur Project</div>')
                     inner_div = html.xpath('//div[table]')[0]
+                    pdf_link = html.xpath('.//span[@id="pdfLink"]')[0]
+                    link_parent = pdf_link.getparent()
+                    link_parent.remove(pdf_link)
+                    for collapse in inner_div.xpath('.//div[@class="collapse"]'):
+                        for collapse_key in collapse.keys():
+                            collapse.set(collapse_key, '')
                     inner_div.append(span)
                     inner_div.append(watermark)
                     pdf_options = {'quiet': ''}
                     pdfkit.from_string(etree.tostring(html, encoding=str, pretty_print=True),
-                                       './pdfs/{}'.format(xml_file.replace('.xml', '.pdf')),
+                                       './app/static/pdfs/{}'.format(xml_file.replace('.xml', '.pdf')),
                                        css='./app/static/css/styles.css', options=pdf_options)
                     sys.stdout.write('.')
                     sys.stdout.flush()
@@ -268,3 +275,94 @@ class TestRoutes(CoenoturTests):
             r = c.get('/handschrift/Paris_BnF_Latin_4418_desc.xml', follow_redirects=True)
             metadata = self.get_context_variable('m_d')
             self.assertEqual(metadata['bibliography']['UBL 2014'], ['passim'])
+
+    def test_send_email_existing_user(self):
+        """ Ensure that emails are constructed correctly"""
+        with self.client as c:
+            with mail.record_messages() as outbox:
+                c.post('/auth/reset_password_request', data=dict(email="project.member@uni-hamburg.de"),
+                       follow_redirects=True)
+                self.assertEqual(len(outbox), 1, 'One email should be sent')
+                self.assertEqual(outbox[0].recipients, ["project.member@uni-hamburg.de"],
+                                 'The recipient email address should be correct.')
+                self.assertEqual(outbox[0].subject, _('[Coenotur Projekt] Passwort zurücksetzen'),
+                                 'The Email should have the correct subject.')
+                self.assertIn(_('Sehr geehrte(r)') + ' project.member', outbox[0].html,
+                              'The email text should be addressed to the correct user.')
+                self.assertEqual(outbox[0].sender, 'no-reply@example.com',
+                                 'The email should come from the correct sender.')
+                self.assertIn(_('Die Anweisung zum Zurücksetzen Ihres Passworts wurde Ihnen per E-mail zugeschickt'), [x[0] for x in self.flashed_messages])
+                c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                       follow_redirects=True)
+                c.post('/auth/user', data={'email': 'new_email@email.com', 'email2': 'new_email@email.com'},
+                       follow_redirects=True)
+                self.assertEqual(len(outbox), 2, 'There should now be a second email in the outbox.')
+                self.assertEqual(outbox[1].recipients, ["new_email@email.com"],
+                                 'The recipient email address should be correct.')
+                self.assertEqual(outbox[1].subject, _('[Coenotur Projekt] Emailadresse ändern'),
+                                 'The Email should have the correct subject.')
+                self.assertIn(_('Sehr geehrte(r)') + ' project.member', outbox[1].html,
+                              'The email text should be addressed to the correct user.')
+                self.assertEqual(outbox[1].sender, 'no-reply@example.com',
+                                 'The email should come from the correct sender.')
+                self.assertIn(_('Ein Link zur Bestätigung dieser Änderung wurde an Ihre neue Emailadresse zugeschickt'), [x[0] for x in self.flashed_messages])
+                self.assertEqual(current_user.email, "project.member@uni-hamburg.de",
+                                 "The email address should not be changed only by requesting the token.")
+
+    def test_send_email_not_existing_user(self):
+        """ Ensure that no email is sent to a non-registered email address"""
+        with self.client as c:
+            with mail.record_messages() as outbox:
+                c.post('/auth/reset_password_request', data=dict(email="pirate.user@uni-hamburg.de"),
+                       follow_redirects=True)
+                self.assertEqual(len(outbox), 0, 'No email should be sent when the email is not in the database.')
+                self.assertIn(_('Die Anweisung zum Zurücksetzen Ihres Passworts wurde Ihnen per E-mail zugeschickt'), [x[0] for x in self.flashed_messages])
+
+    def test_reset_password_from_email_token(self):
+        """ Make sure that a correct email token allows the user to reset their password while an incorrect one doesn't"""
+        with self.client as c:
+            user = User.query.filter_by(username='project.member').first()
+            token = user.get_reset_password_token()
+            # Make sure that the template renders correctly with correct token
+            c.post(url_for('auth.reset_password', token=token, _external=True))
+            self.assertIn('auth/reset_password.html', [x[0].name for x in self.templates])
+            # Make sure the correct token allows the user to change their password
+            c.post(url_for('auth.reset_password', token=token, _external=True),
+                   data={'password': 'some_new_password', 'password2': 'some_new_password'})
+            self.assertTrue(user.check_password('some_new_password'), 'User\'s password should be changed.')
+            c.post(url_for('auth.reset_password', token='some_weird_token', _external=True),
+                   data={'password': 'some_password', 'password2': 'some_password'}, follow_redirects=True)
+            self.assertIn('auth/login.html', [x[0].name for x in self.templates])
+            self.assertTrue(user.check_password('some_new_password'), 'User\'s password should not have changed.')
+            # Make sure that a logged in user who comes to this page with a token is redirected to their user page with a flashed message
+            c.post('/auth/login', data=dict(username='project.member', password="some_new_password"),
+                   follow_redirects=True)
+            c.post(url_for('auth.reset_password', token=token, _external=True), follow_redirects=True)
+            self.assertIn('auth/login.html', [x[0].name for x in self.templates])
+            self.assertIn(_('Sie sind schon eingeloggt. Sie können Ihr Password hier ändern.'), [x[0] for x in self.flashed_messages])
+            self.assertEqual(repr(user), '<User project.member>')
+
+    def test_reset_email_from_email_token(self):
+        """ Make sure that a correct email token changes the user's email address while an incorrect one doesn't"""
+        with self.client as c:
+            c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                   follow_redirects=True)
+            user = User.query.filter_by(username='project.member').first()
+            token = user.get_reset_email_token('another_new_email@email.com')
+            self.assertEqual(user.email, "project.member@uni-hamburg.de",
+                             "The email address should not be changed only by requesting the token.")
+            # Make sure that the template renders correctly with correct token
+            c.post(url_for('auth.reset_email', token=token, _external=True))
+            self.assertIn('auth/login.html', [x[0].name for x in self.templates])
+            # Make sure the correct token allows the user to change their password
+            self.assertEqual(user.email, 'another_new_email@email.com', 'User\'s email should be changed.')
+            self.assertIn(_('Ihr Email wurde erfolgreich geändert. Sie lautet jetzt') + ' another_new_email@email.com.', [x[0] for x in self.flashed_messages])
+            # Trying to use the same token twice should not work.
+            c.post(url_for('auth.reset_email', token=token, _external=True))
+            self.assertIn('auth/login.html', [x[0].name for x in self.templates])
+            self.assertIn(_('Ihre Emailaddresse wurde nicht geändert. Versuchen Sie es erneut.'), [x[0] for x in self.flashed_messages])
+            # Using an invalid token should not work.
+            c.post(url_for('auth.reset_email', token='some_weird_token', _external=True), follow_redirects=True)
+            self.assertIn(_('Der Token ist nicht gültig. Versuchen Sie es erneut.'), [x[0] for x in self.flashed_messages])
+            self.assertIn('auth/login.html', [x[0].name for x in self.templates])
+            self.assertEqual(user.email, 'another_new_email@email.com', 'User\'s email should not have changed.')
