@@ -388,7 +388,8 @@
                             <decoNote ana="pigments" n="Rot">
                                 <p><locus type="Initiale" n="f. 4r, f. 211v"/>Zinnober</p>
                                 <p><locus type="Initiale" n="f. 70r, f. 76r"/>Minium</p>
-                                <p><locus type="Rubrik" n="f. 58v, f. 70r, f. 76r"/>Minium</p></decoNote>
+                                <p><locus type="Rubrik" n="f. 58v, f. 70r, f. 76r"/>Minium</p>
+                            </decoNote>
                             <decoNote ana="pigments" n="Blau"><p><locus type="Initiale" n="f. 211v, f. 350r"/></p></decoNote>
                         </decoDesc>
                         <additions>
