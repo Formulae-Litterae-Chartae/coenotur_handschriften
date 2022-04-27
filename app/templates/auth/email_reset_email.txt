@@ -8,4 +8,4 @@
 
 {{ _('Mit freundlichen Grüßen,') }}
 
-{{ _('Ihr Formulae - Litterae - Chartae Team') }}
+{{ _('Ihr Coenotur Team') }}
