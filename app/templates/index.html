@@ -1,30 +1,34 @@
 {% extends "container.html" %}
 
 {% block body %}
-    <div class="row justify-content-center">
-        <div class="col-auto">
-            <div class="row justify-content-between pt-1" id="index-picture-row">
-                <div class="col-2">
+    <div class="row justify-content-center pt-1">
+        <div class="col-2">
+            <img src="{{url_for('static', filename='images/dfg_logo_schriftzug_blau_foerderung_4c.jpg')}}" class="img-fluid funder-logo" alt="Logo der DFG">
+            <img src="{{url_for('static', filename='images/uhh-logo-web.gif')}}" class="img-fluid funder-logo" alt="Logo der Universität Hamburg">
+        </div>
+        <div class="col-8">
+            <div class="row justify-content-between" id="index-picture-row">
+                <div class="col-4">
                     <a href="https://bvmm.irht.cnrs.fr/iiif/32056/canvas/canvas-2807337/view" target="_blank">
                         <figure>
-                            <img src="{{url_for('static', filename='images/Tours_BM_0010_58r.jpg')}}" class="img-fluid" alt="TOURS, Bibliothèque municipale, 0010 [fol.58r]">
-                            <figcaption class="small text-center">TOURS, BM, 0010 [fol.58r]</figcaption>
+                            <img src="{{url_for('static', filename='images/Tours_BM_0010_57v-58r.jpg')}}" class="img-fluid" alt="TOURS, Bibliothèque municipale, 0010 [fol. 57v-58r]">
+                            <figcaption class="small text-center">TOURS, BM, 0010 [fol. 57v-58r]</figcaption>
                         </figure>
                     </a>
                 </div>
-                <div class="col-2">
+                <div class="col-4">
                     <a href="https://bvmm.irht.cnrs.fr/iiif/32057/canvas/canvas-2807646/view" target="_blank">
                         <figure>
-                            <img src="{{url_for('static', filename='images/Tours_BM_0022_9r.jpg')}}" class="img-fluid" alt="TOURS, Bibliothèque municipale, 0022 [fol.9r]">
-                            <figcaption class="small text-center">TOURS, BM, 0022 [fol.9r]</figcaption>
+                            <img src="{{url_for('static', filename='images/Tours_BM_0022_8v-9r.jpg')}}" class="img-fluid" alt="TOURS, Bibliothèque municipale, 0022 [fol. 8v-9r]">
+                            <figcaption class="small text-center">TOURS, BM, 0022 [fol. 8v-9r]</figcaption>
                         </figure>
                     </a>
                 </div>
-                <div class="col-2">
+                <div class="col-4">
                     <a href="https://bvmm.irht.cnrs.fr/iiif/25691/canvas/canvas-2673946/view" target="_blank">
                         <figure>
-                            <img src="{{url_for('static', filename='images/Tours_BM_0289_64v.jpg')}}" class="img-fluid" alt="TOURS, Bibliothèque municipale, 0289 [fol.64v]">
-                            <figcaption class="small text-center">TOURS, BM, 0289 [fol.64v]</figcaption>
+                            <img src="{{url_for('static', filename='images/Tours_BM_0289_64v-65r.jpg')}}" class="img-fluid" alt="TOURS, Bibliothèque municipale, 0289 [fol. 64v-65r]">
+                            <figcaption class="small text-center">TOURS, BM, 0289 [fol. 64v-65r]</figcaption>
                         </figure>
                     </a>
                 </div>
@@ -41,6 +45,10 @@
                     <p>Weitere Informationen zum Projekt finden Sie <a href="#" target="_blank">HIER</a>.</p>
                 </div>
             </div>
+        </div>
+        <div class="col-2">
+            <img src="{{url_for('static', filename='images/ANR-logo-2021-complet.jpg')}}" class="img-fluid funder-logo" alt="Logo der ANR">
+            <img src="{{url_for('static', filename='images/uni_tours_logo.svg')}}" class="img-fluid funder-logo" alt="Logo der Universität Tours">
         </div>
     </div>
 {% endblock %}
