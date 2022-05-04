@@ -96,7 +96,7 @@
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_153</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="112 113"></biblScope></bibl>
-                            <bibl><idno>Kautz 2016</idno><biblScope unit="pp" n=""></biblScope></bibl>
+                            <bibl><idno>Kautz 2016</idno><biblScope></biblScope></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="407"></biblScope></bibl>
                         </listBibl>
                     </additional>
