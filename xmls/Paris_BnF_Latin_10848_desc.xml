@@ -143,6 +143,18 @@
                   <scriptDesc>
                      <scriptNote>Turonische Minuskel</scriptNote>
                      <scriptNote>Halbunziale</scriptNote>
+                     <scriptNote ana="ink" n="Hauptext">
+                        <p><locus n="fol. 2r, fol. 5v, fol. 6r, fol. 11v, fol. 28v, fol. 38v, fol. 39v, fol. 80r, fol. 82v, fol. 89v, fol. 102v, fol. 103v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Incipit/Explicit">
+                        <p><locus n="fol. 5v, fol. 90r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Lagenkontrollvermark">
+                        <p><locus n="fol. 70v"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 6r, fol. 70v"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Zusatz">
+                        <p><locus n="fol. 11v"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 28v, fol. 82v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -154,8 +166,13 @@
                         <p><locus n="64r"/>Bunte Initiale in Farbe und Gold mit Flechtdekor und stilisiertem Pflanzenmotiv</p>
                         <p><locus n="80r"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
                         <p><locus n="102v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
-                        <p><locus n="107v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor</p>
-                     </decoNote>
+                        <p><locus n="107v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor</p></decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit/Explicit" n="fol. 27v, fol. 102v"/>Zinnober</p>
+                        <p><locus type="Initiale" n="fol. 11v, fol. 27v, fol. 102v, fol. 102v"/>Zinnober</p>                        
+                        <p><locus type="Initiale" n="fol. 82v"/>Minium</p></decoNote>
+                     <decoNote ana="pigments" n="Blau">
+                        <p><locus type="Initiale" n="fol. 89v"/>____________</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p>Lagenkontrollvermerke. (Nachträgliche?) Interpunktion zur besseren Lesbarkeit. Einige wenige Glossierungen.</p>

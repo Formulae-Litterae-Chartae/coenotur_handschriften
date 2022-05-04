@@ -72,6 +72,12 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
+                     <scriptNote ana="ink" n="Hauptext">
+                        <p><locus n="fol. 11r, fol. 19r, fol. 35r, fol. 38r, fol. 53r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 11r, fol. 19r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Überschrift">
+                        <p><locus n="fol. 35r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -88,8 +94,12 @@
                      </decoNote>
                      <decoNote type="border" subtype="add">
                         <p><locus n="82r"/>Buchstaben mit Flechtdekor am Rand.</p>
-                        <p><locus n="83r"/>Zeichnung am Rande.</p>
-                     </decoNote>
+                        <p><locus n="83r"/>Zeichnung am Rande.</p></decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit/Explicit" n="fol. 38r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Initiale" n="fol. 53r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Konkordanz" n="fol. 11r"/>Zinnober</p>
+                        <p><locus type="Konkordanz" n="fol. 53r"/>Mischung aus Minium und Zinnober</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p>Folio 208-213 durch eine Hand des 11. Jahrhunderts hinzugefügt.</p>
