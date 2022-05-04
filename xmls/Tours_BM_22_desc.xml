@@ -67,19 +67,20 @@
                      <scriptNote source="Berger">Vollständig in goldener Unziale; irischer
                         Stil</scriptNote>
                      <scriptNote source="Rand">Nicht von einem Iren</scriptNote>
-                     <scriptNote ana="ink" n="Marginalia"><p><locus n="f. 281v"/>vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 281v"/>vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote ana="pigments" n="gold">
-                        <p><locus type="Haupttext" n="f. 5r, f. 30r, f. 144r, f. 147r"/>Gold + Cu</p>
-                        <p><locus type="Kanontafeln" n="f. 8r"/>Gold + Cu</p>
-                        <p><locus type="Explicit" n="f. 142r"/>Gold + Cu</p>
-                        <p><locus type="Kolumnentitel" n="f. 142r"/>Gold + Cu</p>
+                     <decoNote ana="pigments" n="Gold">
+                        <p><locus type="Haupttext" n="fol. 5r, fol. 30r, fol. 144r, fol. 147r"/>Gold + Küpfer</p>
+                        <p><locus type="Kanontafeln" n="fol. 8r"/>Gold + Küpfer</p>
+                        <p><locus type="Explicit" n="fol. 142r"/>Gold + Küpfer</p>
+                        <p><locus type="Kolumnentitel" n="fol. 142r"/>Gold + Küpfer</p>
                      </decoNote>
-                     <decoNote ana="pigments" n="rot">
-                        <p><locus type="Kanontafeln" n="f. 8r"/>Zinnober</p>
-                        <p><locus type="Kolumnentitel" n="Kolumnentitel f. 142r"/>Zinnober</p>
-                        <p><locus type="Explicit" n="f. 281v "/>Zinnober</p>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Kanontafeln" n="fol. 8r"/>Zinnober</p>
+                        <p><locus type="Kolumnentitel" n="Kolumnentitel fol. 142r"/>Zinnober</p>
+                        <p><locus type="Explicit" n="fol. 281v "/>Zinnober</p>
                      </decoNote>
                      <decoNote type="initial">
                         <p><locus n="17r"/>Verschönerte Initiale in Rot und Gold</p>
@@ -94,13 +95,11 @@
                         <p><locus n="281v"/>GoldInitiale auf rotem Hintergrund. </p>
                         <p><locus n="282v"/>zwei illustrierte GoldInitialen: eine auf rotem Hintergrund, eine auf blauem Hintergrund. </p>
                         <p><locus n="283r"/>zwei illustrierte GoldInitialen: eine auf rotem Hintergrund, eine auf blauem Hintergrund.</p> 
-                        <p><locus n="283v"/>zwei illustrierte GoldInitialen: eine auf rotem Hintergrund, eine auf blauem Hintergrund. </p>
-                     </decoNote>
+                        <p><locus n="283v"/>zwei illustrierte GoldInitialen: eine auf rotem Hintergrund, eine auf blauem Hintergrund. </p></decoNote>
                      <decoNote type="canon">
-                        <p><locus n="8r 15v"/>Ganzseitige Bunte Kanontafeln mit dekorierten architektonischen Rahmen. </p>
+                        <p><locus n="8r, fol. 15v"/>Ganzseitige Bunte Kanontafeln mit dekorierten architektonischen Rahmen. </p>
                      </decoNote>
                   </decoDesc>
-                  
                   <additions>
                      <p><locus from="279" to="285">spätere Hinzufügung</locus></p>
                      <p><locus n="289"/><seg type="lat">Serment que font les Princes et Barons lors

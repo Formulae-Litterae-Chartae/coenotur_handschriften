@@ -229,9 +229,9 @@
                         <p><locus n="416v"/>Sehr reich verzierte Buchstaben, mit Gold und Farben. Geometrische Motive und Enden verziert mit pflanzlichen Motiven.</p>
                      </decoNote>
                      <decoNote type="canon">
-                        <p><locus n="9r 9v"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
-                        <p><locus n="326r 327v"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
-                        <p><locus n="383v 384r"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
+                        <p><locus from="9r" to="9v"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
+                        <p><locus from="326r" to="327v"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
+                        <p><locus from="383v" to="384r"/>Ganzseitige Kanontafeln mit dekorierten architektonischen Rahmen.</p>
                      </decoNote>
                      <decoNote type="border">
                         <p><locus n="11v 12v"/>Fünf goldene und rote Medaillons pro Seite.</p>
