@@ -52,14 +52,20 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote ana="ink" n="Hauptext"><p><locus n="f3v, f4r, f6r, f19r, f20v, f32r, f47v, f58r, f63v, f69v, f92r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                     <scriptNote ana="ink" n="Marginalia"><p><locus n="f4r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Hauptext">
+                        <p><locus n="fol. 3v, fol. 4r, fol. 6r, fol. 19r, fol. 20v, fol. 32r, fol. 47v, fol. 58r, fol. 63v, fol. 69v, fol. 92r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 4r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote ana="pigments" n="schwarz"><p><locus type="Rahmen" n="f3r"/>Mischtinte</p></decoNote>
-                     <decoNote ana="pigments" n="rot"><p><locus type="Initiale" n="f58r, f63v"/>Zinnober</p></decoNote>
-                     <decoNote ana="pigments" n="gold"><p><locus type="Initiale" n="f3r"/>Gold + Fe</p></decoNote>
-                     <decoNote ana="pigments" n="blue"><p><locus type="Initiale" n="f92r, f63v"/></p></decoNote>
+                     <decoNote ana="pigments" n="Schwarz">
+                        <p><locus type="Rahmen" n="fol. 3r"/>Mischtinte</p></decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Initiale" n="fol. 58r, fol. 63v"/>Zinnober</p></decoNote>
+                     <decoNote ana="pigments" n="Gold">
+                        <p><locus type="Initiale" n="fol. 3r"/>Gold + Eisen</p></decoNote>
+                     <decoNote ana="pigments" n="Blau">
+                        <p><locus type="Initiale" n="fol. 92r, fol. 63v"/>____________</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p/>

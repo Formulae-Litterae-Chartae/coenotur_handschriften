@@ -58,11 +58,12 @@
                         Unziale</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote source="Bierbrauer"><p>Schmuckinitialen zu Beginn der Prologe sowie der jeweiligen
+                     <decoNote type="initial" source="Bierbrauer">
+                        <p>Schmuckinitialen zu Beginn der Prologe sowie der jeweiligen
                            Bücher, teilweise mehrfarbig koloriert und mit Flecht- oder Tiermustern
-                           verziert</p>
-                        <p>architektonische Ausschmückung der Kanontafeln sowie Concordia</p>
-                     </decoNote>
+                           verziert</p></decoNote>
+                     <decoNote type="canon" source="Bierbrauer">
+                           <p><locus n="305v-307r"/>architektonische Ausschmückung der Kanontafeln sowie Concordia</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p><locus n="42r"/>Tironische Noten</p>

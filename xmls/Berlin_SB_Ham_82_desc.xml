@@ -376,21 +376,35 @@
                             <handNote source="Rand">14 Schreiber</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote ana="ink" n="Hauptext"><p><locus n="f. 3r, f. 4r, f. 33r, f. 43r, f. 70r, f. 76r, f. 88r, f. 130r, f. 211v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Zusatz"><p><locus n="f. 43r, f. 409r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Marginalia"><p><locus n="f. 3r, f. 4r, f. 6r, f. 13r, f. 43r, f. 130r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Korrektur"><p><locus n="f. 130r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Überschrift"><p><locus n="f. 3r, f. 33r, f. 58v, f. 88r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Andere"><p><locus n="f. 347r (Konkordanz)"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Hauptext">
+                                <p><locus n="fol. 3r, fol. 4r, fol. 33r, fol. 43r, fol. 70r, fol. 76r, fol. 88r, fol. 130r, fol. 211v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Zusatz">
+                                <p><locus n="fol. 43r, fol. 409r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Marginalia">
+                                <p><locus n="fol. 3r, fol. 4r, fol. 6r, fol. 13r, fol. 43r, fol. 130r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Korrektur">
+                                <p><locus n="fol. 130r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Überschrift">
+                                <p><locus n="fol. 3r, fol. 33r, fol. 58v, fol. 88r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Andere">
+                                <p><locus n="fol. 347r (Konkordanz)"/>Vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote source="Rand" xml:id="Kursive">Karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote ana="pigments" n="Rot">
-                                <p><locus type="Initiale" n="f. 4r, f. 211v"/>Zinnober</p>
-                                <p><locus type="Initiale" n="f. 70r, f. 76r"/>Minium</p>
-                                <p><locus type="Rubrik" n="f. 58v, f. 70r, f. 76r"/>Minium</p>
-                            </decoNote>
-                            <decoNote ana="pigments" n="Blau"><p><locus type="Initiale" n="f. 211v, f. 350r"/></p></decoNote>
+                                <p><locus type="Initiale" n="fol. 4r, fol. 211v"/>Zinnober</p>
+                                <p><locus type="Initiale" n="fol. 70r, fol. 76r"/>Minium</p>
+                                <p><locus type="Rubrik" n="fol. 58v, fol. 70r, fol. 76r"/>Minium</p></decoNote>
+                            <decoNote ana="pigments" n="Blau">
+                                <p><locus type="Initiale" n="fol. 211v, fol. 350r"/>____________</p></decoNote>
+                            <decoNote type="initial" source = "Fingernagel"><p>Die Initialen sind in mindestens drei Typengruppen einzuteilen, die möglicherweise drei verschiedenen Zeichnern entsprechen.</p>
+                                <p><locus n="1r, 2r"/>Rahmentypus. Der Buchstabenkörper ist in Kompartimente unterteilt und mit Füllmotiven versehen: Wellenbandranken, zum Teil mit Dreipunktrosetten und nierenförmigen Blättern, Knickbändern und Flechtwerk (Aderbandtypus).</p>
+                                <p><locus n="130r, 211r"/>Buchstabenstamm mit ausgespartem Seilmuster, an den Abläufen Profilblätter.</p>
+                                <p><locus n="211v"/>Mischtypus. Flechtknoten(Aderbandtypus) an den End- und Mittelpunkten, mitunter in Voluten auslaufend.</p></decoNote>
+                            <decoNote type="canon">
+                                <p><locus n="347r-350v" source = "Fingernagel"/>Vierbogige Arkaden von Umfassungsbogen überfangen (Bogentypus). Marmorierte Säulen mit ionisierenden Basen, Blattkapitellen und Deckplatten. Die äußeren Säulen jeweils breiter und mit entsprechend ausladenden Kapitellen</p></decoNote>
+                            <decoNote type="border" >
+                                <p><locus n="211r" source = "Fingernagel"/>Am rechten Blattrand dreifigurige Gruppe als Dreiviertel- bzw. Halbfiguren. Weibliche Figur mit langen Zöpfen und Krone (oder Schapel ?), auf der mit einem Handschuh bekleideten rechten Hand ein Vogel (Falke ?), mit der linken einen Blattzweig empfangend, der von einer tonsurierten Figur (mit Buch vor der Brust) überreicht wird. Von der dritten, zur Gruppe gehörigen (?) Figur nur der tonsurierte bärtige Kopf erkennbar. Feine, qualitätvolle Silberstiftskizze des 12. Jhs (?)</p></decoNote>
                         </decoDesc>
                         <additions>
                             <p>Gedichte <persName>Aldebaldus</persName>für <persName>Wilhelm von Dijon</persName> (10. Jhd.)</p>
