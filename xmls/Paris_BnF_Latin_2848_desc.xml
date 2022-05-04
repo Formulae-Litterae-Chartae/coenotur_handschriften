@@ -90,9 +90,15 @@
                   <scriptDesc>
                      <scriptNote source="Bischoff">Turonisch geprägt</scriptNote>
                      <scriptNote>Ordentliche Minuskel, die derjenigen aus Tours sehr ähnelt. Offenes cc-a und unziales N stehen unsystematisch neben ihren turonischen Gegenstücken.</scriptNote>
-                  </scriptDesc>
+                        <scriptNote ana="ink" n="Hauptext">
+                           <p><locus n="fol. 27r, fol. 53r, fol. 117r, fol. 146r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                        <scriptNote ana="ink" n="Marginalia">
+                           <p><locus n="fol. 27r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Initiale" n="fol. 53r"/>Minium</p>
+                        <p><locus type="Marginalia" n="fol. 53r"/>Minium</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p source="BnF"><locus n="176v"/><seg type="lat">Bigot est touz hors du sens et a si male hure que nus ne peut di[re]</seg>. 13. Jhd.</p>

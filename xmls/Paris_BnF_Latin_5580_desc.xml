@@ -61,14 +61,33 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>Turonische Minuskel mit Halbunziale</scriptNote>
+                     <scriptNote ana="ink" n="Hauptext">
+                        <p><locus n="fol. 2r, fol. 3r, fol. 10r, fol. 18r, fol. 37r, fol. 45r, fol. 121r, fol. 124r, fol. 134r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. fol. 52r, fol. 122r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Incipit/Explicit">
+                        <p><locus n="fol. 37r, fol. 45r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Überschrift">
+                        <p><locus n="fol. 10r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 10r"/>Vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 18r, fol. 52r, fol. 134r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 18r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <musicNotation>
                      <p><locus n="136v"/>Neumen des 11. Jhd. von zwei verschiedenen Händen</p>
                   </musicNotation>
                   <decoDesc>
-                     <decoNote>
-                        <p>Kapitelarkaden</p>
-                     </decoNote>
+                     <decoNote><p>Kapitelarkaden</p></decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit/Explicit" n="fol. 10r"/>Minium</p>                        
+                        <p><locus type="Incipit/Explicit" n="fol. 124r"/>Zinnober</p>
+                        <p><locus type="Initiale" n="fol. 3r"/>Minium</p>
+                        <p><locus type="Miniaturen" n="fol. 7v"/>Minium</p>
+                        <p><locus type="Marginalia" n="fol. 134r"/>Zinnober</p>
+                        <p><locus type="Ausfüllung" n="fol. 10r"/>Zinnober</p></decoNote>
+                     <decoNote ana="pigments" n="Grün">
+                        <p><locus type="Initiale" n="fol. 3r"/>Kupfergrün</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p>Im Teil der Vita wurden später Worttrennungen eingefügt für eine bessere Lesbarkeit; das Verschwinden der Trennungszeichen in der späteren Handschrift könnte an weniger Benutzung dieser Teile liegen, oder an einem Schreiberwechsel; der zweite Schreiber trennt die Worte klarer voneinander</p>
