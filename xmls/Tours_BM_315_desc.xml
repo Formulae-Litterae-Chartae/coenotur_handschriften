@@ -61,9 +61,16 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>Karol. Minuskel</scriptNote>
+                     <scriptNote ana="ink" n="Hauptext">
+                        <p><locus n="fol. 1v, fol. 22v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Initiale">
+                        <p><locus n="fol. 1v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Text" n="fol. 22v"/>Minium</p></decoNote>
+                     <decoNote ana="pigments" n="Blau">
+                        <p><locus type="Ausfüllen" n="fol. 1v"/>____________</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p>Einzelne, wenige Korrekturen.</p>

@@ -66,8 +66,26 @@
                   <scriptDesc>
                      <scriptNote>Arbeit von Adalbaldus, mit wechselndem Schriftbild, mehr oder
                         weniger kursiven Elementen, Kapitalis und Unziale.</scriptNote>
+                     <scriptNote ana="ink" n="Hauptext">
+                        <p><locus n="fol. 7r, fol. 111r, fol. 195r, fol. 195r, fol. 203v, fol. 220v, fol. 224r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 22r, fol. 50v, fol. 52r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Incipit/Explicit">
+                        <p><locus n="fol. 220v"/>Vitriolische Eisengallustinten</p></scriptNote>                     
+                     <scriptNote ana="ink" n="Überschrift">
+                        <p><locus n="fol. fol. 22r, fol. 52r, fol. 111r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Konkordanz">
+                        <p><locus n="fol. fol. 50v"/>Vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 203v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 224r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Kanon">
+                        <p><locus n="fol. 3r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit/Explicit" n="fol. 7r"/>Minium</p>
+                        <p><locus type="Konkordanz" n="fol. 50v"/>Minium</p>
+                        <p><locus type="Lagenkontrollvermark" n="fol. 203v"/>Minium</p></decoNote>
                      <decoNote type="initial">
                         <p><locus n="7r"/>Verschönerte Initiale</p>
                         <p><locus n="66r"/>Initiale</p>
@@ -84,7 +102,6 @@
                         <p><locus n="110r"/>Illustration am Rand</p>
                      </decoNote>
                   </decoDesc>
-                  
                   <additions>
                      <p source="Köhler Bischoff">Einzelne Blätter (111/112 u. 174-177) modern ersetzt.</p>
                   </additions>
