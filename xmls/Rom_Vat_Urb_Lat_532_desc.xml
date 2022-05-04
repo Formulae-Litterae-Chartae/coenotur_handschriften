@@ -65,17 +65,29 @@
                             <p></p>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand">Verbesserte Kursive, ähnlich wie Tours, BM, 286</p>
-                            <p></p>
+                            <scriptNote ana="ink" n="Hauptext">
+                                <p><locus n="fol. 2r"/>Vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 12v, fol. 33r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                            <scriptNote ana="ink" n="Initiale">
+                                <p><locus n="fol. 3r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Incipit">
+                                <p><locus n="fol. 1r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Marginalia">
+                                <p><locus n="fol. 12v, fol. 33r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="NT">
+                                <p><locus n="fol. 4r"/>Vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 13r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote source="Rand">Verbesserte Kursive, ähnlich wie Tours, BM, 286</scriptNote>
                         </scriptDesc>
                         <decoDesc>
+                            <decoNote ana="pigments" n="Rot">
+                                <p><locus type="Incipit" n="fol. 1r"/>Mischung aus Minium und Zinnober</p>
+                                <p><locus type="Explicit" n="fol. 33v"/>____________</p></decoNote>
                             <decoNote type="border">
                                 <p><locus n="1r"/>Wappenkunde. </p>
                                 <p><locus n="35r"/>Großer Ring im uberen Rand. </p>
-                                <p><locus n="35v"/>Große ganzseitige Rosette in der Farbe des Textes. </p>
-                            </decoNote>
+                                <p><locus n="35v"/>Große ganzseitige Rosette in der Farbe des Textes. </p></decoNote>
                         </decoDesc>
-                        
                         <additions>
                             <p source="Rand">Marginalia: Sehr starke Glossierung von einer Hand vom Ende des 9. Jhd. des Kommentars von Johannes Scottus.</p>
                             <p>Das Textfeld ist so klein und verschoben, dass die Handschrift aussieht, als wäre eine Glossierung von Anfang an vorgesehen. Die Glossierung nimmt schnell ab, auf späteren Folia finden sich zum Teil keine Glossen mehr.</p>
