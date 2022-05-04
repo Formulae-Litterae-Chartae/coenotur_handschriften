@@ -95,16 +95,36 @@
                      <handNote source="Rand Fingernagel">Bis auf f. 13 von einer Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <p source="Fingernagel">Karolingische Minuskel im Stil von Tours</p>
-                     <p source="Bischoff">Alle Vorstücke in turonischer Halbunziale</p>
-                     <p source="Winandy">Turonische ee-Kürzung deutet auf eine Enstehung in St-Martin hin.</p>
+                     <scriptNote ana="ink" n="Hauptext">
+                        <p><locus n="fol. 13r, fol. 19r, fol. 65v, fol. 80r, fol. 106r "/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. f. 223r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Zusatz"><p><locus n="fol. 19r, fol. 106r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia"><p><locus n="fol. f162r, fol. 201v, fol. 223r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Überschrift"><p><locus n="fol. 80r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Andere"><p><locus n="fol. f65v, fol. 201v (Konkordanz)"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote source="Fingernagel">Karolingische Minuskel im Stil von Tours</scriptNote>
+                     <scriptNote source="Bischoff">Alle Vorstücke in turonischer Halbunziale</scriptNote>
+                     <scriptNote source="Winandy">Turonische ee-Kürzung deutet auf eine Enstehung in St-Martin hin.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p></p>
-                     </decoNote>
-                  </decoDesc>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Initiale" n="fol. 2r"/>Zinnober</p></decoNote>
+                     <decoNote ana="pigments" n="Schwarz">
+                        <p><locus type="Initiale" n="fol. 2r"/>Nicht-vitriolische Eisengallustinten</p></decoNote>
+                     <decoNote ana="pigments" n="Gold">
+                        <p><locus type="Initiale" n="fol. 2r, fol. 65v"/>Gold</p></decoNote>
+                     <decoNote ana="pigments" n="Blau">
+                        <p><locus type="Initiale" n="fol. 2r"/>_____________</p></decoNote>
+                     <decoNote ana="pigments" n="Grün">
+                        <p><locus type="Initiale" n="fol. 2r"/>Kupfergrün</p></decoNote>
+                     <decoNote type="canon">
+                        <p><locus from="9r" to="12v" source= "Fingernagel"/>achtteilige Folge von Kanonbögen, ca. 25-26 x 19 cm; an den Rändern stark beschnitten. Vier- bzw. fünfsäulige Arkadenstellungen mit sich überkreuzenden Archivolten bzw. Archivolten und Giebeln. Säulen mit Blattkapitellen und gestuften Basen.</p></decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="2r" source= "Fingernagel"/>B-Initiale, H: 15 cm. Kronen aus intermittierdendem Flechtwerk (Fadengeflecht). Bogenformen des Buchstabenkörpers durch Goldfelder bzw. in Braun ausgesparte Flechtknoten (hellgrün und ocker gefüllt) untergliedert.</p>
+                        <p><locus n="17r" source= "Fingernagel"/>LI-lnitialligatur in Schriftspiegelhöhe.</p>
+                        <p><locus n="75r" source= "Fingernagel"/>I-Initiale in Schriftspiegelhöhe. Mehrteilige, markante Flechtkrone, mit seitlich ausschwingenden Hörnern.</p>
+                        <p><locus n="113r" source= "Fingernagel"/>Q-lnitiale, H: 16 cm. An den seitlichen Scheitelpunkten des Buchstabenkörpers werden die sich überkreuzenden Randleisten jeweils mit einem zentralsymmetrischen Flechtknoten verbunden (orthogonale und gebogte Formen).</p>
+                        <p><locus n="173r" source= "Fingernagel"/>1-lniciale in Schriftspiegelhöhe. Markante Flechrknoten an den Abläufen und in der Buchstabbenmitte; symmetrische Formen, oben mit ausschwingenden Hörnern; am unteren Ablauf kombiniert mit einem Vogelkopf, der nach einem Blatt pickt.Im lnitialkörper zwei vor braunem Grund ausgesparte Flechtbänder.</p></decoNote></decoDesc>
                   <additions>
                      <p>Einzelne Ergänzungen am Rand, insbesondere zu den Anfängen der Weihnachtsgeschichte</p>
                      <p>Zahlreiche Ergänzungen innerhalb des Capitulare Evangeliorum</p>

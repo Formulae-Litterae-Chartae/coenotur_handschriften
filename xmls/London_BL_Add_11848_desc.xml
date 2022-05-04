@@ -109,14 +109,16 @@
                             <scriptNote source="Winandy">Die Prologe zu den Evangelien auch in Unziale.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
-                                <p><locus n="1v"/><locus n="18v"/><locus n="110v"/><locus n="167v"></locus>Prachtvolle Initiale</p>
-                                <p><locus from="10r" to="12r"/>Kanontafeln</p>
+                            <decoNote type="initial">
+                                <p><locus n="1v"/><locus n="13r"/><locus n="18v"/><locus n="110v"/><locus n="167v"></locus>Große verzierte Initialen in Farben oder Farben und Gold </p>
+                                <p><locus n="4v"/><locus n="5v"/><locus n="8v"/><locus n="71r"/><locus n="106v"/><locus n="167v"></locus>Große Initialen in Rot</p></decoNote>
+                            <decoNote type="canon">
+                                <p><locus from="10r" to="12r"/>Kanontafeln</p>></decoNote>
+                            <decoNote type="miniature"> 
                                 <p><locus n="17v">Darstellung des Matthäus</locus></p>
                                 <p><locus n="74v">Darstellung des Markus</locus></p>
                                 <p><locus n="109v">Darstellung des Lukas</locus></p>
-                                <p><locus n="166v">Darstellung des Johannes</locus></p>
-                            </decoNote>
+                                <p><locus n="166v">Darstellung des Johannes</locus></p></decoNote>
                         </decoDesc>
                         <additions>
                             <p>Einzelne, vermutlich zeitgleiche Korrekturen</p>

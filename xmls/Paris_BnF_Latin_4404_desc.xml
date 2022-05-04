@@ -63,15 +63,14 @@
                      <scriptNote source="Rand">Verbesserte karolingische Kursive</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p>3 vollseitige Bilder</p>
+                     <decoNote type="miniature">
                         <p><locus n="1v"/>Theodosius II begleitet von seinen Söhnen, Marcianus und
                            Valentianus sowie dem Kaiser des Okzidents Majorian</p>
                         <p><locus n="2"/>Die Jurisconsulten Severus, Paulus, Gaius und
                            Hermogenius</p>
-                        <p><locus n="197"/>König Lodhanri umgeben von seinem Volk (Bischof, Herzog,
-                           Graf)</p>
-                     </decoNote>
+                        <p><locus n="197" source="Bischoff Herzog Graf"/>König Lodhanri umgeben von seinem Volk</p></decoNote>
+                     <decoNote type="frame">
+                        <p><locus n="4r-6v, 179r-180v, 198r-198v, 213r-213v"/>Portiken, die die Kapiteltafeln und Textanfänge einrahmen, mit Flechtwerk, Pflanzen- und Tiermotiven.</p></decoNote>
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
