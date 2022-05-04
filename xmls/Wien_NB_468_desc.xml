@@ -142,7 +142,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>http://data.onb.ac.at/rec/AC13957152</idno></bibl>
-                     <bibl><idno>Tabula codicorum</idno><biblScope unit="pp" n="76"/></bibl>
+                     <bibl><idno>Tabulae codicum</idno><biblScope unit="pp" n="76"/></bibl>
                      <bibl><idno>Hermann 1923</idno><biblScope unit="pp" from="63" to="66"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="105"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="391"/></bibl>
