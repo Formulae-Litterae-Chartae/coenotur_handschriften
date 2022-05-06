@@ -88,8 +88,8 @@
                      <p><origPlace source="Rand" cert="low">possibly done at <orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Rand Köhler Webber_Jones" cert="high"><orgName>St-Aubin</orgName>, <placeName>Angers</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0810" notAfter="0830">about 820</origDate></p>
-                     <note>Die Entstehungsgeschichte dieser Handschrift ist sehr spannend: So wird heute davon ausgegangen, dass ein Mönch aus St-Martin die Bibelrezension von Alkuin nach St-Aubin gebracht hat, und dort gemeinsam mit zahlreichen Mönchen aus Angers die vorliegen Handschrift abgeschrieben hat. </note>
-                     <note>Die vermutete Entstehung in Marmoutier bei RAND geht vermutlich auf diese Entstehung zurück, die eine große Nähe zu St-Martin aufzeigt und gleichzeitig zu sehr vom typischen Schriftbild abweicht.</note>
+                     <note>Die Entstehungsgeschichte dieser Handschrift ist spannend: So wird heute davon ausgegangen, dass ein Mönch aus St-Martin die Bibelrezension von Alkuin nach St-Aubin gebracht hat, und dort gemeinsam mit zahlreichen Mönchen aus Angers die vorliegen Handschrift abgeschrieben hat. </note>
+                     <note>Die vermutete Entstehung in Marmoutier bei RAND geht auf diese Entstehung zurück, die eine große Nähe zu St-Martin aufzeigt und gleichzeitig zu sehr vom typischen Schriftbild abweicht.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Aubin</orgName>, <placeName>Angers</placeName></provenance>
                   <provenance source="Fischer">Die Handschrift gelangte wohl schon im 9. Jahrhundert nach <orgName>St-Aubin</orgName>, <placeName>Angers</placeName>. Dort diente sie für Angers, BM, 3-4 als Vorlage.</provenance>

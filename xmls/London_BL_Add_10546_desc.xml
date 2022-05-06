@@ -185,7 +185,7 @@
                      <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0840">ca. 835</origDate></p>
                      <p><origDate source="bl.uk" cert="high" notBefore="0830" notAfter="0840">ca. 830 - c. 840</origDate></p>
                      <p><origDate source="Mercier" cert="medium" notBefore="0834" notAfter="0843">unter <persName type="Abt">Adalhard</persName>, zwischen 834 und 843</origDate></p>
-                     <note>Klar erkennbar ist diese Bibel im Skriptorium von <orgName>St-Martin</orgName> entstanden. Bezüglich der Datierung herrscht Uneinigkeit darüber, ob die Handschrift unter <persName type="Abt">Fridugisius</persName> (RAND) oder erst unter <persName type="Abt">Adalhard</persName> (BISCHOFF/MERCIER) entstanden ist. KÖHLER arbeitet im Anschluss an RAND heraus, dass die Ornamentik zum Teil später hinzugefügt wurde: Teile davon können frühestens unter Adalhard entstanden sein.</note>
+                     <note>Klar erkennbar ist diese Bibel im Skriptorium von <orgName>St-Martin</orgName> entstanden. Bezüglich der Datierung herrscht Uneinigkeit darüber, ob die Handschrift unter <persName type="Abt">Fridugisus</persName> (RAND) oder erst unter <persName type="Abt">Adalhard</persName> (BISCHOFF/MERCIER) entstanden ist. KÖHLER arbeitet im Anschluss an RAND heraus, dass die Ornamentik zum Teil später hinzugefügt wurde: Teile davon können frühestens unter Adalhard entstanden sein.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Moutier Grandval</orgName></provenance>
                   <provenance>Hergestellt wurde die Bibel in <orgName>St-Martin</orgName>, vermutlich für <orgName>Moutier Grandval</orgName>, wohin sie bereits früh gelangte.</provenance>
@@ -205,9 +205,9 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_10546</idno></bibl>
-                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" from="209" to="212"/></bibl>
-                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="135" to="136"/></bibl>
-                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="194" to="209"></biblScope></bibl>
+                     <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="209 212"/></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="135 136"/></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="194 209"></biblScope></bibl>
                      <bibl><idno>McKitterick 1994</idno><biblScope>passim</biblScope></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="121"/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="94"/></bibl>

@@ -110,7 +110,7 @@
                         <origin>
                             <p><origPlace source="Rand Köhler" cert="high"><placeName>Tours</placeName></origPlace></p>
                             <p><origPlace source="Fischer Bischoff" cert="medium"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Rand" cert="medium" notBefore="0820" notAfter="0834">Ende des Abbatiats von Fridugisius</origDate></p>
+                            <p><origDate source="Rand" cert="medium" notBefore="0820" notAfter="0834">Ende des Abbatiats von Fridugisus</origDate></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
                             <note><p>Die Entstehung in Tours scheint gesichert. Warum BISCHOFF eine Entstehung in Marmoutier vermutet, bleibt unklar.</p></note>
                         </origin> 

@@ -135,7 +135,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, und eine anderes französisches Zentrum für die künstlerische Ausstattung</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, und ein anderes französisches Zentrum für die künstlerische Ausstattung</origPlace></p>
                      <p><origPlace source="Fingernagel" cert="medium"><placeName>Tours</placeName>, für die Schrift, Ausstattung wohl in Lothringen (<placeName>Metz</placeName>?).</origPlace></p>
                      <p><origDate source="Rand Fingernagel" cert="medium" notBefore="0825" notAfter="0875">Mitte 9. Jhd.</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
@@ -159,7 +159,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/dokumente/html/obj90698738,T</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="160"/></bibl>
                      <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="115 117"/></bibl>
-                     <bibl><idno>Fingernagel 1999</idno><biblScope unit="pp" from="63" to="66"/></bibl>
+                     <bibl><idno>Fingernagel 1999</idno><biblScope unit="pp" n="63 66"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="74"/></bibl>
                   </listBibl>
                </additional>
