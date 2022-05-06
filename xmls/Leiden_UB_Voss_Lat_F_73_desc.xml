@@ -85,7 +85,7 @@
                     <history>
                         <origin>
                             <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
-                            <p><origDate source="Onlinkatalog" cert="medium" notBefore="0800" notAfter="0804">kurz nach 800, noch unter Alkuin</origDate></p>
+                            <p><origDate source="Onlinekatalog" cert="medium" notBefore="0800" notAfter="0804">kurz nach 800, noch unter Alkuin</origDate></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
                             <note></note>
                         </origin>

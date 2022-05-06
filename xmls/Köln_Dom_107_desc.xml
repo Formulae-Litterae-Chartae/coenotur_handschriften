@@ -100,7 +100,7 @@
                            <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/katl/%22kn28-0107%22</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="118"/></bibl>
                      <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="95"/></bibl>
-                     <bibl><idno>Glaube und Wissen 1998</idno><biblScope unit="pp" from="215" to="219"/></bibl>
+                     <bibl><idno>Glaube und Wissen 1998</idno><biblScope unit="pp" n="215 219"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="398"/></bibl>
                   </listBibl>
                </additional>

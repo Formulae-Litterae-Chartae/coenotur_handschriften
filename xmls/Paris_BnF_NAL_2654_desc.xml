@@ -20,7 +20,7 @@
                   <msName/>
                </msIdentifier>
                <msContents>
-                  <msItem class="Wirschaft">
+                  <msItem class="Wirtschaft">
                      <author/>
                      <title>Zinsliste</title>
                      <textLang mainLang="la"/>
@@ -67,7 +67,6 @@
                   <origin>
                      <p><origPlace source="BnF" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="BnF" cert="medium" notBefore="0800" notAfter="0833">1. Drittel 9. Jhd.</origDate></p>
-                     <note/>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance></provenance>

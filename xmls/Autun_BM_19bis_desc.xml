@@ -82,7 +82,7 @@
                      <p><origPlace source="Rand" cert="low"><orgName>Marmoutier</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand Bischoff" cert="high" notBefore="0840" notAfter="0850">844/845</origDate></p>
-                     <note>Dadurch, dass gesichert ist, dass die Handschrift für <persName>Raganaldus</persName>, den Abt von Marmoutier abgefasst wurde, ist die Datierung gesichert. Entstanden ist die Handschrift sicher in <placeName>Tours</placeName>, wobei nicht klar ist in welcher Gemeinschaft. Die Herstellung für Raganaldus bedeutet nicht, dass die Handschrift gezwungenermaßen in <orgName>Marmoutier</orgName> entstanden sein muss.</note>
+                     <note>Dadurch, dass gesichert ist, dass die Handschrift für <persName>Raganaldus</persName>, den Abt von Marmoutier, abgefasst wurde, ist die Datierung gesichert. Entstanden ist die Handschrift sicher in <placeName>Tours</placeName>, wobei nicht klar ist in welcher Gemeinschaft. Die Herstellung für Raganaldus bedeutet nicht, dass die Handschrift gezwungenermaßen in <orgName>Marmoutier</orgName> entstanden sein muss.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Kathedrale von Autun</orgName></provenance>
                   <provenance source="Köhler">Die Handschrift war sicher ab dem 11. Jhd, vielleicht bereits ab dem 10. Jahrhundert, in Autun. Dies lässt sich an dem für den heiligen Nazarius eingeschobenen Blatt (f. 64) erkennen.</provenance>

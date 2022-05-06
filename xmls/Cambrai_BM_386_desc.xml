@@ -72,7 +72,7 @@
                             <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>?</origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium">Frankreich (nicht Nordostfrankreich</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
-                            <note>Der Entstehungsort der Handschrift ist nicht geklärt. FEst steht, dass die Handschrift nicht in Tours entstanden ist.</note>
+                            <note>Der Entstehungsort der Handschrift ist nicht geklärt. Fest steht, dass die Handschrift nicht in Tours entstanden ist.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Kathedrale von Cambrai</orgName></provenance>
                         <acquisition><name type="Repository">BM</name></acquisition>
