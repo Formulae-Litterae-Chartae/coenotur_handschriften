@@ -58,9 +58,29 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote/>
+                     <scriptNote ana="ink" n="Hauptext">
+                        <p><locus n="fol. 15r, f24r, f25r, f64r, f71v, f75r, f84r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Initiale">
+                        <p><locus n="f24r, f71v, f104r, f105v, f117r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 47v, fol. 117r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="NT">
+                        <p><locus n="fol. 84r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Neumen">
+                        <p><locus n="fol. Bv"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Andere">
+                        <p><locus n="fol. 104r, fol. 105v (Anführungszeichen)"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. (NT)"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit-Explicit" n="fol. 24r"/>Minium</p>
+                        <p><locus type="Initiale" n="fol. 24v"/>Minium</p>                        
+                        <p><locus type="Initiale" n="fol. Bv"/>Zinnober</p>
+                        <p><locus type="Marginalia" n="fol. 15r"/>Minium</p>
+                        <p><locus type="Notensystem " n="fol. Bv"/>Zinnober</p></decoNote>
+                     <decoNote ana="pigments" n="Blau">
+                        <p><locus type="Initiale" n="fol. Bv"/>__________</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p><locus n="1"/>Notiz von Dom Le Michel: <seg type="lat">Ambrosius Ausbertus

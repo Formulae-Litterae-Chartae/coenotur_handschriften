@@ -65,11 +65,26 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote ana="ink" n="Hauptext">
+                        <p><locus n="fol. 9v, fol. 12v, fol. 18r, fol. 26r, fol. 26v, fol. 46r, fol. 57r, fol. 66r, fol. 94v, fol. 132r, fol. 140r, fol. 143r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 57r"/>Vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 94v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Zusatz">
+                        <p><locus n="fol. 46r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 9v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Andere">
+                        <p><locus n="fol. f94v (Kruz)"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                     </decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Text" n="fol. 26v"/>Zinnober</p>
+                        <p><locus type="Text" n="fol. 26v, fol. 132r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Initiale" n="fol. 9v, fol. 12v, fol. 18r, fol. 46r, fol. 94v, fol. 132r, fol. 140r, fol. 143r"/>Zinnober</p></decoNote>
+                     <decoNote ana="pigments" n="Blau">
+                        <p><locus type="Text" n="fol. 26v"/>_________</p>
+                        <p><locus type="Initiale" n="fol. 9v, fol. 12v, fol. 26r, fol. 46r, fol. 94v, fol. 132r"/>_________</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="1"/><seg type="lat">Majoris monasterii congreg. S. Mauri</seg>, 18. Jhd.</p>
