@@ -67,11 +67,17 @@
                      <handNote>Zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote ana="ink" n="Hauptext">
+                        <p><locus n="fol. 2r, fol. 10r, fol. 10v, fol. 18r, fol. 19v, fol. 26r, fol. 32r, fol. 41r, fol. 54r, fol. 59r, fol. 69r, fol. 75r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 10r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 26r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 59r"/>Vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                     </decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Ausfüllung" n="fol. 2r, fol. 18r"/>Minium</p></decoNote>
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
