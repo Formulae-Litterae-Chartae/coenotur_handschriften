@@ -135,10 +135,10 @@
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
                      <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="92 94"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
-                     <bibl><idno>von Euw 1989</idno><biblScope unit="pp" from="42" to="44"/></bibl>
-                     <bibl><idno>Anderson/Black 1997</idno><biblScope unit="pp" n=""/></bibl>
+                     <bibl><idno>von Euw 1989</idno><biblScope unit="pp" n="42 44"/></bibl>
+                     <bibl><idno>Anderson/Black 1997</idno><biblScope/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="386"/></bibl>
-                     <bibl><idno>Glaube und Wissen 1998</idno><biblScope unit="pp" from="70" to="73"/></bibl>
+                     <bibl><idno>Glaube und Wissen 1998</idno><biblScope unit="pp" n="70 73"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

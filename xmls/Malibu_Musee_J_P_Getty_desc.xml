@@ -22,7 +22,7 @@
                <msContents>
                   <msItem class="Bibel">
                      <author/>
-                     <title>37 Fragmente einer turonsichen Bibel</title>
+                     <title>37 Fragmente einer turonischen Bibel</title>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -66,7 +66,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Mercier" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Mercier" cert="medium" notBefore="0800" notAfter="0853">Zeit der großen turonsichen Bibelproduktion</origDate></p>
+                     <p><origDate source="Mercier" cert="medium" notBefore="0800" notAfter="0853">Zeit der großen turonischen Bibelproduktion</origDate></p>
                      <note>Fragment: Einordnung durch MERCIER.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
