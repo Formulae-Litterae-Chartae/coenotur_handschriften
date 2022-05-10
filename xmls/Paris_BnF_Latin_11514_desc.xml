@@ -72,7 +72,7 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">Turonische Minuskel</scriptNote>
-                     <scriptNote ana="ink" n="Hauptext">
+                     <scriptNote ana="ink" n="Haupttext">
                         <p><locus n="fol. 11r, fol. 19r, fol. 35r, fol. 38r, fol. 53r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                      <scriptNote ana="ink" n="Korrektur">
                         <p><locus n="fol. 11r, fol. 19r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
@@ -96,7 +96,7 @@
                         <p><locus n="82r"/>Buchstaben mit Flechtdekor am Rand.</p>
                         <p><locus n="83r"/>Zeichnung am Rande.</p></decoNote>
                      <decoNote ana="pigments" n="Rot">
-                        <p><locus type="Incipit/Explicit" n="fol. 38r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Incipit-Explicit" n="fol. 38r"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Initiale" n="fol. 53r"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Konkordanz" n="fol. 11r"/>Zinnober</p>
                         <p><locus type="Konkordanz" n="fol. 53r"/>Mischung aus Minium und Zinnober</p></decoNote>

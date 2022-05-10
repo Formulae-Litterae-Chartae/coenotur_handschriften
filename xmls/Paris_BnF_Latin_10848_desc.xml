@@ -143,7 +143,7 @@
                   <scriptDesc>
                      <scriptNote>Turonische Minuskel</scriptNote>
                      <scriptNote>Halbunziale</scriptNote>
-                     <scriptNote ana="ink" n="Hauptext">
+                     <scriptNote ana="ink" n="Haupttext">
                         <p><locus n="fol. 2r, fol. 5v, fol. 6r, fol. 11v, fol. 28v, fol. 38v, fol. 39v, fol. 80r, fol. 82v, fol. 89v, fol. 102v, fol. 103v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                      <scriptNote ana="ink" n="Incipit-Explicit">
                         <p><locus n="fol. 5v, fol. 90r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
@@ -168,7 +168,7 @@
                         <p><locus n="102v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor </p>
                         <p><locus n="107v"/>Bunte Initiale in Farbe und Gold mit Flechtdekor</p></decoNote>
                      <decoNote ana="pigments" n="Rot">
-                        <p><locus type="Incipit/Explicit" n="fol. 27v, fol. 102v"/>Zinnober</p>
+                        <p><locus type="Incipit-Explicit" n="fol. 27v, fol. 102v"/>Zinnober</p>
                         <p><locus type="Initiale" n="fol. 11v, fol. 27v, fol. 102v, fol. 102v"/>Zinnober</p>                        
                         <p><locus type="Initiale" n="fol. 82v"/>Minium</p></decoNote>
                      <decoNote ana="pigments" n="Blau">

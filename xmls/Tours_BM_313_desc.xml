@@ -116,7 +116,7 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>III: Späte karol. Minuskel</scriptNote>
-                        <scriptNote ana="ink" n="Hauptext">
+                        <scriptNote ana="ink" n="Haupttext">
                            <p><locus n="fol. 18r, fol. 33r, fol. 36v, fol. 56r, fol. 90v, fol. 100r, fol. 118v, fol. 153r, fol. 160r, fol. 200r, fol. 201v, fol. 210r, fol. 210v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
                         <scriptNote ana="ink" n="Initiale">
                            <p><locus n="fol. 117v, fol. 142v, fol. 201v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>    
@@ -127,7 +127,7 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote ana="pigments" n="Rot">
-                        <p><locus type="Incipit/Explicit" n="fol. 118v, fol. 148r, fol. 210v"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Incipit-Explicit" n="fol. 118v, fol. 148r, fol. 210v"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Initiale" n="fol. 36v"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Initiale" n="fol. 67r, fol. 71r, fol. 88r, fol. 90v"/>Zinnober</p></decoNote>
                      <decoNote ana="pigments" n="Blau">

@@ -67,7 +67,7 @@
                      <handNote>Zahlreiche Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote ana="ink" n="Hauptext">
+                     <scriptNote ana="ink" n="Haupttext">
                         <p><locus n="fol. 2r, fol. 10r, fol. 10v, fol. 18r, fol. 19v, fol. 26r, fol. 32r, fol. 41r, fol. 54r, fol. 59r, fol. 69r, fol. 75r"/>Nicht-vitriolische Eisengallustinten</p>
                         <p><locus n="fol. 10r"/>Vitriolische Eisengallustinten</p></scriptNote>
                      <scriptNote ana="ink" n="Marginalia">
@@ -108,7 +108,7 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc62413n</idno></bibl>
-                     <bibl><idno>Delilse 1868</idno><biblScope unit="pp" n="382"/></bibl>
+                     <bibl><idno>Delisle 1868</idno><biblScope unit="pp" n="382"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="196"/></bibl>
                   </listBibl>
                </additional>
