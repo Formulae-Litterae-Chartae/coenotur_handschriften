@@ -72,15 +72,15 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote ana="pigments" n="Gold">
-                        <p><locus type="Haupttext" n="fol. 5r, fol. 30r, fol. 144r, fol. 147r"/>Gold + Küpfer</p>
-                        <p><locus type="Kanontafeln" n="fol. 8r"/>Gold + Küpfer</p>
-                        <p><locus type="Explicit" n="fol. 142r"/>Gold + Küpfer</p>
-                        <p><locus type="Kolumnentitel" n="fol. 142r"/>Gold + Küpfer</p>
+                        <p><locus type="Haupttext" n="fol. 5r, fol. 30r, fol. 144r, fol. 147r"/>Gold + Kupfer</p>
+                        <p><locus type="Kanontafeln" n="fol. 8r"/>Gold + Kupfer</p>
+                        <p><locus type="Incipit-Explicit" n="fol. 142r"/>Gold + Kupfer</p>
+                        <p><locus type="Kolumnentitel" n="fol. 142r"/>Gold + Kupfer</p>
                      </decoNote>
                      <decoNote ana="pigments" n="Rot">
                         <p><locus type="Kanontafeln" n="fol. 8r"/>Zinnober</p>
                         <p><locus type="Kolumnentitel" n="Kolumnentitel fol. 142r"/>Zinnober</p>
-                        <p><locus type="Explicit" n="fol. 281v "/>Zinnober</p>
+                        <p><locus type="Incipit-Explicit" n="fol. 281v "/>Zinnober</p>
                      </decoNote>
                      <decoNote type="initial">
                         <p><locus n="17r"/>Verschönerte Initiale in Rot und Gold</p>

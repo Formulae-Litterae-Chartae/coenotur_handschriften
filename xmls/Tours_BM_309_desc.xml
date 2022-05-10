@@ -62,15 +62,15 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Winandy">Zu Beginn, karol. Minuskel mit Unzialen Zügen, danach saubere karol. Minuskel.</scriptNote>
-                     <scriptNote ana="ink" n="Hauptext">
+                     <scriptNote ana="ink" n="Haupttext">
                         <p><locus n="fol. 40v, fol. 56v, fol. 57r, fol. 77r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
                      <scriptNote ana="ink" n="Initiale">
                         <p><locus n="fol. 56v, fol. 77r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote ana="pigments" n="Rot">
-                        <p><locus type="Incipit/Explicit" n="fol. 40v"/>Mischung aus Minium und Zinnober</p>
-                        <p><locus type="Explicit" n="fol.  57r"/>Zinnober</p></decoNote>
+                        <p><locus type="Incipit-Explicit" n="fol. 40v"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Incipit-Explicit" n="fol. 57r"/>Zinnober</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p/>

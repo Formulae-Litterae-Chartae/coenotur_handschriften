@@ -94,7 +94,7 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote ana="ink" n="Hauptext">
+                     <scriptNote ana="ink" n="Haupttext">
                         <p><locus n="fol. f3r, fol. 9r, fol. 15v, fol. 23v, fol. 33r, fol. 46r, fol. 53v, fol. 63r, fol. 71r, fol. 73r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
                      <scriptNote ana="ink" n="Initiale">
                         <p><locus n="fol. 53v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
@@ -103,7 +103,7 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote ana="pigments" n="Rot">
-                        <p><locus type="Incipit/Explicit" n="fol. 3r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Incipit-Explicit" n="fol. 3r"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Initiale" n="fol. 3r, fol. 9r, fol. 15v, fol. 23v, fol. 33r, fol. 46r, fol. 53v, fol. 71r"/>Mischung aus Minium und Zinnober</p></decoNote>
                      <decoNote ana="pigments" n="Blau">
                         <p><locus type="Initiale" n="fol. 46r"/>_____________</p></decoNote>
