@@ -147,9 +147,15 @@
                      <scriptNote source="Rand">Exzellente Hand, jedoch eines der weniger eleganten
                         Bücher von Adalbaldus, da seine „unterschiedlichen Stimmungen“ (various
                         moods) zu erkennen sind. „He is a free spirit.“</scriptNote>
+                     
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 51r, fol. 51r, fol. 73r, fol. 97r, fol. 97r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 73r, fol. 76r, fol. 76r, fol. 87r, fol. 99r, fol. 99r, fol. 102r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote> </decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit-Explicit" n="fol. 97r"/>Zinnober</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p source="Rand">Korrekturen in eine Glossenhand mit kursiven Zügen</p>

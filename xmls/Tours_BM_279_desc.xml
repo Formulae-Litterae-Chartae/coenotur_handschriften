@@ -64,9 +64,19 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">Wiederbelebte Kursive</scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 4v, fol. 28r, fol. 113v, fol. 126r, fol. 135v, fol. 165r, fol. 171r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 135v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 4v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Andere">
+                        <p><locus n="fol. 4v (S)"/>Vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 4v (positura)"/>Vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit-Explicit" n="fol. 113v"/>Minium</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p source="Martinellus.de">Lagenkontrollvermerke in Teil II</p>

@@ -88,9 +88,13 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>I: Klare karol. Minuskel</scriptNote>
-                  </scriptDesc>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 1v, fol. 68r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 92r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Initiale" n="fol. 1v"/>Minium</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p>Zahlreiche Anmerkungen am Rand, häufig in tironischen Noten.</p>
