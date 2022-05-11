@@ -76,13 +76,32 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Winandy">Große, gut lesbare jüngere Minuskel</scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 32v, fol. 130r, fol. 187r, fol. 219v"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. fol. 296"/>Vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Lagenkontrollvermark">
+                        <p><locus n="fol. 32v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 187r, fol. 219v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                    <scriptNote ana="ink" n="Andere">
+                       <p><locus n="fol. 32v (durchgestrichen)"/>Pflanzentinte</p>
+                       <p><locus n="fol. 219v (durchgestrichen)"/>Vitriolische Eisengallustinten</p></scriptNote>                     
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
                         <p><locus n="130r"/>Schöne Initiale in Violett, Grün, Blau und Gold</p>
                         <p><locus n="151v"/>Schöne Initiale in Violett, Grün, Blau und Gold</p>
-                        <p><locus n="157r"/>Schöne Initiale in Violett, Grün, Blau und Gold</p>
-                     </decoNote>
+                        <p><locus n="157r"/>Schöne Initiale in Violett, Grün, Blau und Gold</p></decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit-Explicit" n="fol. 130r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Initiale" n="fol. 32v, fol. 219v"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Text" n="fol. 187r, fol. 296r"/>Zinnober</p>
+                        <p><locus type="Marginalia" n="fol. "/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Strich" n="fol. 219v"/>Miniumr</p></decoNote>
+                     <decoNote ana="pigments" n="Gold">
+                        <p><locus type="Initiale" n="fol. 32v"/>Messing</p></decoNote>
+                     <decoNote ana="pigments" n="Blau">
+                        <p><locus type="Kaviatur" n="fol. 32v"/>________</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p>Zahlreiche <seg type="lat">benedictiones episcopales</seg> sind durchgestrichen. DORANGE vermutet, dass diese Teile von einem Kopisten nicht kopiert werden sollten.</p>

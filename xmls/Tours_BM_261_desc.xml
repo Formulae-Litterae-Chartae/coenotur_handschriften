@@ -78,9 +78,26 @@
                   <scriptDesc>
                      <scriptNote source="Rand">"Decadent Perfected"</scriptNote>
                      <scriptNote source="Winandy">Jüngere Minuskel</scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 9v, fol. 15v, fol. 29r, fol. 74r, fol. 89v, fol. 95r, fol. 110r, fol. 119r, fol. 138r, fol. 146r, fol. 150v"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 8r, fol. 118v, fol. 162r"/>Vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Initiale">
+                        <p><locus n="fol. 162r, fol. Br"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Incipit-Explicit">
+                        <p><locus n="fol. 29r, fol. 37v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 118v"/>Vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 150v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                           
+                     <scriptNote ana="ink" n="NT">
+                        <p><locus n="fol. 146r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Andere">
+                        <p><locus n="fol. 162r, fol. Ar(Musiknoten)"/>Vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. f118v(Anführungszeichen)"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Initiale" n="fol. 15v, fol. 37v, fol. 89v, fol. 95r, fol. 118v, fol. 138r, fol. 150v"/>Minium</p>
+                        <p><locus type="Notensystem " n="fol. 162r, fol. Ar"/>Zinnober</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="2r"/><seg type="lat">ex libris maioris monasterii prope Turoneses</seg></p>

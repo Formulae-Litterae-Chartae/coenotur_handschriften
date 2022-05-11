@@ -67,7 +67,8 @@
                      <scriptNote source="Rand">Perfektionierte turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote></decoNote>
+                     <decoNote ana="pigments" n="Blau">
+                        <p><locus source = "Guineau/Vezin 1990" type="Initiale"/>Indigo</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="144v"/>Notarielle Kopie einer Schenkung an Montmajour
@@ -105,6 +106,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="163"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="414" to="415"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="25"/></bibl>
+                     <bibl><idno>Guineau/Vezin 1990</idno><biblScope n="passim"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>
