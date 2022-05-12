@@ -392,7 +392,7 @@ def handschrift(manuscript: str):
                 pigment_type_url = url_for('static', filename='images/tinte/{}.jpg'.format(pigment_type.lower().replace(' ', '')))
                 if os.path.isfile(current_app.root_path + pigment_type_url):
                     pigment_type = '<a href="{}" target="_blank">{}</a>'.format(pigment_type_url, pigment_type)
-                pigment_info = {'type': pigment_type, 'loc': pigment_locus.get('type', default='').strip(), 'folien': pigment_locus.get('n').strip()}
+                pigment_info = {'type': pigment_type, 'loc': pigment_locus.get('type', default='').strip(), 'folien': pigment_locus.get('n', default='').strip()}
                 if deco.get('n') in metadata['tintenanalyse']['pigments']:
                     if pigment_info['type'] in metadata['tintenanalyse']['pigments'][deco.get('n')]:
                         metadata['tintenanalyse']['pigments'][deco.get('n')][pigment_info['type']].update({pigment_info['loc']: pigment_info['folien']})
