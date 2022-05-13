@@ -489,3 +489,80 @@ class TestRoutes(CoenoturTests):
                    follow_redirects=True)
             c.get('/tintenanalyse', follow_redirects=True)
             self.assertIn('tintenanalyse.html', [x[0].name for x in self.templates])
+
+    def test_logged_in_user(self):
+        """ Test to make sure that a user who is already logged in is correctly redirected"""
+        with self.client as c:
+            c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                   follow_redirects=True)
+            c.get('/auth/login', follow_redirects=True)
+            self.assertIn('auth/login.html', [x[0].name for x in self.templates])
+
+    def test_incorrect_login_info(self):
+        """ Make sure that a user using incorrect login information is correctly redirected"""
+        with self.client as c:
+            c.post('/auth/login', data=dict(username='project.member', password="wrong_password"),
+                   follow_redirects=True)
+            self.assertIn(_('Benutzername oder Passwort ist ungültig'), [x[0] for x in self.flashed_messages])
+            c.post('/auth/login', data=dict(username='nonexistent.member', password="some_password"),
+                   follow_redirects=True)
+            self.assertIn(_('Benutzername oder Passwort ist ungültig'), [x[0] for x in self.flashed_messages])
+
+    def test_redirect_after_login(self):
+        """ Make sure the user is redirected to their desired page after logging in"""
+        with self.client as c:
+            c.post('/auth/login?next=/handschriften', data=dict(username='project.member', password="some_password"),
+                   follow_redirects=True)
+            self.assertIn('handschriften.html', [x[0].name for x in self.templates])
+
+    def test_user_logout(self):
+        """ Make sure the logout function logs the user out"""
+        with self.client as c:
+            c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                   follow_redirects=True)
+            self.assertTrue(current_user.is_authenticated, 'User should be logged in.')
+            c.get('/auth/logout', follow_redirects=True)
+            self.assertFalse(current_user.is_authenticated, 'User should now be logged out.')
+            self.assertIn('auth/login.html', [x[0].name for x in self.templates])
+
+    def test_user_change_prefs(self):
+        """ Make sure that the user can change their language and password"""
+        with self.client as c:
+            c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                   follow_redirects=True)
+            self.assertEqual(current_user.default_locale, 'de', '"de" should be the default language.')
+            c.post('/auth/user/project.member', data={'new_locale': "en"})
+            self.assertEqual(current_user.default_locale, 'en', 'User language should have been changed to "en"')
+            c.post('/auth/user/project.member', data={'old_password': 'some_password', 'password': 'some_new_password',
+                                                      'password2': 'some_new_password'},
+                   follow_redirects=True)
+            self.assertTrue(User.query.filter_by(username='project.member').first().check_password('some_new_password'),
+                            'User should have a new password: "some_new_password".')
+            self.assertIn('auth/login.html', [x[0].name for x in self.templates])
+            self.assertIn(_("Sie haben Ihr Passwort erfolgreich geändert."), [x[0] for x in self.flashed_messages])
+
+    def test_user_change_prefs_incorrect(self):
+        """ Make sure that a user who gives the false old password is not able to change their password"""
+        with self.client as c:
+            c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                   follow_redirects=True)
+            self.assertTrue(current_user.is_authenticated)
+            c.post(url_for('auth.user', username='project.member'), data={'old_password': 'some_wrong_password',
+                                                                            'password': 'some_new_password',
+                                                                            'password2': 'some_new_password'},
+                   follow_redirects=True)
+            self.assertTrue(User.query.filter_by(username='project.member').first().check_password('some_password'),
+                            'User\'s password should not have changed.')
+            self.assertIn(_("Das ist nicht Ihr aktuelles Passwort."), [x[0] for x in self.flashed_messages])
+
+    def test_reset_password_request(self):
+        """ Make sure the reset_password_request page works correctly"""
+        with self.client as c:
+            c.get('/auth/reset_password_request', follow_redirects=True)
+            self.assertIn('auth/reset_password_request.html', [x[0].name for x in self.templates])
+            c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                   follow_redirects=True)
+            c.get('/auth/reset_password_request', follow_redirects=True)
+            self.assertIn('auth/login.html', [x[0].name for x in self.templates])
+            self.assertIn(_('Sie sind schon eingeloggt. Sie können Ihr Password hier ändern.'), [x[0] for x in self.flashed_messages])
+
