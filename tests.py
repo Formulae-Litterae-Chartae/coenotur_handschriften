@@ -257,6 +257,8 @@ class TestRoutes(CoenoturTests):
             self.assertEqual(metadata['provenance_notes'],
                              ['Verse auf 435r aus dem 10. und 11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd. unter Wilhelm von Volpiano in St-Bénigne war. Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift des Bibliothekskatalog zwischen 1592 und 1682 bestätigt (FINGERNAGEL).'])
             self.assertEqual(metadata['binding'], ['Brauner Ledereinband über Pappe mit Streicheisengliederung, 19. Jhd.'])
+            self.assertIn({'<a href="{}" target="_blank">Vitriolische Eisengallustinten</a>'.format(url_for('static', filename='images/tinte/vitriolischeeisengallustinten.jpg')): 'fol. something'}, metadata['tintenanalyse']['ink']['Haupttext'])
+            self.assertEqual(metadata['tintenanalyse']['pigments']['Rot']['<a href="{}" target="_blank">Zinnober</a>'.format(url_for('static', filename='images/tinte/zinnober.jpg'))]['Initiale'], 'fol. 4r, fol. 211v')
 
             # Test handDesc and scriptDesc <p>
             c.get('/handschrift/Tours_BM_1019_desc.xml', follow_redirects=True)
@@ -275,6 +277,14 @@ class TestRoutes(CoenoturTests):
             r = c.get('/handschrift/Paris_BnF_Latin_4418_desc.xml', follow_redirects=True)
             metadata = self.get_context_variable('m_d')
             self.assertEqual(metadata['bibliography']['UBL 2014'], ['passim'])
+            c.get('/handschrift/Tours_BM_1019_desc_2.xml', follow_redirects=True)
+            metadata = self.get_context_variable('m_d')
+            self.assertEqual(metadata['pdf'], None)
+            self.assertEqual(metadata['ink_notes'], '<a href="{idno}" target="_blank">{idno}</a>'.format(idno='https://coenotur.fruehmittelalterprojekte.uni-hamburg.de/tintenanalyse'))
+            self.assertIn('fol. 89r-89v - Some text.', metadata['illuminations']['Allgemeine Miniaturen'])
+            c.get('/handschrift/Tours_BM_1019_desc.xml', follow_redirects=True)
+            metadata = self.get_context_variable('m_d')
+            self.assertEqual(metadata['pdf'], url_for('static', filename='pdfs/Tours_BM_1019_desc.pdf'))
 
     def test_send_email_existing_user(self):
         """ Ensure that emails are constructed correctly"""
@@ -366,3 +376,11 @@ class TestRoutes(CoenoturTests):
             self.assertIn(_('Der Token ist nicht gültig. Versuchen Sie es erneut.'), [x[0] for x in self.flashed_messages])
             self.assertIn('auth/login.html', [x[0].name for x in self.templates])
             self.assertEqual(user.email, 'another_new_email@email.com', 'User\'s email should not have changed.')
+
+    def test_tintenanalyse(self):
+        """ Make sure the HTML page for Tintenanalyse loads correctly"""
+        with self.client as c:
+            c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                   follow_redirects=True)
+            c.get('/tintenanalyse', follow_redirects=True)
+            self.assertIn('tintenanalyse.html', [x[0].name for x in self.templates])
