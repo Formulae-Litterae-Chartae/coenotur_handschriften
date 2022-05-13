@@ -11,6 +11,7 @@ from lxml import etree
 import pdfkit
 import os
 import sys
+from logging.handlers import SMTPHandler
 
 
 class TestConfig(Config):
@@ -21,8 +22,31 @@ class TestConfig(Config):
     XML_LOCATION = './test_xmls'
 
 
+class SSLESConfig(TestConfig):
+    ELASTICSEARCH_URL = "https://some.secure.server/elasticsearch"
+    ES_CLIENT_CERT = "SomeFile"
+    ES_CLIENT_KEY = "SomeOtherFile"
+
+
+class NormalESConfig(TestConfig):
+    ELASTICSEARCH_URL = "Normal ES Server"
+
+
 class AllFilesConfig(TestConfig):
     XML_LOCATION = './xmls'
+
+
+class InitConfig(Config):
+    TESTING = False
+    SQLALCHEMY_DATABASE_URI = 'sqlite://'
+    ELASTICSEARCH_URL = None
+    WTF_CSRF_ENABLED = False
+    XML_LOCATION = './test_xmls'
+    MAIL_SERVER = 'localhost'
+    MAIL_PORT = 8025
+    MAIL_USE_TLS = True
+    MAIL_USERNAME = 'ADMIN'
+    MAIL_PASSWORD = 'SomePassword'
 
 
 class CoenoturTests(unittest.TestCase):
@@ -85,7 +109,7 @@ class TestXmlLoad(CoenoturTests):
         self._ctx.push()
         self.templates = []
         self.flashed_messages = []
-        os.environ.update({'CI': 'True'})
+        #os.environ.update({'CI': 'True'})
         template_rendered.connect(self._add_template)
         message_flashed.connect(self._add_flash_message)
         db.create_all()
@@ -144,6 +168,48 @@ class TestXmlLoad(CoenoturTests):
                                        css='./app/static/css/styles.css', options=pdf_options)
                     sys.stdout.write('.')
                     sys.stdout.flush()
+
+
+class TestInit(CoenoturTests):
+
+    def setUp(self):
+        self.app = create_app(InitConfig)
+        self.client = self.app.test_client()
+        self._ctx = self.app.test_request_context()
+        self._ctx.push()
+
+    def test_non_secure_es_server(self):
+        """ Make sure that an ES server with no SSL security is correctly initiated"""
+        app = create_app(NormalESConfig)
+        self.assertEqual(app.elasticsearch.transport.hosts[0]['host'], NormalESConfig.ELASTICSEARCH_URL.lower())
+
+    def test_secure_es_server(self):
+        """ Make sure that an ES server with no SSL security is correctly initiated"""
+        app = create_app(SSLESConfig)
+        self.assertEqual(app.elasticsearch.transport.hosts[0]['host'],
+                         'some.secure.server',
+                         'Host server name should be correct.')
+        self.assertTrue(app.elasticsearch.transport.hosts[0]['use_ssl'], 'SSL should be enabled.')
+
+    def test_manuscript_sorting(self):
+        """ Make sure that manuscripts are sorted correctly for the handschriften list"""
+        self.assertEqual([('Berlin_SB_Ham_82_desc.xml', 'Berlin, SB, Hamilton 82'),
+                          ('Paris_BnF_Latin_2204_desc.xml', 'Paris, BnF, Latin 2204'),
+                          ('Paris_BnF_Latin_4418_desc.xml', 'Paris, BnF, Latin 4418'),
+                          ('some_weird_manuscript_name.xml', 'Tours, BM, 1019'),
+                          ('Tours_BM_10_desc.xml', 'Tours, BM, 10'),
+                          ('Tours_BM_193_desc.xml', 'Tours, BM, 193'),
+                          ('Tours_BM_1019_desc_2.xml', 'Tours, BM, 1019'),
+                          ('Tours_BM_1019_desc.xml', 'Tours, BM, 1019')],
+                         self.app.manuscript_list)
+
+    def test_mail_setup(self):
+        """ Make sure email for error logging is set up correctly"""
+        mail_logger = [x for x in self.app.logger.handlers if isinstance(x, SMTPHandler)][0]
+        self.assertEqual(mail_logger.mailhost, 'localhost')
+        self.assertEqual(mail_logger.username, 'ADMIN')
+        self.assertEqual(mail_logger.password, 'SomePassword')
+        self.assertEqual(mail_logger.secure, ())
 
 
 class TestRoutes(CoenoturTests):
