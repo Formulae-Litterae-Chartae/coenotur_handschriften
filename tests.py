@@ -2,6 +2,7 @@
 import unittest
 from app import create_app, db, mail
 from app.models import User
+from app.auth import forms as auth_forms
 from config import Config
 from flask import template_rendered, message_flashed, current_app, url_for
 from flask_login import current_user
@@ -12,6 +13,7 @@ import pdfkit
 import os
 import sys
 from logging.handlers import SMTPHandler
+from wtforms.validators import ValidationError
 
 
 class TestConfig(Config):
@@ -210,6 +212,43 @@ class TestInit(CoenoturTests):
         self.assertEqual(mail_logger.username, 'ADMIN')
         self.assertEqual(mail_logger.password, 'SomePassword')
         self.assertEqual(mail_logger.secure, ())
+
+
+class TestForms(CoenoturTests):
+
+    def test_user_registration_form(self):
+        """ Make sure a new user can register"""
+        form = auth_forms.RegistrationForm(username='some_new_user',
+                                           email='new_user@email.com',
+                                           password='aGreatPassword',
+                                           password2='aGreatPassword')
+        self.assertTrue(form.validate(), 'New user should be able to register')
+        form = auth_forms.RegistrationForm(username='some_new_user',
+                                           email='new_user@email.com',
+                                           password='aGreatPassword',
+                                           password2='aBadPassword')
+        self.assertFalse(form.validate(), 'Passwords that do not match should not validate')
+        form = auth_forms.RegistrationForm(username='some_new_user',
+                                           email='bad_email_address',
+                                           password='aGreatPassword',
+                                           password2='aGreatPassword')
+        self.assertFalse(form.validate(), 'An invalid email address should not validate')
+        form = auth_forms.RegistrationForm(username='some_new_user',
+                                           email='new_user@email.com',
+                                           password='aGreatPassword',
+                                           password2='aGreatPassword',
+                                           default_locale='it')
+        self.assertFalse(form.validate(), 'An invalid default_locale should not validate')
+        form = auth_forms.RegistrationForm(username='project.member',
+                                           email='project.member@uni-hamburg.de',
+                                           password='aGreatPassword',
+                                           password2='aGreatPassword')
+        with self.assertRaisesRegex(ValidationError, _('Bitte wählen Sie einen anderen Benutzername.')):
+            form.validate_username(form.username)
+        with self.assertRaisesRegex(ValidationError, _('Bitte wählen Sie eine andere Emailaddresse.')):
+            form.validate_email(form.email)
+        self.assertFalse(form.validate())
+
 
 
 class TestRoutes(CoenoturTests):
