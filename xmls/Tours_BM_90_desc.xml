@@ -64,6 +64,13 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>Schöne, klare Minuskel. Das Schriftbild der zweiten Hand ist deutlich jünger.</scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 97r, fol. 131v, fol. 145r, fol. 150v, fol. 198r, fol. 220r, fol. 241r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Initiale">
+                        <p><locus n="fol. 97r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 97r, fol. 131v, fol. 145r, fol. 150v, fol. 198r, fol. 220r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 241r"/>Vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>Teile der schönen Initialen wurden zum Teil in der BVMM digitalisiert, deren Link sich unter der Onlinebschreibung findet. Die Initialen des zweiten Teils (ab f. 109) sind weit weniger prachtvoll</decoNote>
@@ -164,8 +171,15 @@
                         <p><locus n="236v"/>Einfache Initiale in Rot</p>
                         <p><locus n="240r"/>Einfache Initiale in Rot</p>
                         <p><locus n="240v"/>Einfache Initiale in Rot</p>
-                        <p><locus n="242r"/>Einfache Initiale in Rot und Schwarzs</p>
-                     </decoNote>
+                        <p><locus n="242r"/>Einfache Initiale in Rot und Schwarzs</p></decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Initiale" n="fol. 97r"/>Minium</p>                        
+                        <p><locus type="Initiale" n="fol. 97r, fol. 131v"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Marginalia" n="fol. 198r"/>Zinnober</p></decoNote>
+                     <decoNote ana="pigments" n="Blau">
+                        <p><locus type="Initiale" n="fol. 97r"/></p></decoNote>
+                     <decoNote ana="pigments" n="Grün">
+                        <p><locus type="Initiale" n="fol. 97r"/>Kupfergrün</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="1r"/><seg type="lat">ex maior monrio</seg></p>

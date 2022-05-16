@@ -66,9 +66,22 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Winandy">Spätere karol. Minuskel mit zahlreichen Kürzungen</scriptNote>
-                  </scriptDesc>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 9r, fol. 35r, fol. 36r, fol. 68r, fol. 76v"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 52r"/>Vitriolische Eisengallustinten</p></scriptNote> 
+                     <scriptNote ana="ink" n="Initiale">
+                        <p><locus n="fol. 9r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 35r, fol. 36r, fol. 68r, fol. 76v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 9r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     </scriptDesc>
                   <decoDesc>
                      <decoNote/>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit-Explicit" n="fol. 76v"/>Minium</p>
+                        <p><locus type="Initiale" n="fol. 52r, fol. 76v"/>Minium</p>
+                        <p><locus type="Marginalia" n="fol. 68r"/>Minium</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="1r"/><seg type="lat">Maioris monasterii congregationis S. Mauri</seg></p>
