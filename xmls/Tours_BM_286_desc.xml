@@ -79,9 +79,22 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>Verbesserte Kursive</scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 1r, fol. 8v, fol. 13v, fol. 25v, fol. 55r, fol. 66r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 1r"/>Pflanzliche Tinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 1r"/>Pflanzliche Tinten</p>
+                        <p><locus n="fol. 8v, fol. 13v, fol. 20v, fol. 32v, fol. 55r, fol. 66r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Lagenkontrollvermark">
+                        <p><locus n="fol. 8v, fol. 25v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Zusatz">
+                        <p><locus n="fol. 8v, fol. 66r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 13v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit-Explicit" n="fol. 1r, fol. 20r"/>Minium</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p source="Dorange">zahlreiche Glossierungen und Tironische Noten einer

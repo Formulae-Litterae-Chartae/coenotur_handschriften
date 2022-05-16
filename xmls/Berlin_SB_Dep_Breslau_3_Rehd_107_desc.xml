@@ -59,6 +59,15 @@
                         </handDesc>
                         <scriptDesc>
                             <scriptNote>Haupttext in Minuskel und teilweise Halbunziale; Titel in Unziale</scriptNote>
+                            <scriptNote ana="ink" n="Haupttext">
+                                <p><locus n="fol. 12r"/>Nicht-vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 14v, fol. 20r"/>Vitriolische Eisengallustinten</p></scriptNote>                         
+                            <scriptNote ana="ink" n="Incipit-Explicit">
+                                <p><locus n="fol. 14r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Überschrift">
+                                <p><locus n="fol. 20r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Marginalia">
+                                <p><locus n="fol. 14v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote></decoNote>
