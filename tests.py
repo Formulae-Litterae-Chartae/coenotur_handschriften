@@ -3,6 +3,7 @@ import unittest
 from app import create_app, db, mail
 from app.models import User
 from app.auth import forms as auth_forms
+from app.search import forms as search_forms, routes as search_routes, Search
 from config import Config
 from flask import template_rendered, message_flashed, current_app, url_for
 from flask_login import current_user
@@ -200,10 +201,8 @@ class TestInit(CoenoturTests):
                           ('Paris_BnF_Latin_4418_desc.xml', 'Paris, BnF, Latin 4418'),
                           ('some_weird_manuscript_name.xml', 'Tours, BM, 1019'),
                           ('Tours_BM_10_desc.xml', 'Tours, BM, 10'),
-                          ('Tours_BM_193_desc.xml', 'Tours, BM, 193'),
-                          ('Tours_BM_1019_desc_2.xml', 'Tours, BM, 1019'),
-                          ('Tours_BM_1019_desc.xml', 'Tours, BM, 1019')],
-                         self.app.manuscript_list)
+                          ('Tours_BM_193_desc.xml', 'Tours, BM, 193')],
+                         self.app.manuscript_list[:6])
 
     def test_mail_setup(self):
         """ Make sure email for error logging is set up correctly"""
@@ -565,4 +564,13 @@ class TestRoutes(CoenoturTests):
             c.get('/auth/reset_password_request', follow_redirects=True)
             self.assertIn('auth/login.html', [x[0].name for x in self.templates])
             self.assertIn(_('Sie sind schon eingeloggt. Sie können Ihr Password hier ändern.'), [x[0] for x in self.flashed_messages])
+
+
+class TestES(CoenoturTests):
+
+    def test_build_sort_list(self):
+        """ Ensure that build_sort_list returns the correct values"""
+        self.assertEqual(Search.build_sort_list('_id'), '_id')
+        self.assertEqual(Search.build_sort_list('date_asc'), [{'mid_date': {'order': 'asc'}}, '_id'])
+        self.assertEqual(Search.build_sort_list('date_desc'), [{'mid_date': {'order': 'desc'}}, '_id'])
 

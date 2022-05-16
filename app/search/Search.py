@@ -41,47 +41,6 @@ def build_sort_list(sort_str: str) -> Union[str, List[Union[Dict[str, Dict[str, 
         return [{'mid_date': {'order': 'desc'}}, '_id']
 
 
-def suggest_word_search(**kwargs) -> Union[List[str], None]:
-    """ To enable search-as-you-type for the text search
-
-    :return: sorted set of results
-    """
-    results = set()
-    kwargs['fragment_size'] = 1000
-    field_mapping = {'autocomplete': 'text', 'autocomplete_lemmas': 'lemmas'}
-    if kwargs['qSource'] == 'text':
-        highlight_field = field_mapping[kwargs.get('lemma_search', 'autocomplete')]
-        term = kwargs.get('q', '')
-        if '*' in term or '?' in term:
-            return None
-        posts, total, aggs, prev_search = advanced_query_index(per_page=1000, **kwargs)
-    elif kwargs['qSource'] == 'regest':
-        highlight_field = 'regest'
-        term = kwargs.get('regest_q', '')
-        if '*' in term or '?' in term:
-            return None
-        posts, total, aggs, prev_search = advanced_query_index(per_page=1000, **kwargs)
-    else:
-        return None
-    for post in posts:
-        r = re.sub(r'[{}]'.format(punctuation), '', post['info'][highlight_field]).lower()
-        ind = 0
-        sep = ''
-        while term in r[ind:]:
-            if ind > 0:
-                sep = ' '
-            i = r.find(sep + term, ind)
-            if i == -1:
-                ind = i
-                continue
-            end_index = min(r.find(' ', i + len(term) + 30), len(r))
-            if end_index == -1:
-                end_index = len(r)
-            results.add(r[i:end_index].strip())
-            ind = i + len(sep + term)
-    return sorted(results, key=str.lower)[:10]
-
-
 def advanced_query_index(simple_q: str = '',
                          identifier: str = '',
                          orig_place: str = '',
