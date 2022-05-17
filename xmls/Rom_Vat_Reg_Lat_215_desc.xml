@@ -56,13 +56,33 @@
                             <handNote source="Rand">Zahlreiche Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand">Kleine Kapitalis</p>
-                        </scriptDesc>
+                            <scriptNote><p source="Rand">Kleine Kapitalis</p></scriptNote>
+                            <scriptNote ana="ink" n="Haupttext">
+                                <p><locus n="fol. 9v"/>Vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 16r, fol. 29r, fol. 51r, fol. 71r, fol. 106r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                            <scriptNote ana="ink" n="Initiale">
+                                <p><locus n="fol. 6v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Incipit-Explicit">
+                                <p><locus n="fol. "/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Überschrift">
+                                <p><locus n="fol. "/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Marginalia">
+                                <p><locus n="fol. 29r, fol. 51r, fol. 108r"/>Nicht-vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 108r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="NT">
+                                <p><locus n="fol. 6v, fol. 9v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Andere">
+                                <p><locus n="fol. 71r (S)"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                            
+                            </scriptDesc>
                         <musicNotation>
                             <p source="Rand">Neumen, vielleicht aus <placeName>Tours</placeName> oder aus <orgName>Fleury</orgName></p>
                         </musicNotation>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote ana="pigments" n="Rot">
+                                <p><locus type="Initiale" n="fol. 6v, fol. 51r, fol. 71r"/>Minium</p>
+                                <p><locus type="Titel" n="fol. 16r"/>Minium</p>
+                                <p><locus type="Zahlen" n="fol. 16r"/>Minium</p>
+                                <p><locus type="Ausfüllung" n="fol. 106r"/>Minium</p></decoNote>
                         </decoDesc>
                         <additions>
                             <p n="Nota">Auf den ersten Folia, bis einschließlich f.10 finden sich zahlreiche Nota-Zeichen.</p>

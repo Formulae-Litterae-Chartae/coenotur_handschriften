@@ -59,11 +59,14 @@
                         </handDesc>
                         <scriptDesc>
                             <scriptNote source="Rand">Continentale Schrift</scriptNote>
+                            <scriptNote ana="ink" n="Haupttext">
+                                <p><locus n="fol. 29r, fol. 226v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Zeichnung">
+                                <p><locus n="fol. 29r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="initial">
-                                <p><locus n="30v, 32v, 34v, 37v, 41r, 41v, 43v, 45v, 49v, 60r, 61r, 61v, 62r, 66v, 67v, 73r, 79v, 87v, 89r, 91r, 92v, 98v, 101r, 109v, 110r, 124r, 162r, 207r"/>Einige Initialen, die in der Farbe des Textes geschrieben sind, sind verschönerter verziert als die Mehrheit. </p>
-                            </decoNote>
+                                <p><locus n="30v, 32v, 34v, 37v, 41r, 41v, 43v, 45v, 49v, 60r, 61r, 61v, 62r, 66v, 67v, 73r, 79v, 87v, 89r, 91r, 92v, 98v, 101r, 109v, 110r, 124r, 162r, 207r"/>Einige Initialen, die in der Farbe des Textes geschrieben sind, sind verschönerter verziert als die Mehrheit.</p></decoNote>
                             <decoNote type="border" subtype="add">
                                 <p>Auf jeder Seite des Kapiteltitels, ein kleines Gekritzel. </p>
                                 <p><locus n="5r, 7r, 7v, 8v, 16v, 24v, 27v, 29r, 32v, 40v, 46r, 46v, 47v, 53v, 61v, 69v, 77v, 85v, 93v, 101v, 109v, 110r, 116r, 117v, 124v, 132v, 138v, 146v, 153v, 161v, 184v, 192v, 200v, 208v, 232v"/>Gekritzel im uteren Rand. zwei Zeichnungen am Rand (eine am inneren Rand, eine am äußeren Rand). Manchmal als Dekoration um die Seitenzahl herum, manchmal nur als geometrisches Muster. </p>
@@ -71,10 +74,10 @@
                                 <p><locus n="29v"/>Zeichnung unter dem Titel, die wie ein Entenkopf aussieht. </p>
                                 <p><locus n="49v, 67v, 91r, 124r, 207r"/>Fries (bunte oder in der Farbe des Textes). </p>
                                 <p><locus n="86r"/>Gekritzel. </p>
-                                <p><locus n="110r"/>Zwei Zeichnungen am Rand (eine am inneren Rand, eine am äußeren Rand). </p>
-                            </decoNote>
+                                <p><locus n="110r"/>Zwei Zeichnungen am Rand (eine am inneren Rand, eine am äußeren Rand).</p></decoNote>
+                            <decoNote ana="pigments" n="Rot">
+                                <p><locus type="Text" n="fol. 29r, fol. 226v"/>Minium</p></decoNote>
                         </decoDesc>
-                        
                         <additions>
                             <p>Marginalia: vereinzelte Kommentare und einzelne farbige Zeichnungen</p>
                         </additions>
