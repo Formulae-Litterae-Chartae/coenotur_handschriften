@@ -1,0 +1,112 @@
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fre">
+      <fileDesc>
+         <titleStmt>
+            <title>Tours, BM, 1019</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher xml:lang="deu">Coenotur Projekt</publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note source="some_source" n="ink">
+               <idno>https://coenotur.fruehmittelalterprojekte.uni-hamburg.de/tintenanalyse</idno>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Tours</settlement>
+                  <repository>BM</repository>
+                  <collection/>
+                  <idno>1019</idno>
+                  <altIdentifier source="St-Martin">
+                     <idno>154</idno>
+                  </altIdentifier>
+                  <altIdentifier source="Rand">
+                     <idno>226</idno>
+                  </altIdentifier>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="Hagiographie Martinellus">
+                     <author/>
+                     <title>Martinellus</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent n="104">
+                           <dimensions type="leaf" unit="cm">
+                              <height n="27.0"/>
+                              <width n="12.5"/>
+                           </dimensions>
+                           <dimensions type="written" unit="cm">
+                              <height n="20.0"/>
+                              <width n="6.2"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2">2 columns</layout>
+                        <layout writtenLines="25">25 written lines</layout>
+                        <layout>rote Titel</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p source="Munson">Some handDesc paragraph.</p>
+                  </handDesc>
+                  <scriptDesc>
+                     <p source="Munson">Some scriptDesc paragraph.</p>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote><locus from="89r" to="89v"></locus>Some text. 
+                     </decoNote>
+                  </decoDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <decoNote/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange" cert="low" notBefore="0800" notAfter="1300">9.,
+                           12. und 13. Jhd.</origDate></p>
+                     <p><origDate source="Collon" cert="low" notBefore="0800" notAfter="1500">9.,
+                           12., 13. und 15. Jhd.</origDate></p>
+                     <note/>
+                  </origin>
+                  <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
+                  <provenance/>
+                  <acquisition><name type="Repository">BM</name></acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <title type="gmd">Digitalisat</title>
+                        <idno>https://bvmm.irht.cnrs.fr/iiif/25688/canvas/canvas-2673310/view</idno>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="447 448"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="736" to="739"/></bibl>
+                     <bibl><idno>Collon 1900</idno><biblScope unit="pp">S. 800</biblScope></bibl>
+                     <bibl><idno>Rand 1929</idno><biblScope unit="pp"/></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"/>
+      </body>
+   </text>
+</TEI>

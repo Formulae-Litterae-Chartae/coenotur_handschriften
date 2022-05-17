@@ -1,6 +1,6 @@
 from flask import redirect, request, url_for, g, flash, current_app, render_template
 from flask_babel import _
-from .Search import advanced_query_index, suggest_word_search
+from .Search import advanced_query_index
 from .forms import AdvancedSearchForm
 from app.search import bp
 from json import dumps
@@ -37,7 +37,7 @@ def r_results():
     source = request.args.get('source', None)
     # This means that someone simply navigated to the /results page without any search parameters
     if not source:
-        return redirect(url_for('InstanceNemo.r_index'))
+        return redirect(url_for('main.index'))
     posts_per_page = 10000
     page = 1
     search_args = dict(simple_q=request.args.get('simple_q'),
@@ -51,12 +51,6 @@ def r_results():
                        person_role=request.args.get('person_role', '').split('+'),
                        person_identifier=request.args.get('person_identifier'),
                        provenance=request.args.get('provenance'),
-                       autocomplete_ms_item=request.args.get('autocomplete_ms_item'),
-                       autocomplete_person=request.args.get('autocomplete_person'),
-                       autocomplete_orig_place=request.args.get('autocomplete_orig_place'),
-                       autocomplete_orig_place_cert=request.args.get('autocomplete_orig_place_cert', '').split('+'),
-                       autocomplete_person_role=request.args.get('autocomplete_person_role', '').split('+'),
-                       autocomplete_person_identifier=request.args.get('autocomplete_person_identifier'),
                        with_digitalisat=request.args.get('with_digitalisat'),
                        with_scribe=request.args.get('with_scribe'),
                        with_illuminations=request.args.get('with_illuminations'),
@@ -83,37 +77,3 @@ def r_advanced_search():
     for k, m in form.errors.items():
         flash(k + ': ' + m[0])
     return render_template('search/advanced_search.html', form=form)
-
-
-@bp.route("/doc", methods=["GET"])
-def r_search_docs():
-    """ Route to the documentation page for the advanced search"""
-    return current_app.config['nemo_app'].render(template="search::documentation.html", url=dict())
-
-
-@bp.route("/suggest/<word>", methods=["GET"])
-def word_search_suggester(word: str):
-    qSource = request.args.get('qSource', 'text')
-    words = suggest_word_search(q=word.lower() if qSource == 'text' else request.args.get('q', '').lower(),
-                                lemma_search=request.args.get('lemma_search', 'autocomplete'),
-                                fuzziness=request.args.get("fuzziness", "0"),
-                                in_order=request.args.get('in_order', 'False'),
-                                slop=request.args.get('slop', '0'),
-                                year=request.args.get('year', 0, type=int),
-                                month=request.args.get('month', 0, type=int),
-                                day=request.args.get('day', 0, type=int),
-                                year_start=request.args.get('year_start', 0, type=int),
-                                month_start=request.args.get('month_start', 0, type=int),
-                                day_start=request.args.get('day_start', 0, type=int),
-                                year_end=request.args.get('year_end', 0, type=int),
-                                month_end=request.args.get('month_end', 0, type=int),
-                                day_end=request.args.get('day_end', 0, type=int),
-                                date_plus_minus=request.args.get("date_plus_minus", 0, type=int),
-                                corpus=request.args.get('corpus', '').split() or ['all'],
-                                exclusive_date_range=request.args.get('exclusive_date_range', "False"),
-                                composition_place=request.args.get('composition_place', ''),
-                                special_days=request.args.get('special_days', '').split(),
-                                regest_q=word.lower() if qSource == 'regest' else request.args.get('regest_q', '').lower(),
-                                regest_field=request.args.get('regest_field', 'regest'),
-                                qSource=request.args.get('qSource', 'text'))
-    return dumps(words)

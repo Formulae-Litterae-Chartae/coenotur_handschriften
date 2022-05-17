@@ -1,0 +1,3687 @@
+{
+  "took": 28,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 45,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Basel_UB_B_II_11_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Switzerland, Basel, UB, B II 11"
+            },
+            {
+              "id": "Rand 96"
+            },
+            {
+              "id": "Köhler 33"
+            },
+            {
+              "id": "Bischoff 260"
+            }
+          ],
+          "signature": "Basel, UB, B II 11",
+          "date_string": "Ende des Abbatiats von Fridugisus; 2. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "Marmoutier, Tours",
+              "source": "Fischer/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "Marmoutier, Tours",
+              "source": "Fischer/Bischoff"
+            }
+          ],
+          "min_date": "0820",
+          "mid_date": "0835",
+          "max_date": "0850",
+          "with_digitalisat": [
+            "https://www.e-codices.unifr.ch/de/list/one/ubb/B-II-0011"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Basel_UB_B_II_11_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Berlin_SB_Ham_248_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Germany, Berlin, SB, Hamilton 248"
+            },
+            {
+              "id": "Rand 124"
+            },
+            {
+              "id": "Bischoff 354"
+            }
+          ],
+          "signature": "Berlin, SB, Hamilton 248",
+          "date_string": "Mitte 9. Jhd.; 3. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangelia"
+          ],
+          "person": [],
+          "provenance": "St-Vinzent, Metz; Drei Handschriften aus Metz: (Metz, BM, 77 (zerstört); Paris, BnF, Latin 9393; Paris, BnF, Latin 9393), die im 10. Jahrhundert nach dem Vorbild von Ham. 248 entstanden sind, belegen, dass die Handschrift sich spätestens seit dem 10. Jahrhundert in Metz befand.; Anfang des 19. Jhds. war die Handschrift im Besitz des Londoner Buchhändlers James Edwards.; Von Edwards ging sie wohl in den Besitz von Alexander Hamilton Douglas über.; Wie der Rest der Sammlung Hamiltons gelangte die Handschrift schließlich 1882/83 an die Königliche Bibliothek Berlin.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours, und ein anderes französisches Zentrum für die künstlerische Ausstattung",
+              "source": "Bischoff"
+            },
+            {
+              "cert": "medium",
+              "place": "Tours, für die Schrift, Ausstattung wohl in Lothringen (Metz?).",
+              "source": "Fingernagel"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelia"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": true,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours, und ein anderes französisches Zentrum für die künstlerische Ausstattung",
+              "source": "Bischoff"
+            },
+            {
+              "cert": "medium",
+              "place": "Tours, für die Schrift, Ausstattung wohl in Lothringen (Metz?).",
+              "source": "Fingernagel"
+            }
+          ],
+          "min_date": "0825",
+          "mid_date": "0850",
+          "max_date": "0875"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelia</strong><small>"
+          ]
+        },
+        "sort": [
+          "Berlin_SB_Ham_248_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Berlin_SB_Theol_Lat_Fol_733_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Evangeliar von Prüm"
+            },
+            {
+              "id": "Deutschland, Berlin, SB, Theol. Lat. Fol. 733"
+            },
+            {
+              "id": "Görres 94"
+            },
+            {
+              "id": "Rand 107"
+            },
+            {
+              "id": "Köhler 40"
+            },
+            {
+              "id": "Bischoff 470"
+            }
+          ],
+          "signature": "Berlin, SB, Theol. Lat. Fol. 733",
+          "date_string": "843-851 unter Vivian",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [
+            {
+              "name": "Vivian",
+              "role": "Abt",
+              "identifier": null
+            }
+          ],
+          "provenance": "St-Maximin, Trier; Ein Eintrag auf fol. 234r belegt, dass die Handschrift dem Kloster Prüm durch Kaiser Lothar I. 852 bei seinem Eintritt in die Abtei übergeben wurde.; Von dort gelangte sie im 18. Jahrhundert vielleicht nach St-Maximin in Trier, wobei SCHILLMANN darauf aufmerksam macht, das nicht klar ist, wie, wann und warum.; Über die Bibliothek von Joseph Görres gelangte die Handschrift schließlich durch den Kauf von mehreren Gönner an die Königliche Bibliothek in Berlin.",
+          "autocomplete_person": [
+            {
+              "name": "Vivian",
+              "role": "Abt",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin, Tours",
+              "source": "Schillmann/Rand/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": true,
+          "named_scribe": false,
+          "ink_analysis": true,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin, Tours",
+              "source": "Schillmann/Rand/Bischoff"
+            }
+          ],
+          "min_date": "0843",
+          "mid_date": "0847",
+          "max_date": "0851"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Berlin_SB_Theol_Lat_Fol_733_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Cambrai_BM_295_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Cambrai, BM, 295 (277)"
+            },
+            {
+              "id": "Rand 40"
+            },
+            {
+              "id": "Bischoff 778"
+            }
+          ],
+          "signature": "Cambrai, BM, 295 (277)",
+          "date_string": "spätestens 817",
+          "ms_item": [
+            "Beda Venerabilis, In Lucae evangelium expositio"
+          ],
+          "person": [],
+          "provenance": "Kathedrale von Cambrai; Die Handschrift wurde von Bischof Hildoard an seine Kathedrale geschenkt.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Cambrai",
+              "source": "Köhler/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Beda Venerabilis, In Lucae evangelium expositio"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Cambrai",
+              "source": "Köhler/Bischoff"
+            }
+          ],
+          "min_date": "0800",
+          "mid_date": "0808",
+          "max_date": "0817"
+        },
+        "highlight": {
+          "ms_item": [
+            "Beda Venerabilis, In Lucae </small><strong>evangelium</strong><small> expositio"
+          ]
+        },
+        "sort": [
+          "Cambrai_BM_295_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Dijon_AD_Inv_No_494_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Dijon, AD, Inv. No. 494"
+            },
+            {
+              "id": "Rand 109"
+            },
+            {
+              "id": "Köhler 48"
+            },
+            {
+              "id": "Bischoff 1003"
+            }
+          ],
+          "signature": "Dijon, AD, Inv. No. 494",
+          "date_string": "2. Hälfte 9. Jhd. (ca. 857-862)",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [],
+          "provenance": "; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "min_date": "0850",
+          "mid_date": "0874",
+          "max_date": "0899"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Dijon_AD_Inv_No_494_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Grenoble_AD_Fragm_s_n_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Grenoble, AD, Fragm. s. n."
+            },
+            {
+              "id": "Rand 111"
+            },
+            {
+              "id": "Bischoff 1468"
+            }
+          ],
+          "signature": "Grenoble, AD, Fragm. s. n.",
+          "date_string": "ca. 3. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [],
+          "provenance": "Kathedrale von Grenoble; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "min_date": "0850",
+          "mid_date": "0800",
+          "max_date": "0750"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Grenoble_AD_Fragm_s_n_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Köln_Dom_107_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Germany, Cologne, Dombibliothek, 107"
+            },
+            {
+              "id": "Darmstadt 2107"
+            },
+            {
+              "id": "Rand 48"
+            },
+            {
+              "id": "Bischoff 1920"
+            }
+          ],
+          "signature": "Köln, Dombibliothek 107",
+          "date_string": "Unter Fridugisus, nicht lange nach 820; 1./2. Viertel 9. Jhd.",
+          "ms_item": [
+            "Alcuinus, Commentarius in evangelium Iohannis"
+          ],
+          "person": [],
+          "provenance": "Dombibliothek Köln; Die Handschrift ist 833 noch nicht in Köln nachweisbar.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Bischoff/Rand/CEEC"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Alcuinus, Commentarius in evangelium Iohannis"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Bischoff/Rand/CEEC"
+            }
+          ],
+          "min_date": "0807",
+          "mid_date": "0820",
+          "max_date": "0834",
+          "with_digitalisat": [
+            "http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/pagesma/%22kn28-0107_001.jpg%22/segment/%22body%22"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "Alcuinus, Commentarius in </small><strong>evangelium</strong><small> Iohannis"
+          ]
+        },
+        "sort": [
+          "Köln_Dom_107_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Köln_Dom_13_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Hiltfred-Evangeliar"
+            },
+            {
+              "id": "Germany, Cologne, Dombibliothek, 13"
+            },
+            {
+              "id": "Anderson/Black 43,588"
+            },
+            {
+              "id": "Rand 41"
+            },
+            {
+              "id": "Bischoff 1870"
+            },
+            {
+              "id": "von Euw 2"
+            },
+            {
+              "id": "Darmstadt 2013"
+            }
+          ],
+          "signature": "Köln, Dombibliothek 13",
+          "date_string": "nach 820; 1. Hälfte 9. Jhd.",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [
+            {
+              "name": "Hildebald",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "Köln, Domkirche; Möglicherweise von Erzbischof Hildebald von Köln (785-818) erworben. ",
+          "autocomplete_person": [
+            {
+              "name": "Hildebald",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Westfrankenreich",
+              "source": "CEEC/Fischer"
+            },
+            {
+              "cert": "medium",
+              "place": "„im Umfeld turonischen Einflusses“",
+              "source": "Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Westfrankenreich",
+              "source": "CEEC/Fischer"
+            },
+            {
+              "cert": "medium",
+              "place": "„im Umfeld turonischen Einflusses“",
+              "source": "Bischoff"
+            }
+          ],
+          "min_date": "0800",
+          "mid_date": "0825",
+          "max_date": "0850",
+          "with_digitalisat": [
+            "http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/pagesma/%22kn28-0013_001.jpg%22/segment/%22body%22"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Köln_Dom_13_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Laon_BM_63_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Laon, BM, 63"
+            },
+            {
+              "id": "Rand 112"
+            },
+            {
+              "id": "Köhler 42"
+            },
+            {
+              "id": "Bischoff 2057"
+            }
+          ],
+          "signature": "Laon, BM, 63",
+          "date_string": "unter Vivian (843-851)",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "Notre-Dame, Laon; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin, Tours",
+              "source": "Rand/Köhler/Bischoff/Denoël"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin, Tours",
+              "source": "Rand/Köhler/Bischoff/Denoël"
+            }
+          ],
+          "min_date": "0843",
+          "mid_date": "0847",
+          "max_date": "0851",
+          "with_digitalisat": [
+            "http://manuscrit.ville-laon.fr/_app/index.php?type_recherche=cote&choix_secondaire=Ms%2063&tri="
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Laon_BM_63_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Laon_BM_81_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Laon, BM, 81"
+            },
+            {
+              "id": "Bischoff 2063"
+            }
+          ],
+          "signature": "Laon, BM, 81",
+          "date_string": "3. Viertel 9. Jhd.",
+          "ms_item": [
+            "Johannes Scottus, Commentarius in evangelium Iohannis"
+          ],
+          "person": [],
+          "provenance": "Notre-Dame, Laon; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "\"Kreis des Iohannes Scottus\"",
+              "source": "Bischoff"
+            },
+            {
+              "cert": "medium",
+              "place": "St-Martin, Tours",
+              "source": "Denoël"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Johannes Scottus, Commentarius in evangelium Iohannis"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "\"Kreis des Iohannes Scottus\"",
+              "source": "Bischoff"
+            },
+            {
+              "cert": "medium",
+              "place": "St-Martin, Tours",
+              "source": "Denoël"
+            }
+          ],
+          "min_date": "0850",
+          "mid_date": "0862",
+          "max_date": "0875",
+          "with_digitalisat": [
+            "http://manuscrit.ville-laon.fr/_app/index.php?type_recherche=cote&choix_secondaire=Ms%2081&tri=",
+            "https://bvmm.irht.cnrs.fr/consult/consult.php?REPRODUCTION_ID=933"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "Johannes Scottus, Commentarius in </small><strong>evangelium</strong><small> Iohannis"
+          ]
+        },
+        "sort": [
+          "Laon_BM_81_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "London_BL_Add_11848_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Evangeliar von Compiègne"
+            },
+            {
+              "id": "Great Britain, London, BL, Add. 11848"
+            },
+            {
+              "id": "Rand 78"
+            },
+            {
+              "id": "Köhler 19"
+            },
+            {
+              "id": "Bischoff 2361"
+            }
+          ],
+          "signature": "London, BL, Add. 11848",
+          "date_string": "ca. 820-830; probably under Fridusgisus",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; Die Handschrift gehört Graf Jan Peter van Suchtelen (1751-1836), dem russichen Botschafter in Schweden.; Danach war sie im Besitz von Percy Clinton Sydney Smythe, dem englsichen Botschafter in Schweden und Russland.; Von dort gelangte sie durch Verkauf der Sammlung in Sotheby's an Samuel Butter.; Schließlich kaufte die BL die Handschrift dessen Sohn, Thomas Butler, im Jahr 1841 ab.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin, Tours",
+              "source": "Rand/Köhler/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin, Tours",
+              "source": "Rand/Köhler/Bischoff"
+            }
+          ],
+          "min_date": "0807",
+          "mid_date": "0820",
+          "max_date": "0834",
+          "with_digitalisat": [
+            "http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_11848_fs001r"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "London_BL_Add_11848_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "London_BL_Add_11849_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Great Britain, London, BL, Add. 11849"
+            },
+            {
+              "id": "Rand 131"
+            },
+            {
+              "id": "Köhler 55"
+            },
+            {
+              "id": "Bischoff 2362"
+            }
+          ],
+          "signature": "London, BL, Add. 11849",
+          "date_string": "nach 860",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand/Köhler/Fischer/Bischoff"
+            },
+            {
+              "cert": "medium",
+              "place": "perhaps in Tours",
+              "source": "bl.uk"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand/Köhler/Fischer/Bischoff"
+            },
+            {
+              "cert": "medium",
+              "place": "perhaps in Tours",
+              "source": "bl.uk"
+            }
+          ],
+          "min_date": "0860",
+          "mid_date": "0870",
+          "max_date": "0880",
+          "with_digitalisat": [
+            "http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_11849_f001r"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "London_BL_Add_11849_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "London_BL_Egerton_609_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Great Britain, London, BL, Egerton 609"
+            },
+            {
+              "id": "Rand 140"
+            },
+            {
+              "id": "Bischoff 2433"
+            }
+          ],
+          "signature": "London, BL, Egerton 609",
+          "date_string": "1. Hälfte 9. Jhd.; 3. Viertel 9. Jhd.; 3. Drittel 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "Tours, St-Martin, 15. Jhd; Marmoutier, 18. Jhd.; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours, \"Franco-Saxon Style\"; \"Either a present from some other monastery or the work of an Irishman experimenting at Tours\"",
+              "source": "Rand"
+            },
+            {
+              "cert": "high",
+              "place": "nicht Tours \"In Text, Schrift und Ausstattung ohne Beziehung zu Tours\"",
+              "source": "Köhler"
+            },
+            {
+              "cert": "high",
+              "place": "Bretagne",
+              "source": "Fischer/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours, \"Franco-Saxon Style\"; \"Either a present from some other monastery or the work of an Irishman experimenting at Tours\"",
+              "source": "Rand"
+            },
+            {
+              "cert": "high",
+              "place": "nicht Tours \"In Text, Schrift und Ausstattung ohne Beziehung zu Tours\"",
+              "source": "Köhler"
+            },
+            {
+              "cert": "high",
+              "place": "Bretagne",
+              "source": "Fischer/Bischoff"
+            }
+          ],
+          "min_date": "0800",
+          "mid_date": "0849",
+          "max_date": "0899",
+          "with_digitalisat": [
+            "http://www.bl.uk/manuscripts/Viewer.aspx?ref=egerton_ms_609_fs001r"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "London_BL_Egerton_609_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "London_BL_Egerton_768_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Great Britain, London, BL, Egerton 768"
+            },
+            {
+              "id": "Rand 141"
+            },
+            {
+              "id": "Bischoff 2434"
+            }
+          ],
+          "signature": "London, BL, Egerton 768",
+          "date_string": "4. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours, \"Franco-Saxon Style\"",
+              "source": "Rand"
+            },
+            {
+              "cert": "high",
+              "place": "nicht Tours",
+              "source": "Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "Vielleicht Corvey",
+              "source": "Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours, \"Franco-Saxon Style\"",
+              "source": "Rand"
+            },
+            {
+              "cert": "high",
+              "place": "nicht Tours",
+              "source": "Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "Vielleicht Corvey",
+              "source": "Bischoff"
+            }
+          ],
+          "min_date": "0875",
+          "mid_date": "0887",
+          "max_date": "0899",
+          "with_digitalisat": [
+            "http://www.bl.uk/manuscripts/Viewer.aspx?ref=egerton_ms_768_fs001r"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "London_BL_Egerton_768_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "London_BL_Harley_2790_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Gospels of St Cyr of Nevers"
+            },
+            {
+              "id": "United Kingdom, London, British Library, Harley 2790"
+            },
+            {
+              "id": "Rand 27"
+            },
+            {
+              "id": "Köhler 5"
+            },
+            {
+              "id": "Bischoff 2457"
+            }
+          ],
+          "signature": "London, BL, Harley 2790",
+          "date_string": "1. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangelium"
+          ],
+          "person": [
+            {
+              "name": "Gedeon",
+              "role": "Schreiber",
+              "identifier": null
+            }
+          ],
+          "provenance": "St Cyr, Nevers; Wie das Exlibris belegt, gehörte die Handschrift bereits vor 860 der Kathedrale von St Cyr in Nevers.",
+          "autocomplete_person": [
+            {
+              "name": "Gedeon",
+              "role": "Schreiber",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours?",
+              "source": "Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelium"
+          ],
+          "illuminated": true,
+          "musicNotation": true,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": true,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours?",
+              "source": "Bischoff"
+            }
+          ],
+          "min_date": "0800",
+          "mid_date": "0812",
+          "max_date": "0825",
+          "with_digitalisat": [
+            "http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2790_fs001r"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelium</strong><small>"
+          ]
+        },
+        "sort": [
+          "London_BL_Harley_2790_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Nancy_Cathedrale_Tresor_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Évangéliaire de saint Gauzelin"
+            },
+            {
+              "id": "France, Nancy, Cathedrale, Trésor"
+            },
+            {
+              "id": "Rand 79"
+            },
+            {
+              "id": "Bischoff 3571"
+            }
+          ],
+          "signature": "Nancy, Trésor de la cathedrale",
+          "date_string": "um 835",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [
+            {
+              "name": "Adalbaldus",
+              "role": "Schreiber",
+              "identifier": null
+            }
+          ],
+          "provenance": "; ",
+          "autocomplete_person": [
+            {
+              "name": "Adalbaldus",
+              "role": "Schreiber",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": true,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "min_date": "0825",
+          "mid_date": "0835",
+          "max_date": "0845"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Nancy_Cathedrale_Tresor_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "New_York_PML_MS_191_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Morgan Gospel"
+            },
+            {
+              "id": "USA, New York, Pierpont Morgan Library, Ms 191"
+            },
+            {
+              "id": "Rand 35"
+            },
+            {
+              "id": "Köhler 21"
+            },
+            {
+              "id": "Bischoff 3613"
+            }
+          ],
+          "signature": "New York, Pierpont Morgan Library, MS 191",
+          "date_string": "ca. 830-834",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; Von Libri gestohlen und an Lord Ashburnham verkauft.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "min_date": "0830",
+          "mid_date": "0832",
+          "max_date": "0834",
+          "with_digitalisat": [
+            "https://www.themorgan.org/manuscript/146949"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "New_York_PML_MS_191_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "New_York_PML_MS_860_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "USA, New York, Pierpont Morgan Library, Ms. 860"
+            },
+            {
+              "id": "Chester Beatty 8"
+            },
+            {
+              "id": "Rand 115"
+            },
+            {
+              "id": "Köhler 47"
+            },
+            {
+              "id": "Bischoff 3620"
+            }
+          ],
+          "signature": "New York, Pierpont Morgan Library, Ms. 860",
+          "date_string": "Mitte des Jahrhunderts; zweite Jahrhunderthälfte; ca. 3. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; Die Handschrift war zunäcsht in der Sammlung von Chester Beatty in London und gelangte später nach New York.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Köhler/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Köhler/Bischoff"
+            }
+          ],
+          "min_date": "0840",
+          "mid_date": "0869",
+          "max_date": "0899"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "New_York_PML_MS_860_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_Bib_de_l_Arsenal_1171_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Évangéliaire dit de sainte Aure"
+            },
+            {
+              "id": "France, Paris, Bib. de l'Arsenal, 1171"
+            },
+            {
+              "id": "Rand 145"
+            },
+            {
+              "id": "Bischoff 3928"
+            }
+          ],
+          "signature": "Paris, Bib. de l'Arsenal, 1171",
+          "date_string": "3. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; Die Handschrift war bis zur Revolution im Besitz der Barnabiten von St-Eloi in der Île de la Cité.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours (Possible Anglo-Saxon-Style)",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Hofschule Karls des Kahlen",
+              "source": "Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours (Possible Anglo-Saxon-Style)",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Hofschule Karls des Kahlen",
+              "source": "Bischoff"
+            }
+          ],
+          "min_date": "0850",
+          "mid_date": "0862",
+          "max_date": "0875",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b55000807v"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_Bib_de_l_Arsenal_1171_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_Bibliotheque_Mazarine_274_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, Bibliothèque Mazarine, 274"
+            },
+            {
+              "id": "Rand 60"
+            }
+          ],
+          "signature": "Paris, Bibliothèque Mazarine, 274",
+          "date_string": "Frühes Beispiel für die Reform Alkuins; Anfang 10. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand"
+            }
+          ],
+          "min_date": "0796",
+          "mid_date": "0860",
+          "max_date": "0925"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_Bibliotheque_Mazarine_274_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_Bibliotheque_St_Genevieve_1260_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, Bibliotheque St-Geneviève, 1260"
+            },
+            {
+              "id": "St-Geneviève 1753"
+            },
+            {
+              "id": "Rand 32"
+            },
+            {
+              "id": "Bischoff 5171"
+            }
+          ],
+          "signature": "Paris, Bibliotheque St-Geneviève, 1260",
+          "date_string": "unter Alkuin oder kurz danach (bis 820); ca. 820-830; 2. Drittel 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "St-Geneviève, Paris; Die beigefügte Totenrolle war im Besitz vom Abt Girard.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "min_date": "0796",
+          "mid_date": "0831",
+          "max_date": "0866",
+          "with_digitalisat": [
+            "https://archive.org/details/MS1260"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_Bibliotheque_St_Genevieve_1260_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_Latin_17227_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Evangeliar von Adalbaldus"
+            },
+            {
+              "id": "France, Paris, BnF, Latin 17227"
+            },
+            {
+              "id": "Rand 30"
+            },
+            {
+              "id": "Köhler 9"
+            },
+            {
+              "id": "Bischoff 4998"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 17227",
+          "date_string": "1. Drittel 9. Jhd.; Unter Alkuin (796-804)",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [
+            {
+              "name": "Adalbaldus",
+              "role": "srcibe",
+              "identifier": null
+            }
+          ],
+          "provenance": "; ",
+          "autocomplete_person": [
+            {
+              "name": "Adalbaldus",
+              "role": "srcibe",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, St-Martin",
+              "source": "Rand"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": true,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, St-Martin",
+              "source": "Rand"
+            }
+          ],
+          "min_date": "0796",
+          "mid_date": "0814",
+          "max_date": "0833",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b9076857n"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_Latin_17227_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_Latin_261_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, BnF, Latin 261"
+            },
+            {
+              "id": "Colbert 1947"
+            },
+            {
+              "id": "Regius 3937"
+            },
+            {
+              "id": "Rand 132"
+            },
+            {
+              "id": "Köhler 54"
+            },
+            {
+              "id": "Bischoff 3975"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 261",
+          "date_string": "ca. 3. Viertel 9. Jhd.; nach 853",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [
+            {
+              "name": "Nicolas Le Fevre",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "J.-A. de Thou",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Colbert",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "Le Mans; Die Handschrift wurde 1582 von Nicolas Le Fevre in Le Mans gekauft und gelangte dann in den Besitz von J.-A. de Thou und schließlich zu Colbert.",
+          "autocomplete_person": [
+            {
+              "name": "Nicolas Le Fevre",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "J.-A. de Thou",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Colbert",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand/Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "„unter Mitarbeit eines in Tours geschulten Künstlers in einem westfranzösischen Zentrum entstanden“",
+              "source": "Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": true,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand/Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "„unter Mitarbeit eines in Tours geschulten Künstlers in einem westfranzösischen Zentrum entstanden“",
+              "source": "Bischoff"
+            }
+          ],
+          "min_date": "0850",
+          "mid_date": "0862",
+          "max_date": "0875",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8427443x"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_Latin_261_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_Latin_263_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, BnF, Latin 263"
+            },
+            {
+              "id": "Colbert 2098"
+            },
+            {
+              "id": "Rand 118"
+            },
+            {
+              "id": "Köhler 50"
+            },
+            {
+              "id": "Bischoff 3977"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 263",
+          "date_string": "3. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [
+            {
+              "name": "Colbert",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "Colbert; ",
+          "autocomplete_person": [
+            {
+              "name": "Colbert",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "min_date": "0850",
+          "mid_date": "0862",
+          "max_date": "0875",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b84921527"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_Latin_263_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_Latin_266_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Lothar-Evangeliar"
+            },
+            {
+              "id": "France, Paris, BnF, Latin 266"
+            },
+            {
+              "id": "Rigault 1156"
+            },
+            {
+              "id": "Dupuy 1264"
+            },
+            {
+              "id": "Regius 3705"
+            },
+            {
+              "id": "Rand 119"
+            },
+            {
+              "id": "Köhler 41"
+            },
+            {
+              "id": "Bischoff 3980"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 266",
+          "date_string": "zwischen 853 und 855; 849-851?",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [
+            {
+              "name": "Sigislaus",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Lothar",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "Notre-Dame de Pontifroy de Metz; Geschrieben im Auftrag von Sigislaus und dem Kaiser Lothar übergeben. Später im Besitz des Klosters Notre-Dame de Pontifroy in Metz.",
+          "autocomplete_person": [
+            {
+              "name": "Sigislaus",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Lothar",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin, Tours",
+              "source": ""
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin, Tours",
+              "source": ""
+            }
+          ],
+          "min_date": "0843",
+          "mid_date": "0849",
+          "max_date": "0855",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8451637v"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_Latin_266_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_Latin_267_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, BnF, Latin 267"
+            },
+            {
+              "id": "Colbert 2782"
+            },
+            {
+              "id": "Rand 133"
+            },
+            {
+              "id": "Köhler 52"
+            },
+            {
+              "id": "Bischoff 3981"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 267",
+          "date_string": "nach 860",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [
+            {
+              "name": "Colbert",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "Montmajour; Die Handschrift befand sich in der Sammlung von Colbert und ging von dort in die königliche Bibliothek über.",
+          "autocomplete_person": [
+            {
+              "name": "Colbert",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, St-Martin",
+              "source": ""
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, St-Martin",
+              "source": ""
+            }
+          ],
+          "min_date": "0860",
+          "mid_date": "0860",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8492148b"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_Latin_267_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_Latin_269_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Évangiles dits de Charles IX"
+            },
+            {
+              "id": "France, Paris, BnF, Latin 269"
+            },
+            {
+              "id": "Rigault 735"
+            },
+            {
+              "id": "Dupuy 792"
+            },
+            {
+              "id": "Regius 3704"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 269",
+          "date_string": "2. Hälfte oder Ende 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; Wie die Notiz auf Folio 275 belegt, war die Handschrift spätestens ab dem 15. Jhd. in Limoges.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Denoël"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Denoël"
+            }
+          ],
+          "min_date": "0850",
+          "mid_date": "0874",
+          "max_date": "0899",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8426033v"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_Latin_269_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_Latin_274_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Evangeliar von Meaux"
+            },
+            {
+              "id": "France, Paris, BnF, Latin 274"
+            },
+            {
+              "id": "Faure 7"
+            },
+            {
+              "id": "Regius 3706/6"
+            },
+            {
+              "id": "Rand 82"
+            },
+            {
+              "id": "Köhler 29"
+            },
+            {
+              "id": "Bischoff 3987"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 274",
+          "date_string": "zwischen 820-843, unter Fridugisus oder Adalhardus",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [
+            {
+              "name": "Fridugisus",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Adalhardus",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Faure",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "Meaux (Abbaye de Chage); Die Handschrift geht wohl von St-Martin nach Meaux und gelangt dann in den Besitz von Antoine Faure (1557-1624). Die Bibliothèque du roi kaufte sie im Jahr 1701.",
+          "autocomplete_person": [
+            {
+              "name": "Fridugisus",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Adalhardus",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Faure",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin",
+              "source": ""
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin",
+              "source": ""
+            }
+          ],
+          "min_date": "0820",
+          "mid_date": "0831",
+          "max_date": "0843",
+          "with_digitalisat": [
+            "http://gallica.bnf.fr/ark:/12148/btv1b8478991d"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_Latin_274_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_Latin_324_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, BnF, Latin 324"
+            },
+            {
+              "id": "Colbert 6535"
+            },
+            {
+              "id": "Regius 4305/3 2"
+            },
+            {
+              "id": "Rand 142"
+            },
+            {
+              "id": "Bischoff 3989"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 324",
+          "date_string": "3. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; Die Handschrift war im Besitz von Colbert, bevor sie an die Bibliothèque royale ging.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/BnF"
+            },
+            {
+              "cert": "low",
+              "place": "nicht Tours",
+              "source": "Köhler"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/BnF"
+            },
+            {
+              "cert": "low",
+              "place": "nicht Tours",
+              "source": "Köhler"
+            }
+          ],
+          "min_date": "0850",
+          "mid_date": "0862",
+          "max_date": "0875",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8492153n"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_Latin_324_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_Latin_9385_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Du Fay Evangeliar"
+            },
+            {
+              "id": "France, Paris, BnF, Latin 9385"
+            },
+            {
+              "id": "Rand 121"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 9385",
+          "date_string": "843-851",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [
+            {
+              "name": "Vivian",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "; ",
+          "autocomplete_person": [
+            {
+              "name": "Vivian",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, St-Martin",
+              "source": ""
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, St-Martin",
+              "source": ""
+            }
+          ],
+          "min_date": "0843",
+          "mid_date": "0847",
+          "max_date": "0851",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8426037h"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_Latin_9385_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_NAL_1587_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Evangeliar von St-Gatien"
+            },
+            {
+              "id": "France, Paris, BnF, NAL 1587"
+            },
+            {
+              "id": "St-Gatien 8"
+            },
+            {
+              "id": "Libri 14"
+            },
+            {
+              "id": "Rand 10"
+            },
+            {
+              "id": "Bischoff 5092"
+            }
+          ],
+          "signature": "Paris, BnF, NAL 1587",
+          "date_string": "Mitte 8. Jhd.; um 800",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [
+            {
+              "name": "Libri",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Ashburnham",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "St-Gatien; Entstanden ist die Handschrift wohl entweder in der Bretagne oder in Irland und gelangte dann vermutlich im 9. Jhd. nach Tours. Im Bibliothekskatalog von 1706 von St-Gatien, 1842 durch Libri gestohlen, 1847 an Lord Ashburnham gelangt. 1888 durch die BnF gekauft.",
+          "autocomplete_person": [
+            {
+              "name": "Libri",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Ashburnham",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Bretagne",
+              "source": "Köhler/Fischer"
+            },
+            {
+              "cert": "medium",
+              "place": "Irland",
+              "source": "Delisle/Chatelain"
+            },
+            {
+              "cert": "medium",
+              "place": "Nordfrankreich",
+              "source": "Zimmermann"
+            },
+            {
+              "cert": "medium",
+              "place": "Wales?",
+              "source": "Katalog"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Bretagne",
+              "source": "Köhler/Fischer"
+            },
+            {
+              "cert": "medium",
+              "place": "Irland",
+              "source": "Delisle/Chatelain"
+            },
+            {
+              "cert": "medium",
+              "place": "Nordfrankreich",
+              "source": "Zimmermann"
+            },
+            {
+              "cert": "medium",
+              "place": "Wales?",
+              "source": "Katalog"
+            }
+          ],
+          "min_date": "0730",
+          "mid_date": "0775",
+          "max_date": "0820",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8423842n\n                           "
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_NAL_1587_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_Bnf_Latin_260_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, BnF, Latin 260"
+            },
+            {
+              "id": "Rand 36"
+            },
+            {
+              "id": "Köhler 4"
+            },
+            {
+              "id": "Bischoff 3974"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 260",
+          "date_string": "8./9. Jhd.; 807?",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [
+            {
+              "name": "Alkuin",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "RAND",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "; Unter Alkuin entstanden, handelt es sich um eine hervorragende turonische Bibel.; Die Handschrift gehörte zunächst Saint-Amand in Südfrankreich und ; gelangt später über Saint-Martial de Limoges nach Paris.; Durch einen Katalogeintrag von Saint-Martial kann die Handschrift auf 807 datiert werden, wobei RAND dies nicht belegen kann.; Nach 1730 gelangte die Handschrift nach Paris.",
+          "autocomplete_person": [
+            {
+              "name": "Alkuin",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "RAND",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, Saint-Martin",
+              "source": ""
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, Saint-Martin",
+              "source": ""
+            }
+          ],
+          "min_date": "0700",
+          "mid_date": "0800",
+          "max_date": "0900",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8426284v"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_Bnf_Latin_260_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Rom_Vat_Vat_Lat_43_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Italien, Vatikan, Vatlib, Vat. Lat. 43"
+            },
+            {
+              "id": "Rand 144"
+            },
+            {
+              "id": "Bischoff 6820"
+            }
+          ],
+          "signature": "Rom, Vat., Vat. Lat. 43",
+          "date_string": "2. Drittel 9. Jhd.",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [],
+          "provenance": "",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "low",
+              "place": "\"Offenbar aus Tours\"",
+              "source": "Traube/Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Westfrankreich",
+              "source": "Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": true,
+          "orig_place": [
+            {
+              "cert": "low",
+              "place": "\"Offenbar aus Tours\"",
+              "source": "Traube/Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Westfrankreich",
+              "source": "Bischoff"
+            }
+          ],
+          "min_date": "0833",
+          "mid_date": "0849",
+          "max_date": "0866",
+          "with_digitalisat": [
+            "https://digi.vatlib.it/view/MSS_Vat.lat.43"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Rom_Vat_Vat_Lat_43_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Russia, Sankt Petersburg, Russische Nationalbibliothek, Q. v. I. 21"
+            },
+            {
+              "id": "Rand 102"
+            },
+            {
+              "id": "Köhler 36"
+            },
+            {
+              "id": "Bischoff 2319"
+            }
+          ],
+          "signature": "Sankt Petersburg, Russische Nationalbibliothek, Q. v. I. 21",
+          "date_string": "ca. 834-843",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [],
+          "provenance": "; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "MarmoutierTours",
+              "source": "Fischer/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Rand/Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "MarmoutierTours",
+              "source": "Fischer/Bischoff"
+            }
+          ],
+          "min_date": "0830",
+          "mid_date": "0837",
+          "max_date": "0845"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Stuttgart_WLB_II_40_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Deutschland, Stuttgart, WLB, HB II 40"
+            },
+            {
+              "id": "Rand 103"
+            },
+            {
+              "id": "Köhler 18"
+            },
+            {
+              "id": "Bischoff 6068"
+            }
+          ],
+          "signature": "Stuttgart, WLB, HB II 40",
+          "date_string": "um 830, unter Fridigisus",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [
+            {
+              "name": "Adalbaldus",
+              "role": "Schreiber",
+              "identifier": null
+            },
+            {
+              "name": "Fridigisus",
+              "role": "abt",
+              "identifier": null
+            },
+            {
+              "name": "Fridigisus",
+              "role": "abt",
+              "identifier": null
+            }
+          ],
+          "provenance": "Weingarten; Die Handschrift war schon um 1200 in Weingarten, wie das Exlibris belegt. Vielleicht wurde sie \"von den ersten Mönchen aus Altomünster mitgebracht oder [war] ein Geschenk Judiths von Flandern",
+          "autocomplete_person": [
+            {
+              "name": "Adalbaldus",
+              "role": "Schreiber",
+              "identifier": null
+            },
+            {
+              "name": "Fridigisus",
+              "role": "abt",
+              "identifier": null
+            },
+            {
+              "name": "Fridigisus",
+              "role": "abt",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin, Tours",
+              "source": "Rand/Köhler/McKitterick/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": true,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "St-Martin, Tours",
+              "source": "Rand/Köhler/McKitterick/Bischoff"
+            }
+          ],
+          "min_date": "0807",
+          "mid_date": "0820",
+          "max_date": "0834",
+          "with_digitalisat": [
+            "http://digital.wlb-stuttgart.de/purl/bsz353342416"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Stuttgart_WLB_II_40_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Tours_BM_123_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Tours, BM, 123"
+            },
+            {
+              "id": "St-Martin 80"
+            }
+          ],
+          "signature": "Tours, BM, 123",
+          "date_string": "13. Jhd.",
+          "ms_item": [
+            "Evangelium secundum Marcum mit Glossen"
+          ],
+          "person": [],
+          "provenance": "St-Martin; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "St-Martin (?)",
+              "source": ""
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelium secundum Marcum mit Glossen"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": true,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "St-Martin (?)",
+              "source": ""
+            }
+          ],
+          "min_date": "1200",
+          "mid_date": "1250",
+          "max_date": "1300"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelium</strong><small> secundum Marcum mit Glossen"
+          ]
+        },
+        "sort": [
+          "Tours_BM_123_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Tours_BM_22_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Tours, BM, 22"
+            },
+            {
+              "id": "St-Martin 247"
+            },
+            {
+              "id": "Mostert 1299"
+            },
+            {
+              "id": "Rand 23"
+            },
+            {
+              "id": "Bischoff 6120"
+            }
+          ],
+          "signature": "Tours, BM, 22",
+          "date_string": "8. Jhd.; vor Alkuin; um 800; nach 814?; 2. Viertel 9. Jhd. (\"nicht so früh, wie man bisher annahm\").",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "St-Martin; Sicher ist, dass von 1137 bis 1650 die französischen Könige ihren Eid bei der Übernahme als Äbte und Kanoniker von St-Martin auf diesem Buch geschworen haben, so dass die Handschrift mindestens seit dieser Zeit in St-Martin gewesen sein muss.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "St-Martin",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Fleury?",
+              "source": "Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "nicht Tours",
+              "source": "Fischer"
+            },
+            {
+              "cert": "medium",
+              "place": "nicht Fleury",
+              "source": "Mostert"
+            },
+            {
+              "cert": "medium",
+              "place": "Frankreich",
+              "source": "Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": true,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "St-Martin",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Fleury?",
+              "source": "Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "nicht Tours",
+              "source": "Fischer"
+            },
+            {
+              "cert": "medium",
+              "place": "nicht Fleury",
+              "source": "Mostert"
+            },
+            {
+              "cert": "medium",
+              "place": "Frankreich",
+              "source": "Bischoff"
+            }
+          ],
+          "min_date": "0700",
+          "mid_date": "0775",
+          "max_date": "0850",
+          "with_digitalisat": [
+            "https://bvmm.irht.cnrs.fr/iiif/32057/canvas/canvas-2807636/view"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Tours_BM_22_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Tours_BM_23_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Tours, BM, 23"
+            },
+            {
+              "id": "St-Martin 147"
+            },
+            {
+              "id": "Rand 149"
+            },
+            {
+              "id": "Bischoff 6121"
+            }
+          ],
+          "signature": "Tours, BM, 23",
+          "date_string": "3. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [],
+          "provenance": "St-Martin; Die Handschrift entstand wohl in der frankosächsischen Schule und gelangt noch in der zweiten Hälfte des 9. Jhd. nach St-Martin, wohl nach der Zerstörung der Abtei durch die Normannen 853.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "franko-sächsisch",
+              "source": "Bischoff"
+            },
+            {
+              "cert": "medium",
+              "place": "eher martinisch als touronisch",
+              "source": "Rand"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "franko-sächsisch",
+              "source": "Bischoff"
+            },
+            {
+              "cert": "medium",
+              "place": "eher martinisch als touronisch",
+              "source": "Rand"
+            }
+          ],
+          "min_date": "0850",
+          "mid_date": "0862",
+          "max_date": "0875",
+          "with_digitalisat": [
+            "https://bvmm.irht.cnrs.fr/iiif/25690/canvas/canvas-2673680/view"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Tours_BM_23_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Tours_BM_25_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Tours, BM, 25"
+            },
+            {
+              "id": "Marmoutier 231"
+            }
+          ],
+          "signature": "Tours, BM, 25",
+          "date_string": "Ende 12. Jhd.",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [],
+          "provenance": "Marmoutier; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Wordsworth"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": true,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Wordsworth"
+            }
+          ],
+          "min_date": "1180",
+          "mid_date": "1190",
+          "max_date": "1200"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Tours_BM_25_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Tours_BM_289_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Tours, BM, 289"
+            },
+            {
+              "id": "Marmoutier 101"
+            },
+            {
+              "id": "Rand 69"
+            },
+            {
+              "id": "Bischoff 6135"
+            }
+          ],
+          "signature": "Tours, BM, 289",
+          "date_string": "1./2. Viertel 9. Jhd.",
+          "ms_item": [
+            "Augustinus, Tractatus in evangelium Iohannis"
+          ],
+          "person": [],
+          "provenance": "Marmoutier; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Marmoutier",
+              "source": "Rand/Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Augustinus, Tractatus in evangelium Iohannis"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": true,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Marmoutier",
+              "source": "Rand/Köhler"
+            },
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Bischoff"
+            }
+          ],
+          "min_date": "0800",
+          "mid_date": "0825",
+          "max_date": "0850",
+          "with_digitalisat": [
+            "https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/25691/manifest"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "Augustinus, Tractatus in </small><strong>evangelium</strong><small> Iohannis"
+          ]
+        },
+        "sort": [
+          "Tours_BM_289_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Tours_BM_309_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Tours, BM, 309"
+            },
+            {
+              "id": "St-Martin 142"
+            },
+            {
+              "id": "Rand 136"
+            },
+            {
+              "id": "Bischoff 6136"
+            }
+          ],
+          "signature": "Tours, BM, 309",
+          "date_string": "3. Viertel 9. Jhd.",
+          "ms_item": [
+            "Gregor der Große, Homeliae in Evangelia"
+          ],
+          "person": [],
+          "provenance": "St-Martin; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Paris, wohl St-Germain-des-Près",
+              "source": "Bischoff"
+            },
+            {
+              "cert": "high",
+              "place": "Tours sehr zweifelhaft",
+              "source": "Köhler"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Gregor der Große, Homeliae in Evangelia"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": true,
+          "orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Paris, wohl St-Germain-des-Près",
+              "source": "Bischoff"
+            },
+            {
+              "cert": "high",
+              "place": "Tours sehr zweifelhaft",
+              "source": "Köhler"
+            }
+          ],
+          "min_date": "0850",
+          "mid_date": "0862",
+          "max_date": "0875"
+        },
+        "highlight": {
+          "ms_item": [
+            "Gregor der Große, Homeliae in </small><strong>Evangelia</strong><small>"
+          ]
+        },
+        "sort": [
+          "Tours_BM_309_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Tours_BM_310_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Tours, BM, 310"
+            },
+            {
+              "id": "St-Gatien 146"
+            },
+            {
+              "id": "Rand 218"
+            }
+          ],
+          "signature": "Tours, BM, 310",
+          "date_string": "Gregor: 11. Jhd.; Bernard: 12. Jhd.",
+          "ms_item": [
+            "Bernard, 3 Predigten",
+            "Gregor, Expositio in Evangelia"
+          ],
+          "person": [],
+          "provenance": "St-Gatien; 2 Handschriften, die vermutlich später zusammengebunden wurden.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Bernard, 3 Predigten",
+            "Gregor, Expositio in Evangelia"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand"
+            }
+          ],
+          "min_date": "1000",
+          "mid_date": "1100",
+          "max_date": "1200"
+        },
+        "highlight": {
+          "ms_item": [
+            "Gregor, Expositio in </small><strong>Evangelia</strong><small>"
+          ]
+        },
+        "sort": [
+          "Tours_BM_310_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Troyes_BM_138_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Troyes, BM, 138"
+            },
+            {
+              "id": "Bischoff 6246"
+            }
+          ],
+          "signature": "Troyes, BM, 138",
+          "date_string": "3. Viertel 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "Saint-Étienne, Troyes; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": " nicht Tours \"jedoch unverkennbar turonische Schulung\"",
+              "source": "Fischer"
+            },
+            {
+              "cert": "medium",
+              "place": "Tours / turonischer Schreiber",
+              "source": "Bischoff"
+            },
+            {
+              "cert": "medium",
+              "place": "Westfrankenreich",
+              "source": "Gameson"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": " nicht Tours \"jedoch unverkennbar turonische Schulung\"",
+              "source": "Fischer"
+            },
+            {
+              "cert": "medium",
+              "place": "Tours / turonischer Schreiber",
+              "source": "Bischoff"
+            },
+            {
+              "cert": "medium",
+              "place": "Westfrankenreich",
+              "source": "Gameson"
+            }
+          ],
+          "min_date": "0875",
+          "mid_date": "0887",
+          "max_date": "0899",
+          "with_digitalisat": [
+            "https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&p=*#recordId=2.2447&srchDb=1,2,5,6,3,7,8,10"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Troyes_BM_138_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Williamstown_Williams_College_Chapin_Library_7_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "USA, Williamstown, Williams College, Chapin Library, 7"
+            },
+            {
+              "id": "Bischoff 7278"
+            }
+          ],
+          "signature": "Williamstown, Williams College, Chapin Library, Ms. 7",
+          "date_string": "7./8. Jhd.",
+          "ms_item": [
+            "Evangelistar"
+          ],
+          "person": [],
+          "provenance": "; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelistar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Bischoff"
+            }
+          ],
+          "min_date": "0700",
+          "mid_date": "0799",
+          "max_date": "0899"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelistar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Williamstown_Williams_College_Chapin_Library_7_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Wolfenbüttel_HAB_Cod_Guelf_16_Aug_2_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Germany, Wolfenbüttel, HAB, Cod. Guelf. 16 Aug 2"
+            },
+            {
+              "id": "Heinemann 2186"
+            },
+            {
+              "id": "Rand 128"
+            },
+            {
+              "id": "Bischoff 7284"
+            }
+          ],
+          "signature": "Wolfenbüttel, HAB, Cod. Guelf. 16 Aug 2",
+          "date_string": "ca. Mitte 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; Die Handschrift wurde um 900 der Abtei Erstein geschenkt, vll . durch deren Gründerin Irmingard. Um 1500 war die Handschrift in Straßburg, bevor sie vor 1611/12 an Herzog August von Braunschweig-Lüneburg ging.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand/Bischoff"
+            }
+          ],
+          "min_date": "0840",
+          "mid_date": "0850",
+          "max_date": "0860",
+          "with_digitalisat": [
+            "http://diglib.hab.de/mss/16-aug-2f/start.htm"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Wolfenbüttel_HAB_Cod_Guelf_16_Aug_2_desc"
+        ]
+      }
+    ]
+  },
+  "aggregations": {
+    "all_docs": {
+      "doc_count": 378,
+      "range": {
+        "buckets": [
+          {
+            "key": "<499",
+            "from": -62104060800000.0,
+            "from_as_string": "0002",
+            "to": -46420214400000.0,
+            "to_as_string": "0499",
+            "doc_count": 1
+          },
+          {
+            "key": "500-599",
+            "from": -46388678400000.0,
+            "from_as_string": "0500",
+            "to": -43264540800000.0,
+            "to_as_string": "0599",
+            "doc_count": 2
+          },
+          {
+            "key": "600-699",
+            "from": -43233004800000.0,
+            "from_as_string": "0600",
+            "to": -40108867200000.0,
+            "to_as_string": "0699",
+            "doc_count": 6
+          },
+          {
+            "key": "700-799",
+            "from": -40077331200000.0,
+            "from_as_string": "0700",
+            "to": -36953193600000.0,
+            "to_as_string": "0799",
+            "doc_count": 34
+          },
+          {
+            "key": "800-899",
+            "from": -36921657600000.0,
+            "from_as_string": "0800",
+            "to": -33797433600000.0,
+            "to_as_string": "0899",
+            "doc_count": 277
+          },
+          {
+            "key": "900-999",
+            "from": -33765897600000.0,
+            "from_as_string": "0900",
+            "to": -30641760000000.0,
+            "to_as_string": "0999",
+            "doc_count": 17
+          },
+          {
+            "key": ">1000",
+            "from": -30610224000000.0,
+            "from_as_string": "1000",
+            "doc_count": 40
+          }
+        ]
+      },
+      "no_date": {
+        "doc_count": 0
+      }
+    },
+    "range": {
+      "buckets": [
+        {
+          "key": "<499",
+          "from": -62104060800000.0,
+          "from_as_string": "0002",
+          "to": -46420214400000.0,
+          "to_as_string": "0499",
+          "doc_count": 0
+        },
+        {
+          "key": "500-599",
+          "from": -46388678400000.0,
+          "from_as_string": "0500",
+          "to": -43264540800000.0,
+          "to_as_string": "0599",
+          "doc_count": 0
+        },
+        {
+          "key": "600-699",
+          "from": -43233004800000.0,
+          "from_as_string": "0600",
+          "to": -40108867200000.0,
+          "to_as_string": "0699",
+          "doc_count": 0
+        },
+        {
+          "key": "700-799",
+          "from": -40077331200000.0,
+          "from_as_string": "0700",
+          "to": -36953193600000.0,
+          "to_as_string": "0799",
+          "doc_count": 7
+        },
+        {
+          "key": "800-899",
+          "from": -36921657600000.0,
+          "from_as_string": "0800",
+          "to": -33797433600000.0,
+          "to_as_string": "0899",
+          "doc_count": 35
+        },
+        {
+          "key": "900-999",
+          "from": -33765897600000.0,
+          "from_as_string": "0900",
+          "to": -30641760000000.0,
+          "to_as_string": "0999",
+          "doc_count": 0
+        },
+        {
+          "key": ">1000",
+          "from": -30610224000000.0,
+          "from_as_string": "1000",
+          "doc_count": 3
+        }
+      ]
+    },
+    "no_date": {
+      "doc_count": 0
+    }
+  }
+}

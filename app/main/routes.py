@@ -62,10 +62,9 @@ def handschriften():
 def handschrift(manuscript: str):
     metadata = dict()
     xml = etree.parse(os.path.join(current_app.config['XML_LOCATION'], manuscript))
-    try:
+    metadata['pdf'] = None
+    if os.path.isfile(os.path.join(current_app.config['PDF_LOCATION'], manuscript.replace('.xml', '.pdf'))):
         metadata['pdf'] = url_for('static', filename='pdfs/{}'.format(manuscript.replace('.xml', '.pdf')))
-    except:
-        metadata['pdf'] = None
     metadata['old_sigs'] = list()
     for alt_id in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier',
                             namespaces=current_app.namespaces):
@@ -214,7 +213,6 @@ def handschrift(manuscript: str):
                 for note_para in note.xpath('./tei:p', namespaces=current_app.namespaces):
                     ink_type = ''.join(note_para.xpath('.//text()'))
                     ink_type_url = url_for('static', filename='images/tinte/{}.jpg'.format(ink_type.lower().replace(' ', '')))
-                    print(ink_type_url)
                     if os.path.isfile(current_app.root_path + ink_type_url):
                         ink_type = '<a href="{}" target="_blank">{}</a>'.format(ink_type_url, ink_type)
                     for i_l in note_para.xpath('./tei:locus/@n', namespaces=current_app.namespaces):
@@ -383,7 +381,7 @@ def handschrift(manuscript: str):
     for deco in xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote',
                           namespaces=current_app.namespaces):
         deco_type = deco_types.get(deco.get('type'), 'Allgemeine Miniaturen')
-        source = deco.get('source')
+        source = deco.get('source', '')
         if deco.get('ana') == 'pigments':
             pigment_info = {'type': '', 'loc': '', 'folien': ''}
             for pigment_para in deco.xpath('./tei:p', namespaces=current_app.namespaces):
@@ -423,10 +421,6 @@ def handschrift(manuscript: str):
         else:
             locus = []
             deco_text = ''.join(insert_style_spans(deco)).rstrip()
-            if not source:
-                for p_tag in deco.xpath('./tei:p/@source', namespaces=current_app.namespaces):
-                    if p_tag:
-                        source = p_tag
             for l in deco.xpath('tei:locus', namespaces=current_app.namespaces):
                 if l.get('n'):
                     locus.append(l.get('n'))
