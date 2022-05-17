@@ -37,7 +37,7 @@ def r_results():
     source = request.args.get('source', None)
     # This means that someone simply navigated to the /results page without any search parameters
     if not source:
-        return redirect(url_for('InstanceNemo.r_index'))
+        return redirect(url_for('main.index'))
     posts_per_page = 10000
     page = 1
     search_args = dict(simple_q=request.args.get('simple_q'),
@@ -51,12 +51,6 @@ def r_results():
                        person_role=request.args.get('person_role', '').split('+'),
                        person_identifier=request.args.get('person_identifier'),
                        provenance=request.args.get('provenance'),
-                       autocomplete_ms_item=request.args.get('autocomplete_ms_item'),
-                       autocomplete_person=request.args.get('autocomplete_person'),
-                       autocomplete_orig_place=request.args.get('autocomplete_orig_place'),
-                       autocomplete_orig_place_cert=request.args.get('autocomplete_orig_place_cert', '').split('+'),
-                       autocomplete_person_role=request.args.get('autocomplete_person_role', '').split('+'),
-                       autocomplete_person_identifier=request.args.get('autocomplete_person_identifier'),
                        with_digitalisat=request.args.get('with_digitalisat'),
                        with_scribe=request.args.get('with_scribe'),
                        with_illuminations=request.args.get('with_illuminations'),

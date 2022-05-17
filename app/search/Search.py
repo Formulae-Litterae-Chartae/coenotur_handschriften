@@ -1,12 +1,7 @@
-from flask import current_app, Markup, flash, session, g
-from flask_babel import _
-from string import punctuation
-import re
-from copy import copy
-from typing import Dict, List, Union, Tuple, Set
+from flask import current_app
+from typing import Dict, List, Union, Tuple
 from itertools import product
-from math import floor
-from random import randint
+from fake_es import FakeElasticsearch
 
 
 PRE_TAGS = "</small><strong>"
@@ -52,12 +47,6 @@ def advanced_query_index(simple_q: str = '',
                          person_role: list = None,
                          person_identifier: str = '',
                          provenance: str = '',
-                         autocomplete_ms_item: str = '',
-                         autocomplete_person: str = '',
-                         autocomplete_orig_place: str = '',
-                         autocomplete_orig_place_cert: list = None,
-                         autocomplete_person_role: list = None,
-                         autocomplete_person_identifier: str = '',
                          with_digitalisat: str = '',
                          with_scribe: str = '',
                          with_illuminations: str = '',
@@ -93,27 +82,17 @@ def advanced_query_index(simple_q: str = '',
             body_template['query']['bool']['must'].append({'term': {arg_name: True}})
     fields = {'flat_fields':
                   {'ms_item': ms_item,
-                   'autocomplete_ms_item': autocomplete_ms_item,
                    'provenance': provenance
                    },
               'nested_fields':
                   {'orig_place': {'orig_place.place': orig_place, 'orig_place.cert': orig_place_cert},
-                   'person': {'person.name': person, 'person.role': person_role, 'person.identifier': person_identifier},
-                   'autocomplete_person': {'autocomplete_person.name': autocomplete_person,
-                                           'autocomplete_person.role': autocomplete_person_role,
-                                           'autocomplete_person.identifier': autocomplete_person_identifier},
-                   'autocomplete_orig_place': {'autocomplete_orig_place.place': autocomplete_orig_place,
-                                               'autocomplete_orig_place.cert': autocomplete_orig_place_cert},
-                   'identifier': {'identifier.id': identifier}},
+                   'person': {'person.name': person, 'person.role': person_role, 'person.identifier': person_identifier}},
               'date_fields':
                   {'min_date': orig_year_start,
                    'max_date': orig_year_end},
               'keyword_fields': ['orig_place.cert',
                                  'person.role',
-                                 'person.identifier',
-                                 'autocomplete_person.role',
-                                 'autocomplete_person.identifier',
-                                 'autocomplete_orig_place.cert'],
+                                 'person.identifier'],
               'simple_q_fields':
                   ['identifier.id',
                    'ms_item',
@@ -193,4 +172,24 @@ def advanced_query_index(simple_q: str = '',
         body_template['query']['bool']['must'].append({'bool': {'must': date_clauses}})
 
     search = current_app.elasticsearch.search(index='coenotur', doc_type="", body=body_template)
+
+    if current_app.config["SAVE_REQUESTS"]:
+        req_name = "{q}&{id}&" \
+                   "{o_p}&{o_p_c}&{y_s}&{y_e}&" \
+                   "{ms_i}&{person}&{pers_r}&" \
+                   "{pers_id}&{prov}&{w_dig}&" \
+                   "{w_scr}&{w_ill}&" \
+                   "{w_ex}&{w_tiro}&{w_neu}&{w_ink}&{sort}".format(
+            q=simple_q.replace(' ', '&'), id=identifier, o_p=orig_place, o_p_c='+'.join(orig_place_cert), y_s=orig_year_start,
+            y_e=orig_year_end, ms_i=ms_item, person=person, pers_r='+'.join(person_role), pers_id=person_identifier,
+            prov=provenance, w_dig=with_digitalisat, w_scr=with_scribe, w_ill=with_illuminations, w_ex=with_exlibris,
+            w_tiro=with_tironoten, w_neu=with_neumierung, w_ink=with_ink_analysis, sort=sort)
+        req_name = req_name.replace('/', '-')
+        fake = FakeElasticsearch(req_name, "advanced_search")
+        fake.save_request(body_template)
+        # Remove the textual parts from the results
+        fake.save_ids([{"id": hit['_id']} for hit in search['hits']['hits']])
+        fake.save_response(search)
+        fake.save_aggs(search['aggregations'])
+
     return search['hits']['hits'], search['hits']['total'], search['aggregations']

@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import unittest
+from unittest.mock import patch, mock_open
 from app import create_app, db, mail
 from app.models import User
 from app.auth import forms as auth_forms
@@ -15,12 +16,16 @@ import os
 import sys
 from logging.handlers import SMTPHandler
 from wtforms.validators import ValidationError
+from collections import OrderedDict
+from elasticsearch import Elasticsearch
+from fake_es import FakeElasticsearch
+from copy import copy
 
 
 class TestConfig(Config):
     TESTING = True
     SQLALCHEMY_DATABASE_URI = 'sqlite://'
-    ELASTICSEARCH_URL = None
+    #ELASTICSEARCH_URL = None
     WTF_CSRF_ENABLED = False
     XML_LOCATION = './test_xmls'
 
@@ -568,9 +573,262 @@ class TestRoutes(CoenoturTests):
 
 class TestES(CoenoturTests):
 
+    TEST_ARGS = {'test_simple_search': OrderedDict([('simple_q', 'tours'),
+                                                    ('identifier', ''),
+                                                    ('orig_place', ''),
+                                                    ('orig_place_cert', ''),
+                                                    ('orig_year_start', ''),
+                                                    ('orig_year_end', ''),
+                                                    ('ms_item', ''),
+                                                    ('person', ''),
+                                                    ('person_role', ''),
+                                                    ('person_identifier', ''),
+                                                    ('provenance', ''),
+                                                    ('with_digitalisat', ''),
+                                                    ('with_scribe', ''),
+                                                    ('with_illuminations', ''),
+                                                    ('with_exlibris', ''),
+                                                    ('with_tironoten', ''),
+                                                    ('with_neumierung', ''),
+                                                    ('with_ink_analysis', ''),
+                                                    ('sort', '_id')]),
+                 'test_simple_search_wildcard': OrderedDict([('simple_q', 'evang*'),
+                                                             ('identifier', ''),
+                                                             ('orig_place', ''),
+                                                             ('orig_place_cert', ''),
+                                                             ('orig_year_start', ''),
+                                                             ('orig_year_end', ''),
+                                                             ('ms_item', ''),
+                                                             ('person', ''),
+                                                             ('person_role', ''),
+                                                             ('person_identifier', ''),
+                                                             ('provenance', ''),
+                                                             ('with_digitalisat', ''),
+                                                             ('with_scribe', ''),
+                                                             ('with_illuminations', ''),
+                                                             ('with_exlibris', ''),
+                                                             ('with_tironoten', ''),
+                                                             ('with_neumierung', ''),
+                                                             ('with_ink_analysis', ''),
+                                                             ('sort', '_id')]),
+                 'test_with_bool_true': OrderedDict([('simple_q', 'evang*'),
+                                                     ('identifier', ''),
+                                                     ('orig_place', ''),
+                                                     ('orig_place_cert', ''),
+                                                     ('orig_year_start', ''),
+                                                     ('orig_year_end', ''),
+                                                     ('ms_item', ''),
+                                                     ('person', ''),
+                                                     ('person_role', ''),
+                                                     ('person_identifier', ''),
+                                                     ('provenance', ''),
+                                                     ('with_digitalisat', 'True'),
+                                                     ('with_scribe', 'True'),
+                                                     ('with_illuminations', ''),
+                                                     ('with_exlibris', 'True'),
+                                                     ('with_tironoten', ''),
+                                                     ('with_neumierung', ''),
+                                                     ('with_ink_analysis', ''),
+                                                     ('sort', '_id')]),
+                 'test_flat_field_search': OrderedDict([('simple_q', ''),
+                                                        ('identifier', ''),
+                                                        ('orig_place', ''),
+                                                        ('orig_place_cert', ''),
+                                                        ('orig_year_start', ''),
+                                                        ('orig_year_end', ''),
+                                                        ('ms_item', 'evang*'),
+                                                        ('person', ''),
+                                                        ('person_role', ''),
+                                                        ('person_identifier', ''),
+                                                        ('provenance', 'tours'),
+                                                        ('with_digitalisat', ''),
+                                                        ('with_scribe', ''),
+                                                        ('with_illuminations', ''),
+                                                        ('with_exlibris', ''),
+                                                        ('with_tironoten', ''),
+                                                        ('with_neumierung', ''),
+                                                        ('with_ink_analysis', ''),
+                                                        ('sort', '_id')]),
+                 'test_nested_field_search': OrderedDict([('simple_q', ''),
+                                                        ('identifier', ''),
+                                                        ('orig_place', 'tours'),
+                                                        ('orig_place_cert', 'high'),
+                                                        ('orig_year_start', ''),
+                                                        ('orig_year_end', ''),
+                                                        ('ms_item', ''),
+                                                        ('person', 'adalbald*'),
+                                                        ('person_role', ''),
+                                                        ('person_identifier', 'scribe'),
+                                                        ('provenance', ''),
+                                                        ('with_digitalisat', ''),
+                                                        ('with_scribe', ''),
+                                                        ('with_illuminations', ''),
+                                                        ('with_exlibris', ''),
+                                                        ('with_tironoten', ''),
+                                                        ('with_neumierung', ''),
+                                                        ('with_ink_analysis', ''),
+                                                        ('sort', '_id')]),
+                 'test_year_search': OrderedDict([('simple_q', ''),
+                                                  ('identifier', ''),
+                                                  ('orig_place', ''),
+                                                  ('orig_place_cert', ''),
+                                                  ('orig_year_start', '400'),
+                                                  ('orig_year_end', '450'),
+                                                  ('ms_item', ''),
+                                                  ('person', ''),
+                                                  ('person_role', ''),
+                                                  ('person_identifier', ''),
+                                                  ('provenance', ''),
+                                                  ('with_digitalisat', ''),
+                                                  ('with_scribe', ''),
+                                                  ('with_illuminations', ''),
+                                                  ('with_exlibris', ''),
+                                                  ('with_tironoten', ''),
+                                                  ('with_neumierung', ''),
+                                                  ('with_ink_analysis', ''),
+                                                  ('sort', '_id')])
+                 }
+
     def test_build_sort_list(self):
         """ Ensure that build_sort_list returns the correct values"""
         self.assertEqual(Search.build_sort_list('_id'), '_id')
         self.assertEqual(Search.build_sort_list('date_asc'), [{'mid_date': {'order': 'asc'}}, '_id'])
         self.assertEqual(Search.build_sort_list('date_desc'), [{'mid_date': {'order': 'desc'}}, '_id'])
 
+    def test_return_no_es(self):
+        """ Ensure that when ElasticSearch is not active, calls to the search functions return empty results instead of errors"""
+        self.app.elasticsearch = None
+        test_args = copy(self.TEST_ARGS['test_simple_search'])
+        hits, total, aggs = Search.advanced_query_index(**test_args)
+        self.assertEqual(hits, [], 'Hits should be an empty list.')
+        self.assertEqual(total, 0, 'Total should be 0')
+        self.assertEqual(aggs, {}, 'Aggregations should be an empty dictionary.')
+
+    @patch.object(Elasticsearch, "search")
+    def test_lemma_simple_search(self, mock_search):
+        test_args = copy(self.TEST_ARGS['test_simple_search'])
+        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        body = fake.load_request()
+        resp = fake.load_response()
+        self.search_aggs = fake.load_aggs()
+        ids = fake.load_ids()
+        test_args['orig_place_cert'] = test_args['orig_place_cert'].split('+')
+        test_args['person_role'] = test_args['person_role'].split('+')
+        mock_search.return_value = resp
+        actual, _, _ = Search.advanced_query_index(**test_args)
+        mock_search.assert_any_call(index='coenotur', doc_type="", body=body)
+        self.assertEqual(ids, [{"id": x['_id']} for x in actual])
+
+    @patch.object(Elasticsearch, "search")
+    def test_lemma_simple_search_wildcard(self, mock_search):
+        test_args = copy(self.TEST_ARGS['test_simple_search_wildcard'])
+        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        body = fake.load_request()
+        resp = fake.load_response()
+        self.search_aggs = fake.load_aggs()
+        ids = fake.load_ids()
+        test_args['orig_place_cert'] = test_args['orig_place_cert'].split('+')
+        test_args['person_role'] = test_args['person_role'].split('+')
+        mock_search.return_value = resp
+        actual, _, _ = Search.advanced_query_index(**test_args)
+        mock_search.assert_any_call(index='coenotur', doc_type="", body=body)
+        self.assertEqual(ids, [{"id": x['_id']} for x in actual])
+
+    @patch.object(Elasticsearch, "search")
+    def test_with_bool_true(self, mock_search):
+        test_args = copy(self.TEST_ARGS['test_with_bool_true'])
+        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        body = fake.load_request()
+        resp = fake.load_response()
+        self.search_aggs = fake.load_aggs()
+        ids = fake.load_ids()
+        test_args['orig_place_cert'] = test_args['orig_place_cert'].split('+')
+        test_args['person_role'] = test_args['person_role'].split('+')
+        mock_search.return_value = resp
+        actual, _, _ = Search.advanced_query_index(**test_args)
+        mock_search.assert_any_call(index='coenotur', doc_type="", body=body)
+        self.assertEqual(ids, [{"id": x['_id']} for x in actual])
+
+    @patch.object(Elasticsearch, "search")
+    def test_flat_field_search(self, mock_search):
+        test_args = copy(self.TEST_ARGS['test_flat_field_search'])
+        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        body = fake.load_request()
+        resp = fake.load_response()
+        self.search_aggs = fake.load_aggs()
+        ids = fake.load_ids()
+        test_args['orig_place_cert'] = test_args['orig_place_cert'].split('+')
+        test_args['person_role'] = test_args['person_role'].split('+')
+        mock_search.return_value = resp
+        actual, _, _ = Search.advanced_query_index(**test_args)
+        mock_search.assert_any_call(index='coenotur', doc_type="", body=body)
+        self.assertEqual(ids, [{"id": x['_id']} for x in actual])
+
+    @patch.object(Elasticsearch, "search")
+    def test_nested_field_search(self, mock_search):
+        test_args = copy(self.TEST_ARGS['test_nested_field_search'])
+        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        body = fake.load_request()
+        resp = fake.load_response()
+        self.search_aggs = fake.load_aggs()
+        ids = fake.load_ids()
+        test_args['orig_place_cert'] = test_args['orig_place_cert'].split('+')
+        test_args['person_role'] = test_args['person_role'].split('+')
+        mock_search.return_value = resp
+        actual, _, _ = Search.advanced_query_index(**test_args)
+        mock_search.assert_any_call(index='coenotur', doc_type="", body=body)
+        self.assertEqual(ids, [{"id": x['_id']} for x in actual])
+
+    @patch.object(Elasticsearch, "search")
+    def test_year_search(self, mock_search):
+        test_args = copy(self.TEST_ARGS['test_year_search'])
+        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        body = fake.load_request()
+        resp = fake.load_response()
+        self.search_aggs = fake.load_aggs()
+        ids = fake.load_ids()
+        test_args['orig_place_cert'] = test_args['orig_place_cert'].split('+')
+        test_args['person_role'] = test_args['person_role'].split('+')
+        mock_search.return_value = resp
+        actual, _, _ = Search.advanced_query_index(**test_args)
+        mock_search.assert_any_call(index='coenotur', doc_type="", body=body)
+        self.assertEqual(ids, [{"id": x['_id']} for x in actual])
+
+    @patch.object(Elasticsearch, "search")
+    def test_save_requests(self, mock_search):
+        self.app.config['SAVE_REQUESTS'] = True
+        test_args = copy(self.TEST_ARGS['test_year_search'])
+        file_name_base = '&'.join(test_args.values())
+        fake = FakeElasticsearch(file_name_base, 'advanced_search')
+        body = fake.load_request()
+        resp = fake.load_response()
+        self.search_aggs = fake.load_aggs()
+        ids = fake.load_ids()
+        mock_search.return_value = resp
+        test_args['orig_place_cert'] = test_args['orig_place_cert'].split('+')
+        test_args['person_role'] = test_args['person_role'].split('+')
+        with patch('builtins.open', new_callable=mock_open()) as m:
+            with patch('json.dump') as mock_dump:
+                actual, _, _ = Search.advanced_query_index(**test_args)
+                mock_dump.assert_any_call(resp, m.return_value.__enter__.return_value, indent=2, ensure_ascii=False)
+                mock_dump.assert_any_call(body, m.return_value.__enter__.return_value, indent=2, ensure_ascii=False)
+                mock_dump.assert_any_call(ids, m.return_value.__enter__.return_value, indent=2, ensure_ascii=False)
+
+
+def rebuild_search_mock_files(url_base="http://127.0.0.1:5000"):
+    """Automatically rebuilds the mock files for the ElasticSearch tests.
+    This requires that a local version of the app is running at url_base and that the config variable
+    SAVE_REQUESTS is set to True.
+
+    :param url_base: The base url at which the app is currently running.
+    """
+    import requests
+    test_args = TestES.TEST_ARGS.items()
+    for k, v in test_args:
+        url_ext = []
+        for x, y in v.items():
+            url_ext.append('{}={}'.format(x, y))
+        url = '{}/search/results?{}&source=advanced'.format(url_base, '&'.join(url_ext))
+        r = requests.get(url)
+        if r.status_code != 200:
+            print(url + ' did not succeed. Status code: ' + str(r.status_code))

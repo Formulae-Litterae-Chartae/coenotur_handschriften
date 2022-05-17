@@ -1,0 +1,371 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "London_BL_Egerton_609_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Great Britain, London, BL, Egerton 609"
+            },
+            {
+              "id": "Rand 140"
+            },
+            {
+              "id": "Bischoff 2433"
+            }
+          ],
+          "signature": "London, BL, Egerton 609",
+          "date_string": "1. Hälfte 9. Jhd.; 3. Viertel 9. Jhd.; 3. Drittel 9. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "Tours, St-Martin, 15. Jhd; Marmoutier, 18. Jhd.; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours, \"Franco-Saxon Style\"; \"Either a present from some other monastery or the work of an Irishman experimenting at Tours\"",
+              "source": "Rand"
+            },
+            {
+              "cert": "high",
+              "place": "nicht Tours \"In Text, Schrift und Ausstattung ohne Beziehung zu Tours\"",
+              "source": "Köhler"
+            },
+            {
+              "cert": "high",
+              "place": "Bretagne",
+              "source": "Fischer/Bischoff"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours, \"Franco-Saxon Style\"; \"Either a present from some other monastery or the work of an Irishman experimenting at Tours\"",
+              "source": "Rand"
+            },
+            {
+              "cert": "high",
+              "place": "nicht Tours \"In Text, Schrift und Ausstattung ohne Beziehung zu Tours\"",
+              "source": "Köhler"
+            },
+            {
+              "cert": "high",
+              "place": "Bretagne",
+              "source": "Fischer/Bischoff"
+            }
+          ],
+          "min_date": "0800",
+          "mid_date": "0849",
+          "max_date": "0899",
+          "with_digitalisat": [
+            "http://www.bl.uk/manuscripts/Viewer.aspx?ref=egerton_ms_609_fs001r"
+          ]
+        },
+        "highlight": {
+          "provenance": [
+            "</small><strong>Tours</strong><small>, St-Martin, 15. Jhd; Marmoutier, 18. Jhd.;"
+          ],
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "London_BL_Egerton_609_desc"
+        ]
+      },
+      {
+        "_index": "coenotur_v59",
+        "_type": "_doc",
+        "_id": "Paris_BnF_NAL_1587_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Evangeliar von St-Gatien"
+            },
+            {
+              "id": "France, Paris, BnF, NAL 1587"
+            },
+            {
+              "id": "St-Gatien 8"
+            },
+            {
+              "id": "Libri 14"
+            },
+            {
+              "id": "Rand 10"
+            },
+            {
+              "id": "Bischoff 5092"
+            }
+          ],
+          "signature": "Paris, BnF, NAL 1587",
+          "date_string": "Mitte 8. Jhd.; um 800",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [
+            {
+              "name": "Libri",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Ashburnham",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "St-Gatien; Entstanden ist die Handschrift wohl entweder in der Bretagne oder in Irland und gelangte dann vermutlich im 9. Jhd. nach Tours. Im Bibliothekskatalog von 1706 von St-Gatien, 1842 durch Libri gestohlen, 1847 an Lord Ashburnham gelangt. 1888 durch die BnF gekauft.",
+          "autocomplete_person": [
+            {
+              "name": "Libri",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "Ashburnham",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Bretagne",
+              "source": "Köhler/Fischer"
+            },
+            {
+              "cert": "medium",
+              "place": "Irland",
+              "source": "Delisle/Chatelain"
+            },
+            {
+              "cert": "medium",
+              "place": "Nordfrankreich",
+              "source": "Zimmermann"
+            },
+            {
+              "cert": "medium",
+              "place": "Wales?",
+              "source": "Katalog"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "low",
+              "place": "Tours",
+              "source": "Rand"
+            },
+            {
+              "cert": "medium",
+              "place": "Bretagne",
+              "source": "Köhler/Fischer"
+            },
+            {
+              "cert": "medium",
+              "place": "Irland",
+              "source": "Delisle/Chatelain"
+            },
+            {
+              "cert": "medium",
+              "place": "Nordfrankreich",
+              "source": "Zimmermann"
+            },
+            {
+              "cert": "medium",
+              "place": "Wales?",
+              "source": "Katalog"
+            }
+          ],
+          "min_date": "0730",
+          "mid_date": "0775",
+          "max_date": "0820",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8423842n\n                           "
+          ]
+        },
+        "highlight": {
+          "provenance": [
+            "Jhd. nach </small><strong>Tours</strong><small>."
+          ],
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris_BnF_NAL_1587_desc"
+        ]
+      }
+    ]
+  },
+  "aggregations": {
+    "all_docs": {
+      "doc_count": 378,
+      "range": {
+        "buckets": [
+          {
+            "key": "<499",
+            "from": -62104060800000.0,
+            "from_as_string": "0002",
+            "to": -46420214400000.0,
+            "to_as_string": "0499",
+            "doc_count": 1
+          },
+          {
+            "key": "500-599",
+            "from": -46388678400000.0,
+            "from_as_string": "0500",
+            "to": -43264540800000.0,
+            "to_as_string": "0599",
+            "doc_count": 2
+          },
+          {
+            "key": "600-699",
+            "from": -43233004800000.0,
+            "from_as_string": "0600",
+            "to": -40108867200000.0,
+            "to_as_string": "0699",
+            "doc_count": 6
+          },
+          {
+            "key": "700-799",
+            "from": -40077331200000.0,
+            "from_as_string": "0700",
+            "to": -36953193600000.0,
+            "to_as_string": "0799",
+            "doc_count": 34
+          },
+          {
+            "key": "800-899",
+            "from": -36921657600000.0,
+            "from_as_string": "0800",
+            "to": -33797433600000.0,
+            "to_as_string": "0899",
+            "doc_count": 277
+          },
+          {
+            "key": "900-999",
+            "from": -33765897600000.0,
+            "from_as_string": "0900",
+            "to": -30641760000000.0,
+            "to_as_string": "0999",
+            "doc_count": 17
+          },
+          {
+            "key": ">1000",
+            "from": -30610224000000.0,
+            "from_as_string": "1000",
+            "doc_count": 40
+          }
+        ]
+      },
+      "no_date": {
+        "doc_count": 0
+      }
+    },
+    "range": {
+      "buckets": [
+        {
+          "key": "<499",
+          "from": -62104060800000.0,
+          "from_as_string": "0002",
+          "to": -46420214400000.0,
+          "to_as_string": "0499",
+          "doc_count": 0
+        },
+        {
+          "key": "500-599",
+          "from": -46388678400000.0,
+          "from_as_string": "0500",
+          "to": -43264540800000.0,
+          "to_as_string": "0599",
+          "doc_count": 0
+        },
+        {
+          "key": "600-699",
+          "from": -43233004800000.0,
+          "from_as_string": "0600",
+          "to": -40108867200000.0,
+          "to_as_string": "0699",
+          "doc_count": 0
+        },
+        {
+          "key": "700-799",
+          "from": -40077331200000.0,
+          "from_as_string": "0700",
+          "to": -36953193600000.0,
+          "to_as_string": "0799",
+          "doc_count": 1
+        },
+        {
+          "key": "800-899",
+          "from": -36921657600000.0,
+          "from_as_string": "0800",
+          "to": -33797433600000.0,
+          "to_as_string": "0899",
+          "doc_count": 1
+        },
+        {
+          "key": "900-999",
+          "from": -33765897600000.0,
+          "from_as_string": "0900",
+          "to": -30641760000000.0,
+          "to_as_string": "0999",
+          "doc_count": 0
+        },
+        {
+          "key": ">1000",
+          "from": -30610224000000.0,
+          "from_as_string": "1000",
+          "doc_count": 0
+        }
+      ]
+    },
+    "no_date": {
+      "doc_count": 0
+    }
+  }
+}
