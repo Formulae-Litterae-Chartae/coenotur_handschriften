@@ -117,7 +117,7 @@ class TestXmlLoad(CoenoturTests):
         self._ctx.push()
         self.templates = []
         self.flashed_messages = []
-        #os.environ.update({'CI': 'True'})
+        os.environ.update({'CI': 'True'})
         template_rendered.connect(self._add_template)
         message_flashed.connect(self._add_flash_message)
         db.create_all()
