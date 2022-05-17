@@ -8,6 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
+            <notesStmt><note n="ink"></note></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -28,6 +29,326 @@
                         <msItem class="Bibel">
                             <title>Bibel</title>
                             <textLang mainLang="la"></textLang>
+                        <msItem n="1.1">
+                            <locus from="1r" to="1v"/>
+                            <title>Praefatio Hieronimi</title>
+                        </msItem>
+                        <msItem n="1.2">
+                            <locus n="1v"/>
+                            <title>Capitula</title>
+                        </msItem>
+                        <msItem n="1.3">
+                            <locus from="2r" to="20r"/>
+                            <title>Genesis</title>
+                        </msItem>
+                        <msItem n="1.4">
+                            <locus from="20r" to="21r"/>
+                            <title>Capitula Exodus</title>
+                        </msItem>
+                        <msItem n="1.5">
+                            <locus from="21r" to="35r"/>
+                            <title>Liber Exodus</title>
+                        </msItem>
+                        <msItem n="1.6">
+                            <locus from="35r" to="35v"/>
+                            <title>Capitula Levitici</title>
+                        </msItem>
+                        <msItem n="1.7">
+                            <locus from="35v" to="46r"/>
+                            <title>Liber Levitici</title>
+                        </msItem>
+                        <msItem n="1.8">
+                            <locus from="46r" to="47r"/>
+                            <title>Capitula Numeri</title>
+                        </msItem>
+                        <msItem n="1.9">
+                            <locus from="47r" to="61r"/>
+                            <title>Liber Numeri</title>
+                        </msItem>
+                        <msItem n="1.10">
+                            <locus from="61v" to="62r"/>
+                            <title>Capitula Deuteronomii</title>
+                        </msItem>
+                        <msItem n="1.11">
+                            <locus from="62v" to="74v"/>
+                            <title>Liber Deuteronomii</title>
+                        </msItem>
+                        <msItem n="1.12">
+                            <locus from="75r" to="83v"/>
+                            <title>Liber Josua</title>
+                        </msItem>
+                        <msItem n="1.13">
+                            <locus from="83r" to="90v"/>
+                            <title>Liber Iudicum</title>
+                        </msItem>
+                        <msItem n="1.14">
+                            <locus from="91r" to="91v"/>
+                            <title>Liber Ruth</title>
+                        </msItem>
+                        <msItem n="1.15">
+                            <locus from="92r" to="92v"/>
+                            <title>Praefatio Hieronymi in librum regum</title>
+                        </msItem>
+                        <msItem n="1.16">
+                            <locus from="92v" to="93v"/>
+                            <title>Capitula</title>
+                        </msItem>
+                        <msItem n="1.17">
+                            <locus from="94r" to="106v"/>
+                            <title>Liber Regum I</title>
+                        </msItem>
+                        <msItem n="1.18">
+                            <locus from="106v" to="115v"/>
+                            <title>Samuel II</title>
+                        </msItem>
+                        <msItem n="1.19">
+                            <locus from="116r" to="130r"/>
+                            <title>Regum III</title>
+                        </msItem>
+                        <msItem n="1.20">
+                            <locus from="130r" to="140v"/>
+                            <title>Regum IV</title>
+                        </msItem>
+                        <msItem n="1.21">
+                            <locus from="141r" to="164v"/>
+                            <title>Paralipominon</title>
+                        </msItem>
+                        <msItem n="1.22">
+                            <locus from="165r" to="167r"/>
+                            <title>Esra I</title>
+                        </msItem>
+                        <msItem n="1.23">
+                            <locus from="167r" to="172v"/>
+                            <title>Esra II</title>
+                        </msItem>
+                        <msItem n="1.24">
+                            <locus from="173r" to="176r"/>
+                            <title>Tobiae</title>
+                        </msItem>
+                        <msItem n="1.25">
+                            <locus from="176r" to="180v"/>
+                            <title>Judith</title>
+                        </msItem>
+                        <msItem n="1.26">
+                            <locus from="181r" to="184v"/>
+                            <title>Ester</title>
+                        </msItem>
+                        <msItem n="1.27">
+                            <locus from="185r" to="194v"/>
+                            <title>Makkabäer I</title>
+                        </msItem>
+                        <msItem n="1.28">
+                            <locus from="194v" to="202v"/>
+                            <title>Makkabäer II</title>
+                        </msItem>
+                        <msItem n="1.29">
+                            <locus from="203r" to="210v"/>
+                            <title>Hiob</title>
+                        </msItem>
+                        <msItem n="1.30">
+                            <locus from="211r" to="226v"/>
+                            <title>Psalmen</title>
+                        </msItem>
+                        <msItem n="1.31">
+                            <locus from="227r" to="235r"/>
+                            <title>Sprüche</title>
+                        </msItem>
+                        <msItem n="1.32">
+                            <locus from="235r" to="238v"/>
+                            <title>Ecclesiastes</title>
+                        </msItem>
+                        <msItem n="1.33">
+                            <locus from="238r" to="239r"/>
+                            <title>Hohelied</title>
+                        </msItem>
+                        <msItem n="1.34">
+                            <locus from="239r" to="244r"/>
+                            <title>Sapientia</title>
+                        </msItem>
+                        <msItem n="1.35">
+                            <locus from="244r" to="260v"/>
+                            <title>Jesu filii sirach / Ecclesiasticum</title>
+                        </msItem>
+                        <msItem n="1.36">
+                            <locus from="261r" to="279r"/>
+                            <title>Jesaja</title>
+                        </msItem>
+                        <msItem n="1.37">
+                            <locus from="279v" to="301r"/>
+                            <title>Jeremias</title>
+                        </msItem>
+                        <msItem n="1.38">
+                            <locus from="301r" to="303r"/>
+                            <title>Klagelieder Jeremias</title>
+                        </msItem>
+                        <msItem n="1.39">
+                            <locus n="303r"/>
+                            <title>Brief des Jeremias</title>
+                        </msItem>
+                        <msItem n="1.40">
+                            <locus from="303r" to="322r"/>
+                            <title>Ezechiel</title>
+                        </msItem>
+                        <msItem n="1.41">
+                            <locus from="322v" to="330v"/>
+                            <title>Daniel</title>
+                        </msItem>
+                        <msItem n="1.42">
+                            <locus from="331r" to="333v"/>
+                            <title>Osee</title>
+                        </msItem>
+                        <msItem n="1.43">
+                            <locus from="333v" to="334v"/>
+                            <title>Iohel</title>
+                        </msItem>
+                        <msItem n="1.44">
+                            <locus from="334v" to="337r"/>
+                            <title>Amos</title>
+                        </msItem>
+                        <msItem n="1.45">
+                            <locus n="337r"/>
+                            <title>Abdias</title>
+                        </msItem>
+                        <msItem n="1.46">
+                            <locus from="337v" to="338r"/>
+                            <title>Jona</title>
+                        </msItem>
+                        <msItem n="1.47">
+                            <locus from="338r" to="339v"/>
+                            <title>Micha</title>
+                        </msItem>
+                        <msItem n="1.48">
+                            <locus from="339v" to="340v"/>
+                            <title>Nahum</title>
+                        </msItem>
+                        <msItem n="1.49">
+                            <locus from="340v" to="341r"/>
+                            <title>Abacuc</title>
+                        </msItem>
+                        <msItem n="1.50">
+                            <locus from="341r" to="342r"/>
+                            <title>Sophonias</title>
+                        </msItem>
+                        <msItem n="1.51">
+                            <locus from="342r" to="342v"/>
+                            <title>Aggeus</title>
+                        </msItem>
+                        <msItem n="1.52">
+                            <locus from="342v" to="345v"/>
+                            <title>Zaccharias</title>
+                        </msItem>
+                        <msItem n="1.53">
+                            <locus from="345r" to="346v"/>
+                            <title>Malachias</title>
+                        </msItem>
+                        <msItem n="1.54">
+                            <locus from="347r" to="350v"/>
+                            <title>Kanontafeln</title>
+                        </msItem>
+                        <msItem n="1.55">
+                            <locus from="351r" to="352r"/>
+                            <title>Capitula in Evangelium Mathei</title>
+                        </msItem>
+                        <msItem n="1.56">
+                            <locus from="352r" to="360r"/>
+                            <title>Evangelium Mattheum</title>
+                        </msItem>
+                        <msItem n="1.57">
+                            <locus n="360r"/>
+                            <title>Prologus Marcum</title>
+                        </msItem>
+                        <msItem n="1.58">
+                            <locus from="360r" to="360v"/>
+                            <title>Capitula Marci</title>
+                        </msItem>
+                        <msItem n="1.59">
+                            <locus from="361r" to="366r"/>
+                            <title>Evangelium Marcum</title>
+                        </msItem>
+                        <msItem n="1.60">
+                            <locus n="366r"/>
+                            <title>Prologus Lucam</title>
+                        </msItem>
+                        <msItem n="1.61">
+                            <locus from="366r" to="367v"/>
+                            <title>Capitula</title>
+                        </msItem>
+                        <msItem n="1.62">
+                            <locus from="367v" to="376r"/>
+                            <title>Evangelium secundum Lucam</title>
+                        </msItem>
+                        <msItem n="1.63">
+                            <locus n="376r"/>
+                            <title>Prolog Iohannem</title>
+                        </msItem>
+                        <msItem n="1.64">
+                            <locus from="376r" to="376v"/>
+                            <title>Capitula Iohannem</title>
+                        </msItem>
+                        <msItem n="1.65">
+                            <locus from="376v" to="382v"/>
+                            <title>Evangelium Iohannem</title>
+                        </msItem>
+                        <msItem n="1.66">
+                            <locus from="383r" to="394r"/>
+                            <title>Acta Apostolorum</title>
+                        </msItem>
+                        <msItem n="1.67">
+                            <locus from="394v" to="400r"/>
+                            <title>Epistulae</title>
+                        </msItem>
+                        <msItem n="1.68">
+                            <locus from="400r" to="405v"/>
+                            <title>Apocalypse</title>
+                        </msItem>
+                        <msItem n="1.69">
+                            <locus from="406r" to="411v"/>
+                            <title>Ep. ad Romanos</title>
+                        </msItem>
+                        <msItem n="1.70">
+                            <locus from="411v" to="420v"/>
+                            <title>Ep. ad Corinthios</title>
+                        </msItem>
+                        <msItem n="1.71">
+                            <locus from="420v" to="422r"/>
+                            <title>Ep. ad Galatas</title>
+                        </msItem>
+                        <msItem n="1.72">
+                            <locus from="422r" to="424r"/>
+                            <title>Ep. ad Ephesios</title>
+                        </msItem>
+                        <msItem n="1.73">
+                            <locus from="424r" to="425r"/>
+                            <title>Ep. ad Philipenses</title>
+                        </msItem>
+                        <msItem n="1.74">
+                            <locus from="425r" to="426r"/>
+                            <title>Ep. ad Colosenses</title>
+                        </msItem>
+                        <msItem n="1.75">
+                            <locus from="426r" to="428r"/>
+                            <title>Ep. ad Thessalonenses</title>
+                        </msItem>
+                        <msItem n="1.76">
+                            <locus from="428r" to="430r"/>
+                            <title>Ep. ad Timotheum</title>
+                        </msItem>
+                        <msItem n="1.77">
+                            <locus from="430r" to="430v"/>
+                            <title>Ep. ad Titum</title>
+                        </msItem>
+                        <msItem n="1.78">
+                            <locus from="430v" to="431r"/>
+                            <title>Ep. ad Philemonem</title>
+                        </msItem>
+                        <msItem n="1.79">
+                            <locus from="431r" to="435r"/>
+                            <title>Ep. ad Hebraeos</title>
+                        </msItem>
+                        <msItem n="1.80">
+                            <locus n="zahlreiche Kolophone"/>
+                            <title></title>
+                        </msItem>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -55,13 +376,40 @@
                             <handNote source="Rand">14 Schreiber</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand" xml:id="Kursive">Karolingische Minuskel</p>
+                            <scriptNote ana="ink" n="Haupttext">
+                                <p><locus n="fol. 3r, fol. 4r, fol. 33r, fol. 43r, fol. 70r, fol. 76r, fol. 88r, fol. 130r, fol. 211v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Haupttext">
+                                   <p><locus n="fol. something"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Zusatz">
+                                <p><locus n="fol. 43r, fol. 409r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Marginalia">
+                                <p><locus n="fol. 3r, fol. 4r, fol. 6r, fol. 13r, fol. 43r, fol. 130r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Korrektur">
+                                <p><locus n="fol. 130r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Überschrift">
+                                <p><locus n="fol. 3r, fol. 33r, fol. 58v, fol. 88r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Andere">
+                                <p><locus n="fol. 347r (Konkordanz)"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote source="Rand" xml:id="Kursive">Karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote ana="pigments" n="Rot">
+                                <p><locus type="Initiale" n="fol. 4r, fol. 211v"/>Zinnober</p>
+                                <p><locus type="Initiale" n="fol. 70r, fol. 76r"/>Minium</p>
+                                <p><locus type="Rubrik" n="fol. 58v, fol. 70r, fol. 76r"/>Minium</p></decoNote>
+                            <decoNote ana="pigments" n="Blau">
+                                <p><locus type="Initiale" n="fol. 211v, fol. 350r"/>____________</p></decoNote>
+                            <decoNote type="initial" source = "Fingernagel"><p>Die Initialen sind in mindestens drei Typengruppen einzuteilen, die möglicherweise drei verschiedenen Zeichnern entsprechen.</p>
+                                <p><locus n="1r, 2r"/>Rahmentypus. Der Buchstabenkörper ist in Kompartimente unterteilt und mit Füllmotiven versehen: Wellenbandranken, zum Teil mit Dreipunktrosetten und nierenförmigen Blättern, Knickbändern und Flechtwerk (Aderbandtypus).</p>
+                                <p><locus n="130r, 211r"/>Buchstabenstamm mit ausgespartem Seilmuster, an den Abläufen Profilblätter.</p>
+                                <p><locus n="211v"/>Mischtypus. Flechtknoten(Aderbandtypus) an den End- und Mittelpunkten, mitunter in Voluten auslaufend.</p></decoNote>
+                            <decoNote type="canon">
+                                <p><locus n="347r-350v" source = "Fingernagel"/>Vierbogige Arkaden von Umfassungsbogen überfangen (Bogentypus). Marmorierte Säulen mit ionisierenden Basen, Blattkapitellen und Deckplatten. Die äußeren Säulen jeweils breiter und mit entsprechend ausladenden Kapitellen</p></decoNote>
+                            <decoNote type="border" >
+                                <p><locus n="211r" source = "Fingernagel"/>Am rechten Blattrand dreifigurige Gruppe als Dreiviertel- bzw. Halbfiguren. Weibliche Figur mit langen Zöpfen und Krone (oder Schapel ?), auf der mit einem Handschuh bekleideten rechten Hand ein Vogel (Falke ?), mit der linken einen Blattzweig empfangend, der von einer tonsurierten Figur (mit Buch vor der Brust) überreicht wird. Von der dritten, zur Gruppe gehörigen (?) Figur nur der tonsurierte bärtige Kopf erkennbar. Feine, qualitätvolle Silberstiftskizze des 12. Jhs (?)</p></decoNote>
                         </decoDesc>
                         <additions>
-                            <p>Gedichte <persName>Aldebalds</persName>für <persName>Wilhelm von Dijon</persName> (10. Jhd.)</p>
+                            <p>Gedichte <persName>Aldebaldus</persName>für <persName>Wilhelm von Dijon</persName> (10. Jhd.)</p>
                             <p>Briefkopie (11. Jhd.)</p>
                             <p source="Martinellus.de" n="tironischen Note"><locus n="58v"/><seg type="lat">hic</seg></p>
                         </additions>
@@ -73,7 +421,8 @@
                         <origin>
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, <orgName>Marmoutier</orgName></origPlace></p>
                             <p><origPlace source="Fingernagel" cert="high"><placeName>Tours</placeName>, <orgName>St-Martin</orgName> oder <orgName>Marmoutier</orgName></origPlace></p>
-                            <p><origDate source="Fingernagel" cert="high" notBefore="0820" notAfter="0840">um 830, wohl unter <persName type="Abt">Fredegisus</persName></origDate></p>
+                            <p><origDate source="Fingernagel" cert="high" notBefore="0820" notAfter="0840">um 830, wohl unter <persName type="Abt">Fridugisus</persName></origDate></p>
+                        <note>Die Datierung von FINGERNAGEL kann als gesichert angesehen werden. Das Schriftbild spricht für eine Entstehung in St-Martin.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Bénigne in Dijon</orgName></provenance>
                         <provenance source="Fingernagel">Verse auf <locus n="435r">435r</locus> aus dem 10. und 11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd. unter <persName type="Abt">Wilhelm von Volpiano</persName> in St-Bénigne war. Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift des Bibliothekskatalog zwischen 1592 und 1682 bestätigt.</provenance>

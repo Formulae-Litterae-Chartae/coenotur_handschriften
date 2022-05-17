@@ -1,0 +1,233 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "bool": {
+            "should": [
+              {
+                "nested": {
+                  "path": "orig_place",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "span_near": {
+                            "clauses": [
+                              {
+                                "span_term": {
+                                  "orig_place.place": "tours"
+                                }
+                              }
+                            ],
+                            "slop": 0,
+                            "in_order": false
+                          }
+                        },
+                        {
+                          "bool": {
+                            "should": [
+                              {
+                                "match": {
+                                  "orig_place.cert": "high"
+                                }
+                              }
+                            ],
+                            "minimum_should_match": 1
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "highlight": {
+                      "fields": {
+                        "orig_place.place": {},
+                        "orig_place.cert": {}
+                      },
+                      "pre_tags": [
+                        "</small><strong>"
+                      ],
+                      "post_tags": [
+                        "</strong><small>"
+                      ],
+                      "encoder": "html"
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "person",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "span_near": {
+                            "clauses": [
+                              {
+                                "span_multi": {
+                                  "match": {
+                                    "wildcard": {
+                                      "person.name": "adalbald*"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "slop": 0,
+                            "in_order": false
+                          }
+                        },
+                        {
+                          "match": {
+                            "person.identifier": "scribe"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "highlight": {
+                      "fields": {
+                        "person.name": {},
+                        "person.role": {},
+                        "person.identifier": {}
+                      },
+                      "pre_tags": [
+                        "</small><strong>"
+                      ],
+                      "post_tags": [
+                        "</strong><small>"
+                      ],
+                      "encoder": "html"
+                    }
+                  }
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "sort": "_id",
+  "size": 10000,
+  "aggs": {
+    "range": {
+      "date_range": {
+        "field": "min_date",
+        "format": "yyyy",
+        "ranges": [
+          {
+            "key": "<499",
+            "from": "0002",
+            "to": "0499"
+          },
+          {
+            "key": "500-599",
+            "from": "0500",
+            "to": "0599"
+          },
+          {
+            "key": "600-699",
+            "from": "0600",
+            "to": "0699"
+          },
+          {
+            "key": "700-799",
+            "from": "0700",
+            "to": "0799"
+          },
+          {
+            "key": "800-899",
+            "from": "0800",
+            "to": "0899"
+          },
+          {
+            "key": "900-999",
+            "from": "0900",
+            "to": "0999"
+          },
+          {
+            "key": ">1000",
+            "from": "1000"
+          }
+        ]
+      }
+    },
+    "no_date": {
+      "missing": {
+        "field": "min_date"
+      }
+    },
+    "all_docs": {
+      "global": {},
+      "aggs": {
+        "range": {
+          "date_range": {
+            "field": "min_date",
+            "format": "yyyy",
+            "ranges": [
+              {
+                "key": "<499",
+                "from": "0002",
+                "to": "0499"
+              },
+              {
+                "key": "500-599",
+                "from": "0500",
+                "to": "0599"
+              },
+              {
+                "key": "600-699",
+                "from": "0600",
+                "to": "0699"
+              },
+              {
+                "key": "700-799",
+                "from": "0700",
+                "to": "0799"
+              },
+              {
+                "key": "800-899",
+                "from": "0800",
+                "to": "0899"
+              },
+              {
+                "key": "900-999",
+                "from": "0900",
+                "to": "0999"
+              },
+              {
+                "key": ">1000",
+                "from": "1000"
+              }
+            ]
+          }
+        },
+        "no_date": {
+          "missing": {
+            "field": "min_date"
+          }
+        }
+      }
+    }
+  },
+  "highlight": {
+    "fields": {
+      "identifier": {},
+      "ms_item": {},
+      "provenance": {},
+      "with_digitalisat": {}
+    },
+    "pre_tags": [
+      "</small><strong>"
+    ],
+    "post_tags": [
+      "</strong><small>"
+    ],
+    "encoder": "html"
+  }
+}

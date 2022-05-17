@@ -28,4 +28,4 @@ class Config(object):
     REMEMBER_COOKIE_SECURE = os.environ.get('REMEMBER_COOKIE_SECURE', True)
     REDIS_URL = os.environ.get('REDIS_URL') or 'redis://'
     XML_LOCATION = os.environ.get('XML_LOCATION') or os.path.abspath('./xmls')
-    PDF_LOCATION = os.environ.get('PDF_LOCATION') or os.path.abspath('./pdfs')
+    PDF_LOCATION = os.environ.get('PDF_LOCATION') or os.path.abspath('./app/static/pdfs')

@@ -1,0 +1,176 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "bool": {
+            "should": [
+              {
+                "span_near": {
+                  "clauses": [
+                    {
+                      "span_multi": {
+                        "match": {
+                          "wildcard": {
+                            "ms_item": "evang*"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "slop": 0,
+                  "in_order": false
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              {
+                "span_near": {
+                  "clauses": [
+                    {
+                      "span_term": {
+                        "provenance": "tours"
+                      }
+                    }
+                  ],
+                  "slop": 0,
+                  "in_order": false
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        },
+        {
+          "bool": {
+            "should": [],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "sort": "_id",
+  "size": 10000,
+  "aggs": {
+    "range": {
+      "date_range": {
+        "field": "min_date",
+        "format": "yyyy",
+        "ranges": [
+          {
+            "key": "<499",
+            "from": "0002",
+            "to": "0499"
+          },
+          {
+            "key": "500-599",
+            "from": "0500",
+            "to": "0599"
+          },
+          {
+            "key": "600-699",
+            "from": "0600",
+            "to": "0699"
+          },
+          {
+            "key": "700-799",
+            "from": "0700",
+            "to": "0799"
+          },
+          {
+            "key": "800-899",
+            "from": "0800",
+            "to": "0899"
+          },
+          {
+            "key": "900-999",
+            "from": "0900",
+            "to": "0999"
+          },
+          {
+            "key": ">1000",
+            "from": "1000"
+          }
+        ]
+      }
+    },
+    "no_date": {
+      "missing": {
+        "field": "min_date"
+      }
+    },
+    "all_docs": {
+      "global": {},
+      "aggs": {
+        "range": {
+          "date_range": {
+            "field": "min_date",
+            "format": "yyyy",
+            "ranges": [
+              {
+                "key": "<499",
+                "from": "0002",
+                "to": "0499"
+              },
+              {
+                "key": "500-599",
+                "from": "0500",
+                "to": "0599"
+              },
+              {
+                "key": "600-699",
+                "from": "0600",
+                "to": "0699"
+              },
+              {
+                "key": "700-799",
+                "from": "0700",
+                "to": "0799"
+              },
+              {
+                "key": "800-899",
+                "from": "0800",
+                "to": "0899"
+              },
+              {
+                "key": "900-999",
+                "from": "0900",
+                "to": "0999"
+              },
+              {
+                "key": ">1000",
+                "from": "1000"
+              }
+            ]
+          }
+        },
+        "no_date": {
+          "missing": {
+            "field": "min_date"
+          }
+        }
+      }
+    }
+  },
+  "highlight": {
+    "fields": {
+      "identifier": {},
+      "ms_item": {},
+      "provenance": {},
+      "with_digitalisat": {}
+    },
+    "pre_tags": [
+      "</small><strong>"
+    ],
+    "post_tags": [
+      "</strong><small>"
+    ],
+    "encoder": "html"
+  }
+}
