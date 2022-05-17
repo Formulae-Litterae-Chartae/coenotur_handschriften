@@ -67,21 +67,22 @@
                      <scriptNote source="Berger">Vollständig in goldener Unziale; irischer
                         Stil</scriptNote>
                      <scriptNote source="Rand">Nicht von einem Iren</scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 5r, fol. 30r, fol. 144r, fol. 147r"/>Gold + Kupfer</p></scriptNote>
+                     <scriptNote ana="ink" n="Incipit-Explicit">
+                        <p><locus n="fol. 142r"/>Gold + Kupfer</p></scriptNote>
+                     <scriptNote ana="ink" n="Kolumnentitel">
+                        <p><locus n="fol. 142r"/>Gold + Kupfer</p></scriptNote>
                      <scriptNote ana="ink" n="Marginalia">
                         <p><locus n="fol. 281v"/>vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote ana="pigments" n="Gold">
-                        <p><locus type="Haupttext" n="fol. 5r, fol. 30r, fol. 144r, fol. 147r"/>Gold + Kupfer</p>
-                        <p><locus type="Kanontafeln" n="fol. 8r"/>Gold + Kupfer</p>
-                        <p><locus type="Incipit-Explicit" n="fol. 142r"/>Gold + Kupfer</p>
-                        <p><locus type="Kolumnentitel" n="fol. 142r"/>Gold + Kupfer</p>
-                     </decoNote>
+                        <p><locus type="Kanontafeln" n="fol. 8r"/>Gold + Kupfer</p></decoNote>
                      <decoNote ana="pigments" n="Rot">
                         <p><locus type="Kanontafeln" n="fol. 8r"/>Zinnober</p>
                         <p><locus type="Kolumnentitel" n="Kolumnentitel fol. 142r"/>Zinnober</p>
-                        <p><locus type="Incipit-Explicit" n="fol. 281v "/>Zinnober</p>
-                     </decoNote>
+                        <p><locus type="Incipit-Explicit" n="fol. 281v "/>Zinnober</p></decoNote>
                      <decoNote type="initial">
                         <p><locus n="17r"/>Verschönerte Initiale in Rot und Gold</p>
                         <p><locus n="95r"/>Verschönerte Initiale in Rot und Gold</p>
