@@ -60,11 +60,25 @@
                             <handNote source="Rand">Der Teil von Landemarus ist die Arbeit von zwei Schreibern</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand">Verbesserte Kursive</p>
+                            <scriptNote><p source="Rand">Verbesserte Kursive</p></scriptNote>
+                            <scriptNote ana="ink" n="Haupttext">
+                                <p><locus n="fol. 5r, fol. 6r, fol. 15r, fol. 23r, fol. 69r, fol. 225r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Überschrift">
+                                <p><locus n="fol. 225r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Marginalia">
+                                <p><locus n="fol. 1r, fol. 69r"/>Vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 225r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="NT">
+                                <p><locus n="fol. 23r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Schreibersigel">
+                                <p><locus n="fol. 52v, fol. 60v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Andere">
+                                <p><locus n="fol. 1r(Ex Libris)"/>Vitriolische Eisengallustinten</p></scriptNote>
                             </scriptDesc>
                         <decoDesc>
-                            <decoNote>
-                            </decoNote>
+                            <decoNote ana="pigments" n="Rot">
+                                <p><locus type="Incipit-Explicit" n="fol. 32r"/>Minium</p>
+                                <p><locus type="Marginalia" n="fol. 69r"/>Minium</p></decoNote>
                         </decoDesc>
                         <additions>
                             <p>Wenige Benutzungsspuren und Nachträge</p>
