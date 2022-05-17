@@ -58,13 +58,29 @@
                             <handNote source="Rand">Mindestens 5 Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand">Die Schrift erinnert an die Moutier-Grandval-Bibel</p>
+                            <scriptNote><p source="Rand">Die Schrift erinnert an die Moutier-Grandval-Bibel</p></scriptNote>
+                            <scriptNote ana="ink" n="Haupttext">
+                                <p><locus n="fol. 3r, fol. 4r, fol. 6r, fol. 19v, fol. 37r, fol. 138r, fol. 151r, fol. 171r, fol. 184v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                            <scriptNote ana="ink" n="Marginalia">
+                                <p><locus n="fol. 6r, fol. 7r, fol. 19v, fol. 37r, fol. 138r, fol. 151r, fol. 45v, fol. 64v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="NT">
+                                <p><locus n="fol. 3r, fol. 37r"/>Nicht-vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 4r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Anführungszeichen">
+                                <p><locus n="fol. 62v, fol. 184v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Schreibersigel">
+                                <p><locus n="fol. 16v, fol. 64v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Lagenkontrollvermark">
+                                <p><locus n="fol. 16v, fol. 64v, fol. 184v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Zusatz">
+                                <p><locus n="fol. 6r, fol. 62v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Korrektur">
+                                <p><locus n="fol. 3r"/>Vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 4r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
-                                <locus n=""/>
-                                <p></p>
-                            </decoNote>
+                            <decoNote ana="pigments" n="Rot">
+                                <p><locus type="Initiale" n="fol. 19v, fol. 172r, fol. 184v"/>Zinnober</p></decoNote>
                         </decoDesc>
                         <additions>
                             <p n="Korrekturen">Korrekturen durch die Hand von <persName type="scribe">Lupus von Ferrières</persName></p>

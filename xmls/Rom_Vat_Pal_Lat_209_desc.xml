@@ -65,14 +65,20 @@
                             <handNote>2 Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p></p>
+                            <scriptNote ana="ink" n="Haupttext">
+                                <p><locus n="fol. 63v, fol. 89v"/>Vitriolische Eisengallustinten</p></scriptNote>                         
+                            <scriptNote ana="ink" n="Initiale">
+                                <p><locus n="fol. 63v, fol. 120v"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Marginalia">
+                                <p><locus n="fol. 89v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                         </scriptDesc>
                         <musicNotation>
                             <p>Neumen, vielleicht aus <placeName>Tours</placeName> oder aus <orgName>Fleury</orgName>
                             </p>
                         </musicNotation>
                         <decoDesc>
-                            <p></p>
+                            <decoNote ana="pigments" n="Rot">
+                                <p><locus type="Nummer" n="fol. 63v, fol. 120v"/>Minium</p></decoNote>
                         </decoDesc>
                         <additions>
                             <p n="Exlibris"><locus n="46v"></locus><seg type="lat">Ad maius Franckendall inter Spiram et Wormatiam pertinet liber iste</seg></p>

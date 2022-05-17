@@ -52,11 +52,26 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 4v, fol. 7r, fol. 15r, fol. 19v, fol. 25v, fol. 50r, fol. 71v, fol. 92r, fol. 99v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Incipit-Explicit">
+                        <p><locus n="fol. 76r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Konkordanz">
+                        <p><locus n="fol. 4v, fol. 15r, fol. 25v, fol. 71v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Andere">
+                        <p><locus n="fol. 45v (Rahmen)"/>Vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 103r(Maniculae)"/>Vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote><locus n="43v"/>Miniatur von Maria-Magdalena und den heiligen Frauen
                         am Grab </decoNote>
+                     <decoNote ana="pigments" n="Rot">                        
+                        <p><locus type="Initiale" n="fol. 4v, fol. 25v, fol. 45v, fol. 71v, fol. 99v"/>Zinnober</p>
+                        <p><locus type="Title" n="fol. 45v, fol. 92r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Konkordanz" n="fol. 4v, fol. 50r, fol. 71v"/>Zinnober</p></decoNote>
+                     <decoNote ana="pigments" n="Blau">
+                        <p><locus type="Initiale" n="fol. 4v, fol. 25v, fol. 71v, fol. 99v"/></p>
+                        <p><locus type="Title" n="fol. 92r"/></p></decoNote>
                   </decoDesc>
                   <additions>
                      <p/>

@@ -153,14 +153,27 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote>Erste Seite eines jeden Kapitels in turonischer Halbunziale, ansonsten in turonischer Minuskel.</scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 2r, fol. 4r, fol. 6r, fol. 29r, fol. 35r, fol. 57r, fol. 60r, fol. 66r, fol. 90r, fol. 100r, fol. 136r, fol. 138r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Initiale">
+                        <p><locus n="fol. 90r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Incipit-Explicit">
+                        <p><locus n="fol. 38r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Lagenkontrollvermark">
+                        <p><locus n="fol. 17r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 66r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 35r, fol. 38r, fol. 50r, fol. 66r, fol. 128r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Andere">
+                        <p><locus n="fol. 347r (Musiknoten)"/>Vitriolische Eisengallustinten</p></scriptNote>                  
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="miniature">
                         <p source="Kirchner"><locus n="9v"/> Incipit-Seite (196x180 mm, die Seite füllend). Der Titel (Incipit vita sei martini episcopi et confessor), in goldener Kapitalschrift, wird von einem mit goldenen Bändern eingefaßten Rahmenwerk umgeben, dessen Füllung aus vier violetten und vier grünen Akanthusornamentstükken auf schwarzem Grunde besteht. Das violette Ornament ist rot und weiß, das grüne gelb und schwarz gezeichnet. Zwischen je zwei Akanthusornamentstücken ist in der Mitte der Rahmenseiten ein kleines Füllstück mit weiß-rotem Flechtwerk auf schwarzem Grunde eingefügt. An den vier Ecken sauber und regelmäßig komponiertes goldenes Flechtwerk. </p>
                         <p source="Kirchner"><locus n="45v"/> Incipit-Seite (203x184 mm): Incp de transitu sci Martini. In der Art von Bl. 9v. </p>
                         <p source="Kirchner"><locus n="59v"/> Goldenes Incipit unter einer Säulenarkade zum Liber II dialogi Severi de virtutibus S. Martini (200x155 mm): Die rot gesäumten, goldgefaßten Säulenschäfte sind gespalten und innen mit violetten und punktierten schwarzen Streifen geschmückt. Akanthuskapitäle, deren unterer Blattkranz golden, deren oberer lila und rot ist. Der rot gesäumte und golden eingefaßte Bogen ist mit grünem, gelb gestricheltem Blattornament auf schwarzem Grunde dekoriert. Oberhalb des Bogens, gewissermaßen aus ihm heraussprossend, violettes, rotes und goldenes Blattwerk, teilweise mit Trauben. Auf und zwischen den Blättern vier Vögel die nach den Trauben picken. In der Mitte innerhalb des Rundbogens hängt ein goldenes Kreuz mit drei Lampen. </p>
-                        <p source="Kirchner"><locus n="133v"/> Goldenes Incipit unter Säulenarkade zur Vita Sancti Briccii episcopi et confessoris (200x148 mm): Rot konturierte Säulenschäfte, die eine lilagraue Füllung mit weißer Strichelung und eine um den Schaft geschlungene goldene Bandverzierung aufweisen. Goldene Basen; golden eingefaßte Kapitale mit roter, grüner uud gelber Bemalung. Der von zwei goldenen Streifen eingefaßte Bogen ist mit einem aus kleinen Bogenreihen bestehenden grünen Ornament auf schwarzem Grunde geschmückt. Von der Mitte der Arkade, die ein goldenes Blattornament krönt, hängt ein Hifthorn herab.</p>
-                     </decoNote>
+                        <p source="Kirchner"><locus n="133v"/> Goldenes Incipit unter Säulenarkade zur Vita Sancti Briccii episcopi et confessoris (200x148 mm): Rot konturierte Säulenschäfte, die eine lilagraue Füllung mit weißer Strichelung und eine um den Schaft geschlungene goldene Bandverzierung aufweisen. Goldene Basen; golden eingefaßte Kapitale mit roter, grüner uud gelber Bemalung. Der von zwei goldenen Streifen eingefaßte Bogen ist mit einem aus kleinen Bogenreihen bestehenden grünen Ornament auf schwarzem Grunde geschmückt. Von der Mitte der Arkade, die ein goldenes Blattornament krönt, hängt ein Hifthorn herab.</p></decoNote>
                      <decoNote type="initial">
                         <p source="Kirchner"><locus n="2r"/> Rot umsäumte Goldinitiale; der Buchstabenkörper ist im Bogen gespalten und im Spalt mit weißem Flechtwerk auf schwarzem Grunde gefüllt. Im Innern des Bogens rote, violette und grau-grüne Blätter, dazwischen eine rot und dunkelgrau gezeichnete Rosette, die innen mit vier goldenen Akanthusblättern geschmückt ist.</p>
                         <p source="Kirchner"><locus n="4r"/> Rot gezeichnete, im Bogen gespaltene Goldinitiale; der Spalt ist rot und mit schwarzen Punkten verziert. An den Enden der Initiale sind rote rankenartige Schnörkel.</p>
@@ -177,8 +190,13 @@
                         <p source="Kirchner"><locus n="60r"/> Rot geränderte Goldinitiale mit weiß und schwarz punktiertem rotem Spalt und mit Blattwerk innerhalb des Bogens, in Art der Initiale C auf f. 2r.</p>
                         <p source="Kirchner"><locus n="90r"/> Ganz einfache, rot konturierte Goldinitiale mit rotem und schwarzem Streifen in dem gespaltenen Buchstabenkörper.</p>
                         <p source="Kirchner"><locus n="109r"/> Rot konturierte Goldinitiale. Im Vertikalschaft graues Flechtband auf rotem Grunde.</p>
-                        <p source="Kirchner"><locus n="134r"/> Der golden geränderte Buchstabenkörper wird oben, in der Mitte und unten durch goldenes, locker gefügtes Flechtwerk unterbrochen bzw. abgeschlossen, an das goldene, ornamental gebildete Blätter ansehen. Der Schaft ist mit grünem, der untere Ablauf mit violettem Akanthusblattwerk auf schwarzem Grunde gefüllt; gelbe bzw. weiße Lichter.</p>
-                     </decoNote>
+                        <p source="Kirchner"><locus n="134r"/> Der golden geränderte Buchstabenkörper wird oben, in der Mitte und unten durch goldenes, locker gefügtes Flechtwerk unterbrochen bzw. abgeschlossen, an das goldene, ornamental gebildete Blätter ansehen. Der Schaft ist mit grünem, der untere Ablauf mit violettem Akanthusblattwerk auf schwarzem Grunde gefüllt; gelbe bzw. weiße Lichter.</p></decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Incipit-Explicit" n="f. 22r"/>Minium</p>
+                        <p><locus type="Incipit-Explicit" n="f. 50r, f. 100r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Initiale" n="f. 90r"/>Mischung aus Minium und Zinnober</p></decoNote>
+                     <decoNote ana="pigments" n="Gold">
+                        <p><locus type="Initiale" n="f. 50r, f. 90r"/>Gold + Kupfer</p></decoNote>
                   </decoDesc>                  
                   <additions>
                      <p>Nachträglich Einteilung in Lectiones am Rand</p>

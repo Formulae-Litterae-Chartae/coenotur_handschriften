@@ -51,7 +51,20 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote/>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 11v, fol. 25r, fol. 25r, fol. 35v, fol. 47r, fol. 68v, fol. 89r, fol. Ev"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Überschrift">
+                        <p><locus n="fol. 25r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 35v, fol. 47r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 11v"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="NT">
+                        <p><locus n="fol. "/>Vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. "/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Andere">
+                        <p><locus n="fol. 11v (Rahmen)"/>Vitriolische Eisengallustinten</p>                        
+                        <p><locus n="fol. Ev (Index)"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 11v, fol. 35v, fol. 68v (Seitennummerierung)"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote> </decoNote>

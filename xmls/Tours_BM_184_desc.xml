@@ -94,9 +94,29 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">"Perfected, a bit decadent"</scriptNote>
-                  </scriptDesc>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 20v, fol. 43r, fol. 69r, fol. 153v, fol. 160r, fol. 173r, fol. 192r, fol. 194v, fol. 202r, fol. 253r, fol. 296v, fol. 322r, fol. 326r, fol. 328v, fol. 329v"/>Nicht-vitriolische Eisengallustinten</p>                        
+                        <p><locus n="fol. 3v, fol. 149v, fol. 150r"/>Vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Initiale">
+                        <p><locus n="fol. 6v"/>Vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 149v, fol. 328v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                    <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 2r, fol. 4r, fol. 85r, fol. 109r, fol. 149v, fol. 150r, fol. 173r, fol. 192v, fol. 253r, fol. 296v"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 6r, fol. 202r,"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Zusatz">
+                        <p><locus n="fol. 150r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 4r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     </scriptDesc>
                   <decoDesc>
                      <decoNote source="Rand">Schöne Initialen in Gold und Farbe</decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Initiale" n="fol. 20v, fol. 153v, fol. 240v, fol. 296v, fol. 321v, fol. 326v, fol. 327v"/>Minium</p>
+                        <p><locus type="Initiale" n="fol. 329v"/>Zinnober</p>
+                        <p><locus type="Text" n="fol. 109r, fol. 160r, fol. 192r, fol. 322r"/>Minium</p>
+                        <p><locus type="Marginalia" n="fol. 253r"/>Zinnober</p></decoNote>
+                     <decoNote ana="pigments" n="Gold">
+                        <p><locus type="Initiale" n="fol. 5v, fol. 6v"/>Gold + Kupfer</p></decoNote>
                   </decoDesc>
                   <additions>
                     <p></p>

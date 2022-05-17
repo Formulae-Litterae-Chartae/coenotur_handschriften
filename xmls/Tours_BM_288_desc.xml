@@ -59,7 +59,15 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Winandy">Spätere Minuskel mit zahlreichen Kürzungen, darunter die typisch turonischen <seg type="lat">ee</seg>, <seg type="lat">qnm</seg> und <seg type="lat">mscdia</seg>-Kürzung. </scriptNote>
-                  </scriptDesc>
+                  <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 17r, fol. 65r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Initiale">
+                        <p><locus n="fol. "/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Lagenkontrollvermark">
+                        <p><locus n="fol. 64v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="NT">
+                        <p><locus n="fol. 17r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     </scriptDesc>
                   <decoDesc>
                      <decoNote/>
                   </decoDesc>

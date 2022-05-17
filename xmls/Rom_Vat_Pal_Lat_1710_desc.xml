@@ -55,11 +55,15 @@
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 5v, fol. 6v, fol. 11v, fol. 13v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 4r, fol. 5r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 12v"/>Vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                     </decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Initiale" n="fol. 4v, fol. 6v, fol. 13v"/>Minium</p></decoNote>
                   </decoDesc>
                   <additions>
                     <p n="Tironische Noten" source="Hellmann">"Glossenkommentar mit tironesken Verweisungszeichen"</p>

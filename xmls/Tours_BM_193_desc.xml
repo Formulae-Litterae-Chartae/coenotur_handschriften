@@ -76,13 +76,25 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Winandy">Monumentale gothische Minuskel</scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 7v, fol. 60r, fol. 94v, fol. 96r, fol. 126r, fol. 137v, fol. 142r, fol. 142v, fol. 150r, fol. 191r, fol. 192r, fol. 193r, fol. 197r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 11v, fol. 23r, fol. 24v, fol. 166r, fol. 191r"/>Vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Initiale">
+                        <p><locus n="fol. 119v"/>Vitriolische Eisengallustinten</p></scriptNote>                     
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 1v, fol. 7v, fol. 45r, fol. 75v, fol. 186r"/>Vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 23r, fol. 24v, fol. 60r, fol. 96r, fol. 126r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Zusatz">
+                        <p><locus n="fol. 22r, fol. 45r, fol. 94v"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 60r, fol. 197r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Andere">
+                        <p><locus n="fol. 142v (Musiknoten)"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote><p>Es werden nur die prächtigen Figureninitialen aufgelistet.</p></decoNote>
                      <decoNote type="miniature">
                         <p><locus n="69v"/>Christus in Maiestas umgeben von der Symbolen der Evangelisten</p>
-                        <p><locus n="70r"/>Kreuzzigung Christi</p>
-                     </decoNote>
+                        <p><locus n="70r"/>Kreuzzigung Christi</p></decoNote>
                      <decoNote type="figureinitial">
                         <p><locus n="17r"/>Geburt Christi</p>
                         <p><locus n="21v"/>Anbetung durch die drei Weisen</p>
@@ -100,8 +112,22 @@
                         <p><locus n="109r"/>Weihe des Florentius durch Martin</p>
                         <p><locus n="110v"/>Der heilige Michael</p>
                         <p><locus n="115r"/>Die Heiligen im Himmel</p>
-                        <p><locus n="116v"/>Tod des heiligen Martin</p>
-                     </decoNote>
+                        <p><locus n="116v"/>Tod des heiligen Martin</p></decoNote>
+                     <decoNote ana="pigments" n="Schwarz">
+                        <p><locus type="Rahmen" n="fol. 69v"/>Mischtinte</p>
+                        <p><locus type="Miniaturen" n="fol. 69v"/>Mischtinte</p></decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Initiale" n="fol. 22r, fol. 23r, f. 45r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Title" n="fol. 23r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Miniaturen" n="fol. 69v"/>Minium</p>
+                        <p><locus type="Rahmen" n="fol. 119v"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Konkordanz" n="fol. 7v"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Zusatz" n="fol. 60r"/>Zinnober</p>
+                        <p><locus type="Marginalia" n="fol. 60r"/>Zinnober</p>
+                        <p><locus type="Marginalia" n="fol. 126r, fol. 142v"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Notensystem" n="fol. 142v"/>Mischung aus Minium und Zinnober</p></decoNote>
+                     <decoNote ana="pigments" n="Gold">
+                        <p><locus type="Initiale" n="fol. 119v"/>Gold + Eisen</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p>Einzelne Lektionen sind durchgestrichen und durch andere einer späteren Hand ersetz.</p>

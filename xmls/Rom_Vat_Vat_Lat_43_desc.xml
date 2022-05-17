@@ -57,13 +57,19 @@
                             <p></p>
                         </handDesc>
                         <scriptDesc>
-                            <p></p>
+                            <scriptNote ana="ink" n="Haupttext">
+                                <p><locus n="fol. 29v"/>Nicht-vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 295v"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Marginalia">
+                                <p><locus n="fol. 295v (Stiftprobe)"/>Vitriolische Eisengallustinten</p></scriptNote> 
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="Initiale">
                                 <locus n="30v 82r 119r 174v"></locus>Prächtige farbige Initialen in grün, blau gelb/braun und rot</decoNote>
                             <decoNote type="Kanontafel">
                                 <locus></locus>Schöne, farbige Kanontafel in grün und rot/rot-braun</decoNote>
+                            <decoNote ana="pigments" n="Rot">
+                                <p><locus type="Nummer" n="fol. 295v"/>Minium</p></decoNote>
                         </decoDesc>
                         <additions>
                             <p n="Korrekturen"><locus n="91v 94v"></locus>wenig Korrekturen</p>

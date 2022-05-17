@@ -144,7 +144,23 @@
                             <handNote source="Schillmann">Ein Schreiber, der verschiedenen Schriftarten verwendet.</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p source="Rand">Karolingische Minuskel</p>
+                            <scriptNote><p source="Rand">Karolingische Minuskel</p></scriptNote>
+                            <scriptNote ana="ink" n="Haupttext">
+                                <p><locus n="fol. 12r, fol. 70r, fol. 108v, fol. 121r, fol. 224v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Konkordanzen">
+                                <p><locus n="fol. 108v, fol. 165v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Überschrift">
+                                <p><locus n="fol. 50v, fol. 121r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Marginalia">
+                                <p><locus n="fol. 50v, fol. 108v, fol. 121r"/>Vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 224v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Zusatz">
+                                <p><locus n="fol. 70r"/>Vitriolische Eisengallustinten</p>
+                                <p><locus n="fol. 108v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Korrektur">
+                                <p><locus n="fol. 121r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Andere">
+                                <p><locus n="fol. 347r (Musiknoten)"/>Vitriolische Eisengallustinten</p></scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
@@ -154,8 +170,16 @@
                                 <p><locus n="22v"/>Matthäus</p>
                                 <p><locus n="79r"/>Marcus</p>
                                 <p><locus n="116v"/>Lucas</p>
-                                <p><locus n="178v"/>Johannes</p>
-                            </decoNote>
+                                <p><locus n="178v"/>Johannes</p></decoNote>
+                            <decoNote ana="pigments" n="Rot">
+                                <p><locus type="miniature" n="fol. 18r, fol. 79r"/>Minium</p>
+                                <p><locus type="Initiale" n="fol. 80v"/>Minium</p>
+                                <p><locus type="Initiale" n="fol. 108v, fol. 224v"/>Zinnober</p></decoNote>
+                            <decoNote ana="pigments" n="Gold">
+                                <p><locus type="Initiale" n="fol. 18r, fol. 50v, fol. 80v, fol 165v"/>Gold + Kupfer</p>
+                                <p><locus type="Miniaturen" n="fol. 79r"/>Gold + Kupfer + Blei (das Blei würde vielleicht von einer Vorbereitungsschicht mit Bleiweiß kommen.)</p></decoNote>
+                            <decoNote ana="pigments" n="Blau">
+                                <p><locus type="Initiale" n="fol. "/></p></decoNote>
                         </decoDesc>
                         <additions>
                             <p source="Martinellus.de" n="tironischen Note">Imitationen von tironischen Noten</p>
@@ -180,7 +204,7 @@
                         <origin>
                             <p><origPlace source="Schillmann Rand Bischoff" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="high" notBefore="0843" notAfter="0851">843-851 unter <persName type="Abt">Vivian</persName></origDate></p>
-                        <note>Es handelt sich um ein Evangeliar aus St-Martin. Durch die Lebenszeit von Kaiser Lothar, der die Handschrift dem Kloster Prüm schenkte, ist die Entstehung genau zu datieren. Auch kunsthistorisch kann die Entstehung präzise eingeordnet werden, wie es KÖHLER ausführlich tut.</note>
+                        <note>Es handelt sich um ein Evangeliar aus St-Martin. Durch die Lebenszeit von Kaiser Lothar, der die Handschrift dem Kloster Prüm schenkte, ist die Entstehung sehr präzise zu datieren. Auch kunsthistorisch kann die Entstehung sehr präzise eingeordnet werden, wie es KÖHLER ausführlich tut.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Maximin</orgName>, <placeName>Trier</placeName></provenance>
                         <provenance>Ein Eintrag auf fol. 234r belegt, dass die Handschrift dem Kloster Prüm durch Kaiser Lothar I. 852 bei seinem Eintritt in die Abtei übergeben wurde.</provenance>

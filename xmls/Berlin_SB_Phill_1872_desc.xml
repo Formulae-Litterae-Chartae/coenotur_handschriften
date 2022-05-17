@@ -100,13 +100,21 @@
                      <p source="Bischoff">Mehr als eine Hand</p>
                   </handDesc>
                   <scriptDesc>
-                     <p>Turonische Minuskel</p>
-                  </scriptDesc>
+                     <scriptNote><p>Turonische Minuskel</p></scriptNote> 
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 2v, fol. 4r, fol. 5v, fol. 9r, fol. 42r, fol. 73r, fol. 88v, fol. 96r, fol. 452r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 2v, fol. 4r, fol. 31v, fol. 73r, fol. 88v, fol. 96r, fol. 452r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Korrektur">
+                        <p><locus n="fol. 4r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Andere">
+                        <p><locus n="fol. 5v (S)"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <locus n=""/>
-                        <p>Einfache Blumenornamentik</p>
-                     </decoNote>
+                     <decoNote><locus n=""/><p>Einfache Blumenornamentik</p></decoNote>
+                    <decoNote ana="pigments" n="Rot">
+                       <p><locus type="Linie" n="fol. 9r"/>Zinnober</p>
+                       <p><locus type="Text" n="fol. 52r, fol. 88v"/>Zinnober</p></decoNote>                    
                   </decoDesc>
                   <additions>
                      <p source="Rand">Korrekturen, durch die Hand von <persName>Lupus von Ferrières</persName>?</p>
