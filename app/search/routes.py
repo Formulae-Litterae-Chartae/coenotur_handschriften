@@ -77,9 +77,3 @@ def r_advanced_search():
     for k, m in form.errors.items():
         flash(k + ': ' + m[0])
     return render_template('search/advanced_search.html', form=form)
-
-
-@bp.route("/doc", methods=["GET"])
-def r_search_docs():
-    """ Route to the documentation page for the advanced search"""
-    return current_app.config['nemo_app'].render(template="search::documentation.html", url=dict())

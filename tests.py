@@ -254,7 +254,6 @@ class TestForms(CoenoturTests):
         self.assertFalse(form.validate())
 
 
-
 class TestRoutes(CoenoturTests):
 
     def test_file_load_with_fail(self):
@@ -569,6 +568,42 @@ class TestRoutes(CoenoturTests):
             c.get('/auth/reset_password_request', follow_redirects=True)
             self.assertIn('auth/login.html', [x[0].name for x in self.templates])
             self.assertIn(_('Sie sind schon eingeloggt. Sie können Ihr Password hier ändern.'), [x[0] for x in self.flashed_messages])
+
+    @patch("app.search.routes.advanced_query_index")
+    def test_search_results(self, mock_search):
+        """ Make sure that the correct search results are passed to the search results form"""
+        params = dict(simple_q='tours', sort='_id', source='simple')
+        mock_search.return_value = [[], {"value": 0, "relation": "eq"}, {}]
+        with self.client as c:
+            c.post('/auth/login', data=dict(username='project.member', password="some_password"),
+                   follow_redirects=True)
+            response = c.get('/search/simple?simple_q=tours')
+            for p, v in params.items():
+                self.assertRegex(str(response.location), r'{}={}'.format(p, v))
+            c.get('/search/simple?simple_q=tours',
+                  follow_redirects=True)
+            mock_search.assert_called_with(simple_q='tours', identifier=None, orig_place=None, orig_place_cert=[''],
+                                           orig_year_start=None, orig_year_end=None, ms_item=None, person=None,
+                                           person_role=[''], person_identifier=None, provenance=None,
+                                           with_digitalisat=None, with_scribe=None, with_illuminations=None,
+                                           with_exlibris=None, with_tironoten=None, with_neumierung=None,
+                                           with_ink_analysis=None, sort='_id')
+            c.get('/search/simple?simple_q=')
+            self.assertIn(_('Dieses Feld wird benötigt. Die einfache Suche funktioniert nur mit einem Suchwort.'),
+                          [x[0] for x in self.flashed_messages])
+            c.get('/search/results?simple_q=tours', follow_redirects=True)
+            self.assertIn('index.html', [x[0].name for x in self.templates],
+                          'Navigating to results page without "source" should redirect to index.html')
+            c.get('/search/advanced_search?simple_q=&identifier=tours&orig_place=tours&orig_place_cert=&orig_year_start=&orig_year_end=&ms_item=&person=&person_role=&provenance=&with_digitalisat=&with_scribe=True&with_illuminations=&with_exlibris=True&with_tironoten=&with_neumierung=True&with_ink_analysis=&submit=True', follow_redirects=True)
+            mock_search.assert_called_with(simple_q='', identifier='tours', orig_place='tours', orig_place_cert=[''],
+                                           orig_year_start='', orig_year_end='', ms_item='', person='',
+                                           person_role=[''], person_identifier=None, provenance='', with_digitalisat='False',
+                                           with_scribe='True', with_illuminations='False', with_exlibris='True',
+                                           with_tironoten='False', with_neumierung='True', with_ink_analysis='False',
+                                           sort='_id')
+            c.get('/search/advanced_search?simple_q=&identifier=tours&orig_place=tours&orig_place_cert=True&orig_year_start=&orig_year_end=&ms_item=&person=&person_role=&provenance=&with_digitalisat=&with_scribe=True&with_illuminations=&with_exlibris=True&with_tironoten=&with_neumierung=True&with_ink_analysis=&submit=True', follow_redirects=True)
+            self.assertIn(_("orig_place_cert: 'True' ist kein gültige Auswahl für dieses Feld."),
+                          [x[0] for x in self.flashed_messages])
 
 
 class TestES(CoenoturTests):
