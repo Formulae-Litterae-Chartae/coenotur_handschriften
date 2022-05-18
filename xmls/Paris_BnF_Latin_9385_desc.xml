@@ -59,9 +59,18 @@
                      <scriptNote>Vorworte in Halbunziale, Incipits in Capitalis</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p>Bilder vom Maître C</p>
-                     </decoNote>
+                     <decoNote type="miniature">
+                        <p><locus/>Miniaturen durch <persName>Maître C</persName> "le Rémois" (siehe Paris, Bnf, Latin 1 und Latin 266)</p>
+                        <p><locus n="18v"/>Porträts der Evangelisten: Matthäus</p>
+                        <p><locus n="61v"/>Porträts der Evangelisten: Markus</p>
+                        <p><locus n="91v"/>Porträts der Evangelisten: Lukas</p>
+                        <p><locus n="137v"/>Porträts der Evangelisten: Johannes, wo der Adler, das Symbol des heiligen Johannes, eine Schriftrolle und keinen Kodex in seinen Krallen hält</p>
+                        <p><locus n="179v"/>Majestätisches Christusporträt in einer Mandorla, umgeben von den Symbolen der Evangelisten</p></decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="9r-12v"/>Kanontafeln, eingerahmt von Bögen, die von Kolonnaden mit Kapitellen mit buntem Pflanzendekor getragen werden, manchmal mit Vögeln über den Bögen; Gold und oxidiertes Silber.</p></decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="2r, 19r, 62r, 92r und 138r"/>5 große Gold- und Silberinitialen mit Flechtwerk und Pflanzenmotiven</p>
+                        <p><locus n="4v, 5r, 7v, 16r, 59r, 89r, 135r"/>7 mittelgroße Initialen aus oxidiertem Silber und Farbhöhungen</p></decoNote>
                   </decoDesc>
                   <additions/>
                   <bindingDesc>

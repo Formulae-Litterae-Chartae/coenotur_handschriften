@@ -95,13 +95,17 @@
                      <handNote source="Rand Fingernagel">Bis auf f. 13 von einer Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote ana="ink" n="Hauptext">
-                        <p><locus n="fol. 13r, fol. 19r, fol. 65v, fol. 80r, fol. 106r "/>Nicht-vitriolische Eisengallustinten</p>
-                        <p><locus n="fol. f. 223r"/>Vitriolische Eisengallustinten</p></scriptNote>
-                     <scriptNote ana="ink" n="Zusatz"><p><locus n="fol. 19r, fol. 106r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                     <scriptNote ana="ink" n="Marginalia"><p><locus n="fol. f162r, fol. 201v, fol. 223r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                     <scriptNote ana="ink" n="Überschrift"><p><locus n="fol. 80r"/>Vitriolische Eisengallustinten</p></scriptNote>
-                     <scriptNote ana="ink" n="Andere"><p><locus n="fol. f65v, fol. 201v (Konkordanz)"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 13r, fol. 19r, fol. 65v, fol. 80r, fol. 106r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 223r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Zusatz">
+                        <p><locus n="fol. 19r, fol. 106r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 162r, fol. 201v, fol. 223r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Überschrift">
+                        <p><locus n="fol. 80r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Konkordanz">
+                        <p><locus n="fol. 65v, fol. 201v"/>Vitriolische Eisengallustinten</p></scriptNote>
                      <scriptNote source="Fingernagel">Karolingische Minuskel im Stil von Tours</scriptNote>
                      <scriptNote source="Bischoff">Alle Vorstücke in turonischer Halbunziale</scriptNote>
                      <scriptNote source="Winandy">Turonische ee-Kürzung deutet auf eine Enstehung in St-Martin hin.</scriptNote>

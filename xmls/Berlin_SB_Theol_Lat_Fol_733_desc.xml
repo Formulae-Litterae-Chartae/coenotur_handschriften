@@ -67,7 +67,7 @@
                             </msItem>
                             <msItem n="1.8">
                                 <locus from="18r" to="21v"/>
-                                <title>Canonestafeln</title>
+                                <title>Kanontafeln</title>
                             </msItem>
                             <msItem n="1.9">
                                 <locus from="23r" to="74v"/>
@@ -147,7 +147,7 @@
                             <scriptNote><p source="Rand">Karolingische Minuskel</p></scriptNote>
                             <scriptNote ana="ink" n="Haupttext">
                                 <p><locus n="fol. 12r, fol. 70r, fol. 108v, fol. 121r, fol. 224v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Konkordanzen">
+                            <scriptNote ana="ink" n="Konkordanz">
                                 <p><locus n="fol. 108v, fol. 165v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote ana="ink" n="Überschrift">
                                 <p><locus n="fol. 50v, fol. 121r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
@@ -163,21 +163,22 @@
                                 <p><locus n="fol. 347r (Musiknoten)"/>Vitriolische Eisengallustinten</p></scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>
+                            <decoNote type="canon">
+                                <p><locus n="18r-21v"/>Kanontafeln</p></decoNote>
+                            <decoNote type="miniature">
                                 <p>Das Evangeliar hat eine prächtige Ausstattung bestehend aus ganzseitigen Miniaturen, ganzseitigen goldenen Initialen und ganzseitigen goldenen Incipits auf Purpur. Die Miniaturen sind jeweils auf eigenen Blätter und nicht Teil einer Lage. Nach KÖHLER deutet die Tatsache, dass diese Blätter etwas schmäler sind, als der Rest, darauf hin, dass die Miniaturen nicht exakt zeitgleich mit der Handschrift entstanden sind. Die Tatsache, dass die ersten beiden Kanontafeln oben leicht beschnitten sind, könnte auch auf eine spätere Beschneidung zurückzuführen sein.</p>
-                                <p>5 Miniaturen:</p>
                                 <p><locus n="17v"/>Christus in Maiesta, umgeben von den Symbolen der 4 Evangelisten</p>
                                 <p><locus n="22v"/>Matthäus</p>
                                 <p><locus n="79r"/>Marcus</p>
                                 <p><locus n="116v"/>Lucas</p>
                                 <p><locus n="178v"/>Johannes</p></decoNote>
                             <decoNote ana="pigments" n="Rot">
-                                <p><locus type="miniature" n="fol. 18r, fol. 79r"/>Minium</p>
+                                <p><locus type="Miniatur" n="fol. 18r, fol. 79r"/>Minium</p>
                                 <p><locus type="Initiale" n="fol. 80v"/>Minium</p>
                                 <p><locus type="Initiale" n="fol. 108v, fol. 224v"/>Zinnober</p></decoNote>
                             <decoNote ana="pigments" n="Gold">
-                                <p><locus type="Initiale" n="fol. 18r, fol. 50v, fol. 80v, fol 165v"/>Gold + Kupfer</p>
-                                <p><locus type="Miniaturen" n="fol. 79r"/>Gold + Kupfer + Blei (das Blei würde vielleicht von einer Vorbereitungsschicht mit Bleiweiß kommen.)</p></decoNote>
+                                <p><locus type="Initiale" n="fol. 18r, fol. 50v, fol. 80v, fol. 165v"/>Gold + Kupfer</p>
+                                <p><locus type="Miniatur" n="fol. 79r"/>Gold + Kupfer + Blei (das Blei würde vielleicht von einer Vorbereitungsschicht mit Bleiweiß kommen)</p></decoNote>
                             <decoNote ana="pigments" n="Blau">
                                 <p><locus type="Initiale" n="fol. "/></p></decoNote>
                         </decoDesc>
