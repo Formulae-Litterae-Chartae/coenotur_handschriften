@@ -162,9 +162,10 @@ class TestXmlLoad(CoenoturTests):
                     span = etree.fromstring('<footer style="font-size:small;">https://coenotur.fruehmittelalterprojekte.uni-hamburg.de/handschrift/{}</footer>'.format(xml_file))
                     watermark = etree.fromstring('<div style="position:fixed;bottom:20%;left:5px;opacity:0.2;z-index:99;color:red;transform:rotate(-45deg);font-size:15em;">Coenotur Project</div>')
                     inner_div = html.xpath('//div[table]')[0]
-                    pdf_link = html.xpath('.//span[@id="pdfLink"]')[0]
-                    link_parent = pdf_link.getparent()
-                    link_parent.remove(pdf_link)
+                    if html.xpath('.//span[@id="pdfLink"]'):
+                        pdf_link = html.xpath('.//span[@id="pdfLink"]')[0]
+                        link_parent = pdf_link.getparent()
+                        link_parent.remove(pdf_link)
                     for collapse in inner_div.xpath('.//div[@class="collapse"]'):
                         for collapse_key in collapse.keys():
                             collapse.set(collapse_key, '')
