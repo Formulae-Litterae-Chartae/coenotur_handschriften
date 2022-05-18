@@ -1,5 +1,5 @@
 {
-  "took": 3,
+  "took": 13,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,7 +15,7 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Harley_2790_desc",
         "_score": null,
@@ -108,7 +108,7 @@
               "max_score": 1.8391056,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "London_BL_Harley_2790_desc",
                   "_nested": {
@@ -133,7 +133,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Stuttgart_WLB_II_40_desc",
         "_score": null,
@@ -243,7 +243,7 @@
               "max_score": 1.8391056,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Stuttgart_WLB_II_40_desc",
                   "_nested": {

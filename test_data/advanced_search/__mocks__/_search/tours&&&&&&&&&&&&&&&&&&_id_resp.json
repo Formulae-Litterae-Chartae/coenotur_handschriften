@@ -1,5 +1,5 @@
 {
-  "took": 146,
+  "took": 113,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,7 +15,7 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Aarau_Staatsarchiv_3739_desc",
         "_score": null,
@@ -70,7 +70,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Angers_BM_1-2_desc",
         "_score": null,
@@ -144,7 +144,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Autun_BM_19bis_desc",
         "_score": null,
@@ -237,7 +237,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Autun_BM_40_desc",
         "_score": null,
@@ -301,7 +301,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Bamberg_SB_Misc_Bibl_1_desc",
         "_score": null,
@@ -379,7 +379,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Bamberg_SB_Misc_Class_5_desc",
         "_score": null,
@@ -449,7 +449,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Basel_UB_AN_I_3_desc",
         "_score": null,
@@ -524,7 +524,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Basel_UB_B_II_11_desc",
         "_score": null,
@@ -602,7 +602,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Basel_UB_N_I_6_desc",
         "_score": null,
@@ -660,7 +660,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Dep_Breslau_3_Rehd_107_desc",
         "_score": null,
@@ -721,7 +721,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Ham_248_desc",
         "_score": null,
@@ -793,7 +793,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Ham_82_desc",
         "_score": null,
@@ -907,7 +907,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Phill_1872_desc",
         "_score": null,
@@ -999,7 +999,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Phill_1877_desc",
         "_score": null,
@@ -1078,7 +1078,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Theol_Lat_Fol_733_desc",
         "_score": null,
@@ -1160,7 +1160,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_Staatliche_Kunstbibl_Kasten_4000_desc",
         "_score": null,
@@ -1221,7 +1221,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Bern_Burgerbibliothek_165_desc",
         "_score": null,
@@ -1288,7 +1288,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Bern_Burgerbibliothek_3_desc",
         "_score": null,
@@ -1355,7 +1355,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Bern_Burgerbibliothek_4_desc",
         "_score": null,
@@ -1422,7 +1422,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Boulogne_sur_mer_Bibliotheque_publique_51_55_desc",
         "_score": null,
@@ -1497,7 +1497,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Brüssel_KBR_9591_desc",
         "_score": null,
@@ -1555,7 +1555,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Cambrai_BM_386_desc",
         "_score": null,
@@ -1626,7 +1626,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Cambrai_BM_828_desc",
         "_score": null,
@@ -1708,7 +1708,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Chapel_Hill_Wilson_Library_MS_526_desc",
         "_score": null,
@@ -1766,7 +1766,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Chartres_BM_111_desc",
         "_score": null,
@@ -1827,7 +1827,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Chartres_BM_24_desc",
         "_score": null,
@@ -1900,7 +1900,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Chartres_BM_98_desc",
         "_score": null,
@@ -1972,7 +1972,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Chur_BA_Fragmente_desc",
         "_score": null,
@@ -2027,7 +2027,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Den_Haag_Museum_Meermanno_Westreenianum_10_A_1_desc",
         "_score": null,
@@ -2094,7 +2094,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_11_desc",
         "_score": null,
@@ -2164,7 +2164,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_4_desc",
         "_score": null,
@@ -2231,7 +2231,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_6_desc",
         "_score": null,
@@ -2321,7 +2321,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Dijon_AD_Inv_No_494_desc",
         "_score": null,
@@ -2385,7 +2385,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Epinal_BM_149_68_desc",
         "_score": null,
@@ -2449,7 +2449,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Florenz_Laur_LXIII_20_desc",
         "_score": null,
@@ -2536,7 +2536,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Florenz_Laur_S_Croce_XXII_Sin_1_desc",
         "_score": null,
@@ -2594,7 +2594,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Florenz_Laur_XLV_15_desc",
         "_score": null,
@@ -2684,7 +2684,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Florenz_Museo_Nazionale_Bargello_Fächer_desc",
         "_score": null,
@@ -2745,7 +2745,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Gent_UB_102_desc",
         "_score": null,
@@ -2826,7 +2826,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Gent_UB_240_desc",
         "_score": null,
@@ -2898,7 +2898,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Grenoble_AD_Fragm_s_n_desc",
         "_score": null,
@@ -2959,7 +2959,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Halle_ULB_Qu_Cod_79_desc",
         "_score": null,
@@ -3041,7 +3041,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Karlsruhe_BLB_Aug_Perg_43_desc",
         "_score": null,
@@ -3102,7 +3102,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Karlsruhe_GLA_65_2800_desc",
         "_score": null,
@@ -3157,7 +3157,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Karlsruhe_GLA_67_523_desc",
         "_score": null,
@@ -3212,7 +3212,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Koblenz_LHA_Best_701_Nr_759_1_desc",
         "_score": null,
@@ -3276,7 +3276,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Kopenhagen_KB_NKS_1878_2_desc",
         "_score": null,
@@ -3334,7 +3334,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Kopenhagen_KB_NKS_252_desc",
         "_score": null,
@@ -3392,7 +3392,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Krakau_BJ_Ms_Lat_Qu_150_desc",
         "_score": null,
@@ -3469,7 +3469,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Krakau_BJ_Ms_Lat_Qu_404_desc",
         "_score": null,
@@ -3488,8 +3488,8 @@
           "signature": "Krakau, BJ, Ms. Lat. Qu. 404",
           "date_string": "Anfang 9. Jhd.",
           "ms_item": [
-            "Eugenius Toletanus, Carmen II, 1-2",
             "Cicero, De Amicitia",
+            "Eugenius Toletanus, Carmen II, 1-2",
             "Publius Syrus, Sententiae"
           ],
           "person": [],
@@ -3503,8 +3503,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Eugenius Toletanus, Carmen II, 1-2",
             "Cicero, De Amicitia",
+            "Eugenius Toletanus, Carmen II, 1-2",
             "Publius Syrus, Sententiae"
           ],
           "illuminated": false,
@@ -3537,7 +3537,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Köln_Dom_107_desc",
         "_score": null,
@@ -3604,7 +3604,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Köln_Dom_13_desc",
         "_score": null,
@@ -3712,7 +3712,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Köln_Dom_1_desc",
         "_score": null,
@@ -3797,7 +3797,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Köln_Dom_98_desc",
         "_score": null,
@@ -3876,7 +3876,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Laon_BM_216_desc",
         "_score": null,
@@ -3936,7 +3936,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Laon_BM_220_desc",
         "_score": null,
@@ -4000,7 +4000,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Laon_BM_63_desc",
         "_score": null,
@@ -4067,7 +4067,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Laon_BM_81_desc",
         "_score": null,
@@ -4139,7 +4139,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_BPL_1685_desc",
         "_score": null,
@@ -4200,7 +4200,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_Voss_Lat_F_113_desc",
         "_score": null,
@@ -4222,8 +4222,8 @@
           "signature": "Leiden, UB, Voss. Lat. F. 113",
           "date_string": "ca. 3. Viertel 9. Jhd.",
           "ms_item": [
-            "Misc",
-            "Anonymus Leidensis (G.), De situ orbis"
+            "Anonymus Leidensis (G.), De situ orbis",
+            "Misc"
           ],
           "person": [],
           "provenance": "; ",
@@ -4236,8 +4236,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Misc",
-            "Anonymus Leidensis (G.), De situ orbis"
+            "Anonymus Leidensis (G.), De situ orbis",
+            "Misc"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -4266,7 +4266,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_Voss_Lat_F_73_desc",
         "_score": null,
@@ -4348,7 +4348,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_Voss_Lat_Q_130_desc",
         "_score": null,
@@ -4406,7 +4406,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_Voss_Lat_Q_20_desc",
         "_score": null,
@@ -4470,7 +4470,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_Voss_Lat_Q_63_desc",
         "_score": null,
@@ -4531,7 +4531,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_Voss_Lat_Q_98_desc",
         "_score": null,
@@ -4547,8 +4547,8 @@
           "signature": "Leiden, UB, Voss. Lat. Q. 98",
           "date_string": "2. Drittel 9. Jhd.",
           "ms_item": [
-            "Augustinus, De baptismo parvulorum",
-            "Ambrosius, De sacramentis"
+            "Ambrosius, De sacramentis",
+            "Augustinus, De baptismo parvulorum"
           ],
           "person": [],
           "provenance": "; ",
@@ -4561,8 +4561,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Augustinus, De baptismo parvulorum",
-            "Ambrosius, De sacramentis"
+            "Ambrosius, De sacramentis",
+            "Augustinus, De baptismo parvulorum"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -4591,7 +4591,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Add_10546_desc",
         "_score": null,
@@ -4690,7 +4690,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Add_11848_desc",
         "_score": null,
@@ -4760,7 +4760,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Add_11849_desc",
         "_score": null,
@@ -4838,7 +4838,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Add_37768_desc",
         "_score": null,
@@ -4929,7 +4929,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Add_47678_desc",
         "_score": null,
@@ -4999,7 +4999,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Arundel_125_desc",
         "_score": null,
@@ -5083,7 +5083,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Egerton_2831_desc",
         "_score": null,
@@ -5158,7 +5158,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Egerton_609_desc",
         "_score": null,
@@ -5247,7 +5247,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Egerton_768_desc",
         "_score": null,
@@ -5332,7 +5332,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Harley_2790_desc",
         "_score": null,
@@ -5414,7 +5414,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Harley_2793_desc",
         "_score": null,
@@ -5481,7 +5481,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Harley_2805_desc",
         "_score": null,
@@ -5555,7 +5555,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Sloane_1044_desc",
         "_score": null,
@@ -5610,7 +5610,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Malibu_Musee_J_P_Getty_desc",
         "_score": null,
@@ -5665,7 +5665,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Montpellier_BU_H_412_desc",
         "_score": null,
@@ -5751,7 +5751,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Monza_BC_G_1_1_desc",
         "_score": null,
@@ -5827,7 +5827,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "München_BSB_Clm12741_desc",
         "_score": null,
@@ -5888,7 +5888,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "München_BSB_Clm29260-4_desc",
         "_score": null,
@@ -5974,7 +5974,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "München_BSB_Clm6399_desc",
         "_score": null,
@@ -6045,7 +6045,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Münster_Staatsarchiv_VII_2_4_desc",
         "_score": null,
@@ -6100,7 +6100,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Nancy_Cathedrale_Tresor_desc",
         "_score": null,
@@ -6176,7 +6176,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "New_Haven_Yale_University_Beinecke_Library_Ms_413_desc",
         "_score": null,
@@ -6253,7 +6253,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "New_York_PML_MS_191_desc",
         "_score": null,
@@ -6323,7 +6323,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "New_York_PML_MS_860_desc",
         "_score": null,
@@ -6390,7 +6390,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Obermachtal_Beuron_desc",
         "_score": null,
@@ -6445,7 +6445,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Orléans_BM_83_80_desc",
         "_score": null,
@@ -6527,7 +6527,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Oxford_Bodleian_Library_MS_Bodl_218_desc",
         "_score": null,
@@ -6591,7 +6591,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paderborn_Akademie_Bibliothek_desc",
         "_score": null,
@@ -6646,7 +6646,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bib_de_l_Arsenal_1171_desc",
         "_score": null,
@@ -6723,7 +6723,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bib_de_l_Arsenal_609_desc",
         "_score": null,
@@ -6787,7 +6787,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bib_de_l_Arsenal_903_desc",
         "_score": null,
@@ -6848,7 +6848,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bibliotheque_Mazarine_274_desc",
         "_score": null,
@@ -6906,7 +6906,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bibliotheque_St_Genevieve_1260_desc",
         "_score": null,
@@ -6973,7 +6973,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bibliotheque_St_Genevieve_232_desc",
         "_score": null,
@@ -7036,7 +7036,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_10612_desc",
         "_score": null,
@@ -7106,7 +7106,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_10756_desc",
         "_score": null,
@@ -7180,7 +7180,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_10848_desc",
         "_score": null,
@@ -7293,7 +7293,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_11514_desc",
         "_score": null,
@@ -7400,7 +7400,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_11671_desc",
         "_score": null,
@@ -7464,7 +7464,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_11672_desc",
         "_score": null,
@@ -7528,7 +7528,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_11738_desc",
         "_score": null,
@@ -7608,7 +7608,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_11832_desc",
         "_score": null,
@@ -7669,7 +7669,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_11834_desc",
         "_score": null,
@@ -7733,7 +7733,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_12247_desc",
         "_score": null,
@@ -7819,7 +7819,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_12248_desc",
         "_score": null,
@@ -7915,7 +7915,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_13388_desc",
         "_score": null,
@@ -7992,7 +7992,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_13759_desc",
         "_score": null,
@@ -8080,7 +8080,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_1451_desc",
         "_score": null,
@@ -8189,7 +8189,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_1572_desc",
         "_score": null,
@@ -8264,7 +8264,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_1711_desc",
         "_score": null,
@@ -8289,9 +8289,9 @@
           "signature": "Paris, BnF, Latin 1711",
           "date_string": "1. Drittel 9. Jhd.",
           "ms_item": [
-            "Optatus, De schismate donatistarum",
+            "Optatus, Gesta purgationis Caeciliani et Felicis",
             "Constantinus MagnusPetroniusAnnianusJulianus, Epistolae",
-            "Optatus, Gesta purgationis Caeciliani et Felicis"
+            "Optatus, De schismate donatistarum"
           ],
           "person": [
             {
@@ -8336,9 +8336,9 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Optatus, De schismate donatistarum",
+            "Optatus, Gesta purgationis Caeciliani et Felicis",
             "Constantinus MagnusPetroniusAnnianusJulianus, Epistolae",
-            "Optatus, Gesta purgationis Caeciliani et Felicis"
+            "Optatus, De schismate donatistarum"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -8370,7 +8370,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_17227_desc",
         "_score": null,
@@ -8452,7 +8452,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_18104_desc",
         "_score": null,
@@ -8480,10 +8480,10 @@
           "signature": "Paris, BnF, Latin 18104",
           "date_string": "2. Viertel 9. Jhd.",
           "ms_item": [
-            "Isidorus, Liber de miraculis S. Andreae",
-            "Venantius Fortunatus, Carmina, Expositio orationis dominicae",
+            "Ergänzungen aus dem 12. Jhd.",
             "Iulianus PomeriusAugustinus, De vita contemplativaDe trinitate",
-            "Ergänzungen aus dem 12. Jhd."
+            "Venantius Fortunatus, Carmina, Expositio orationis dominicae",
+            "Isidorus, Liber de miraculis S. Andreae"
           ],
           "person": [],
           "provenance": "; Die Handschrift gehört Notre-Dame de Paris.",
@@ -8496,10 +8496,10 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Isidorus, Liber de miraculis S. Andreae",
-            "Venantius Fortunatus, Carmina, Expositio orationis dominicae",
+            "Ergänzungen aus dem 12. Jhd.",
             "Iulianus PomeriusAugustinus, De vita contemplativaDe trinitate",
-            "Ergänzungen aus dem 12. Jhd."
+            "Venantius Fortunatus, Carmina, Expositio orationis dominicae",
+            "Isidorus, Liber de miraculis S. Andreae"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -8531,7 +8531,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_1820_desc",
         "_score": null,
@@ -8623,7 +8623,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_18237_desc",
         "_score": null,
@@ -8714,7 +8714,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_18312_desc",
         "_score": null,
@@ -8800,7 +8800,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_2204_desc",
         "_score": null,
@@ -8881,7 +8881,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_250_desc",
         "_score": null,
@@ -8948,7 +8948,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_25_desc",
         "_score": null,
@@ -9005,7 +9005,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_261_desc",
         "_score": null,
@@ -9121,7 +9121,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_263_desc",
         "_score": null,
@@ -9203,7 +9203,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_266_desc",
         "_score": null,
@@ -9304,7 +9304,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_267_desc",
         "_score": null,
@@ -9356,7 +9356,7 @@
           "autocomplete_ms_item": [
             "Evangelien"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": true,
           "tironoten": false,
@@ -9385,7 +9385,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_269_desc",
         "_score": null,
@@ -9455,7 +9455,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_2718_desc",
         "_score": null,
@@ -9579,7 +9579,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_2848_desc",
         "_score": null,
@@ -9657,7 +9657,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_324_desc",
         "_score": null,
@@ -9738,7 +9738,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_4333B_desc",
         "_score": null,
@@ -9857,7 +9857,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_4404_desc",
         "_score": null,
@@ -9990,7 +9990,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_4408_desc",
         "_score": null,
@@ -10071,7 +10071,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_4636_desc",
         "_score": null,
@@ -10146,7 +10146,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_47_desc",
         "_score": null,
@@ -10261,7 +10261,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_4808_desc",
         "_score": null,
@@ -10328,7 +10328,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5325_desc",
         "_score": null,
@@ -10404,7 +10404,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5516_desc",
         "_score": null,
@@ -10507,7 +10507,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5580_desc",
         "_score": null,
@@ -10604,7 +10604,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5581_desc",
         "_score": null,
@@ -10694,7 +10694,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5582_desc",
         "_score": null,
@@ -10779,7 +10779,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5583_desc",
         "_score": null,
@@ -10845,7 +10845,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5584_desc",
         "_score": null,
@@ -10929,7 +10929,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5596_desc",
         "_score": null,
@@ -11003,7 +11003,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5604_desc",
         "_score": null,
@@ -11064,7 +11064,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5724_desc",
         "_score": null,
@@ -11160,7 +11160,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5726_desc",
         "_score": null,
@@ -11230,7 +11230,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5730_desc",
         "_score": null,
@@ -11288,7 +11288,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_6115_desc",
         "_score": null,
@@ -11349,7 +11349,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_6347_desc",
         "_score": null,
@@ -11434,7 +11434,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_6370_desc",
         "_score": null,
@@ -11501,7 +11501,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_7493_desc",
         "_score": null,
@@ -11579,7 +11579,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_7502_desc",
         "_score": null,
@@ -11668,7 +11668,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_7505_desc",
         "_score": null,
@@ -11743,7 +11743,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_7533_desc",
         "_score": null,
@@ -11768,10 +11768,10 @@
           "signature": "Paris, BnF, Latin 7533",
           "date_string": "ca. 1./2. Viertel 9. Jhd.; 1. Hälfte 10. Jhd.",
           "ms_item": [
-            "Declinationes",
-            "Alkuin, De orthographia",
             "Beda Venerabilis, De arte metricaDe schematibus et tropis",
-            "Isidorus, De natura rerumSententiae"
+            "Declinationes",
+            "Isidorus, De natura rerumSententiae",
+            "Alkuin, De orthographia"
           ],
           "person": [],
           "provenance": "; ",
@@ -11784,10 +11784,10 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Declinationes",
-            "Alkuin, De orthographia",
             "Beda Venerabilis, De arte metricaDe schematibus et tropis",
-            "Isidorus, De natura rerumSententiae"
+            "Declinationes",
+            "Isidorus, De natura rerumSententiae",
+            "Alkuin, De orthographia"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -11819,7 +11819,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_7774A_desc",
         "_score": null,
@@ -11886,7 +11886,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_7794_desc",
         "_score": null,
@@ -11961,7 +11961,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_7959_desc",
         "_score": null,
@@ -12025,7 +12025,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_8312_desc",
         "_score": null,
@@ -12086,7 +12086,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_8318_desc",
         "_score": null,
@@ -12106,9 +12106,9 @@
           "date_string": "9. Jhd.",
           "ms_item": [
             "Aurelius Clemetis Prudentius, Psychomachia",
-            "Arator Subdiaconus, Historia apostolica",
             "Venantius Fortunatus, Carmina",
-            "Aldhelmus, Carmina ecclesiastica"
+            "Aldhelmus, Carmina ecclesiastica",
+            "Arator Subdiaconus, Historia apostolica"
           ],
           "person": [],
           "provenance": "; ",
@@ -12132,9 +12132,9 @@
           ],
           "autocomplete_ms_item": [
             "Aurelius Clemetis Prudentius, Psychomachia",
-            "Arator Subdiaconus, Historia apostolica",
             "Venantius Fortunatus, Carmina",
-            "Aldhelmus, Carmina ecclesiastica"
+            "Aldhelmus, Carmina ecclesiastica",
+            "Arator Subdiaconus, Historia apostolica"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -12177,7 +12177,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_8658A_desc",
         "_score": null,
@@ -12254,7 +12254,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_8847_desc",
         "_score": null,
@@ -12330,7 +12330,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_8883_desc",
         "_score": null,
@@ -12384,7 +12384,7 @@
           "autocomplete_ms_item": [
             "Lectionarium Turonense"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -12419,7 +12419,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9385_desc",
         "_score": null,
@@ -12495,7 +12495,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9386_desc",
         "_score": null,
@@ -12595,7 +12595,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9397_desc",
         "_score": null,
@@ -12686,7 +12686,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9430_desc",
         "_score": null,
@@ -12777,7 +12777,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9431_desc",
         "_score": null,
@@ -12820,7 +12820,7 @@
           "autocomplete_ms_item": [
             "Sacramentarium Gregorianum"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": true,
           "tironoten": false,
@@ -12850,7 +12850,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9434_desc",
         "_score": null,
@@ -12914,7 +12914,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9435_desc",
         "_score": null,
@@ -12936,8 +12936,8 @@
           "signature": "Paris, BnF, Latin 9435",
           "date_string": "11. Jhd.",
           "ms_item": [
-            "Guido von Arezzo, Musica Missarum",
-            "Missel de Tours"
+            "Missel de Tours",
+            "Guido von Arezzo, Musica Missarum"
           ],
           "person": [],
           "provenance": "St-Gatien; Unabhängig vom Entstehungsort wurde die Handschrift mit ziemlicher Sicherheit an St-Gatien geschenkt.; Gekauft am 11. Juni 1851 durch die BnF.",
@@ -12950,8 +12950,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Guido von Arezzo, Musica Missarum",
-            "Missel de Tours"
+            "Missel de Tours",
+            "Guido von Arezzo, Musica Missarum"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -12986,7 +12986,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9549_desc",
         "_score": null,
@@ -13050,7 +13050,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9553_desc",
         "_score": null,
@@ -13122,7 +13122,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9603_desc",
         "_score": null,
@@ -13225,7 +13225,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9604_desc",
         "_score": null,
@@ -13314,7 +13314,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9652_desc",
         "_score": null,
@@ -13390,7 +13390,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9729_desc",
         "_score": null,
@@ -13468,7 +13468,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9733_desc",
         "_score": null,
@@ -13535,7 +13535,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1445_desc",
         "_score": null,
@@ -13602,7 +13602,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1490_desc",
         "_score": null,
@@ -13668,7 +13668,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1575_desc",
         "_score": null,
@@ -13777,7 +13777,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1577_desc",
         "_score": null,
@@ -13852,7 +13852,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1586_desc",
         "_score": null,
@@ -13984,7 +13984,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1587_desc",
         "_score": null,
@@ -14122,7 +14122,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1589_desc",
         "_score": null,
@@ -14220,7 +14220,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1592_desc",
         "_score": null,
@@ -14352,7 +14352,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1595_desc",
         "_score": null,
@@ -14457,7 +14457,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1603_desc",
         "_score": null,
@@ -14565,7 +14565,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1622_desc",
         "_score": null,
@@ -14638,7 +14638,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1626_desc",
         "_score": null,
@@ -14735,7 +14735,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1712_desc",
         "_score": null,
@@ -14802,7 +14802,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_204_desc",
         "_score": null,
@@ -14879,7 +14879,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_2073_desc",
         "_score": null,
@@ -14937,7 +14937,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_2322_desc",
         "_score": null,
@@ -14962,9 +14962,9 @@
           "signature": "Paris, BnF, NAL 2322",
           "date_string": "2. Viertel 9. Jhd.; Karl der Kahle",
           "ms_item": [
+            "Philippus, Commentarii in librum Iob",
             "Gregorius, Sermones",
-            "Paulus Diaconus, Sammlung von Sermones",
-            "Philippus, Commentarii in librum Iob"
+            "Paulus Diaconus, Sammlung von Sermones"
           ],
           "person": [],
           "provenance": "St-Martin; ",
@@ -14987,9 +14987,9 @@
             }
           ],
           "autocomplete_ms_item": [
+            "Philippus, Commentarii in librum Iob",
             "Gregorius, Sermones",
-            "Paulus Diaconus, Sammlung von Sermones",
-            "Philippus, Commentarii in librum Iob"
+            "Paulus Diaconus, Sammlung von Sermones"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -15033,7 +15033,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_2332_desc",
         "_score": null,
@@ -15115,7 +15115,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_2334_desc",
         "_score": null,
@@ -15253,7 +15253,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_2389_desc",
         "_score": null,
@@ -15314,7 +15314,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_2442_desc",
         "_score": null,
@@ -15375,7 +15375,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_2477_desc",
         "_score": null,
@@ -15436,7 +15436,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_2633_desc",
         "_score": null,
@@ -15494,7 +15494,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_2654_desc",
         "_score": null,
@@ -15552,7 +15552,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_405_desc",
         "_score": null,
@@ -15638,7 +15638,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_442_desc",
         "_score": null,
@@ -15737,7 +15737,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_454_desc",
         "_score": null,
@@ -15820,7 +15820,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bnf_Latin_113_desc",
         "_score": null,
@@ -15893,7 +15893,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bnf_Latin_260_desc",
         "_score": null,
@@ -15982,7 +15982,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bnf_Latin_68_desc",
         "_score": null,
@@ -16072,7 +16072,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Regensburg_Stadtarchiv_s_n_desc",
         "_score": null,
@@ -16130,7 +16130,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Bib_Vallicelliana_B_6_desc",
         "_score": null,
@@ -16235,7 +16235,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_San_Paolo_Fuori_Le_Mura_Biblia_desc",
         "_score": null,
@@ -16316,7 +16316,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Barb_Lat_680_desc",
         "_score": null,
@@ -16377,7 +16377,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Pal_Lat_153_desc",
         "_score": null,
@@ -16453,7 +16453,7 @@
           "autocomplete_ms_item": [
             "Johannes Chrysostomos, Commentarium in Epistolam ad Hebraeos"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -16494,7 +16494,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Pal_Lat_1710_desc",
         "_score": null,
@@ -16535,7 +16535,7 @@
           "autocomplete_ms_item": [
             "Persius"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -16577,7 +16577,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Pal_Lat_209_desc",
         "_score": null,
@@ -16599,8 +16599,8 @@
           "signature": "Rom, Vat., Pal. Lat. 209",
           "date_string": "1. Viertel 9. Jhd.",
           "ms_item": [
-            "Augustinus, Libri Quaestionum in Matheum et Lucam",
-            "Hieronymus, Epistulae"
+            "Hieronymus, Epistulae",
+            "Augustinus, Libri Quaestionum in Matheum et Lucam"
           ],
           "person": [],
           "provenance": "Frankenthal",
@@ -16618,10 +16618,10 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Augustinus, Libri Quaestionum in Matheum et Lucam",
-            "Hieronymus, Epistulae"
+            "Hieronymus, Epistulae",
+            "Augustinus, Libri Quaestionum in Matheum et Lucam"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": true,
           "exlibris": true,
           "tironoten": false,
@@ -16657,7 +16657,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_1127_desc",
         "_score": null,
@@ -16741,7 +16741,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_1128_desc",
         "_score": null,
@@ -16817,7 +16817,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_140_desc",
         "_score": null,
@@ -16848,8 +16848,8 @@
           "signature": "Rom, Vat., Reg. Lat. 140",
           "date_string": "Anfang/1. Viertel 9. Jhd.",
           "ms_item": [
-            "Cassianus",
-            "Ascetica"
+            "Ascetica",
+            "Cassianus"
           ],
           "person": [],
           "provenance": "; Gesichert ist, dass diese Handschrift früh in Fleury war, wie die zahlreichen Exlibris in den einzelnen Teilen erkennen lassen.",
@@ -16867,8 +16867,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Cassianus",
-            "Ascetica"
+            "Ascetica",
+            "Cassianus"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -16905,7 +16905,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_1484_desc",
         "_score": null,
@@ -16951,7 +16951,7 @@
           "autocomplete_ms_item": [
             "Donatus, Interpretationes Vergilianae Aeneidos"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -16981,7 +16981,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_1587_desc",
         "_score": null,
@@ -17085,7 +17085,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_215_desc",
         "_score": null,
@@ -17129,7 +17129,7 @@
           "autocomplete_ms_item": [
             "Excerpta varia"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": true,
           "exlibris": true,
           "tironoten": false,
@@ -17170,7 +17170,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_286_desc",
         "_score": null,
@@ -17186,8 +17186,8 @@
           "signature": "Rom, Vat., Reg. Lat. 286",
           "date_string": "9. Jhd. nach 877",
           "ms_item": [
-            "Augustinus",
-            "Hieronymus"
+            "Hieronymus",
+            "Augustinus"
           ],
           "person": [],
           "provenance": "",
@@ -17200,8 +17200,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Augustinus",
-            "Hieronymus"
+            "Hieronymus",
+            "Augustinus"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -17230,7 +17230,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_482_desc",
         "_score": null,
@@ -17317,7 +17317,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_495_desc",
         "_score": null,
@@ -17390,7 +17390,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_530_desc",
         "_score": null,
@@ -17451,7 +17451,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_586_desc",
         "_score": null,
@@ -17521,7 +17521,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_647_desc",
         "_score": null,
@@ -17621,7 +17621,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_762_desc",
         "_score": null,
@@ -17770,7 +17770,7 @@
           "autocomplete_ms_item": [
             "Titus Livius, Ab urbe condita"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -17800,7 +17800,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_846_desc",
         "_score": null,
@@ -17889,7 +17889,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_852_desc",
         "_score": null,
@@ -17983,7 +17983,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_857_desc",
         "_score": null,
@@ -18057,7 +18057,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Urb_Lat_1146_desc",
         "_score": null,
@@ -18146,7 +18146,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Urb_Lat_532_desc",
         "_score": null,
@@ -18168,8 +18168,8 @@
           "signature": "Rom, Vat., Urb. Lat. 532",
           "date_string": "Pre-Alcuinian; ca. Mitte 9. Jhd.",
           "ms_item": [
-            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae",
-            "Boethius, Contra Eutychen et Nestorium"
+            "Boethius, Contra Eutychen et Nestorium",
+            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae"
           ],
           "person": [],
           "provenance": "; ",
@@ -18192,8 +18192,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae",
-            "Boethius, Contra Eutychen et Nestorium"
+            "Boethius, Contra Eutychen et Nestorium",
+            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae"
           ],
           "illuminated": true,
           "musicNotation": false,
@@ -18236,7 +18236,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Vat_Lat_1480_desc",
         "_score": null,
@@ -18297,7 +18297,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Vat_Lat_1512_desc",
         "_score": null,
@@ -18371,7 +18371,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Vat_Lat_3789_desc",
         "_score": null,
@@ -18444,7 +18444,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Vat_Lat_43_desc",
         "_score": null,
@@ -18483,7 +18483,7 @@
           "autocomplete_ms_item": [
             "Evangelien"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -18518,7 +18518,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Vat_Lat_474_desc",
         "_score": null,
@@ -18590,7 +18590,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rouen_BM_1475_desc",
         "_score": null,
@@ -18648,7 +18648,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rouen_BM_33_desc",
         "_score": null,
@@ -18712,7 +18712,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Saint_Aubin_de_Luigne_Pfarrhaus_desc",
         "_score": null,
@@ -18770,7 +18770,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Saint_Mihiel_BM_29_desc",
         "_score": null,
@@ -18831,7 +18831,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Salisbury_CL_133_desc",
         "_score": null,
@@ -18889,7 +18889,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc",
         "_score": null,
@@ -18963,7 +18963,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Schaffhausen_SB_Min_34_desc",
         "_score": null,
@@ -19021,7 +19021,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Schaffhausen_SB_Min_58_desc",
         "_score": null,
@@ -19079,7 +19079,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Solothurn_SA_R_1_3_198_199_200_desc",
         "_score": null,
@@ -19137,7 +19137,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Solothurn_ZB_S_458_desc",
         "_score": null,
@@ -19195,7 +19195,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "St_Gallen_Cod_Sang_1396_II_desc",
         "_score": null,
@@ -19253,7 +19253,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "St_Gallen_Cod_Sang_1398_a_I_desc",
         "_score": null,
@@ -19308,7 +19308,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "St_Gallen_Cod_Sang_268_desc",
         "_score": null,
@@ -19389,7 +19389,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "St_Gallen_Cod_Sang_271_desc",
         "_score": null,
@@ -19471,7 +19471,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "St_Gallen_Cod_Sang_75_desc",
         "_score": null,
@@ -19556,7 +19556,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Stuttgart_HSA_Bu_IX_b_nr_626_desc",
         "_score": null,
@@ -19611,7 +19611,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Stuttgart_WLB_Hist_4_36_desc",
         "_score": null,
@@ -19680,7 +19680,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Stuttgart_WLB_II_40_desc",
         "_score": null,
@@ -19779,7 +19779,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1016_desc",
         "_score": null,
@@ -19843,7 +19843,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1017_desc",
         "_score": null,
@@ -19904,7 +19904,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1018_desc",
         "_score": null,
@@ -19968,7 +19968,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1019_desc",
         "_score": null,
@@ -20032,7 +20032,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1020_desc",
         "_score": null,
@@ -20085,7 +20085,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1021_desc",
         "_score": null,
@@ -20113,7 +20113,7 @@
           "autocomplete_ms_item": [
             "Martinellus"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": true,
           "tironoten": false,
@@ -20143,7 +20143,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1023_desc",
         "_score": null,
@@ -20202,7 +20202,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1024_desc",
         "_score": null,
@@ -20255,7 +20255,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1027_desc",
         "_score": null,
@@ -20329,7 +20329,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1028_desc",
         "_score": null,
@@ -20393,7 +20393,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_106_desc",
         "_score": null,
@@ -20449,7 +20449,7 @@
             "Augustinus, Sermo de passione beati Iohannis Baptiste",
             "Hrabanus Maurus, Expositio in Matheum"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": true,
           "tironoten": false,
@@ -20488,7 +20488,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_107_desc",
         "_score": null,
@@ -20522,7 +20522,7 @@
           "autocomplete_ms_item": [
             "Ambrosius Autpertus, Expositio in Apocalipsim"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -20549,7 +20549,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_10_desc",
         "_score": null,
@@ -20644,7 +20644,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_123_desc",
         "_score": null,
@@ -20697,7 +20697,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1376_desc",
         "_score": null,
@@ -20765,7 +20765,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_14_desc",
         "_score": null,
@@ -20818,7 +20818,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_1521_desc",
         "_score": null,
@@ -20882,7 +20882,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_153_desc",
         "_score": null,
@@ -20940,7 +20940,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_15_desc",
         "_score": null,
@@ -20993,7 +20993,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_184_desc",
         "_score": null,
@@ -21050,7 +21050,7 @@
           "autocomplete_ms_item": [
             "Sakramentar"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -21086,7 +21086,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_18_desc",
         "_score": null,
@@ -21147,7 +21147,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_193_desc",
         "_score": null,
@@ -21211,7 +21211,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_194_desc",
         "_score": null,
@@ -21264,7 +21264,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_195_desc",
         "_score": null,
@@ -21317,7 +21317,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_196_desc",
         "_score": null,
@@ -21381,7 +21381,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_22_desc",
         "_score": null,
@@ -21491,7 +21491,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_23_desc",
         "_score": null,
@@ -21563,7 +21563,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_24_desc",
         "_score": null,
@@ -21579,11 +21579,11 @@
           "signature": "Tours, BM, 24",
           "date_string": "13. Jhd.",
           "ms_item": [
-            "Teile des Alten Testamentes",
-            "Paulusbriefe",
             "Glossen",
             "Sentenzen",
             "Proverbien",
+            "Teile des Alten Testamentes",
+            "Paulusbriefe",
             "Variae"
           ],
           "person": [],
@@ -21597,11 +21597,11 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Teile des Alten Testamentes",
-            "Paulusbriefe",
             "Glossen",
             "Sentenzen",
             "Proverbien",
+            "Teile des Alten Testamentes",
+            "Paulusbriefe",
             "Variae"
           ],
           "illuminated": false,
@@ -21626,7 +21626,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_252_desc",
         "_score": null,
@@ -21687,7 +21687,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_256_desc",
         "_score": null,
@@ -21761,7 +21761,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_25_desc",
         "_score": null,
@@ -21792,7 +21792,7 @@
           "autocomplete_ms_item": [
             "Evangelien"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -21819,7 +21819,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_261_desc",
         "_score": null,
@@ -21858,7 +21858,7 @@
           "autocomplete_ms_item": [
             "HilariusAmbrosius"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": true,
           "tironoten": false,
@@ -21894,7 +21894,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_263_desc",
         "_score": null,
@@ -21955,7 +21955,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_265_desc",
         "_score": null,
@@ -22019,7 +22019,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_266_desc",
         "_score": null,
@@ -22080,7 +22080,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_267_desc",
         "_score": null,
@@ -22141,7 +22141,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_271_desc",
         "_score": null,
@@ -22202,7 +22202,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_272_desc",
         "_score": null,
@@ -22277,7 +22277,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_273_desc",
         "_score": null,
@@ -22352,7 +22352,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_274_desc",
         "_score": null,
@@ -22416,7 +22416,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_275_desc",
         "_score": null,
@@ -22477,7 +22477,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_279_desc",
         "_score": null,
@@ -22532,7 +22532,7 @@
           "autocomplete_ms_item": [
             "Hieronymus, Origines, Augustinus, Maximus von Turin"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -22577,7 +22577,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_281_desc",
         "_score": null,
@@ -22642,7 +22642,7 @@
           "autocomplete_ms_item": [
             "Augustinus, Hieronymus, Briefe"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -22672,7 +22672,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_282_desc",
         "_score": null,
@@ -22736,7 +22736,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_283_desc",
         "_score": null,
@@ -22794,7 +22794,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_284_desc",
         "_score": null,
@@ -22867,7 +22867,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_285_desc",
         "_score": null,
@@ -22911,7 +22911,7 @@
           "autocomplete_ms_item": [
             "Augustinus, Werke"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -22949,7 +22949,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_286_desc",
         "_score": null,
@@ -22983,7 +22983,7 @@
           "autocomplete_ms_item": [
             "Augustinus, Dialogus Augustini cum Licentio de Musica"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -23010,7 +23010,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_287_desc",
         "_score": null,
@@ -23066,7 +23066,7 @@
           "autocomplete_ms_item": [
             "Augustinus, Contra Faustum"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": true,
           "tironoten": false,
@@ -23093,7 +23093,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_288_desc",
         "_score": null,
@@ -23154,7 +23154,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_289_desc",
         "_score": null,
@@ -23231,7 +23231,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_290_desc",
         "_score": null,
@@ -23292,7 +23292,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_291_desc",
         "_score": null,
@@ -23353,7 +23353,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_293_desc",
         "_score": null,
@@ -23414,7 +23414,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_294_desc",
         "_score": null,
@@ -23475,7 +23475,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_297_desc",
         "_score": null,
@@ -23536,7 +23536,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_300_desc",
         "_score": null,
@@ -23597,7 +23597,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_309_desc",
         "_score": null,
@@ -23682,7 +23682,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_310_desc",
         "_score": null,
@@ -23701,8 +23701,8 @@
           "signature": "Tours, BM, 310",
           "date_string": "Gregor: 11. Jhd.; Bernard: 12. Jhd.",
           "ms_item": [
-            "Bernard, 3 Predigten",
-            "Gregor, Expositio in Evangelia"
+            "Gregor, Expositio in Evangelia",
+            "Bernard, 3 Predigten"
           ],
           "person": [],
           "provenance": "St-Gatien; 2 Handschriften, die vermutlich später zusammengebunden wurden.",
@@ -23715,8 +23715,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Bernard, 3 Predigten",
-            "Gregor, Expositio in Evangelia"
+            "Gregor, Expositio in Evangelia",
+            "Bernard, 3 Predigten"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -23745,7 +23745,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_313_desc",
         "_score": null,
@@ -23819,7 +23819,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_315_desc",
         "_score": null,
@@ -23893,7 +23893,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_316_desc",
         "_score": null,
@@ -23954,7 +23954,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_334_desc",
         "_score": null,
@@ -24054,7 +24054,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_335_desc",
         "_score": null,
@@ -24118,7 +24118,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_33_desc",
         "_score": null,
@@ -24173,7 +24173,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_497_desc",
         "_score": null,
@@ -24234,7 +24234,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_556_desc",
         "_score": null,
@@ -24298,7 +24298,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_617_desc",
         "_score": null,
@@ -24371,7 +24371,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_621_desc",
         "_score": null,
@@ -24432,7 +24432,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_803_desc",
         "_score": null,
@@ -24525,7 +24525,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_844_desc",
         "_score": null,
@@ -24599,7 +24599,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_850_desc",
         "_score": null,
@@ -24663,7 +24663,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_876_desc",
         "_score": null,
@@ -24685,10 +24685,10 @@
           "signature": "Tours, BM, 876",
           "date_string": "10. Jhd.",
           "ms_item": [
-            "Liber Centimetrorum",
+            "Grammatica",
             "Servius, Palmeon, Prosode latine",
-            "Sergius, Kommentar zu Donat",
-            "Grammatica"
+            "Liber Centimetrorum",
+            "Sergius, Kommentar zu Donat"
           ],
           "person": [
             {
@@ -24713,10 +24713,10 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Liber Centimetrorum",
+            "Grammatica",
             "Servius, Palmeon, Prosode latine",
-            "Sergius, Kommentar zu Donat",
-            "Grammatica"
+            "Liber Centimetrorum",
+            "Sergius, Kommentar zu Donat"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -24745,7 +24745,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_887_desc",
         "_score": null,
@@ -24822,7 +24822,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_90_desc",
         "_score": null,
@@ -24910,7 +24910,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_924_desc",
         "_score": null,
@@ -24971,7 +24971,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Trier_Bistumsarchiv_95_1_2_desc",
         "_score": null,
@@ -25026,7 +25026,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Trier_SB_Hs1086_desc",
         "_score": null,
@@ -25112,7 +25112,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Trier_SB_Hs31_desc",
         "_score": null,
@@ -25189,7 +25189,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Trier_SB_Inc_921_desc",
         "_score": null,
@@ -25253,7 +25253,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Troyes_BM_1069_desc",
         "_score": null,
@@ -25328,7 +25328,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Troyes_BM_1165_desc",
         "_score": null,
@@ -25414,7 +25414,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Troyes_BM_138_desc",
         "_score": null,
@@ -25496,7 +25496,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Troyes_BM_1742_desc",
         "_score": null,
@@ -25566,7 +25566,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Troyes_BM_29_desc",
         "_score": null,
@@ -25641,7 +25641,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Troyes_BM_676_desc",
         "_score": null,
@@ -25713,7 +25713,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Troyes_BM_805_desc",
         "_score": null,
@@ -25774,7 +25774,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Valenciennes_BM_518_desc",
         "_score": null,
@@ -25838,7 +25838,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Vercelli_BC_CIV_47_desc",
         "_score": null,
@@ -25896,7 +25896,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Verdun_BM_67_desc",
         "_score": null,
@@ -25954,7 +25954,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Warschau_BU_1_Quart_1_desc",
         "_score": null,
@@ -25973,8 +25973,8 @@
           "signature": "Warschau, BU 1 [Quart  1]",
           "date_string": "2. Viertel 9. Jhd.",
           "ms_item": [
-            "Breviarium Alarici",
-            "Lex Salica"
+            "Lex Salica",
+            "Breviarium Alarici"
           ],
           "person": [],
           "provenance": "Collège Clermont, Paris; 1849 im Besitz von Professor Friedrich L. Keller.; 1862 aus dessen Nachlass von der UB Warschau gekauft.",
@@ -25997,8 +25997,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Breviarium Alarici",
-            "Lex Salica"
+            "Lex Salica",
+            "Breviarium Alarici"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -26038,7 +26038,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wien_NB_418_desc",
         "_score": null,
@@ -26115,7 +26115,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wien_NB_468_desc",
         "_score": null,
@@ -26214,7 +26214,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wien_NB_89_desc",
         "_score": null,
@@ -26326,7 +26326,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wien_NB_Cod_ser_n_3641_desc",
         "_score": null,
@@ -26398,7 +26398,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wiesbaden_HHSA_1105_2_desc",
         "_score": null,
@@ -26456,7 +26456,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Williamstown_Williams_College_Chapin_Library_7_desc",
         "_score": null,
@@ -26514,7 +26514,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wolfenbüttel_HAB_Cod_Guelf_16_Aug_2_desc",
         "_score": null,
@@ -26581,7 +26581,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wolfenbüttel_HAB_Cod_Guelf_535_18_Novi_desc",
         "_score": null,
@@ -26652,7 +26652,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wolfenbüttel_HAB_Cod_Guelf_82_Weiss_desc",
         "_score": null,
@@ -26716,7 +26716,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wolfenbüttel_HAB_Cod_Guelf_86_Weiss_desc",
         "_score": null,
@@ -26795,7 +26795,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wolfenbüttel_HAB_Cod_Guelf_96_Gud_Lat_desc",
         "_score": null,
@@ -26859,7 +26859,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wolfenbüttel_Niedersächsisches_staatsarchiv_1_2_desc",
         "_score": null,
@@ -26914,7 +26914,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Zürich_ZB_Ms_Car_C_1_desc",
         "_score": null,
@@ -26981,7 +26981,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Zürich_ZB_Z_XIV_14_desc",
         "_score": null,
@@ -27050,7 +27050,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Zürich_ZB_Z_XIV_26_VII_desc",
         "_score": null,

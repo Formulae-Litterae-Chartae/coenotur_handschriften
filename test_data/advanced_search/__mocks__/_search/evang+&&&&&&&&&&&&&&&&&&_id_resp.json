@@ -1,5 +1,5 @@
 {
-  "took": 28,
+  "took": 15,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,7 +15,7 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Basel_UB_B_II_11_desc",
         "_score": null,
@@ -92,7 +92,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Ham_248_desc",
         "_score": null,
@@ -163,7 +163,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Theol_Lat_Fol_733_desc",
         "_score": null,
@@ -245,7 +245,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Cambrai_BM_295_desc",
         "_score": null,
@@ -306,7 +306,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Dijon_AD_Inv_No_494_desc",
         "_score": null,
@@ -370,7 +370,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Grenoble_AD_Fragm_s_n_desc",
         "_score": null,
@@ -431,7 +431,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Köln_Dom_107_desc",
         "_score": null,
@@ -498,7 +498,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Köln_Dom_13_desc",
         "_score": null,
@@ -606,7 +606,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Laon_BM_63_desc",
         "_score": null,
@@ -673,7 +673,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Laon_BM_81_desc",
         "_score": null,
@@ -745,7 +745,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Add_11848_desc",
         "_score": null,
@@ -815,7 +815,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Add_11849_desc",
         "_score": null,
@@ -892,7 +892,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Egerton_609_desc",
         "_score": null,
@@ -976,7 +976,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Egerton_768_desc",
         "_score": null,
@@ -1060,7 +1060,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Harley_2790_desc",
         "_score": null,
@@ -1142,7 +1142,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Nancy_Cathedrale_Tresor_desc",
         "_score": null,
@@ -1218,7 +1218,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "New_York_PML_MS_191_desc",
         "_score": null,
@@ -1288,7 +1288,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "New_York_PML_MS_860_desc",
         "_score": null,
@@ -1355,7 +1355,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bib_de_l_Arsenal_1171_desc",
         "_score": null,
@@ -1432,7 +1432,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bibliotheque_Mazarine_274_desc",
         "_score": null,
@@ -1490,7 +1490,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bibliotheque_St_Genevieve_1260_desc",
         "_score": null,
@@ -1557,7 +1557,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_17227_desc",
         "_score": null,
@@ -1639,7 +1639,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_261_desc",
         "_score": null,
@@ -1754,7 +1754,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_263_desc",
         "_score": null,
@@ -1836,7 +1836,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_266_desc",
         "_score": null,
@@ -1937,7 +1937,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_267_desc",
         "_score": null,
@@ -1989,7 +1989,7 @@
           "autocomplete_ms_item": [
             "Evangelien"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": true,
           "tironoten": false,
@@ -2018,7 +2018,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_269_desc",
         "_score": null,
@@ -2088,7 +2088,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_274_desc",
         "_score": null,
@@ -2196,7 +2196,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_324_desc",
         "_score": null,
@@ -2276,7 +2276,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9385_desc",
         "_score": null,
@@ -2352,7 +2352,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1587_desc",
         "_score": null,
@@ -2487,7 +2487,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bnf_Latin_260_desc",
         "_score": null,
@@ -2576,7 +2576,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Vat_Lat_43_desc",
         "_score": null,
@@ -2615,7 +2615,7 @@
           "autocomplete_ms_item": [
             "Evangelien"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -2650,7 +2650,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc",
         "_score": null,
@@ -2724,7 +2724,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Stuttgart_WLB_II_40_desc",
         "_score": null,
@@ -2823,7 +2823,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_123_desc",
         "_score": null,
@@ -2881,7 +2881,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_22_desc",
         "_score": null,
@@ -2991,7 +2991,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_23_desc",
         "_score": null,
@@ -3068,7 +3068,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_25_desc",
         "_score": null,
@@ -3099,7 +3099,7 @@
           "autocomplete_ms_item": [
             "Evangelien"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -3126,7 +3126,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_289_desc",
         "_score": null,
@@ -3203,7 +3203,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_309_desc",
         "_score": null,
@@ -3287,7 +3287,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_310_desc",
         "_score": null,
@@ -3306,8 +3306,8 @@
           "signature": "Tours, BM, 310",
           "date_string": "Gregor: 11. Jhd.; Bernard: 12. Jhd.",
           "ms_item": [
-            "Bernard, 3 Predigten",
-            "Gregor, Expositio in Evangelia"
+            "Gregor, Expositio in Evangelia",
+            "Bernard, 3 Predigten"
           ],
           "person": [],
           "provenance": "St-Gatien; 2 Handschriften, die vermutlich später zusammengebunden wurden.",
@@ -3320,8 +3320,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Bernard, 3 Predigten",
-            "Gregor, Expositio in Evangelia"
+            "Gregor, Expositio in Evangelia",
+            "Bernard, 3 Predigten"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -3350,7 +3350,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Troyes_BM_138_desc",
         "_score": null,
@@ -3431,7 +3431,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Williamstown_Williams_College_Chapin_Library_7_desc",
         "_score": null,
@@ -3489,7 +3489,7 @@
         ]
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wolfenbüttel_HAB_Cod_Guelf_16_Aug_2_desc",
         "_score": null,

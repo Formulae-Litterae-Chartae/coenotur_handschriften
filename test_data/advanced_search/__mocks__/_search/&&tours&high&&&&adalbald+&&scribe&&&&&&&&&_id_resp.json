@@ -1,5 +1,5 @@
 {
-  "took": 60,
+  "took": 45,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,7 +15,7 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Autun_BM_19bis_desc",
         "_score": null,
@@ -120,7 +120,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Autun_BM_19bis_desc",
                   "_nested": {
@@ -148,7 +148,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Bamberg_SB_Misc_Bibl_1_desc",
         "_score": null,
@@ -238,7 +238,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Bamberg_SB_Misc_Bibl_1_desc",
                   "_nested": {
@@ -266,7 +266,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Bamberg_SB_Misc_Class_5_desc",
         "_score": null,
@@ -349,7 +349,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Bamberg_SB_Misc_Class_5_desc",
                   "_nested": {
@@ -377,7 +377,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Basel_UB_AN_I_3_desc",
         "_score": null,
@@ -464,7 +464,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Basel_UB_AN_I_3_desc",
                   "_nested": {
@@ -492,7 +492,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Basel_UB_B_II_11_desc",
         "_score": null,
@@ -582,7 +582,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Basel_UB_B_II_11_desc",
                   "_nested": {
@@ -610,7 +610,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Basel_UB_N_I_6_desc",
         "_score": null,
@@ -681,7 +681,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Basel_UB_N_I_6_desc",
                   "_nested": {
@@ -709,7 +709,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Ham_82_desc",
         "_score": null,
@@ -835,7 +835,7 @@
               "max_score": 1.7899126,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Berlin_SB_Ham_82_desc",
                   "_nested": {
@@ -863,7 +863,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Phill_1877_desc",
         "_score": null,
@@ -955,7 +955,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Berlin_SB_Phill_1877_desc",
                   "_nested": {
@@ -983,7 +983,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Berlin_SB_Theol_Lat_Fol_733_desc",
         "_score": null,
@@ -1078,7 +1078,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Berlin_SB_Theol_Lat_Fol_733_desc",
                   "_nested": {
@@ -1106,7 +1106,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Bern_Burgerbibliothek_165_desc",
         "_score": null,
@@ -1186,7 +1186,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Bern_Burgerbibliothek_165_desc",
                   "_nested": {
@@ -1214,7 +1214,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Bern_Burgerbibliothek_3_desc",
         "_score": null,
@@ -1294,7 +1294,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Bern_Burgerbibliothek_3_desc",
                   "_nested": {
@@ -1322,7 +1322,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Bern_Burgerbibliothek_4_desc",
         "_score": null,
@@ -1402,7 +1402,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Bern_Burgerbibliothek_4_desc",
                   "_nested": {
@@ -1430,7 +1430,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Chartres_BM_24_desc",
         "_score": null,
@@ -1516,7 +1516,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Chartres_BM_24_desc",
                   "_nested": {
@@ -1544,7 +1544,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_6_desc",
         "_score": null,
@@ -1646,7 +1646,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_6_desc",
                   "_nested": {
@@ -1669,7 +1669,7 @@
                   }
                 },
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_6_desc",
                   "_nested": {
@@ -1697,7 +1697,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Dijon_AD_Inv_No_494_desc",
         "_score": null,
@@ -1774,7 +1774,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Dijon_AD_Inv_No_494_desc",
                   "_nested": {
@@ -1802,7 +1802,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Epinal_BM_149_68_desc",
         "_score": null,
@@ -1879,7 +1879,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Epinal_BM_149_68_desc",
                   "_nested": {
@@ -1907,7 +1907,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Gent_UB_102_desc",
         "_score": null,
@@ -2000,7 +2000,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Gent_UB_102_desc",
                   "_nested": {
@@ -2028,7 +2028,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Halle_ULB_Qu_Cod_79_desc",
         "_score": null,
@@ -2113,7 +2113,7 @@
               "max_score": 9.474242,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Halle_ULB_Qu_Cod_79_desc",
                   "_nested": {
@@ -2147,7 +2147,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Halle_ULB_Qu_Cod_79_desc",
                   "_nested": {
@@ -2175,7 +2175,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Krakau_BJ_Ms_Lat_Qu_404_desc",
         "_score": null,
@@ -2194,8 +2194,8 @@
           "signature": "Krakau, BJ, Ms. Lat. Qu. 404",
           "date_string": "Anfang 9. Jhd.",
           "ms_item": [
-            "Eugenius Toletanus, Carmen II, 1-2",
             "Cicero, De Amicitia",
+            "Eugenius Toletanus, Carmen II, 1-2",
             "Publius Syrus, Sententiae"
           ],
           "person": [],
@@ -2209,8 +2209,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Eugenius Toletanus, Carmen II, 1-2",
             "Cicero, De Amicitia",
+            "Eugenius Toletanus, Carmen II, 1-2",
             "Publius Syrus, Sententiae"
           ],
           "illuminated": false,
@@ -2256,7 +2256,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Krakau_BJ_Ms_Lat_Qu_404_desc",
                   "_nested": {
@@ -2284,7 +2284,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Köln_Dom_107_desc",
         "_score": null,
@@ -2364,7 +2364,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Köln_Dom_107_desc",
                   "_nested": {
@@ -2392,7 +2392,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Köln_Dom_1_desc",
         "_score": null,
@@ -2490,7 +2490,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Köln_Dom_1_desc",
                   "_nested": {
@@ -2518,7 +2518,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Köln_Dom_98_desc",
         "_score": null,
@@ -2610,7 +2610,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Köln_Dom_98_desc",
                   "_nested": {
@@ -2638,7 +2638,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Laon_BM_220_desc",
         "_score": null,
@@ -2715,7 +2715,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Laon_BM_220_desc",
                   "_nested": {
@@ -2743,7 +2743,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Laon_BM_63_desc",
         "_score": null,
@@ -2823,7 +2823,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Laon_BM_63_desc",
                   "_nested": {
@@ -2851,7 +2851,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_BPL_1685_desc",
         "_score": null,
@@ -2925,7 +2925,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Leiden_UB_BPL_1685_desc",
                   "_nested": {
@@ -2953,7 +2953,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_Voss_Lat_F_113_desc",
         "_score": null,
@@ -2975,8 +2975,8 @@
           "signature": "Leiden, UB, Voss. Lat. F. 113",
           "date_string": "ca. 3. Viertel 9. Jhd.",
           "ms_item": [
-            "Misc",
-            "Anonymus Leidensis (G.), De situ orbis"
+            "Anonymus Leidensis (G.), De situ orbis",
+            "Misc"
           ],
           "person": [],
           "provenance": "; ",
@@ -2989,8 +2989,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Misc",
-            "Anonymus Leidensis (G.), De situ orbis"
+            "Anonymus Leidensis (G.), De situ orbis",
+            "Misc"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -3032,7 +3032,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Leiden_UB_Voss_Lat_F_113_desc",
                   "_nested": {
@@ -3060,7 +3060,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_Voss_Lat_F_73_desc",
         "_score": null,
@@ -3152,7 +3152,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Leiden_UB_Voss_Lat_F_73_desc",
                   "_nested": {
@@ -3180,7 +3180,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Leiden_UB_Voss_Lat_Q_20_desc",
         "_score": null,
@@ -3257,7 +3257,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Leiden_UB_Voss_Lat_Q_20_desc",
                   "_nested": {
@@ -3285,7 +3285,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Add_10546_desc",
         "_score": null,
@@ -3397,7 +3397,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "London_BL_Add_10546_desc",
                   "_nested": {
@@ -3425,7 +3425,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Add_11848_desc",
         "_score": null,
@@ -3508,7 +3508,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "London_BL_Add_11848_desc",
                   "_nested": {
@@ -3536,7 +3536,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Add_37768_desc",
         "_score": null,
@@ -3639,7 +3639,7 @@
               "max_score": 1.9024818,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "London_BL_Add_37768_desc",
                   "_nested": {
@@ -3667,7 +3667,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Egerton_609_desc",
         "_score": null,
@@ -3764,7 +3764,7 @@
               "max_score": 1.7873043,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "London_BL_Egerton_609_desc",
                   "_nested": {
@@ -3792,7 +3792,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Egerton_768_desc",
         "_score": null,
@@ -3889,7 +3889,7 @@
               "max_score": 1.9024818,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "London_BL_Egerton_768_desc",
                   "_nested": {
@@ -3917,7 +3917,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "London_BL_Harley_2793_desc",
         "_score": null,
@@ -3997,7 +3997,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "London_BL_Harley_2793_desc",
                   "_nested": {
@@ -4025,7 +4025,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Monza_BC_G_1_1_desc",
         "_score": null,
@@ -4114,7 +4114,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Monza_BC_G_1_1_desc",
                   "_nested": {
@@ -4142,7 +4142,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "München_BSB_Clm12741_desc",
         "_score": null,
@@ -4216,7 +4216,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "München_BSB_Clm12741_desc",
                   "_nested": {
@@ -4244,7 +4244,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "München_BSB_Clm29260-4_desc",
         "_score": null,
@@ -4343,7 +4343,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "München_BSB_Clm29260-4_desc",
                   "_nested": {
@@ -4371,7 +4371,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Nancy_Cathedrale_Tresor_desc",
         "_score": null,
@@ -4460,7 +4460,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Nancy_Cathedrale_Tresor_desc",
                   "_nested": {
@@ -4488,7 +4488,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "New_York_PML_MS_191_desc",
         "_score": null,
@@ -4571,7 +4571,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "New_York_PML_MS_191_desc",
                   "_nested": {
@@ -4599,7 +4599,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "New_York_PML_MS_860_desc",
         "_score": null,
@@ -4679,7 +4679,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "New_York_PML_MS_860_desc",
                   "_nested": {
@@ -4707,7 +4707,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Oxford_Bodleian_Library_MS_Bodl_218_desc",
         "_score": null,
@@ -4784,7 +4784,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Oxford_Bodleian_Library_MS_Bodl_218_desc",
                   "_nested": {
@@ -4812,7 +4812,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bibliotheque_St_Genevieve_1260_desc",
         "_score": null,
@@ -4892,7 +4892,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_Bibliotheque_St_Genevieve_1260_desc",
                   "_nested": {
@@ -4920,7 +4920,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_10756_desc",
         "_score": null,
@@ -5007,7 +5007,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_10756_desc",
                   "_nested": {
@@ -5035,7 +5035,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_10848_desc",
         "_score": null,
@@ -5160,7 +5160,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_10848_desc",
                   "_nested": {
@@ -5188,7 +5188,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_11514_desc",
         "_score": null,
@@ -5307,7 +5307,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_11514_desc",
                   "_nested": {
@@ -5330,7 +5330,7 @@
                   }
                 },
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_11514_desc",
                   "_nested": {
@@ -5358,7 +5358,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_12247_desc",
         "_score": null,
@@ -5457,7 +5457,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_12247_desc",
                   "_nested": {
@@ -5485,7 +5485,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_13759_desc",
         "_score": null,
@@ -5586,7 +5586,7 @@
               "max_score": 1.7899126,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_13759_desc",
                   "_nested": {
@@ -5614,7 +5614,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_1572_desc",
         "_score": null,
@@ -5698,7 +5698,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_1572_desc",
                   "_nested": {
@@ -5726,7 +5726,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_1711_desc",
         "_score": null,
@@ -5751,9 +5751,9 @@
           "signature": "Paris, BnF, Latin 1711",
           "date_string": "1. Drittel 9. Jhd.",
           "ms_item": [
-            "Optatus, De schismate donatistarum",
+            "Optatus, Gesta purgationis Caeciliani et Felicis",
             "Constantinus MagnusPetroniusAnnianusJulianus, Epistolae",
-            "Optatus, Gesta purgationis Caeciliani et Felicis"
+            "Optatus, De schismate donatistarum"
           ],
           "person": [
             {
@@ -5798,9 +5798,9 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Optatus, De schismate donatistarum",
+            "Optatus, Gesta purgationis Caeciliani et Felicis",
             "Constantinus MagnusPetroniusAnnianusJulianus, Epistolae",
-            "Optatus, Gesta purgationis Caeciliani et Felicis"
+            "Optatus, De schismate donatistarum"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -5845,7 +5845,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_1711_desc",
                   "_nested": {
@@ -5873,7 +5873,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_17227_desc",
         "_score": null,
@@ -5968,7 +5968,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_17227_desc",
                   "_nested": {
@@ -5996,7 +5996,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_250_desc",
         "_score": null,
@@ -6076,7 +6076,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_250_desc",
                   "_nested": {
@@ -6104,7 +6104,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_263_desc",
         "_score": null,
@@ -6199,7 +6199,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_263_desc",
                   "_nested": {
@@ -6227,7 +6227,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_266_desc",
         "_score": null,
@@ -6341,7 +6341,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_266_desc",
                   "_nested": {
@@ -6369,7 +6369,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_267_desc",
         "_score": null,
@@ -6421,7 +6421,7 @@
           "autocomplete_ms_item": [
             "Evangelien"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": true,
           "tironoten": false,
@@ -6463,7 +6463,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_267_desc",
                   "_nested": {
@@ -6491,7 +6491,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_269_desc",
         "_score": null,
@@ -6574,7 +6574,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_269_desc",
                   "_nested": {
@@ -6602,7 +6602,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_2718_desc",
         "_score": null,
@@ -6737,7 +6737,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_2718_desc",
                   "_nested": {
@@ -6760,7 +6760,7 @@
                   }
                 },
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_2718_desc",
                   "_nested": {
@@ -6788,7 +6788,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_324_desc",
         "_score": null,
@@ -6881,7 +6881,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_324_desc",
                   "_nested": {
@@ -6909,7 +6909,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_4808_desc",
         "_score": null,
@@ -6989,7 +6989,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_4808_desc",
                   "_nested": {
@@ -7017,7 +7017,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5581_desc",
         "_score": null,
@@ -7119,7 +7119,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_5581_desc",
                   "_nested": {
@@ -7147,7 +7147,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5582_desc",
         "_score": null,
@@ -7245,7 +7245,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_5582_desc",
                   "_nested": {
@@ -7273,7 +7273,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5584_desc",
         "_score": null,
@@ -7369,7 +7369,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_5584_desc",
                   "_nested": {
@@ -7397,7 +7397,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_5726_desc",
         "_score": null,
@@ -7480,7 +7480,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_5726_desc",
                   "_nested": {
@@ -7508,7 +7508,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_7502_desc",
         "_score": null,
@@ -7610,7 +7610,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_7502_desc",
                   "_nested": {
@@ -7638,7 +7638,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_8847_desc",
         "_score": null,
@@ -7727,7 +7727,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_8847_desc",
                   "_nested": {
@@ -7755,7 +7755,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9385_desc",
         "_score": null,
@@ -7844,7 +7844,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_9385_desc",
                   "_nested": {
@@ -7872,7 +7872,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9397_desc",
         "_score": null,
@@ -7975,7 +7975,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_9397_desc",
                   "_nested": {
@@ -8003,7 +8003,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9603_desc",
         "_score": null,
@@ -8115,7 +8115,7 @@
               "max_score": 1.9024818,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_9603_desc",
                   "_nested": {
@@ -8143,7 +8143,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_Latin_9604_desc",
         "_score": null,
@@ -8245,7 +8245,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_Latin_9604_desc",
                   "_nested": {
@@ -8273,7 +8273,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_1589_desc",
         "_score": null,
@@ -8384,7 +8384,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_NAL_1589_desc",
                   "_nested": {
@@ -8412,7 +8412,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_204_desc",
         "_score": null,
@@ -8502,7 +8502,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_NAL_204_desc",
                   "_nested": {
@@ -8530,7 +8530,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_BnF_NAL_2334_desc",
         "_score": null,
@@ -8675,7 +8675,7 @@
               "max_score": 1.9024818,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_BnF_NAL_2334_desc",
                   "_nested": {
@@ -8703,7 +8703,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bnf_Latin_113_desc",
         "_score": null,
@@ -8789,7 +8789,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_Bnf_Latin_113_desc",
                   "_nested": {
@@ -8817,7 +8817,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Paris_Bnf_Latin_260_desc",
         "_score": null,
@@ -8919,7 +8919,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Paris_Bnf_Latin_260_desc",
                   "_nested": {
@@ -8947,7 +8947,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Pal_Lat_1710_desc",
         "_score": null,
@@ -8988,7 +8988,7 @@
           "autocomplete_ms_item": [
             "Persius"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -9041,7 +9041,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Rom_Vat_Pal_Lat_1710_desc",
                   "_nested": {
@@ -9064,7 +9064,7 @@
                   }
                 },
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Rom_Vat_Pal_Lat_1710_desc",
                   "_nested": {
@@ -9092,7 +9092,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_1484_desc",
         "_score": null,
@@ -9138,7 +9138,7 @@
           "autocomplete_ms_item": [
             "Donatus, Interpretationes Vergilianae Aeneidos"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -9181,7 +9181,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Rom_Vat_Reg_Lat_1484_desc",
                   "_nested": {
@@ -9209,7 +9209,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Reg_Lat_762_desc",
         "_score": null,
@@ -9358,7 +9358,7 @@
           "autocomplete_ms_item": [
             "Titus Livius, Ab urbe condita"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -9401,7 +9401,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Rom_Vat_Reg_Lat_762_desc",
                   "_nested": {
@@ -9429,7 +9429,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Urb_Lat_1146_desc",
         "_score": null,
@@ -9531,7 +9531,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Rom_Vat_Urb_Lat_1146_desc",
                   "_nested": {
@@ -9559,7 +9559,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Urb_Lat_532_desc",
         "_score": null,
@@ -9581,8 +9581,8 @@
           "signature": "Rom, Vat., Urb. Lat. 532",
           "date_string": "Pre-Alcuinian; ca. Mitte 9. Jhd.",
           "ms_item": [
-            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae",
-            "Boethius, Contra Eutychen et Nestorium"
+            "Boethius, Contra Eutychen et Nestorium",
+            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae"
           ],
           "person": [],
           "provenance": "; ",
@@ -9605,8 +9605,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae",
-            "Boethius, Contra Eutychen et Nestorium"
+            "Boethius, Contra Eutychen et Nestorium",
+            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae"
           ],
           "illuminated": true,
           "musicNotation": false,
@@ -9661,7 +9661,7 @@
               "max_score": 1.9024818,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Rom_Vat_Urb_Lat_532_desc",
                   "_nested": {
@@ -9689,7 +9689,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Rom_Vat_Vat_Lat_1480_desc",
         "_score": null,
@@ -9763,7 +9763,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Rom_Vat_Vat_Lat_1480_desc",
                   "_nested": {
@@ -9791,7 +9791,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc",
         "_score": null,
@@ -9878,7 +9878,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc",
                   "_nested": {
@@ -9906,7 +9906,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Schaffhausen_SB_Min_58_desc",
         "_score": null,
@@ -9977,7 +9977,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Schaffhausen_SB_Min_58_desc",
                   "_nested": {
@@ -10005,7 +10005,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "St_Gallen_Cod_Sang_75_desc",
         "_score": null,
@@ -10103,7 +10103,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "St_Gallen_Cod_Sang_75_desc",
                   "_nested": {
@@ -10131,7 +10131,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Stuttgart_WLB_II_40_desc",
         "_score": null,
@@ -10243,7 +10243,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Stuttgart_WLB_II_40_desc",
                   "_nested": {
@@ -10271,7 +10271,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_106_desc",
         "_score": null,
@@ -10327,7 +10327,7 @@
             "Augustinus, Sermo de passione beati Iohannis Baptiste",
             "Hrabanus Maurus, Expositio in Matheum"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": true,
           "tironoten": false,
@@ -10375,7 +10375,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Tours_BM_106_desc",
                   "_nested": {
@@ -10403,7 +10403,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_196_desc",
         "_score": null,
@@ -10480,7 +10480,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Tours_BM_196_desc",
                   "_nested": {
@@ -10508,7 +10508,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_281_desc",
         "_score": null,
@@ -10573,7 +10573,7 @@
           "autocomplete_ms_item": [
             "Augustinus, Hieronymus, Briefe"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -10616,7 +10616,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Tours_BM_281_desc",
                   "_nested": {
@@ -10644,7 +10644,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_286_desc",
         "_score": null,
@@ -10678,7 +10678,7 @@
           "autocomplete_ms_item": [
             "Augustinus, Dialogus Augustini cum Licentio de Musica"
           ],
-          "illuminated": false,
+          "illuminated": true,
           "musicNotation": false,
           "exlibris": false,
           "tironoten": false,
@@ -10718,7 +10718,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Tours_BM_286_desc",
                   "_nested": {
@@ -10746,7 +10746,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_309_desc",
         "_score": null,
@@ -10843,7 +10843,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Tours_BM_309_desc",
                   "_nested": {
@@ -10871,7 +10871,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_335_desc",
         "_score": null,
@@ -10948,7 +10948,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Tours_BM_335_desc",
                   "_nested": {
@@ -10976,7 +10976,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_844_desc",
         "_score": null,
@@ -11063,7 +11063,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Tours_BM_844_desc",
                   "_nested": {
@@ -11091,7 +11091,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Tours_BM_887_desc",
         "_score": null,
@@ -11181,7 +11181,7 @@
               "max_score": 1.7899126,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Tours_BM_887_desc",
                   "_nested": {
@@ -11209,7 +11209,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Trier_SB_Hs1086_desc",
         "_score": null,
@@ -11308,7 +11308,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Trier_SB_Hs1086_desc",
                   "_nested": {
@@ -11336,7 +11336,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Troyes_BM_1742_desc",
         "_score": null,
@@ -11419,7 +11419,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Troyes_BM_1742_desc",
                   "_nested": {
@@ -11447,7 +11447,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Troyes_BM_29_desc",
         "_score": null,
@@ -11534,7 +11534,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Troyes_BM_29_desc",
                   "_nested": {
@@ -11562,7 +11562,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Warschau_BU_1_Quart_1_desc",
         "_score": null,
@@ -11581,8 +11581,8 @@
           "signature": "Warschau, BU 1 [Quart  1]",
           "date_string": "2. Viertel 9. Jhd.",
           "ms_item": [
-            "Breviarium Alarici",
-            "Lex Salica"
+            "Lex Salica",
+            "Breviarium Alarici"
           ],
           "person": [],
           "provenance": "Collège Clermont, Paris; 1849 im Besitz von Professor Friedrich L. Keller.; 1862 aus dessen Nachlass von der UB Warschau gekauft.",
@@ -11605,8 +11605,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Breviarium Alarici",
-            "Lex Salica"
+            "Lex Salica",
+            "Breviarium Alarici"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -11658,7 +11658,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Warschau_BU_1_Quart_1_desc",
                   "_nested": {
@@ -11686,7 +11686,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Wien_NB_468_desc",
         "_score": null,
@@ -11798,7 +11798,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Wien_NB_468_desc",
                   "_nested": {
@@ -11826,7 +11826,7 @@
         }
       },
       {
-        "_index": "coenotur_v59",
+        "_index": "coenotur_v61",
         "_type": "_doc",
         "_id": "Zürich_ZB_Ms_Car_C_1_desc",
         "_score": null,
@@ -11906,7 +11906,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v59",
+                  "_index": "coenotur_v61",
                   "_type": "_doc",
                   "_id": "Zürich_ZB_Ms_Car_C_1_desc",
                   "_nested": {

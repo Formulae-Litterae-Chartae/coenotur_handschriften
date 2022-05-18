@@ -20,6 +20,7 @@ from collections import OrderedDict
 from elasticsearch import Elasticsearch
 from fake_es import FakeElasticsearch
 from copy import copy
+import re
 
 
 class TestConfig(Config):
@@ -725,6 +726,10 @@ class TestES(CoenoturTests):
                                                   ('sort', '_id')])
                  }
 
+    def build_fake_es_filename(self, f_n: str = ''):
+        """ Replace problematic characters in the fake_es filenames"""
+        return re.sub(r'[\*\?\s]', '+', f_n)
+
     def test_build_sort_list(self):
         """ Ensure that build_sort_list returns the correct values"""
         self.assertEqual(Search.build_sort_list('_id'), '_id')
@@ -743,7 +748,7 @@ class TestES(CoenoturTests):
     @patch.object(Elasticsearch, "search")
     def test_lemma_simple_search(self, mock_search):
         test_args = copy(self.TEST_ARGS['test_simple_search'])
-        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        fake = FakeElasticsearch(self.build_fake_es_filename('&'.join(test_args.values())), 'advanced_search')
         body = fake.load_request()
         resp = fake.load_response()
         self.search_aggs = fake.load_aggs()
@@ -758,7 +763,7 @@ class TestES(CoenoturTests):
     @patch.object(Elasticsearch, "search")
     def test_lemma_simple_search_wildcard(self, mock_search):
         test_args = copy(self.TEST_ARGS['test_simple_search_wildcard'])
-        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        fake = FakeElasticsearch(self.build_fake_es_filename('&'.join(test_args.values())), 'advanced_search')
         body = fake.load_request()
         resp = fake.load_response()
         self.search_aggs = fake.load_aggs()
@@ -773,7 +778,7 @@ class TestES(CoenoturTests):
     @patch.object(Elasticsearch, "search")
     def test_with_bool_true(self, mock_search):
         test_args = copy(self.TEST_ARGS['test_with_bool_true'])
-        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        fake = FakeElasticsearch(self.build_fake_es_filename('&'.join(test_args.values())), 'advanced_search')
         body = fake.load_request()
         resp = fake.load_response()
         self.search_aggs = fake.load_aggs()
@@ -788,7 +793,7 @@ class TestES(CoenoturTests):
     @patch.object(Elasticsearch, "search")
     def test_flat_field_search(self, mock_search):
         test_args = copy(self.TEST_ARGS['test_flat_field_search'])
-        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        fake = FakeElasticsearch(self.build_fake_es_filename('&'.join(test_args.values())), 'advanced_search')
         body = fake.load_request()
         resp = fake.load_response()
         self.search_aggs = fake.load_aggs()
@@ -803,7 +808,7 @@ class TestES(CoenoturTests):
     @patch.object(Elasticsearch, "search")
     def test_nested_field_search(self, mock_search):
         test_args = copy(self.TEST_ARGS['test_nested_field_search'])
-        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        fake = FakeElasticsearch(self.build_fake_es_filename('&'.join(test_args.values())), 'advanced_search')
         body = fake.load_request()
         resp = fake.load_response()
         self.search_aggs = fake.load_aggs()
@@ -818,7 +823,7 @@ class TestES(CoenoturTests):
     @patch.object(Elasticsearch, "search")
     def test_year_search(self, mock_search):
         test_args = copy(self.TEST_ARGS['test_year_search'])
-        fake = FakeElasticsearch('&'.join(test_args.values()), 'advanced_search')
+        fake = FakeElasticsearch(self.build_fake_es_filename('&'.join(test_args.values())), 'advanced_search')
         body = fake.load_request()
         resp = fake.load_response()
         self.search_aggs = fake.load_aggs()
@@ -834,7 +839,7 @@ class TestES(CoenoturTests):
     def test_save_requests(self, mock_search):
         self.app.config['SAVE_REQUESTS'] = True
         test_args = copy(self.TEST_ARGS['test_year_search'])
-        file_name_base = '&'.join(test_args.values())
+        file_name_base = self.build_fake_es_filename('&'.join(test_args.values()))
         fake = FakeElasticsearch(file_name_base, 'advanced_search')
         body = fake.load_request()
         resp = fake.load_response()

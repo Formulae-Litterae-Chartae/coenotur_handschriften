@@ -2,6 +2,7 @@ from flask import current_app
 from typing import Dict, List, Union, Tuple
 from itertools import product
 from fake_es import FakeElasticsearch
+import re
 
 
 PRE_TAGS = "</small><strong>"
@@ -180,11 +181,12 @@ def advanced_query_index(simple_q: str = '',
                    "{pers_id}&{prov}&{w_dig}&" \
                    "{w_scr}&{w_ill}&" \
                    "{w_ex}&{w_tiro}&{w_neu}&{w_ink}&{sort}".format(
-            q=simple_q.replace(' ', '&'), id=identifier, o_p=orig_place, o_p_c='+'.join(orig_place_cert), y_s=orig_year_start,
+            q=re.sub(r'[\*\?\s]', '+', simple_q), id=identifier, o_p=orig_place, o_p_c='+'.join(orig_place_cert), y_s=orig_year_start,
             y_e=orig_year_end, ms_i=ms_item, person=person, pers_r='+'.join(person_role), pers_id=person_identifier,
             prov=provenance, w_dig=with_digitalisat, w_scr=with_scribe, w_ill=with_illuminations, w_ex=with_exlibris,
             w_tiro=with_tironoten, w_neu=with_neumierung, w_ink=with_ink_analysis, sort=sort)
         req_name = req_name.replace('/', '-')
+        req_name = re.sub(r'[\*\?\s]', '+', req_name)
         fake = FakeElasticsearch(req_name, "advanced_search")
         fake.save_request(body_template)
         # Remove the textual parts from the results
