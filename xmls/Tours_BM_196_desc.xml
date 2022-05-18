@@ -78,7 +78,7 @@
                      <scriptNote source="Winandy">Große, gut lesbare jüngere Minuskel</scriptNote>
                      <scriptNote ana="ink" n="Haupttext">
                         <p><locus n="fol. 32v, fol. 130r, fol. 187r, fol. 219v"/>Nicht-vitriolische Eisengallustinten</p>
-                        <p><locus n="fol. fol. 296"/>Vitriolische Eisengallustinten</p></scriptNote>                         
+                        <p><locus n="fol. 296"/>Vitriolische Eisengallustinten</p></scriptNote>                         
                      <scriptNote ana="ink" n="Lagenkontrollvermark">
                         <p><locus n="fol. 32v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                      <scriptNote ana="ink" n="Marginalia">
@@ -96,8 +96,8 @@
                         <p><locus type="Incipit-Explicit" n="fol. 130r"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Initiale" n="fol. 32v, fol. 219v"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Text" n="fol. 187r, fol. 296r"/>Zinnober</p>
-                        <p><locus type="Marginalia" n="fol. "/>Mischung aus Minium und Zinnober</p>
-                        <p><locus type="Strich" n="fol. 219v"/>Miniumr</p></decoNote>
+                        <p><locus type="Marginalia" n="fol. 187r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Linie" n="fol. 219v"/>Miniumr</p></decoNote>
                      <decoNote ana="pigments" n="Gold">
                         <p><locus type="Initiale" n="fol. 32v"/>Messing</p></decoNote>
                      <decoNote ana="pigments" n="Blau">

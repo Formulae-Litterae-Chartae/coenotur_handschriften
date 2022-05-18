@@ -59,7 +59,7 @@
                   <scriptDesc>
                      <scriptNote source="Winandy">Jüngere Minuskel in zum Teil stark abweichendem Stil und Alter. Zahlreiche Kürzungen.</scriptNote>
                         <scriptNote ana="ink" n="Haupttext">
-                           <p><locus n="fol. f21r, fol. 72v, fol. 81r, fol. 119v, fol. 120r, fol. 128r, fol. 168v, fol. 175v, fol. 182r"/>Nicht-vitriolische Eisengallustinten</p>
+                           <p><locus n="fol. 21r, fol. 72v, fol. 81r, fol. 119v, fol. 120r, fol. 128r, fol. 168v, fol. 175v, fol. 182r"/>Nicht-vitriolische Eisengallustinten</p>
                            <p><locus n="fol. 81r, fol. 220v, fol. 231v"/>Vitriolische Eisengallustinten</p></scriptNote>                         
                         <scriptNote ana="ink" n="Initiale">
                            <p><locus n="fol. 110v, fol. 220v, fol. 231v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
@@ -75,15 +75,15 @@
                         <scriptNote ana="ink" n="Korrektur">
                            <p><locus n="fol. 161v"/>Nicht-vitriolische Eisengallustinten</p>
                            <p><locus n="fol. 219v, fol. 220v"/>Vitriolische Eisengallustinten</p></scriptNote>
-                        <scriptNote ana="ink" n="Zeichnung">
-                           <p><locus n="fol. 175v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                      </scriptDesc>
                      <decoDesc>
-                     <decoNote ana="pigments" n="Rot">
-                        <p><locus type="Incipit-Explicit" n="fol. 120r, fol. 155v"/>Minium</p>
-                        <p><locus type="Initiale" n="fol. 151v"/>Minium</p>
-                        <p><locus type="Ausfüllen" n="fol. 72v, fol. 128r, fol. 168v"/>Minium</p>
-                        <p><locus type="Zeichnung" n="fol. 155v, fol. 175v"/>Minium</p></decoNote>
+                        <decoNote ana="pigments" n="Rot">
+                           <p><locus type="Incipit-Explicit" n="fol. 120r, fol. 155v"/>Minium</p>
+                           <p><locus type="Initiale" n="fol. 151v"/>Minium</p>
+                           <p><locus type="Ausfüllung" n="fol. 72v, fol. 128r, fol. 168v"/>Minium</p>
+                           <p><locus type="Zeichnung" n="fol. 155v, fol. 175v"/>Minium</p></decoNote>
+                        <decoNote ana="pigments" n="Schwarz">
+                           <p><locus type="Zeichnung" n="fol. 175v"/>Nicht-vitriolische Eisengallustinten</p></decoNote>
                      <decoNote>Zahlreiche der Initialen finden sich digitalisiert in der Seite der BMVV die über den Link zum Onlinkatalog zu finden ist.</decoNote>
                      <decoNote type="initial">
                         <p><locus n="1r"/>Einfache I-Initiale in Braun</p>

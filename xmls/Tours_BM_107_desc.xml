@@ -66,13 +66,12 @@
                         <p><locus n="fol. 47v, fol. 117r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                      <scriptNote ana="ink" n="NT">
                         <p><locus n="fol. 84r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                     <scriptNote ana="ink" n="Neumen">
-                        <p><locus n="fol. Bv"/>Vitriolische Eisengallustinten</p></scriptNote>
-                     <scriptNote ana="ink" n="Andere">
-                        <p><locus n="fol. 104r, fol. 105v (Anführungszeichen)"/>Nicht-vitriolische Eisengallustinten</p>
-                        <p><locus n="fol. (NT)"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                
+                     <scriptNote ana="ink" n="Neume">
+                        <p><locus n="fol. Bv"/>Vitriolische Eisengallustinten</p></scriptNote>                
                   </scriptDesc>
                   <decoDesc>
+                     <decoNote ana="pigments" n="Schwarz">
+                        <p><locus type="Anführungszeichen" n="fol. 104r, fol. 105v"/>Nicht-vitriolische Eisengallustinten</p></decoNote>
                      <decoNote ana="pigments" n="Rot">
                         <p><locus type="Incipit-Explicit" n="fol. 24r"/>Minium</p>
                         <p><locus type="Initiale" n="fol. 24v"/>Minium</p>                        

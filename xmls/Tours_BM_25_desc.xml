@@ -63,15 +63,16 @@
                         <p><locus n="fol. 103r(Maniculae)"/>Vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote><locus n="43v"/>Miniatur von Maria-Magdalena und den heiligen Frauen
-                        am Grab </decoNote>
+                     <decoNote type="miniature">
+                        <p><locus n="43v"/>Miniatur von Maria-Magdalena und den heiligen Frauen
+                           am Grab</p></decoNote>
                      <decoNote ana="pigments" n="Rot">                        
                         <p><locus type="Initiale" n="fol. 4v, fol. 25v, fol. 45v, fol. 71v, fol. 99v"/>Zinnober</p>
-                        <p><locus type="Title" n="fol. 45v, fol. 92r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Titel" n="fol. 45v, fol. 92r"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Konkordanz" n="fol. 4v, fol. 50r, fol. 71v"/>Zinnober</p></decoNote>
                      <decoNote ana="pigments" n="Blau">
                         <p><locus type="Initiale" n="fol. 4v, fol. 25v, fol. 71v, fol. 99v"/></p>
-                        <p><locus type="Title" n="fol. 92r"/></p></decoNote>
+                        <p><locus type="Titel" n="fol. 92r"/></p></decoNote>
                   </decoDesc>
                   <additions>
                      <p/>
