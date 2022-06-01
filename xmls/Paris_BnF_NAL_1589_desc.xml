@@ -74,10 +74,8 @@
                      <scriptNote>Turonische Minuskel</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p><locus from="9" to="13"/>Gold und Rot auf Purpur, mit grün-orangenem
-                           Rand</p>
-                     </decoNote>
+                     <decoNote type="frame">
+                        <p><locus from="9r" to="12v"/>Gold und Rot auf Purpur, mit grün-orangenem Rand</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="122"/><seg type="lat">Liber abbatiae S. Mariae de

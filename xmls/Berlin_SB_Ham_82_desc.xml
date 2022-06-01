@@ -386,8 +386,8 @@
                                 <p><locus n="fol. 130r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote ana="ink" n="Überschrift">
                                 <p><locus n="fol. 3r, fol. 33r, fol. 58v, fol. 88r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Andere">
-                                <p><locus n="fol. 347r (Konkordanz)"/>Vitriolische Eisengallustinten</p></scriptNote>
+                            <scriptNote ana="ink" n="Konkordanz">
+                                <p><locus n="fol. 347r"/>Vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote source="Rand" xml:id="Kursive">Karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>

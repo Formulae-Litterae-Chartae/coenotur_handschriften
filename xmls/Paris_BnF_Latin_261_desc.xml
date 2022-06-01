@@ -79,29 +79,29 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote ana="pigments" n="Schwarz">
-                        <p><locus type="Miniaturen" n="fol. 52r, fol. 111v"/>Rußtusche</p></decoNote>
+                        <p><locus type="Miniatur" n="fol. 52r, fol. 111v"/>Rußtusche</p></decoNote>
                      <decoNote ana="pigments" n="Rot">
-                        <p><locus type="Miniaturen" n="fol. 111v"/>Mischung aus Minium und Zinnober</p>
-                        <p><locus type="Miniaturen" n="fol. 111v"/>Minium</p>
+                        <p><locus type="Miniatur" n="fol. 111v"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Miniatur" n="fol. 111v"/>Minium</p>
                         <p><locus type="Initiale" n="fol. 141v"/>Mischung aus Minium und Zinnober</p></decoNote>
                      <decoNote ana="pigments" n="Gold">
-                        <p><locus type="Miniaturen" n="fol. 52r"/>Gold + Kupfer</p>
-                        <p><locus type="Miniaturen" n="fol. 111v"/>Gold + Kupfer + Blei</p></decoNote>
+                        <p><locus type="Miniatur" n="fol. 52r"/>Gold + Kupfer</p>
+                        <p><locus type="Miniatur" n="fol. 111v"/>Gold + Kupfer + Blei</p></decoNote>
                      <decoNote ana="pigments" n="Blau">
-                        <p><locus type="Miniaturen" n="fol. 52r"/>____________</p>
-                        <p><locus type="Miniaturen" n="fol. 52r"/>____________</p></decoNote>
+                        <p><locus type="Miniatur" n="fol. 52r"/>____________</p>
+                        <p><locus type="Miniatur" n="fol. 52r"/>____________</p></decoNote>
                      <decoNote ana="pigments" n="Grün">
-                        <p><locus type="Miniaturen" n="fol. 111v"/>____________</p></decoNote>
+                        <p><locus type="Miniatur" n="fol. 111v"/>____________</p></decoNote>
                      <decoNote ana="pigments" n="Weiß">
-                        <p><locus type="Miniaturen" n="fol. 111v"/>Bleiweiß</p></decoNote>
+                        <p><locus type="Miniatur" n="fol. 111v"/>Bleiweiß</p></decoNote>
                      <decoNote ana="pigments" n="Rosa">
-                        <p><locus type="Miniaturen" n="fol. 111v"/>____________</p></decoNote>
+                        <p><locus type="Miniatur" n="fol. 111v"/>____________</p></decoNote>
                      <decoNote ana="pigments" n="Gelb">
-                        <p><locus type="Miniaturen" n="fol. 111v"/>____________</p></decoNote>  
+                        <p><locus type="Miniatur" n="fol. 111v"/>____________</p></decoNote>  
                      <decoNote ana="pigments" n="Orange">
-                        <p><locus type="Miniaturen" n="fol. 52r"/>____________</p></decoNote>   
+                        <p><locus type="Miniatur" n="fol. 52r"/>____________</p></decoNote>   
                      <decoNote ana="pigments" n="Violett">
-                        <p><locus type="Miniaturen" n="fol. 52r, fol. 111v"/>____________</p></decoNote>               
+                        <p><locus type="Miniatur" n="fol. 52r, fol. 111v"/>____________</p></decoNote>               
                      <decoNote type="miniature">
                         <p><locus n="17v"/>Vollseitige Miniatur: Heiliger Matthäus Schrift</p>
                         <p><locus n="18r"/>Vollseitige Miniatur: Christus in Majestät</p>

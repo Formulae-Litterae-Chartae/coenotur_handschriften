@@ -56,12 +56,12 @@
                         <p><locus n="fol. 6r, fol. 154r"/>Vitriolische Eisengallustinten</p></scriptNote>
                      <scriptNote ana="ink" n="Marginalia">
                         <p><locus n="fol. 6r"/>Vitriolische Eisengallustinten</p></scriptNote>  
-                     <scriptNote ana="ink" n="Neumen">
+                     <scriptNote ana="ink" n="Neume">
                         <p><locus n="fol. 154r"/>Vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote ana="pigments" n="Rot">
-                        <p><locus type="Strich" n="fol. 6r, fol. 154r"/>Zinnober</p></decoNote>
+                        <p><locus type="Linie" n="fol. 6r, fol. 154r"/>Zinnober</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="2v"/><seg type="lat">Hic liber est ex legato magistri Johannis Tenegot, quondam canonici ecclesie beatissimi Martini Turonensis, qui cathenatus in choro maneat hujus Turonensis ecclesie, quo legentes amplius excitentur ad devotionem predicti dancti. Et traditus est per manus eximii sacre theologie professoris magistri Jordani Morini, executoris predicti deffuncti Anno Domini MCCCvicesimo nono, die secunda januarii</seg>, 1429.</p>
