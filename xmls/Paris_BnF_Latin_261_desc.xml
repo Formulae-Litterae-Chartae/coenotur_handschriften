@@ -69,7 +69,8 @@
                      <scriptNote source="Rand">Perfektionierte turonische Minuskel</scriptNote>
                      <scriptNote ana="ink" n="Haupttext">
                         <p><locus n="fol. 3r, fol. 43r, fol. 72r, fol. 87r, fol. 140r, fol. 141v"/>Nicht-vitriolische Eisengallustinten</p>
-                        <p><locus n="fol. 26r"/>Vitriolische Eisengallustinten</p></scriptNote>                         
+                        <p><locus n="fol. 26r"/>Vitriolische Eisengallustinten</p>
+                        <p>Der Grund für die Änderung des verwendeten Tintentyps wurde nicht gefunden. </p></scriptNote>
                      <scriptNote ana="ink" n="Lagenkontrollvermark">
                         <p><locus n="fol. 141v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                      <scriptNote ana="ink" n="Korrektur">
@@ -88,20 +89,13 @@
                         <p><locus type="Miniatur" n="fol. 52r"/>Gold + Kupfer</p>
                         <p><locus type="Miniatur" n="fol. 111v"/>Gold + Kupfer + Blei</p></decoNote>
                      <decoNote ana="pigments" n="Blau">
-                        <p><locus type="Miniatur" n="fol. 52r"/>____________</p>
-                        <p><locus type="Miniatur" n="fol. 52r"/>____________</p></decoNote>
-                     <decoNote ana="pigments" n="Grün">
-                        <p><locus type="Miniatur" n="fol. 111v"/>____________</p></decoNote>
+                        <p><locus type="Miniatur" n="fol. 52r"/>Organisch. Weitere Analysen sind erforderlich, um die Natur des Pigments zu klären. </p></decoNote>
                      <decoNote ana="pigments" n="Weiß">
                         <p><locus type="Miniatur" n="fol. 111v"/>Bleiweiß</p></decoNote>
-                     <decoNote ana="pigments" n="Rosa">
-                        <p><locus type="Miniatur" n="fol. 111v"/>____________</p></decoNote>
                      <decoNote ana="pigments" n="Gelb">
-                        <p><locus type="Miniatur" n="fol. 111v"/>____________</p></decoNote>  
-                     <decoNote ana="pigments" n="Orange">
-                        <p><locus type="Miniatur" n="fol. 52r"/>____________</p></decoNote>   
+                        <p><locus type="Miniatur" n="fol. 111v"/>Organisch. Weitere Analysen sind erforderlich, um die Natur des Pigments zu klären. </p></decoNote>
                      <decoNote ana="pigments" n="Violett">
-                        <p><locus type="Miniatur" n="fol. 52r, fol. 111v"/>____________</p></decoNote>               
+                        <p><locus type="Miniatur" n="fol. 52r, fol. 111v"/>Organisch. Weitere Analysen sind erforderlich, um die Natur des Pigments zu klären. </p></decoNote>               
                      <decoNote type="miniature">
                         <p><locus n="17v"/>Vollseitige Miniatur: Heiliger Matthäus Schrift</p>
                         <p><locus n="18r"/>Vollseitige Miniatur: Christus in Majestät</p>

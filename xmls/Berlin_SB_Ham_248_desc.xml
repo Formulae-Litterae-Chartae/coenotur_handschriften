@@ -96,8 +96,9 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote ana="ink" n="Haupttext">
-                        <p><locus n="fol. 13r, fol. 19r, fol. 65v, fol. 80r, fol. 106r"/>Nicht-vitriolische Eisengallustinten</p>
-                        <p><locus n="fol. 223r"/>Vitriolische Eisengallustinten</p></scriptNote>
+                        <p><locus n="fol. 13r"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 19r, fol. 65v, fol. 80r, fol. 106r, fol. 223r"/>Vitriolische Eisengallustinten</p>
+                        <p>Der Unterschied im verwendeten Tintentyp fällt mit dem Wechsel der Hand zusammen (siehe Angaben zu Schreibern (RAND; FINGERNAGEL)).</p></scriptNote>
                      <scriptNote ana="ink" n="Zusatz">
                         <p><locus n="fol. 19r, fol. 106r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                      <scriptNote ana="ink" n="Marginalia">
@@ -118,7 +119,7 @@
                      <decoNote ana="pigments" n="Gold">
                         <p><locus type="Initiale" n="fol. 2r, fol. 65v"/>Gold</p></decoNote>
                      <decoNote ana="pigments" n="Blau">
-                        <p><locus type="Initiale" n="fol. 2r"/>_____________</p></decoNote>
+                        <p><locus type="Initiale" n="fol. 2r"/>Organisch. Weitere Analysen sind erforderlich, um die Natur des Pigments zu klären.</p></decoNote>
                      <decoNote ana="pigments" n="Grün">
                         <p><locus type="Initiale" n="fol. 2r"/>Kupfergrün</p></decoNote>
                      <decoNote type="canon">
