@@ -31,7 +31,7 @@
       ]
     }
   },
-  "sort": "_id",
+  "sort": "signature",
   "size": 10000,
   "aggs": {
     "range": {

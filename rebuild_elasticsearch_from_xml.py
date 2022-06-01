@@ -19,12 +19,13 @@ print('Removing old indices')
 old_index_number = 0
 old_indices = []
 for k, v in es.indices.get_alias().items():
-    if 'all' not in v['aliases']:
-        es.indices.delete(k)
-        print('Index {} has been removed'.format(k))
-    else:
-        old_indices.append(k)
-        old_index_number = int(re.sub(r'coenotur_v(\d+)', r'\1', k))
+    if 'coenotur' in k:
+        if 'coenotur' not in v['aliases']:
+            es.indices.delete(k)
+            print('Index {} has been removed'.format(k))
+        else:
+            old_indices.append(k)
+            old_index_number = int(re.sub(r'coenotur_v(\d+)', r'\1', k))
         
 new_index = 'coenotur_v{}'.format(old_index_number + 1)
 
@@ -203,9 +204,8 @@ for file in files:
 # delete previous aliases to each of the collections and point them instead to the new index
 for index in old_indices:
     try:
-        es.indices.delete_alias(index=index, name='_all')
+        es.indices.delete_alias(index=index, name='coenotur')
     except Exception as E:
         print(E, 'No alias found for {}'.format(index))
 
-es.indices.put_alias(index=new_index, name='all')
 es.indices.put_alias(index=new_index, name='coenotur')

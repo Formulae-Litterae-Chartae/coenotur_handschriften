@@ -84,13 +84,13 @@
     "id": "Chur_BA_Fragmente_desc"
   },
   {
+    "id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_4_desc"
+  },
+  {
     "id": "Den_Haag_Museum_Meermanno_Westreenianum_10_A_1_desc"
   },
   {
     "id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_11_desc"
-  },
-  {
-    "id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_4_desc"
   },
   {
     "id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_6_desc"
@@ -112,6 +112,9 @@
   },
   {
     "id": "Florenz_Museo_Nazionale_Bargello_Fächer_desc"
+  },
+  {
+    "id": "Obermachtal_Beuron_desc"
   },
   {
     "id": "Gent_UB_102_desc"
@@ -144,19 +147,19 @@
     "id": "Kopenhagen_KB_NKS_252_desc"
   },
   {
+    "id": "Krakau_BJ_Ms_Lat_Qu_404_desc"
+  },
+  {
     "id": "Krakau_BJ_Ms_Lat_Qu_150_desc"
   },
   {
-    "id": "Krakau_BJ_Ms_Lat_Qu_404_desc"
+    "id": "Köln_Dom_1_desc"
   },
   {
     "id": "Köln_Dom_107_desc"
   },
   {
     "id": "Köln_Dom_13_desc"
-  },
-  {
-    "id": "Köln_Dom_1_desc"
   },
   {
     "id": "Köln_Dom_98_desc"
@@ -195,6 +198,9 @@
     "id": "Leiden_UB_Voss_Lat_Q_98_desc"
   },
   {
+    "id": "London_BL_Add_47678_desc"
+  },
+  {
     "id": "London_BL_Add_10546_desc"
   },
   {
@@ -205,9 +211,6 @@
   },
   {
     "id": "London_BL_Add_37768_desc"
-  },
-  {
-    "id": "London_BL_Add_47678_desc"
   },
   {
     "id": "London_BL_Arundel_125_desc"
@@ -267,9 +270,6 @@
     "id": "New_York_PML_MS_860_desc"
   },
   {
-    "id": "Obermachtal_Beuron_desc"
-  },
-  {
     "id": "Orléans_BM_83_80_desc"
   },
   {
@@ -288,13 +288,13 @@
     "id": "Paris_Bib_de_l_Arsenal_903_desc"
   },
   {
-    "id": "Paris_Bibliotheque_Mazarine_274_desc"
-  },
-  {
     "id": "Paris_Bibliotheque_St_Genevieve_1260_desc"
   },
   {
     "id": "Paris_Bibliotheque_St_Genevieve_232_desc"
+  },
+  {
+    "id": "Paris_Bibliotheque_Mazarine_274_desc"
   },
   {
     "id": "Paris_BnF_Latin_10612_desc"
@@ -304,6 +304,9 @@
   },
   {
     "id": "Paris_BnF_Latin_10848_desc"
+  },
+  {
+    "id": "Paris_Bnf_Latin_113_desc"
   },
   {
     "id": "Paris_BnF_Latin_11514_desc"
@@ -363,10 +366,13 @@
     "id": "Paris_BnF_Latin_2204_desc"
   },
   {
+    "id": "Paris_BnF_Latin_25_desc"
+  },
+  {
     "id": "Paris_BnF_Latin_250_desc"
   },
   {
-    "id": "Paris_BnF_Latin_25_desc"
+    "id": "Paris_Bnf_Latin_260_desc"
   },
   {
     "id": "Paris_BnF_Latin_261_desc"
@@ -454,6 +460,9 @@
   },
   {
     "id": "Paris_BnF_Latin_6370_desc"
+  },
+  {
+    "id": "Paris_Bnf_Latin_68_desc"
   },
   {
     "id": "Paris_BnF_Latin_7493_desc"
@@ -612,15 +621,6 @@
     "id": "Paris_BnF_NAL_454_desc"
   },
   {
-    "id": "Paris_Bnf_Latin_113_desc"
-  },
-  {
-    "id": "Paris_Bnf_Latin_260_desc"
-  },
-  {
-    "id": "Paris_Bnf_Latin_68_desc"
-  },
-  {
     "id": "Regensburg_Stadtarchiv_s_n_desc"
   },
   {
@@ -759,10 +759,13 @@
     "id": "Stuttgart_HSA_Bu_IX_b_nr_626_desc"
   },
   {
+    "id": "Stuttgart_WLB_II_40_desc"
+  },
+  {
     "id": "Stuttgart_WLB_Hist_4_36_desc"
   },
   {
-    "id": "Stuttgart_WLB_II_40_desc"
+    "id": "Tours_BM_10_desc"
   },
   {
     "id": "Tours_BM_1016_desc"
@@ -801,9 +804,6 @@
     "id": "Tours_BM_107_desc"
   },
   {
-    "id": "Tours_BM_10_desc"
-  },
-  {
     "id": "Tours_BM_123_desc"
   },
   {
@@ -813,19 +813,19 @@
     "id": "Tours_BM_14_desc"
   },
   {
+    "id": "Tours_BM_15_desc"
+  },
+  {
     "id": "Tours_BM_1521_desc"
   },
   {
     "id": "Tours_BM_153_desc"
   },
   {
-    "id": "Tours_BM_15_desc"
+    "id": "Tours_BM_18_desc"
   },
   {
     "id": "Tours_BM_184_desc"
-  },
-  {
-    "id": "Tours_BM_18_desc"
   },
   {
     "id": "Tours_BM_193_desc"
@@ -849,13 +849,13 @@
     "id": "Tours_BM_24_desc"
   },
   {
+    "id": "Tours_BM_25_desc"
+  },
+  {
     "id": "Tours_BM_252_desc"
   },
   {
     "id": "Tours_BM_256_desc"
-  },
-  {
-    "id": "Tours_BM_25_desc"
   },
   {
     "id": "Tours_BM_261_desc"
@@ -951,13 +951,13 @@
     "id": "Tours_BM_316_desc"
   },
   {
+    "id": "Tours_BM_33_desc"
+  },
+  {
     "id": "Tours_BM_334_desc"
   },
   {
     "id": "Tours_BM_335_desc"
-  },
-  {
-    "id": "Tours_BM_33_desc"
   },
   {
     "id": "Tours_BM_497_desc"
@@ -996,13 +996,13 @@
     "id": "Trier_Bistumsarchiv_95_1_2_desc"
   },
   {
+    "id": "Trier_SB_Inc_921_desc"
+  },
+  {
     "id": "Trier_SB_Hs1086_desc"
   },
   {
     "id": "Trier_SB_Hs31_desc"
-  },
-  {
-    "id": "Trier_SB_Inc_921_desc"
   },
   {
     "id": "Troyes_BM_1069_desc"

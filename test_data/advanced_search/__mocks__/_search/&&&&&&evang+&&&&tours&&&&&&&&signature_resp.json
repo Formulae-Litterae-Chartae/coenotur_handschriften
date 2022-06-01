@@ -1,5 +1,5 @@
 {
-  "took": 3,
+  "took": 8,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,8 +15,7 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Egerton_609_desc",
         "_score": null,
         "_source": {
@@ -98,12 +97,11 @@
           ]
         },
         "sort": [
-          "London_BL_Egerton_609_desc"
+          "London, BL, Egerton 609"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_NAL_1587_desc",
         "_score": null,
         "_source": {
@@ -236,7 +234,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_NAL_1587_desc"
+          "Paris, BnF, NAL 1587"
         ]
       }
     ]
