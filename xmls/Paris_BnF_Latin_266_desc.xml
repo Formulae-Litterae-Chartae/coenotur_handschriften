@@ -72,10 +72,16 @@
                         Goldschrift</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>
-                        <p source="Köhler">Miniaturen durch Maître C, den Maître der
-                           Vivian-Bibel</p>
-                     </decoNote>
+                     <decoNote type="miniature">
+                        <p><locus source="Köhler"/>Miniaturen durch <persName>Maître C</persName> "le Rémois" (siehe Paris, Bnf, Latin 1 und Latin 9385)</p>
+                        <p><locus n="1v"/>Porträt von Lothar I</p>
+                        <p><locus n="2v"/>Majestätischer Christus (Maiestas Domini) in einer Mandorla, umgeben vom Tetramorph</p>
+                        <p><locus n="22v"/>Porträts der Evangelisten: Matthäus</p>
+                        <p><locus n="75v"/>Porträts der Evangelisten: Markus</p>
+                        <p><locus n="112v"/>Porträts der Evangelisten: Lukas</p>
+                        <p><locus n="171v"/>Porträts der Evangelisten: Johannes</p></decoNote>
+                     <decoNote type="canon">
+                        <p><locus n="12-17v"/>Verzierte Kanontafeln</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="67v">aus Notre-Dame de Pontifroy, 1367</locus></p>

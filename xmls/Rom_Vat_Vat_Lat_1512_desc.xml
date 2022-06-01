@@ -61,8 +61,6 @@
                             <scriptNote source="Rand">Continentale Schrift</scriptNote>
                             <scriptNote ana="ink" n="Haupttext">
                                 <p><locus n="fol. 29r, fol. 226v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Zeichnung">
-                                <p><locus n="fol. 29r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="initial">
@@ -77,6 +75,8 @@
                                 <p><locus n="110r"/>Zwei Zeichnungen am Rand (eine am inneren Rand, eine am äußeren Rand).</p></decoNote>
                             <decoNote ana="pigments" n="Rot">
                                 <p><locus type="Text" n="fol. 29r, fol. 226v"/>Minium</p></decoNote>
+                            <decoNote ana="pigments" n="Schwarz">
+                                <p><locus type="Zeichnung" n="fol. 29r"/>Nicht-vitriolische Eisengallustinten</p></decoNote>
                         </decoDesc>
                         <additions>
                             <p>Marginalia: vereinzelte Kommentare und einzelne farbige Zeichnungen</p>

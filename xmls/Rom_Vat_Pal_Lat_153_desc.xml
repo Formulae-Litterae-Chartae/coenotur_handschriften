@@ -62,7 +62,6 @@
                         </handDesc>
                         <scriptDesc>
                             <scriptNote ana="ink" n="Haupttext">
-                                <p><locus n="fol. "/>Vitriolische Eisengallustinten</p>
                                 <p><locus n="fol. 6r, fol. 41r, fol. 59r, fol. 63r, fol. 81v, fol. 84r, fol. 105r, fol. 108r, fol. 114r, fol. 120r, fol. 121v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote ana="ink" n="Lagenkontrollvermark">
                                 <p><locus n="fol. 35v, fol. 75v, fol. 121v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
@@ -73,18 +72,16 @@
                                 <p><locus n="fol. 120r"/>Vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote ana="ink" n="NT">
                                 <p><locus n="fol. 75v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Anführungszeichen">
-                                <p><locus n="fol. 13v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote ana="ink" n="Zusatz">
                                 <p><locus n="fol. 41r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Korrektur">
-                                <p><locus n="fol. "/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote ana="pigments" n="Rot">
                                 <p><locus type="Incipit-Explicit" n="fol. 118r"/>Mischung aus Minium und Zinnober</p>
                                 <p><locus type="Initiale" n="fol. 13v"/>Zinnober</p>
                                 <p><locus type="Initiale" n="fol. 84r"/>Mischung aus Minium und Zinnober</p></decoNote>
+                            <decoNote ana="pigments" n="Schwarz">
+                                <p><locus type="Anführungszeichen" n="fol. 13v"/>Nicht-vitriolische Eisengallustinten</p></decoNote>
                         </decoDesc>
                         <additions>
                             <p n="Korrekturen">Zahlreiche Korrekturen von mindestens 2 Händen am Rand</p>

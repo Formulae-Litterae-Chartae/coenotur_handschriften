@@ -66,8 +66,6 @@
                             <scriptNote ana="ink" n="NT">
                                 <p><locus n="fol. 3r, fol. 37r"/>Nicht-vitriolische Eisengallustinten</p>
                                 <p><locus n="fol. 4r"/>Vitriolische Eisengallustinten</p></scriptNote>
-                            <scriptNote ana="ink" n="Anführungszeichen">
-                                <p><locus n="fol. 62v, fol. 184v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote ana="ink" n="Schreibersigel">
                                 <p><locus n="fol. 16v, fol. 64v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote ana="ink" n="Lagenkontrollvermark">
@@ -81,6 +79,8 @@
                         <decoDesc>
                             <decoNote ana="pigments" n="Rot">
                                 <p><locus type="Initiale" n="fol. 19v, fol. 172r, fol. 184v"/>Zinnober</p></decoNote>
+                            <decoNote ana="pigments" n="Schwarz">
+                                <p><locus type="Anführungszeichen" n="fol. 62v, fol. 184v"/>Nicht-vitriolische Eisengallustinten</p></decoNote>
                         </decoDesc>
                         <additions>
                             <p n="Korrekturen">Korrekturen durch die Hand von <persName type="scribe">Lupus von Ferrières</persName></p>

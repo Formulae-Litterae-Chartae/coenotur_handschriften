@@ -56,10 +56,24 @@
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Winandy">Jüngere Minuskel</scriptNote>
+                     <scriptNote ana="ink" n="Haupttext">
+                        <p><locus n="fol. 18, fol. 33, fol. 42, fol. 81, fol. 89"/>Nicht-vitriolische Eisengallustinten</p>
+                        <p><locus n="fol. 89"/>Vitriolische Eisengallustinten</p></scriptNote>                         
+                     <scriptNote ana="ink" n="Initiale">
+                        <p><locus n="fol. 6, fol. 18, fol. 30, fol. 42"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Überschrift">
+                        <p><locus n="fol. 33"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
+                     <scriptNote ana="ink" n="Marginalia">
+                        <p><locus n="fol. 6, fol. 85, fol. 85"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote><p>Die Handschrift enthält zahlreiche Initialen zu Beginn der neuen Einträge</p>
-                     </decoNote>
+                     <decoNote>
+                        <p>Die Handschrift enthält zahlreiche Initialen zu Beginn der neuen Einträge</p></decoNote>
+                     <decoNote ana="pigments" n="Rot">
+                        <p><locus type="Initiale" n="fol. 18, fol. 42"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Ausfüllung" n="fol. 6"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Titel" n="fol. 85"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Servis" n="fol. 81"/>Mischung aus Minium und Zinnober</p></decoNote>
                   </decoDesc>
                   <additions>
                     <p>Inhaltsangaben am Rand</p>

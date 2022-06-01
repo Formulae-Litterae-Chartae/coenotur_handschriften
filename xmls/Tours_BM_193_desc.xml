@@ -91,9 +91,10 @@
                         <p><locus n="fol. 142v (Musiknoten)"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote><p>Es werden nur die prächtigen Figureninitialen aufgelistet.</p></decoNote>
+                     <decoNote>
+                        <p>Es werden nur die prächtigen Figureninitialen aufgelistet.</p></decoNote>
                      <decoNote type="miniature">
-                        <p><locus n="69v"/>Christus in Maiestas umgeben von der Symbolen der Evangelisten</p>
+                        <p><locus n="69v"/>Christus in Majestät umgeben von der Symbolen der Evangelisten</p>
                         <p><locus n="70r"/>Kreuzzigung Christi</p></decoNote>
                      <decoNote type="figureinitial">
                         <p><locus n="17r"/>Geburt Christi</p>
@@ -115,11 +116,11 @@
                         <p><locus n="116v"/>Tod des heiligen Martin</p></decoNote>
                      <decoNote ana="pigments" n="Schwarz">
                         <p><locus type="Rahmen" n="fol. 69v"/>Mischtinte</p>
-                        <p><locus type="Miniaturen" n="fol. 69v"/>Mischtinte</p></decoNote>
+                        <p><locus type="Miniatur" n="fol. 69v"/>Mischtinte</p></decoNote>
                      <decoNote ana="pigments" n="Rot">
-                        <p><locus type="Initiale" n="fol. 22r, fol. 23r, f. 45r"/>Mischung aus Minium und Zinnober</p>
-                        <p><locus type="Title" n="fol. 23r"/>Mischung aus Minium und Zinnober</p>
-                        <p><locus type="Miniaturen" n="fol. 69v"/>Minium</p>
+                        <p><locus type="Initiale" n="fol. 22r, fol. 23r, fol. 45r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Titel" n="fol. 23r"/>Mischung aus Minium und Zinnober</p>
+                        <p><locus type="Miniatur" n="fol. 69v"/>Minium</p>
                         <p><locus type="Rahmen" n="fol. 119v"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Konkordanz" n="fol. 7v"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Zusatz" n="fol. 60r"/>Zinnober</p>
