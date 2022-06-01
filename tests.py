@@ -728,13 +728,15 @@ class TestES(CoenoturTests):
 
     def build_fake_es_filename(self, f_n: str = ''):
         """ Replace problematic characters in the fake_es filenames"""
+        f_n = f_n.replace('_id', 'signature')
         return re.sub(r'[\*\?\s]', '+', f_n)
 
     def test_build_sort_list(self):
         """ Ensure that build_sort_list returns the correct values"""
-        self.assertEqual(Search.build_sort_list('_id'), '_id')
-        self.assertEqual(Search.build_sort_list('date_asc'), [{'mid_date': {'order': 'asc'}}, '_id'])
-        self.assertEqual(Search.build_sort_list('date_desc'), [{'mid_date': {'order': 'desc'}}, '_id'])
+        self.assertEqual(Search.build_sort_list('_id'), 'signature')
+        self.assertEqual(Search.build_sort_list('signature'), 'signature')
+        self.assertEqual(Search.build_sort_list('date_asc'), [{'mid_date': {'order': 'asc'}}, 'signature'])
+        self.assertEqual(Search.build_sort_list('date_desc'), [{'mid_date': {'order': 'desc'}}, 'signature'])
 
     def test_return_no_es(self):
         """ Ensure that when ElasticSearch is not active, calls to the search functions return empty results instead of errors"""

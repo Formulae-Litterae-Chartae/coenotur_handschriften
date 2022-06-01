@@ -1,5 +1,5 @@
 {
-  "took": 15,
+  "took": 137,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,8 +15,7 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Basel_UB_B_II_11_desc",
         "_score": null,
         "_source": {
@@ -88,12 +87,11 @@
           ]
         },
         "sort": [
-          "Basel_UB_B_II_11_desc"
+          "Basel, UB, B II 11"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Berlin_SB_Ham_248_desc",
         "_score": null,
         "_source": {
@@ -159,12 +157,11 @@
           ]
         },
         "sort": [
-          "Berlin_SB_Ham_248_desc"
+          "Berlin, SB, Hamilton 248"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Berlin_SB_Theol_Lat_Fol_733_desc",
         "_score": null,
         "_source": {
@@ -241,12 +238,11 @@
           ]
         },
         "sort": [
-          "Berlin_SB_Theol_Lat_Fol_733_desc"
+          "Berlin, SB, Theol. Lat. Fol. 733"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Cambrai_BM_295_desc",
         "_score": null,
         "_source": {
@@ -302,12 +298,11 @@
           ]
         },
         "sort": [
-          "Cambrai_BM_295_desc"
+          "Cambrai, BM, 295 (277)"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Dijon_AD_Inv_No_494_desc",
         "_score": null,
         "_source": {
@@ -366,12 +361,11 @@
           ]
         },
         "sort": [
-          "Dijon_AD_Inv_No_494_desc"
+          "Dijon, AD, Inv. No. 494"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Grenoble_AD_Fragm_s_n_desc",
         "_score": null,
         "_source": {
@@ -427,12 +421,11 @@
           ]
         },
         "sort": [
-          "Grenoble_AD_Fragm_s_n_desc"
+          "Grenoble, AD, Fragm. s. n."
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Köln_Dom_107_desc",
         "_score": null,
         "_source": {
@@ -494,12 +487,11 @@
           ]
         },
         "sort": [
-          "Köln_Dom_107_desc"
+          "Köln, Dombibliothek 107"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Köln_Dom_13_desc",
         "_score": null,
         "_source": {
@@ -602,12 +594,11 @@
           ]
         },
         "sort": [
-          "Köln_Dom_13_desc"
+          "Köln, Dombibliothek 13"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Laon_BM_63_desc",
         "_score": null,
         "_source": {
@@ -669,12 +660,11 @@
           ]
         },
         "sort": [
-          "Laon_BM_63_desc"
+          "Laon, BM, 63"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Laon_BM_81_desc",
         "_score": null,
         "_source": {
@@ -741,12 +731,11 @@
           ]
         },
         "sort": [
-          "Laon_BM_81_desc"
+          "Laon, BM, 81"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Add_11848_desc",
         "_score": null,
         "_source": {
@@ -811,12 +800,11 @@
           ]
         },
         "sort": [
-          "London_BL_Add_11848_desc"
+          "London, BL, Add. 11848"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Add_11849_desc",
         "_score": null,
         "_source": {
@@ -888,12 +876,11 @@
           ]
         },
         "sort": [
-          "London_BL_Add_11849_desc"
+          "London, BL, Add. 11849"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Egerton_609_desc",
         "_score": null,
         "_source": {
@@ -972,12 +959,11 @@
           ]
         },
         "sort": [
-          "London_BL_Egerton_609_desc"
+          "London, BL, Egerton 609"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Egerton_768_desc",
         "_score": null,
         "_source": {
@@ -1056,12 +1042,11 @@
           ]
         },
         "sort": [
-          "London_BL_Egerton_768_desc"
+          "London, BL, Egerton 768"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Harley_2790_desc",
         "_score": null,
         "_source": {
@@ -1138,12 +1123,11 @@
           ]
         },
         "sort": [
-          "London_BL_Harley_2790_desc"
+          "London, BL, Harley 2790"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Nancy_Cathedrale_Tresor_desc",
         "_score": null,
         "_source": {
@@ -1214,12 +1198,11 @@
           ]
         },
         "sort": [
-          "Nancy_Cathedrale_Tresor_desc"
+          "Nancy, Trésor de la cathedrale"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "New_York_PML_MS_191_desc",
         "_score": null,
         "_source": {
@@ -1284,12 +1267,11 @@
           ]
         },
         "sort": [
-          "New_York_PML_MS_191_desc"
+          "New York, Pierpont Morgan Library, MS 191"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "New_York_PML_MS_860_desc",
         "_score": null,
         "_source": {
@@ -1351,12 +1333,11 @@
           ]
         },
         "sort": [
-          "New_York_PML_MS_860_desc"
+          "New York, Pierpont Morgan Library, Ms. 860"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_Bib_de_l_Arsenal_1171_desc",
         "_score": null,
         "_source": {
@@ -1428,70 +1409,11 @@
           ]
         },
         "sort": [
-          "Paris_Bib_de_l_Arsenal_1171_desc"
+          "Paris, Bib. de l'Arsenal, 1171"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
-        "_id": "Paris_Bibliotheque_Mazarine_274_desc",
-        "_score": null,
-        "_source": {
-          "identifier": [
-            {
-              "id": "France, Paris, Bibliothèque Mazarine, 274"
-            },
-            {
-              "id": "Rand 60"
-            }
-          ],
-          "signature": "Paris, Bibliothèque Mazarine, 274",
-          "date_string": "Frühes Beispiel für die Reform Alkuins; Anfang 10. Jhd.",
-          "ms_item": [
-            "Evangeliar"
-          ],
-          "person": [],
-          "provenance": "; ",
-          "autocomplete_person": [],
-          "autocomplete_orig_place": [
-            {
-              "cert": "medium",
-              "place": "Tours",
-              "source": "Rand"
-            }
-          ],
-          "autocomplete_ms_item": [
-            "Evangeliar"
-          ],
-          "illuminated": false,
-          "musicNotation": false,
-          "exlibris": true,
-          "tironoten": false,
-          "named_scribe": false,
-          "ink_analysis": false,
-          "orig_place": [
-            {
-              "cert": "medium",
-              "place": "Tours",
-              "source": "Rand"
-            }
-          ],
-          "min_date": "0796",
-          "mid_date": "0860",
-          "max_date": "0925"
-        },
-        "highlight": {
-          "ms_item": [
-            "</small><strong>Evangeliar</strong><small>"
-          ]
-        },
-        "sort": [
-          "Paris_Bibliotheque_Mazarine_274_desc"
-        ]
-      },
-      {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_Bibliotheque_St_Genevieve_1260_desc",
         "_score": null,
         "_source": {
@@ -1553,12 +1475,68 @@
           ]
         },
         "sort": [
-          "Paris_Bibliotheque_St_Genevieve_1260_desc"
+          "Paris, Bibliotheque St-Geneviève, 1260"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
+        "_id": "Paris_Bibliotheque_Mazarine_274_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, Bibliothèque Mazarine, 274"
+            },
+            {
+              "id": "Rand 60"
+            }
+          ],
+          "signature": "Paris, Bibliothèque Mazarine, 274",
+          "date_string": "Frühes Beispiel für die Reform Alkuins; Anfang 10. Jhd.",
+          "ms_item": [
+            "Evangeliar"
+          ],
+          "person": [],
+          "provenance": "; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangeliar"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": true,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "medium",
+              "place": "Tours",
+              "source": "Rand"
+            }
+          ],
+          "min_date": "0796",
+          "mid_date": "0860",
+          "max_date": "0925"
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangeliar</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris, Bibliothèque Mazarine, 274"
+        ]
+      },
+      {
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_17227_desc",
         "_score": null,
         "_source": {
@@ -1635,12 +1613,99 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_17227_desc"
+          "Paris, BnF, Latin 17227"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
+        "_id": "Paris_Bnf_Latin_260_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, BnF, Latin 260"
+            },
+            {
+              "id": "Rand 36"
+            },
+            {
+              "id": "Köhler 4"
+            },
+            {
+              "id": "Bischoff 3974"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 260",
+          "date_string": "8./9. Jhd.; 807?",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [
+            {
+              "name": "Alkuin",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "RAND",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "; Unter Alkuin entstanden, handelt es sich um eine hervorragende turonische Bibel.; Die Handschrift gehörte zunächst Saint-Amand in Südfrankreich und ; gelangt später über Saint-Martial de Limoges nach Paris.; Durch einen Katalogeintrag von Saint-Martial kann die Handschrift auf 807 datiert werden, wobei RAND dies nicht belegen kann.; Nach 1730 gelangte die Handschrift nach Paris.",
+          "autocomplete_person": [
+            {
+              "name": "Alkuin",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "RAND",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, Saint-Martin",
+              "source": ""
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, Saint-Martin",
+              "source": ""
+            }
+          ],
+          "min_date": "0700",
+          "mid_date": "0800",
+          "max_date": "0900",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8426284v"
+          ]
+        },
+        "highlight": {
+          "ms_item": [
+            "</small><strong>Evangelien</strong><small>"
+          ]
+        },
+        "sort": [
+          "Paris, BnF, Latin 260"
+        ]
+      },
+      {
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_261_desc",
         "_score": null,
         "_source": {
@@ -1750,12 +1815,11 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_261_desc"
+          "Paris, BnF, Latin 261"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_263_desc",
         "_score": null,
         "_source": {
@@ -1832,12 +1896,11 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_263_desc"
+          "Paris, BnF, Latin 263"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_266_desc",
         "_score": null,
         "_source": {
@@ -1933,12 +1996,11 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_266_desc"
+          "Paris, BnF, Latin 266"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_267_desc",
         "_score": null,
         "_source": {
@@ -2014,12 +2076,11 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_267_desc"
+          "Paris, BnF, Latin 267"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_269_desc",
         "_score": null,
         "_source": {
@@ -2084,12 +2145,11 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_269_desc"
+          "Paris, BnF, Latin 269"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_274_desc",
         "_score": null,
         "_source": {
@@ -2192,12 +2252,11 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_274_desc"
+          "Paris, BnF, Latin 274"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_324_desc",
         "_score": null,
         "_source": {
@@ -2272,12 +2331,11 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_324_desc"
+          "Paris, BnF, Latin 324"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_9385_desc",
         "_score": null,
         "_source": {
@@ -2348,12 +2406,11 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_9385_desc"
+          "Paris, BnF, Latin 9385"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_NAL_1587_desc",
         "_score": null,
         "_source": {
@@ -2483,101 +2540,11 @@
           ]
         },
         "sort": [
-          "Paris_BnF_NAL_1587_desc"
+          "Paris, BnF, NAL 1587"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
-        "_id": "Paris_Bnf_Latin_260_desc",
-        "_score": null,
-        "_source": {
-          "identifier": [
-            {
-              "id": "France, Paris, BnF, Latin 260"
-            },
-            {
-              "id": "Rand 36"
-            },
-            {
-              "id": "Köhler 4"
-            },
-            {
-              "id": "Bischoff 3974"
-            }
-          ],
-          "signature": "Paris, BnF, Latin 260",
-          "date_string": "8./9. Jhd.; 807?",
-          "ms_item": [
-            "Evangelien"
-          ],
-          "person": [
-            {
-              "name": "Alkuin",
-              "role": "",
-              "identifier": null
-            },
-            {
-              "name": "RAND",
-              "role": "",
-              "identifier": null
-            }
-          ],
-          "provenance": "; Unter Alkuin entstanden, handelt es sich um eine hervorragende turonische Bibel.; Die Handschrift gehörte zunächst Saint-Amand in Südfrankreich und ; gelangt später über Saint-Martial de Limoges nach Paris.; Durch einen Katalogeintrag von Saint-Martial kann die Handschrift auf 807 datiert werden, wobei RAND dies nicht belegen kann.; Nach 1730 gelangte die Handschrift nach Paris.",
-          "autocomplete_person": [
-            {
-              "name": "Alkuin",
-              "role": "",
-              "identifier": null
-            },
-            {
-              "name": "RAND",
-              "role": "",
-              "identifier": null
-            }
-          ],
-          "autocomplete_orig_place": [
-            {
-              "cert": "high",
-              "place": "Tours, Saint-Martin",
-              "source": ""
-            }
-          ],
-          "autocomplete_ms_item": [
-            "Evangelien"
-          ],
-          "illuminated": true,
-          "musicNotation": false,
-          "exlibris": false,
-          "tironoten": false,
-          "named_scribe": false,
-          "ink_analysis": false,
-          "orig_place": [
-            {
-              "cert": "high",
-              "place": "Tours, Saint-Martin",
-              "source": ""
-            }
-          ],
-          "min_date": "0700",
-          "mid_date": "0800",
-          "max_date": "0900",
-          "with_digitalisat": [
-            "https://gallica.bnf.fr/ark:/12148/btv1b8426284v"
-          ]
-        },
-        "highlight": {
-          "ms_item": [
-            "</small><strong>Evangelien</strong><small>"
-          ]
-        },
-        "sort": [
-          "Paris_Bnf_Latin_260_desc"
-        ]
-      },
-      {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Rom_Vat_Vat_Lat_43_desc",
         "_score": null,
         "_source": {
@@ -2646,12 +2613,11 @@
           ]
         },
         "sort": [
-          "Rom_Vat_Vat_Lat_43_desc"
+          "Rom, Vat., Vat. Lat. 43"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc",
         "_score": null,
         "_source": {
@@ -2720,12 +2686,11 @@
           ]
         },
         "sort": [
-          "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc"
+          "Sankt Petersburg, Russische Nationalbibliothek, Q. v. I. 21"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Stuttgart_WLB_II_40_desc",
         "_score": null,
         "_source": {
@@ -2819,12 +2784,11 @@
           ]
         },
         "sort": [
-          "Stuttgart_WLB_II_40_desc"
+          "Stuttgart, WLB, HB II 40"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_123_desc",
         "_score": null,
         "_source": {
@@ -2877,12 +2841,11 @@
           ]
         },
         "sort": [
-          "Tours_BM_123_desc"
+          "Tours, BM, 123"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_22_desc",
         "_score": null,
         "_source": {
@@ -2987,12 +2950,11 @@
           ]
         },
         "sort": [
-          "Tours_BM_22_desc"
+          "Tours, BM, 22"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_23_desc",
         "_score": null,
         "_source": {
@@ -3064,12 +3026,11 @@
           ]
         },
         "sort": [
-          "Tours_BM_23_desc"
+          "Tours, BM, 23"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_25_desc",
         "_score": null,
         "_source": {
@@ -3122,12 +3083,11 @@
           ]
         },
         "sort": [
-          "Tours_BM_25_desc"
+          "Tours, BM, 25"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_289_desc",
         "_score": null,
         "_source": {
@@ -3199,12 +3159,11 @@
           ]
         },
         "sort": [
-          "Tours_BM_289_desc"
+          "Tours, BM, 289"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_309_desc",
         "_score": null,
         "_source": {
@@ -3283,12 +3242,11 @@
           ]
         },
         "sort": [
-          "Tours_BM_309_desc"
+          "Tours, BM, 309"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_310_desc",
         "_score": null,
         "_source": {
@@ -3306,8 +3264,8 @@
           "signature": "Tours, BM, 310",
           "date_string": "Gregor: 11. Jhd.; Bernard: 12. Jhd.",
           "ms_item": [
-            "Gregor, Expositio in Evangelia",
-            "Bernard, 3 Predigten"
+            "Bernard, 3 Predigten",
+            "Gregor, Expositio in Evangelia"
           ],
           "person": [],
           "provenance": "St-Gatien; 2 Handschriften, die vermutlich später zusammengebunden wurden.",
@@ -3320,8 +3278,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Gregor, Expositio in Evangelia",
-            "Bernard, 3 Predigten"
+            "Bernard, 3 Predigten",
+            "Gregor, Expositio in Evangelia"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -3346,12 +3304,11 @@
           ]
         },
         "sort": [
-          "Tours_BM_310_desc"
+          "Tours, BM, 310"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Troyes_BM_138_desc",
         "_score": null,
         "_source": {
@@ -3427,12 +3384,11 @@
           ]
         },
         "sort": [
-          "Troyes_BM_138_desc"
+          "Troyes, BM, 138"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Williamstown_Williams_College_Chapin_Library_7_desc",
         "_score": null,
         "_source": {
@@ -3485,12 +3441,11 @@
           ]
         },
         "sort": [
-          "Williamstown_Williams_College_Chapin_Library_7_desc"
+          "Williamstown, Williams College, Chapin Library, Ms. 7"
         ]
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Wolfenbüttel_HAB_Cod_Guelf_16_Aug_2_desc",
         "_score": null,
         "_source": {
@@ -3552,7 +3507,7 @@
           ]
         },
         "sort": [
-          "Wolfenbüttel_HAB_Cod_Guelf_16_Aug_2_desc"
+          "Wolfenbüttel, HAB, Cod. Guelf. 16 Aug 2"
         ]
       }
     ]

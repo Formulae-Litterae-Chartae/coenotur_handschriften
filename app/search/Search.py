@@ -29,7 +29,7 @@ HITS_TO_READER = 10000
 
 
 def build_sort_list(sort_str: str) -> Union[str, List[Union[Dict[str, Dict[str, str]], str]]]:
-    if sort_str == '_id':
+    if sort_str in ['_id', 'signature']:
         return 'signature'
     if sort_str == 'date_asc':
         return [{'mid_date': {'order': 'asc'}}, 'signature']

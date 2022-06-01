@@ -1,5 +1,5 @@
 {
-  "took": 45,
+  "took": 243,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,8 +15,7 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Autun_BM_19bis_desc",
         "_score": null,
         "_source": {
@@ -98,7 +97,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Autun_BM_19bis_desc"
+          "Autun, BM, 19bis"
         ],
         "inner_hits": {
           "person": {
@@ -120,8 +119,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Autun_BM_19bis_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -148,8 +146,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Bamberg_SB_Misc_Bibl_1_desc",
         "_score": null,
         "_source": {
@@ -216,7 +213,7 @@
           "max_date": "0843"
         },
         "sort": [
-          "Bamberg_SB_Misc_Bibl_1_desc"
+          "Bamberg, SB, Misc. Bibl. 1"
         ],
         "inner_hits": {
           "person": {
@@ -238,8 +235,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Bamberg_SB_Misc_Bibl_1_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -266,8 +262,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Bamberg_SB_Misc_Class_5_desc",
         "_score": null,
         "_source": {
@@ -327,7 +322,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Bamberg_SB_Misc_Class_5_desc"
+          "Bamberg, SB, Misc. Class. 5"
         ],
         "inner_hits": {
           "person": {
@@ -349,8 +344,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Bamberg_SB_Misc_Class_5_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -377,8 +371,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Basel_UB_AN_I_3_desc",
         "_score": null,
         "_source": {
@@ -442,7 +435,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Basel_UB_AN_I_3_desc"
+          "Basel, UB, AN I 3"
         ],
         "inner_hits": {
           "person": {
@@ -464,8 +457,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Basel_UB_AN_I_3_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -492,8 +484,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Basel_UB_B_II_11_desc",
         "_score": null,
         "_source": {
@@ -560,7 +551,7 @@
           ]
         },
         "sort": [
-          "Basel_UB_B_II_11_desc"
+          "Basel, UB, B II 11"
         ],
         "inner_hits": {
           "person": {
@@ -582,8 +573,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Basel_UB_B_II_11_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -610,8 +600,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Basel_UB_N_I_6_desc",
         "_score": null,
         "_source": {
@@ -659,7 +648,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Basel_UB_N_I_6_desc"
+          "Basel, UB, N I 6"
         ],
         "inner_hits": {
           "person": {
@@ -681,8 +670,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Basel_UB_N_I_6_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -709,8 +697,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Berlin_SB_Ham_82_desc",
         "_score": null,
         "_source": {
@@ -813,7 +800,7 @@
           "max_date": "0840"
         },
         "sort": [
-          "Berlin_SB_Ham_82_desc"
+          "Berlin, SB, Hamilton 82"
         ],
         "inner_hits": {
           "person": {
@@ -835,8 +822,7 @@
               "max_score": 1.7899126,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Berlin_SB_Ham_82_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -863,8 +849,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Berlin_SB_Phill_1877_desc",
         "_score": null,
         "_source": {
@@ -933,7 +918,7 @@
           "max_date": "0875"
         },
         "sort": [
-          "Berlin_SB_Phill_1877_desc"
+          "Berlin, SB, Phill. 1877"
         ],
         "inner_hits": {
           "person": {
@@ -955,8 +940,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Berlin_SB_Phill_1877_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -983,8 +967,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Berlin_SB_Theol_Lat_Fol_733_desc",
         "_score": null,
         "_source": {
@@ -1056,7 +1039,7 @@
           "max_date": "0851"
         },
         "sort": [
-          "Berlin_SB_Theol_Lat_Fol_733_desc"
+          "Berlin, SB, Theol. Lat. Fol. 733"
         ],
         "inner_hits": {
           "person": {
@@ -1078,8 +1061,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Berlin_SB_Theol_Lat_Fol_733_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -1106,8 +1088,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Bern_Burgerbibliothek_165_desc",
         "_score": null,
         "_source": {
@@ -1164,7 +1145,7 @@
           ]
         },
         "sort": [
-          "Bern_Burgerbibliothek_165_desc"
+          "Bern, Burgerbibliothek, 165"
         ],
         "inner_hits": {
           "person": {
@@ -1186,8 +1167,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Bern_Burgerbibliothek_165_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -1214,8 +1194,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Bern_Burgerbibliothek_3_desc",
         "_score": null,
         "_source": {
@@ -1272,7 +1251,7 @@
           ]
         },
         "sort": [
-          "Bern_Burgerbibliothek_3_desc"
+          "Bern, Burgerbibliothek, 3"
         ],
         "inner_hits": {
           "person": {
@@ -1294,8 +1273,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Bern_Burgerbibliothek_3_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -1322,8 +1300,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Bern_Burgerbibliothek_4_desc",
         "_score": null,
         "_source": {
@@ -1380,7 +1357,7 @@
           ]
         },
         "sort": [
-          "Bern_Burgerbibliothek_4_desc"
+          "Bern, Burgerbibliothek, 4"
         ],
         "inner_hits": {
           "person": {
@@ -1402,8 +1379,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Bern_Burgerbibliothek_4_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -1430,8 +1406,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Chartres_BM_24_desc",
         "_score": null,
         "_source": {
@@ -1494,7 +1469,7 @@
           "max_date": "0851"
         },
         "sort": [
-          "Chartres_BM_24_desc"
+          "Chartres, BM, 24"
         ],
         "inner_hits": {
           "person": {
@@ -1516,8 +1491,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Chartres_BM_24_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -1544,8 +1518,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_6_desc",
         "_score": null,
         "_source": {
@@ -1624,7 +1597,7 @@
           "max_date": "0875"
         },
         "sort": [
-          "Den_Haag_Museum_Meermanno_Westreenianum_10_D_6_desc"
+          "Den Haag, Museum Meermanno-Westreenianum, 10 D 6"
         ],
         "inner_hits": {
           "person": {
@@ -1646,8 +1619,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_6_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -1669,8 +1641,7 @@
                   }
                 },
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Den_Haag_Museum_Meermanno_Westreenianum_10_D_6_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -1697,8 +1668,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Dijon_AD_Inv_No_494_desc",
         "_score": null,
         "_source": {
@@ -1752,7 +1722,7 @@
           "max_date": "0899"
         },
         "sort": [
-          "Dijon_AD_Inv_No_494_desc"
+          "Dijon, AD, Inv. No. 494"
         ],
         "inner_hits": {
           "person": {
@@ -1774,8 +1744,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Dijon_AD_Inv_No_494_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -1802,8 +1771,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Epinal_BM_149_68_desc",
         "_score": null,
         "_source": {
@@ -1857,7 +1825,7 @@
           ]
         },
         "sort": [
-          "Epinal_BM_149_68_desc"
+          "Epinal, BM, 149 (68)"
         ],
         "inner_hits": {
           "person": {
@@ -1879,8 +1847,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Epinal_BM_149_68_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -1907,8 +1874,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Gent_UB_102_desc",
         "_score": null,
         "_source": {
@@ -1978,7 +1944,7 @@
           ]
         },
         "sort": [
-          "Gent_UB_102_desc"
+          "Gent, UB, 102"
         ],
         "inner_hits": {
           "person": {
@@ -2000,8 +1966,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Gent_UB_102_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -2028,8 +1993,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Halle_ULB_Qu_Cod_79_desc",
         "_score": null,
         "_source": {
@@ -2101,7 +2065,7 @@
           "max_date": "0834"
         },
         "sort": [
-          "Halle_ULB_Qu_Cod_79_desc"
+          "Halle, ULB, Qu. Cod. 79"
         ],
         "inner_hits": {
           "person": {
@@ -2113,8 +2077,7 @@
               "max_score": 9.474242,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Halle_ULB_Qu_Cod_79_desc",
                   "_nested": {
                     "field": "person",
@@ -2122,9 +2085,9 @@
                   },
                   "_score": 9.474242,
                   "_source": {
-                    "name": "Adalbaldus",
+                    "identifier": "scribe",
                     "role": "",
-                    "identifier": "scribe"
+                    "name": "Adalbaldus"
                   },
                   "highlight": {
                     "person.name": [
@@ -2147,8 +2110,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Halle_ULB_Qu_Cod_79_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -2175,8 +2137,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Krakau_BJ_Ms_Lat_Qu_404_desc",
         "_score": null,
         "_source": {
@@ -2195,8 +2156,8 @@
           "date_string": "Anfang 9. Jhd.",
           "ms_item": [
             "Cicero, De Amicitia",
-            "Eugenius Toletanus, Carmen II, 1-2",
-            "Publius Syrus, Sententiae"
+            "Publius Syrus, Sententiae",
+            "Eugenius Toletanus, Carmen II, 1-2"
           ],
           "person": [],
           "provenance": "; ",
@@ -2210,8 +2171,8 @@
           ],
           "autocomplete_ms_item": [
             "Cicero, De Amicitia",
-            "Eugenius Toletanus, Carmen II, 1-2",
-            "Publius Syrus, Sententiae"
+            "Publius Syrus, Sententiae",
+            "Eugenius Toletanus, Carmen II, 1-2"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -2234,7 +2195,7 @@
           ]
         },
         "sort": [
-          "Krakau_BJ_Ms_Lat_Qu_404_desc"
+          "Krakau, BJ, Ms. Lat. Qu. 404"
         ],
         "inner_hits": {
           "person": {
@@ -2256,8 +2217,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Krakau_BJ_Ms_Lat_Qu_404_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -2284,116 +2244,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
-        "_id": "Köln_Dom_107_desc",
-        "_score": null,
-        "_source": {
-          "identifier": [
-            {
-              "id": "Germany, Cologne, Dombibliothek, 107"
-            },
-            {
-              "id": "Darmstadt 2107"
-            },
-            {
-              "id": "Rand 48"
-            },
-            {
-              "id": "Bischoff 1920"
-            }
-          ],
-          "signature": "Köln, Dombibliothek 107",
-          "date_string": "Unter Fridugisus, nicht lange nach 820; 1./2. Viertel 9. Jhd.",
-          "ms_item": [
-            "Alcuinus, Commentarius in evangelium Iohannis"
-          ],
-          "person": [],
-          "provenance": "Dombibliothek Köln; Die Handschrift ist 833 noch nicht in Köln nachweisbar.",
-          "autocomplete_person": [],
-          "autocomplete_orig_place": [
-            {
-              "cert": "high",
-              "place": "Tours",
-              "source": "Bischoff/Rand/CEEC"
-            }
-          ],
-          "autocomplete_ms_item": [
-            "Alcuinus, Commentarius in evangelium Iohannis"
-          ],
-          "illuminated": false,
-          "musicNotation": false,
-          "exlibris": false,
-          "tironoten": false,
-          "named_scribe": false,
-          "ink_analysis": false,
-          "orig_place": [
-            {
-              "cert": "high",
-              "place": "Tours",
-              "source": "Bischoff/Rand/CEEC"
-            }
-          ],
-          "min_date": "0807",
-          "mid_date": "0820",
-          "max_date": "0834",
-          "with_digitalisat": [
-            "http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/pagesma/%22kn28-0107_001.jpg%22/segment/%22body%22"
-          ]
-        },
-        "sort": [
-          "Köln_Dom_107_desc"
-        ],
-        "inner_hits": {
-          "person": {
-            "hits": {
-              "total": {
-                "value": 0,
-                "relation": "eq"
-              },
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "orig_place": {
-            "hits": {
-              "total": {
-                "value": 1,
-                "relation": "eq"
-              },
-              "max_score": 1.9742503,
-              "hits": [
-                {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
-                  "_id": "Köln_Dom_107_desc",
-                  "_nested": {
-                    "field": "orig_place",
-                    "offset": 0
-                  },
-                  "_score": 1.9742503,
-                  "_source": {
-                    "cert": "high",
-                    "place": "Tours",
-                    "source": "Bischoff/Rand/CEEC"
-                  },
-                  "highlight": {
-                    "orig_place.cert": [
-                      "</small><strong>high</strong><small>"
-                    ],
-                    "orig_place.place": [
-                      "</small><strong>Tours</strong><small>"
-                    ]
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Köln_Dom_1_desc",
         "_score": null,
         "_source": {
@@ -2468,7 +2319,7 @@
           ]
         },
         "sort": [
-          "Köln_Dom_1_desc"
+          "Köln, Dombibliothek 1"
         ],
         "inner_hits": {
           "person": {
@@ -2490,8 +2341,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Köln_Dom_1_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -2518,8 +2368,113 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
+        "_id": "Köln_Dom_107_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "Germany, Cologne, Dombibliothek, 107"
+            },
+            {
+              "id": "Darmstadt 2107"
+            },
+            {
+              "id": "Rand 48"
+            },
+            {
+              "id": "Bischoff 1920"
+            }
+          ],
+          "signature": "Köln, Dombibliothek 107",
+          "date_string": "Unter Fridugisus, nicht lange nach 820; 1./2. Viertel 9. Jhd.",
+          "ms_item": [
+            "Alcuinus, Commentarius in evangelium Iohannis"
+          ],
+          "person": [],
+          "provenance": "Dombibliothek Köln; Die Handschrift ist 833 noch nicht in Köln nachweisbar.",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Bischoff/Rand/CEEC"
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Alcuinus, Commentarius in evangelium Iohannis"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": "Bischoff/Rand/CEEC"
+            }
+          ],
+          "min_date": "0807",
+          "mid_date": "0820",
+          "max_date": "0834",
+          "with_digitalisat": [
+            "http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/pagesma/%22kn28-0107_001.jpg%22/segment/%22body%22"
+          ]
+        },
+        "sort": [
+          "Köln, Dombibliothek 107"
+        ],
+        "inner_hits": {
+          "person": {
+            "hits": {
+              "total": {
+                "value": 0,
+                "relation": "eq"
+              },
+              "max_score": null,
+              "hits": []
+            }
+          },
+          "orig_place": {
+            "hits": {
+              "total": {
+                "value": 1,
+                "relation": "eq"
+              },
+              "max_score": 1.9742503,
+              "hits": [
+                {
+                  "_index": "coenotur_v4",
+                  "_id": "Köln_Dom_107_desc",
+                  "_nested": {
+                    "field": "orig_place",
+                    "offset": 0
+                  },
+                  "_score": 1.9742503,
+                  "_source": {
+                    "cert": "high",
+                    "place": "Tours",
+                    "source": "Bischoff/Rand/CEEC"
+                  },
+                  "highlight": {
+                    "orig_place.cert": [
+                      "</small><strong>high</strong><small>"
+                    ],
+                    "orig_place.place": [
+                      "</small><strong>Tours</strong><small>"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index": "coenotur_v4",
         "_id": "Köln_Dom_98_desc",
         "_score": null,
         "_source": {
@@ -2588,7 +2543,7 @@
           ]
         },
         "sort": [
-          "Köln_Dom_98_desc"
+          "Köln, Dombibliothek 98"
         ],
         "inner_hits": {
           "person": {
@@ -2610,8 +2565,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Köln_Dom_98_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -2638,8 +2592,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Laon_BM_220_desc",
         "_score": null,
         "_source": {
@@ -2693,7 +2646,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Laon_BM_220_desc"
+          "Laon, BM, 220"
         ],
         "inner_hits": {
           "person": {
@@ -2715,8 +2668,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Laon_BM_220_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -2743,8 +2695,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Laon_BM_63_desc",
         "_score": null,
         "_source": {
@@ -2801,7 +2752,7 @@
           ]
         },
         "sort": [
-          "Laon_BM_63_desc"
+          "Laon, BM, 63"
         ],
         "inner_hits": {
           "person": {
@@ -2823,8 +2774,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Laon_BM_63_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -2851,8 +2801,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Leiden_UB_BPL_1685_desc",
         "_score": null,
         "_source": {
@@ -2903,7 +2852,7 @@
           "max_date": "0866"
         },
         "sort": [
-          "Leiden_UB_BPL_1685_desc"
+          "Leiden, UB, BPL 1685"
         ],
         "inner_hits": {
           "person": {
@@ -2925,8 +2874,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Leiden_UB_BPL_1685_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -2953,8 +2901,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Leiden_UB_Voss_Lat_F_113_desc",
         "_score": null,
         "_source": {
@@ -3010,7 +2957,7 @@
           "max_date": "0899"
         },
         "sort": [
-          "Leiden_UB_Voss_Lat_F_113_desc"
+          "Leiden, UB, Voss. Lat. F. 113"
         ],
         "inner_hits": {
           "person": {
@@ -3032,8 +2979,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Leiden_UB_Voss_Lat_F_113_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -3060,8 +3006,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Leiden_UB_Voss_Lat_F_73_desc",
         "_score": null,
         "_source": {
@@ -3130,7 +3075,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Leiden_UB_Voss_Lat_F_73_desc"
+          "Leiden, UB, Voss. Lat. F. 73"
         ],
         "inner_hits": {
           "person": {
@@ -3152,8 +3097,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Leiden_UB_Voss_Lat_F_73_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -3180,8 +3124,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Leiden_UB_Voss_Lat_Q_20_desc",
         "_score": null,
         "_source": {
@@ -3235,7 +3178,7 @@
           "max_date": "0875"
         },
         "sort": [
-          "Leiden_UB_Voss_Lat_Q_20_desc"
+          "Leiden, UB, Voss. Lat. Q. 20"
         ],
         "inner_hits": {
           "person": {
@@ -3257,8 +3200,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Leiden_UB_Voss_Lat_Q_20_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -3285,8 +3227,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Add_10546_desc",
         "_score": null,
         "_source": {
@@ -3375,7 +3316,7 @@
           ]
         },
         "sort": [
-          "London_BL_Add_10546_desc"
+          "London, BL, Add. 10546"
         ],
         "inner_hits": {
           "person": {
@@ -3397,8 +3338,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "London_BL_Add_10546_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -3425,8 +3365,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Add_11848_desc",
         "_score": null,
         "_source": {
@@ -3486,7 +3425,7 @@
           ]
         },
         "sort": [
-          "London_BL_Add_11848_desc"
+          "London, BL, Add. 11848"
         ],
         "inner_hits": {
           "person": {
@@ -3508,8 +3447,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "London_BL_Add_11848_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -3536,8 +3474,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Add_37768_desc",
         "_score": null,
         "_source": {
@@ -3617,7 +3554,7 @@
           ]
         },
         "sort": [
-          "London_BL_Add_37768_desc"
+          "London, BL, Add. 37768"
         ],
         "inner_hits": {
           "person": {
@@ -3639,8 +3576,7 @@
               "max_score": 1.9024818,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "London_BL_Add_37768_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -3667,8 +3603,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Egerton_609_desc",
         "_score": null,
         "_source": {
@@ -3742,7 +3677,7 @@
           ]
         },
         "sort": [
-          "London_BL_Egerton_609_desc"
+          "London, BL, Egerton 609"
         ],
         "inner_hits": {
           "person": {
@@ -3764,8 +3699,7 @@
               "max_score": 1.7873043,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "London_BL_Egerton_609_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -3792,8 +3726,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Egerton_768_desc",
         "_score": null,
         "_source": {
@@ -3867,7 +3800,7 @@
           ]
         },
         "sort": [
-          "London_BL_Egerton_768_desc"
+          "London, BL, Egerton 768"
         ],
         "inner_hits": {
           "person": {
@@ -3889,8 +3822,7 @@
               "max_score": 1.9024818,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "London_BL_Egerton_768_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -3917,8 +3849,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Harley_2793_desc",
         "_score": null,
         "_source": {
@@ -3975,7 +3906,7 @@
           ]
         },
         "sort": [
-          "London_BL_Harley_2793_desc"
+          "London, BL, Harley 2793"
         ],
         "inner_hits": {
           "person": {
@@ -3997,8 +3928,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "London_BL_Harley_2793_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -4025,8 +3955,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Monza_BC_G_1_1_desc",
         "_score": null,
         "_source": {
@@ -4092,7 +4021,7 @@
           "max_date": "0825"
         },
         "sort": [
-          "Monza_BC_G_1_1_desc"
+          "Monza, Bibliotheca Capitolare, G 1/1"
         ],
         "inner_hits": {
           "person": {
@@ -4114,8 +4043,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Monza_BC_G_1_1_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -4142,8 +4070,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "München_BSB_Clm12741_desc",
         "_score": null,
         "_source": {
@@ -4194,7 +4121,7 @@
           ]
         },
         "sort": [
-          "München_BSB_Clm12741_desc"
+          "München, Bayerische Staatsbibliothek Clm 12741"
         ],
         "inner_hits": {
           "person": {
@@ -4216,8 +4143,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "München_BSB_Clm12741_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -4244,8 +4170,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "München_BSB_Clm29260-4_desc",
         "_score": null,
         "_source": {
@@ -4321,7 +4246,7 @@
           ]
         },
         "sort": [
-          "München_BSB_Clm29260-4_desc"
+          "München, Bayerische Staatsbibliothek Clm 29260/4"
         ],
         "inner_hits": {
           "person": {
@@ -4343,8 +4268,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "München_BSB_Clm29260-4_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -4371,8 +4295,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Nancy_Cathedrale_Tresor_desc",
         "_score": null,
         "_source": {
@@ -4438,7 +4361,7 @@
           "max_date": "0845"
         },
         "sort": [
-          "Nancy_Cathedrale_Tresor_desc"
+          "Nancy, Trésor de la cathedrale"
         ],
         "inner_hits": {
           "person": {
@@ -4460,8 +4383,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Nancy_Cathedrale_Tresor_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -4488,8 +4410,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "New_York_PML_MS_191_desc",
         "_score": null,
         "_source": {
@@ -4549,7 +4470,7 @@
           ]
         },
         "sort": [
-          "New_York_PML_MS_191_desc"
+          "New York, Pierpont Morgan Library, MS 191"
         ],
         "inner_hits": {
           "person": {
@@ -4571,8 +4492,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "New_York_PML_MS_191_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -4599,8 +4519,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "New_York_PML_MS_860_desc",
         "_score": null,
         "_source": {
@@ -4657,7 +4576,7 @@
           "max_date": "0899"
         },
         "sort": [
-          "New_York_PML_MS_860_desc"
+          "New York, Pierpont Morgan Library, Ms. 860"
         ],
         "inner_hits": {
           "person": {
@@ -4679,8 +4598,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "New_York_PML_MS_860_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -4707,8 +4625,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Oxford_Bodleian_Library_MS_Bodl_218_desc",
         "_score": null,
         "_source": {
@@ -4762,7 +4679,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Oxford_Bodleian_Library_MS_Bodl_218_desc"
+          "Oxford, Bodleian Library, MS. Bodl. 218"
         ],
         "inner_hits": {
           "person": {
@@ -4784,8 +4701,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Oxford_Bodleian_Library_MS_Bodl_218_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -4812,8 +4728,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_Bibliotheque_St_Genevieve_1260_desc",
         "_score": null,
         "_source": {
@@ -4870,7 +4785,7 @@
           ]
         },
         "sort": [
-          "Paris_Bibliotheque_St_Genevieve_1260_desc"
+          "Paris, Bibliotheque St-Geneviève, 1260"
         ],
         "inner_hits": {
           "person": {
@@ -4892,8 +4807,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_Bibliotheque_St_Genevieve_1260_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -4920,8 +4834,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_10756_desc",
         "_score": null,
         "_source": {
@@ -4985,7 +4898,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_10756_desc"
+          "Paris, BnF, Latin 10756"
         ],
         "inner_hits": {
           "person": {
@@ -5007,8 +4920,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_10756_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -5035,8 +4947,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_10848_desc",
         "_score": null,
         "_source": {
@@ -5138,7 +5049,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_10848_desc"
+          "Paris, BnF, Latin 10848"
         ],
         "inner_hits": {
           "person": {
@@ -5160,8 +5071,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_10848_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -5188,8 +5098,119 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
+        "_id": "Paris_Bnf_Latin_113_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, BnF, Latin 113"
+            },
+            {
+              "id": "Jean de Gagny LX"
+            },
+            {
+              "id": "Rigault 1067"
+            },
+            {
+              "id": "Dupuy 1164"
+            },
+            {
+              "id": "Regius 3714"
+            },
+            {
+              "id": "Bischoff 3962"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 113",
+          "date_string": "9 Jhd., ca. 2. Viertel; Ende 9., Anfang 10. Jhd.",
+          "ms_item": [
+            "Bibel"
+          ],
+          "person": [],
+          "provenance": "; ",
+          "autocomplete_person": [],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": ""
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Bibel"
+          ],
+          "illuminated": false,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours",
+              "source": ""
+            }
+          ],
+          "min_date": "0825",
+          "mid_date": "0867",
+          "max_date": "0910",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b84262806"
+          ]
+        },
+        "sort": [
+          "Paris, BnF, Latin 113"
+        ],
+        "inner_hits": {
+          "person": {
+            "hits": {
+              "total": {
+                "value": 0,
+                "relation": "eq"
+              },
+              "max_score": null,
+              "hits": []
+            }
+          },
+          "orig_place": {
+            "hits": {
+              "total": {
+                "value": 1,
+                "relation": "eq"
+              },
+              "max_score": 1.9742503,
+              "hits": [
+                {
+                  "_index": "coenotur_v4",
+                  "_id": "Paris_Bnf_Latin_113_desc",
+                  "_nested": {
+                    "field": "orig_place",
+                    "offset": 0
+                  },
+                  "_score": 1.9742503,
+                  "_source": {
+                    "cert": "high",
+                    "place": "Tours",
+                    "source": ""
+                  },
+                  "highlight": {
+                    "orig_place.cert": [
+                      "</small><strong>high</strong><small>"
+                    ],
+                    "orig_place.place": [
+                      "</small><strong>Tours</strong><small>"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_11514_desc",
         "_score": null,
         "_source": {
@@ -5285,7 +5306,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_11514_desc"
+          "Paris, BnF, Latin 11514"
         ],
         "inner_hits": {
           "person": {
@@ -5307,8 +5328,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_11514_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -5330,8 +5350,7 @@
                   }
                 },
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_11514_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -5358,8 +5377,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_12247_desc",
         "_score": null,
         "_source": {
@@ -5435,7 +5453,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Paris_BnF_Latin_12247_desc"
+          "Paris, BnF, Latin 12247"
         ],
         "inner_hits": {
           "person": {
@@ -5457,8 +5475,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_12247_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -5485,8 +5502,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_13759_desc",
         "_score": null,
         "_source": {
@@ -5564,7 +5580,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_13759_desc"
+          "Paris, BnF, Latin 13759"
         ],
         "inner_hits": {
           "person": {
@@ -5586,8 +5602,7 @@
               "max_score": 1.7899126,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_13759_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -5614,8 +5629,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_1572_desc",
         "_score": null,
         "_source": {
@@ -5676,7 +5690,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_1572_desc"
+          "Paris, BnF, Latin 1572"
         ],
         "inner_hits": {
           "person": {
@@ -5698,8 +5712,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_1572_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -5726,8 +5739,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_1711_desc",
         "_score": null,
         "_source": {
@@ -5751,8 +5763,8 @@
           "signature": "Paris, BnF, Latin 1711",
           "date_string": "1. Drittel 9. Jhd.",
           "ms_item": [
-            "Optatus, Gesta purgationis Caeciliani et Felicis",
             "Constantinus MagnusPetroniusAnnianusJulianus, Epistolae",
+            "Optatus, Gesta purgationis Caeciliani et Felicis",
             "Optatus, De schismate donatistarum"
           ],
           "person": [
@@ -5798,8 +5810,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Optatus, Gesta purgationis Caeciliani et Felicis",
             "Constantinus MagnusPetroniusAnnianusJulianus, Epistolae",
+            "Optatus, Gesta purgationis Caeciliani et Felicis",
             "Optatus, De schismate donatistarum"
           ],
           "illuminated": false,
@@ -5823,7 +5835,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_1711_desc"
+          "Paris, BnF, Latin 1711"
         ],
         "inner_hits": {
           "person": {
@@ -5845,8 +5857,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_1711_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -5873,8 +5884,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_17227_desc",
         "_score": null,
         "_source": {
@@ -5946,7 +5956,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_17227_desc"
+          "Paris, BnF, Latin 17227"
         ],
         "inner_hits": {
           "person": {
@@ -5968,8 +5978,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_17227_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -5996,8 +6005,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_250_desc",
         "_score": null,
         "_source": {
@@ -6054,7 +6062,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_250_desc"
+          "Paris, BnF, Latin 250"
         ],
         "inner_hits": {
           "person": {
@@ -6076,8 +6084,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_250_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -6104,8 +6111,135 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
+        "_id": "Paris_Bnf_Latin_260_desc",
+        "_score": null,
+        "_source": {
+          "identifier": [
+            {
+              "id": "France, Paris, BnF, Latin 260"
+            },
+            {
+              "id": "Rand 36"
+            },
+            {
+              "id": "Köhler 4"
+            },
+            {
+              "id": "Bischoff 3974"
+            }
+          ],
+          "signature": "Paris, BnF, Latin 260",
+          "date_string": "8./9. Jhd.; 807?",
+          "ms_item": [
+            "Evangelien"
+          ],
+          "person": [
+            {
+              "name": "Alkuin",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "RAND",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "provenance": "; Unter Alkuin entstanden, handelt es sich um eine hervorragende turonische Bibel.; Die Handschrift gehörte zunächst Saint-Amand in Südfrankreich und ; gelangt später über Saint-Martial de Limoges nach Paris.; Durch einen Katalogeintrag von Saint-Martial kann die Handschrift auf 807 datiert werden, wobei RAND dies nicht belegen kann.; Nach 1730 gelangte die Handschrift nach Paris.",
+          "autocomplete_person": [
+            {
+              "name": "Alkuin",
+              "role": "",
+              "identifier": null
+            },
+            {
+              "name": "RAND",
+              "role": "",
+              "identifier": null
+            }
+          ],
+          "autocomplete_orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, Saint-Martin",
+              "source": ""
+            }
+          ],
+          "autocomplete_ms_item": [
+            "Evangelien"
+          ],
+          "illuminated": true,
+          "musicNotation": false,
+          "exlibris": false,
+          "tironoten": false,
+          "named_scribe": false,
+          "ink_analysis": false,
+          "orig_place": [
+            {
+              "cert": "high",
+              "place": "Tours, Saint-Martin",
+              "source": ""
+            }
+          ],
+          "min_date": "0700",
+          "mid_date": "0800",
+          "max_date": "0900",
+          "with_digitalisat": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b8426284v"
+          ]
+        },
+        "sort": [
+          "Paris, BnF, Latin 260"
+        ],
+        "inner_hits": {
+          "person": {
+            "hits": {
+              "total": {
+                "value": 0,
+                "relation": "eq"
+              },
+              "max_score": null,
+              "hits": []
+            }
+          },
+          "orig_place": {
+            "hits": {
+              "total": {
+                "value": 1,
+                "relation": "eq"
+              },
+              "max_score": 1.8532013,
+              "hits": [
+                {
+                  "_index": "coenotur_v4",
+                  "_id": "Paris_Bnf_Latin_260_desc",
+                  "_nested": {
+                    "field": "orig_place",
+                    "offset": 0
+                  },
+                  "_score": 1.8532013,
+                  "_source": {
+                    "cert": "high",
+                    "place": "Tours, Saint-Martin",
+                    "source": ""
+                  },
+                  "highlight": {
+                    "orig_place.cert": [
+                      "</small><strong>high</strong><small>"
+                    ],
+                    "orig_place.place": [
+                      "</small><strong>Tours</strong><small>, Saint-Martin"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_263_desc",
         "_score": null,
         "_source": {
@@ -6177,7 +6311,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_263_desc"
+          "Paris, BnF, Latin 263"
         ],
         "inner_hits": {
           "person": {
@@ -6199,8 +6333,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_263_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -6227,8 +6360,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_266_desc",
         "_score": null,
         "_source": {
@@ -6319,7 +6451,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_266_desc"
+          "Paris, BnF, Latin 266"
         ],
         "inner_hits": {
           "person": {
@@ -6341,8 +6473,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_266_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -6369,8 +6500,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_267_desc",
         "_score": null,
         "_source": {
@@ -6441,7 +6571,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_267_desc"
+          "Paris, BnF, Latin 267"
         ],
         "inner_hits": {
           "person": {
@@ -6463,8 +6593,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_267_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -6491,8 +6620,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_269_desc",
         "_score": null,
         "_source": {
@@ -6552,7 +6680,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_269_desc"
+          "Paris, BnF, Latin 269"
         ],
         "inner_hits": {
           "person": {
@@ -6574,8 +6702,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_269_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -6602,8 +6729,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_2718_desc",
         "_score": null,
         "_source": {
@@ -6715,7 +6841,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_2718_desc"
+          "Paris, BnF, Latin 2718"
         ],
         "inner_hits": {
           "person": {
@@ -6737,8 +6863,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_2718_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -6760,8 +6885,7 @@
                   }
                 },
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_2718_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -6788,8 +6912,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_324_desc",
         "_score": null,
         "_source": {
@@ -6859,7 +6982,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_324_desc"
+          "Paris, BnF, Latin 324"
         ],
         "inner_hits": {
           "person": {
@@ -6881,8 +7004,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_324_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -6909,8 +7031,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_4808_desc",
         "_score": null,
         "_source": {
@@ -6967,7 +7088,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_4808_desc"
+          "Paris, BnF, Latin 4808"
         ],
         "inner_hits": {
           "person": {
@@ -6989,8 +7110,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_4808_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -7017,8 +7137,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_5581_desc",
         "_score": null,
         "_source": {
@@ -7097,7 +7216,7 @@
           "max_date": "0825"
         },
         "sort": [
-          "Paris_BnF_Latin_5581_desc"
+          "Paris, BnF, Latin 5581"
         ],
         "inner_hits": {
           "person": {
@@ -7119,8 +7238,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_5581_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -7147,8 +7265,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_5582_desc",
         "_score": null,
         "_source": {
@@ -7223,7 +7340,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_5582_desc"
+          "Paris, BnF, Latin 5582"
         ],
         "inner_hits": {
           "person": {
@@ -7245,8 +7362,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_5582_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -7273,8 +7389,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_5584_desc",
         "_score": null,
         "_source": {
@@ -7347,7 +7462,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_5584_desc"
+          "Paris, BnF, Latin 5584"
         ],
         "inner_hits": {
           "person": {
@@ -7369,8 +7484,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_5584_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -7397,8 +7511,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_5726_desc",
         "_score": null,
         "_source": {
@@ -7458,7 +7571,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_5726_desc"
+          "Paris, BnF, Latin 5726"
         ],
         "inner_hits": {
           "person": {
@@ -7480,8 +7593,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_5726_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -7508,8 +7620,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_7502_desc",
         "_score": null,
         "_source": {
@@ -7588,7 +7699,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_7502_desc"
+          "Paris, BnF, Latin 7502"
         ],
         "inner_hits": {
           "person": {
@@ -7610,8 +7721,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_7502_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -7638,8 +7748,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_8847_desc",
         "_score": null,
         "_source": {
@@ -7705,7 +7814,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_8847_desc"
+          "Paris, BnF, Latin 8847"
         ],
         "inner_hits": {
           "person": {
@@ -7727,8 +7836,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_8847_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -7755,8 +7863,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_9385_desc",
         "_score": null,
         "_source": {
@@ -7822,7 +7929,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_9385_desc"
+          "Paris, BnF, Latin 9385"
         ],
         "inner_hits": {
           "person": {
@@ -7844,8 +7951,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_9385_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -7872,8 +7978,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_9397_desc",
         "_score": null,
         "_source": {
@@ -7953,7 +8058,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_9397_desc"
+          "Paris, BnF, Latin 9397"
         ],
         "inner_hits": {
           "person": {
@@ -7975,8 +8080,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_9397_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -8003,8 +8107,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_9603_desc",
         "_score": null,
         "_source": {
@@ -8093,7 +8196,7 @@
           "max_date": "0899"
         },
         "sort": [
-          "Paris_BnF_Latin_9603_desc"
+          "Paris, BnF, Latin 9603"
         ],
         "inner_hits": {
           "person": {
@@ -8115,8 +8218,7 @@
               "max_score": 1.9024818,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_9603_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -8143,8 +8245,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_9604_desc",
         "_score": null,
         "_source": {
@@ -8223,7 +8324,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_9604_desc"
+          "Paris, BnF, Latin 9604"
         ],
         "inner_hits": {
           "person": {
@@ -8245,8 +8346,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_Latin_9604_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -8273,8 +8373,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_NAL_1589_desc",
         "_score": null,
         "_source": {
@@ -8362,7 +8461,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_NAL_1589_desc"
+          "Paris, BnF, NAL 1589"
         ],
         "inner_hits": {
           "person": {
@@ -8384,8 +8483,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_NAL_1589_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -8412,8 +8510,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_NAL_204_desc",
         "_score": null,
         "_source": {
@@ -8480,7 +8577,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_NAL_204_desc"
+          "Paris, BnF, NAL 204"
         ],
         "inner_hits": {
           "person": {
@@ -8502,8 +8599,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_NAL_204_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -8530,8 +8626,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_NAL_2334_desc",
         "_score": null,
         "_source": {
@@ -8653,7 +8748,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_NAL_2334_desc"
+          "Paris, BnF, NAL 2334"
         ],
         "inner_hits": {
           "person": {
@@ -8675,8 +8770,7 @@
               "max_score": 1.9024818,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Paris_BnF_NAL_2334_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -8703,252 +8797,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
-        "_id": "Paris_Bnf_Latin_113_desc",
-        "_score": null,
-        "_source": {
-          "identifier": [
-            {
-              "id": "France, Paris, BnF, Latin 113"
-            },
-            {
-              "id": "Jean de Gagny LX"
-            },
-            {
-              "id": "Rigault 1067"
-            },
-            {
-              "id": "Dupuy 1164"
-            },
-            {
-              "id": "Regius 3714"
-            },
-            {
-              "id": "Bischoff 3962"
-            }
-          ],
-          "signature": "Paris, BnF, Latin 113",
-          "date_string": "9 Jhd., ca. 2. Viertel; Ende 9., Anfang 10. Jhd.",
-          "ms_item": [
-            "Bibel"
-          ],
-          "person": [],
-          "provenance": "; ",
-          "autocomplete_person": [],
-          "autocomplete_orig_place": [
-            {
-              "cert": "high",
-              "place": "Tours",
-              "source": ""
-            }
-          ],
-          "autocomplete_ms_item": [
-            "Bibel"
-          ],
-          "illuminated": false,
-          "musicNotation": false,
-          "exlibris": false,
-          "tironoten": false,
-          "named_scribe": false,
-          "ink_analysis": false,
-          "orig_place": [
-            {
-              "cert": "high",
-              "place": "Tours",
-              "source": ""
-            }
-          ],
-          "min_date": "0825",
-          "mid_date": "0867",
-          "max_date": "0910",
-          "with_digitalisat": [
-            "https://gallica.bnf.fr/ark:/12148/btv1b84262806"
-          ]
-        },
-        "sort": [
-          "Paris_Bnf_Latin_113_desc"
-        ],
-        "inner_hits": {
-          "person": {
-            "hits": {
-              "total": {
-                "value": 0,
-                "relation": "eq"
-              },
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "orig_place": {
-            "hits": {
-              "total": {
-                "value": 1,
-                "relation": "eq"
-              },
-              "max_score": 1.9742503,
-              "hits": [
-                {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
-                  "_id": "Paris_Bnf_Latin_113_desc",
-                  "_nested": {
-                    "field": "orig_place",
-                    "offset": 0
-                  },
-                  "_score": 1.9742503,
-                  "_source": {
-                    "cert": "high",
-                    "place": "Tours",
-                    "source": ""
-                  },
-                  "highlight": {
-                    "orig_place.cert": [
-                      "</small><strong>high</strong><small>"
-                    ],
-                    "orig_place.place": [
-                      "</small><strong>Tours</strong><small>"
-                    ]
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
-        "_id": "Paris_Bnf_Latin_260_desc",
-        "_score": null,
-        "_source": {
-          "identifier": [
-            {
-              "id": "France, Paris, BnF, Latin 260"
-            },
-            {
-              "id": "Rand 36"
-            },
-            {
-              "id": "Köhler 4"
-            },
-            {
-              "id": "Bischoff 3974"
-            }
-          ],
-          "signature": "Paris, BnF, Latin 260",
-          "date_string": "8./9. Jhd.; 807?",
-          "ms_item": [
-            "Evangelien"
-          ],
-          "person": [
-            {
-              "name": "Alkuin",
-              "role": "",
-              "identifier": null
-            },
-            {
-              "name": "RAND",
-              "role": "",
-              "identifier": null
-            }
-          ],
-          "provenance": "; Unter Alkuin entstanden, handelt es sich um eine hervorragende turonische Bibel.; Die Handschrift gehörte zunächst Saint-Amand in Südfrankreich und ; gelangt später über Saint-Martial de Limoges nach Paris.; Durch einen Katalogeintrag von Saint-Martial kann die Handschrift auf 807 datiert werden, wobei RAND dies nicht belegen kann.; Nach 1730 gelangte die Handschrift nach Paris.",
-          "autocomplete_person": [
-            {
-              "name": "Alkuin",
-              "role": "",
-              "identifier": null
-            },
-            {
-              "name": "RAND",
-              "role": "",
-              "identifier": null
-            }
-          ],
-          "autocomplete_orig_place": [
-            {
-              "cert": "high",
-              "place": "Tours, Saint-Martin",
-              "source": ""
-            }
-          ],
-          "autocomplete_ms_item": [
-            "Evangelien"
-          ],
-          "illuminated": true,
-          "musicNotation": false,
-          "exlibris": false,
-          "tironoten": false,
-          "named_scribe": false,
-          "ink_analysis": false,
-          "orig_place": [
-            {
-              "cert": "high",
-              "place": "Tours, Saint-Martin",
-              "source": ""
-            }
-          ],
-          "min_date": "0700",
-          "mid_date": "0800",
-          "max_date": "0900",
-          "with_digitalisat": [
-            "https://gallica.bnf.fr/ark:/12148/btv1b8426284v"
-          ]
-        },
-        "sort": [
-          "Paris_Bnf_Latin_260_desc"
-        ],
-        "inner_hits": {
-          "person": {
-            "hits": {
-              "total": {
-                "value": 0,
-                "relation": "eq"
-              },
-              "max_score": null,
-              "hits": []
-            }
-          },
-          "orig_place": {
-            "hits": {
-              "total": {
-                "value": 1,
-                "relation": "eq"
-              },
-              "max_score": 1.8532013,
-              "hits": [
-                {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
-                  "_id": "Paris_Bnf_Latin_260_desc",
-                  "_nested": {
-                    "field": "orig_place",
-                    "offset": 0
-                  },
-                  "_score": 1.8532013,
-                  "_source": {
-                    "cert": "high",
-                    "place": "Tours, Saint-Martin",
-                    "source": ""
-                  },
-                  "highlight": {
-                    "orig_place.cert": [
-                      "</small><strong>high</strong><small>"
-                    ],
-                    "orig_place.place": [
-                      "</small><strong>Tours</strong><small>, Saint-Martin"
-                    ]
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Rom_Vat_Pal_Lat_1710_desc",
         "_score": null,
         "_source": {
@@ -9019,7 +8868,7 @@
           ]
         },
         "sort": [
-          "Rom_Vat_Pal_Lat_1710_desc"
+          "Rom, Vat., Pal. Lat. 1710"
         ],
         "inner_hits": {
           "person": {
@@ -9041,8 +8890,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Rom_Vat_Pal_Lat_1710_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -9064,8 +8912,7 @@
                   }
                 },
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Rom_Vat_Pal_Lat_1710_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -9092,8 +8939,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Rom_Vat_Reg_Lat_1484_desc",
         "_score": null,
         "_source": {
@@ -9159,7 +9005,7 @@
           ]
         },
         "sort": [
-          "Rom_Vat_Reg_Lat_1484_desc"
+          "Rom, Vat., Reg. Lat. 1484"
         ],
         "inner_hits": {
           "person": {
@@ -9181,8 +9027,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Rom_Vat_Reg_Lat_1484_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -9209,8 +9054,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Rom_Vat_Reg_Lat_762_desc",
         "_score": null,
         "_source": {
@@ -9379,7 +9223,7 @@
           ]
         },
         "sort": [
-          "Rom_Vat_Reg_Lat_762_desc"
+          "Rom, Vat., Reg. Lat. 762"
         ],
         "inner_hits": {
           "person": {
@@ -9401,8 +9245,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Rom_Vat_Reg_Lat_762_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -9429,8 +9272,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Rom_Vat_Urb_Lat_1146_desc",
         "_score": null,
         "_source": {
@@ -9509,7 +9351,7 @@
           ]
         },
         "sort": [
-          "Rom_Vat_Urb_Lat_1146_desc"
+          "Rom, Vat., Urb. Lat. 1146"
         ],
         "inner_hits": {
           "person": {
@@ -9531,8 +9373,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Rom_Vat_Urb_Lat_1146_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -9559,8 +9400,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Rom_Vat_Urb_Lat_532_desc",
         "_score": null,
         "_source": {
@@ -9581,8 +9421,8 @@
           "signature": "Rom, Vat., Urb. Lat. 532",
           "date_string": "Pre-Alcuinian; ca. Mitte 9. Jhd.",
           "ms_item": [
-            "Boethius, Contra Eutychen et Nestorium",
-            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae"
+            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae",
+            "Boethius, Contra Eutychen et Nestorium"
           ],
           "person": [],
           "provenance": "; ",
@@ -9605,8 +9445,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Boethius, Contra Eutychen et Nestorium",
-            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae"
+            "Paulus Diaconus, Versus in Laudem Sancti Johannis Baptistae",
+            "Boethius, Contra Eutychen et Nestorium"
           ],
           "illuminated": true,
           "musicNotation": false,
@@ -9639,7 +9479,7 @@
           ]
         },
         "sort": [
-          "Rom_Vat_Urb_Lat_532_desc"
+          "Rom, Vat., Urb. Lat. 532"
         ],
         "inner_hits": {
           "person": {
@@ -9661,8 +9501,7 @@
               "max_score": 1.9024818,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Rom_Vat_Urb_Lat_532_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -9689,8 +9528,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Rom_Vat_Vat_Lat_1480_desc",
         "_score": null,
         "_source": {
@@ -9741,7 +9579,7 @@
           ]
         },
         "sort": [
-          "Rom_Vat_Vat_Lat_1480_desc"
+          "Rom, Vat., Vat. Lat. 1480"
         ],
         "inner_hits": {
           "person": {
@@ -9763,8 +9601,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Rom_Vat_Vat_Lat_1480_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -9791,8 +9628,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc",
         "_score": null,
         "_source": {
@@ -9856,7 +9692,7 @@
           "max_date": "0845"
         },
         "sort": [
-          "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc"
+          "Sankt Petersburg, Russische Nationalbibliothek, Q. v. I. 21"
         ],
         "inner_hits": {
           "person": {
@@ -9878,8 +9714,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Sankt_Petersburg_Russische_Nationalbibliothek_Q_v_I_21_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -9906,8 +9741,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Schaffhausen_SB_Min_58_desc",
         "_score": null,
         "_source": {
@@ -9955,7 +9789,7 @@
           "max_date": "0849"
         },
         "sort": [
-          "Schaffhausen_SB_Min_58_desc"
+          "Schaffhausen, SB, Min. 58"
         ],
         "inner_hits": {
           "person": {
@@ -9977,8 +9811,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Schaffhausen_SB_Min_58_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -10005,8 +9838,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "St_Gallen_Cod_Sang_75_desc",
         "_score": null,
         "_source": {
@@ -10081,7 +9913,7 @@
           ]
         },
         "sort": [
-          "St_Gallen_Cod_Sang_75_desc"
+          "St. Gallen, Cod. Sang., 75"
         ],
         "inner_hits": {
           "person": {
@@ -10103,8 +9935,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "St_Gallen_Cod_Sang_75_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -10131,8 +9962,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Stuttgart_WLB_II_40_desc",
         "_score": null,
         "_source": {
@@ -10221,7 +10051,7 @@
           ]
         },
         "sort": [
-          "Stuttgart_WLB_II_40_desc"
+          "Stuttgart, WLB, HB II 40"
         ],
         "inner_hits": {
           "person": {
@@ -10243,8 +10073,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Stuttgart_WLB_II_40_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -10271,8 +10100,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_106_desc",
         "_score": null,
         "_source": {
@@ -10293,8 +10121,8 @@
           "signature": "Tours, BM, 106",
           "date_string": "Mitte 9. Jhd., nach 842",
           "ms_item": [
-            "Augustinus, Sermo de passione beati Iohannis Baptiste",
-            "Hrabanus Maurus, Expositio in Matheum"
+            "Hrabanus Maurus, Expositio in Matheum",
+            "Augustinus, Sermo de passione beati Iohannis Baptiste"
           ],
           "person": [
             {
@@ -10324,8 +10152,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Augustinus, Sermo de passione beati Iohannis Baptiste",
-            "Hrabanus Maurus, Expositio in Matheum"
+            "Hrabanus Maurus, Expositio in Matheum",
+            "Augustinus, Sermo de passione beati Iohannis Baptiste"
           ],
           "illuminated": true,
           "musicNotation": false,
@@ -10353,7 +10181,7 @@
           ]
         },
         "sort": [
-          "Tours_BM_106_desc"
+          "Tours, BM, 106"
         ],
         "inner_hits": {
           "person": {
@@ -10375,8 +10203,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Tours_BM_106_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -10403,8 +10230,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_196_desc",
         "_score": null,
         "_source": {
@@ -10458,7 +10284,7 @@
           "max_date": "1025"
         },
         "sort": [
-          "Tours_BM_196_desc"
+          "Tours, BM, 196"
         ],
         "inner_hits": {
           "person": {
@@ -10480,8 +10306,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Tours_BM_196_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -10508,8 +10333,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_281_desc",
         "_score": null,
         "_source": {
@@ -10594,7 +10418,7 @@
           ]
         },
         "sort": [
-          "Tours_BM_281_desc"
+          "Tours, BM, 281"
         ],
         "inner_hits": {
           "person": {
@@ -10616,8 +10440,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Tours_BM_281_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -10644,8 +10467,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_286_desc",
         "_score": null,
         "_source": {
@@ -10696,7 +10518,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Tours_BM_286_desc"
+          "Tours, BM, 286"
         ],
         "inner_hits": {
           "person": {
@@ -10718,8 +10540,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Tours_BM_286_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -10746,8 +10567,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_309_desc",
         "_score": null,
         "_source": {
@@ -10821,7 +10641,7 @@
           "max_date": "0875"
         },
         "sort": [
-          "Tours_BM_309_desc"
+          "Tours, BM, 309"
         ],
         "inner_hits": {
           "person": {
@@ -10843,8 +10663,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Tours_BM_309_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -10871,8 +10690,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_335_desc",
         "_score": null,
         "_source": {
@@ -10926,7 +10744,7 @@
           "max_date": "1100"
         },
         "sort": [
-          "Tours_BM_335_desc"
+          "Tours, BM, 335"
         ],
         "inner_hits": {
           "person": {
@@ -10948,8 +10766,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Tours_BM_335_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -10976,8 +10793,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_844_desc",
         "_score": null,
         "_source": {
@@ -11041,7 +10857,7 @@
           "max_date": "1000"
         },
         "sort": [
-          "Tours_BM_844_desc"
+          "Tours, BM, 844"
         ],
         "inner_hits": {
           "person": {
@@ -11063,8 +10879,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Tours_BM_844_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -11091,8 +10906,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Tours_BM_887_desc",
         "_score": null,
         "_source": {
@@ -11159,7 +10973,7 @@
           "max_date": "0857"
         },
         "sort": [
-          "Tours_BM_887_desc"
+          "Tours, BM, 887"
         ],
         "inner_hits": {
           "person": {
@@ -11181,8 +10995,7 @@
               "max_score": 1.7899126,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Tours_BM_887_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -11209,8 +11022,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Trier_SB_Hs1086_desc",
         "_score": null,
         "_source": {
@@ -11286,7 +11098,7 @@
           ]
         },
         "sort": [
-          "Trier_SB_Hs1086_desc"
+          "Trier, Stadtbibliothek Hs. 1086/2180 2°"
         ],
         "inner_hits": {
           "person": {
@@ -11308,8 +11120,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Trier_SB_Hs1086_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -11336,8 +11147,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Troyes_BM_1742_desc",
         "_score": null,
         "_source": {
@@ -11397,7 +11207,7 @@
           ]
         },
         "sort": [
-          "Troyes_BM_1742_desc"
+          "Troyes, BM, 1742"
         ],
         "inner_hits": {
           "person": {
@@ -11419,8 +11229,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Troyes_BM_1742_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -11447,8 +11256,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Troyes_BM_29_desc",
         "_score": null,
         "_source": {
@@ -11512,7 +11320,7 @@
           ]
         },
         "sort": [
-          "Troyes_BM_29_desc"
+          "Troyes, BM, 29"
         ],
         "inner_hits": {
           "person": {
@@ -11534,8 +11342,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Troyes_BM_29_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -11562,8 +11369,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Warschau_BU_1_Quart_1_desc",
         "_score": null,
         "_source": {
@@ -11581,8 +11387,8 @@
           "signature": "Warschau, BU 1 [Quart  1]",
           "date_string": "2. Viertel 9. Jhd.",
           "ms_item": [
-            "Lex Salica",
-            "Breviarium Alarici"
+            "Breviarium Alarici",
+            "Lex Salica"
           ],
           "person": [],
           "provenance": "Collège Clermont, Paris; 1849 im Besitz von Professor Friedrich L. Keller.; 1862 aus dessen Nachlass von der UB Warschau gekauft.",
@@ -11605,8 +11411,8 @@
             }
           ],
           "autocomplete_ms_item": [
-            "Lex Salica",
-            "Breviarium Alarici"
+            "Breviarium Alarici",
+            "Lex Salica"
           ],
           "illuminated": false,
           "musicNotation": false,
@@ -11636,7 +11442,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Warschau_BU_1_Quart_1_desc"
+          "Warschau, BU 1 [Quart  1]"
         ],
         "inner_hits": {
           "person": {
@@ -11658,8 +11464,7 @@
               "max_score": 1.9742503,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Warschau_BU_1_Quart_1_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -11686,8 +11491,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Wien_NB_468_desc",
         "_score": null,
         "_source": {
@@ -11776,7 +11580,7 @@
           "max_date": "0850"
         },
         "sort": [
-          "Wien_NB_468_desc"
+          "Wien, NB, Cod. 468"
         ],
         "inner_hits": {
           "person": {
@@ -11798,8 +11602,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Wien_NB_468_desc",
                   "_nested": {
                     "field": "orig_place",
@@ -11826,8 +11629,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Zürich_ZB_Ms_Car_C_1_desc",
         "_score": null,
         "_source": {
@@ -11884,7 +11686,7 @@
           ]
         },
         "sort": [
-          "Zürich_ZB_Ms_Car_C_1_desc"
+          "Zürich, ZB, Ms. Car. C. 1"
         ],
         "inner_hits": {
           "person": {
@@ -11906,8 +11708,7 @@
               "max_score": 1.8532013,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Zürich_ZB_Ms_Car_C_1_desc",
                   "_nested": {
                     "field": "orig_place",

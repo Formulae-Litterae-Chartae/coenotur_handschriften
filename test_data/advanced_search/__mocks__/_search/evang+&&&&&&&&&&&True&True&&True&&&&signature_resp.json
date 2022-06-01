@@ -1,5 +1,5 @@
 {
-  "took": 13,
+  "took": 51,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,8 +15,7 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "London_BL_Harley_2790_desc",
         "_score": null,
         "_source": {
@@ -96,7 +95,7 @@
           ]
         },
         "sort": [
-          "London_BL_Harley_2790_desc"
+          "London, BL, Harley 2790"
         ],
         "inner_hits": {
           "person": {
@@ -108,8 +107,7 @@
               "max_score": 1.8391056,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "London_BL_Harley_2790_desc",
                   "_nested": {
                     "field": "person",
@@ -117,9 +115,9 @@
                   },
                   "_score": 1.8391056,
                   "_source": {
-                    "name": "Gedeon",
+                    "identifier": null,
                     "role": "Schreiber",
-                    "identifier": null
+                    "name": "Gedeon"
                   },
                   "highlight": {
                     "person.role": [
@@ -133,8 +131,7 @@
         }
       },
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Stuttgart_WLB_II_40_desc",
         "_score": null,
         "_source": {
@@ -231,7 +228,7 @@
           ]
         },
         "sort": [
-          "Stuttgart_WLB_II_40_desc"
+          "Stuttgart, WLB, HB II 40"
         ],
         "inner_hits": {
           "person": {
@@ -243,8 +240,7 @@
               "max_score": 1.8391056,
               "hits": [
                 {
-                  "_index": "coenotur_v61",
-                  "_type": "_doc",
+                  "_index": "coenotur_v4",
                   "_id": "Stuttgart_WLB_II_40_desc",
                   "_nested": {
                     "field": "person",
@@ -252,9 +248,9 @@
                   },
                   "_score": 1.8391056,
                   "_source": {
-                    "name": "Adalbaldus",
+                    "identifier": null,
                     "role": "Schreiber",
-                    "identifier": null
+                    "name": "Adalbaldus"
                   },
                   "highlight": {
                     "person.role": [

@@ -6,29 +6,42 @@
           "bool": {
             "should": [
               {
+                "nested": {
+                  "path": "identifier",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "span_near": {
+                            "clauses": [
+                              {
+                                "span_term": {
+                                  "identifier.id": "tours"
+                                }
+                              }
+                            ],
+                            "slop": 100,
+                            "in_order": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
                 "span_near": {
                   "clauses": [
                     {
-                      "span_multi": {
-                        "match": {
-                          "wildcard": {
-                            "ms_item": "evang*"
-                          }
-                        }
+                      "span_term": {
+                        "ms_item": "tours"
                       }
                     }
                   ],
-                  "slop": 0,
+                  "slop": 100,
                   "in_order": false
                 }
-              }
-            ],
-            "minimum_should_match": 1
-          }
-        },
-        {
-          "bool": {
-            "should": [
+              },
               {
                 "span_near": {
                   "clauses": [
@@ -38,8 +51,56 @@
                       }
                     }
                   ],
-                  "slop": 0,
+                  "slop": 100,
                   "in_order": false
+                }
+              },
+              {
+                "nested": {
+                  "path": "person",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "span_near": {
+                            "clauses": [
+                              {
+                                "span_term": {
+                                  "person.name": "tours"
+                                }
+                              }
+                            ],
+                            "slop": 100,
+                            "in_order": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "nested": {
+                  "path": "orig_place",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "span_near": {
+                            "clauses": [
+                              {
+                                "span_term": {
+                                  "orig_place.place": "tours"
+                                }
+                              }
+                            ],
+                            "slop": 100,
+                            "in_order": false
+                          }
+                        }
+                      ]
+                    }
+                  }
                 }
               }
             ],
@@ -55,7 +116,7 @@
       ]
     }
   },
-  "sort": "_id",
+  "sort": "signature",
   "size": 10000,
   "aggs": {
     "range": {
@@ -163,7 +224,9 @@
       "identifier": {},
       "ms_item": {},
       "provenance": {},
-      "with_digitalisat": {}
+      "with_digitalisat": {},
+      "person.name": {},
+      "orig_place.place": {}
     },
     "pre_tags": [
       "</small><strong>"

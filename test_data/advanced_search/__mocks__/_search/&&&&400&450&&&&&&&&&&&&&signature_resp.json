@@ -1,5 +1,5 @@
 {
-  "took": 2,
+  "took": 18,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -15,8 +15,7 @@
     "max_score": null,
     "hits": [
       {
-        "_index": "coenotur_v61",
-        "_type": "_doc",
+        "_index": "coenotur_v4",
         "_id": "Paris_BnF_Latin_5730_desc",
         "_score": null,
         "_source": {
@@ -64,7 +63,7 @@
           ]
         },
         "sort": [
-          "Paris_BnF_Latin_5730_desc"
+          "Paris, BnF, Latin 5730"
         ]
       }
     ]
