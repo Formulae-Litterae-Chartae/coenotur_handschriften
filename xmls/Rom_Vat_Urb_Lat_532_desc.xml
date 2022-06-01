@@ -67,7 +67,8 @@
                         <scriptDesc>
                             <scriptNote ana="ink" n="Haupttext">
                                 <p><locus n="fol. 2r"/>Vitriolische Eisengallustinten</p>
-                                <p><locus n="fol. 12v, fol. 33r"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>                         
+                                <p><locus n="fol. 12v, fol. 33r"/>Nicht-vitriolische Eisengallustinten</p>
+                                <p>Der Grund für die Änderung des verwendeten Tintentyps wurde nicht gefunden. </p></scriptNote>              
                             <scriptNote ana="ink" n="Initiale">
                                 <p><locus n="fol. 3r"/>Vitriolische Eisengallustinten</p></scriptNote>
                             <scriptNote ana="ink" n="Incipit-Explicit">
@@ -82,7 +83,7 @@
                         <decoDesc>
                             <decoNote ana="pigments" n="Rot">
                                 <p><locus type="Incipit-Explicit" n="fol. 1r"/>Mischung aus Minium und Zinnober</p>
-                                <p><locus type="Incipit-Explicit" n="fol. 33v"/>____________</p></decoNote>
+                                <p><locus type="Incipit-Explicit" n="fol. 33v"/>Mischung aus Minium und Zinnober</p></decoNote>
                             <decoNote type="border">
                                 <p><locus n="1r"/>Wappenkunde.</p>
                                 <p><locus n="35r"/>Großer Ring im uberen Rand.</p>
