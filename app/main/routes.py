@@ -387,7 +387,12 @@ def handschrift(manuscript: str):
             for pigment_para in deco.xpath('./tei:p', namespaces=current_app.namespaces):
                 pigment_locus = pigment_para.xpath('./tei:locus', namespaces=current_app.namespaces)[0]
                 pigment_type = ''.join(pigment_para.xpath('.//text()'))
-                pigment_type_url = url_for('static', filename='images/tinte/{}.jpg'.format(pigment_type.lower().replace(' ', '')))
+                if pigment_type == 'Mischung aus Minium und Zinnober':
+                    pigment_type_url = url_for('static', filename='images/tinte/minium+zinnober.jpg')
+                else:
+                    pigment_type_url = url_for('static',
+                                               filename='images/tinte/{}.jpg'.format(pigment_type.lower().replace(' ', '').replace('ü', 'ue').replace('ö', 'oe').replace('ä', 'ae').replace('ß', 'ss')))
+                pigment_type_url = pigment_type_url.replace('%2B', '+')
                 if os.path.isfile(current_app.root_path + pigment_type_url):
                     pigment_type = '<a href="{}" target="_blank">{}</a>'.format(pigment_type_url, pigment_type)
                 pigment_info = {'type': pigment_type, 'loc': pigment_locus.get('type', default='').strip(), 'folien': pigment_locus.get('n', default='').strip()}
