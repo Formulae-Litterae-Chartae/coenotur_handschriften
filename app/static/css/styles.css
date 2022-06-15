@@ -29,3 +29,7 @@
 .funder-logo {
     padding-top: 20%;
 }
+
+.small-caps {
+    font-variant: small-caps;
+}
