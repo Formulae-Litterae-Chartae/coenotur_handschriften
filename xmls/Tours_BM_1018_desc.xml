@@ -59,8 +59,25 @@
                      <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>Miniaturen vorhanden; COLLON enthält eine etwas ausführliche
-                        Beschreibung der Miniaturen </decoNote>
+                     <decoNote>Miniaturen vorhanden; COLLON enthält eine ausführliche Beschreibung der Miniaturen </decoNote>
+                        <decoNote type="sminiature">
+                           <p><locus n="9v"/>Unterhalb, Sankt Martin, der seinen Mantel teilt; oben, Gott zwischen zwei Engeln und den Mantel haltend, erscheint Sankt Martin, der auf seinem Sterbebett liegt.</p>.
+                           <p><locus n="11r"/>Sankt Martin bittet Kaiser Julian, ihn vom Kampf zu entbinden. </p>
+                           <p><locus n="13r"/>Sankt Martin und die Diebe </p>.
+                           <p><locus n="15r"/>Rechts: Sankt Martin vergiftet; links: Sankt Martin betet zu Gott, ihn zu retten. </p>
+                           <p><locus n="18r"/>Sankt Martin erweckt einen Sklaven wieder zum Leben, der sich erhängt hatte. </p>
+                           <p><locus n="36v"/>Sankt Martin umarmt einen Aussätzigen. </p>
+                           <p><locus n="37r"/>Sankt Martin betet für die Tochter des Arborius. </p>.
+                           <p><locus n="37v"/>Heilung der Tochter des Arborius. </p>.
+                           <p><locus n="38r"/>Die Weihe der Tochter des Arborius. </p>
+                           <p><locus n="38v"/>Sankt Martin heilt Sankt Paulin vom grauen Star. </p>
+                           <p><locus n="39r"/>Links Sankt Martin, der eine Treppe hinunterfällt; rechts Sankt Martin, der von einem Engel verbunden wird. </p>
+                           <p><locus n="42r"/>Sankt Martin am Tisch des Kaisers Maximus. </p>
+                           <p><locus n="42v"/>Sankt Martin im Gespräch mit den EngelnSankt </p>.
+                           <p><locus n="49v"/>Links Sankt Martin und der Teufel, in der Hand ein blutiges Ochsenhorn haltend; rechts unten ein Ordensmann, der dem verletzten Ochsen hilft; oben Sankt Martin, der einen Besessenen austreibt. </p></decoNote>
+                        <decoNote type="initial">
+                           <p><locus n="5v"/>Großes, buntes I</p>.
+                           <p><locus n="176v"/>Zoomorphisierte Tiere ineinander verwoben</p>.</decoNote>
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
