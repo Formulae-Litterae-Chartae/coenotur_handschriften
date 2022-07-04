@@ -369,6 +369,7 @@ class TestRoutes(CoenoturTests):
             self.assertEqual(metadata['binding'], ['Brauner Ledereinband über Pappe mit Streicheisengliederung, 19. Jhd.'])
             self.assertIn({'<a href="{}" target="_blank">Vitriolische Eisengallustinten</a>'.format(url_for('static', filename='images/tinte/vitriolischeeisengallustinten.jpg')): 'fol. something'}, metadata['tintenanalyse']['ink']['Haupttext'])
             self.assertEqual(metadata['tintenanalyse']['pigments']['Rot']['<a href="{}" target="_blank">Zinnober</a>'.format(url_for('static', filename='images/tinte/zinnober.jpg'))]['Initiale'], 'fol. 4r, fol. 211v')
+            self.assertEqual(metadata['tintenanalyse']['pigments']['Rot']['<a href="{}" target="_blank">Mischung aus Minium und Zinnober</a>'.format(url_for('static', filename='images/tinte/minium+zinnober.jpg').replace('%2B', '+'))]['Rubrik'], 'fol. 58v, fol. 70r, fol. 76r')
 
             # Test handDesc and scriptDesc <p>
             c.get('/handschrift/Tours_BM_1019_desc.xml', follow_redirects=True)

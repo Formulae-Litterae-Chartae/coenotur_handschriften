@@ -4,17 +4,19 @@
     <div class="row justify-content-center mt-3">
         <div class="col-8">
             <h1 class="index-paragraph">Analysen von Pigmenten und Tinten</h1>
-            <p class="index-paragraph">Diese Datenbank, die Beobachtungen sammelt, die über den gesamten Korpus der Tours zugeschriebenen Manuskripte gesammelt wurden, von denen wir bis heute wissen, wurde um eine Kategorie über die Analysen ergänzt, die an den Tinten und Pigmenten bestimmter Manuskripte durchgeführt wurden. Diese Ergebnisse wurden in den Einträgen "Tintenanalysen" und "Pigmentanalysen" zusammengefasst und stammen aus den Kompositionsanalysen, die an den Manuskripten unseres Korpus durchgeführt wurden.</p>
-            <p class="index-paragraph">Alle 52 Manuskripte wurden mithilfe eines zweistufigen Protokolls analysiert: zunächst eine systematische Beobachtung der Tinten mittels Infrarot-Reflektographie unter Verwendung eines DinoLite Taschenmikroskops und in einem zweiten Schritt eine Analyse mittels XRF (Röntgenfluoreszenz-Spektrometrie).</p>
-            <p class="index-paragraph">Diese Analysen ermöglichen zwar keine Rezeptur, aber eine Charakterisierung der verschiedenen anorganischen Komponenten, die in der analysierten Zone enthalten sind, und somit eine Zuordnung zu einem Tintentyp oder einem Typ des verwendeten Pigments.</p>
-            <p class="index-paragraph">Diese Charakterisierung zielte darauf ab, die Verwendung von Schreibmaterialien in frühkarolingischen Manuskripten aus Tours zu verstehen und wurde schrittweise bis zum Beginn des 13. Jahrhunderts ausgeweitet, wobei auch Manuskripte einbezogen wurden, die außerhalb von Tours geschrieben worden sein könnten, um Vergleichsmöglichkeiten zu erhalten. Diese Analysen ermöglichten es, verschiedene Tinten und Pigmente zu identifizieren, die im Korpus verwendet wurden.</p>
-            <p class="index-paragraph">Eine Veröffentlichung mit weiteren Einzelheiten zu den verwendeten Techniken, der Methodik und einer Interpretation der Ergebnisse in französischer Sprache wird im Sammelband mit den detaillierten Ergebnissen des Projekts erhältlich sein.</p>
-            <h2>Tinten</h2>
+            <p class="index-paragraph">In diesem Teil der Datenbank werden die im Rahmen des Forschungsprojekts COENOTUR gesammelten Beobachtungen von Tinten- und Pigmentanalysen zusammengestellt. Diese Kompositionsanalysen wurden an einer Auswahl von insgesamt 52 Handschriften, die den Skriptorien von Tours zugeschrieben werden, durchgeführt. Die Ergebnisse sind in den Einträgen "Tintenanalysen" und "Pigmentanalysen" zusammengefasst.</p>
+            <p class="index-paragraph">Die 52 Handschriften wurden aus vier Beständen in Berlin (SBB), Paris (BnF), Tours (BM) und Rom (Vatikan) ausgewählt (<a href="{{ url_for('search.r_results', source='advanced', simple_q='', identifier='', orig_place='', orig_place_cert='', orig_year_start='', orig_year_end='', ms_item='', person='', person_role='', provenance='', with_digitalisat=False, with_scribe=False, with_illuminations=False, with_exlibris=False, with_tironoten=False, with_neumierung=False, with_ink_analysis=True, submit=True) }}" target="_blank">hier aufgelistet</a>). Die Texte sind inhaltlich vielfältig und behandeln sowohl religiöse als auch profane Themen. Die Kopierqualität ist unterschiedlich, das Spektrum reicht von schnellen Abschriften bis hin zu sehr reich illuminierten Sakramentaren. Entstanden sind die Handschriften im Zeitraum vom 9.–13. Jh., die Entstehungsorte sind z.T. unsicher. Alle Zuordnungen beruhen auf paläographischen und kodikologischen Analysen, deren Referenzen in der Datenbank zu finden sind.</p>
+            <p class="index-paragraph">Alle Manuskripte wurden mithilfe eines zweistufigen Protokolls analysiert. Zunächst wurde eine systematische Beobachtung der Tinten mittels Infrarot-Reflektographie unter Verwendung eines DinoLite Taschenmikroskops vorgenommen, danach erfolgte in einem zweiten Schritt eine Analyse mittels XRF (Röntgenfluoreszenz-Spektrometrie).</p>
+            <p class="index-paragraph">Diese Analysen ermöglichen es zwar nicht, die genaue Rezeptur der Tinten oder Pigmente zu rekonstruieren, dennoch können die verschiedenen anorganischen Komponenten, die im analysierten Bereich enthalten sind, charakterisiert werden.</p>
+            <p class="index-paragraph">Diese Charakterisierung zielt darauf ab, die Verwendung von Schreibmaterialien in frühkarolingischen Manuskripten aus Tours zu verstehen. Der Analysezeitraum wurde schrittweise bis zum Beginn des 13. Jahrhunderts ausgeweitet, wobei auch Manuskripte einbezogen wurden, die außerhalb von Tours geschrieben worden sein könnten, um Vergleichsmöglichkeiten zu erhalten. Generell lässt sich durch die Analysen feststellen, welche Tinten und Pigmente in den untersuchten Handschriften verwendet wurden. Die Ergebnisse werden in französischer Sprache in dem sich noch in Vorbereitung befindenden Sammelband verfügbar sein, der sich mit den Ergebnissen des Projekts COENOTUR befasst. Dort wird sich neben weiteren Details zur verwendeten Technik und zur Methodik auch eine detaillierte Interpretation der Beobachtungen finden lassen.</p>
+            <p class="index-paragraph">In der Kategorie "Analyse" werden alle erzielten Ergebnisse zusammengefasst. Im Folgenden sind die Spektren für die einzelnen Pigment- und Tintentypen dargestellt, um die Zuordnung der Ergebnisse zu erleichtern.</p>
+            <h2 class="small-caps">Tinten</h2>
             <figure>
                 <span id="blackInkTooltip" data-toggle="tooltip" data-container="#blackInkTooltip" title="Getrennte Kurven zeigen"><button type="button" class="btn btn-link" data-toggle="modal" data-target="#blackInkModal"><img src="{{url_for('static', filename='images/tinte/vitriolisch+nichtvitriolischeisengallustinten.jpg')}}" class="img-fluid" alt="Tintenanalyse: Tours, BM, Ms 290, f.81r, Haupttext"></button></span>
                 <figcaption class="text-center major-caption">Vitriolische und nicht-vitriolische Eisengallustinte</figcaption>
             </figure>
-            <p class="index-paragraph">Zwei Arten von schwarzer Tinte waren im Korpus vorhanden, beide vom Typ Ferrogallus. Beide Spektren enthalten Eisen. Dennoch unterscheiden sie sich in den Bereichen von Kupfer (Cu), Mangan (Mn) und Zink (Zn) jeweils bei at 5,9 keV, 8 keV und 8,6 keV. Das grüne Spektrum enthält keines dieser Elemente, was die Verwendung von reinem Eisen (in Form von Nägeln oder Eisenspänen) zur Herstellung der Tinte recht wahrscheinlich macht, während das blaue Spektrum diese Elemente enthält, was ein spezifisches Profil für die Verwendung von Vitriol zur Herstellung der Tinte darstellt.</p>
+            <p class="index-paragraph">Zwei Arten schwarzer Tinte vom Typ Eisengallus sind im Korpus vorhanden (grün und blau). Beide Spektren enthalten Eisen mit zwei erkennbaren Peaks bei 6,4 keV für Kα und 7 keV für Kβ. Dennoch unterscheiden sie sich in den Bereichen von Kupfer (Cu), Mangan (Mn) und/oder Zink (Zn) jeweils bei at 5,9 keV, 8 keV und 8,6 keV (hier zum Beispiel enthält das Spektrum in Blau Kupfer und Zink). Das grüne Spektrum enthält keines dieser Elemente, was die Verwendung von reinem Eisen (in Form von Nägeln oder Eisenspänen) zur Herstellung von Tinte recht wahrscheinlich macht. Dagegen enthält das blaue Spektrum die drei genannten Elemente, was spezifisch für die Verwendung von Vitriol bei der Herstellung der Tinte spricht [Klicken Sie auf das Bild, um die Spektren einzeln anzeigen zu lassen].</p>
+            <p class="index-paragraph">In den Manuskripten ab dem 12. Jahrhundert wurden außerdem in Miniaturen und an den Rändern zunehmend schwarze Tinten verwendet, die bei der Analyse die Eigenschaften von Eisengallustinte aufwiesen (Spektren mit einem starken Peak im Eisenbereich) und im Infrarotlicht wie Kohlensäuretinte reagierten. Diese Tinten werden als Mischtinten bezeichnet.</p>
             <div class="modal" id="blackInkModal" tabindex="-1" aria-labelledby="blackInkModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
@@ -26,11 +28,11 @@
                         </div>
                         <div class="modal-body">
                             <figure>
-                                <img src="{{url_for('static', filename='images/tinte/vitriolischeeisengallustinten.jpg')}}" class="img-fluid" alt="Tintenanalyse: Tours, BM, Ms 290, f.81r, Haupttext">
+                                <img src="{{url_for('static', filename='images/tinte/vitriolischeeisengallustinten.jpg')}}" class="img-fluid" alt="Tintenanalyse: Tours, BM, Ms 196, f.296r">
                                 <figcaption class="text-center major-caption">Vitriolische Eisengallustinte</figcaption>
                             </figure>
                             <figure>
-                                <img src="{{url_for('static', filename='images/tinte/nicht-vitriolischeeisengallustinten.jpg')}}" class="img-fluid" alt="Tintenanalyse: Berlin, SBB, Ms Phill 1877, f.90r, Haupttext">
+                                <img src="{{url_for('static', filename='images/tinte/nicht-vitriolischeeisengallustinten.jpg')}}" class="img-fluid" alt="Tintenanalyse: Berlin, SBB, Ms Phill 1877, f.2r">
                                 <figcaption class="text-center major-caption">Nicht-vitriolische Eisengallustinte</figcaption>
                             </figure>
                         </div>
@@ -40,13 +42,13 @@
                     </div>
                 </div>
             </div>
-            <h2>Pigmente</h2>
-            <h3>Rote Pigmente</h3>
+            <h2 class="small-caps">Pigmente</h2>
+            <h3>Rot</h3>
+            <p class="index-paragraph">Drei Arten roter Pigmente konnten im Korpus gefunden werden: Eine Art, die nur Blei (Pb, mit Peaks bei 10,55 keV für Lα und 12,6 keV für Lβ) enthält, charakteristisch für Minium (schwarzes Spektrum). Eine zweite besteht ausschließlich aus Quecksilber (Hg, mit Peaks bei 9,98 keV für Lα und 11,82 keV für Lβ), charakteristisch für Zinnober (graues Spektrum). Auch eine Mischung aus beiden ist nachzuweisen (blaues Spektrum). Diese wird in der Datenbank als "Mischung aus Minium und Zinnober" bezeichnet.</p>
             <figure>
                 <span id="redPigmentTooltip" data-toggle="tooltip" data-container="#redPigmentTooltip" title="Getrennte Kurven zeigen"><button type="button" class="btn btn-link" data-toggle="modal" data-target="#redPigmentModal"><img src="{{url_for('static', filename='images/tinte/rot_pigment.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 248, f.1r"></button></span>
                 <figcaption class="text-center major-caption">Rote Pigmente</figcaption>
             </figure>
-            <p class="index-paragraph">Im Korpus wurden drei Rot-Typen nachgewiesen: ein Rot-Typ, der nur Blei (Pb) enthält, was charakteristisch für Mennige ist (schwarzes Spektrum). Ein zweiter, der nur Quecksilber (Hg) enthält, das für Zinnober charakteristisch ist (graues Spektrum). Und schließlich eine Mischung aus beiden (blau).</p>
             <div class="modal" id="redPigmentModal" tabindex="-1" aria-labelledby="redPigmentModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
@@ -58,15 +60,15 @@
                         </div>
                         <div class="modal-body">
                             <figure>
-                                <img src="{{url_for('static', filename='images/tinte/minium.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Phill 1877, f.22r, Titel">
+                                <img src="{{url_for('static', filename='images/tinte/minium.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Phill 1877, f.22r">
                                 <figcaption class="text-center major-caption">Minium</figcaption>
                             </figure>
                             <figure>
-                                <img src="{{url_for('static', filename='images/tinte/zinnober.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Ms Phil 1872, f.88v, Incipit">
+                                <img src="{{url_for('static', filename='images/tinte/zinnober.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Ms Phil 1872, f.88v">
                                 <figcaption class="text-center major-caption">Zinnober</figcaption>
                             </figure>
                             <figure>
-                                <img src="{{url_for('static', filename='images/tinte/minium+zinnober.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 82, f.4r, Initiale">
+                                <img src="{{url_for('static', filename='images/tinte/minium+zinnober.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 82, f.4r">
                                 <figcaption class="text-center major-caption">Mischung aus Minium und Zinnober</figcaption>
                             </figure>
                         </div>
@@ -76,23 +78,58 @@
                     </div>
                 </div>
             </div>
-            <h3>Goldene Pigmente</h3>
+            <h3>Gold</h3>
+            <p class="index-paragraph">Goldpigmente tauchen nur in den an den aufwändigsten illuminierten Manuskripten der untersuchten Auswahl auf. Man verwendete offenbar verschiedene Präparate: Zum einen reines Gold (Au, mit Peaks bei 9,71 keV für Lα und 11,42 keV für Lβ, violettes Spektrum). Man benutzte aber auch, wohl zwecks Kostensenkung, mit anderen Elementen – insbesondere mit Kupfer (Cu, gelbes Spektrum) oder mit Eisen (Fe, rotes Spektrum) – vermischtes Gold. Außerdem zeigt sich in den späteren Manuskripten (nur in Handschriften nach dem 12. Jahrhundert) die Verwendung von Messing, einer Legierung aus Kupfer (Cu) und Zink (Zn) (schwarzes Spektrum).</p>
             <figure>
-                <img src="{{url_for('static', filename='images/tinte/gold.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 248, f.1r">
-                <figcaption class="text-center major-caption">Gold</figcaption>
+                <span id="goldPigmentTooltip" data-toggle="tooltip" data-container="#goldPigmentTooltip" title="Getrennte Kurven zeigen"><button type="button" class="btn btn-link" data-toggle="modal" data-target="#goldPigmentModal"><img src="{{url_for('static', filename='images/tinte/gold_alle.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Goldpigmente"></button></span>
+                <figcaption class="text-center major-caption">Goldpigmente</figcaption>
             </figure>
-            <figure>
-                <img src="{{url_for('static', filename='images/tinte/gold+kupfer.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Phill 1877, Gold + Kupfer">
-                <figcaption class="text-center major-caption">Gold + Kupfer</figcaption>
-            </figure>
-            <figure>
-                <img src="{{url_for('static', filename='images/tinte/messing.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Tours, BM, Ms 196, f.32v, Messing">
-                <figcaption class="text-center major-caption">Messing</figcaption>
-            </figure>
+            <div class="modal" id="goldPigmentModal" tabindex="-1" aria-labelledby="goldPigmentModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="goldPigmentModalLabel">Analyse von Goldpigmenten</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <img src="{{url_for('static', filename='images/tinte/gold.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 248, f.1r">
+                                <figcaption class="text-center major-caption">Gold</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="{{url_for('static', filename='images/tinte/gold+eisen.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Tours, BM, Ms 196, f.119v">
+                                <figcaption class="text-center major-caption">Gold + Eisen</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="{{url_for('static', filename='images/tinte/gold+kupfer.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Phill 1877, f.50r">
+                                <figcaption class="text-center major-caption">Gold + Kupfer</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="{{url_for('static', filename='images/tinte/messing.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Tours, BM, Ms 196, f.32v">
+                                <figcaption class="text-center major-caption">Messing</figcaption>
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Weiß</h3>
+            <p class="index-paragraph">Im gesamten analysierten Korpus wurde nur eine einzige Art weißer Pigmente verwendet, die auf Bleibasis hergestellt wurde. Dies ist an den Peaks bei 10,55 keV für Lα und 12,6 keV für Lβ erkennbar, die für Blei charakteristisch sind.</p>
             <figure>
                 <img src="{{url_for('static', filename='images/tinte/bleiweiß.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Tours, BM, Ms 15, f. 98r, Bleiweiß">
                 <figcaption class="text-center major-caption">Bleiweiß</figcaption>
             </figure>
+            <h3>Grün</h3>
+            <p class="index-paragraph">Die Analysen, die an den grünen Pigmenten im Korpus durchgeführt wurden, zeigten die Verwendung von Kupfergrün. Dieses Pigment ist an den Peaks bei 5,9 keV für Kα und 8,9 keV für Kβ erkennbar, die für Kupfer charakteristisch sind.</p>
+            <figure>
+                <img src="{{url_for('static', filename='images/tinte/kupfergruen.jpg')}}" class="img-fluid" alt="Pigmentanalyse: Berlin, SBB, Ms Ham 248, f.1r, Kupfergrün">
+                <figcaption class="text-center major-caption">Kupfergrün</figcaption>
+            </figure>
+            <p class="index-paragraph">Andere Farben (insbesondere Violett und Blau) wurden analysiert, die Ergebnisse zeigten jedoch die Verwendung organischer Pigmente. Weitere Analysen werden notwendig sein, um die Art des Pigments zu klären.</p>
             <p>Zina <span class="surname">Cohen</span></p>
         </div>
     </div>
