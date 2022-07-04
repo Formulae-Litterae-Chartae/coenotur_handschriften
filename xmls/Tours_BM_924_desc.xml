@@ -57,7 +57,147 @@
                      <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="sminiature">
+                        <p source="Online Beschreibung"><locus n="1r"/>Simon, seine Frau und Sosie</p>
+                        <p source="Online Beschreibung"><locus n="2v"/>Simon und Dave</p>
+                        <p source="Online Beschreibung"><locus n="3r"/>Archylis und Mysis</p>
+                        <p source="Online Beschreibung"><locus n="3v"/>Mysis und Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="4r"/>Byrria, Charinus und Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="4v"/>Dave, Pamphile und Charinus</p>
+                        <p source="Online Beschreibung"><locus n="5v"/>Simon</p>
+                        <p source="Online Beschreibung"><locus n="5v"/>Byrria und Simon</p>
+                        <p source="Online Beschreibung"><locus n="6r"/>Dave und Simon</p>
+                        <p source="Online Beschreibung"><locus n="6v"/>Mysis</p>
+                        <p source="Online Beschreibung"><locus n="6v"/>Architecture</p>
+                        <p source="Online Beschreibung"><locus n="8r"/>Dave, Simon und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="8r"/>Dave und Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="9v"/>Mysis, Dave und das Kind von Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="10r"/>Chremes, Mysis und Dave</p>
+                        <p source="Online Beschreibung"><locus n="10v"/>Criton und Mysis</p>
+                        <p source="Online Beschreibung"><locus n="11r"/>Chremes und Simon</p>
+                        <p source="Online Beschreibung"><locus n="11r"/>Dave, Chremes, Dave und Dromon</p>
+                        <p source="Online Beschreibung"><locus n="11v"/>Pamphils Geständnis und Unterwerfung vor Simon und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="12r"/>Mysis, Criton, Chremes, Simon und Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="13r"/>Charinus und Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="13r"/>Dave, Pamphile und Charinus</p>
+                        <p source="Online Beschreibung"><locus n="13v"/></p>
+                        <p source="Online Beschreibung"><locus n="14v"/>Phédria und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="15r"/>Thaïs, Phédria und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="16r"/>Phédria und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="16v"/>Gnathon, der eine Sklavin mitbringt, und Parmenon vor dem Haus von Thais</p>.
+                        <p source="Online Beschreibung"><locus n="17r"/>Chéréa und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="18v"/>Thrason, Gnathon und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="19r"/>Pythias, Chéréa, Thaïs, Thrason und Gnathon</p>
+                        <p source="Online Beschreibung"><locus n="19v"/>Chremes, Pythias und Dorias</p>
+                        <p source="Online Beschreibung"><locus n="20r"/>Antiphon und Chéréa</p>
+                        <p source="Online Beschreibung"><locus n="20v"/>Dorias</p>
+                        <p source="Online Beschreibung"><locus n="21r"/>Phédria</p>
+                        <p source="Online Beschreibung"><locus n="21r"/>Pythias und Phédria</p>
+                        <p source="Online Beschreibung"><locus n="21v"/>Dorus, Phédria, Pythias und Dorias</p>
+                        <p source="Online Beschreibung"><locus n="22r"/>Chremes und Pythias</p>
+                        <p source="Online Beschreibung"><locus n="22v"/>Thaïs, Pythias und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="23r"/>Thaïs, die Thrason den Zutritt zu ihrem Haus verweigert</p>
+                        <p source="Online Beschreibung"><locus n="23v"/>Thaïs und Pythias</p>
+                        <p source="Online Beschreibung"><locus n="24r"/>Chéréa, Thaïs und Pythias</p>
+                        <p source="Online Beschreibung"><locus n="24v"/>Pythias, Chremes und Sophrona</p>
+                        <p source="Online Beschreibung"><locus n="25r"/>Verzierte Initialen</p>
+                        <p source="Online Beschreibung"><locus n="25r"/>Parménon und Pythias</p>
+                        <p source="Online Beschreibung"><locus n="25r"/>Pythias und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="25v"/>Lachès und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="26r"/>Pythias und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="26r"/>Segnende Hand</p>
+                        <p source="Online Beschreibung"><locus n="26r"/>Thrason und Gnathon, Cherea verlässt das Haus der Thais</p>
+                        <p source="Online Beschreibung"><locus n="26v"/>Verzierte Initialen</p>
+                        <p source="Online Beschreibung"><locus n="26v"/>Chéréa, Parménon, Gnathon und Thrason</p>
+                        <p source="Online Beschreibung"><locus n="26v"/>Phédria, Chéréa, Thrason und Gnathon</p>
+                        <p source="Online Beschreibung"><locus n="28r"/>Verzierte Initialen</p>
+                        <p source="Online Beschreibung"><locus n="28v"/>Chremes wirft Menemes vor, für sein Alter zu hart zu arbeiten</p>
+                        <p source="Online Beschreibung"><locus n="29v"/>Clitiphon und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="30r"/>Clitiphon</p>
+                        <p source="Online Beschreibung"><locus n="30r"/>Clinias und Clitiphon</p>
+                        <p source="Online Beschreibung"><locus n="30v"/>Syrus, Dromon, Clinias, Clitiphon</p>
+                        <p source="Online Beschreibung"><locus n="32r"/>Antiphile, Bacchis und ihr Gefolge von Dienerinnen, Syrus und Clinias</p>
+                        <p source="Online Beschreibung"><locus n="32r"/>Chremes et Mendemos</p>
+                        <p source="Online Beschreibung"><locus n="33r"/>Syrus und Chremes, Clitiphon verlässt das Haus des Chremes</p>
+                        <p source="Online Beschreibung"><locus n="33v"/>Chremes, Clitiphon und Syrus - Sostrata präsentiert den Ring der Anerkennung</p>
+                        <p source="Online Beschreibung"><locus n="34v"/>Sostrata zeigt Chremes und Syrus den Ring der Anerkennung</p>
+                        <p source="Online Beschreibung"><locus n="35r"/>Syrus</p>
+                        <p source="Online Beschreibung"><locus n="35r"/>Clinias und Syrus sprechen über Bacchis</p>
+                        <p source="Online Beschreibung"><locus n="35v"/>Bacchis und Phrygia, Syrus und Clinias, Dromon</p>
+                        <p source="Online Beschreibung"><locus n="36r"/>Chremes, Syrus, Clitiphon</p>
+                        <p source="Online Beschreibung"><locus n="36v"/>Clitiphon, Syrus und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="37r"/>Chremes, Clitiphon und Syrus</p>
+                        <p source="Online Beschreibung"><locus n="37r"/>Mendemos und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="37v"/>Mendemos, Chremes und Sostrata</p>
+                        <p source="Online Beschreibung"><locus n="38v"/>Clitiphon und Syrus im Gespräch mit Chremes und Mendemos</p>
+                        <p source="Online Beschreibung"><locus n="39r"/>Sostrata und Chremes sprechen über Clitiphon</p>
+                        <p source="Online Beschreibung"><locus n="39v"/>Clitiphon, Sostrata und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="40r"/>Mendemos, Sostrata, Clitiphon und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="41r"/>Micion, Storax und Déméa</p>
+                        <p source="Online Beschreibung"><locus n="41v"/>Déméa und Micion</p>
+                        <p source="Online Beschreibung"><locus n="42v"/>Sannion, Eschinus und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="43r"/>Eschinus, Syrus, Sannion und Ctésiphon</p>
+                        <p source="Online Beschreibung"><locus n="43v"/>Ktesiphon, Syrus und Eschinus beim Verlassen des Hauses</p>
+                        <p source="Online Beschreibung"><locus n="44r"/>Eschinus, Ctésiphon, Syrus und Sannion</p>
+                        <p source="Online Beschreibung"><locus n="44v"/>Sostrata und Canthara</p>
+                        <p source="Online Beschreibung"><locus n="44v"/>Géta, Sostrata und Canthara</p>
+                        <p source="Online Beschreibung"><locus n="45v"/>Déméa und Syrus</p>
+                        <p source="Online Beschreibung"><locus n="46r"/>Hégion, Déméa und Géta</p>
+                        <p source="Online Beschreibung"><locus n="47r"/>Ctésiphon, Syrus und Déméa</p>
+                        <p source="Online Beschreibung"><locus n="47r"/>Déméa, Syrus, Ctésiphon</p>
+                        <p source="Online Beschreibung"><locus n="48r"/>Micion und Hegion vor dem Haus von Sostrata</p>
+                        <p source="Online Beschreibung"><locus n="48r"/>Eschinus monologisiert vor dem Haus von Sostrata</p>
+                        <p source="Online Beschreibung"><locus n="48v"/>Sostrata, Micion und Eschinus</p>
+                        <p source="Online Beschreibung"><locus n="49v"/>Déméa und Micion</p>
+                        <p source="Online Beschreibung"><locus n="50r"/>Syrus und Déméa</p>
+                        <p source="Online Beschreibung"><locus n="50r"/>Dromon, Syrus und Déméa</p>
+                        <p source="Online Beschreibung"><locus n="50v"/>Eschinus, Sostrata, Micion und Déméa</p>
+                        <p source="Online Beschreibung"><locus n="51r"/>Déméa und Syrus</p>
+                        <p source="Online Beschreibung"><locus n="51v"/>Sostrata, Géta, Déméa, Eschinus und Micion</p>
+                        <p source="Online Beschreibung"><locus n="52r"/>Déméa, Eschinus, Micion und Sostrata</p>
+                        <p source="Online Beschreibung"><locus n="52v"/>Syrus, Déméa, Micion und Eschinus</p>
+                        <p source="Online Beschreibung"><locus n="53v"/>Philatis und Syra</p>
+                        <p source="Online Beschreibung"><locus n="54r"/>Verzierte Initialen</p>
+                        <p source="Online Beschreibung"><locus n="54r"/>Parménon, Philatis und Syra</p>
+                        <p source="Online Beschreibung"><locus n="55r"/>Lachès und Sostrata</p>
+                        <p source="Online Beschreibung"><locus n="55v"/>Philomène, Phidippe, Lachès und Sostrata</p>
+                        <p source="Online Beschreibung"><locus n="56r"/>Sostrata</p>
+                        <p source="Online Beschreibung"><locus n="56r"/>Pamphile und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="57r"/>Sostrata, Parménon und Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="57v"/>Pamphile und Parménon</p>
+                        <p source="Online Beschreibung"><locus n="58r"/>Lachès, Phidippe, Parménon, Sosie und Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="58v"/>Lachès, Phidippe und Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="59r"/>Myrrhina und Phidippe</p>
+                        <p source="Online Beschreibung"><locus n="60r"/>Sostrata und Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="60v"/>Pamphile, Lachès, Sostrata und Phidippe</p>
+                        <p source="Online Beschreibung"><locus n="61r"/>Phidippe, Lachès und Pamphile</p>
+                        <p source="Online Beschreibung"><locus n="62r"/>Bacchis und Lachès</p>
+                        <p source="Online Beschreibung"><locus n="62v"/>Nourrice, Phidippe, Lachès und Bacchis</p>
+                        <p source="Online Beschreibung"><locus n="63r"/>Parménon und Bacchis</p>
+                        <p source="Online Beschreibung"><locus n="63v"/>Pamphile, Parménon und Bacchis</p>
+                        <p source="Online Beschreibung"><locus n="65r"/>Dave zahlt seine Schulden bei Géta</p>
+                        <p source="Online Beschreibung"><locus n="66r"/>Antiphon, Phédria und Géta</p>
+                        <p source="Online Beschreibung"><locus n="66v"/>Géta, Antiphon, Phédria und Démiphon</p>
+                        <p source="Online Beschreibung"><locus n="67r"/>Démiphon, Phédria und Géta</p>
+                        <p source="Online Beschreibung"><locus n="68r"/>Phormion und Géta, Ankunft von Demiphon und seinen Freunden</p>
+                        <p source="Online Beschreibung"><locus n="68v"/>Démiphon und seinen Freunden, Phormion und Géta</p>
+                        <p source="Online Beschreibung"><locus n="69v"/>Démiphon und seinen Freunden, Géta und Antiphon</p>
+                        <p source="Online Beschreibung"><locus n="69v"/>Antiphon, Géta und Phédria</p>
+                        <p source="Online Beschreibung"><locus n="70r"/>Phédria, Dorion, Antiphon und Géta</p>
+                        <p source="Online Beschreibung"><locus n="70v"/>Phédria, Antiphon und Géta</p>
+                        <p source="Online Beschreibung"><locus n="71r"/>Démiphon und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="71v"/>Géta, Démiphon und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="71v"/>Antiphon, Géta, Chremes und Démiphon</p>
+                        <p source="Online Beschreibung"><locus n="72v"/>Antiphon, Géta und Démiphon</p>
+                        <p source="Online Beschreibung"><locus n="72v"/>Démiphon, Chremes und Géta</p>
+                        <p source="Online Beschreibung"><locus n="73r"/>Sophrona, Chremes und Démiphon</p>
+                        <p source="Online Beschreibung"><locus n="73v"/>Démiphon und Géta</p>
+                        <p source="Online Beschreibung"><locus n="74r"/>Démiphon, Nausistrata und Chremes</p>
+                        <p source="Online Beschreibung"><locus n="74v"/>Antiphon</p>
+                        <p source="Online Beschreibung"><locus n="74v"/>Phormion, Antiphon und Géta</p>
+                        <p source="Online Beschreibung"><locus n="75r"/>Géta, Phormion und Antiphon</p>
+                        <p source="Online Beschreibung"><locus n="75v"/>Démiphon, Chremes, Phormion und Nausistrata</p>
+                        <p source="Online Beschreibung"><locus n="76v"/>Nausistrata, Chremes und Phormion</p></decoNote>
                   </decoDesc>
                   <additions/>
                   <bindingDesc>
@@ -82,7 +222,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37B10075</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="407 408"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="663" to="665"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="297"/></bibl>

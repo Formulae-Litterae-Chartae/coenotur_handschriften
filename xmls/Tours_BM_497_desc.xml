@@ -88,7 +88,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A15074</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="263 264"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="399" to="406"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="200"/></bibl>

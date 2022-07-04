@@ -59,7 +59,11 @@
                      <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote/>
+                     <decoNote type="figureinitial">
+                        <p><locus n="4v"/>Initiale (O) mit Tierfiguren verziert. </p>
+                        <p><locus n="4v"/>Tier mit roter Tinte gezeichnet, das ein L darstellt. </p></decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="108r, 130r"/>Initiale mit roter Tinte gezeichnet</p>.</decoNote>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -87,7 +91,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12744</bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="166"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="217"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="200"/></bibl>

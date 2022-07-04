@@ -58,7 +58,8 @@
                      <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>Miniaturen vorhanden</decoNote>
+                     <decoNote type="initial">
+                        <p><locus n="1r"/>Mit Tinte und roter Farbe verzierte Initiale, die einen Schreiber zeigt, der einen Text kopiert, über dem ein spielender Musiker steht. Der Brief ist mit geometrischen und pflanzlichen Verzierungen versehen.</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -85,7 +86,7 @@
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12729</bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="165"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="215"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="199"/></bibl>

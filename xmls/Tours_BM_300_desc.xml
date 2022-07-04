@@ -106,7 +106,7 @@
                         <p><locus type="Incipit-Explicit" n="fol. 3r"/>Mischung aus Minium und Zinnober</p>
                         <p><locus type="Initiale" n="fol. 3r, fol. 9r, fol. 15v, fol. 23v, fol. 33r, fol. 46r, fol. 53v, fol. 71r"/>Mischung aus Minium und Zinnober</p></decoNote>
                      <decoNote ana="pigments" n="Blau">
-                        <p><locus type="Initiale" n="fol. 46r"/>Organisch. Weitere Analysen sind erforderlich, um die Natur des Pigments zu klären. </p></decoNote>
+                        <p><locus type="Initiale" n="fol. 46r"/>Organisch. Weitere Analysen sind erforderlich, um die Natur des Pigments zu klären</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p/>
@@ -130,12 +130,10 @@
                <additional>
                   <surrogates>
                      <bibl>
-                        <title type="gmd">Digitalisat</title>
-                        <idno/>
-                     </bibl>
+                        <title type="gmd">Digitalisat</title>https://bvmm.irht.cnrs.fr/consult/consult.php?REPRODUCTION_ID=4902<idno/></bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D37A12809</idno></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="168"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="220" to="222"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="202"/></bibl>
