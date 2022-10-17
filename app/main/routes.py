@@ -40,25 +40,21 @@ def before_request():
 
 @bp.route('/')
 @bp.route('/index')
-@login_required
 def index():
     return render_template('index.html')
 
 
 @bp.route('/tintenanalyse')
-@login_required
 def tintenanalyse():
     return render_template('tintenanalyse.html')
 
 
 @bp.route('/handschriften')
-@login_required
 def handschriften():
     return render_template('handschriften.html', title='Handschriftenliste', handschriften_dict=current_app.manuscript_list)
 
 
 @bp.route('/handschrift/<manuscript>')
-@login_required
 def handschrift(manuscript: str):
     metadata = dict()
     xml = etree.parse(os.path.join(current_app.config['XML_LOCATION'], manuscript))
@@ -448,7 +444,6 @@ def handschrift(manuscript: str):
 
 
 @bp.route('/bibliographie')
-@login_required
 def bibliography() -> dict:
         """ Bibliography route function
 
