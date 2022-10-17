@@ -453,7 +453,7 @@ class TestRoutes(CoenoturTests):
             self.assertTrue(user.check_password('some_new_password'), 'User\'s password should be changed.')
             c.post(url_for('auth.reset_password', token='some_weird_token', _external=True),
                    data={'password': 'some_password', 'password2': 'some_password'}, follow_redirects=True)
-            self.assertIn('auth/login.html', [x[0].name for x in self.templates])
+            self.assertIn('index.html', [x[0].name for x in self.templates])
             self.assertTrue(user.check_password('some_new_password'), 'User\'s password should not have changed.')
             # Make sure that a logged in user who comes to this page with a token is redirected to their user page with a flashed message
             c.post('/auth/login', data=dict(username='project.member', password="some_new_password"),
