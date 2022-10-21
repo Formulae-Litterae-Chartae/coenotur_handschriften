@@ -396,6 +396,9 @@ class TestRoutes(CoenoturTests):
             c.get('/handschrift/Tours_BM_1019_desc.xml', follow_redirects=True)
             metadata = self.get_context_variable('m_d')
             self.assertEqual(metadata['pdf'], url_for('static', filename='pdfs/Tours_BM_1019_desc.pdf'))
+            # Test non-existent HS description
+            r = c.get('/handschrift/Tours_BM_10000000_desc.xml', follow_redirects=True)
+            self.assertIn('File does not exist', r.get_date(as_text=True))
 
     def test_send_email_existing_user(self):
         """ Ensure that emails are constructed correctly"""

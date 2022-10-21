@@ -57,7 +57,11 @@ def handschriften():
 @bp.route('/handschrift/<manuscript>')
 def handschrift(manuscript: str):
     metadata = dict()
-    xml = etree.parse(os.path.join(current_app.config['XML_LOCATION'], manuscript))
+    manuscript = manuscript.lower()
+    if os.path.isfile(os.path.join(current_app.config['XML_LOCATION'], manuscript)):
+        xml = etree.parse(os.path.join(current_app.config['XML_LOCATION'], manuscript))
+    else:
+        return 'File does not exist', 404
     metadata['pdf'] = None
     if os.path.isfile(os.path.join(current_app.config['PDF_LOCATION'], manuscript.replace('.xml', '.pdf'))):
         metadata['pdf'] = url_for('static', filename='pdfs/{}'.format(manuscript.replace('.xml', '.pdf')))
