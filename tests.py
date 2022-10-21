@@ -203,12 +203,12 @@ class TestInit(CoenoturTests):
 
     def test_manuscript_sorting(self):
         """ Make sure that manuscripts are sorted correctly for the handschriften list"""
-        self.assertEqual([('Berlin_SB_Ham_82_desc.xml', 'Berlin, SB, Hamilton 82'),
-                          ('Paris_BnF_Latin_2204_desc.xml', 'Paris, BnF, Latin 2204'),
-                          ('Paris_BnF_Latin_4418_desc.xml', 'Paris, BnF, Latin 4418'),
+        self.assertEqual([('berlin_sb_ham_82_desc.xml', 'Berlin, SB, Hamilton 82'),
+                          ('paris_bnf_latin_2204_desc.xml', 'Paris, BnF, Latin 2204'),
+                          ('paris_bnf_latin_4418_desc.xml', 'Paris, BnF, Latin 4418'),
                           ('some_weird_manuscript_name.xml', 'Tours, BM, 1019'),
-                          ('Tours_BM_10_desc.xml', 'Tours, BM, 10'),
-                          ('Tours_BM_193_desc.xml', 'Tours, BM, 193')],
+                          ('tours_bm_10_desc.xml', 'Tours, BM, 10'),
+                          ('tours_bm_193_desc.xml', 'Tours, BM, 193')],
                          self.app.manuscript_list[:6])
 
     def test_mail_setup(self):
@@ -288,7 +288,7 @@ class TestRoutes(CoenoturTests):
             self.assertEqual(len(self.get_context_variable('handschriften_dict')), len(current_app.manuscript_list),
                              'All XML files should be shown in the Handschriftenliste')
             c.get('/handschrift/Paris_BnF_Latin_2204_desc.xml', follow_redirects=True)
-            self.assertEqual(self.get_context_variable('title'), current_app.manuscript_dict['Paris_BnF_Latin_2204_desc.xml'])
+            self.assertEqual(self.get_context_variable('title'), current_app.manuscript_dict['paris_bnf_latin_2204_desc.xml'])
             metadata = self.get_context_variable('m_d')
             self.assertIn('Faure 6', metadata['old_sigs'])
             self.assertIn('Hagiographie', [x['class'] for x in metadata['contents']])
@@ -395,10 +395,10 @@ class TestRoutes(CoenoturTests):
             self.assertIn('fol. 89r-89v - Some text.', metadata['illuminations']['Allgemeine Miniaturen'])
             c.get('/handschrift/Tours_BM_1019_desc.xml', follow_redirects=True)
             metadata = self.get_context_variable('m_d')
-            self.assertEqual(metadata['pdf'], url_for('static', filename='pdfs/Tours_BM_1019_desc.pdf'))
+            self.assertEqual(metadata['pdf'], url_for('static', filename='pdfs/tours_bm_1019_desc.pdf'))
             # Test non-existent HS description
             r = c.get('/handschrift/Tours_BM_10000000_desc.xml', follow_redirects=True)
-            self.assertIn('File does not exist', r.get_date(as_text=True))
+            self.assertIn('File does not exist', r.get_data(as_text=True))
 
     def test_send_email_existing_user(self):
         """ Ensure that emails are constructed correctly"""
