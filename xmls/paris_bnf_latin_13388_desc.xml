@@ -81,8 +81,7 @@
                   </decoDesc>
                   
                   <additions>
-                     <p n="Exlibris"><locus n="107v"/>aus Corbie aus dem 16. Jhd.: <seg type="lat"
-                           >Pour la librarie de Corbye en Picardie sur Somme.</seg></p>
+                     <p n="Exlibris"><locus n="107v"/>aus Corbie aus dem 16. Jhd.: <seg type="lat">Pour la librarie de Corbye en Picardie sur Somme.</seg></p>
                      <p n="Exlibris"><locus n="2r"/><seg type="lat">Sancti Germani a
                         Pratis</seg></p>
                   </additions>
@@ -92,11 +91,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="BnF" cert="medium">Nordfrankreich</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
-                           >2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875">Mitte
                            9. Jhd.</origDate></p>
                      <note>RAND merkt an, dass die
@@ -125,7 +122,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="169"/></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="65"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="208"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47233</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

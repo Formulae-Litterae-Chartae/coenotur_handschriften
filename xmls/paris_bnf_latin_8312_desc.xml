@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -25,7 +25,7 @@
                <msContents>
                   <msItem class="Poesie">
                      <author>Venantius Fortunatus</author>
-                     <title></title>
+                     <title/>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -47,7 +47,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="25 26"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -74,7 +74,7 @@
                      <note/>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -87,7 +87,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc67583z</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="141"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99552</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

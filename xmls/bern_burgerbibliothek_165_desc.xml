@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -79,7 +79,7 @@
                             <note>Die Handschrift wurde St-Martin durch Berno gestiftet. RAND merkt an, dass, wenn es sich bei Berno um einen Schüler Alkuins handelt, dieser vor der Verbrüderung mit St-Gallen (ca. 820) verstorben zu sein scheint, da er dort nicht auftaucht, so dass die Entstehung der Handschrift auf vor ca. 820 zu datieren wäre.</note>
                         </origin>
                         <provenance type="Provenance"><placeName/></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">Burgerbibliothek</name></acquisition>
                     </history>
                     <additional>
@@ -94,7 +94,7 @@
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="127 128"/></bibl>
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="380 381"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="114"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/44617</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

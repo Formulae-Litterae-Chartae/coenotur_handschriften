@@ -16,7 +16,7 @@
                   <settlement>Saint-Aubin-de-Luigné</settlement>
                   <repository>Pfarrhaus</repository>
                   <collection/>
-                  <idno></idno>
+                  <idno/>
                   <msName/>
                   <altIdentifier source="Bischoff">
                      <idno>5389</idno>
@@ -45,16 +45,16 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout />
-                        <layout></layout>
+                        <layout/>
+                        <layout/>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -73,20 +73,20 @@
                      <note>Fragment: Einordnung durch BISCHOFF.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="283"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48261</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

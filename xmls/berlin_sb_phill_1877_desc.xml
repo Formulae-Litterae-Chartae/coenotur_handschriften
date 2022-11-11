@@ -7,7 +7,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note>
+         <notesStmt><note n="ink"/>
             <note>Bei dieser Handschrift handelt es sich um einen prächtigen, vielleicht den schönsten (RAND), Martinellus aus St-Martin</note></notesStmt>
          <sourceDesc>
             <msDesc>
@@ -29,7 +29,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>441</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Hagiographie Martinellus">
@@ -140,7 +140,7 @@
                               <width n="13.2"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -226,7 +226,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -237,7 +237,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="151 152"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="420"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="93"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48571</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

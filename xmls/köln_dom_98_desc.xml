@@ -80,8 +80,7 @@
                   <additions>
                      <p>Tironische Noten (<seg type="lat">requisitum est</seg>) sowie einzelne
                         Korrekturen aus dem 8./9. Jhd.</p>
-                     <p><locus n="158v"/>zwei Namen in angelsächsischer Minuskel: <seg type="lat"
-                           >uuirinhere</seg>, <seg type="lat">fredegart</seg> (8./9. Jhd.)</p>
+                     <p><locus n="158v"/>zwei Namen in angelsächsischer Minuskel: <seg type="lat">uuirinhere</seg>, <seg type="lat">fredegart</seg> (8./9. Jhd.)</p>
                   </additions>
                   <bindingDesc>
                      <decoNote>Pergament, 18. Jhd.</decoNote>
@@ -89,10 +88,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Glaube_und_Wissen Anderson/Black" cert="high"
-                        >Tours</origPlace></p>
-                     <p><origDate source="Glaube_und_Wissen Anderson/Black" cert="high" notBefore="0740"
-                           notAfter="0760">Mitte 8. Jhd.</origDate></p>
+                     <p><origPlace source="Glaube_und_Wissen Anderson/Black" cert="high">Tours</origPlace></p>
+                     <p><origDate source="Glaube_und_Wissen Anderson/Black" cert="high" notBefore="0740" notAfter="0760">Mitte 8. Jhd.</origDate></p>
                      <note>Aufgrund der Schrift und der Nähe zu CLA VI, 762 kann eine Entstehung in
                         Tours um 750 angenommen werden.</note>
                   </origin>
@@ -114,9 +111,8 @@
                            <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/katl/%22kn28-0098%22</idno></bibl>
                      <bibl><idno>Anderson/Black 1997</idno></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="397"/></bibl>
-                     <bibl><idno>Glaube und Wissen 1998</idno><biblScope unit="pp" n="89 90"
-                        /></bibl>
-                  </listBibl>
+                     <bibl><idno>Glaube und Wissen 1998</idno><biblScope unit="pp" n="89 90"/></bibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47924</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -86,13 +86,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Köhler" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand Köhler" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">Gegend von Tours</origPlace></p>
                      <p><origPlace source="Mostert Manno" cert="medium"><orgName>St-Martin</orgName>
                            oder <orgName>Marmoutier</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
-                           >1. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                      <p/>
                      <note>Die Handschrift entstand laut
                         BISCHOFF nicht in <placeName>Tours</placeName>,
@@ -122,7 +120,7 @@
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="365"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="94"/></bibl>
                      <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="206"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48004</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

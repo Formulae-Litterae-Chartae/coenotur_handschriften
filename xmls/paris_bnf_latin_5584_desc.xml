@@ -72,8 +72,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="low">nicht Tours</origPlace></p>
                      <p><origPlace source="Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0700" notAfter="0900"
-                           >8./9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0700" notAfter="0900">8./9. Jhd.</origDate></p>
                      <note>Auch wenn RAND die Handschrift als "examined and rejected" beschrebt, spricht alles für eine Entstehung in Tours. So konnten mehrere typisch turonische <seg type="lat">est</seg>-Kürzungen gefunden werden.</note>
                   </origin>
                   <provenance type="Provenance"><persName>Colbertinus</persName></provenance>
@@ -92,7 +91,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc645506</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="204"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="112"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99549</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

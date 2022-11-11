@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note></notesStmt>
+         <notesStmt><note n="ink"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -100,8 +100,7 @@
                      <p><origPlace cert="low" source="Rand">vielleicht Marmoutier</origPlace></p>
                      <p><origPlace cert="medium" source="Bischoff">Tours</origPlace></p>
                      <p><origPlace cert="medium" source="Cinato">St-Martin?</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >1. Hälfte 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
                      <note>Die Handschrift ähnelt den großen turoner
                         Prachtbibeln, ist aber gleichzeitig deutlich simpler gehalten. Deshalb wurde
                         sie von RAND als vielleicht in Marmoutier entstanden deklariert, wobei er
@@ -125,7 +124,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="119 120"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="372" to="373"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="19"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46731</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

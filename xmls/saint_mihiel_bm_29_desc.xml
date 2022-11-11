@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -48,7 +48,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="23"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -62,7 +62,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                    <p/>
                      <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
@@ -77,7 +77,7 @@
                      <note>Die Datierung ist umstritten.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -91,7 +91,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>http://archives.meuse.fr/ark:/52669/a011418741123LQ38DE</idno></bibl>
                      <bibl><idno>Michelant 1849</idno><biblScope unit="pp" n="522 523"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="284"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48260</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -68,11 +68,9 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p n="Exlibris" source="Dorange">Letzte Schutzblatt, 15. Jhd.: <seg
-                           type="lat">Pro ecclesia Turonensi extractus et commodatus honorabili
+                     <p n="Exlibris" source="Dorange">Letzte Schutzblatt, 15. Jhd.: <seg type="lat">Pro ecclesia Turonensi extractus et commodatus honorabili
                            domino cancellario Francie, de mandato dominorum ejusdem ecclesie, die
-                           XVIIa mensis novembris, M°CCC°LXXXIX°. Ita est F. REGIS</seg> sowie <seg
-                           type="lat">Restituit Ecclesie</seg></p>
+                           XVIIa mensis novembris, M°CCC°LXXXIX°. Ita est F. REGIS</seg> sowie <seg type="lat">Restituit Ecclesie</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote source="Collon">Maroquineinband mit dem Wappen der Stadt Tours</decoNote>
@@ -98,7 +96,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -113,7 +111,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="58"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="145"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="369"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47053</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

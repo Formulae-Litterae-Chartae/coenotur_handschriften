@@ -31,7 +31,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>47</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Bibel">
@@ -53,7 +53,7 @@
                               <width n="21.8"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -71,7 +71,7 @@
                   <decoDesc>
                      <decoNote>
                         <locus n=""/>
-                        <p></p>
+                        <p/>
                      </decoNote>
                   </decoDesc>
                   <additions>
@@ -80,7 +80,7 @@
                      <p n="Exlibris"><locus n="207"/> 2. Teil: <seg type="lat">Fr. Luc Brindejonc vous prie de prier Dieu pour lui, 13 novembre 1742. </seg></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -99,7 +99,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -112,7 +112,7 @@
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="62"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="95"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="16"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99515</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

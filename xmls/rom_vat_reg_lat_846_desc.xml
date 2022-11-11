@@ -38,7 +38,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6738</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Leges">
@@ -142,8 +142,8 @@
                             <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="830 833"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="435 436"/></bibl>
                             <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
-                            <bibl><idno>Martinellus.de</idno><biblScope /></bibl>
-                        </listBibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99564</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

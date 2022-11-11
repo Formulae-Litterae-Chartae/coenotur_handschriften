@@ -26,7 +26,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6817</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Kochbuch">
@@ -48,7 +48,7 @@
                                         <width n="12.6"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -68,9 +68,9 @@
                         </scriptDesc>
                         <decoDesc>
                             <decoNote source="Köhler">
-                                <p><locus n="1r"></locus>Zierseite mit goldenen Kapitalen auf Purpurgrund.</p>
-                                <p><locus from="1v" to="3r"></locus>Kapitelverzeichnis in untereinander sehr ähnlichen Arkaden.</p>
-                                <p><locus n="3v"></locus>Zierseite, ähnlich, aber weniger sorgfältig, wie fol. 1r. Außer Gold und Silber auch Rot, Gelb, Violet, Grün, Weiß. Modelliertes Blattwerk in den Farbverbindungen: Graugrün mit Dunkelgrün, Rot und Gelb; Blaßviolett mit Dunkelviolett oder Rot und Weiß.</p>
+                                <p><locus n="1r"/>Zierseite mit goldenen Kapitalen auf Purpurgrund.</p>
+                                <p><locus from="1v" to="3r"/>Kapitelverzeichnis in untereinander sehr ähnlichen Arkaden.</p>
+                                <p><locus n="3v"/>Zierseite, ähnlich, aber weniger sorgfältig, wie fol. 1r. Außer Gold und Silber auch Rot, Gelb, Violet, Grün, Weiß. Modelliertes Blattwerk in den Farbverbindungen: Graugrün mit Dunkelgrün, Rot und Gelb; Blaßviolett mit Dunkelviolett oder Rot und Weiß.</p>
                             </decoNote>
                         </decoDesc>
                         <additions>
@@ -84,7 +84,7 @@
                         <origin>
                             <p><origPlace cert="high"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Köhler" cert="high" notBefore="0840" notAfter="0855">unter <persName type="Abt">Vivian</persName> (844-851)</origDate></p>
-                            <p></p>
+                            <p/>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance source="Bischoff">Die Prachthandschrift wurde als Geschenk an <persName type="King">Karl der Kahle</persName> geschenkt </provenance>
@@ -103,7 +103,7 @@
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="409"/></bibl>
                             <bibl><idno>Bischoff 1981</idno><biblScope unit="pp" n="174"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="443"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/9752</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

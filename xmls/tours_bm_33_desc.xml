@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note></notesStmt>
+         <notesStmt><note n="ink"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -77,7 +77,7 @@
                   <origin>
                      <p><origPlace source="Mercier" cert="medium"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Collon" cert="medium" notBefore="1275" notAfter="1299">Ende 13. Jhd.</origDate></p>
-                     <note></note>
+                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
@@ -95,7 +95,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="14"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="22 23"/></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="123"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45434</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

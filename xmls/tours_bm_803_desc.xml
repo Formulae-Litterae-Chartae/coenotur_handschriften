@@ -38,7 +38,7 @@
                   <msItem class="Philosophie Komputistik">
                      <author>Boethius</author>
                      <author>Dicuil</author>
-                     <title></title>
+                     <title/>
                      <textLang mainLang="la"/>
                      <msItem n="1.1">
                         <locus from="1" to="26"/>
@@ -123,7 +123,7 @@
                      <bibl><idno>Van de Vyver 1935</idno><biblScope unit="pp" n="31 32"/></bibl>
                      <bibl><idno>Stevens 1995</idno><biblScope unit="pp" n="175"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46119</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

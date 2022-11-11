@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -26,7 +26,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>4792</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Theologie Exegese Kirchenväter">
@@ -88,7 +88,7 @@
                      <scriptNote source="Winandy">Klare turonische Minuskel, mit sehr wenigen Kürzungen.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p>Korrekturen einer späteren Hand.</p>
@@ -107,7 +107,7 @@
                   <origin>
                      <p><origPlace source="Ganz Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0850">1./(2.) Viertel 9. Jhd.</origDate></p>
-                     <note></note>
+                     <note/>
                   </origin>
                   <provenance type="Provenance"><name type="community"/>St-Germain des Près</provenance>
                   <provenance source="Ganz">Gelangte noch im 9. Jhd nach Corbie und ist dort wohl von <persName>Ratramnus von Corbie</persName> verwendet worden.</provenance>
@@ -118,7 +118,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -129,7 +129,7 @@
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="157"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="193"/></bibl>
                      <bibl><idno>Pezé 2017</idno><biblScope unit="pp" n="142 143"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48306</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

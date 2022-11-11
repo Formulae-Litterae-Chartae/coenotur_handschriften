@@ -13,23 +13,23 @@
                         <country>Vatikan</country>
                         <settlement>Rom</settlement>
                         <repository>Vatlib</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>Reg. Lat. 215</idno>
                         <altIdentifier source="Bischoff">
                             <idno>6651</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents class="Theologie Kirchenväter">
                         <msItem>
                             <author>Hieronymus</author>
-                            <title></title>
-                            <textLang mainLang="la"></textLang>
+                            <title/>
+                            <textLang mainLang="la"/>
                         </msItem>
                         <msItem>
                             <author>Augustinus</author>
-                            <title></title>
-                            <textLang mainLang="la"></textLang>
+                            <title/>
+                            <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -53,13 +53,13 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote></handNote>
+                            <handNote/>
                         </handDesc>
                         <scriptDesc>
                             <p source="Rand">2 völlig abweichende Schriftbilder</p>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </decoDesc>
                         <additions>
                             <p n="Korrekturen">Einzelne Korrekturen</p>
@@ -77,28 +77,24 @@
                             <p><origPlace source="Bischoff" cert="medium">vielleicht <placeName>Tours</placeName>?</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0877" notAfter="0900">9. Jhd. nach 877</origDate></p>
                         </origin>
-                        <provenance type="Provenance"><name type="Kloster"></name></provenance>
-                        <acquisition><name type="Repository"></name></acquisition>
+                        <provenance type="Provenance"><name type="Kloster"/></provenance>
+                        <acquisition><name type="Repository"/></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.286</idno></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="426"></biblScope></bibl>
-                        </listBibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="426"/></bibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48059</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>
-
-
-
-

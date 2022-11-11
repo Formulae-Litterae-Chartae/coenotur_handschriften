@@ -64,7 +64,7 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
+                            <p/>
                             <p n="Neumen"><locus/>Neumen</p>
                         </additions>
                         <bindingDesc>
@@ -78,14 +78,14 @@
                             <note>Die Entstehung dieser Handschrift in Tours scheint gesichert.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Pére</orgName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">BM</name></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
@@ -93,7 +93,7 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://www.manuscrits-de-chartres.fr/fr/manuscrits/chartres-bm-ms-24</idno></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="133 134"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="193"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46982</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

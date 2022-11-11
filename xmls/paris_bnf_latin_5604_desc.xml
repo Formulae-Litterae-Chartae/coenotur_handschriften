@@ -67,8 +67,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
-                           >9. Jhd. ca. 3. Viertel</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">9. Jhd. ca. 3. Viertel</origDate></p>
                   </origin>
                   <provenance type="Provenance">Colbertinus</provenance>
                   <provenance/>
@@ -85,7 +84,7 @@
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc64570m</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="113"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48351</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

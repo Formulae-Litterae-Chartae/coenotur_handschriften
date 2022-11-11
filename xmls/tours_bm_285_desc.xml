@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note>
+         <notesStmt><note n="ink"/>
             <note>Die Handschrift besteht aus 2 Teilen, wobei Teil II am Anfang und Ende durch jeweils 2 Blätter aus dem 11. Jahrhundert ergänzt worden ist. I: 1-82; II: 83-134.</note>
          </notesStmt>
          <sourceDesc>
@@ -130,7 +130,7 @@
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="211 212"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="189"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48684</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

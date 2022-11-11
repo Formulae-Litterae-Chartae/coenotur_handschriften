@@ -29,7 +29,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>5043</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Leges">
@@ -65,12 +65,12 @@
                               <width n=""/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1 2">Teil 2 zweispaltig, sonst eine Spalte</layout>
                         <layout writtenLines="19 26">19; 26; 21</layout>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -86,7 +86,7 @@
                   <additions>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -99,7 +99,7 @@
                      <note>Die Entstehung des ersten Teils in Tours ist nicht gesichert. MORDEK spricht nur von "Nähe Tours" und auch der Onlinekatalog der BnF sagt nur, dass dieser Teil in Tours oder der Nähe entstanden sein könnte.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -113,7 +113,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69125s</idno></bibl>
                      <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="612 616"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="229 230"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/43506</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

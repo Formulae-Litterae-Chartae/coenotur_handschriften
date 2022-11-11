@@ -29,7 +29,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>4317</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Leges">
@@ -51,12 +51,12 @@
                               <width n="22.0"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="39 40">39-40</layout>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -103,7 +103,7 @@
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="98"/></bibl>
                      <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99546</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

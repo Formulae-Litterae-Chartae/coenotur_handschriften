@@ -23,7 +23,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>2433</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Liturgie Bibel">
@@ -50,14 +50,14 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="29 32">29, 32</layout>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -82,7 +82,7 @@
                      <note>Es ist davon auszugehen, dass diese Handschrift nicht in Tours entstanden ist. Auch FISCHER nimmt die Handschrift in seine Liste derjenigen auf, die nicht aus Tours stammen. Sie scheint aus der Bretagne zu stammen, wobei BISCHOFF in seiner Datierung überraschenderweise stark von den restlichen Angaben abweicht.</note>
                   </origin>
                   <provenance type="Provenance"><placeName>Tours</placeName>, <orgName>St-Martin</orgName>, 15. Jhd; <orgName>Marmoutier</orgName>, 18. Jhd.</provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BL</name></acquisition>
                </history>
                <additional>
@@ -98,7 +98,7 @@
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="326"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="110"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/43691</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

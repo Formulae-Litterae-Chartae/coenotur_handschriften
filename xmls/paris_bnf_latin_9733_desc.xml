@@ -89,14 +89,14 @@
                      <note>Wenig ist über diese Handschrift bekannt.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -104,7 +104,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="178 179"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="302"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="158"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/35975</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

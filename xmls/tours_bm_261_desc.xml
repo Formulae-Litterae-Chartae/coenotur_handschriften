@@ -9,7 +9,7 @@
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
          <notesStmt><note>Es handelt sich um mehrere später zusammengebundene Handschriften.</note>
-            <note n="ink"></note></notesStmt>
+            <note n="ink"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -112,7 +112,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">I: Tours (?); II: ohne Ortsangabe</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0900" notAfter="1099" >10./11. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0900" notAfter="1099">10./11. Jhd.</origDate></p>
                      <note>Teil I einthält die turonische <seg type="lat">misericordia</seg> Kürzung als nom. sac.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
@@ -132,7 +132,7 @@
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="191 192"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="183"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47275</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -40,7 +40,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6788</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem defective="true">
@@ -67,14 +67,14 @@
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="30 31">30, 31</layout>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote></handNote>
+                            <handNote/>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote></scriptNote>
+                            <scriptNote/>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
@@ -110,7 +110,7 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.1587</idno></bibl>
                             <bibl><idno>Mostert 1989</idno><biblScope unit="pp" from="284" to="285"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="440"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/29725</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

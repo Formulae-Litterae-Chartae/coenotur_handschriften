@@ -15,7 +15,7 @@
                         <country>Niederlande</country>
                         <settlement>Den Haag</settlement>
                         <repository>Museum Meermanno-Westreenianum</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>10 A 1</idno>
                         <altIdentifier source="CLA">
                             <idno>1571</idno>
@@ -26,13 +26,13 @@
                         <altIdentifier source="BnF">
                             <idno>NAL 2654</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Theologie Exegese">
                             <author>Philippus Presbyter</author>
                             <title>Exposition in Iob</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -48,7 +48,7 @@
                                         <width n="15.5"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -62,7 +62,7 @@
                             <scriptNote source="Onlinekatalog">Merowingische Buchschrift</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </decoDesc>
                         <additions>
                             <p n="Exlibris"><locus n="126r"/><seg type="lat">Liber sancti Martini Turonensis.</seg></p>
@@ -82,25 +82,25 @@
                         <provenance type="Provenance"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></provenance>
                        <provenance source="CLA">Die Handschrift war bis in die Zeit von Montfaucon (gest. 1741) noch in St-Martin.</provenance>
                        <provenance source="CLA">Von dort ging sie während der Französischen Revolution verloren.</provenance>
-                        <acquisition><name type="Repository"></name></acquisition>
+                        <acquisition><name type="Repository"/></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://mmm-web.adlibhosting.com/AIS6/Details/fullCatalogue/50000322</idno></bibl>
-                            <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="13"></biblScope></bibl>
-                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="300"></biblScope></bibl>
-                            <bibl><idno>Martinellus.de</idno><biblScope></biblScope></bibl>
-                        </listBibl>
+                            <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="13"/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="300"/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/35963</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>

@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note>
+         <notesStmt><note n="ink"/>
             <note>Diese Handschrift ist besonders wertvoll für die Forschung und bereits zwei mal ediert und häufig erforscht worden. Diese Beschreibung beinhaltet nur erste paläograpisch-kodikologische Beobachtungen. Auf der Innenseite des Buchrückens befindet sich eine Pergamenteseite mit einer Liste der Vasallen von Marmoutier durch die Hand von <persName>Stephanus de Fontanus</persName>, von 1113. Statt wie üblich eine Folionummerierung enthält die Handschrift eine Seitennummerierung.</note></notesStmt>
          <sourceDesc>
             <msDesc>
@@ -92,7 +92,7 @@
                      <note>Entstehung ist durch den Inhalt gesichert.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -108,7 +108,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="540"/></bibl>
                      <bibl><idno>Barthélemy 1995</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Fouracre 2005</idno><biblScope n="passim"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47860</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

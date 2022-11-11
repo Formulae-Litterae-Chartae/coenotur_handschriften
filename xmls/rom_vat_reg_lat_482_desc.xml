@@ -13,7 +13,7 @@
                         <country>Vatikan</country>
                         <settlement>Rom</settlement>
                         <repository>Vatlib</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>Reg. Lat. 482</idno>
                         <altIdentifier source="Bischoff">
                             <idno>6688</idno>
@@ -21,54 +21,54 @@
                         <altIdentifier source="Rand">
                             <idno>61</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Heiligenviten">
-                            <author></author>
+                            <author/>
                             <title>Heiligenviten</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                             <msItem n="1.1">
                                 <locus from="1r" to="10r"/>
-                                <author></author>
+                                <author/>
                                 <title>Passio sanctae Agathae martyris Catanensis</title>
-                                <textLang mainLang="la"></textLang>
+                                <textLang mainLang="la"/>
                             </msItem>
                             <msItem n="1.2">
                                 <locus from="10v" to="11r"/>
-                                <author></author>
+                                <author/>
                                 <title>Passio sanctae Agathae martyris Catanensis</title>
-                                <textLang mainLang="la"></textLang>
+                                <textLang mainLang="la"/>
                             </msItem>
                             <msItem n="1.3">
                                 <locus from="16v" to="26v"/>
-                                <author></author>
+                                <author/>
                                 <title>Passio sancti Potiti martyris Neapolitani</title>
-                                <textLang mainLang="la"></textLang>
+                                <textLang mainLang="la"/>
                             </msItem>
                             <msItem n="1.4">
                                 <locus from="37r" to="44v"/>
-                                <author></author>
+                                <author/>
                                 <title>Inventio</title>
-                                <textLang mainLang="la"></textLang>
+                                <textLang mainLang="la"/>
                             </msItem>
                             <msItem n="1.5">
                                 <locus from="44v" to="44v"/>
-                                <author></author>
+                                <author/>
                                 <title>Distichon</title>
-                                <textLang mainLang="la"></textLang>
+                                <textLang mainLang="la"/>
                             </msItem>
                             <msItem n="1.6">
                                 <locus from="45r" to="49v"/>
-                                <author></author>
+                                <author/>
                                 <title>Passio Dorotheae et Theophili scolastici</title>
-                                <textLang mainLang="la"></textLang>
+                                <textLang mainLang="la"/>
                             </msItem>
                             <msItem n="1.7">
                                 <locus from="155r" to="159r"/>
                                 <author>Anselm von Canterbury</author>
                                 <title>Meditationes</title>
-                                <textLang mainLang="la"></textLang>
+                                <textLang mainLang="la"/>
                             </msItem>
                         </msItem>
                     </msContents>
@@ -98,7 +98,7 @@
                             <handNote source="Winandy">Mehr als eine Hand</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p></p>
+                            <p/>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="figureinitial">
@@ -123,7 +123,7 @@
                             <p n="Ergänzung">Zahlreiche Einschübe und Glossen</p>
                             </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -133,7 +133,7 @@
                             <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0804">unter <persName type="Abt">Alkuin</persName></origDate></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
                         </origin>
-                        <provenance type="Provenance"><name type="Kloster"></name></provenance>
+                        <provenance type="Provenance"><name type="Kloster"/></provenance>
                         <provenance>Scheint bei Bonneval und P. Daniel gewesen zu sein.</provenance>
                         <acquisition>Gelangte später an die <name type="Repository">Vaticana</name></acquisition>
                     </history>
@@ -146,15 +146,13 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.482</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="125 126"></biblScope></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="431"></biblScope></bibl>
-                        </listBibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="125 126"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="431"/></bibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46319</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>
-
-

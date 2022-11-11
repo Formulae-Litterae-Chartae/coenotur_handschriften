@@ -98,7 +98,7 @@
                      <bibl><title>Online Beschreibung</title>:
                            <idno>http://www.ceec.uni-koeln.de/ceec-cgi/kleioc/0010/exec/katl/%22kn28-0104%22</idno></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="397 398"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99527</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

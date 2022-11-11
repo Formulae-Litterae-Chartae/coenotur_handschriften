@@ -136,7 +136,7 @@
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="92 93"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="239"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46673</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

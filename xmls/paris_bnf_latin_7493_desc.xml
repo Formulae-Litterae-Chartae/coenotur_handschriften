@@ -76,8 +76,7 @@
                      <p><origPlace source="Bischoff" cert="low">fol. 1-104 Tours; fol. 105-167
                            Westfrankreich, vielleicht Gegend von Tours</origPlace></p>
                      <p><origPlace source="Rand" cert="low">nicht Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
-                           >ca. 2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">ca. 2. Viertel 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
@@ -95,7 +94,7 @@
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc20900w</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="123 124"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48334</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

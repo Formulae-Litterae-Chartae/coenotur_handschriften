@@ -8,14 +8,14 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note n="ink"></note></notesStmt>
+            <notesStmt><note n="ink"/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italien</country>
                         <settlement>Vatikan</settlement>
                         <repository>Vatlib</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>Vat. Lat. 43</idno>
                         <altIdentifier source="Rand">
                             <idno>144</idno>
@@ -23,13 +23,13 @@
                         <altIdentifier source="Bischoff">
                             <idno>6820</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
-                    <msContents >
+                    <msContents>
                         <msItem class="Bibel Evangelien">
-                            <author></author>
+                            <author/>
                             <title>Evangelien</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -37,24 +37,24 @@
                             <supportDesc material="perg">
                                 <extent n="211">
                                     <dimensions type="leaf" unit="cm">
-                                        <height n="23,5"></height>
-                                        <width n="16,5"></width>
+                                        <height n="23,5"/>
+                                        <width n="16,5"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="16,5"></height>
-                                        <width n="9,2"></width>
+                                        <height n="16,5"/>
+                                        <width n="9,2"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1"></layout>
-                                <layout writtenLines="22"></layout>
+                                <layout columns="1"/>
+                                <layout writtenLines="22"/>
                                 <layout source="Rand">Rote, grüne und rot-schwarze Titel. Einfache Initialen in rot und grün.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p></p>
+                            <p/>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote ana="ink" n="Haupttext">
@@ -66,14 +66,14 @@
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="Initiale">
-                                <locus n="30v 82r 119r 174v"></locus>Prächtige farbige Initialen in grün, blau gelb/braun und rot</decoNote>
+                                <locus n="30v 82r 119r 174v"/>Prächtige farbige Initialen in grün, blau gelb/braun und rot</decoNote>
                             <decoNote type="Kanontafel">
-                                <locus></locus>Schöne, farbige Kanontafel in grün und rot/rot-braun</decoNote>
+                                <locus/>Schöne, farbige Kanontafel in grün und rot/rot-braun</decoNote>
                             <decoNote ana="pigments" n="Rot">
                                 <p><locus type="Nummer" n="fol. 295v"/>Minium</p></decoNote>
                         </decoDesc>
                         <additions>
-                            <p n="Korrekturen"><locus n="91v 94v"></locus>wenig Korrekturen</p>
+                            <p n="Korrekturen"><locus n="91v 94v"/>wenig Korrekturen</p>
                             <p n="Ergänzung"><locus n="89v">andere Schrift</locus></p>
                             <p n="Konkordanzen">Konkordanzen</p>
                         </additions>
@@ -88,7 +88,7 @@
                             <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
                             <note>Eine Entstehung in <placeName>Tours</placeName> erscheint unwahrscheinlich.</note>
                         </origin>
-                        <provenance type="Provenance"></provenance>
+                        <provenance type="Provenance"/>
                     </history>
                     <additional>
                         <surrogates>
@@ -99,13 +99,13 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.43</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="169 170"></biblScope></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="444"></biblScope></bibl>
-                        </listBibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="169 170"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="444"/></bibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46334</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>

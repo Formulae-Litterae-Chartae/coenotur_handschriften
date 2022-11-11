@@ -47,14 +47,14 @@
                      <layoutDesc>
                         <layout/>
                         <layout columns="1"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote ></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -73,21 +73,21 @@
                      <note>Dieses Breviar aus dem 13. Jahrhundert ist in Marmoutier benutzt worden. Ob es auch dort entstanden ist, bleibt ungewiss.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="74 75"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="107 108"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/14317</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -260,8 +260,7 @@
                <history>
                   <origin>
                      <p><origPlace cert="high">St-Martin</origPlace></p>
-                     <p><origDate source="Rand Bischoff" cert="high" notBefore="0843"
-                           notAfter="0851">843-851 unter Vivian, vielleicht vor 845</origDate></p>
+                     <p><origDate source="Rand Bischoff" cert="high" notBefore="0843" notAfter="0851">843-851 unter Vivian, vielleicht vor 845</origDate></p>
                      <note>Diese Handschrift ist mit sicherheit unter Vivian in St-Martin hergestellt worden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName>Metz</placeName></provenance>
@@ -290,7 +289,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="155" to="156"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="396" to="401"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="17"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/9759</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

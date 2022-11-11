@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -23,7 +23,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>4504</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Predigt">
@@ -78,7 +78,7 @@
                      <note>Die Entstehung ist umstritten, MOSTERT sieht zusätzlich zu Tours auch die Möglichkeit einer Entstehung in Fleury. Insbesondere die Nähe zu Paris, BnF, Latin 7929, die seiner Meinung aus Fleury stammt, spricht für eine Entstehung in Fleury. Die <seg type="lat">est</seg> und <seg type="lat">esse</seg> Kürzungen deuten dagegen auf eine Entstehung in Tours hin.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -92,7 +92,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc67045r</idno></bibl>
                      <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="220"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="134"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48317</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

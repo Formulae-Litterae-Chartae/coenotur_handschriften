@@ -21,7 +21,7 @@
                      <idno>183</idno>
                   </altIdentifier>
                   <altIdentifier source="Bischoff">
-                     <idno></idno>
+                     <idno/>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
@@ -50,14 +50,14 @@
                      <layoutDesc>
                         <layout/>
                         <layout/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -77,20 +77,20 @@
                      <note>Durch die Unterzeichnung von Theotolo, dem Erzbischof von Tours, lässt sich die Datierung auf die 1. Hälfte des 10. Jahrhunderts festlegen.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73263k/cd0e504</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="191"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48689</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

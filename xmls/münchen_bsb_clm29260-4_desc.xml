@@ -57,8 +57,7 @@
                   <handDesc>
                      <handNote source="Hauke">Schreibername vorhanden, allerdings nicht mehr lesbar:
                         <seg type="lat"><persName type="scribe">Hadebertus</persName></seg></handNote>
-                     <handNote source="Bischoff"><seg type="lat"><persName type="scribe">Hildebertus</persName></seg> statt <seg
-                           type="lat">Hadebertus</seg>
+                     <handNote source="Bischoff"><seg type="lat"><persName type="scribe">Hildebertus</persName></seg> statt <seg type="lat">Hadebertus</seg>
                      </handNote>
                   </handDesc>
                   <scriptDesc>
@@ -75,10 +74,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff Hauke" cert="high"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff Hauke" cert="high" notBefore="0800"
-                           notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
+                     <p><origPlace source="Bischoff Hauke" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff Hauke" cert="high" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
                      <note>Die Entstehung in Tours scheint gesichert.</note>
                   </origin>
                   
@@ -102,7 +99,7 @@
                      <bibl><idno>Bischoff 1960</idno><biblScope unit="pp" n="169"/></bibl>
                      <bibl><idno>Hauke 1994</idno><biblScope unit="pp" n="66"/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="277"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47510</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

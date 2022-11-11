@@ -21,7 +21,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6777</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Leges">
@@ -86,7 +86,7 @@
                              <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                             <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommend auf.</note>
                         </origin>
-                        <provenance type="Provenance"></provenance>
+                        <provenance type="Provenance"/>
                         <provenance>War im Besitz von Alexandre Petau</provenance>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
                     </history>
@@ -103,7 +103,7 @@
                             <bibl><idno>McKitterick 1989</idno><biblScope unit="pp" n="57 59"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="439"/></bibl>
                             <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99560</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

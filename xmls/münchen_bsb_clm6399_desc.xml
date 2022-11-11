@@ -73,8 +73,7 @@
                      <p><origPlace source="Glauche" cert="medium">Bereich von Tours</origPlace></p>
                      <p><origPlace source="Bischoff_2004" cert="medium">„wohl
                            Frankreich“</origPlace></p>
-                     <p><origDate source="Glauche Bischoff" cert="high" notBefore="0850"
-                           notAfter="0900">2. Hälfte 9. Jhd.</origDate></p>
+                     <p><origDate source="Glauche Bischoff" cert="high" notBefore="0850" notAfter="0900">2. Hälfte 9. Jhd.</origDate></p>
                      <note>Die Entstehung in der zweiten Hälfte des neunten Jahrhunderts scheint
                         gesichert, der Entstehungsort dagegen bleibt ungewiss.</note>
                   </origin>
@@ -97,7 +96,7 @@
                      <bibl><idno>Bischoff 1960</idno><biblScope unit="pp" n="148 149"/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="241"/></bibl>
                      <bibl><idno>Glauche 2011</idno><biblScope unit="pp" from="184" to="186"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47863</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

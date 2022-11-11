@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fre">
@@ -74,7 +73,7 @@
                             <p>Zahlreiche Korrekturen und Anmerkungen</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -84,7 +83,7 @@
                             <note>Eine Entstehung in Tours erscheint wahrscheinlich.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Cluny</orgName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">BL</name></acquisition>
                     </history>
                         <additional>
@@ -99,7 +98,7 @@
                             <bibl><idno>Mirmont 1936</idno><biblScope unit="pp" n="V VI"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="104"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="104"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/9328</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

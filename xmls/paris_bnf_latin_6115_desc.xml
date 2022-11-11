@@ -74,8 +74,7 @@
                <history>
                   <origin>
                      <p><origPlace cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
-                           >2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"/>
@@ -94,7 +93,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc65167j</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="129"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="116"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/43170</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

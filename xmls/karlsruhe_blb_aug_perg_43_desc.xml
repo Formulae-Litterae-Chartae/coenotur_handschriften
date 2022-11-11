@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -47,7 +47,7 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="34"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -73,7 +73,7 @@
                      <note>Der Onlinekatalog gibt als Entstehungsort "Reichenau?" und als Entstehungsdatum "14. Jhd." an. Vermutlich bezieht sich diese Angabe auf das deutlich spätere Vorblatt.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BLB</name></acquisition>
                </history>
                <additional>
@@ -87,7 +87,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/3380004</idno></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="335"/></bibl>
                      <bibl><idno>Martinellus.de</idno></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47913</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

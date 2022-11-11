@@ -92,10 +92,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"
-                        ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0900"
-                           notAfter="1000">10. Jhd.</origDate></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance>Wenig bekannt, noch von <persName>RAND</persName> benutzt, wurde die
@@ -114,7 +112,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="392"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="633 634"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="194"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47326</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

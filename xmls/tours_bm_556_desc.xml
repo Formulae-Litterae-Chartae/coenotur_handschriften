@@ -66,8 +66,7 @@
                      <decoNote> </decoNote>
                   </decoDesc>
                   <additions>
-                     <p source="Dorange"><locus n="63v"/>Benutzungsspuren durch Dom Martène: <seg
-                           type="lat">De officiis episcoporum</seg></p>
+                     <p source="Dorange"><locus n="63v"/>Benutzungsspuren durch Dom Martène: <seg type="lat">De officiis episcoporum</seg></p>
                      <p source="Dorange Collon">bei den Schutzfolien am Anfang und am Ende handelt
                         es sich um Fragmente eines liturgischen Buches aus dem 9. Jhd.</p>
                   </additions>
@@ -77,10 +76,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0800"
-                           notAfter="0900">9. Jhd.</origDate></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0800" notAfter="0900">9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0880" notAfter="0900">Ende 9.
                            Jhd.</origDate></p>
                      <p><origDate source="Kéry" cert="medium" notBefore="0875" notAfter="0900">4.
@@ -112,7 +109,7 @@
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="329"/></bibl>
                      <bibl><idno>Kéry 1999</idno><biblScope unit="pp" n="73 74"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47282</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

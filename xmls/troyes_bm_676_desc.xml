@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -47,7 +47,7 @@
                             <layoutDesc>
                                 <layout/>
                                 <layout/>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -61,8 +61,8 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
-                            <p></p>
+                            <p/>
+                            <p/>
                         </additions>
                         <bindingDesc>
                             <decoNote/>
@@ -73,10 +73,10 @@
                             <p><origPlace source="Rand" cert="medium">nicht <placeName>Tours</placeName></origPlace></p>
                             <p><origPlace source="Bischoff" cert="medium"><placeName>Tours</placeName>, aber wohl nicht Hauptskriptorium</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
-                            <note></note>
+                            <note/>
                         </origin>
-                        <provenance type="Provenance"><placeName></placeName></provenance>
-                        <provenance></provenance>
+                        <provenance type="Provenance"><placeName/></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">BM</name></acquisition>
                     </history>
                     <additional>
@@ -91,7 +91,7 @@
                             <bibl><idno>Libri 1841</idno><biblScope unit="pp" n="15 16"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="384"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/10677</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

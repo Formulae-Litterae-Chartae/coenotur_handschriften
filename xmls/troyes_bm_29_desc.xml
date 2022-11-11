@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -64,8 +64,8 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
-                            <p></p>
+                            <p/>
+                            <p/>
                         </additions>
                         <bindingDesc>
                             <decoNote/>
@@ -80,7 +80,7 @@
                             <note>FISCHER spricht sich wegen der äußeren Anlage, die im Format nicht den turonsichen Bibeln entspricht, gegen eine Entstehung in Tours aus. Er muss aber eingestehen, dass die Schreiber "gut turonisch geschult" waren. Dementsprechend spricht nichts gegen eine Entstehung in Tours, da GANZ zu Recht darauf hingewiesen hat, dass das äußere Format kein Ausschlusskriterium sein kann, da die turonsichen Bibeln in ihrer Einheitlichkeit oftmals überschätzt werden.</note>
                         </origin>
                         <provenance type="Provenance"><placeName>Montiéramey</placeName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">BM</name></acquisition>
                     </history>
                     <additional>
@@ -96,7 +96,7 @@
                             <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                             <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="60"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="382"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47063</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

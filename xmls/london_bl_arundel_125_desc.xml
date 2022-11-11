@@ -50,7 +50,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="22"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -80,7 +80,7 @@
                      <note>Eine Entstehung in Tours, wie durch RAND vermutet, wird heute abgelehnt. Dagegen erscheint eine Entstehung in St-Bertin deutlich wahrscheinlicher.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -95,7 +95,7 @@
                       <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="175"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="327"/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="105"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99533</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

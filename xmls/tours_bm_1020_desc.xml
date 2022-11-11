@@ -60,8 +60,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="medium"
-                           ><orgName>St-Martin</orgName></origPlace></p>
+                     <p><origPlace source="Mercier" cert="medium"><orgName>St-Martin</orgName></origPlace></p>
                      <p><origDate source="Dorange" cert="medium" notBefore="1100" notAfter="1200">12.
                            Jhd.</origDate></p>
                      <p><origDate source="Collon" cert="medium" notBefore="1200" notAfter="1300">13.
@@ -83,7 +82,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="450 451"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="739 740"/></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="122"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99573</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

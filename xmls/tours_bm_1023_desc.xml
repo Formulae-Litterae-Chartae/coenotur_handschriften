@@ -68,10 +68,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="medium"
-                           ><orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Mercier" cert="medium" notBefore="1400" notAfter="1420"
-                           >Anfang 15. Jhd.</origDate></p>
+                     <p><origPlace source="Mercier" cert="medium"><orgName>St-Martin</orgName></origPlace></p>
+                     <p><origDate source="Mercier" cert="medium" notBefore="1400" notAfter="1420">Anfang 15. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
@@ -89,7 +87,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="451 452"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="745 746"/></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="123"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46181</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

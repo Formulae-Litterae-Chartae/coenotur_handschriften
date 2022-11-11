@@ -70,7 +70,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                    <p/>
                      <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
@@ -98,7 +98,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc699489</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="189 190"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="242"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/44094</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

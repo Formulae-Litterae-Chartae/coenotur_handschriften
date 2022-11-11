@@ -51,7 +51,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="22"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -77,21 +77,21 @@
                      <note>Fragment: Einordnung durch RAND und BISCHOFF.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Kathedrale</orgName> von <placeName>Grenoble</placeName></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="153"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="306"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99526</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

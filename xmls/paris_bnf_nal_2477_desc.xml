@@ -47,7 +47,7 @@
                      <layoutDesc>
                         <layout writtenLines="19"/>
                         <layout columns="1"/>
-                        <layout></layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -73,7 +73,7 @@
                      <note>Fragmente: Einordnung durch BISCHOFF.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -86,7 +86,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc70680j</idno></bibl>
                     <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="250"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48279</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

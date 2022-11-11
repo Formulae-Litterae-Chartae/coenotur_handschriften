@@ -69,14 +69,14 @@
                      <layoutDesc>
                         <layout/>
                         <layout/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -97,7 +97,7 @@
                      <note>Über die Entstehung der einzelnen Fragmente kann wenig ausgesagt werden. Wieso Bibale die Handschrift als zum Teil aus Tours stammend deklariert, bleibt unerklärbar.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -110,7 +110,7 @@
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34035t</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="141 142"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48014</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

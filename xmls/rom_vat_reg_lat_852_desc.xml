@@ -23,7 +23,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6742</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Leges">
@@ -90,7 +90,7 @@
                             <p><origPlace cert="high" source="Mostert">Definitely not Fleury</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                         </origin>
-                        <provenance type="Provenance"></provenance>
+                        <provenance type="Provenance"/>
                         <provenance>War im Besitz von Alexandre Petau</provenance>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
                     </history>
@@ -110,9 +110,9 @@
                             <bibl><idno>Rio 2009</idno><biblScope unit="pp" n="267 268"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="436"/></bibl>
                             <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
-                            <bibl><idno>Martinellus.de</idno><biblScope /></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
                             
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99565</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -48,14 +48,14 @@
                      <layoutDesc>
                         <layout writtenLines="38"/>
                         <layout columns="2"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote ></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -75,7 +75,7 @@
                      <note>Diese Handschrift scheint aus dem Umfeld von Tours zu kommen. Eine Entstehung in Tours selbst ist jedoch nicht gesichert.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -89,7 +89,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.474</idno></bibl>
                      <bibl><idno>Schipke 1994</idno><biblScope unit="pp" n="141"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="445"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99568</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

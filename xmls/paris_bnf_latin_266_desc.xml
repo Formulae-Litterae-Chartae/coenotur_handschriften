@@ -96,8 +96,7 @@
                   <origin>
                      <p><origPlace cert="high"><orgName>St-Martin</orgName>, <placeName>
                               Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="high" notBefore="0843" notAfter="0855"
-                           >zwischen 853 und 855; 849-851?</origDate></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0843" notAfter="0855">zwischen 853 und 855; 849-851?</origDate></p>
                      <note>Aufgrund der Herstellung für Lothar ist die Datierung gesichert;
                         vermutlich näher an 855 als 843.</note>
                   </origin>
@@ -123,7 +122,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="157 158"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="403" to="405"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="24 25"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/44965</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -102,7 +102,7 @@
                      <p>Marginalia: Spätere Kapitelnummerierungen und einzelne Anmerkungen in den Margen.</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -129,7 +129,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="109"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="364"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="303"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46333</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note source="Bischoff"></note></notesStmt>
+         <notesStmt><note source="Bischoff"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -47,14 +47,14 @@
                      <layoutDesc>
                         <layout/>
                         <layout/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -81,13 +81,13 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>http://www.mirabileweb.it/manuscript/vercelli-biblioteca-capitolare-eusebiana-civ-(47)-manoscript/130610</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="462"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99577</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

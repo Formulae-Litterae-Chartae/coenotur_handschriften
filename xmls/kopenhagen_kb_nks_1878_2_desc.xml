@@ -44,14 +44,14 @@
                      <layoutDesc>
                         <layout/>
                         <layout/>
-                        <layout></layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -70,20 +70,20 @@
                      <note>Alles deutet auf eine Entstehung in der ersten Hälfte des 7. Jahrhunderts in Tours hin. Es handelt sich um die älteste erhaltene Quelle für diese Passage von Gregor von Tours.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>http://www5.kb.dk/permalink/2006/manus/98/eng/</idno></bibl>
-                     <bibl><idno>Martinellus.de</idno><biblScope /></bibl>
-                  </listBibl>
+                     <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99530</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

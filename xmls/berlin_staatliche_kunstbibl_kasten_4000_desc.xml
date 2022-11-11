@@ -50,7 +50,7 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="52"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -76,14 +76,14 @@
                      <note>Es scheint sich um 2 Blätter derselben Handschrift wie Trier, SB, Inc. 921 zu handeln.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
-                  <acquisition><name type="Repository"></name></acquisition>
+                  <provenance/>
+                  <acquisition><name type="Repository"/></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -91,7 +91,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="161"/></bibl>
                      <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="117"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="380"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48614</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

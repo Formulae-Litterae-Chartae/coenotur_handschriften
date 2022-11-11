@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note></notesStmt>
+         <notesStmt><note n="ink"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -160,7 +160,7 @@
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="250"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45428</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

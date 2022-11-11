@@ -159,7 +159,7 @@
                      <decoNote source="Rand">Schöne Initialen in Gold und Farbe</decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                    <p/>
                      <p n="Neumen" source="Rand">Neumen aus Tours (mit Verweis auf Dom Beyssac</p>
                   </additions>
                   <bindingDesc>
@@ -169,11 +169,11 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Onlinkatalog" cert="medium" notBefore="0900" notAfter="0999"></origDate></p>
+                     <p><origDate source="Onlinkatalog" cert="medium" notBefore="0900" notAfter="0999"/></p>
                      <note>Wenig über die Entstehung und die Geschichte dieser Handschrift ist bekannt. Sie setzt sich aus 3 verschiedenen Sakramentaren zusammen, wobei nicht klar ist, wann diese Zusammensetzung stattgefunden hat.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -195,7 +195,7 @@
                      <bibl><idno>Webber Jones 1939</idno><biblScope unit="pp" n="180"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="151 152"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45023</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

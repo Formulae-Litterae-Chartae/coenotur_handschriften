@@ -8,14 +8,14 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note n="ink"></note></notesStmt>
+            <notesStmt><note n="ink"/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Deutschland</country>
                         <settlement>Berlin</settlement>
                         <repository>SB</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>Hamilton 82</idno>
                         <altIdentifier source="Rand">
                             <idno>97</idno>
@@ -23,12 +23,12 @@
                         <altIdentifier source="Bischoff">
                             <idno>352</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Bibel">
                             <title>Bibel</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                         <msItem n="1.1">
                             <locus from="1r" to="1v"/>
                             <title>Praefatio Hieronimi</title>
@@ -347,7 +347,7 @@
                         </msItem>
                         <msItem n="1.80">
                             <locus n="zahlreiche Kolophone"/>
-                            <title></title>
+                            <title/>
                         </msItem>
                         </msItem>
                     </msContents>
@@ -364,7 +364,7 @@
                                         <width n="27.0"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2"/>
@@ -397,14 +397,14 @@
                                 <p><locus type="Rubrik" n="fol. 58v, fol. 70r, fol. 76r"/>Minium</p></decoNote>
                             <decoNote ana="pigments" n="Blau">
                                 <p><locus type="Initiale" n="fol. 211v, fol. 350r"/>Organisch. Weitere Analysen sind erforderlich, um die Natur des Pigments zu klären. </p></decoNote>
-                            <decoNote type="initial" source = "Fingernagel"><p>Die Initialen sind in mindestens drei Typengruppen einzuteilen, die möglicherweise drei verschiedenen Zeichnern entsprechen.</p>
+                            <decoNote type="initial" source="Fingernagel"><p>Die Initialen sind in mindestens drei Typengruppen einzuteilen, die möglicherweise drei verschiedenen Zeichnern entsprechen.</p>
                                 <p><locus n="1r, 2r"/>Rahmentypus. Der Buchstabenkörper ist in Kompartimente unterteilt und mit Füllmotiven versehen: Wellenbandranken, zum Teil mit Dreipunktrosetten und nierenförmigen Blättern, Knickbändern und Flechtwerk (Aderbandtypus).</p>
                                 <p><locus n="130r, 211r"/>Buchstabenstamm mit ausgespartem Seilmuster, an den Abläufen Profilblätter.</p>
                                 <p><locus n="211v"/>Mischtypus. Flechtknoten(Aderbandtypus) an den End- und Mittelpunkten, mitunter in Voluten auslaufend.</p></decoNote>
                             <decoNote type="canon">
-                                <p><locus n="347r-350v" source = "Fingernagel"/>Vierbogige Arkaden von Umfassungsbogen überfangen (Bogentypus). Marmorierte Säulen mit ionisierenden Basen, Blattkapitellen und Deckplatten. Die äußeren Säulen jeweils breiter und mit entsprechend ausladenden Kapitellen</p></decoNote>
-                            <decoNote type="border" >
-                                <p><locus n="211r" source = "Fingernagel"/>Am rechten Blattrand dreifigurige Gruppe als Dreiviertel- bzw. Halbfiguren. Weibliche Figur mit langen Zöpfen und Krone (oder Schapel ?), auf der mit einem Handschuh bekleideten rechten Hand ein Vogel (Falke ?), mit der linken einen Blattzweig empfangend, der von einer tonsurierten Figur (mit Buch vor der Brust) überreicht wird. Von der dritten, zur Gruppe gehörigen (?) Figur nur der tonsurierte bärtige Kopf erkennbar. Feine, qualitätvolle Silberstiftskizze des 12. Jhs (?)</p></decoNote>
+                                <p><locus n="347r-350v" source="Fingernagel"/>Vierbogige Arkaden von Umfassungsbogen überfangen (Bogentypus). Marmorierte Säulen mit ionisierenden Basen, Blattkapitellen und Deckplatten. Die äußeren Säulen jeweils breiter und mit entsprechend ausladenden Kapitellen</p></decoNote>
+                            <decoNote type="border">
+                                <p><locus n="211r" source="Fingernagel"/>Am rechten Blattrand dreifigurige Gruppe als Dreiviertel- bzw. Halbfiguren. Weibliche Figur mit langen Zöpfen und Krone (oder Schapel ?), auf der mit einem Handschuh bekleideten rechten Hand ein Vogel (Falke ?), mit der linken einen Blattzweig empfangend, der von einer tonsurierten Figur (mit Buch vor der Brust) überreicht wird. Von der dritten, zur Gruppe gehörigen (?) Figur nur der tonsurierte bärtige Kopf erkennbar. Feine, qualitätvolle Silberstiftskizze des 12. Jhs (?)</p></decoNote>
                         </decoDesc>
                         <additions>
                             <p>Gedichte <persName>Aldebaldus</persName>für <persName>Wilhelm von Dijon</persName> (10. Jhd.)</p>
@@ -424,26 +424,26 @@
                         </origin>
                         <provenance type="Provenance"><orgName>St-Bénigne in Dijon</orgName></provenance>
                         <provenance source="Fingernagel">Verse auf <locus n="435r">435r</locus> aus dem 10. und 11. Jhd. weisen darauf hin, dass die Handschrift bereits im 10. Jhd. unter <persName type="Abt">Wilhelm von Volpiano</persName> in St-Bénigne war. Dort blieb sie bis mindestens ins 17. Jahrhundert, wie eine Abschrift des Bibliothekskatalog zwischen 1592 und 1682 bestätigt.</provenance>
-                        <acquisition><name type="Repository"></name></acquisition>
+                        <acquisition><name type="Repository"/></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/dokumente/html/obj90699361,T</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="147"></biblScope></bibl>
-                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="73"></biblScope></bibl>
-                            <bibl><idno>Fingernagel 1999</idno><biblScope unit="pp" n="61 63"></biblScope></bibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="147"/></bibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="73"/></bibl>
+                            <bibl><idno>Fingernagel 1999</idno><biblScope unit="pp" n="61 63"/></bibl>
                             <bibl><idno>Martinellus.de</idno></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/9536</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>

@@ -77,12 +77,12 @@
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium"><placeName>Corbie</placeName>(?)</origPlace></p>
-                     <p><origPlace source="Winandy" ><placeName>Tours</placeName>?</origPlace></p>
+                     <p><origPlace source="Winandy"><placeName>Tours</placeName>?</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0860">ca. Mitte 9. Jhd.</origDate></p>
                      <note>Die Entstehung der Handschrift bleibt umstritten. RAND hatte sie zunächst nicht in seine Liste aufgenommen, ergänzt diese dann in Zusammenarbeit mit WEBBER JONES. BISCHOFF dagegen äußert skeptisch die Vermutung, dass die Handschrift in Corbie entstanden sein könnte. Das Incipit in zwei Zeilen Kapitalis, gefolgt von einer Zeile Unziale und sechs Zeilen Halbunziale entspricht der typisch turonischen Auszeichnungsstruktur und deutet auf eine Entstehung in Tours hin.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -96,7 +96,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc654238</idno></bibl>
                      <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="90"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="116"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/52483</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

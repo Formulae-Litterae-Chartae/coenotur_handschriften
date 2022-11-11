@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -68,7 +68,7 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
+                            <p/>
                             <p n="Tironische Noten"><locus n="25r"/><locus n="39v"/>Tironische Noten</p>
                             <p n="Exlibris">Es scheint vorne ein Exlibris zu geben, dass ich noch nicht eingesehen habe.</p>
                         </additions>
@@ -84,7 +84,7 @@
                             <note>Auch wenn RAND und BISCHOFF es nicht explizit angeben, ist diese Bibel in St-Martin entstanden.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Grossmünster</orgName>, <placeName>Zürich</placeName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">ZB</name></acquisition>
                     </history>
                     <additional>
@@ -101,7 +101,7 @@
                             <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="96 100"/></bibl>
                             <bibl><idno>Germann 2010</idno><biblScope n="passim"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="518"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99581</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

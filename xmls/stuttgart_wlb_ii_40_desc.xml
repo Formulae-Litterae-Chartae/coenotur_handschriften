@@ -26,7 +26,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>6068</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem source="Boese" class="Bibel">
@@ -72,12 +72,12 @@
                               <width n=""/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout writtenLines="24 26"></layout>
-                        <layout><p></p></layout>
+                        <layout writtenLines="24 26"/>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -109,7 +109,7 @@
                   </decoDesc>
                   
                   <additions>
-                     <p></p>
+                     <p/>
                      <p n="Exlibris" source="Burkhardt"><locus n="197v"/><seg type="lat">liber sanctimartini in wingartin. plenarium euwangelistarum</seg> (Um 1200)</p>
                      <p n="Exlibris" source="Burkhardt"><locus n="2r"/><seg type="lat">Monasterii Weingartensis 1628</seg> (1628)</p>
                   </additions>
@@ -143,7 +143,7 @@
                      <bibl><idno>Boese 1975</idno><biblScope unit="pp" from="44" to="46"/></bibl>
                      <bibl><idno>McKitterick 1994</idno><biblScope unit="pp" n="71"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="358"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45377</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

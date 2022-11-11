@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -28,7 +28,7 @@
                <msContents>
                   <msItem class="Poesie">
                      <author>Lucanus</author>
-                     <title></title>
+                     <title/>
                      <textLang mainLang="la"/>
                   </msItem>
                </msContents>
@@ -50,17 +50,17 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="28"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote source="Bischoff">Fast vollständig von einer Hand</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </decoDesc>
                   <additions>
                      <p source="Schipke">Es finden sich Bemerkungen bzw. Korrekturen, die möglicherweise eigenhändig von <persName>Lupus von Ferrières</persName> stammen.</p>
@@ -78,7 +78,7 @@
                      <note>Der Ort der Entstehung dieser Handschrift ist umstritten.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -93,7 +93,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
                      <bibl><idno>Schipke 1994</idno><biblScope unit="pp" n="143"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="242"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99554</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -50,7 +50,7 @@
                               <width n="12.3">12,3 cm pro Spalte</width>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -174,7 +174,7 @@
                      <p n="Exlibris" source="Berger"><locus n=""/>Eine Urkunde von 1589-1597 aus Moutier-Grandval</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -206,12 +206,12 @@
                      <bibl><title>Online Beschreibung</title>: <idno>http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_10546</idno></bibl>
                      <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="209 212"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="135 136"/></bibl>
-                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="194 209"></biblScope></bibl>
+                     <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="194 209"/></bibl>
                      <bibl><idno>McKitterick 1994</idno><biblScope>passim</biblScope></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="121"/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="94"/></bibl>
                      <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46996</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

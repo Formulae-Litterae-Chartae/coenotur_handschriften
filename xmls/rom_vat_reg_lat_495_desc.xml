@@ -13,7 +13,7 @@
                         <country>Vatikan</country>
                         <settlement>Rom</settlement>
                         <repository>Vatlib</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>Reg. Lat. 495</idno>
                         <altIdentifier source="Bischoff">
                             <idno>6689</idno>
@@ -21,13 +21,13 @@
                         <altIdentifier source="Rand">
                             <idno>62</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Martinellus Heiligenviten">
-                            <author></author>
+                            <author/>
                             <title>Martinellus</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                         <msItem n="1.1">
                             <locus from="1r" to="2r"/>
                             <title>Liber Martini de Trinitate</title>
@@ -54,17 +54,17 @@
                         </msItem>
                         <msItem n="1.6">
                             <locus from="103v" to="108r"/>
-                            <author></author>
+                            <author/>
                             <title>Versi</title>
                         </msItem>
                         <msItem n="1.7">
                             <locus from="108r" to="108v"/>
-                            <author></author>
+                            <author/>
                             <title>Deposito Sancti Martini</title>
                         </msItem>
                         <msItem n="1.8">
                             <locus from="109r" to="113v"/>
-                            <author></author>
+                            <author/>
                             <title>Sermones de transitu</title>
                         </msItem>
                         <msItem n="1.9">
@@ -92,7 +92,7 @@
                                         <width n="10.8"/>
                                     </dimensions> 
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -106,19 +106,19 @@
                             <handNote source="Bannister">Zwei Hände</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <p></p>
+                            <p/>
                         </scriptDesc>
                         <musicNotation>
                             <p><locus n="1r">Neumen, nicht um Stil von Tours</locus></p>
                         </musicNotation>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </decoDesc>
                         <additions>
-                            <p></p>
+                            <p/>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -126,27 +126,25 @@
                             <p><origPlace source="Bischoff Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Rand" cert="medium" notBefore="0796" notAfter="0810">unter <persName type="Abt">Alkuin</persName> oder kurz danach</origDate></p>
                         </origin>
-                        <provenance type="Provenance"><name type="Kloster"></name></provenance>
-                        <acquisition><name type="Repository"></name></acquisition>
+                        <provenance type="Provenance"><name type="Kloster"/></provenance>
+                        <acquisition><name type="Repository"/></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.495</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="126"></biblScope></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="431"></biblScope></bibl>
-                        </listBibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="126"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="431"/></bibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48084</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>
-
-

@@ -63,7 +63,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote></handNote>
+                     <handNote/>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Bischoff">Corbie-Minuskel der Hadoard-Zeit</scriptNote>
@@ -82,12 +82,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="medium"
-                           ><orgName>Corbie</orgName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium"><orgName>Corbie</orgName></origPlace></p>
                      <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>
                            (?)</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
-                           >9. Jhd. ca. 3. Viertel</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">9. Jhd. ca. 3. Viertel</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName> (?)</provenance>
@@ -110,7 +108,7 @@
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="96"/></bibl>
                      <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="153"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="236"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45229</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

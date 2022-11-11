@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note>
+         <notesStmt><note n="ink"/>
             <note>Bei dieser Handschrift handelt es sich um später zusammengebundene Teil von drei verschiedenen Handschriften (I: 1-24; II: 25-60; III: 61-84). Die Angaben unter Entstehung beziehen sich auf die ersten beiden Teile aus dem 9. Jhd.</note></notesStmt>
          <sourceDesc>
             <msDesc>
@@ -140,7 +140,7 @@
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="60"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="150"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99553</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

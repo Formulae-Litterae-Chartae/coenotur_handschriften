@@ -23,7 +23,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>778</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Exegese">
@@ -62,11 +62,11 @@
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <p></p>
+                                <p/>
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
+                            <p/>
                         </additions>
                         <bindingDesc>
                             <decoNote>Holzeinband</decoNote>
@@ -86,7 +86,7 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
@@ -95,7 +95,7 @@
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="114 115"/></bibl>
                             <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="170"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99520</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

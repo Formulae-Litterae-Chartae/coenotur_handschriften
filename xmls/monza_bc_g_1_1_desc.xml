@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -26,7 +26,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>2893</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Bibel">
@@ -48,7 +48,7 @@
                                         <width n="11.4"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2"/>
@@ -71,7 +71,7 @@
                             <p><locus n="395v"/><seg type="lat">Hos tandem dignos exaravit dextera libros exiguus christo devotus famulus almo Amalricus atque hic sua otio frangit</seg></p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -81,14 +81,14 @@
                             <note>Die Handschrift ist mit Sicherheit zu Beginn des 9. Jahrhunderts in St-Martin, Tours, entstanden.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">BnF</name></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
@@ -98,7 +98,7 @@
                             <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="62"/></bibl>
                             <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="61"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="215"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46835</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

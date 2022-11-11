@@ -133,7 +133,7 @@
                             <bibl><idno>Meyer/Burckhardt 1960</idno><biblScope unit="pp" n="115 127"/></bibl>
                             <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="63"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="58"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47931</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

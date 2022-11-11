@@ -75,8 +75,7 @@
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Rand" cert="medium" notBefore="1100" notAfter="1200">12.
                            Jhd.</origDate></p>
-                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1000"
-                           notAfter="1100">11. Jhd.</origDate></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
                   <provenance/>
@@ -91,11 +90,10 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" from="162" to="164"
-                        /></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" from="162" to="164"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="213 214"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="202"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47399</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

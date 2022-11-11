@@ -82,8 +82,7 @@
                   <additions>
                      <p><locus from="108r" to="109v"/>ganzseitiger Nachtrag von Lupus von
                         Ferrières</p>
-                     <p>Tironische Noten <locus n="39v"/><seg type="lat">antiquus</seg>; <locus
-                           n="68r 81r 85v"/><seg type="lat">deest rota</seg></p>
+                     <p>Tironische Noten <locus n="39v"/><seg type="lat">antiquus</seg>; <locus n="68r 81r 85v"/><seg type="lat">deest rota</seg></p>
                   </additions>
                   <bindingDesc>
                      <decoNote/>
@@ -113,7 +112,7 @@
                      <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="100 101"/></bibl>
                      <bibl><idno>Schipke 1994</idno><biblScope unit="pp" n="139"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="117"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47637</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

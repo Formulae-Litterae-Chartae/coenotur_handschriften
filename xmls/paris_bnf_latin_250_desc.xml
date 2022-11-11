@@ -153,8 +153,7 @@
                            820</origDate></p>
                      <p><origDate source="Mercier" cert="medium" notBefore="0843" notAfter="0851">unter
                            Vivian (843-851)</origDate></p>
-                     <p><origDate source="Bischoff BnF" cert="medium" notBefore="0830"
-                           notAfter="0840">830-840 unter Fridugisius</origDate></p>
+                     <p><origDate source="Bischoff BnF" cert="medium" notBefore="0830" notAfter="0840">830-840 unter Fridugisius</origDate></p>
                      <note>Entstehung in St-Martin kann wegen der Nähe zur Moutier Grandval-Bibel
                         (London, BM Ms Add. 10546) als gesichert angesehen werden. Einzig die
                         Datierung ist nicht ganz gesichert. Vermutlich ist sie nach der
@@ -180,7 +179,7 @@
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="250"/></bibl>
                      <bibl><idno>Vezin 1986</idno><biblScope unit="pp" n="20"/></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="121"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47027</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

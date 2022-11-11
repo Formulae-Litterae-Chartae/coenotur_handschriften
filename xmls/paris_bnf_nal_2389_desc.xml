@@ -45,16 +45,16 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout />
-                        <layout></layout>
+                        <layout/>
+                        <layout/>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -73,7 +73,7 @@
                      <note>Ein Brief: Einordnung durch BISCHOFF.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -87,7 +87,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc706014</idno></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="64"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="248"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48285</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

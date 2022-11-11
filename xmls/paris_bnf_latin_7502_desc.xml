@@ -118,7 +118,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="130"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="135"/></bibl>
                      <bibl><idno>martinellus.de</idno></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45015</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

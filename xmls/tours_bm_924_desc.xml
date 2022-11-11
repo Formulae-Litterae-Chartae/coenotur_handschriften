@@ -207,8 +207,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1100"
-                           notAfter="1200">12. Jhd.</origDate></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1100" notAfter="1200">12. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
@@ -226,7 +225,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="407 408"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="663" to="665"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="297"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46161</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

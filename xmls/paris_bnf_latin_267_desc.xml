@@ -68,7 +68,7 @@
                   </scriptDesc>
                   <decoDesc>
                      <decoNote ana="pigments" n="Blau">
-                        <p><locus source = "Guineau/Vezin 1990" type="Initiale"/>Indigo</p></decoNote>
+                        <p><locus source="Guineau/Vezin 1990" type="Initiale"/>Indigo</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="144v"/>Notarielle Kopie einer Schenkung an Montmajour
@@ -86,8 +86,7 @@
                            860</origDate></p>
                      <note>Entstehung der Handschrift in Tours kann als gesichert angesehen werden.</note>
                   </origin>
-                  <provenance type="Provenance" cert="low"
-                     ><orgName>Montmajour</orgName></provenance>
+                  <provenance type="Provenance" cert="low"><orgName>Montmajour</orgName></provenance>
                   <provenance>Die Handschrift befand sich in der Sammlung von
                         <persName>Colbert</persName> und ging von dort in die königliche Bibliothek
                      über.</provenance>
@@ -107,7 +106,7 @@
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="414" to="415"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="25"/></bibl>
                      <bibl><idno>Guineau/Vezin 1990</idno><biblScope n="passim"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/35705</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note n="ink"></note></notesStmt>
+            <notesStmt><note n="ink"/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -46,12 +46,12 @@
                                         <width n="16.4"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="27 30">29 (27, 28, 30)</layout>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -86,7 +86,7 @@
                             <p source="Colophones">Neben den genannten Schreibern finden sich auch einzelne andere Namensangaben. Hierbei handelt es sich vermutlich um die Zuordnung späterer Schreiber, die die Handschrift erneut abschreiben sollten.</p>
                            </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -112,11 +112,11 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.762</idno></bibl>
                             <bibl><idno>Shipley 1903</idno><biblScope unit="pp" n="passim"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" from="96" to="97"/></bibl>
-                            <bibl><idno>Colophons de manuscrits 1979</idno><biblScope unit="pp" n="489"></biblScope></bibl>
+                            <bibl><idno>Colophons de manuscrits 1979</idno><biblScope unit="pp" n="489"/></bibl>
                             <bibl><idno>Vezin 1973</idno><biblScope unit="pp" n="213"/></bibl>
                             <bibl><idno>Schipke 1994</idno><biblScope/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="435"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46327</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

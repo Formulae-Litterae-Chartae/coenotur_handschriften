@@ -74,8 +74,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="BnF" cert="medium" notBefore="1000" notAfter="1100">11.
                            Jhd.</origDate></p>
                      <p><origDate source="Senseby" cert="medium" notBefore="0980" notAfter="1000">Ende
@@ -97,7 +96,7 @@
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc38709x</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="196"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45025</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

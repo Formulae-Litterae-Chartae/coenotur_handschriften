@@ -71,7 +71,7 @@
                      <note>KÖHLER vermutet, dass es sich aufgrund der abweichenden Schreiberinitiale, um einen Import handelt. MCKITTERICK schlägt dagegen vor, dass die Handschrift in Tours, auf Bestellung für ein anderes Zentrum hergestellt worden ist.</note>
                   </origin>
                   <provenance type="Provenance"><placeName>Tours</placeName></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -90,7 +90,7 @@
                      <bibl><idno>Hoffmann 2001</idno><biblScope unit="pp" n="20 22"/></bibl>
                      <bibl><idno>Davis-Weyer 2005</idno><biblScope unit="pp" n="368"/></bibl>
                      <bibl><idno>Keefe 2012</idno><biblScope unit="pp" n="304"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/44986</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -7,14 +7,14 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note n="ink"></note></notesStmt>
+            <notesStmt><note n="ink"/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Vatikan</country>
                         <settlement>Rom</settlement>
                         <repository>Vatlib</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>Reg. Lat. 215</idno>
                         <altIdentifier source="Bischoff">
                             <idno>6642</idno>
@@ -22,13 +22,13 @@
                         <altIdentifier source="Rand">
                             <idno>164</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Exzerpte">
-                            <author></author>
+                            <author/>
                             <title>Excerpta varia</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -40,10 +40,10 @@
                                         <width n="16.0"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="13.2"></height>
+                                        <height n="13.2"/>
                                         <width min="8.0" max="10.9">8,0-10,9</width>
                                     </dimensions> </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -88,7 +88,7 @@
                             <p n="Exlibris"><locus n="1r"/><seg type="lat">Hic liber est sce Mar.</seg> (14. Jhd.)</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -101,7 +101,7 @@
                         </origin>
                         <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                         <provenance>Vermutlich nicht in <orgName>St-Martin</orgName> entstanden, war die Handschrift sicher Bestandteil der dortigen Bibliothek, wie das Exlibris belegt.</provenance>
-                        <acquisition><name type="Repository"></name></acquisition>
+                        <acquisition><name type="Repository"/></acquisition>
                     </history>
                     <additional>
                         <surrogates>
@@ -112,17 +112,15 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.215</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="181 182"></biblScope></bibl>
-                            <bibl><idno>Contreni 1976</idno><biblScope unit="pp" n="802 806"></biblScope></bibl>
-                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="259"></biblScope></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="425"></biblScope></bibl>
-                         </listBibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="181 182"/></bibl>
+                            <bibl><idno>Contreni 1976</idno><biblScope unit="pp" n="802 806"/></bibl>
+                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="259"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="425"/></bibl>
+                         <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99561</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>
-
-

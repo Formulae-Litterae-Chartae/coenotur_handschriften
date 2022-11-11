@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note>
+         <notesStmt><note n="ink"/>
             <note>Bei dieser Handschrift handelt es sich um die Kopie einer Handschrift aus Fleury.</note></notesStmt>
          <sourceDesc>
             <msDesc>
@@ -30,7 +30,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>439</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Historiographie">
@@ -85,7 +85,7 @@
                               <width n="14.0"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2">2 (und mehr)</layout>
@@ -125,7 +125,7 @@
                      <p source="Rose"><locus n="164v"/><seg type="lat">Turonis. Scs. Martinus. ordinatur eps.</seg></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -144,7 +144,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -153,7 +153,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="132 133"/></bibl>
                      <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="46"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="92"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/44612</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

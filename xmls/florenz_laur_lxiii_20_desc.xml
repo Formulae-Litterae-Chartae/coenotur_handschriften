@@ -86,14 +86,14 @@
                      <note>Die Entstehung ist umstritten, Tours erscheint sehr unwahrscheinlich. BISCHOFF argumentiert aufgrund des Hadoard-Stils für Corbie.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
-                  <acquisition><name type="Repository"></name></acquisition>
+                  <provenance/>
+                  <acquisition><name type="Repository"/></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -101,7 +101,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="191"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="327"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="261"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99523</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

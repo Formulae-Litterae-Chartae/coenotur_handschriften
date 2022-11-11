@@ -71,8 +71,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
                      <p><origPlace source="Mordek" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866"
-                           >2. Drittel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0833" notAfter="0866">2. Drittel 9. Jhd.</origDate></p>
                      <note>Eine Entstehung in Tours erscheint wahrscheinlich.</note>
                   </origin>
                   <provenance type="Provenance"/>
@@ -91,7 +90,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc63486z</idno></bibl>
                      <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="522 524"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="100"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99547</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -78,8 +78,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Teil 1: Tours; Teil 2:
                            (östliches) Frankreich</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
-                           >ca. 3. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">ca. 3. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="low" notBefore="0900" notAfter="1000">10.
                            Jhd.</origDate></p>
                      <note>Wenig über die Entstehung und Geschichte der Handschrift
@@ -102,7 +101,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="142"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="179"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="238"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/9585</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -8,14 +8,14 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note n="ink"></note></notesStmt>
+            <notesStmt><note n="ink"/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italien</country>
                         <settlement>Vatikan</settlement>
                         <repository>Vatlib</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>Pal. Lat. 209</idno>
                         <altIdentifier source="Rand">
                             <idno>163</idno>
@@ -26,18 +26,18 @@
                         <altIdentifier source="Mostert">
                             <idno>1332/1333</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Theologie Exegese Kirchenväter">
                             <author>Augustinus</author>
                             <title>Libri Quaestionum in Matheum et Lucam</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                         </msItem>
                         <msItem class="Theologie Exegese Kirchenväter">
                             <author>Hieronymus</author>
                             <title>Epistulae</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -45,18 +45,18 @@
                             <supportDesc material="perg">
                                 <extent n="126">
                                     <dimensions type="leaf" unit="cm">
-                                        <height n="25.2"></height>
-                                        <width n="21.8"></width>
+                                        <height n="25.2"/>
+                                        <width n="21.8"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="17.2"></height>
-                                        <width n="13.7"></width>
+                                        <height n="17.2"/>
+                                        <width n="13.7"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1"></layout>
+                                <layout columns="1"/>
                                 <layout writtenLines="19 21">21 (19)</layout>
                                 <layout source="Rand">Rote und rot-schwarze Titel</layout>
                             </layoutDesc>
@@ -81,11 +81,11 @@
                                 <p><locus type="Nummer" n="fol. 63v, fol. 120v"/>Minium</p></decoNote>
                         </decoDesc>
                         <additions>
-                            <p n="Exlibris"><locus n="46v"></locus><seg type="lat">Ad maius Franckendall inter Spiram et Wormatiam pertinet liber iste</seg></p>
-                            <p n="Exlibris"><locus n="58r"></locus><seg type="lat">Codex monasterij beate Marie Magdalene in Franckentall inter Spiram et Wormatiam canonicorum regularium ordinis</seg></p>
-                            <p n="Exlibris"><locus n="69v"></locus><seg type="lat">Liber fratrum canonicorum regularium in maiori Franckental</seg></p>
-                            <p n="Exlibris"><locus n="124r"></locus><seg type="lat">Ad maius Franckental pertinet liber iste</seg></p>
-                            <p n="Exlibris"><locus n="126v"></locus><seg type="lat">Iste liber pertinet monasterio beate Marie Magdalene in Franckentall inter Spiram et Wormatiam situato canonicorum regularium ordinis sancti Augustinu episcopi</seg></p>
+                            <p n="Exlibris"><locus n="46v"/><seg type="lat">Ad maius Franckendall inter Spiram et Wormatiam pertinet liber iste</seg></p>
+                            <p n="Exlibris"><locus n="58r"/><seg type="lat">Codex monasterij beate Marie Magdalene in Franckentall inter Spiram et Wormatiam canonicorum regularium ordinis</seg></p>
+                            <p n="Exlibris"><locus n="69v"/><seg type="lat">Liber fratrum canonicorum regularium in maiori Franckental</seg></p>
+                            <p n="Exlibris"><locus n="124r"/><seg type="lat">Ad maius Franckental pertinet liber iste</seg></p>
+                            <p n="Exlibris"><locus n="126v"/><seg type="lat">Iste liber pertinet monasterio beate Marie Magdalene in Franckentall inter Spiram et Wormatiam situato canonicorum regularium ordinis sancti Augustinu episcopi</seg></p>
                         </additions>
                         <bindingDesc>
                             <decoNote type="Roman">Römischer Einband zwischen 1878 und 1889</decoNote>
@@ -112,16 +112,14 @@
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_209</idno></bibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Pal.lat.209</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="181"></biblScope></bibl>
-                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="255"></biblScope></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="409"></biblScope></bibl>
-                        </listBibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="181"/></bibl>
+                            <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="255"/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="409"/></bibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99557</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>
-
-
