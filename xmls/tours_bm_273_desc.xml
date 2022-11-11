@@ -71,8 +71,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"
-                           ><placeName>Tours</placeName>?</origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName>?</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">offenbar
                               <placeName>Auxerre</placeName> (nicht Tours)</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2.
@@ -86,7 +85,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -97,7 +96,7 @@
                      <bibl><idno>Weber 1955</idno><biblScope unit="pp"/></bibl>
                      <bibl><idno>Gryson/Deproost 1989</idno><biblScope unit="pp" n="204 205"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46722</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

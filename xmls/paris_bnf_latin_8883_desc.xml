@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note></notesStmt>
+         <notesStmt><note n="ink"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -110,7 +110,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc62413n</idno></bibl>
                      <bibl><idno>Delisle 1868</idno><biblScope unit="pp" n="382"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="196"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47333</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

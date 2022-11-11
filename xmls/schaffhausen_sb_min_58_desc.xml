@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -91,16 +91,16 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout />
-                        <layout><p></p></layout>
+                        <layout/>
+                        <layout/>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -126,7 +126,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -136,7 +136,7 @@
                      <bibl><idno>Bourgain/Heinzelmann 1997</idno><biblScope unit="pp" n="303"/></bibl>
                      <bibl><idno>Hellmann 2002</idno><biblScope unit="pp" n="245"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="345"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47567</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

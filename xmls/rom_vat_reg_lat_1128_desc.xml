@@ -22,7 +22,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6765</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Rechtstexte">
@@ -69,7 +69,7 @@
                             <p n="Exlibris"><locus n=""/><seg type="lat">Alexander Pauli filius Petauies Parisenses anno 1647</seg></p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -78,7 +78,7 @@
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
                             <note>Das Schriftbild deutet auf eine Entstehung nicht in Tours hin.</note>
                         </origin>
-                        <provenance type="Provenance"></provenance>
+                        <provenance type="Provenance"/>
                         <provenance>Wie das Exlibris belegt, war die Handschrift 1647 im Besitz von <persName>Alexandre Pauli</persName>, dem Sohn von Petau.</provenance>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
                     </history>
@@ -93,7 +93,7 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.1128</idno></bibl>
                             <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="278"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="438"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47699</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -105,4 +105,3 @@
         </body>
     </text>
 </TEI>
-

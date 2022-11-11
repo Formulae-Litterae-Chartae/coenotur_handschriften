@@ -53,14 +53,14 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="21"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>Prächtig illuminiert.
@@ -81,7 +81,7 @@
                      <note>Die Handschrift ist nicht in Tours entstanden, sondern um Umfeld von Lothar I.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -96,7 +96,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="166"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="326"/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="103"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99532</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

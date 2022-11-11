@@ -68,10 +68,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"
-                        ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0900"
-                           notAfter="1000">10. Jhd.</origDate></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="1000" notAfter="1100">11. Jhd.
                            (?)</origDate></p>
                      <note/>
@@ -92,7 +90,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="159"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="209"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="192 193"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99575</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

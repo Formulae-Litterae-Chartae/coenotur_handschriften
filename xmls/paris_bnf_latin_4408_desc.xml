@@ -20,7 +20,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>4308</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Leges">
@@ -42,12 +42,12 @@
                               <width n="14.0"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="27"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -61,11 +61,11 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p></p>
+                     <p/>
                      <p n="tironische Noten"><locus n="204r"/>Wenige</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -77,7 +77,7 @@
                      <note>MCKITTERICK listet diese Handschrift als aus dem Leges-Skriptorium kommen auf.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -96,7 +96,7 @@
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="96"/></bibl>
                      <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/52920</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

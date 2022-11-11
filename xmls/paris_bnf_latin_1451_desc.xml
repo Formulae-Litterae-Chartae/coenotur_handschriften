@@ -68,13 +68,11 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="low"
-                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Bischoff" cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Rand" cert="medium">vermutlich nicht Tours</origPlace></p>
                      <p><origPlace source="Köhler" cert="medium">Tours unwahrscheinlich</origPlace></p>
                      <p><origPlace source="McKitterick" cert="medium">Region um Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
-                           >1. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                      <note>Von KÖHLER ursprünglich nach Tours gelegt, hat er sich, genau wie RAND,
                         schließlich gegen eine dortige Entstehung ausgesprochen. </note>
                   </origin>
@@ -97,7 +95,7 @@
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="46"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="32"/></bibl>
                      <bibl><idno>McKitterick 1994</idno><biblScope unit="pp" n="104 105"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48527</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

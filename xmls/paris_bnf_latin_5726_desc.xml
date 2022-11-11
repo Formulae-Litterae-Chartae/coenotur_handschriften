@@ -86,7 +86,7 @@
                         Livius erscheint die Entstehung in St-Martin in Tours in der ersten
                         Hälfte des 9. Jahrhunderts als äußerst wahrscheinlich.</note>
                   </origin>
-                  <provenance type="Provenance"></provenance>
+                  <provenance type="Provenance"/>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
@@ -104,7 +104,7 @@
                      <bibl><idno>Schipke 1994</idno><biblScope unit="pp" n="140"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="115"/></bibl>
                      <bibl><idno>Cinato</idno></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46705</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

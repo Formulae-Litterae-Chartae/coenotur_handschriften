@@ -23,11 +23,11 @@
                         <altIdentifier source="Bischoff">
                             <idno>808</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Heiligenviten Martinellus">
-                            <author></author>
+                            <author/>
                             <title>Martinellus</title>
                             <textLang mainLang="la"/>
                             <note>Es handelt sich nicht um einen vollständigen Martinellus.</note>
@@ -46,7 +46,7 @@
                                         <width n="11.3"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -61,7 +61,7 @@
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
-                                <p></p>
+                                <p/>
                             </decoNote>
                         </decoDesc>
                         <additions>
@@ -86,7 +86,7 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
@@ -94,7 +94,7 @@
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="174"/></bibl>
                             <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="327"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="178"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47250</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

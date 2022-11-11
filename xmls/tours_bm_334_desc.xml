@@ -66,23 +66,23 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout></layout>
-                        <layout><p></p></layout>
+                        <layout/>
+                        <layout/>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                    <p/>
                      <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
@@ -99,14 +99,14 @@
                      <note>Die Entstehung bleibt aufgrund der Zweifel von KÖHLER umstritten, wobei vieles für Tours spricht.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -117,7 +117,7 @@
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="327"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="242"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45315</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

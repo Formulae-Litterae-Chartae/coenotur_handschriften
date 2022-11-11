@@ -45,16 +45,16 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout />
-                        <layout></layout>
+                        <layout/>
+                        <layout/>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -73,14 +73,14 @@
                      <note>Fragment: Einordnung durch BISCHOFF.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">SB</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -88,7 +88,7 @@
                      <bibl><idno>Scherrer 1875</idno><biblScope unit="pp" n="486"/></bibl>
                      <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="13"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="337"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99570</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -82,9 +82,8 @@
                            bretonischen?) Einflußbereich</origPlace></p>
                      <p><origPlace source="BnF" cert="medium">Westfrankreich</origPlace></p>
                      <p><origPlace source="Porcher" cert="medium">Chartres</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
-                           >3. Viertel 9. Jhd.</origDate></p>
-                     <note >Entstehung in Tours zweifelhaft. Eher von einem „Irishman aspiring to the manner of
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
+                     <note>Entstehung in Tours zweifelhaft. Eher von einem „Irishman aspiring to the manner of
                         Tours” (RAND).</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Chartres</orgName>, Kapitel der
@@ -104,7 +103,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc340429</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="168 169"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="159"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48672</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

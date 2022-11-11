@@ -29,7 +29,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>4219</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Leges">
@@ -51,7 +51,7 @@
                               <width n="21.0 22.5">21,0-22,5</width>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -72,25 +72,25 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                     <p></p>
+                     <p/>
                      <p n="Tironische Noten"><locus n=""/>Zahlreiche Tironische Noten, siehe Martinellus.de</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <p><origPlace source="Rio" cert="high"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Mordek" cert="high">Schule von <placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Bischoff" cert="medium" >"Entstehung am Hofe Ludwigs des Frommen im Umkreis der Kanzlei"; "Die Herkunft der Hs. aus Saint-Martin ist nicht beweisebar"</origPlace></p>
+                     <p><origPlace source="Bischoff" cert="medium">"Entstehung am Hofe Ludwigs des Frommen im Umkreis der Kanzlei"; "Die Herkunft der Hs. aus Saint-Martin ist nicht beweisebar"</origPlace></p>
                      <p><origPlace source="McKitterick" cert="medium">Leges-Skriptorium</origPlace></p>
                      <p><origPlace source="Köhler" cert="low">Nicht Tours</origPlace></p>
                      <p><origDate source="Mordek Bischoff" cert="high" notBefore="0825" notAfter="0835">ca. 830</origDate></p>
                      <note>Eine Entstehung in Tours erscheint sehr wahrscheinlich. Die Zuordnung zum "Leges-Skriptorium" deutet auch auf eine Entstehung im Umkreis von Tours hin.</note>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
                <additional>
@@ -110,7 +110,7 @@
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="79"/></bibl>
                      <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                      <bibl><idno>Martinellus.de</idno><biblScope unit="pp" n="79"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47534</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

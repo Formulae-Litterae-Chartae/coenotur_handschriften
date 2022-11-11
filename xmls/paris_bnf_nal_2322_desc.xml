@@ -83,15 +83,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">Umgebung von
                               <placeName>Tours</placeName> wahrscheinlicher als Tours
                            selbst</origPlace></p>
                      <p><origPlace source="Bischoff" cert="low">fol. 1-2: Nordostfrankreich; fol. 3:
                            Tours (?)</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850"
-                           >2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0823" notAfter="0877">Karl
                            der Kahle</origDate></p>
                      <note/>
@@ -112,7 +110,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc70536s</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="148 149"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="247"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45336</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

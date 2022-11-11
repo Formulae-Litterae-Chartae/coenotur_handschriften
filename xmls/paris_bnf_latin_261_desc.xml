@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note></notesStmt>
+         <notesStmt><note n="ink"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -146,8 +146,7 @@
                   <origin>  
                      <p><origPlace source="Rand Köhler" cert="medium">Tours</origPlace></p>
                      <p><origPlace source="Bischoff" cert="medium">„unter Mitarbeit eines in Tours geschulten Künstlers in einem westfranzösischen Zentrum entstanden“</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
-                           >ca. 3. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">ca. 3. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="Köhler" cert="medium" notBefore="0853">nach
                         853</origDate></p>
                      <note>Entstehung steht sicher im Zusammenhang mit Tours, darauf lassen die
@@ -177,7 +176,7 @@
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="416" to="418"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="23"/></bibl>
                      <bibl><idno>Denoël 2018</idno><biblScope n="passim"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47173</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

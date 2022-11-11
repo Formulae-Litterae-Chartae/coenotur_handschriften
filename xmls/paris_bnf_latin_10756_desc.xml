@@ -23,7 +23,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>4658</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Leges">
@@ -45,12 +45,12 @@
                               <width n="16.2"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="22 28"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -67,7 +67,7 @@
                      <p n="tironische Noten" source="Martinellus.de"><locus n="46rv"/>"im Text der Capitulatio"</p>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -99,7 +99,7 @@
                      <bibl><idno>Faulkner 2016</idno><biblScope n="228"/></bibl>
                      <bibl><idno>Hellmann 2017</idno><biblScope n="270 271"/></bibl>
                      <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48110</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

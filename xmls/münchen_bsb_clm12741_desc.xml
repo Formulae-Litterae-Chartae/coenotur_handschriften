@@ -70,14 +70,11 @@
                      <p>Glossen und Korrekturen, 11. Jhd.</p>
                      <p>Marginalia, 14. Jhd.</p>
                      <p source="Wunderle">mehrere Enträge auf dem Vorderspiegel: <seg type="lat">Iste liber pertinet
-                           ad sanctum Erhardum in Ratispona</seg> (15. Jhd.); <seg type="lat"
-                           >Reverendissima domina abatissa d[onum] d[edi]t patribus Capuccinis
-                           ib[i]dem decimo septimo Julij anno domini M DCXXVIII</seg> (1628); <seg
-                           type="lat">Ne quis hunc librum laceret, concedat extraneis aut alio
+                           ad sanctum Erhardum in Ratispona</seg> (15. Jhd.); <seg type="lat">Reverendissima domina abatissa d[onum] d[edi]t patribus Capuccinis
+                           ib[i]dem decimo septimo Julij anno domini M DCXXVIII</seg> (1628); <seg type="lat">Ne quis hunc librum laceret, concedat extraneis aut alio
                            transferat, prohibet tota reverenda definitio, anno 1678</seg>.
                         Unterschrieben von: <seg type="lat">Frater Erhardus, Frater Athanasius,
-                           Frater Henricus, Frater Lucius</seg> (1678); eingeklebter Zettel: <seg
-                           type="lat">Anno Christi 937 scriptum est opus hoc a Domino Mariano Schoti
+                           Frater Henricus, Frater Lucius</seg> (1678); eingeklebter Zettel: <seg type="lat">Anno Christi 937 scriptum est opus hoc a Domino Mariano Schoti
                            profess. mathem. oratore et poeta insigni et tribus annis finitum.</seg>
                         (16./17. Jhd.); eingeklebter Zettel vom 22.9.1858 mit einer Beschreibung der
                         Handschrift durch Michael Stenglein </p>
@@ -89,8 +86,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0834"
-                        >830-834</origDate></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0830" notAfter="0834">830-834</origDate></p>
                      <note>Entstehungsort sowie -zeit können aufgrund der
                         Schriftgestaltung als gesichert angesehen werden; wohl in den letzten Jahren der Amtszeit des Abtes Fridugisus in Tours
                         entstanden.</note>
@@ -115,7 +111,7 @@
                      <bibl><idno>Bischoff 1960</idno><biblScope unit="pp" n="261"/></bibl>
                      <bibl><idno>Bierbrauer 1990</idno><biblScope unit="pp" n="136ff."/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="248"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47476</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

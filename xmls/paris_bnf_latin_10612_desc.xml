@@ -56,7 +56,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="25"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -92,13 +92,13 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc723280</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="166"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47644</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

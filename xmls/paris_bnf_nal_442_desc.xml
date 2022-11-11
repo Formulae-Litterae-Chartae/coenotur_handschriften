@@ -74,12 +74,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
-                        ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Köhler Bischoff" cert="medium"
-                           ><placeName>Reims</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0870"
-                           >ca. Mitte 9. Jhd.</origDate></p>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Köhler Bischoff" cert="medium"><placeName>Reims</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0830" notAfter="0870">ca. Mitte 9. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
                   <provenance>Gehörte <persName>Bouhier</persName>, bevor es an die Bibliothek der
@@ -100,7 +97,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc71166v</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="159 160"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="235"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/11354</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

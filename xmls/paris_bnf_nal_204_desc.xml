@@ -26,7 +26,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>5064</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Leges">
@@ -92,12 +92,12 @@
                               <width n="14.0 14.5">14,0-14,5 cm</width>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="27"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -113,7 +113,7 @@
                   <additions>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -143,7 +143,7 @@
                      <bibl><idno>Rio 2009</idno><biblScope unit="pp" n="262 263"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="234"/></bibl>
                      <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48296</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

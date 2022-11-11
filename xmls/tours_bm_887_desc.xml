@@ -70,7 +70,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                    <p/>
                      <p n="Exlibris"><locus n="31v 32r"/><seg type="lat">HUNC LIBRUM HERIBALDUS A ....... ENSIS ECLESIAE EPS DEDIT SCO STEPHANE PRO VITA AETERNA</seg></p>
                   </additions>
                   <bindingDesc>
@@ -93,7 +93,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -103,7 +103,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="189 190"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="329"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="369"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/44096</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

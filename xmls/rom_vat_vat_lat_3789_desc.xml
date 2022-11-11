@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -20,7 +20,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6878</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Briefe">
@@ -69,17 +69,17 @@
                             <p n="SK"><locus n="16v">Schreiberkürzel</locus></p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <p><origPlace cert="low" source="Bischoff">etwa <placeName>Tours</placeName>?; Italien?</origPlace></p>
                             <p source="Bischoff"><origDate cert="medium" notBefore="0867" notAfter="0900">9. Jhd. nach 867, dem Tod von <persName type="pope">Nikolaus I.</persName></origDate></p>
-                            <p></p>
+                            <p/>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
                     </history>
                     <additional>
@@ -93,7 +93,7 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.3789</idno></bibl>
                             <bibl><idno>Perels 1912</idno><biblScope unit="pp" from="540" to="541"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="449"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48073</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

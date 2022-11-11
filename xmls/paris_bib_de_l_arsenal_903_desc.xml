@@ -17,7 +17,7 @@
                   <repository>Bib. de l'Arsenal</repository>
                   <collection/>
                   <idno>903</idno>
-                  <msName></msName>
+                  <msName/>
                   <altIdentifier source="Bischoff">
                      <idno>3927</idno>
                   </altIdentifier>
@@ -54,7 +54,7 @@
                      <handNote source="Bischoff">"Mehrere dem turonischen Stil ähnliche Hände"</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
@@ -64,7 +64,7 @@
                      <p n="Exlibris"><locus n="215"/><seg type="lat">Hic est liber Sancti Juliani Turonensis cenobii</seg></p>
                   </additions>
                   <bindingDesc>
-                     <decoNote></decoNote>
+                     <decoNote/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -81,13 +81,13 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc80138p/cd0e318</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="11"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47619</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

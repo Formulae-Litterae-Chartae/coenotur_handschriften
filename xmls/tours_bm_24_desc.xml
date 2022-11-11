@@ -59,7 +59,7 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout></layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -80,10 +80,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Mercier" cert="low"
-                           ><orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1200"
-                           notAfter="1300">13. Jhd.</origDate></p>
+                     <p><origPlace source="Mercier" cert="low"><orgName>St-Martin</orgName></origPlace></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1200" notAfter="1300">13. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance/>
@@ -101,7 +99,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="10 11"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="18 19"/></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="122 123"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45430</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

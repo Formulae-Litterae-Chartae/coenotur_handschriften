@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -51,7 +51,7 @@
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="22"/>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -65,7 +65,7 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
+                            <p/>
                             <p n="Exlibris"><locus n="1r"/>Exlibris aus St-Bertin</p>
                         </additions>
                         <bindingDesc>
@@ -80,7 +80,7 @@
                             <note source="Rand">Die Zusammenstellung der Exzerpte könnte unter Alkuin geschehen sein. Das würde für den Text auf eine Datierung um 800 hindeuten. Die Art der Linierung legt die Entstehung dieser Handschrift dagegen wohl auf nach 820.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Bertin</orgName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">BdA</name></acquisition>
                     </history>
                     <additional>
@@ -94,7 +94,7 @@
                             <bibl><title>Online Beschreibung</title>: <idno/>https://ccfr.bnf.fr/portailccfr/ark:/06871/004D04030180</bibl>
                              <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="128 129"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="142"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46930</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

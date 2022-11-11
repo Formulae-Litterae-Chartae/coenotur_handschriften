@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note>
+         <notesStmt><note n="ink"/>
             <note>Es handelt sich um zahlreiche Handschriften, die später zusammengefügt worden sind. Nur der mittlere Teil, des 9. Jhds., stammt vielleicht aus Tours (RAND; dagegen BISCHOFF: Reims). Die Teile I, II und IV stammen aus dem 12. und 13. Jahrhundert und mit großer Sicherheit nicht aus Tours. (RAND unterteilt die Handschrift in 3 Teile, wobei sein Teil I aus zwei unterschiedlichen Handschriften besteht, so dass Rands Teil II, der vielleicht aus Tours stammt, hier als Teil III bezeichnet wird.)</note></notesStmt>
          <sourceDesc>
             <msDesc>
@@ -65,7 +65,7 @@
                      </msItem>
                      <msItem n="1.7">
                         <locus from="196r" to="201v"/>
-                        <author></author>
+                        <author/>
                         <title>Ausschnitte zahlreicher Kirchenväter mit Bezug auf das Dogma von Radbertus</title>
                      </msItem>
                      <msItem n="1.8">
@@ -215,7 +215,7 @@
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="234 237"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="193"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="368"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45688</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

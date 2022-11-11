@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -50,7 +50,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="20 26">20 (21, 26)</layout>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -79,7 +79,7 @@
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance source="Onlinekatalog">Die Handschrift war bis zur Revolution im Besitz der Barnabiten von St-Eloi in der Île de la Cité.</provenance>
-                  <acquisition><name type="Repository"></name></acquisition>
+                  <acquisition><name type="Repository"/></acquisition>
                </history>
                <additional>
                   <surrogates>
@@ -94,7 +94,7 @@
                      <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="411"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="170 171"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="11"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99538</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

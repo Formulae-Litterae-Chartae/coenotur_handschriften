@@ -78,8 +78,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium">Tours</origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="low" notBefore="0900"
-                           notAfter="1000">10. Jhd.</origDate></p>
+                     <p><origDate source="Dorange Collon" cert="low" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1.
                            Hälfte 9. Jhd.</origDate></p>
                   </origin>
@@ -103,7 +102,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="149"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="184"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="367"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45624</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

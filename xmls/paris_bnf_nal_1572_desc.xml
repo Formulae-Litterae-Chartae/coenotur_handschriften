@@ -54,7 +54,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
-                        <layout />
+                        <layout/>
                         <layout><p>Titel in grün und gelb; Initialen in grün und gelb. Farben und
                               Design sind nicht typisch für Tours.</p></layout>
                      </layoutDesc>
@@ -80,8 +80,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="low"><orgName>Micy</orgName>?</origPlace></p>
                      <p><origPlace source="Bischoff" cert="low">etwa Paris</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
-                           >1. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                      <note>Entstehungsort unklar, Tours kann aber wohl ausgeschlossen werden.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
@@ -102,7 +101,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69896p</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="148"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="239"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45250</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

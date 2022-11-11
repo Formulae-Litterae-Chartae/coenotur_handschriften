@@ -92,7 +92,7 @@
                                         <width n="18.5"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -130,10 +130,10 @@
                                 <p source="Clark/van der Weerd 2004"><locus type="Miniatur" n="fol. 17v, fol. 74v, fol. 109v, fol. 166v"/>Indigo</p>
                                 <p source="Clark/van der Weerd 2004"><locus type="Initiale" n="fol. 75r, fol. 110v"/>Indigo</p></decoNote>                      
                             <decoNote type="initial">
-                                <p><locus n="1v"/><locus n="13r"/><locus n="18v"/><locus n="110v"/><locus n="167v"></locus>Große verzierte Initialen in Farben oder Farben und Gold </p>
-                                <p><locus n="4v"/><locus n="5v"/><locus n="8v"/><locus n="71r"/><locus n="106v"/><locus n="167v"></locus>Große Initialen in Rot</p></decoNote>
+                                <p><locus n="1v"/><locus n="13r"/><locus n="18v"/><locus n="110v"/><locus n="167v"/>Große verzierte Initialen in Farben oder Farben und Gold </p>
+                                <p><locus n="4v"/><locus n="5v"/><locus n="8v"/><locus n="71r"/><locus n="106v"/><locus n="167v"/>Große Initialen in Rot</p></decoNote>
                             <decoNote type="canon">
-                                <p><locus from="10r" to="12r"/>Kanontafeln</p>></decoNote>
+                                <p><locus from="10r" to="12r"/>Kanontafeln</p>&gt;</decoNote>
                             <decoNote type="miniature"> 
                                 <p><locus n="17v">Darstellung des Matthäus</locus></p>
                                 <p><locus n="74v">Darstellung des Markus</locus></p>
@@ -177,7 +177,7 @@
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="377 378"/></bibl>
                             <bibl><idno>Clark/van der Weerd 2004</idno><biblScope n="passim"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="94"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47014</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

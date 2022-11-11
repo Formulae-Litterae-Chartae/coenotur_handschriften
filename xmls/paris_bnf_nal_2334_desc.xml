@@ -134,7 +134,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="82 84"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="323"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46661</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

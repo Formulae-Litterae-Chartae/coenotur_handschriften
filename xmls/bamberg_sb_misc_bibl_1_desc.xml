@@ -7,7 +7,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -48,12 +48,12 @@
                                         <width n="26.3"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2"/>
                                 <layout writtenLines="50 52"/>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -71,7 +71,7 @@
                         <additions>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -82,25 +82,25 @@
                             <note>Die Entstehung in Tours scheint gesichert. Die Qualität der Handschrift spricht gegen eine Entstehung in Marmoutier zu dieser Zeit.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">SB Bamberg</name></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
-                            <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                            <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                             <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="206 207"/></bibl>
                             <bibl><idno>Berger 1893</idno><biblScope unit="pp" n="376 377"/></bibl>
                             <bibl><idno>Leitschuh/Fischer 1895</idno><biblScope unit="pp" n="1 2"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="117"/></bibl>
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="389 391"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="44"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/43718</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

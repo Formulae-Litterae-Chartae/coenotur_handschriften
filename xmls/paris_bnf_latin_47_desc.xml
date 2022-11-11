@@ -120,10 +120,8 @@
                      <p><origPlace cert="medium" source="Rand">Tours</origPlace></p>
                      <p><origPlace cert="medium" source="BnF">St-Martin</origPlace></p>
                      <p><origPlace cert="low" source="Europeana_regia">St-Denis</origPlace></p>
-                     <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875"
-                           >825-875</origDate></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0860" notAfter="0900"
-                           >nach 860</origDate></p>
+                     <p><origDate source="BnF" cert="medium" notBefore="0825" notAfter="0875">825-875</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0860" notAfter="0900">nach 860</origDate></p>
                      <note>Eine Entsthung in Tours erscheint wahrscheinlich, da Format und vor
                         allem auch die Linierung exakt dem Usus aus St-Martin entsprechen.</note>
                   </origin>
@@ -147,7 +145,7 @@
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="413" to="414"/></bibl>
                      <bibl><idno>Ganz 1994</idno><biblScope/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="19"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47144</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

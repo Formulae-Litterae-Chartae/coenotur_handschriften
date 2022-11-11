@@ -8,25 +8,25 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Niederlande</country>
                         <settlement>Den Haag</settlement>
                         <repository>Museum Meermanno-Westreenianum</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>10 D 11</idno>
                         <altIdentifier source="Bischoff">
                             <idno>1450</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Kirchenväter Briefe">
                             <author>Augustinus</author>
                             <title>In Iohannis Epistulam ad Parthos</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -42,10 +42,10 @@
                                         <width n="10.5"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1"></layout>
+                                <layout columns="1"/>
                                 <layout writtenLines="22"/>
                             </layoutDesc>
                         </objectDesc>
@@ -56,7 +56,7 @@
                             <scriptNote>Karolingische Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </decoDesc>
                         <additions>
                             <p n="Exlibris"><locus n="1"/><seg type="lat">Liber Sci Vincenecii Mettensis, si quis illi abstulerit anathema sit.</seg></p>
@@ -76,24 +76,24 @@
                         <provenance>Wie das Exlibris belegt, war die Handschrift im 12. Jhd. in <orgName>St-Vinzenz</orgName> in <placeName>Metz</placeName> und gelangte später nach St-Arnulf..</provenance>
                         <provenance>Von dort gelangte sie ins <orgName>Collège de Clermont</orgName> in <placeName>Paris</placeName></provenance>
                         <provenance>Schließlich ging sie in die Sammlung von <persName>Gerard Meerman</persName> (1722-1771) über.</provenance>
-                        <acquisition><name type="Repository"></name></acquisition>
+                        <acquisition><name type="Repository"/></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://mmm-web.adlibhosting.com/AIS6/Details/fullCatalogue/50000232</idno></bibl>
-                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="303"></biblScope></bibl>
-                            <bibl><idno>Martinellus.de</idno><biblScope></biblScope></bibl>
-                        </listBibl>
+                            <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="303"/></bibl>
+                            <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48155</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>

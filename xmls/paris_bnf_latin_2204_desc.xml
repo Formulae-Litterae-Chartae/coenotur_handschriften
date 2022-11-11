@@ -120,8 +120,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Westfrankreich</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >9. Jhd., ca. 1./2. Viertel</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">9. Jhd., ca. 1./2. Viertel</origDate></p>
                      <note>Nichts gesichert. Die Handschrift sieht nicht besonders turonisch
                         aus.</note>
                   </origin>
@@ -141,7 +140,7 @@
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60091v</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="66"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99541</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

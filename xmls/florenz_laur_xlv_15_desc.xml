@@ -61,7 +61,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote></handNote>                            
+                            <handNote/>                            
                         </handDesc>
                         <scriptDesc>
                             <scriptNote source="Bischoff"><locus n="1 56"/>Angelsächsische Minuskel und erste Zeile in angelsächsischer Halbunziale</scriptNote>
@@ -72,10 +72,10 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
+                            <p/>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -89,8 +89,8 @@
                            <p>KÖHLER zweifelt in seiner Rezension an Tours, da für ihn nur Vat., Reg. Lat. 1484 wirklich turonisch ist.</p>
                            <p>Für BISCHOFF könnte die Handschrift als frühes Produkt aus der Zeit <persName type="abt">Alkuin</persName>s stammen.</p></note>
                         </origin>
-                        <provenance type="Provenance"></provenance>
-                        <provenance></provenance>
+                        <provenance type="Provenance"/>
+                        <provenance/>
                         <acquisition><name type="Repository">Laurenziana</name></acquisition>
                     </history>
                     <additional>
@@ -108,7 +108,7 @@
                             <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="14"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="260"/></bibl>
                             <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="118"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48371</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -120,7 +120,3 @@
         </body>
     </text>
 </TEI>
-
-
-
-

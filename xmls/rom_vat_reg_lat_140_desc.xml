@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -41,7 +41,7 @@
                   <msItem class="Misc.">
                      <locus from="3" to="26"/>
                      <author>Cassianus</author>
-                     <title></title>
+                     <title/>
                      <textLang mainLang="la"/>
                   </msItem>
                   <msItem>
@@ -67,21 +67,21 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="27 28"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                    <p/>
                      <p n="Exlibris"><locus n="1v"/>Exlibris aus Fleury</p>
                      <p n="Exlibris"><locus n="60v"/>Exlibris aus Fleury</p>
                      <p n="Exlibris"><locus n="122v"/><locus n="150v"/>Exlibris aus Fleury</p>
@@ -112,7 +112,7 @@
                      <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Reg.lat.140</idno></bibl>
                      <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="258"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="423"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48052</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

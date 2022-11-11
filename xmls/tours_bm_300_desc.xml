@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt> 
-         <notesStmt><note n="ink"></note>
+         <notesStmt><note n="ink"/>
             <note>Bei dieser Handschrift scheint es sich um zwei ehemals unabhängige Handschriften zu handeln. Mit Boethius (fol. 49) ändert sich die mise-en-page von 2 zu einer Zeile.</note></notesStmt>
          <sourceDesc>
             <msDesc>
@@ -118,8 +118,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1100"
-                           notAfter="1200">12. Jhd.</origDate></p>
+                     <p><origDate source="Dorange Collon" cert="medium" notBefore="1100" notAfter="1200">12. Jhd.</origDate></p>
                      <note source="Dorange">Wohl zeitgenössisch mit Hildebert von Lavardin, der von
                         1125 bis zu seinem Tod 1133 Erzbischof von Tours gewesen ist.</note>
                   </origin>
@@ -137,7 +136,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="168"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="220" to="222"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="202"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45644</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

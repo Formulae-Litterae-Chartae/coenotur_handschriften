@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note>
+         <notesStmt><note n="ink"/>
             <note>Diese Handschrift ist besonders, handelt es sich doch um die einzige Überlieferung dieser Psalmenparaphrase aus Marmoutier. Der Autor selbst scheint die Abschrift korrigiert zu haben und hat ein Kolophon beigefügt, dass die Entstehung erklärt und im Katalog Collon auszugsweise zitiert wird. Es handelt sich um ein prächtiges Exemplar auf einheitlich hochwertigem Pergament mit wunderschönen, einheitlichen Initialen auf fast jeder zweiten Seite.</note></notesStmt>
          <sourceDesc>
             <msDesc>
@@ -213,7 +213,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" from="35" to="37"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" from="54" to="56"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="197"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47350</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -100,8 +100,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="high">Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833"
-                           >1. Drittel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0833">1. Drittel 9. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Paul de Cormery</orgName></provenance>
                   <provenance>Die Handschrift gelangte bereits im 9. Jhd. nach <orgName>St-Paul de
@@ -123,7 +122,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc596772</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="94"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="41"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46686</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

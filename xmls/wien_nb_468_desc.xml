@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -29,7 +29,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>7125</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem source="Hermann" class="Martinellus Heiligenviten">
@@ -98,7 +98,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="24"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -137,7 +137,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -149,7 +149,7 @@
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
                      <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="114 115"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="479"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46338</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

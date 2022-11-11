@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note>
+         <notesStmt><note n="ink"/>
             <note>Es handelt sich um ein Sakramentar, das aus 3 unterschiedlichen Sakramenteren zusammengefügt worden ist. Andere Teile dieses Sakramenter befinden sich in Paris, BnF, Latin 9430. Die Beschreibungen folgen den aktuellen Manuskripten. Für Weiteres siehe den Kommentar unter der Entstehungsgeschichte.</note></notesStmt>
          <sourceDesc>
             <msDesc>
@@ -120,7 +120,7 @@
                         <p><locus type="Initiale" n="fol. 5v, fol. 6v"/>Gold + Kupfer</p></decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                    <p/>
                      <p n="Neumen" source="Rand">Neumen aus Tours (mit Verweis auf Dom Beyssac</p>
                   </additions>
                   <bindingDesc>
@@ -136,7 +136,7 @@
                      <note>Wenig über die Entstehung und die Geschichte dieser Handschrift ist bekannt. Sie setzt sich aus 3 verschiedenen Sakramentaren zusammen, wobei nicht klar ist, wenn diese Zusammensetzung stattgefunden hat. Alle drei Teile scheinen jedoch aus Tours zu stammen.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
@@ -159,7 +159,7 @@
                      <bibl><idno>Webber Jones 1939</idno><biblScope unit="pp" n="180"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="151 152"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45024</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

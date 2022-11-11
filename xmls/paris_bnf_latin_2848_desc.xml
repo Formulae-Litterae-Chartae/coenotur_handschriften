@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note></notesStmt>
+         <notesStmt><note n="ink"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -114,7 +114,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">Umkreis von Tours</origPlace></p>
                      <p><origPlace source="Winandy"><origPlace>Tours</origPlace></origPlace></p>
-                     <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0833" >1. Drittel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0833">1. Drittel 9. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="low" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
                      <note>Die Schrift entstammt dem frühen 9. Jahrhundert und ähnelt sehr denjenigenen aus Tours, so dass eine Entstehung in Tours (oder Umgebung) sehr wahrscheinlich erscheint. Die Häufigkeit und systematisch Nutzung der beidseitigen umpunkteten Kürzung für <seg type="lat">est</seg>, deutet stark auf eine Entstehung in Tours hin. Die Datierung im Onlinekatalog der BnF ins 10. Jahrhundert ist nicht nachvollziehbar.</note>
                   </origin>
@@ -134,7 +134,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60645t</idno></bibl>
                      <bibl><idno>Delisle 1868</idno><biblScope unit="pp" n="202"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="85"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99543</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

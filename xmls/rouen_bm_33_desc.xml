@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -51,23 +51,23 @@
                         <condition>Das Ende fehlt.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout />
-                        <layout><p></p></layout>
+                        <layout/>
+                        <layout/>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote/>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                    <p/>
                      <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
@@ -78,7 +78,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">zum Teil <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
-                     <note></note>
+                     <note/>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
                   <provenance>Die Handschrift war in Jumièges.</provenance>
@@ -88,14 +88,14 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Omont 1886</idno><biblScope unit="pp" n="12"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="281"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48276</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

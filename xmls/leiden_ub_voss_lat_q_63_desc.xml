@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -39,8 +39,8 @@
                                         <width n="19.5"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="20.0"></height>
-                                        <width n="15.5"></width>
+                                        <height n="20.0"/>
+                                        <width n="15.5"/>
                                     </dimensions>
                                 </extent>
                                 <condition/>
@@ -48,11 +48,11 @@
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="22 26">22-26</layout>
-                                <layout></layout>
+                                <layout/>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-<handNote></handNote>                            
+<handNote/>                            
                         </handDesc>
                         <scriptDesc>
                             <scriptNote>Zahlreiche Schreiber mit verschiedenen Schriften</scriptNote>
@@ -75,8 +75,8 @@
                             <p><origDate source="Hellmann" cert="medium" notBefore="0700" notAfter="0799">8. Jhd.</origDate></p>
                             <note>Eine Entstehung in Tours erscheint wahrscheinlich, selbst wenn es für das 8. Jahrhundert an Vergleichsbeispielen fehlt.</note>
                         </origin>
-                        <provenance type="Provenance"></provenance>
-                        <provenance></provenance>
+                        <provenance type="Provenance"/>
+                        <provenance/>
                         <acquisition><name type="Repository">UB Leiden</name></acquisition>
                     </history>
                     <additional>
@@ -90,7 +90,7 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://primarysources.brillonline.com/browse/vossiani-latini/vlq-063-gregorius-turonensis</idno></bibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://elmss.nuigalway.ie/catalogue/315</idno></bibl>
                             <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47574</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -102,6 +102,3 @@
         </body>
     </text>
 </TEI>
-
-
-

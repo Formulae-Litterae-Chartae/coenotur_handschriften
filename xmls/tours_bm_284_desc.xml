@@ -30,18 +30,18 @@
                      <idno>NAL 457</idno>
                   </altIdentifier>
                   <altIdentifier source="Bischoff">
-                     <idno></idno>
+                     <idno/>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Theologie">
                      <author>Misc.</author>
-                     <title></title>
+                     <title/>
                      <textLang mainLang="la"/>
                      <msItem n="1.1">
                         <author>Augustinus</author>
-                        <title>De Moribus Ecclesiae></title>
+                        <title>De Moribus Ecclesiae&gt;</title>
                         <note>etc.</note>
                      </msItem>
                      <msItem n="1.2">
@@ -86,7 +86,7 @@
                      </decoNote>
                   </decoDesc>
                   <additions>
-                    <p></p>
+                    <p/>
                      <p n="Exlibris"><locus n=""/></p>
                   </additions>
                   <bindingDesc>
@@ -116,7 +116,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="159 160"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="209 211"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="198"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45236</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

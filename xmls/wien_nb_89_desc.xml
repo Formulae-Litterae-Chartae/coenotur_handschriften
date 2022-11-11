@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -32,7 +32,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>7101</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem source="Tabula_codicum Hermann" class="Geschichtsschreibung Verschiedenes">
@@ -109,7 +109,7 @@
                               <width n="6.0">6,0 cm pro Spalte</width>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -127,7 +127,7 @@
                   <decoDesc>
                      <decoNote>
                         <locus n=""/>
-                        <p></p>
+                        <p/>
                      </decoNote>
                   </decoDesc>
                   <additions>
@@ -153,17 +153,17 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
-                     <bibl><title>Online Beschreibung</title>: <idno></idno></bibl>
+                     <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Tabulae codicum</idno><biblScope unit="pp" n="13"/></bibl>
                      <bibl><idno>Hermann 1923</idno><biblScope unit="pp" from="152" to="153"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="101"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="324"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="476"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99579</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

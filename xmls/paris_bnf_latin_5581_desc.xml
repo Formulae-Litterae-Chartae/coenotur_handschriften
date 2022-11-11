@@ -145,7 +145,7 @@
                      <bibl><idno>Rand 1939</idno><biblScope unit="pp" n="424"/></bibl>
                      <bibl><idno>Hellmann 2002</idno><biblScope unit="pp" n="245"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="111"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46702</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

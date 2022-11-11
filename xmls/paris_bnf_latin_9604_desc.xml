@@ -74,10 +74,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff" cert="high"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0860"
-                           >circa Mitte 9. Jhd.</origDate></p>
+                     <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0860">circa Mitte 9. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="0830" notAfter="0850">vor 850
                            (?)</origDate></p>
                      <p/>
@@ -102,7 +100,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc57294s</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="177 178"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="158"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45150</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

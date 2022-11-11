@@ -43,8 +43,7 @@
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <extent n="278">278 (+1 an Anfang und +2 am Ende) <dimensions type="leaf"
-                              unit="cm">
+                        <extent n="278">278 (+1 an Anfang und +2 am Ende) <dimensions type="leaf" unit="cm">
                               <height n="28.0"/>
                               <width n="24.0"/>
                            </dimensions>
@@ -91,8 +90,7 @@
                   <origin>
                      <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName>, wohl
                               <orgName>St-Martin</orgName></origPlace></p>
-                     <p><origPlace source="CLA Gasnault Mercier" cert="medium"
-                        >Italien</origPlace></p>
+                     <p><origPlace source="CLA Gasnault Mercier" cert="medium">Italien</origPlace></p>
                      <p><origDate cert="medium" notBefore="0500" notAfter="0600">6.
                         Jhd.</origDate></p>
                      <note>GASNAULT übernimmt die Entstehung in Italien und benennt zahlreiche
@@ -136,7 +134,7 @@
                      <bibl><idno>Palma 1998</idno><biblScope unit="pp" n="passim"/></bibl>
                      <bibl><idno>Palma 2000</idno><biblScope unit="pp" n="passim"/></bibl>
                      <bibl><idno>Mercier 2010</idno><biblScope unit="pp" n=""/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45279</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

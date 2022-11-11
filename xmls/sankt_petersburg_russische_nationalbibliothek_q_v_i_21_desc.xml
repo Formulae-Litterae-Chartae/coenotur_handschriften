@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -53,7 +53,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="21"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -80,14 +80,14 @@
                      <note>Leider begründen weder FISCHER noch BISCHOFF die Entstehung in Marmoutier nicht, so dass diese Theorie als unwahrscheinlich gelten muss.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">RNB</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -96,7 +96,7 @@
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="391 392"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="63"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="83"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48566</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

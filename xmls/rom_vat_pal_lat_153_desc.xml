@@ -8,14 +8,14 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note n="ink"></note></notesStmt>
+            <notesStmt><note n="ink"/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italien</country>
                         <settlement>Vatikan</settlement>
                         <repository>Vatlib</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>Pal. Lat. 153</idno>
                         <altIdentifier source="Rand">
                             <idno>37</idno>
@@ -23,13 +23,13 @@
                         <altIdentifier source="Bischoff">
                             <idno>6458</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Theologie Exegese">
                             <author>Johannes Chrysostomos</author>
                             <title>Commentarium in Epistolam ad Hebraeos</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -37,18 +37,18 @@
                             <supportDesc material="perg">
                                 <extent n="139">
                                     <dimensions type="leaf" unit="cm">
-                                        <height n="28.5"></height>
-                                        <width n="22.5"></width>
+                                        <height n="28.5"/>
+                                        <width n="22.5"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="22.0"></height>
-                                        <width n="16.5"></width>
+                                        <height n="22.0"/>
+                                        <width n="16.5"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1"></layout>
+                                <layout columns="1"/>
                                 <layout writtenLines="27 35">35 (27, 30)</layout>
                                 <layout source="Rand">Rote und rot-schwarze Titel</layout>
                                 <layout source="Rand">Einfache rot-schwarze Initialen</layout>
@@ -99,7 +99,7 @@
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
                             <note>Die Ähnlichkeit mit dem vatikanischen Livius macht eine Entstehung zu Beginn des 9. Jhds. in <orgName>St-Martin</orgName> wahrscheinlich.</note>
                         </origin>
-                        <provenance type="Provenance"></provenance>
+                        <provenance type="Provenance"/>
                         <provenance source="Fugger-Katalog"> Circa <date>1550</date> vom lorentiner Giovani Manetti über Martin Gestmann an die Fugger verkaut</provenance>
                         <acquisition source="Kautz">Nach dem Tod Fuggers <date>1584</date> in den Besitz der Heidelberger Kürfürsten übergegangen</acquisition>
                     </history>
@@ -112,14 +112,14 @@
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_153</idno></bibl>
-                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="112 113"></biblScope></bibl>
-                            <bibl><idno>Kautz 2016</idno><biblScope></biblScope></bibl>
-                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="407"></biblScope></bibl>
-                        </listBibl>
+                            <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="112 113"/></bibl>
+                            <bibl><idno>Kautz 2016</idno><biblScope/></bibl>
+                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="407"/></bibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48081</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>

@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -42,7 +42,7 @@
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
                                         <height/>
-                                        <width></width>
+                                        <width/>
                                     </dimensions>
                                 </extent>
                                 <condition/>
@@ -50,11 +50,11 @@
                             <layoutDesc>
                                 <layout/>
                                 <layout/>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote></handNote>
+                            <handNote/>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote/>
@@ -68,8 +68,8 @@
                         </decoDesc>
                         
                         <additions>
-                            <p></p>
-                            <p></p>
+                            <p/>
+                            <p/>
                         </additions>
                         <bindingDesc>
                             <decoNote/>
@@ -86,7 +86,7 @@
                             <note>RAND lehnt eine Entstehung in Tours ab, wobei die neuere Forschung (ohne klares Argument) von einer Entstehung in Tours ausgeht.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Collège de l'Oratoire</orgName> de <placeName>Troyes</placeName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">BM</name></acquisition>
                     </history>
                     <additional>
@@ -101,7 +101,7 @@
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="385"/></bibl>
                             <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48199</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

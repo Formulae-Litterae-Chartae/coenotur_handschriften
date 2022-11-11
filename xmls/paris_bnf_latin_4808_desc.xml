@@ -73,10 +73,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Bischoff" cert="high"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >1./2. Viertel 9. Jhd.</origDate></p>
+                     <p><origPlace source="Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
                      <note>Die Handschrift wurde zu einem späteren Zeitpunkt zusammengefügt. Nur
                         fol. 66-79 stammen aus Tours.</note>
                   </origin>
@@ -95,7 +93,7 @@
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc63683k</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="102"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48742</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

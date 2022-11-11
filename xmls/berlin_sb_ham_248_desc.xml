@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note></notesStmt>
+         <notesStmt><note n="ink"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -23,7 +23,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>354</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Bibel Evangelien">
@@ -31,37 +31,37 @@
                      <title>Evangelia</title>
                      <textLang mainLang="la"/>
                   <msItem n="1.1">
-                     <locus from="1v" to="8r"></locus>
+                     <locus from="1v" to="8r"/>
                      <author>Hieronymus</author>
                      <title>Epistulae</title>
                   </msItem>
                   <msItem n="1.2">
-                     <locus from="9r" to="12v"></locus>
+                     <locus from="9r" to="12v"/>
                      <author/>
                      <title>Kanontafeln</title>
                   </msItem>
                   <msItem n="1.3">
-                     <locus from="13r" to="71v"></locus>
+                     <locus from="13r" to="71v"/>
                      <author/>
                      <title>Evangelium secundum Mattheum</title>
                   </msItem>
                   <msItem n="1.4">
-                     <locus from="72r" to="108v"></locus>
+                     <locus from="72r" to="108v"/>
                      <author/>
                      <title>Evangelium secundum Marcum</title>
                   </msItem>
                   <msItem n="1.5">
-                     <locus from="109r" to="170r"></locus>
+                     <locus from="109r" to="170r"/>
                      <author/>
                      <title>Evangelium secundum Lucam</title>
                   </msItem>
                   <msItem n="1.6">
-                     <locus from="170v" to="219r"></locus>
+                     <locus from="170v" to="219r"/>
                      <author/>
                      <title>Evangelium secundum Iohannem</title>
                   </msItem>
                   <msItem n="1.7">
-                     <locus from="219v" to="235v"></locus>
+                     <locus from="219v" to="235v"/>
                      <author/>
                      <title>Capitulare Evangeliorum</title>
                   </msItem>
@@ -123,13 +123,13 @@
                      <decoNote ana="pigments" n="Grün">
                         <p><locus type="Initiale" n="fol. 2r"/>Kupfergrün</p></decoNote>
                      <decoNote type="canon">
-                        <p><locus from="9r" to="12v" source= "Fingernagel"/>achtteilige Folge von Kanonbögen, ca. 25-26 x 19 cm; an den Rändern stark beschnitten. Vier- bzw. fünfsäulige Arkadenstellungen mit sich überkreuzenden Archivolten bzw. Archivolten und Giebeln. Säulen mit Blattkapitellen und gestuften Basen.</p></decoNote>
+                        <p><locus from="9r" to="12v" source="Fingernagel"/>achtteilige Folge von Kanonbögen, ca. 25-26 x 19 cm; an den Rändern stark beschnitten. Vier- bzw. fünfsäulige Arkadenstellungen mit sich überkreuzenden Archivolten bzw. Archivolten und Giebeln. Säulen mit Blattkapitellen und gestuften Basen.</p></decoNote>
                      <decoNote type="initial">
-                        <p><locus n="2r" source= "Fingernagel"/>B-Initiale, H: 15 cm. Kronen aus intermittierdendem Flechtwerk (Fadengeflecht). Bogenformen des Buchstabenkörpers durch Goldfelder bzw. in Braun ausgesparte Flechtknoten (hellgrün und ocker gefüllt) untergliedert.</p>
-                        <p><locus n="17r" source= "Fingernagel"/>LI-lnitialligatur in Schriftspiegelhöhe.</p>
-                        <p><locus n="75r" source= "Fingernagel"/>I-Initiale in Schriftspiegelhöhe. Mehrteilige, markante Flechtkrone, mit seitlich ausschwingenden Hörnern.</p>
-                        <p><locus n="113r" source= "Fingernagel"/>Q-lnitiale, H: 16 cm. An den seitlichen Scheitelpunkten des Buchstabenkörpers werden die sich überkreuzenden Randleisten jeweils mit einem zentralsymmetrischen Flechtknoten verbunden (orthogonale und gebogte Formen).</p>
-                        <p><locus n="173r" source= "Fingernagel"/>1-lniciale in Schriftspiegelhöhe. Markante Flechrknoten an den Abläufen und in der Buchstabbenmitte; symmetrische Formen, oben mit ausschwingenden Hörnern; am unteren Ablauf kombiniert mit einem Vogelkopf, der nach einem Blatt pickt.Im lnitialkörper zwei vor braunem Grund ausgesparte Flechtbänder.</p></decoNote></decoDesc>
+                        <p><locus n="2r" source="Fingernagel"/>B-Initiale, H: 15 cm. Kronen aus intermittierdendem Flechtwerk (Fadengeflecht). Bogenformen des Buchstabenkörpers durch Goldfelder bzw. in Braun ausgesparte Flechtknoten (hellgrün und ocker gefüllt) untergliedert.</p>
+                        <p><locus n="17r" source="Fingernagel"/>LI-lnitialligatur in Schriftspiegelhöhe.</p>
+                        <p><locus n="75r" source="Fingernagel"/>I-Initiale in Schriftspiegelhöhe. Mehrteilige, markante Flechtkrone, mit seitlich ausschwingenden Hörnern.</p>
+                        <p><locus n="113r" source="Fingernagel"/>Q-lnitiale, H: 16 cm. An den seitlichen Scheitelpunkten des Buchstabenkörpers werden die sich überkreuzenden Randleisten jeweils mit einem zentralsymmetrischen Flechtknoten verbunden (orthogonale und gebogte Formen).</p>
+                        <p><locus n="173r" source="Fingernagel"/>1-lniciale in Schriftspiegelhöhe. Markante Flechrknoten an den Abläufen und in der Buchstabbenmitte; symmetrische Formen, oben mit ausschwingenden Hörnern; am unteren Ablauf kombiniert mit einem Vogelkopf, der nach einem Blatt pickt.Im lnitialkörper zwei vor braunem Grund ausgesparte Flechtbänder.</p></decoNote></decoDesc>
                   <additions>
                      <p>Einzelne Ergänzungen am Rand, insbesondere zu den Anfängen der Weihnachtsgeschichte</p>
                      <p>Zahlreiche Ergänzungen innerhalb des Capitulare Evangeliorum</p>
@@ -157,7 +157,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -166,7 +166,7 @@
                      <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="115 117"/></bibl>
                      <bibl><idno>Fingernagel 1999</idno><biblScope unit="pp" n="63 66"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="74"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47170</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

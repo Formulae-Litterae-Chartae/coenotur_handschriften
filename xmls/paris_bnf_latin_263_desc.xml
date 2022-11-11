@@ -78,8 +78,7 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="high">Tours</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
-                           >3. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
                   </origin>
                   <provenance type="Provenance"><persName>Colbert</persName></provenance>
                   <provenance/>
@@ -98,7 +97,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="157"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="412" to="413"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="24"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47148</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

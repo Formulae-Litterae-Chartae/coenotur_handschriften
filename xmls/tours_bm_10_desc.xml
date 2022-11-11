@@ -9,7 +9,7 @@
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
             <notesStmt>
-              <note></note>
+              <note/>
             </notesStmt>
             <sourceDesc>
                 <msDesc>
@@ -135,8 +135,7 @@
                         <origin>
                             <p><origPlace source="Rand Bischoff" cert="medium">Tours</origPlace></p>
                             <p><origPlace source="Mostert" cert="low">Fleury</origPlace></p>
-                            <p><origDate source="Bischoff" cert="medium" notBefore="0800"
-                                    notAfter="0825">Anfang 9. Jhd.</origDate></p>
+                            <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">Anfang 9. Jhd.</origDate></p>
                             <note source="Mostert">Die Zuschreibung nach Tours erfolgt vor allem aufgrund des
                                 Exlibris vom 12. Jhd.; Überlegungen, die Entstehung der Handschrift in Fleury zu
                                 verorten, verweisen auf die Neumierungen auf fol. 163r, die floriazensischen
@@ -172,7 +171,7 @@
                             <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="4"/></bibl>
                             <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="8 9"/></bibl>
                             <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="120"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45383</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

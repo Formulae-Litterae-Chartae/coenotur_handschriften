@@ -53,7 +53,7 @@
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="28"/>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -80,8 +80,8 @@
                             <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
                             <note>BISCHOFF und MCKITTERICK listen diese Handschrift als aus dem Leges-Skriptorium kommend auf.</note>
                         </origin>
-                        <provenance type="Provenance"></provenance>
-                        <provenance></provenance>
+                        <provenance type="Provenance"/>
+                        <provenance/>
                         <acquisition><name type="Repository">BJ</name></acquisition>
                     </history>
                     <additional>
@@ -101,7 +101,7 @@
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="80"/></bibl>
                             <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
                             <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47927</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

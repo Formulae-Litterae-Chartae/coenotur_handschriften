@@ -47,7 +47,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="30"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -73,21 +73,21 @@
                      <note>In einem Schreiben (erwähnt bei BOURGAIN/HEINZELMANN) bringt BISCHOFF als Entstehungsort von Rostgaard 160 2 nr. 1 Tours ins Spiel. Auch Wolfenbüttel, HAB, Aug 2, 10.9 ist von BUTZMANN mit Tours in Verbindung gebracht worden. Trotzdem ist, beim aktuellen Kenntnisstand, davon auszugehen, dass die Handschrift nicht aus Tours stammt.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno>https://soeg.kb.dk/permalink/45KBDK_KGL/1pioq0f/alma99122422234505763</idno></bibl>
                      <bibl><idno>Bourgain/Heinzelmann 1997</idno><biblScope unit="pp" n="288"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="412 413"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99531</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

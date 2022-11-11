@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fre">
@@ -9,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -27,7 +26,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>4700</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Theologie Exegese Kirchenväter">
@@ -50,28 +49,28 @@
                                         <width n="18.0"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2"/>
                                 <layout writtenLines="30"/>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p></p>
+                            <p/>
                         </handDesc>
                         <scriptDesc>
-                            <p></p>
+                            <p/>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
                                 <locus n=""/>
-                                <p></p>
+                                <p/>
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
+                            <p/>
                             <p n="Exlibris"><locus n="1r"/><seg type="lat">Ex-libris Corbeiens abbatiae</seg>, 17. Jhd.</p>
                             <p n="Exlibris"><locus n="1r"/><seg type="lat">Sti Germani a Pratis</seg></p>
                         </additions>
@@ -83,7 +82,7 @@
                         <origin>
                             <p><origPlace source="Ganz" cert="medium"><name>Tours</name></origPlace></p>
                             <p><origDate source="Bischoff" cert="high" notBefore="0800" notAfter="0825">9. Jhd. 1. Viertel</origDate></p>
-                            <note></note>
+                            <note/>
                         </origin>
                         <provenance type="Provenance"><name type="community"/>St-Germain des Près</provenance>
                         <provenance source="Ganz">Die Handschrift gelangt, gemeinsam mit Latin 11671, noch im 9. Jhd. nach Corbie</provenance>
@@ -93,7 +92,7 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
@@ -103,7 +102,7 @@
                             <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="65"/></bibl>
                             <bibl><idno>Ganz 1990</idno><biblScope unit="pp" n="157"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="174"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47657</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

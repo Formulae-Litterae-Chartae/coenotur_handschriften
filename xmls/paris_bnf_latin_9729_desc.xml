@@ -77,8 +77,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" cert="low"
-                        ><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><placeName>Tours</placeName></origPlace></p>
                      <p><origPlace source="Köhler" cert="medium">nicht Tours</origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0900" notAfter="1000">10.
                            Jhd.</origDate></p>
@@ -105,7 +104,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="178"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="11"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="158"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45172</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

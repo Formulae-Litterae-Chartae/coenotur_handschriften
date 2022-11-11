@@ -77,7 +77,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand" >Zweifel an Tours</origPlace></p>
+                     <p><origPlace source="Rand">Zweifel an Tours</origPlace></p>
                      <p><origPlace source="Bischoff Ganz" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
                      <note><p source="Berger">Die stark abweichende Ordnung der Bücher lässt an einer Lokalisierung nach Tours zweifeln.</p>
@@ -94,7 +94,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -109,7 +109,7 @@
                      <bibl><idno>Ganz 1994</idno><biblScope unit="pp" n="62"/></bibl>
                      <bibl><idno>McKitterick 1994</idno><biblScope unit="pp" n="71"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="57"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47936</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

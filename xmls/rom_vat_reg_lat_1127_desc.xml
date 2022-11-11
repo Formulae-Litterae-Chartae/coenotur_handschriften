@@ -19,7 +19,7 @@
                       <altIdentifier source="Bischoff">
                             <idno>6764</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Rechtstexte">
@@ -51,7 +51,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p></p>
+                            <p/>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote>Schöne Karolingische Minuskel</scriptNote>
@@ -73,7 +73,7 @@
                             <p><origPlace cert="medium" source="Bischoff">Umkreis von <placeName>Tours</placeName></origPlace></p>
                             <p><origPlace cert="medium" source="Rand">Nicht aus <placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0899">9. Jhd.</origDate></p>
-                            <p></p>
+                            <p/>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance>Wie das Inhaltsverzeichnis vor f.1 belegt, war die Handschrift 1647 im Besitz von <persName>Alexandre Pauli</persName>, Sohn von Petau.</provenance>
@@ -91,7 +91,7 @@
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="205"/></bibl>
                             <bibl><idno>Kéry 1999</idno><biblScope unit="pp" n="45"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="438"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99559</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

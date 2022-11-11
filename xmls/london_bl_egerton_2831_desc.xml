@@ -26,7 +26,7 @@
                   <altIdentifier source="CLA">
                      <idno>196a</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Theologie Exegese">
@@ -49,7 +49,7 @@
                               <width n="19.0"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2"/>
@@ -66,7 +66,7 @@
                   <decoDesc>
                      <decoNote>
                         <locus n=""/>
-                        <p></p>
+                        <p/>
                      </decoNote>
                   </decoDesc>
                   <additions>
@@ -96,7 +96,7 @@
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -111,7 +111,7 @@
                      <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="12"/></bibl>
                      <bibl><idno>Gasnault 1971</idno><biblScope unit="pp" n="50 51"/></bibl>
                      <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/35978</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

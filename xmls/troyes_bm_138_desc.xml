@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -47,11 +47,11 @@
                             <layoutDesc>
                                 <layout/>
                                 <layout/>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote></handNote>
+                            <handNote/>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote/>
@@ -77,8 +77,8 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
-                            <p></p>
+                            <p/>
+                            <p/>
                         </additions>
                         <bindingDesc>
                             <decoNote/>
@@ -93,7 +93,7 @@
                             <note>FISCHER nimmt sie in seine Liste von nicht turonischen Handschriften auf, da die "Kapitelsreihen [...] sonst in turonischen Handschriften nicht vor[kommen]". Darüberhinaus sieht er Verwandtschaft mit Trier, Evangelisches Seminar 40 und Paris, Bibliothèque Mazarine 1, die nicht aus Tours stammen.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Saint-Étienne</orgName>, <placeName>Troyes</placeName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">BM</name></acquisition>
                     </history>
                     <additional>
@@ -108,7 +108,7 @@
                             <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="60"/></bibl>
                             <bibl><idno>Gameson 2002</idno><biblScope unit="pp" n="65 66"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="383"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48166</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

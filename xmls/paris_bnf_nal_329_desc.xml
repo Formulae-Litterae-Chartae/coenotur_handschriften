@@ -70,8 +70,7 @@
                   <origin>
                      <p><origPlace source="Bischoff" cert="medium">(südliches?)
                            Frankreich</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >1./2. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1./2. Viertel 9. Jhd.</origDate></p>
                      <p><origDate source="BnF" cert="low" notBefore="0800" notAfter="1000">9.-10.
                            Jhd.</origDate></p>
                      <p/>
@@ -91,7 +90,7 @@
                      <bibl><title>Online Beschreibung</title>:
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc71056g</idno></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="234"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/9021</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

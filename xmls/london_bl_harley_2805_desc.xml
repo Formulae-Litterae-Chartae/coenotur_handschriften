@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fre">
@@ -27,7 +26,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>2461</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Bibel">
@@ -49,7 +48,7 @@
                                         <width n="11.5 12.7">11,5-12,7 cm</width>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2"/>
@@ -67,7 +66,7 @@
                         <decoDesc>
                             <decoNote/>                            
                         </decoDesc>
-                        <additions></additions>
+                        <additions/>
                         <bindingDesc>
                             <decoNote/>
                         </bindingDesc>
@@ -79,15 +78,15 @@
                             <p><origDate source="Bischoff" cert="high" notBefore="0815" notAfter="0820">815-820</origDate></p>
                             <note>Diese Handschrift stammt vermutlich aus Tours. Eine Entstehung in Marmoutier erscheint dagegen unwahrscheinlich.</note>
                         </origin>
-                        <provenance type="Provenance"></provenance>
-                        <provenance></provenance>
-                        <acquisition ><name type="Repository">British Library</name></acquisition>
+                        <provenance type="Provenance"/>
+                        <provenance/>
+                        <acquisition><name type="Repository">British Library</name></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
@@ -96,7 +95,7 @@
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="372"/></bibl>
                             <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="117"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46881</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -108,5 +107,3 @@
         </body>
     </text>
 </TEI>
-
-

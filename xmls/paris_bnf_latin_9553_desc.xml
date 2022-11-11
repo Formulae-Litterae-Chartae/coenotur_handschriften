@@ -88,7 +88,7 @@
                      <p><origDate source="Collon BnF" cert="medium" notBefore="0900" notAfter="1000">10. Jhd.</origDate></p>
                      <p><origDate source="Delisle Wordsworth" cert="medium" notBefore="1000" notAfter="1100">11. Jhd.</origDate></p>
                      <p><origDate source="Rand" cert="medium" notBefore="1075" notAfter="1100">spätes 11. Jhd.</origDate></p>
-                     <note></note>
+                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
                   <provenance>Die Handschrift hat die Bibliothek von Tours ungefähr im Jahr 1830
@@ -110,7 +110,7 @@
                      <bibl><idno>Delisle 1883</idno><biblScope unit="pp" n="17 18"/></bibl>
                      <bibl><idno>Wordsworth 1883</idno><biblScope unit="pp" n="59"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="200"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45137</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

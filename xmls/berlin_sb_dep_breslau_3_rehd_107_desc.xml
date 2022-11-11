@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note n="ink"></note>
+            <notesStmt><note n="ink"/>
                 <note>Im Gegensatz zu den konfusen Angaben in den CLA online, ist die Handschrift nicht zerstört worden.</note></notesStmt>
             <sourceDesc>
                 <msDesc>
@@ -16,7 +16,7 @@
                         <country>Deutschland</country>
                         <settlement>Berlin</settlement>
                         <repository>SB</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno>Dep. Breslau 3</idno>
                         <altIdentifier source="Rehd.">
                             <idno>107</idno>
@@ -24,13 +24,13 @@
                         <altIdentifier source="CLA">
                             <idno>1072</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Theologie">
                             <author>Orosius</author>
                             <title>Historia adversus paganos</title>
-                            <textLang mainLang="la"></textLang>
+                            <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -70,7 +70,7 @@
                                 <p><locus n="fol. 14v"/>Nicht-vitriolische Eisengallustinten</p></scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </decoDesc>
                         <additions>
                             <p>Einzelne, wenige Korrekturen am Rand</p>
@@ -87,24 +87,24 @@
                              <p><origDate source="CLA" cert="medium" notBefore="0750" notAfter="0800">2. Hälfte 8. Jhd.</origDate></p>
                         </origin>
                         <provenance source="CLA">Die Handschrift gehörte dem Humanisten Thomas Rehdinger (gest. 1576), und gelangte mit dessen Bibliothek an die Stadt Breslau.</provenance>
-                        <acquisition><name type="Repository"></name></acquisition>
+                        <acquisition><name type="Repository"/></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031018706%22&amp;dmode=doc#|4</idno></bibl>
-                            <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="14"></biblScope></bibl>
+                            <bibl><idno>Bischoff 1967</idno><biblScope unit="pp" n="14"/></bibl>
                             <bibl><idno>Martinellus.de</idno></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99516</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><div type="edition"></div></body></text>
+    <text><body><div type="edition"/></body></text>
 </TEI>

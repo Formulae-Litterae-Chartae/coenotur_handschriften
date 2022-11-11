@@ -17,7 +17,7 @@
                         <repository>Stiftsbibliothek</repository>
                         <collection/>
                         <idno>729</idno>
-                        <msName></msName>
+                        <msName/>
                         <altIdentifier source="Bischoff">
                             <idno>5841</idno>
                         </altIdentifier>
@@ -63,7 +63,7 @@
                                         <width n="10.0 10.5"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -96,7 +96,7 @@
                             <note>BISCHOFF hält eine Entstehung im Leges-Skriptorium für möglich. MCKITTERICK listet die Handschrift in ihrer Liste von Handschriften aus dem Leges-Skriptorium auf.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Gallen</orgName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">Stiftsbibliothek St-Gallen</name></acquisition>
                     </history>
                     <additional>
@@ -113,7 +113,7 @@
                             <bibl><idno>Mordek 1995</idno><biblScope unit="pp" n="668 670"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="332"/></bibl>
                             <bibl><idno>Ubl 2014</idno><biblScope n="passim"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99571</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

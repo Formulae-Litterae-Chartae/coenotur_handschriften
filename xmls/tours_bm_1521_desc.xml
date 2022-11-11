@@ -30,7 +30,7 @@
                </msIdentifier>
                <msContents>
                   <msItem class="Heiligenviten">
-                     <author></author>
+                     <author/>
                      <title>Variae</title>
                      <textLang mainLang="la"/>
                      <msItem n="1.1">
@@ -81,18 +81,18 @@
                <history>
                   <origin>
                      <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0899"></origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0899"/></p>
                      <note>Zerstört.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -100,7 +100,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="178 179"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="302"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="158"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/35976</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

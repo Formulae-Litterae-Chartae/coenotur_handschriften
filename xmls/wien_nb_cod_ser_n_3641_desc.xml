@@ -20,7 +20,7 @@
                      <idno>127</idno>
                   </altIdentifier>
                   <altIdentifier source="Bischoff">
-                     <idno></idno>
+                     <idno/>
                   </altIdentifier>
                   <msName/>
                </msIdentifier>
@@ -49,7 +49,7 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="52"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -77,14 +77,14 @@
                      <note>Die 2 Blätter wurden laut RAND durch KÖHLER entdeckt und dem Skriptorium aus Tours zugeordnet.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
-                  <acquisition><name type="Repository"></name></acquisition>
+                  <provenance/>
+                  <acquisition><name type="Repository"/></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -94,7 +94,7 @@
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="380"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="491"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="494"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48657</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

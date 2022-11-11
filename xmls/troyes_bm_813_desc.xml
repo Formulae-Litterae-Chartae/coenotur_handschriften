@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -52,7 +52,7 @@
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
                                         <height/>
-                                        <width></width>
+                                        <width/>
                                     </dimensions>
                                 </extent>
                                 <condition/>
@@ -60,11 +60,11 @@
                             <layoutDesc>
                                 <layout/>
                                 <layout/>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote></handNote>
+                            <handNote/>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote/>
@@ -80,8 +80,8 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p></p>
-                            <p></p>
+                            <p/>
+                            <p/>
                         </additions>
                         <bindingDesc>
                             <decoNote/>
@@ -93,7 +93,7 @@
                             <p><origDate source="Bischoff" cert="medium" notBefore="0840" notAfter="0875">Mitte / 3. Viertel 9. Jhd.</origDate></p>
                         </origin>
                         <provenance type="Provenance"><orgName>Collège de l'oratoire</orgName> de <placeName>Troyes</placeName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">BM</name></acquisition>
                     </history>
                     <additional>
@@ -106,7 +106,7 @@
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>https://portail.mediatheque.grand-troyes.fr/iguana/www.main.cls?surl=search&amp;p=*#recordId=2.2654</idno></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="385"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48184</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

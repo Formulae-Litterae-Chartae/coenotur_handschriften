@@ -81,8 +81,7 @@
                      <p><origPlace source="Bischoff" cert="medium">franko-sächsisch</origPlace></p>
                      <p><origPlace source="Rand" cert="medium">eher martinisch als
                            touronisch</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875"
-                           >3. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0850" notAfter="0875">3. Viertel 9. Jhd.</origDate></p>
                      <note>Eine Entstehung in Tours erscheint unwahrscheinlich. Vermutlich gelangte die Handschrift nach 853 nach Saint-Martin.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Martin</orgName></provenance>
@@ -106,7 +105,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="173 174"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="327"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="366"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45429</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

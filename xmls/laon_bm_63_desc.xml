@@ -53,7 +53,7 @@
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="21 22">(21) 22</layout>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -78,7 +78,7 @@
                             <note>Die Entstehung in Tours kann als gesichert angesehen werden. Die Datierung unter Vivian erscheint durch den Vergleich mit anderen Bibeln und Evangeliaren wahrscheinlich.</note>
                         </origin>
                         <provenance type="Provenance"><orgName>Notre-Dame</orgName>, <placeName>Laon</placeName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">BM</name></acquisition>
                     </history>
                     <additional>
@@ -95,7 +95,7 @@
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="405 406"/></bibl>
                             <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="64"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="22"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47118</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

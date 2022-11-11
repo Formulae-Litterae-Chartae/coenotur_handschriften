@@ -86,11 +86,10 @@
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
-                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" from="106" to="108"
-                        /></bibl>
+                     <bibl><idno>Dorange 1875</idno><biblScope unit="pp" from="106" to="108"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="139 140"/></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="123"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45604</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

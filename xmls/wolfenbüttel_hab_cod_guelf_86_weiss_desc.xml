@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -26,7 +26,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>7424A</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Grammatik">
@@ -48,7 +48,7 @@
                                         <width n="12.0"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -59,7 +59,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote></handNote>
+                            <handNote/>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote>Vorkarolingische Minuskel</scriptNote>
@@ -76,7 +76,7 @@
                         <additions><p n="tironische Noten" source="Butzmann Hellmann">Lagenzählung in tironischen Noten</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -101,7 +101,7 @@
                             <bibl><idno>Butzmann 1964</idno><biblScope unit="pp" n="248 249"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="512"/></bibl>
                             <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48163</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

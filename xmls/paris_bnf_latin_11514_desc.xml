@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note>
+         <notesStmt><note n="ink"/>
             <note>Es handelt sich um eine prächtige Ausgabe des alten Testamentes, deren Anfang fehlt. Die Handschrift weißt prächtige Initialen auf, kann jedoch mit den Prachtbibeln nicht mithalten.</note></notesStmt>
          <sourceDesc>
             <msDesc>
@@ -113,8 +113,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Köhler Fischer Bischoff" cert="high" ><placeName>Tours</placeName></origPlace></p>
-                     <p><origPlace source="Rand" cert="low" ><orgName>Marmoutier</orgName></origPlace></p>
+                     <p><origPlace source="Rand Köhler Fischer Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origPlace source="Rand" cert="low"><orgName>Marmoutier</orgName></origPlace></p>
                      <p><origPlace source="Köhler" cert="high">kein Grund für Marmoutier</origPlace></p>
                      <p><origPlace source="BnF" cert="high"><orgName>St-Martin</orgName>, <placeName>Tours</placeName></origPlace></p>
                      <p><origDate source="Fischer Bischoff" cert="high" notBefore="0815" notAfter="0820">circa 815-820</origDate></p>
@@ -141,7 +141,7 @@
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="325"/></bibl>
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="62"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="173 175"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46912</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -199,10 +199,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="CEEC Rand Köhler" cert="high"
-                              ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="von_Euw, Bischoff" cert="high" notBefore="0850"
-                           notAfter="0890">2. Hälfte 9. Jhd.</origDate></p>
+                     <p><origPlace source="CEEC Rand Köhler" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="von_Euw, Bischoff" cert="high" notBefore="0850" notAfter="0890">2. Hälfte 9. Jhd.</origDate></p>
                      <note>Die Entstehung in Tours sowie die Datierung in die 2. Hälfte des 9. Jhd.
                         können als sicher angesehen werden. Als <seg type="lat">terminus ante quem</seg> scheint 890
                         gesichert, da in diesem Jahr die Amtszeit des Erzbischofes Hermann I.
@@ -233,7 +231,7 @@
                      <bibl><idno>von Euw 1989</idno><biblScope unit="pp" n="46 47"/></bibl>
                      <bibl><idno>Anderson/Black 1997</idno></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="386"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47212</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

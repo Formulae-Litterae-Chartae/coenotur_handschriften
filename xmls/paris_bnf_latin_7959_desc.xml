@@ -70,10 +70,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff" cert="medium"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875"
-                           >Mitte (?) 9. Jhd.</origDate></p>
+                     <p><origPlace source="Rand Bischoff" cert="medium"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0825" notAfter="0875">Mitte (?) 9. Jhd.</origDate></p>
                      <p/>
                   </origin>
                   <provenance type="Provenance"><name/></provenance>
@@ -92,7 +90,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc67219f</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="141 142"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="137"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47051</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note></notesStmt>
+         <notesStmt><note n="ink"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -207,10 +207,10 @@
                      <bibl><title>Online Beschreibung</title>: <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc34714c</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="122 123"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="388"/></bibl>
-                     <bibl><idno>Denoël 2007</idno><biblScope  n="Nr. 34"/></bibl>
+                     <bibl><idno>Denoël 2007</idno><biblScope n="Nr. 34"/></bibl>
                      <bibl><idno>Keefe 2012</idno><biblScope unit="pp" n="321"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="168"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45214</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -54,14 +54,14 @@
                      <layoutDesc>
                         <layout columns="3"/>
                         <layout writtenLines="49 50">50 (49)</layout>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote source="Rand">Mehrere Hände</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote>Vorhanden
@@ -84,14 +84,14 @@
                      <note>Die Entstehung der Handschrift ist nicht gesichert. Sie scheint aus dem Umfeld von Reims zu stammen. Der Text der Handschrift ist da, "wo er wie gewöhnlich turonische und nicht wie an wenigen Stellen anderseitig beeinflußt ist", einer der besten der Alkuin-Bibeln (FISCHER).</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -102,7 +102,7 @@
                      <bibl><idno>Fischer 1971</idno><biblScope unit="pp" n="61"/></bibl>
                      <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="248"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="279"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99555</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

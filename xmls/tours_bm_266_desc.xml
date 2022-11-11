@@ -89,7 +89,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="149 150"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="194 195"/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="198"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47365</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

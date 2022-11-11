@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note n="ink"></note></notesStmt>
+            <notesStmt><note n="ink"/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -26,7 +26,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6815</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Theologie">
@@ -53,7 +53,7 @@
                                         <width n="9.9"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -62,7 +62,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p></p>
+                            <p/>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote ana="ink" n="Haupttext">
@@ -94,7 +94,7 @@
                             <p>Das Textfeld ist so klein und verschoben, dass die Handschrift aussieht, als wäre eine Glossierung von Anfang an vorgesehen. Die Glossierung nimmt schnell ab, auf späteren Folia finden sich zum Teil keine Glossen mehr.</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -108,7 +108,7 @@
                             <note>Das Layout erscheint für Tours sehr untypisch. Eine Entstehung anderswo erscheint dementsprechend sehr wahrscheinlich.</note>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
                     </history>
                     <additional>
@@ -125,7 +125,7 @@
                             <bibl><idno>Chailley 1984</idno><biblScope unit="pp" n="64"/></bibl>
                             <bibl><idno>Mostert 1989</idno><biblScope unit="pp" n="288"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="443"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99567</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -137,4 +137,3 @@
         </body>
     </text>
 </TEI>
-

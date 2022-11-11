@@ -50,7 +50,7 @@
                               <width n="14"/>
                            </dimensions>
                         </extent>
-                        <condition></condition>
+                        <condition/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -118,7 +118,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="86 87"/></bibl>
                      <bibl><idno>Gormann 2006</idno><biblScope unit="pp" n="205"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="247"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45341</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

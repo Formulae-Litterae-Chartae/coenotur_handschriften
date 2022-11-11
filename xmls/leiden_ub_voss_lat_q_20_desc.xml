@@ -36,7 +36,7 @@
                             <msItem n="1.2">
                                 <locus from="9r" to="101v"/>
                                 <author>Quintus Curtius Rufus</author>
-                                <title></title>
+                                <title/>
                             </msItem>
                             <msItem n="1.3">
                                 <locus from="102r" to="116r"/>
@@ -65,8 +65,8 @@
                                         <width n="22.5"/>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <height n="20.5"></height>
-                                        <width n="16.0"></width>
+                                        <height n="20.5"/>
+                                        <width n="16.0"/>
                                     </dimensions>
                                 </extent>
                                 <condition/>
@@ -74,7 +74,7 @@
                             <layoutDesc>
                                 <layout columns="2"/>
                                 <layout writtenLines="26"/>
-                                <layout></layout>
+                                <layout/>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -100,8 +100,8 @@
                             <p><origDate source="Onlinekatalog" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jahrhundert</origDate></p>
                             <note>Die Datierung und Lokalisierung bezieht sich ausschließlich auf die Folio 9-144. Ob Anfang oder Mitte des 9. Jhds. ist nicht geklärt. Die Entstehung in Tours dagegen ist nicht umstritten.</note>
                         </origin>
-                        <provenance type="Provenance"></provenance>
-                        <provenance></provenance>
+                        <provenance type="Provenance"/>
+                        <provenance/>
                         <acquisition><name type="Repository">UB Leiden</name></acquisition>
                     </history>
                     <additional>
@@ -116,7 +116,7 @@
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="134 135"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="175"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="57"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/44713</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -128,6 +128,3 @@
         </body>
     </text>
 </TEI>
-
-
-

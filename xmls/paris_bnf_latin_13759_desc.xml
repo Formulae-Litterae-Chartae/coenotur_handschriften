@@ -171,19 +171,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Ganz Bischoff" cert="high"
-                              ><placeName>Tours</placeName>, ziemlich sicher
+                     <p><origPlace source="Rand Ganz Bischoff" cert="high"><placeName>Tours</placeName>, ziemlich sicher
                               <orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825"
-                           >1. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">1. Viertel 9. Jhd.</origDate></p>
                      <note>Entstehung in St-Martin ist sehr wahrscheinlich. Es besteht kein Anlass,
                         die Datierung anzuzweifeln.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>Corbie</orgName></provenance>
                   <provenance>Die Handschrift gelangte bereits im 9. Jhd. nach
                         <orgName>Corbie</orgName> und findet sich im Katalog vom Ende des 12.
-                     Jahrhunderts von <orgName>Corbie</orgName> (Philipps, Berlin), nr. 214: <seg
-                        type="lat">Martini episcopi vite et transitus</seg>. Bleibt in
+                     Jahrhunderts von <orgName>Corbie</orgName> (Philipps, Berlin), nr. 214: <seg type="lat">Martini episcopi vite et transitus</seg>. Bleibt in
                         <orgName>Corbie</orgName> bis mindestens 1621, findet sich im dortigen
                      Katalog.</provenance>
                   <provenance>Die Handschrift wurde im Jahr 1638 wegen der Bedrohung durch die
@@ -208,7 +205,7 @@
                      <bibl><idno>Bourgain/Heinzelmann 1997</idno><biblScope unit="pp"/></bibl>
                      <bibl><idno>Mercier 2010 II</idno><biblScope unit="pp" n="120"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="212"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48499</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

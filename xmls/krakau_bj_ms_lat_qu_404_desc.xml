@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note></note></notesStmt>
+         <notesStmt><note/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -58,7 +58,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="21"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -87,7 +87,7 @@
                      <note>Diese Handschrift ist sehr wahrscheinlich in Tours entstanden.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BJ</name></acquisition>
                </history>
                <additional>
@@ -103,7 +103,7 @@
                      <bibl><idno>Rand 1934</idno><biblScope unit="pp" n="90 91"/></bibl>
                      <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="80 81"/></bibl>
                      <bibl><idno>Martinellus.de</idno></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48152</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

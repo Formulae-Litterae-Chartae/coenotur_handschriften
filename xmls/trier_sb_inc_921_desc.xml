@@ -53,7 +53,7 @@
                      <layoutDesc>
                         <layout columns="2"/>
                         <layout writtenLines="52"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -79,21 +79,21 @@
                      <note>Es handelt sich mit großer Wahrschienlichkeit um Fragmente einer typischen, turonischen Bibel.</note>
                   </origin>
                   <provenance type="Provenance"><placeName/></provenance>
-                  <provenance></provenance>
+                  <provenance/>
                   <acquisition><name type="Repository">BM</name></acquisition>
                </history>
                <additional>
                   <surrogates>
                      <bibl>
                         <title type="gmd">Digitalisat</title>
-                        <idno></idno>
+                        <idno/>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl><title>Online Beschreibung</title>: <idno/></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="161"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="380 381"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99576</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

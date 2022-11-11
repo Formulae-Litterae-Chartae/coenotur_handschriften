@@ -47,8 +47,8 @@
                         <condition/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout />
-                        <layout />
+                        <layout/>
+                        <layout/>
                         <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
@@ -72,11 +72,10 @@
                   <origin>
                      <p><origPlace cert="medium"><placeName>Tours</placeName>,
                               <orgName>St-Martin</orgName></origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850"
-                           >1. Hälfte 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0850">1. Hälfte 9. Jhd.</origDate></p>
                      <note>St-MArtin als Entstehungsort durch den Schreiber <persName type="scribe">Adalbaldus</persName> sicher belegt.</note>
                   </origin>
-                  <provenance type="Provenance"></provenance>
+                  <provenance type="Provenance"/>
                   <provenance/>
                   <acquisition><name type="Repository">BnF</name></acquisition>
                </history>
@@ -92,7 +91,7 @@
                            <idno>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc711328</idno></bibl>
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="147"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="235"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/45223</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

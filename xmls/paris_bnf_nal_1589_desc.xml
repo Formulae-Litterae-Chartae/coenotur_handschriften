@@ -66,8 +66,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>Mehrere Hände</handNote>
-                     <handNote><locus n="10"/>Monogramm des Schreibers oder des Adressaten: <seg
-                           type="lat">Langobardos sacerdos vivat in xpo</seg></handNote>
+                     <handNote><locus n="10"/>Monogramm des Schreibers oder des Adressaten: <seg type="lat">Langobardos sacerdos vivat in xpo</seg></handNote>
                   </handDesc>
                   <scriptDesc>
                      <scriptNote source="Rand">„Decadent Perfected and Revived Cursive“</scriptNote>
@@ -88,14 +87,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p><origPlace source="Rand Bischoff" cert="high"
-                           ><placeName>Tours</placeName></origPlace></p>
-                     <p><origDate source="Rand nach Delisle" cert="medium" notBefore="0880"
-                           notAfter="0900">Ende 9. Jhd.</origDate></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900"
-                           >4. Viertel 9. Jhd.</origDate></p>
-                     <p><origDate source="Delisle BnF" cert="medium" notBefore="0900"
-                           notAfter="1000">Teil des 10. Jhd.</origDate></p>
+                     <p><origPlace source="Rand Bischoff" cert="high"><placeName>Tours</placeName></origPlace></p>
+                     <p><origDate source="Rand nach Delisle" cert="medium" notBefore="0880" notAfter="0900">Ende 9. Jhd.</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0900">4. Viertel 9. Jhd.</origDate></p>
+                     <p><origDate source="Delisle BnF" cert="medium" notBefore="0900" notAfter="1000">Teil des 10. Jhd.</origDate></p>
                      <note>Über Entstehung und Datierung ist sich die Forschung einig.</note>
                   </origin>
                   <provenance type="Provenance"><orgName>St-Gatien</orgName></provenance>
@@ -119,7 +114,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="179 180"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="421" to="423"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="240"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47263</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

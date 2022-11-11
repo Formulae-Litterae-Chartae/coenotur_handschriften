@@ -25,7 +25,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6726</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem defective="true" class="Hagiographie">
@@ -33,13 +33,13 @@
                             <title>Vita et Miracula S. Filiberi</title>
                             <textLang mainLang="la"/>
                         <msItem n="1.1">
-                            <locus from="1r" to="18v"></locus>
+                            <locus from="1r" to="18v"/>
                             <author>Ermentarius</author>
                             <title>Vita Beati Filiberti</title>
                             <note>ab cap. 18</note>
                         </msItem>
                         <msItem n="1.2">
-                            <locus from="19r" to="96v"></locus>
+                            <locus from="19r" to="96v"/>
                             <author>Ermentarius</author>
                             <title>Miracula sancti Filiberti</title>
                             <note>bis Buch II, cap. 2</note>
@@ -71,7 +71,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p></p>
+                            <p/>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote source="Rand">Sehr nah an der turonischen Minuskel, mit gelegentlichen Halbunzialen</scriptNote>
@@ -116,7 +116,7 @@
                             <bibl><idno>Poupardin 1905</idno><biblScope unit="pp" from="XLV" to="XLVI"/></bibl>
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="165"/></bibl>
                             <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="434"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99563</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

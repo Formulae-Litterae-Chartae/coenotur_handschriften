@@ -8,7 +8,7 @@
          <publicationStmt>
             <publisher xml:lang="deu">Coenotur Projekt</publisher>
          </publicationStmt>
-         <notesStmt><note n="ink"></note></notesStmt>
+         <notesStmt><note n="ink"/></notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -85,7 +85,7 @@
                   <origin>
                      <p><origPlace source="Wordsworth" cert="medium"><orgName>Tours</orgName></origPlace></p>
                      <p><origDate source="Dorange Collon" cert="medium" notBefore="1180" notAfter="1200">Ende 12. Jhd.</origDate></p>
-                     <note></note>
+                     <note/>
                   </origin>
                   <provenance type="Provenance"><orgName>Marmoutier</orgName></provenance>
                   <provenance/>
@@ -103,7 +103,7 @@
                      <bibl><idno>Dorange 1875</idno><biblScope unit="pp" n="11 12"/></bibl>
                      <bibl><idno>Wordsworth 1883</idno><biblScope unit="pp" n="59"/></bibl>
                      <bibl><idno>Collon 1900</idno><biblScope unit="pp" n="19"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/53804</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

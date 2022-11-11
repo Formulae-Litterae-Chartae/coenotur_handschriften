@@ -106,7 +106,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="139"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="384" to="385"/></bibl>
                      <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="26"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47030</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

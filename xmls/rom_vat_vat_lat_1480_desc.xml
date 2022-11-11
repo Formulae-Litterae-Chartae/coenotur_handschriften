@@ -19,7 +19,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>6857</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Grammatik">
@@ -47,7 +47,7 @@
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="37"/>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -73,10 +73,10 @@
                         <origin>
                             <p><origPlace source="Bischoff Martinellus.de" cert="high"><placeName>Tours</placeName></origPlace></p>
                             <p><origDate source="Bischoff" cert="high" notBefore="0825" notAfter="0850">2. Viertel 9. Jhd.</origDate></p>
-                            <p></p>
+                            <p/>
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">Vatlib</name></acquisition>
                     </history>
                     <additional>
@@ -90,7 +90,7 @@
                             <bibl><title>Online Beschreibung</title>: <idno>https://opac.vatlib.it/mss/detail/Vat.lat.1480</idno></bibl>
                            <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="447"/></bibl>
                             <bibl><idno>Martinellus.de</idno></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/48070</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

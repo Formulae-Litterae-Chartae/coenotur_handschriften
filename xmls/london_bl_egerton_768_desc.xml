@@ -23,7 +23,7 @@
                   <altIdentifier source="Bischoff">
                      <idno>2434</idno>
                   </altIdentifier>
-                  <msName></msName>
+                  <msName/>
                </msIdentifier>
                <msContents>
                   <msItem class="Liturgie Bibel">
@@ -51,7 +51,7 @@
                      <layoutDesc>
                         <layout columns="1"/>
                         <layout writtenLines="24"/>
-                        <layout><p></p></layout>
+                        <layout><p/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -66,7 +66,7 @@
                      <decoNote>
                      </decoNote>
                   </decoDesc>
-                  <additions></additions>
+                  <additions/>
                   <bindingDesc>
                      <decoNote/>
                   </bindingDesc>
@@ -79,8 +79,8 @@
                      <p><origDate source="Bischoff" cert="medium" notBefore="0875" notAfter="0899">4. Viertel 9. Jhd.</origDate></p>
                      <note>Die Handschrift ist nicht in Tours entstanden.</note>
                   </origin>
-                  <provenance type="Provenance"></provenance>
-                  <provenance></provenance>
+                  <provenance type="Provenance"/>
+                  <provenance/>
                   <acquisition><name type="Repository">BL</name></acquisition>
                </history>
                <additional>
@@ -95,7 +95,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="167"/></bibl>
                      <bibl><idno>Köhler 1931</idno><biblScope unit="pp" n="326"/></bibl>
                      <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="110"/></bibl>
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/99534</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

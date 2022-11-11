@@ -111,7 +111,7 @@
                         10</handNote>
                   </handDesc>
                   <scriptDesc>
-                     <scriptNote></scriptNote>
+                     <scriptNote/>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="initial">
@@ -135,10 +135,8 @@
                <history>
                   <origin>
                      <p><origPlace cert="high">Tours, Saint-Martin</origPlace></p>
-                     <p><origDate source="Bischoff" cert="medium" notBefore="0700" notAfter="0900"
-                           >8./9. Jhd.</origDate></p>
-                     <p><origDate source="Rand" cert="low" notBefore="0807" notAfter="0807"
-                           >807?</origDate></p>
+                     <p><origDate source="Bischoff" cert="medium" notBefore="0700" notAfter="0900">8./9. Jhd.</origDate></p>
+                     <p><origDate source="Rand" cert="low" notBefore="0807" notAfter="0807">807?</origDate></p>
                      <note>Eine Entstehung in Saint-Martin wohl unter Alkuin oder kurz danach
                         erscheint höchst wahrscheinlich.</note>
                   </origin>
@@ -169,7 +167,7 @@
                      <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="111 112"/></bibl>
                      <bibl><idno>Köhler 1930</idno><biblScope unit="pp" from="365" to="366"/></bibl>
 
-                  </listBibl>
+                  <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/9724</idno></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

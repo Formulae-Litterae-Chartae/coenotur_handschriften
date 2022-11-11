@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -23,7 +23,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>1364</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Theologie Exegese">
@@ -45,7 +45,7 @@
                                         <width n="12.5"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
@@ -53,20 +53,20 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote></handNote>
+                            <handNote/>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote source="Bischoff">Frühe Tours-Minuskel</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </decoDesc>
                         <additions>
-                            <p></p>
+                            <p/>
                             <p n="Exlibris" source="Bischoff">Ein radiertes Exlibris aus St-Maximin in Trier aus dem 15. Jhd.</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -74,7 +74,7 @@
                             <p><origPlace cert="medium" source="Bischoff"><placeName>Tours</placeName></origPlace></p>
                             <p><origPlace cert="medium" source="Rand">Eher beeinflusst von Tours als Tours selbst</origPlace></p>
                             <p><origDate source="Bischoff" cert="medium" notBefore="0800" notAfter="0825">Anfang 9. Jhd.</origDate></p>
-                            <note></note>
+                            <note/>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Maximin</orgName>, <placeName>Trier</placeName></provenance>
                         <provenance>Durch den radierten Besitzeintrag aus St-Maximin, ist belegt, dass sich die Handschrift im 15. Jhd. dort befunden hat.</provenance>
@@ -84,7 +84,7 @@
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
@@ -92,7 +92,7 @@
                             <bibl><idno>Rand 1929</idno><biblScope unit="pp" n="115"/></bibl>
                             <bibl><idno>Peeters 1932</idno><biblScope unit="pp" n="491"/></bibl>
                             <bibl><idno>Bischoff 1998</idno><biblScope unit="pp" n="286"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/46867</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

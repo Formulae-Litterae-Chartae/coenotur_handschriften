@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -48,12 +48,12 @@
                                         <width n="10.4"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="21"/>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -61,7 +61,7 @@
                             <handNote>Ähnliche, bzw. selbe Hand wie London, BM, Harley 2805 und Angers, BM, 1 2 (RAND).</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote></scriptNote>
+                            <scriptNote/>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>
@@ -73,7 +73,7 @@
                             <p n="Exlibris"><locus n="1"/><seg type="lat">San Lorenzo el Real del Escorial</seg></p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -84,7 +84,7 @@
                         </origin>
                         <provenance type="Provenance"><name/></provenance>
                         <provenance>Von Libri gestohlen und an Lord Ashburnham verkauft.</provenance>
-                        <acquisition><name type="Repository"></name></acquisition>
+                        <acquisition><name type="Repository"/></acquisition>
                     </history>
                     <additional>
                         <surrogates>
@@ -99,7 +99,7 @@
                             <bibl><idno>Köhler 1930</idno><biblScope unit="pp" n="379"/></bibl>
                             <bibl><idno>Bischoff 2004</idno><biblScope unit="pp" n="317"/></bibl>
                             <bibl><idno>Martinellus.de</idno><biblScope/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/44735</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

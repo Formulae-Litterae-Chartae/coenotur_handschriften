@@ -8,7 +8,7 @@
             <publicationStmt>
                 <publisher xml:lang="deu">Coenotur Projekt</publisher>
             </publicationStmt>
-            <notesStmt><note></note></notesStmt>
+            <notesStmt><note/></notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -23,7 +23,7 @@
                         <altIdentifier source="Bischoff">
                             <idno>5169</idno>
                         </altIdentifier>
-                        <msName></msName>
+                        <msName/>
                     </msIdentifier>
                     <msContents>
                         <msItem class="Hagiographie">
@@ -51,12 +51,12 @@
                                         <width n="14.9"/>
                                     </dimensions>
                                 </extent>
-                                <condition></condition>
+                                <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1"/>
                                 <layout writtenLines="23 27">I: 27; II: 23</layout>
-                                <layout><p></p></layout>
+                                <layout><p/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -73,7 +73,7 @@
                             <p n="Exlibris"><locus n="22"/><seg type="lat">B Sanctae Genovefae Paris</seg>, 1753.</p>
                         </additions>
                         <bindingDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </bindingDesc>
                     </physDesc>
                     <history>
@@ -83,20 +83,20 @@
                             <note>Fragment: Einordnung durch BISCHOFF</note>
                         </origin>
                         <provenance type="Provenance"><orgName>St-Geneviève</orgName>, <placeName>Paris</placeName></provenance>
-                        <provenance></provenance>
+                        <provenance/>
                         <acquisition><name type="Repository">Bibliotheque St-Geneviève</name></acquisition>
                     </history>
                     <additional>
                         <surrogates>
                             <bibl>
                                 <title type="gmd">Digitalisat</title>
-                                <idno></idno>
+                                <idno/>
                             </bibl>
                         </surrogates>
                         <listBibl>
                             <bibl><title>Online Beschreibung</title>: <idno>http://www.calames.abes.fr/pub/#details?id=BSGA10454</idno></bibl>
                               <bibl><idno>Bischoff 2014</idno><biblScope unit="pp" n="254"/></bibl>
-                        </listBibl>
+                        <bibl><title>Online Beschreibung</title>: <idno>https://bibale.irht.cnrs.fr/CoenoturManus.php/47784</idno></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
