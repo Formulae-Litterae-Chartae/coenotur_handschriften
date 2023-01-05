@@ -80,9 +80,9 @@
                   <decoDesc>
                      <decoNote/>
                      <decoNote ana="pigments" n="Rot">
-                        <p><locus type="Incipit-Explicit" n="fol. 76v"/>Minium</p>
-                        <p><locus type="Initiale" n="fol. 52r, fol. 76v"/>Minium</p>
-                        <p><locus type="Marginalia" n="fol. 68r"/>Minium</p></decoNote>
+                        <p><locus type="Incipit-Explicit" n="fol. 76v"/>Mennige</p>
+                        <p><locus type="Initiale" n="fol. 52r, fol. 76v"/>Mennige</p>
+                        <p><locus type="Marginalia" n="fol. 68r"/>Mennige</p></decoNote>
                   </decoDesc>
                   <additions>
                      <p n="Exlibris"><locus n="1r"/><seg type="lat">Maioris monasterii congregationis S. Mauri</seg></p>
