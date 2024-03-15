@@ -35,7 +35,7 @@ jedi==0.17.2
 Jinja2==2.11.2
 lockfile==0.12.2
 lxml>=4.6.2
-Mako==1.1.4
+Mako==1.2.2
 MarkupSafe==1.1.1
 msgpack==0.6.2
 packaging==20.3
