@@ -12,7 +12,7 @@ es_url = sys.argv[1] if len(sys.argv) > 1 else 'http://localhost:9200'
 # For local ES
 # es = Elasticsearch('http://localhost:9200')
 # For Bonsai ES
-es = Elasticsearch(es_url)
+es = Elasticsearch(hosts=es_url)
 
 # This gets rid any index that is not current
 print('Removing old indices')
@@ -27,7 +27,7 @@ for k, v in es.indices.get_alias().items():
             old_indices.append(k)
             old_index_number = int(re.sub(r'coenotur_v(\d+)', r'\1', k))
         
-new_index = 'coenotur_v{}'.format(old_index_number + 1)
+new_index = 'form_lit_chart-coenotur_v{}'.format(old_index_number + 1)
 
 files = glob('xmls/*.xml')
 namespaces = {'tei': 'http://www.tei-c.org/ns/1.0'}
@@ -159,13 +159,13 @@ for file in files:
     if xml.xpath('/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note[@n="ink"]', namespaces=namespaces):
         ink_analysis = True
     
-    if not es.indices.exists(new_index):
+    if not es.indices.exists(index=new_index):
         print("Creating index {}".format(new_index))
         # 1 shard searches faster
-        es.indices.create(index=new_index, body={"settings": {"index": {"number_of_shards": 1},
-                                                              "analysis": {"filter": auto_filter["filter"],
-                                                                           "analyzer": auto_analyzer["analyzer"]}},
-                                                              "mappings": {"properties": index_properties}})
+        es.indices.create(index=new_index, settings={"index": {"number_of_shards": 1},
+                                                     "analysis": {"filter": auto_filter["filter"],
+                                                                  "analyzer": auto_analyzer["analyzer"]}},
+                                                     mappings={"properties": index_properties})
     body = {'identifier': identifiers, 
             'signature': signature,
             'date_string': date_string,
@@ -197,7 +197,7 @@ for file in files:
         body['with_digitalisat'] = with_digitalisat
     
     try:
-        es.index(index=new_index, id=file.split('/')[-1].replace('.xml', ''), body=body)
+        es.index(index=new_index, id=file.split('/')[-1].replace('.xml', ''), document=body)
     except Exception as E:
         print(E, file)
     
